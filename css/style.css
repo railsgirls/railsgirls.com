@@ -1,0 +1,133 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #fff url(../images/ribbon-bg.png) repeat-x;
+	color: #390c00;
+	text-rendering: optimizeLegibility;
+}
+
+#background {
+  background:url(../images/header.png) no-repeat 50% 180px;
+}
+
+h1#poster {
+  height:430px;
+  width:100%;
+  text-indent:-9999cm;
+}
+
+a {text-decoration:none;}
+
+p {
+  font-size:1.1em;
+}
+
+h1, h2, h3, h4, h5 {
+  margin:0 0 0.2em 0;
+}
+
+h3, h4, h5, a {
+  color:#e0330c;
+}
+
+h2, h5 {
+  font-weight:normal;
+  text-transform:uppercase;
+  font-weight:200;
+}
+
+h2 {
+  letter-spacing:0.1em;
+  margin:0.2em 0 1em;
+}
+
+h4 {
+  font-weight:400;
+}
+
+h5 {
+  font-size:1.1em;
+}
+
+blockquote {
+  color:#e0330c;
+  font-size:1.6em;
+  margin:1em 0;
+  padding:0;
+  text-indent:0;
+  line-height:1.1;
+}
+
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+
+#header {
+  height:130px;
+  color:#fff;
+}
+
+#logo {
+  width:369px;
+  margin:0 0 0 300px;
+  position:absolute;
+}
+
+#left, #right {
+  width:250px;
+  float:left;
+  font-size:36px;
+  padding-top:40px;
+}
+
+#left {
+  text-align:right;
+}
+
+#right {
+  float:right;
+}
+
+#workshop, #nitty-gritty, #answers, #about {
+  border-top:4px solid #dd390d;
+}
+
+.section {
+  margin-bottom:60px;
+}
+
+.schedule {
+  margin-top:40px;
+}
+
+.schedule ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.schedule ul li {
+  font-size:1.5em;
+  margin:0 0 0.2em 0;
+}
+
+.schedule .alpha {
+  font-size:2.4em;
+  text-transform:uppercase;
+}
+
+.schedule h4.alpha span {
+  display:block;
+  font-size:0.5em;
+  line-height:0;
+}
+
+#footer {
+  border-top:1px solid #ddd;
+  text-align:center;
+  color:#999;
+  padding:40px 0;
+}
+
+.slogan {
+  font-size:2.0em;
+  letter-spacing:0.5em;
+}
