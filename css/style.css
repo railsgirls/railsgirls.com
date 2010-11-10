@@ -81,12 +81,16 @@ label {
 }
 
 input[type=submit] {
-  border:1px solid #ddd;
-  background:#dd390d;
+  border:0;
+  -webkit-box-shadow:0 3px 0px #a80000;
+  background-color:#dd390d;
   color:white;
-  padding:5px 10px;
+  padding:5px 15px;
   width:auto;
+  -webkit-border-radius:4px;
+  cursor:pointer;
 }
+
 
 #header {
   height:130px;
