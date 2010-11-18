@@ -19,8 +19,10 @@
    <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
       <script type="text/javascript" src="main.js"></script>
    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-   
-</head>
+   <script type="text/javascript">
+   var submitted=false;
+   if(submitted){window.location='http://www.morningcopy.com.au/tutorial/thankyou.html'};
+   </script> 
 <body>
   <div id="background">
     
@@ -53,13 +55,75 @@
             The workshop is perfect for girls and women who want to take a look under the hood of technology 
             and web development
           </p>
+   
+          <div class="schedule clearfix">
+            <h4 class="grid_3 alpha">Fri 26</h4>
+            <ul class="grid_6">
+              <li class="grid_2"><h5>18.00</h5></li>
+              <li class="grid_4">Welcome</li>
+              
+              <li class="grid_2"><h5>18.30</h5></li>
+              <li class="grid_4">Designing a web app</li>
+              
+              <li class="grid_2"><h5>20.00</h5></li>
+              <li class="grid_4">Mingling + Rails environment installation</li>
+            </ul>
+          </div>
           
-          <h4>Leave your email to get notified when the sign-up starts!</h4> 
+          <div class="schedule clearfix">
+            <h4 class="grid_3 alpha">SAT 27</h4>
+            <ul class="grid_6">
+              <li class="grid_2"><h5>9.00</h5></li>
+              <li class="grid_4">Coffee</li>
+              
+              <li class="grid_2"><h5>10.00</h5></li>
+              <li class="grid_4">Diving into developing + Worksession 1</li>
+              
+              <li class="grid_2"><h5>12.00</h5></li>
+              <li class="grid_4">Lunch!</li>
+              
+              <li class="grid_2"><h5>13.00</h5></li>
+              <li class="grid_4">Worksession 2</li>
+            </ul>
+          </div>
+       
+        </div>
+        
+        <div id="nitty-gritty" class="grid_6 push_1">
+          <h2>Nitty-Gritty</h2>
           
-          <a id="inline" href="#data">Signup</a>
+          <div class="clearfix">
+            <h5 class="grid_1 alpha">WHAT</h5>
+            <p class="grid_5 omega">
+              A free Ruby on Rails and web apps workshop for women, organized by Kisko Labs and Future Female.
+            </p>
+          </div>
+
+          <div class="clearfix">          
+            <h5 class="grid_1 alpha">WHEN</h5>
+            <p class="grid_5 omega">
+              Friday 26th 18.00-21.00 & Saturday 27th 9.00-17.00 of November 2010.
+            </p>
+          </div>
+          
+          <div class="clearfix">          
+            <h5 class="grid_1 alpha">WHERE</h5>
+            <p class="grid_5 omega">
+              At Kisko Labs’ offices Köydenpunojankatu 13B, 00180 Helsinki, Finland.
+            </p>
+          </div>
+          
+          <div class="clearfix">          
+            <h5 class="grid_1 alpha">HOW</h5>
+            <p class="grid_5 omega">
+              Register by submitting your details to the sign up link below.
+            </p>
+          </div>
+
+          <a id="inline" href="#data"><h2>Signup</h2></a>
           <div style="display:none"><div id="data">
             <h2>Signup for the Workshop</h2>
-          <form action="https://spreadsheets.google.com/formResponse?formkey=dGVWdFJsdzZRWDZIYzFhcUFJX0Vjb2c6MQ&amp;ifq" method="POST" id="ss-form"> 
+          <form action="https://spreadsheets.google.com/formResponse?formkey=dGVWdFJsdzZRWDZIYzFhcUFJX0Vjb2c6MQ&amp;ifq" method="POST" id="ss-form" onsubmit="submitted=true;"> 
 
   <label class="ss-q-title" for="entry_0">Name
           <span class="ss-required-asterisk">*</span></label> 
@@ -84,57 +148,10 @@
           <br> 
           <input type="hidden" name="pageNumber" value="0"> 
           <input type="hidden" name="backupCache" value=""> 
- 
+
           <input type="submit" name="submit" value="Ok, I want to join!"></form>
           </div></div>
-          <!-- >
-          <div class="schedule clearfix">
-            <h4 class="grid_3 alpha">Fri 26 <span>- 18.00-21.00</span></h4>
-            <ul class="grid_6">
-              <li>Coming soon</li>
-            </ul>
-          </div>
           
-          <div class="schedule clearfix">
-            <h4 class="grid_3 alpha">SAT 27 <span>- 9.00-17.00</span></h4>
-            <ul class="grid_6">
-              <li>Coming soon</li>
-            </ul>
-          </div>
-          -->
-        </div>
-        
-        <div id="nitty-gritty" class="grid_6 push_1">
-          <h2>Nitty-Gritty</h2>
-          
-          <div class="clearfix">
-            <h5 class="grid_1 alpha">WHAT</h5>
-            <p class="grid_5 omega">
-              A free Ruby on Rails and web apps workshop for women, organized by Kisko Labs and Future Female.
-            </p>
-          </div>
-
-          <div class="clearfix">          
-            <h5 class="grid_1 alpha">WHEN</h5>
-            <p class="grid_5 omega">
-              Friday 26th 18.00-21.00 & Saturday 27th 9.00-17.00 of November 2010. 
-              <br /><strong>More details soon!</strong>
-            </p>
-          </div>
-          
-          <div class="clearfix">          
-            <h5 class="grid_1 alpha">WHERE</h5>
-            <p class="grid_5 omega">
-              At Kisko Labs’ offices Köydenpunojankatu 13B, 00180 Helsinki, Finland.
-            </p>
-          </div>
-          
-          <div class="clearfix">          
-            <h5 class="grid_1 alpha">HOW</h5>
-            <p class="grid_5 omega">
-              <strong>Signup starting soonish!</strong> Meanwhile, leave your email to the box on the left to be notified.
-            </p>
-          </div>
           <div class="clearfix">
 				<p>
 					<a href="http://twitter.com/share" class="twitter-share-button" data-text="Rails Workshop for Girls - 26th-27th November" data-count="horizontal" data-via="kiskolabs">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
