@@ -14,6 +14,12 @@
   <link rel="stylesheet" href="css/960.css">
   <link rel="stylesheet" href="css/text.css">
   <link rel="stylesheet" href="css/style.css">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+   <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+   <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+   
 </head>
 <body>
   <div id="background">
@@ -49,14 +55,38 @@
           </p>
           
           <h4>Leave your email to get notified when the sign-up starts!</h4> 
-          <form action="https://spreadsheets.google.com/formResponse?formkey=dHBWZi1JSXV1bzktVEFKS2VpQkxfRXc6MQ&amp;ifq" method="POST" id="ss-form">
-            <label class="ss-q-title" for="entry_0">
-            <label class="ss-q-help" for="entry_0">My Email IS</label> 
-            <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0" >
-            <input type="hidden" name="pageNumber" value="0"> 
-            <input type="hidden" name="backupCache" value=""> 
-            <input type="submit" name="submit" value="Okay"></form>
-        		</form>
+          
+          <a id="inline" href="#data">Signup</a>
+          <div style="display:none"><div id="data">
+            <h2>Signup for the Workshop</h2>
+          <form action="https://spreadsheets.google.com/formResponse?formkey=dGVWdFJsdzZRWDZIYzFhcUFJX0Vjb2c6MQ&amp;ifq" method="POST" id="ss-form"> 
+
+  <label class="ss-q-title" for="entry_0">Name
+          <span class="ss-required-asterisk">*</span></label> 
+          <label class="ss-q-help" for="entry_0"></label> 
+          <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
+          <label class="ss-q-title" for="entry_1">Email
+          <span class="ss-required-asterisk">*</span></label> 
+          <label class="ss-q-help" for="entry_1"></label> 
+          <input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1"> 
+          <label class="ss-q-title" for="entry_4">Can you bring your own laptop? 
+          <span class="ss-required-asterisk">*</span></label> 
+          <label class="ss-q-help" for="entry_4">If yes, please tell us your operating system (Eg. OS X, Windows, Linux)</label> 
+          <input type="text" name="entry.4.single" value="" class="ss-q-short" id="entry_4">
+         <label class="ss-q-title" for="entry_2">Do you have any previous programming experience?
+          <span class="ss-required-asterisk">*</span></label> 
+          <label class="ss-q-help" for="entry_2">None is very ok, we just want to get a grasp of the backgrounds of people attending.</label> 
+          <textarea name="entry.2.single" rows="8" cols="75" class="ss-q-long" id="entry_2"></textarea>
+        <label class="ss-q-title" for="entry_6">Why would it be important for you to join the workshop?
+          <span class="ss-required-asterisk">*</span></label> 
+          <label class="ss-q-help" for="entry_6">What would you benefit? What you&#39;re interested in?</label> 
+          <textarea name="entry.6.single" rows="8" cols="75" class="ss-q-long" id="entry_6"></textarea> 
+          <br> 
+          <input type="hidden" name="pageNumber" value="0"> 
+          <input type="hidden" name="backupCache" value=""> 
+ 
+          <input type="submit" name="submit" value="Ok, I want to join!"></form>
+          </div></div>
           <!-- >
           <div class="schedule clearfix">
             <h4 class="grid_3 alpha">Fri 26 <span>- 18.00-21.00</span></h4>

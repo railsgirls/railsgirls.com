@@ -64,7 +64,7 @@ blockquote {
 
 blockquote:before,blockquote:after,q:before,q:after{content:none}
 
-input {
+input, textarea {
   border:0;
   border-bottom:1px dashed #666;
   padding:5px 5px;
@@ -166,4 +166,29 @@ input[type=submit] {
 .slogan {
   font-size:2.0em;
   letter-spacing:0.5em;
+}
+
+#data {
+	padding:20px;
+}
+
+#data h2 {
+	border-top:4px solid #e0330c;
+	margin-top:10px;
+}
+
+#data label {
+	display:block;
+  color:#e0330c;
+}
+
+#data input, #data textarea {margin:5px 0 25px 0; width:90%;}
+
+#data input[type=submit] {width:auto;}
+
+#data textarea {height:80px;}
+
+#data label.ss-q-help {
+	text-transform:none;
+	color:#333;
 }
