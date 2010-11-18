@@ -145,7 +145,7 @@ input[type=submit] {
   display:block;
 }
 
-.schedule ul li.grid_4 {
+.schedule ul li.grid_7 {
   font-size:1.2em;
 }
 
@@ -173,8 +173,15 @@ input[type=submit] {
   letter-spacing:0.5em;
 }
 
+#inline {
+	text-align:center;
+	margin:3em 0;
+	display:block;
+}
+
 #data {
 	padding:20px;
+	width:500px;
 }
 
 #data h2 {
@@ -187,11 +194,11 @@ input[type=submit] {
   color:#e0330c;
 }
 
-#data input, #data textarea {margin:5px 0 25px 0; width:90%;}
+#data input, #data textarea {margin:5px 0 25px 0; width:97%;}
 
 #data input[type=submit] {width:auto;}
 
-#data textarea {height:80px;}
+#data textarea {height:40px;}
 
 #data label.ss-q-help {
 	text-transform:none;

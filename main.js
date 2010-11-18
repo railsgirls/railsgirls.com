@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	
-	$("a#inline").fancybox({
+	$("#inline").fancybox({
 		'hideOnContentClick': false,
 		'height'		:	600, 
-		'width'		:	400 
+		'width'		:	800, 
 	});
 	
 });
