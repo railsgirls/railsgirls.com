@@ -1,4 +1,4 @@
-body {
+﻿body {
 	margin: 0px;
 	padding: 0px;
 	background: #fff url(../images/ribbon-bg.png) repeat-x;
@@ -70,7 +70,6 @@ input, textarea {
   padding:5px 5px;
   font-size:1.2em;
   margin:10px 0 10px 10px;
-  width:300px;
   font-family:Georgia, sans-serif;
   background:#ffeeda;
 }
