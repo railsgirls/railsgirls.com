@@ -160,6 +160,11 @@ input[type=submit] {
   line-height:0;
 }
 
+.schedule li.grid_2 {
+  text-align:center; 
+}
+
+
 #footer {
   border-top:1px solid #ddd;
   text-align:center;
