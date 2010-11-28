@@ -108,12 +108,13 @@ input[type=submit] {
 #header {
   height:130px;
   color:#fff;
+  text-align:center;
 }
 
 #logo {
-  width:369px;
-  margin:0 0 0 300px;
-  position:absolute;
+  width:238px;
+  margin:20px 0 0 350px;
+  display:block;
 }
 
 #left, #right {
@@ -134,6 +135,28 @@ input[type=submit] {
 
 #workshop, #nitty-gritty, #answers, #about  {
   border-top:4px solid #dd390d;
+}
+
+#nav {
+text-align:center;
+margin:30px 0 0 0;
+}
+
+#nav li {
+  list-style:none;
+  margin:0 10px;
+  display:inline;
+}
+
+#nav a {
+color:#fff;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:500;
+font-size:20px;
+}
+#nav a:hover{
+  text-decoration:underline;
 }
 
 .section {
@@ -157,6 +180,7 @@ input[type=submit] {
 
 .schedule ul li.grid_7 {
   font-size:1.2em;
+  color:#333;
 }
 
 .schedule .alpha {
