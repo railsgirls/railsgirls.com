@@ -154,6 +154,7 @@ text-transform:uppercase;
 text-decoration:none;
 font-weight:500;
 font-size:20px;
+
 }
 #nav a:hover{
   text-decoration:underline;
@@ -251,6 +252,10 @@ font-size:20px;
 .page h1 {
   font-size: 36px;
   font-weight:normal;
+}
+
+.page h2 {
+  margin-top:40px;
 }
 
 .quotes {
