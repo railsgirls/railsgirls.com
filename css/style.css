@@ -104,6 +104,7 @@ input[type=submit] {
   cursor:pointer;
 }
 
+hr {margin:2em 0;}
 
 #header {
   height:130px;
@@ -133,9 +134,11 @@ input[type=submit] {
   float:right;
 }
 
-#workshop, #nitty-gritty, #answers, #about  {
+#workshop, #nitty-gritty, #answers, #about, .sec  {
   border-top:4px solid #dd390d;
 }
+
+.sec {margin:30px 0 30px 0;}
 
 #nav {
 text-align:center;
@@ -257,6 +260,8 @@ font-size:20px;
 .page h2 {
   margin-top:40px;
 }
+
+.sec h2 {margin-top:0;}
 
 .quotes {
   font-family:Georgia;
