@@ -114,7 +114,7 @@ hr {margin:2em 0;}
 
 #logo {
   width:238px;
-  margin:20px 0 0 350px;
+  margin:20px auto 0 auto;
   display:block;
 }
 
