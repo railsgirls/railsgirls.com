@@ -28,6 +28,17 @@ h3, h4, h5, a {
   color:#e0330c;
 }
 
+ul{
+list-style-position:inside;
+margin:0 0 20px 0;
+list-style-type:disc;
+}
+
+li {
+  margin:0 0 0 10px;
+  color:#e0330c;
+}
+
 a {
   text-decoration:none;
   border-bottom:1px dotted #e0330c;
@@ -97,12 +108,13 @@ input[type=submit] {
 #header {
   height:130px;
   color:#fff;
+  text-align:center;
 }
 
 #logo {
-  width:369px;
-  margin:0 0 0 300px;
-  position:absolute;
+  width:238px;
+  margin:20px 0 0 350px;
+  display:block;
 }
 
 #left, #right {
@@ -121,8 +133,31 @@ input[type=submit] {
   float:right;
 }
 
-#workshop, #nitty-gritty, #answers, #about {
+#workshop, #nitty-gritty, #answers, #about  {
   border-top:4px solid #dd390d;
+}
+
+#nav {
+text-align:center;
+margin:30px 0 0 0;
+}
+
+#nav li {
+  list-style:none;
+  margin:0 10px;
+  display:inline;
+}
+
+#nav a {
+color:#fff;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:500;
+font-size:20px;
+
+}
+#nav a:hover{
+  text-decoration:underline;
 }
 
 .section {
@@ -146,6 +181,7 @@ input[type=submit] {
 
 .schedule ul li.grid_7 {
   font-size:1.2em;
+  color:#333;
 }
 
 .schedule .alpha {
@@ -160,6 +196,11 @@ input[type=submit] {
   line-height:0;
 }
 
+.schedule li.grid_2 {
+  text-align:center; 
+}
+
+
 #footer {
   border-top:1px solid #ddd;
   text-align:center;
@@ -173,23 +214,23 @@ input[type=submit] {
 }
 
 #inline {
-	text-align:center;
-	margin:3em 0;
-	display:block;
+  text-align:center;
+  margin:3em 0;
+  display:block;
 }
 
 #data {
-	padding:20px;
-	width:500px;
+  padding:20px;
+  width:500px;
 }
 
 #data h2 {
-	border-top:4px solid #e0330c;
-	margin-top:10px;
+  border-top:4px solid #e0330c;
+  margin-top:10px;
 }
 
 #data label {
-	display:block;
+  display:block;
   color:#e0330c;
 }
 
@@ -200,6 +241,40 @@ input[type=submit] {
 #data textarea {height:40px;}
 
 #data label.ss-q-help {
-	text-transform:none;
-	color:#333;
+  text-transform:none;
+  color:#333;
+}
+
+.page {
+  padding:40px 0;
+}
+
+.page h1 {
+  font-size: 36px;
+  font-weight:normal;
+}
+
+.page h2 {
+  margin-top:40px;
+}
+
+.quotes {
+  font-family:Georgia;
+  color:#333;
+  font-style:italic;
+  display:block;
+  margin-bottom:2em;
+  padding-left:2em;
+  font-size:1.3em;
+  line-height:1.3;
+  float:left;
+}
+
+.quotes:before {
+	font-size:3em;
+	content:'“';
+	float:left;
+	margin-top:-15px;
+	color:#e0330c;
+	margin-left:-0.7em;
 }
