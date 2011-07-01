@@ -10,10 +10,24 @@
   background:url(../images/header.png) no-repeat 50% 180px;
 }
 
-h1#poster {
-  height:430px;
+#poster {
+  height:370px;
   width:100%;
-  text-indent:-9999cm;
+
+}
+
+#poster h1 {
+	text-indent:-9999cm;
+}
+
+#vimeo {
+	margin:48px auto 0 auto;
+	width:580px;
+	background:#fff;
+}
+
+#vimeo iframe {
+	-webkit-box-shadow:0 3px 8px rgba(0,0,0,0.5);
 }
 
 p {
