@@ -42,7 +42,8 @@
 #promo h1 {
   text-indent:-9999cm;
   background:url('../images/rg-helsinki-header.png') no-repeat left top;        
-  height:90px;
+  height:80px;
+  margin-bottom:15px;
 }
 
 #promo p {
