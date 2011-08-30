@@ -30,6 +30,82 @@
 	-webkit-box-shadow:0 3px 8px rgba(0,0,0,0.5);
 }
 
+#promo {
+  padding-left:340px;
+  padding-top:30px;
+  padding-bottom:30px;
+  background:url('../images/rg-helsinki.jpg') no-repeat -5px 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  min-height:300px;
+}
+
+#promo h1 {
+  text-indent:-9999cm;
+  background:url('../images/rg-helsinki-header.png') no-repeat left top;        
+  height:90px;
+}
+
+#promo p {
+  font-size:19px;
+  line-height:1.4;
+  color:#333;
+  margin-bottom:1.5em;
+}
+
+#promo .register {
+  float:left;
+  margin-right:30px;
+}
+
+#share {
+  padding-top:10px;
+}
+
+#share div {
+  float:left;
+}
+
+.feature p {
+  font-size:17px;
+  padding:10px;
+}
+
+.feature p strong {
+  color:#d3360b;
+}
+
+#schedule td {
+  padding:1em 0;
+  font-size:15px;
+}
+
+#schedule th {
+  width:25%;
+  font-size:15px;
+  font-weight:200;
+  text-align:left;
+}
+
+.side h3 {
+  margin:2.5em 0 0.8em;
+  line-height:1.2;
+  font-weight:500;
+}
+
+.side h3 span {
+  color:#000;
+  font-size:18px;
+}
+
+.register {
+  color:#fff;
+  background:#d3360b;
+  border-bottom:3px solid #701d07;
+  text-decoration:none;
+  padding:5px 20px;
+  border-radius:4px;
+}
+
 p {
   font-size:1.1em;
 }
@@ -61,7 +137,6 @@ a {
 
 h2, h5 {
   font-weight:normal;
-  text-transform:uppercase;
   font-weight:200;
 }
 
@@ -118,7 +193,7 @@ input[type=submit] {
   cursor:pointer;
 }
 
-hr {margin:2em 0;}
+hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 
 #header {
   height:130px;
