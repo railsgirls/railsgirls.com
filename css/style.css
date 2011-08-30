@@ -1,7 +1,7 @@
 ﻿body {
 	margin: 0px;
 	padding: 0px;
-	background: #fff url(../images/ribbon-bg.png) repeat-x;
+  background:#fff;
 	color: #390c00;
 	text-rendering: optimizeLegibility;
 }
@@ -67,7 +67,7 @@
 
 .feature p {
   font-size:17px;
-  padding:10px;
+  padding:20px 10px 30px;
 }
 
 .feature p strong {
@@ -105,6 +105,8 @@
   padding:5px 20px;
   border-radius:4px;
 }
+
+a {text-decoration:none; border-bottom: 1px dotted #d3360b;}
 
 p {
   font-size:1.1em;
@@ -196,15 +198,15 @@ input[type=submit] {
 hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 
 #header {
-  height:130px;
+  height:70px;
   color:#fff;
-  text-align:center;
+  padding-top:50px;
+  background:#d3360b;
 }
 
 #logo {
-  width:238px;
-  margin:20px auto 0 auto;
-  display:block;
+  width:240px;
+  float:left;
 }
 
 #left, #right {
@@ -230,13 +232,14 @@ hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 .sec {margin:30px 0 30px 0;}
 
 #nav {
-text-align:center;
-margin:30px 0 0 0;
+    float:left;
+    margin:0 0 0 0;
+    padding-top:8px;
 }
 
 #nav li {
   list-style:none;
-  margin:0 10px;
+  margin:0 5px;
   display:inline;
 }
 
@@ -294,10 +297,21 @@ font-size:20px;
 
 
 #footer {
-  border-top:1px solid #ddd;
-  text-align:center;
-  color:#999;
+  color:#666;
+  overflow:hidden;
+  width:100%;
   padding:40px 0;
+  background:#F4F4F4;
+  line-height:1.5;
+  text-align:center;
+}
+
+#footer p {
+}
+
+#footer a {
+  color:#111;
+  border-color:#111;
 }
 
 .slogan {
