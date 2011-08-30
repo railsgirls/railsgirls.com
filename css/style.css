@@ -92,9 +92,13 @@
   font-weight:500;
 }
 
-.side h3 span {
+h3 span {
   color:#000;
   font-size:18px;
+}
+
+h3 a {
+  border:0;
 }
 
 .register {
@@ -102,7 +106,7 @@
   background:#d3360b;
   border-bottom:3px solid #701d07;
   text-decoration:none;
-  padding:5px 20px;
+  padding:10px 30px;
   border-radius:4px;
 }
 
@@ -113,11 +117,12 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-  margin:0 0 0.2em 0;
+  margin:0 0 0.8em 0;
 }
 
 h3, h4, h5, a {
   color:#e0330c;
+  line-height:1.1;
 }
 
 ul{
@@ -132,8 +137,11 @@ li {
 }
 
 a {
-  text-decoration:none;
-  border-bottom:1px dotted #e0330c;
+
+}
+
+a img {
+  border:0;
 }
 
 
@@ -168,12 +176,15 @@ blockquote:before,blockquote:after,q:before,q:after{content:none}
 
 input, textarea {
   border:0;
-  border-bottom:1px dashed #666;
-  padding:5px 5px;
+  padding:8px 8px;
   font-size:1.2em;
-  margin:10px 0 10px 10px;
+  margin:12px 10px 10px 0;
   font-family:Georgia, sans-serif;
   background:#ffeeda;
+}
+
+input::-webkit-input-placeholder {
+  color:#333;
 }
 
 label {
@@ -183,8 +194,7 @@ label {
 
 input[type=submit] {
   border:0;
-  -webkit-box-shadow:0 3px 0px #a80000;
-  -moz-box-shadow::0 3px 0px #a80000;
+  border-bottom:3px solid #a80000;
   background-color:#dd390d;
   color:white;
   padding:5px 15px;
@@ -193,6 +203,7 @@ input[type=submit] {
   -moz-border-radius:4px;
   border-radius:4px;
   cursor:pointer;
+  line-height:16px;;
 }
 
 hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
