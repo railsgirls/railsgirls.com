@@ -8,6 +8,7 @@ body {
   background:#fff;
 	color: #390c00;
 	text-rendering: optimizeLegibility;
+	font-size:14px;
 }
 
 #background {
@@ -47,6 +48,11 @@ body {
   min-height:300px;
 }
 
+pre, code {
+  background:#eee;
+  color:#111;
+  padding:8px 5px;
+}
 
 
 #promo h1 {
