@@ -48,7 +48,7 @@ body {
   min-height:300px;
 }
 
-pre, code {
+pre  code {
   background:#eee;
   color:#111;
   padding:8px 5px;
