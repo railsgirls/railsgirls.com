@@ -48,6 +48,14 @@ body {
   min-height:300px;
 }
 
+
+
+.singapore#promo {
+  padding-left:340px;
+  background:url('../images/rg-singapore.jpg') no-repeat 0 15px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 pre  code {
   background:#eee;
   color:#111;
