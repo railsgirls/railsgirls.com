@@ -177,7 +177,7 @@ a {
 
 }
 
-a img {
+a img, img a, img {
   border:0;
 }
 
