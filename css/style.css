@@ -56,10 +56,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-pre  code {
+pre {
   background:#eee;
   color:#111;
-  padding:8px 5px;
+  padding:5px;
+  display:block;
+  line-height:2;
 }
 
 
