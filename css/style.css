@@ -56,6 +56,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.shanghai#promo {
+  padding-left:340px;
+  background:url('../images/rg-shanghai.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+} 
+
 pre {
   background:#eee;
   color:#111;
@@ -74,6 +80,10 @@ pre {
 
 .singapore#promo h1 {
   background:url('../images/rg-singapore-header.png') no-repeat left top;   
+}
+
+.shanghai#promo h1 {
+  background:url('../images/rg-singapore-header.png') no-repeat left top;
 }
 
 #promo p {
