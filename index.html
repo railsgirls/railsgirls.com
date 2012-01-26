@@ -6,40 +6,37 @@
   <title>Rails Girls - Get started with tech</title>
   <meta name="description" content="Learn how web apps work at Ruby on Rails Workshop for Girls">
   <meta name="author" content="Karri Saarinen">
-	<meta property="og:title" content="Rails Girls - Ruby on Rails Workshop for Girls"/> 
-	<meta property="og:site_name" content="railsgirls.com"/> 
- 	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-	<meta property="og:description" content="Rails for Girls is a Ruby on Rails workshop for absolute beginners in the world of programming and web development. The weekend event is free and open to all enthusiastic girls and women. "/> 
+  <meta property="og:title" content="Rails Girls - Ruby on Rails Workshop for Girls"/> 
+  <meta property="og:site_name" content="railsgirls.com"/> 
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+  <meta property="og:description" content="Rails for Girls is a Ruby on Rails workshop for absolute beginners in the world of programming and web development. The weekend event is free and open to all enthusiastic girls and women. "/> 
  
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/960.css">
-  <link rel="stylesheet" href="css/text.css">
-  <link rel="stylesheet" href="css/style.css?v3">
+
+  <link rel="stylesheet" href="css/style.css">
   
   <script type="text/javascript" src="main.js"></script>
-  
-
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
 <body>
-  <div id="background">
-    
-    <div id="header">
-      <div class="container_12">
-      <div id="logo" class="grid_4 alpha"><a href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a></div>
-      <ul id="nav" class="grid_8 omega">
-        <li><a href="./helsinki.html">Helsinki 20.9.</a></li>
-         <li><img src="images/star.png"></li>
-        <li><a href="./singapore.html">Singapore 8.10</a></li>
-        <li><img src="images/star.png"></li>
-        <li><a href="materials.html">Materials</a></li>
-        <li><img src="images/star.png"></li>
-        <li><a href="press.html">Press</a></li>
-      </ul>
-      </div>
-    </div>
-  
+
+  <header>
+  <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a>  
+      </nav>
+  </div>
+  </header>
+
+  <!-- content -->
+
     <div id="container" class="container_16">
       <div id="poster">
 	      <div id="vimeo"><iframe src="http://player.vimeo.com/video/17752439?portrait=0" width="580" height="326" frameborder="0"></iframe></div>
@@ -69,16 +66,13 @@
           <h2>Future Events</h2>
           
           <div class="clearfix"> 
-            <a href="http://www.railsgirls.com/shanghai">Shanghai 20-21.2</a><br/>
-              <p class="lolight muted">
-                                      Tallinn 10.3.12 - more information TBA    <br/>
-                                      Berlin 13.4.12 - more information TBA </p>
-                                      Helsinki 9/2012 - more information TBA
-                                             
-          <!--    <img src="images/railsgirls-sq.png" width="50" style="float:left; margin:0px 15px 0 0">
-              <h3><a href="./singapore.html">Rails Girls Singapore <br /><span>7-8 October 2011 </span></h3></a>
+              <img src="images/railsgirls-sq.png" width="50" style="float:left; margin:0px 15px 0 0">
+              <h3><a href="./shanghai.html">Shanghai, China<br /><span>20-21 February 2012</span></h3></a>
               
-              -->
+              <h5 class="muted">Tallinn, 10 March 2012 - TBA</h5>
+              <h5 class="muted">Berlin, 13 April 2012 - TBA</h5>
+              <h5 class="muted">Helsinki, 9 September 2012 - TBA</h5>
+
               <hr />
               <p><strong>Sign up if you would like to receive updates about upcoming events. We might come to your city!</strong><br />
 <form action="https://spreadsheets.google.com/formResponse?formkey=dHBWZi1JSXV1bzktVEFKS2VpQkxfRXc6MQ&amp;ifq" method="POST" id="ss-form"> <label class="ss-q-title" for="entry_0"> <label class="ss-q-help" for="entry_0"></label> <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0" placeholder="email@example.com" style="width:200px" > <input type="hidden" name="pageNumber" value="0"><input type="hidden" name="backupCache" value=""> <input type="submit" name="submit" value="Subscribe"></form>
@@ -90,12 +84,13 @@
       </div>
       
       </div>
-      <div id="footer">
-        <p>2010-2011, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/pages/Rails-Girls/136157603144471">Facebook</a></p>
+      
+  <!-- /content -->
+
+  <footer>
+      <p>2010-2011, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/pages/Rails-Girls/136157603144471">Facebook</a></p>
       <p class="slogan">Get excited and make things!</p>
-      </div>
-    </div>
-  </div>
+  </footer>
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
