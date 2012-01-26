@@ -1,4 +1,8 @@
-﻿html {
+﻿@import url('reset.css');
+@import url('960.css');
+@import url('text.css');
+
+html {
   background:#F4F4F4;
 }
 
@@ -257,17 +261,103 @@ input[type=submit] {
 
 hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 
-#header {
+
+/* ------ CLEAN ------- */
+header {
   height:70px;
   color:#fff;
   padding-top:50px;
   background:#d3360b;
 }
 
-#logo {
+header #logo {
   width:240px;
   float:left;
 }
+
+nav {
+  margin:0 0 0 250px;
+  padding-top:12px;
+}
+
+nav a {
+  color:#fff; 
+  text-decoration:none;
+  font-weight:300;
+  font-size:20px;
+  letter-spacing:1px;
+  margin-left:15px;
+}
+
+nav a:after {
+  margin-left:15px;
+  content:url(../images/star.png);
+}
+
+nav a:last-child:after {
+  content:none;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+footer {
+  color:#666;
+  overflow:hidden;
+  width:100%;
+  padding:40px 0;
+  background:#F4F4F4;
+  line-height:1.5;
+  text-align:center;
+}
+
+footer a {
+  color:#111;
+  border-color:#111;
+}
+
+.event {
+  box-shadow:0 2px 3px #ddd;
+  border:1px solid #eee;
+  height:200px;
+  background-position:0 -100px;
+  margin-bottom:40px;
+  -webkit-transition:0.4s box-shadow;
+}
+
+.event:hover {
+  -webkit-transition:0.4s all;
+  box-shadow:0 2px 3px #999;
+  border-color: #ddd;
+}
+
+.event.tba {
+  box-shadow:none;
+  border:1px solid #eee;
+}
+
+.event.tba h3 {
+  color:#888;
+  border-color:#888;
+}
+
+.event h3 {
+  margin-top:129px;
+  padding:10px 15px;
+  background:#fff;
+  border-top:3px solid #d3360b;
+}
+
+.event h3 small {
+  line-height:1.5;
+  display:block;
+  font-size:80%;
+  color:#000;
+  font-weight:400;
+}
+
+
 
 #left, #right {
   width:250px;
@@ -290,30 +380,6 @@ hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 }
 
 .sec {margin:30px 0 30px 0;}
-
-#nav {
-    float:left;
-    margin:0 0 0 0;
-    padding-top:12px;
-}
-
-#nav li {
-  list-style:none;
-  margin:0 5px;
-  display:inline;
-}
-
-#nav a {
-color:#fff;
-text-transform:uppercase;
-text-decoration:none;
-font-weight:400;
-font-size:20px;
-
-}
-#nav a:hover{
-  text-decoration:underline;
-}
 
 .section {
   margin-bottom:60px;
@@ -357,23 +423,7 @@ font-size:20px;
 }
 
 
-#footer {
-  color:#666;
-  overflow:hidden;
-  width:100%;
-  padding:40px 0;
-  background:#F4F4F4;
-  line-height:1.5;
-  text-align:center;
-}
 
-#footer p {
-}
-
-#footer a {
-  color:#111;
-  border-color:#111;
-}
 
 .slogan {
   font-size:1.5em;
