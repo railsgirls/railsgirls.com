@@ -342,6 +342,10 @@ footer a {
   border-color:#888;
 }
 
+.event.tba h3 small {
+  color:#888;
+}
+
 .event h3 {
   margin-top:129px;
   padding:10px 15px;
