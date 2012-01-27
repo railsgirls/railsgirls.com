@@ -366,6 +366,7 @@ footer a {
   font-size:16px;
   border:0;
   margin-bottom:30px;
+  line-height:1.5;
 }
 
 .coaches img {
@@ -377,7 +378,8 @@ footer a {
 
 .coaches small {
   color:#000;
-  font-size:80%;
+  display:block;
+  font-size:90%;
 }
 
 .coaches .grid_3 {
