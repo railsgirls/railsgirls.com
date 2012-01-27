@@ -362,6 +362,36 @@ footer a {
 }
 
 
+.coaches a {
+  font-size:16px;
+  border:0;
+  margin-bottom:30px;
+}
+
+.coaches img {
+  float:left;
+  width:48px;
+  border:1px solid #ddd;
+  margin-right:15px;
+}
+
+.coaches small {
+  color:#000;
+  font-size:80%;
+}
+
+.coaches .grid_3 {
+  margin-left:0;
+}
+
+.coaches .grid_3 {
+  margin-right:20px;
+}
+
+.coaches .grid_3:nth-child(4n+4) {
+  margin-right:0;
+}
+
 
 #left, #right {
   width:250px;
