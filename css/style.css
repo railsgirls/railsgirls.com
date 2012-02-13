@@ -72,6 +72,13 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.tallinn#promo {
+  padding-left:340px;
+  background:url('../images/rg-tallinn.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 pre {
   background:#eee;
   color:#111;
@@ -100,6 +107,9 @@ pre {
   background:url('../images/rg-berlin-header.png') no-repeat left top;
 }
 
+.tallinn#promo h1 {
+  background:url('../images/rg-tallinn-header.png') no-repeat left top;
+}
 
 #promo p {
   font-size:19px;
