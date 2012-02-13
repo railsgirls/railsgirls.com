@@ -66,6 +66,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 } 
 
+.berlin#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 pre {
   background:#eee;
   color:#111;
@@ -89,6 +95,11 @@ pre {
 .shanghai#promo h1 {
   background:url('../images/rg-shanghai-header.png') no-repeat left top;
 }
+
+.berlin#promo h1 {
+  background:url('../images/rg-berlin-header.png') no-repeat left top;
+}
+
 
 #promo p {
   font-size:19px;
