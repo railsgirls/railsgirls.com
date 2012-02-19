@@ -554,3 +554,29 @@ footer a {
 	color:#e0330c;
 	margin-left:-0.7em;
 }
+
+.upcoming span {
+  font-size:70%;
+}
+
+.upcoming {
+  overflow:auto;
+  margin-bottom:20px;
+  display:block;
+  border-color:#ccc;
+}
+
+h2 a {
+  border:0;
+  color:#000;
+}
+
+#nitty-gritty .upcoming h3 {
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+.upcoming img {
+  float:left;
+  margin-right:15px;
+}
