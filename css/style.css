@@ -53,6 +53,13 @@ body {
 }
 
 
+.krakow#promo {
+  padding-left:340px;
+  background:url('../images/rg-krakow.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 
 .singapore#promo {
   padding-left:340px;
@@ -110,6 +117,11 @@ pre {
 .tallinn#promo h1 {
   background:url('../images/rg-tallinn-header.png') no-repeat left top;
 }
+
+.krakow#promo h1 {
+  background:url('../images/rg-krakow-header.png') no-repeat left top;
+}
+
 
 #promo p {
   font-size:19px;
