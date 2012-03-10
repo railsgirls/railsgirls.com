@@ -55,7 +55,7 @@ body {
 
 .krakow#promo {
   padding-left:340px;
-  background:url('../images/rg-krakow.png') no-repeat 0 10px,
+  background:url('../images/rg-krakow.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
