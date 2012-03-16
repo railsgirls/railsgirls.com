@@ -85,6 +85,11 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.buenosaires#promo {
+  padding-left:340px;
+  background:url('../images/rg-buenosaires.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 pre {
   background:#eee;
@@ -121,6 +126,11 @@ pre {
 .krakow#promo h1 {
   background:url('../images/rg-krakow-header.png') no-repeat left top;
 }
+
+.buenosaires#promo h1 {
+  background:url('../images/rg-buenosaires-header.png') no-repeat left top;
+}
+
 
 
 #promo p {
