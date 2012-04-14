@@ -96,11 +96,11 @@ rails s</code></pre>
 
       <p>Open app/views/layouts/application.html.erb and add on top of</p>
 
-      <pre><code>&lt;%= stylesheet_link_tag    &quot;application&quot; %&gt;</code></pre>
+      <pre><code>&lt;%= stylesheet_link_tag &quot;application&quot; %&gt;</code></pre>
 
       <p>the line</p>
 
-      <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://raw.github.com/twitter/bootstrap/gh-pages/assets/css/bootstrap.css&quot;&gt;</code></pre>
+      <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;http://railsgirls.com/assets/bootstrap.css&quot;&gt;</code></pre>
 
       <p>and swap</p>
 
@@ -116,24 +116,24 @@ rails s</code></pre>
 
       <p>To the application.html.erb under <code>&lt;body&gt;</code> add:</p>
 
-      <pre><code>&lt;div class=&quot;topbar&quot;&gt;
-        &lt;div class=&quot;fill&quot;&gt;
-          &lt;div class=&quot;container&quot;&gt;
-            &lt;a id=&quot;logo&quot; href=&quot;/&quot;&gt;The Idea App&lt;/a&gt;
-            &lt;ul class=&quot;nav&quot;&gt;
-              &lt;li&gt;&lt;a href=&quot;/ideas&quot;&gt;Ideas&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
+      <pre><code>&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+          &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container"&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;The Idea app&lt;/a&gt;
+                &lt;ul class=&quot;nav&quot;>
+                    &lt;li class=&quot;active"&gt;&lt;a href=&quot;/ideas&quot;&gt;Ideas&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
-      &lt;/div&gt;</code></pre>
+&lt;/div&gt;</code></pre>
 
       <p>and before <code>&lt;/body&gt;</code> add:</p>
 
       <pre><code>&lt;footer&gt;
         &lt;div class=&quot;container&quot;&gt;
-          Rails Girls 2011
+          Rails Girls 2012
         &lt;/div&gt;
-      &lt;/footer&gt;</code></pre>
+&lt;/footer&gt;</code></pre>
 
       <p>Open app/assets/stylesheets/application.css and add to the bottom:</p>
 
