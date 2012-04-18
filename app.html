@@ -64,11 +64,11 @@
 
       <p>Type commands:</p>
 
-<pre><code>mkdir projects
-cd projects
-rails new railsgirls
-cd railsgirls
-rails s</code></pre>
+<pre><code><span class="ps1">$</span> mkdir projects
+<span class="ps1">$</span> cd projects
+<span class="ps1">$</span> rails new railsgirls
+<span class="ps1">$</span> cd railsgirls
+<span class="ps1">$</span> rails s</code></pre>
 
       <p>Open <a href='http://localhost:3000'>http://localhost:3000</a> in browser.</p>
 
@@ -80,9 +80,9 @@ rails s</code></pre>
 
       <p>We are using Rails&#8217; scaffolds to generate a starting point that allows us to list, add, remove, edit, and view things; in our case ideas.</p>
 
-      <pre><code>rails generate scaffold idea name:string description:text picture:string
-rake db:migrate
-rails s</code></pre>
+      <pre><code><span class="ps1">$</span> rails generate scaffold idea name:string description:text picture:string
+<span class="ps1">$</span> rake db:migrate
+<span class="ps1">$</span> rails s</code></pre>
 
       <p>Open <a href='http://localhost:3000/ideas'>http://localhost:3000/ideas</a> in browser.</p>
 
@@ -168,8 +168,8 @@ td.picture img { width: 140px; }</code></pre>
 
       <p>Now we generate the needed code for picture handling. In the Terminal/Command Prompt run:</p>
 
-      <pre><code>bundle
-rails generate uploader Picture</code></pre>
+      <pre><code><span class="ps1">$</span> bundle
+<span class="ps1">$</span> rails generate uploader Picture</code></pre>
 
       <p>Open app/models/idea.rb and add</p>
 
@@ -213,7 +213,7 @@ rails generate uploader Picture</code></pre>
 
       <p>Run in the Terminal/Command Prompt:</p>
 
-      <pre><code>rm public/index.html</code></pre>
+      <pre><code><span class="ps1">$</span> rm public/index.html</code></pre>
 
       <p>Then open config/routes.rb and add to the second line of the file</p>
 
