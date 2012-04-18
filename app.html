@@ -130,20 +130,25 @@ rails s</code></pre>
       <p>and before <code>&lt;/body&gt;</code> add:</p>
 
       <pre><code>&lt;footer&gt;
-        &lt;div class=&quot;container&quot;&gt;
-          Rails Girls 2012
-        &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        Rails Girls 2012
+    &lt;/div&gt;
 &lt;/footer&gt;</code></pre>
 
       <p>Open app/assets/stylesheets/application.css and add to the bottom:</p>
 
-      <pre><code>#logo { font-size: 20px; font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; float: left; padding: 10px; }
-      body { padding-top: 100px; }
-      footer { margin-top: 100px; }
-      table, td, th { vertical-align: middle !important; border: none !important; }
-      th { border-bottom: 1px solid #DDD !important; }
-      td.picture { width: 140px; }
-      td.picture img { width: 140px; }</code></pre>
+      <pre><code>#logo { 
+    font-size: 20px;
+    font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;
+    float: left;
+    padding: 10px;
+}
+body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle !important; border: none !important; }
+th { border-bottom: 1px solid #DDD !important; }
+td.picture { width: 140px; }
+td.picture img { width: 140px; }</code></pre>
 
       <p><strong>Coach:</strong> Talk a little about CSS and layouts.</p>
 
@@ -164,7 +169,7 @@ rails s</code></pre>
       <p>Now we generate the needed code for picture handling. In the Terminal/Command Prompt run:</p>
 
       <pre><code>bundle
-      rails generate uploader Picture</code></pre>
+rails generate uploader Picture</code></pre>
 
       <p>Open app/models/idea.rb and add</p>
 
@@ -220,13 +225,14 @@ rails s</code></pre>
 
       <ul>
       	<li>Add design using HTML &amp; CSS</li>
-      	<li>
-       	  <a href="http://janikaliiv.eu/homework/">Add commenting</a> - instructions by <a href="http://janikaliiv.eu/">Janika Liiv</a>
-        </li>
         <li>Add ratings</li>
         <li>Use CoffeeScript (or JavaScript) to add interaction</li>
         <li>Add proper picture resizing to make loading the pictures faster</li>
       </ul>
+      
+      <h2 id="guides">Additional Guides</h2>
+      <h4>GUIDE 1: <a href="http://janikaliiv.eu/homework/">Add commenting by Janika Liiv</a></h4>
+      <h4>GUIDE 2: <a href="https://gist.github.com/2413351">Put your app online with Heroku by Terence Lee</a></h4>
 
       </div>
     </div>
@@ -234,7 +240,7 @@ rails s</code></pre>
     <!-- /content -->
     
     <footer>
-        <p>2010-2011, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/pages/Rails-Girls/136157603144471">Facebook</a></p>
+        <p>2010-2012, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
   <script type="text/javascript">
