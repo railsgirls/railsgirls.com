@@ -59,7 +59,11 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-
+.paris#promo {
+  padding-left:340px;
+  background:url('../images/rg-paris.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 .singapore#promo {
   padding-left:340px;
@@ -115,6 +119,10 @@ pre {
   margin-bottom:15px;
 }
 
+
+.paris#promo h1 {
+  background:url('../images/rg-paris-header.png') no-repeat left top;   
+}
 .amsterdam#promo h1 {
   background:url('../images/rg-amsterdam-header.png') no-repeat left top;   
 }
