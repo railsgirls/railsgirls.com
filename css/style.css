@@ -114,6 +114,27 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.recife#promo {
+  padding-left:340px;
+  background:url('../images/rg-recife.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
+.portoalegre#promo {
+  padding-left:340px;
+  background:url('../images/rg-portoalegre.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
+.saopaulo#promo {
+  padding-left:340px;
+  background:url('../images/rg-saopaulo.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 pre {
   background:#eee;
   color:#111;
@@ -171,6 +192,21 @@ pre {
 .kharkov#promo h1 {
   background:url('../images/rg-kharkov-header.png') no-repeat left top;
 }
+
+.saopaulo#promo h1 {
+  background:url('../images/rg-saopaulu-header.png') no-repeat left top;
+}
+
+.recife#promo h1 {
+  background:url('../images/rg-recife-header.png') no-repeat left top;
+}
+
+
+.portoalegre#promo h1 {
+  background:url('../images/rg-portoalegre-header.png') no-repeat left top;
+}
+
+
 
 
 #promo p {
