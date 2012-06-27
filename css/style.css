@@ -192,7 +192,7 @@ pre {
 }
 
 .sanfrancisco#promo h1 {
-  background:url('../images/rg-sanfrancisco-header.png') no-repeat left top;
+  background:url('../images/rg-sanfrancisco-header.png') no-repeat -4px top;
 }
 
 .kharkov#promo h1 {
