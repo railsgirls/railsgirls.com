@@ -140,6 +140,14 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.washington#promo {
+  padding-left:340px;
+  background:url('../images/rg-washington.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
+
 
 pre {
   background:#eee;
@@ -215,6 +223,11 @@ pre {
 
 .cologne#promo h1 {
   background:url('../images/rg-cologne-header.png') no-repeat left top;
+}
+
+
+.washington#promo h1 {
+  background:url('../images/rg-washington-header.png') no-repeat left top;
 }
 
 
