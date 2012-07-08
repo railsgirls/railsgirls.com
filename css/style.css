@@ -77,6 +77,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 } 
 
+.hamburg#promo {
+  padding-left:340px;
+  background:url('../images/rg-hamburg.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .berlin#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -145,6 +151,19 @@ body {
   background:url('../images/rg-washington.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+.portland#promo {
+  padding-left:340px;
+  background:url('../images/rg-portland.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.munich#promo {
+  padding-left:340px;
+  background:url('../images/rg-munich.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 
 
 
@@ -215,6 +234,14 @@ pre {
   background:url('../images/rg-recife-header.png') no-repeat left top;
 }
 
+.recife#promo h1 {
+  background:url('../images/rg-munich-header.png') no-repeat left top;
+}
+
+.hamburg#promo h1 {
+  background:url('../images/rg-hamburg-header.png') no-repeat left top;
+}
+
 
 .portoalegre#promo h1 {
   background:url('../images/rg-portoalegre-header.png') no-repeat left top;
@@ -229,6 +256,11 @@ pre {
 .washington#promo h1 {
   background:url('../images/rg-washington-header.png') no-repeat left top;
 }
+
+.portland#promo h1 {
+  background:url('../images/rg-portland-header.png') no-repeat left top;
+}
+
 
 
 
