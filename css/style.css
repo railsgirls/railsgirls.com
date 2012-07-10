@@ -185,14 +185,12 @@ pre {
   margin-bottom:15px;
 }
 
-
 .paris#promo h1 {
   background:url('../images/rg-paris-header.png') no-repeat left top;   
 }
 .amsterdam#promo h1 {
   background:url('../images/rg-amsterdam-header.png') no-repeat left top;   
 }
-
 
 .singapore#promo h1 {
   background:url('../images/rg-singapore-header.png') no-repeat left top;   
@@ -259,6 +257,10 @@ pre {
 
 .portland#promo h1 {
   background:url('../images/rg-portland-header.png') no-repeat left top;
+}
+
+.munich#promo h1 {
+	background:url('../images/rg-munich-header.png') no-repeat left top;
 }
 
 
