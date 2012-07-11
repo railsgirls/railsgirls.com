@@ -146,11 +146,11 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.washington#promo {
-  padding-left:340px;
-  background:url('../images/rg-washington.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
-}
+/*.washington#promo {*/
+  /*padding-left:340px;*/
+  /*background:url('../images/rg-washington.png') no-repeat 0 10px,*/
+                 /*url('../images/separator.png') no-repeat center bottom;*/
+/*}*/
 
 .portland#promo {
   padding-left:340px;
