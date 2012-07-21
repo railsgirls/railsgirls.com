@@ -16,6 +16,18 @@
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
   
+  <style>
+  input{background:transparent;}
+  .amount{
+    position: absolute;
+    left: 35px;
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 16px;
+    /*z-index:-1;*/
+  }
+  </style>
+
 	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -224,7 +236,16 @@
          <a href="http://www.appfog.com">AppFog</a> is a cloud-based hosting service PaaS for Java, Python, Node, .Net, Ruby, PHP, MySQL, Mongo, PostgreSQL, and more.
 
 </p>
-         <p>Want to help? We're looking for partners &amp; sponsors for the non-profit event! <a href="mailto:eric.redmond@gmail.com>">Email us</a>! </p>
+         <p>Want to help? We're looking for partners &amp; sponsors for the non-profit event! <a href="mailto:eric.redmond@gmail.com>">Email us</a>, and donate now! </p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Donate by PayPal"><span class="amount">$100</span>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 
      <hr/>
      <h3>FAQ</h3>
@@ -263,7 +284,6 @@ Amanda Blum, organizer
 <small>@amandablum</small>
 </a>
 
-
         <a href="https://twitter.com/igalko" class="grid_3">
 Igal Koshevoy
 <small>@igalko</small>
@@ -282,23 +302,19 @@ Kenichi Nakamura
 <small>@kenichi_pdx</small>
 </a>
         <a href="https://twitter.com/gmhawash" class="grid_3">
-Maher
+Maher Hawash
 <small>@gmhawash</small>
 </a>
-        <a class="grid_3">
+        <a href="https://twitter.com/davystevenson" class="grid_3">
 Davy Stevenson
 </a>
-        <a class="grid_3">
-Jen
-</a>
-        <a class="grid_3">
-You??
-</a>
+<small>@davystevenson</small>
       </div>
       
     </div>
     </div>
-      
+    
+
     <!-- /content -->
     
     <footer>
