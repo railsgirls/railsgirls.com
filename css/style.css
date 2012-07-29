@@ -96,7 +96,7 @@ body {
 
 .tallinn#promo {
   padding-left:340px;
-  background:url('../images/rg-tallinn.png') no-repeat 0 10px,
+  background:url('../images/rg-tallinn.png') no-repeat 0 -5px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
