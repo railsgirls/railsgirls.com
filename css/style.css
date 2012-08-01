@@ -169,8 +169,11 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-
-
+.tokyo#promo {
+  padding-left:340px;
+  background:url('../images/rg-tokyo.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
 
 
 pre {
@@ -273,6 +276,9 @@ pre {
 	background:url('../images/rg-munich-header.png') no-repeat left top;
 }
 
+.tokyo#promo h1 {
+  background:url('../images/rg-tokyo-header.png') no-repeat left top;
+}
 
 
 
