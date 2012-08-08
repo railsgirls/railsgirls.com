@@ -175,6 +175,11 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.chicago#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
 
 pre {
   background:#eee;
@@ -280,9 +285,9 @@ pre {
   background:url('../images/rg-tokyo-header.png') no-repeat left top;
 }
 
-
-
-
+.chicago#promo h1 {
+  background:url('../images/rg-chicago-header.png') no-repeat left top;
+}
 
 #promo p {
   font-size:19px;
