@@ -80,7 +80,7 @@ body {
   padding-left:340px;
   background:url('../images/rg-shanghai.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-} 
+}
 
 .hamburg#promo {
   padding-left:340px;
@@ -180,6 +180,11 @@ body {
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
+.brussels#promo {
+  padding-left:340px;
+  background:url('../images/rg-brussels.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
 
 pre {
   background:#eee;
@@ -193,25 +198,25 @@ pre {
 
 #promo h1 {
   text-indent:-9999cm;
-  background:url('../images/rg-helsinki-header.png') no-repeat left top;        
+  background:url('../images/rg-helsinki-header.png') no-repeat left top;
   height:80px;
   margin-bottom:15px;
 }
 
 
 .dnipropetrovsk#promo h1 {
-  background:url('../images/rg-dnipropetrovsk-header.png') no-repeat left top;   
+  background:url('../images/rg-dnipropetrovsk-header.png') no-repeat left top;
 }
 
 .paris#promo h1 {
-  background:url('../images/rg-paris-header.png') no-repeat left top;   
+  background:url('../images/rg-paris-header.png') no-repeat left top;
 }
 .amsterdam#promo h1 {
-  background:url('../images/rg-amsterdam-header.png') no-repeat left top;   
+  background:url('../images/rg-amsterdam-header.png') no-repeat left top;
 }
 
 .singapore#promo h1 {
-  background:url('../images/rg-singapore-header.png') no-repeat left top;   
+  background:url('../images/rg-singapore-header.png') no-repeat left top;
 }
 
 .shanghai#promo h1 {
@@ -287,6 +292,9 @@ pre {
 
 .chicago#promo h1 {
   background:url('../images/rg-chicago-header.png') no-repeat left top;
+}
+.brussels#promo h1 {
+  background:url('../images/rg-brussels-header.png') no-repeat left top;
 }
 
 #promo p {
@@ -480,7 +488,7 @@ nav {
 }
 
 nav a {
-  color:#fff; 
+  color:#fff;
   text-decoration:none;
   font-weight:300;
   font-size:20px;
@@ -599,7 +607,7 @@ footer a {
   float:left;
   font-size:36px;
   padding-top:40px;
-  text-shadow:0 1px 0 #a80000; 
+  text-shadow:0 1px 0 #a80000;
 }
 
 #left {
@@ -654,7 +662,7 @@ footer a {
 }
 
 .schedule li.grid_2 {
-  text-align:center; 
+  text-align:center;
 }
 
 
