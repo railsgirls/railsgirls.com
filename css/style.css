@@ -52,12 +52,12 @@ body {
   min-height:300px;
 }
 
-
 .dnipropetrovsk#promo {
   padding-left:340px;
   background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
-                 }
+}
+
 .krakow#promo {
   padding-left:340px;
   background:url('../images/rg-krakow.png') no-repeat 10px 40px,
