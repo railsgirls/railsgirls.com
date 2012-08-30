@@ -52,12 +52,12 @@ body {
   min-height:300px;
 }
 
-
 .dnipropetrovsk#promo {
   padding-left:340px;
   background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
-                 }
+}
+
 .krakow#promo {
   padding-left:340px;
   background:url('../images/rg-krakow.png') no-repeat 10px 40px,
@@ -305,6 +305,16 @@ pre {
 
 .madrid#promo h1 {
   background:url('../images/rg-madrid-header.png') no-repeat left top;
+}
+
+.warsaw#promo h1 {
+  background:url('../images/rg-warsaw-header.png') no-repeat left top;
+}
+
+.warsaw#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
 }
 
 #promo p {
