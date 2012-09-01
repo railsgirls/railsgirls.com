@@ -41,3 +41,7 @@ It will take a while before the changes show, so don't panic!
 - Did you remember to change Twitter & Facebook details?
 - Did you rememeber to add your event to index.html and events.html?
 - Did you remember to remove your event after it finished?
+
+## Tools
+Thanks to @ys for the counter you can include on your page
+https://github.com/ys/rails-girls-count#readme
