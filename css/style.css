@@ -127,7 +127,7 @@ body {
 
 .recife#promo {
   padding-left:340px;
-  background:url('../images/rg-recife.png') no-repeat 0 10px,
+  background:url('../images/rg-portoalegre.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -262,7 +262,7 @@ pre {
 }
 
 .recife#promo h1 {
-  background:url('../images/rg-munich-header.png') no-repeat left top;
+  background:url('../images/rg-recife-header.png') no-repeat left top;
 }
 
 .hamburg#promo h1 {
