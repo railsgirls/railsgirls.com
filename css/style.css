@@ -186,9 +186,10 @@ body {
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.madrid#promo {
+
+.turku#promo {
   padding-left:340px;
-  background:url('../images/rg-madrid.jpg') no-repeat 0 10px,
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -309,6 +310,10 @@ pre {
 
 .warsaw#promo h1 {
   background:url('../images/rg-warsaw-header.png') no-repeat left top;
+}
+
+.turku#promo h1 {
+  background:url('../images/rg-turku-header.png') no-repeat left top;
 }
 
 .warsaw#promo {
