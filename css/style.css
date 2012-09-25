@@ -54,7 +54,7 @@ body {
 
 .zagreb#promo {
   padding-left:340px;
-  background:url('../images/rg-zagreb.jpg') no-repeat 10px 40px,
+  background:url('../images/rg-zagreb.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -218,6 +218,7 @@ pre {
 
 .zagreb#promo h1 {
   background:url('../images/rg-zagreb-header.png') no-repeat left top;
+	height:85px;
 }
 
 .dnipropetrovsk#promo h1 {
