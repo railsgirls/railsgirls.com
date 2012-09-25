@@ -64,6 +64,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.kyiv#promo {
+  padding-left:340px;
+  background:url('../images/rg-kyiv.jpg') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .krakow#promo {
   padding-left:340px;
   background:url('../images/rg-krakow.png') no-repeat 10px 40px,
@@ -230,6 +236,10 @@ pre {
 
 .dnipropetrovsk#promo h1 {
   background:url('../images/rg-dnipropetrovsk-header.png') no-repeat left top;
+}
+
+.kyiv#promo h1 {
+  background:url('../images/rg-kyiv-header.png') no-repeat left top;
 }
 
 .atlanta#promo h1 {
