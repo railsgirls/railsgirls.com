@@ -332,6 +332,19 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+
+.natal#promo h1 {
+  background:url('../images/rg-natal-header.png') no-repeat left top;
+}
+
+.natal#promo {
+  padding-left:340px;
+  background:url('../images/rg-warsaw.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
+
 #promo p {
   font-size:19px;
   line-height:1.4;
