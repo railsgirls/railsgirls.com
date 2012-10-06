@@ -76,6 +76,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.manila#promo {
+  padding-left:340px;
+  background:url('../images/rg-manila.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .paris#promo {
   padding-left:340px;
   background:url('../images/rg-paris.png') no-repeat 0 10px,
@@ -353,6 +359,9 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.manila#promo h1 {
+  background:url('../images/rg-manila-header.png') no-repeat left top;
+}
 
 .natal#promo h1 {
   background:url('../images/rg-natal-header2.png') no-repeat left top;
