@@ -375,6 +375,18 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.pittsburgh#promo h1 {
+  background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
+}
+
+/*
+.pittsburgh#promo {
+  padding-left:340px;
+  background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+*/
+
 #promo p {
   font-size:19px;
   line-height:1.4;
