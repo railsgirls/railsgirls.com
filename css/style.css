@@ -396,6 +396,29 @@ pre {
 }
 */
 
+.dallas#promo h1.event-city {
+  background: none;
+  text-indent: 0px;
+  color:#E0330C;
+  font: 56px 'Interstate';
+  height: 60px;
+  margin-bottom: 0px;
+  letter-spacing:-3px;
+  vertical-align: :top;
+}
+
+.dallas#promo div.event-date{
+  color: #3f3f3f;
+  font: 24px 'Interstate';
+  letter-spacing:-2px;
+}
+
+/*.dallas#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}*/
+
 #promo p {
   font-size:19px;
   line-height:1.4;
