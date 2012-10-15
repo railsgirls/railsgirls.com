@@ -66,7 +66,7 @@ body {
 
 .kyiv#promo {
   padding-left:340px;
-  background:url('../images/rg-kyiv.jpg') no-repeat 10px 40px,
+  background:url('../images/rg-kyiv.jpg') no-repeat -20px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
