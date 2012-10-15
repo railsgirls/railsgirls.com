@@ -211,6 +211,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.kyoto#promo {
+  padding-left:340px;
+  background:url('../images/rg-kyoto.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -371,6 +377,10 @@ pre {
 
 .tokyo#promo h1 {
   background:url('../images/rg-tokyo-header.png') no-repeat left top;
+}
+
+.kyoto#promo h1 {
+  background:url('../images/rg-kyoto-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
