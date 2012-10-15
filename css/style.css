@@ -1,4 +1,4 @@
-﻿@import url('reset.css');
+@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -391,6 +391,15 @@ pre {
 
 .pittsburgh#promo h1 {
   background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
+}
+
+.chengdu#promo {
+  padding-left:340px;
+  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                         		 url('../images/separator.png') no-repeat center bottom;
+}
+
+.chengdu#promo h1 {
+  background:url('../images/rg-chengdu-header.png') no-repeat left top;
 }
 
 /*
