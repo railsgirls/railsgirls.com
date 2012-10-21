@@ -55,8 +55,7 @@ body {
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background:url('../images/rg-helsinki.jpg') no-repeat -5px 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background: url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
 
@@ -242,10 +241,27 @@ pre {
 .ps1 { color: #888; }
 
 #promo h1 {
-  text-indent:-9999cm;
-  background:url('../images/rg-helsinki-header.png') no-repeat left top;
+    text-indent:-9999cm;
+    margin-bottom:10px;
+}
+
+#promo.new h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
   height:80px;
-  margin-bottom:15px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:48px;
+  margin-bottom:20px;
+  line-height:1.1;
+  letter-spacing:-1px;
+  text-indent:0;
+}
+
+#promo h1 small {
+    display:block;
+    font-size:24px;
+    color:#444;
+    font-weight:normal;
 }
 
 .zagreb#promo h1 {
