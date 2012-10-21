@@ -46,7 +46,10 @@ body {
           padding-left:340px;
           background:url('../images/rg-stockholm.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
+        } .yourcityname#promo h1 {
+          background:url('../images/rg-stockholm-header.png') no-repeat left top;
         }
+
 
 #promo {
   padding-left:340px;
