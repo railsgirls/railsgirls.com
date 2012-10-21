@@ -46,9 +46,7 @@ body {
           padding-left:340px;
           background:url('../images/rg-stockholm.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
-        } .yourcityname#promo h1 {
-          background:url('../images/rg-stockholm-header.png') no-repeat left top;
-        }
+        } 
 
 
 #promo {
@@ -250,10 +248,9 @@ pre {
   height:80px;
   font-weight:bold;
   color:#d3360b;
-  font-size:48px;
+  font-size:52px;
   margin-bottom:20px;
   line-height:1.1;
-  letter-spacing:-1px;
   text-indent:0;
 }
 
@@ -262,6 +259,7 @@ pre {
     font-size:24px;
     color:#444;
     font-weight:normal;
+    letter-spacing:3px;
 }
 
 .zagreb#promo h1 {
