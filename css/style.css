@@ -451,11 +451,11 @@ pre {
   letter-spacing:-2px;
 }
 
-/*.dallas#promo {
+.dallas#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-}*/
+}
 
 #promo p {
   font-size:19px;
