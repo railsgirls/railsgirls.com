@@ -1,4 +1,4 @@
-﻿@import url('reset.css');
+@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -42,13 +42,20 @@ body {
 .muted, .muted * {
   color:#777 !important;
 }
+.stockholm#promo {
+          padding-left:340px;
+          background:url('../images/rg-stockholm.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        } 
+
+        
+
 
 #promo {
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background:url('../images/rg-helsinki.jpg') no-repeat -5px 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background: url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
 
@@ -66,7 +73,7 @@ body {
 
 .kyiv#promo {
   padding-left:340px;
-  background:url('../images/rg-kyiv.jpg') no-repeat 10px 40px,
+  background:url('../images/rg-kyiv.jpg') no-repeat -20px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -234,10 +241,27 @@ pre {
 .ps1 { color: #888; }
 
 #promo h1 {
-  text-indent:-9999cm;
-  background:url('../images/rg-helsinki-header.png') no-repeat left top;
+    text-indent:-9999cm;
+    margin-bottom:10px;
+}
+
+#promo.new h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
   height:80px;
-  margin-bottom:15px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:52px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+
+#promo h1 small {
+    display:block;
+    font-size:24px;
+    color:#444;
+    font-weight:normal;
+    letter-spacing:3px;
 }
 
 .zagreb#promo h1 {
@@ -393,6 +417,15 @@ pre {
   background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
 }
 
+.chengdu#promo {
+  padding-left:340px;
+  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                         		 url('../images/separator.png') no-repeat center bottom;
+}
+
+.chengdu#promo h1 {
+  background:url('../images/rg-chengdu-header.png') no-repeat left top;
+}
+
 /*
 .pittsburgh#promo {
   padding-left:340px;
@@ -418,11 +451,11 @@ pre {
   letter-spacing:-2px;
 }
 
-/*.dallas#promo {
+.dallas#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-}*/
+}
 
 .melbourne#promo h1 {
   background:url('../images/rg-melbourne-header.png') no-repeat left top;
