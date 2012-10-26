@@ -88,6 +88,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.riga#promo {
+padding-left:340px;
+background:url('../images/rg-riga.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .singapore#promo {
   padding-left:340px;
   background:url('../images/rg-singapore.jpg') no-repeat 0 10px,
@@ -301,6 +307,10 @@ pre {
 
 .recife#promo h1 {
   background:url('../images/rg-recife-header.png') no-repeat left top;
+}
+
+.riga#promo h1 {
+  background:url('../images/rg-riga-header.png') no-repeat left top;
 }
 
 .hamburg#promo h1 {
