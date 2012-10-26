@@ -1,4 +1,4 @@
-﻿@import url('reset.css');
+@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -42,13 +42,20 @@ body {
 .muted, .muted * {
   color:#777 !important;
 }
+.stockholm#promo {
+          padding-left:340px;
+          background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        } 
+
+        
+
 
 #promo {
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background:url('../images/rg-helsinki.jpg') no-repeat -5px 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background: url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
 
@@ -66,7 +73,7 @@ body {
 
 .kyiv#promo {
   padding-left:340px;
-  background:url('../images/rg-kyiv.jpg') no-repeat 10px 40px,
+  background:url('../images/rg-kyiv.jpg') no-repeat -20px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -155,6 +162,11 @@ background:url('../images/rg-riga.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.belem#promo {
+  padding-left:340px;
+  background:url('../images/rg-belem.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 .portoalegre#promo {
   padding-left:340px;
@@ -235,10 +247,27 @@ pre {
 .ps1 { color: #888; }
 
 #promo h1 {
-  text-indent:-9999cm;
-  background:url('../images/rg-helsinki-header.png') no-repeat left top;
+    text-indent:-9999cm;
+    margin-bottom:10px;
+}
+
+#promo.new h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
   height:80px;
-  margin-bottom:15px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:52px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+
+#promo h1 small {
+    display:block;
+    font-size:24px;
+    color:#444;
+    font-weight:normal;
+    letter-spacing:3px;
 }
 
 .zagreb#promo h1 {
@@ -305,8 +334,8 @@ pre {
   background:url('../images/rg-recife-header.png') no-repeat left top;
 }
 
-.recife#promo h1 {
-  background:url('../images/rg-recife-header.png') no-repeat left top;
+.belem#promo h1 {
+  background:url('../images/rg-belem-header.png') no-repeat left top;
 }
 
 .riga#promo h1 {
@@ -398,6 +427,15 @@ pre {
   background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
 }
 
+.chengdu#promo {
+  padding-left:340px;
+  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                         		 url('../images/separator.png') no-repeat center bottom;
+}
+
+.chengdu#promo h1 {
+  background:url('../images/rg-chengdu-header.png') no-repeat left top;
+}
+
 /*
 .pittsburgh#promo {
   padding-left:340px;
@@ -405,6 +443,40 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 */
+
+.dallas#promo h1.event-city {
+  background: none;
+  text-indent: 0px;
+  color:#E0330C;
+  font: 56px 'Interstate';
+  height: 60px;
+  margin-bottom: 0px;
+  letter-spacing:-3px;
+  vertical-align: :top;
+}
+
+.dallas#promo div.event-date{
+  color: #3f3f3f;
+  font: 24px 'Interstate';
+  letter-spacing:-2px;
+}
+
+.dallas#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.melbourne#promo {
+  padding-left:340px;
+  background:url('../images/rg-melbourne.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.melbourne#promo h1 {
+  background:url('../images/rg-melbourne-header.png') no-repeat left top;
+	height:85px;
+}
 
 #promo p {
   font-size:19px;

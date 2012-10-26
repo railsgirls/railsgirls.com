@@ -3,11 +3,11 @@
 Get excited and learn to build the web!
 
 ## General
-We've given you pull & push access to the site. You can basically copy an excisting event page and change the details to match yours. 
+We've given you pull & push access to the site. You can basically copy an existing event page and change the details to match yours.
 
-There's also a bunch of things anyone can work on the Issues section. Many of them are easy, quick tasks like updating stuff. 
+There's also a bunch of things anyone can work on the Issues section. Many of them are easy, quick tasks like updating stuff.
 
-## Find a file called event-template.html. Copy this file and make a new one with your cityname. 
+## Find a file called event-template.html. Copy this file and make a new one with your cityname.
 
 
 ## Publishing the site
@@ -19,11 +19,11 @@ You need to update two places.
 2. Add your city to railsgirls.com/events.html
 
 ## How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
 
 Steps to show on site
 1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name. 
+2. Add two lines, always replacing 'yourcityname' with your actual city name.
 
 .yourcityname#promo {
   padding-left:340px;
@@ -39,9 +39,10 @@ It will take a while before the changes show, so don't panic!
 
 ## Checklist
 - Did you remember to change Twitter & Facebook details?
-- Did you rememeber to add your event to index.html and events.html?
+- Did you remember to add your event to index.html and events.html?
 - Did you remember to remove your event after it finished?
 
 ## Tools
-Thanks to @ys for the counter you can include on your page
+Thanks to @ys for the counter you can include on your page.
 https://github.com/ys/rails-girls-count#readme
+
