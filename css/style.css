@@ -457,6 +457,12 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.melbourne#promo {
+  padding-left:340px;
+  background:url('../images/rg-melbourne.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .melbourne#promo h1 {
   background:url('../images/rg-melbourne-header.png') no-repeat left top;
 	height:85px;
