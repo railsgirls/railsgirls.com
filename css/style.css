@@ -227,7 +227,14 @@ body {
 .turku#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  url('../images/separator.png') no-repeat center bottom;
+
+}
+ 
+.wroclaw#promo {
+  padding-left:340px;
+  background:url('../images/rg-wroclaw.jpg') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
 }
 
 pre {
@@ -424,6 +431,11 @@ pre {
 
 .chengdu#promo h1 {
   background:url('../images/rg-chengdu-header.png') no-repeat left top;
+}
+
+.wroclaw#promo h1 {
+ background:url('../images/rg-wroclaw-header.png') no-repeat;
+ 
 }
 
 /*
