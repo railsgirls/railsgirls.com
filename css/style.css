@@ -71,6 +71,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.ljubljana#promo {
+  padding-left:340px;
+  background:url('../images/rg-ljubljana.png') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .dnipropetrovsk#promo {
   padding-left:340px;
   background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
@@ -285,6 +291,11 @@ pre {
 .zagreb#promo h1 {
   background:url('../images/rg-zagreb-header.png') no-repeat left top;
 	height:85px;
+}
+
+.ljubljana#promo h1 {
+  background:url('../images/rg-ljubljana-header.png') no-repeat left top;
+  height:85px;
 }
 
 .dnipropetrovsk#promo h1 {
