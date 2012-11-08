@@ -71,6 +71,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.ljubljana#promo {
+  padding-left:340px;
+  background:url('../images/rg-ljubljana.png') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .dnipropetrovsk#promo {
   padding-left:340px;
   background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
@@ -98,6 +104,12 @@ body {
 .paris#promo {
   padding-left:340px;
   background:url('../images/rg-paris.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.riga#promo {
+padding-left:340px;
+background:url('../images/rg-riga.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -211,6 +223,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.kyoto#promo {
+  padding-left:340px;
+  background:url('../images/rg-kyoto.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -275,6 +293,11 @@ pre {
 	height:85px;
 }
 
+.ljubljana#promo h1 {
+  background:url('../images/rg-ljubljana-header.png') no-repeat left top;
+  height:85px;
+}
+
 .dnipropetrovsk#promo h1 {
   background:url('../images/rg-dnipropetrovsk-header.png') no-repeat left top;
 }
@@ -290,6 +313,11 @@ pre {
 .paris#promo h1 {
   background:url('../images/rg-paris-header.png') no-repeat left top;
 }
+
+.riga#promo h1 {
+  background:url('../images/rg-riga-header.png') no-repeat left top;
+}
+
 .amsterdam#promo h1 {
   background:url('../images/rg-amsterdam-header.png') no-repeat left top;
 }
@@ -371,6 +399,10 @@ pre {
 
 .tokyo#promo h1 {
   background:url('../images/rg-tokyo-header.png') no-repeat left top;
+}
+
+.kyoto#promo h1 {
+  background:url('../images/rg-kyoto-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
