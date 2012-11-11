@@ -235,6 +235,13 @@ background:url('../images/rg-riga.jpg') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.gurgaon#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .atlanta#promo {
   padding-left:340px;
   background:url('../images/rg-atlanta.png') no-repeat 0 10px,
