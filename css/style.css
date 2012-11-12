@@ -280,6 +280,7 @@ pre {
 #promo h1 {
     text-indent:-9999cm;
     margin-bottom:10px;
+	
 }
 
 #promo.new h1 {
@@ -484,6 +485,11 @@ pre {
 .wroclaw#promo h1 {
  background:url('../images/rg-wroclaw-header.png') no-repeat;
  
+}
+
+.gurgaon#promo h1 {
+  background:url('../images/rg-gurgaon-header.png') no-repeat;
+  height: 85px;
 }
 
 /*
