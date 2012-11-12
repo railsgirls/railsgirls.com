@@ -46,9 +46,9 @@ body {
           padding-left:340px;
           background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
                          url('../images/separator.png') no-repeat center bottom;
-        } 
+        }
 
-        
+
 
 
 #promo {
@@ -97,7 +97,7 @@ body {
 
 .manila#promo {
   padding-left:340px;
-  background:url('../images/rg-manila.png') no-repeat 0 10px,
+  background:url('../images/rg-manila2.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -280,7 +280,7 @@ pre {
 #promo h1 {
     text-indent:-9999cm;
     margin-bottom:10px;
-	
+
 }
 
 #promo.new h1 {
@@ -484,7 +484,7 @@ pre {
 
 .wroclaw#promo h1 {
  background:url('../images/rg-wroclaw-header.png') no-repeat;
- 
+
 }
 
 .gurgaon#promo h1 {
