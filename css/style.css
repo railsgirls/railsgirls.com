@@ -97,7 +97,7 @@ body {
 
 .manila#promo {
   padding-left:340px;
-  background:url('../images/rg-manila2.png') no-repeat 0 10px,
+  background:url('../images/rg-manila2.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1002,3 +1002,4 @@ h2 a {
   float:left;
   margin-right:15px;
 }
+
