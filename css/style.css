@@ -113,6 +113,12 @@ background:url('../images/rg-riga.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.prague#promo {
+padding-left:340px;
+background:url('../images/rg-prague.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .austin#promo {
 padding-left:340px;
 background:url('../images/rg-austin.png') no-repeat 0 10px,
@@ -336,6 +342,10 @@ pre {
 
 .riga#promo h1 {
   background:url('../images/rg-riga-header.png') no-repeat left top;
+}
+
+.prague#promo h1 {
+  background:url('../images/rg-prague-header.png') no-repeat left top;	
 }
 
 .austin#promo h1 {
