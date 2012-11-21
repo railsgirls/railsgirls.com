@@ -279,6 +279,12 @@ background:url('../images/rg-austin.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.belohorizonte#promo {
+  padding-left:340px;
+  background:url('../images/rg-belohorizonte.jpg') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 pre {
   background:#eee;
   color:#111;
@@ -509,6 +515,11 @@ pre {
 
 .gurgaon#promo h1 {
   background:url('../images/rg-gurgaon-header.png') no-repeat;
+  height: 85px;
+}
+
+.belohorizonte#promo h1 {
+  background:url('../images/rg-belohorizonte-header.png') no-repeat;
   height: 85px;
 }
 
