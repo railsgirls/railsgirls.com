@@ -48,7 +48,15 @@ body {
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.beijing#promo {
+  padding-left:340px;
+  background:url('../images/rg-beijing.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
+.beijing#promo h1 {
+  background:url('../images/rg-beijing-header.png') no-repeat left top;
+}
 
 
 #promo {
