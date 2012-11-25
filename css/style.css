@@ -573,6 +573,17 @@ pre {
 	height:85px;
 }
 
+.dublin#promo {
+  padding-left:340px;
+  background:url('../images/rg-dublin.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+ .dublin#promo h1 {
+    background:url('../images/rg-dublin-header.png') no-repeat left top;
+
+    }
+
 #promo p {
   font-size:19px;
   line-height:1.4;
