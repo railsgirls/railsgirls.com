@@ -41,36 +41,13 @@
             </nav>
         </div>
         </header>
-  
-
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
-
-Steps to show on site
-1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name. 
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-        }
-
-        It will take a while before the changes show, so don't panic! 
-        
--->
-
 
 <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
  
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="riga">
-        <h1>Rails Girls Riga 25-26th January 2013</h1>
+          <p><img src="./images/rg-riga-header.png" alt="Tieto"><p>
           <p> Hello girls and ladies!</p>
           <p> Rails Girls comes to Riga! During the free two-day workshop we'll dive into the magical world of information technologies and Ruby on Rails. </p>
 
@@ -114,7 +91,7 @@ Steps to show on site
       
       <hr />
   
-<!--  Update the texts! -->
+<!--  Programm -->
 
       <div class="grid_6 alpha">
         <h2>Friday 25th January</h2>
@@ -129,13 +106,6 @@ Steps to show on site
                   <strong>Where: eBIT office, Brivibas 214M room 319, Riga</strong>
               </td></tr>
 
-              <!--  <tr>
-               <th>21.00 -</th>
-                <td>
-                  <h4>Coach dinner</h4>
-                    All of the coaches are welcome to our coach dinner. 
-                </td>
-              </tr> -->
           </tbody>
         </table>
         
@@ -215,28 +185,36 @@ Steps to show on site
       </div>
 
 <!--  These also, just update :) -->
-<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 180 x 90px -->
 
          <h3>Partners</h3>
         
           <p>Rails Girls Riga is co-organized with our awesome partners.</p><p>
           <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:zane.baranovska@ebit.lv">Email us</a>! </p>
 
-          <p>
+          <p align="left">
             <a href="http://www.ebit.lv" style="float:right; margin:0 0 0; border:0;"><img src="./images/eBIT.jpg" alt="eBIT"></a>
             <a href="http://www.ebit.lv">eBIT</a> is an IT company represented in Latvia and Norway. We provide full IT service cycle, helping evaluate and recommending optimal IT solutions, with great service and personal attitude.
           </p>
-          <p>
+          <p align="left">
             <a href="http://www.pupumaiss.lv" style="float:right; margin:0 0 0; border:0;"><img src="./images/pupumaiss.jpg" alt="PUPU MAISS"></a>
             <a href="http://www.pupumaiss.lv">PUPU MAISS</a> offers stylish, comfortable, cool beanbags - different sizes and shapes, a wide choice of fabrics. Anyone can find the most suitable one!
           </p>
-          <!--<p>
-            <a href="http://www.ir.lv" style="float:right; margin:0 0 0; border:0;"><img src="./images/ir.png" alt="IR"></a>
-            <a href="http://www.ir.lv">IR</a> apraksts 
-          </p> -->
-          <p>
+          <p align="left">
+            <a href="http://www.ir.lv" style="float:right; margin:0 0 0; border:0;"><img src="./images/ir.png" alt="Ir"></a>
+            Weekly magazine <a href="http://www.ir.lv">"Ir"</a> stands for independent and professional journalism. Experienced journalists research the most important global and national issues in politics and economics, write sophisticated feature stories about culture, lifestyle and social issues. Interesting about the important!
+          </p>
+          <p align="left">
             <a href="http://www.tieto.lv" style="float:right; margin:0 0 0; border:0;"><img src="./images/tieto.png" alt="Tieto"></a>
             <a href="http://www.tieto.com">Tieto</a> is the leading IT service company in Northern Europe providing IT and product engineering services. Our highly specialized IT solutions and services complemented by a strong technology platform provide our local and global customers tangible business benefits.
+          </p>
+          <p align="left">
+            <a href="http://fms.lv/en" style="float:right; margin:0 0 0; border:0;"><img src="./images/fms.png" alt="FMS"></a>
+            <a href="http://fms.lv/en">FMS</a> is the main supplier of Accounting, Resource management and HR solutions for Latvian Government and Private sector, specialized in software development, project management, implementation and support for organizations financial and management solutions, also providing business analysis solutions, system integrations and individual software development. 
+          </p>
+          <p align="left">
+            <a href="http://www.fazer.com/geisha" style="float:right; margin:0 0 0; border:0;"><img src="./images/geisha.png" alt="Geisha"></a>
+            It was in 1962 that the chocolate bar <a href="http://www.fazer.com/geisha">Geisha</a> was launched on the market. After 50 years, Geisha introduces the first dark variant: new Geisha Dark. The core of the Geisha chocolate, soft yet crispy hazelnut filling, is now covered with rich dark chocolate.<br>‘Geisha’ means a skilled person. ‘Gei’ stands for skillfulness while ‘sha’refers to someone who knows.
           </p>
       </div> 
   
@@ -287,6 +265,20 @@ Steps to show on site
             <img src="./images/rubie-100.png">
             Aivars Akots, coach
           </a>
+          <a class="grid_3">
+            <img src="./images/rubie-100.png">
+            Andrejs Trabo, coach
+          </a>
+          <a href="https://twitter.com/arturs_mekss" class="grid_3">
+            <img src="./images/rubie-100.png">
+            Artūrs Mekšs, coach
+            <small>@arturs_mekss</small>
+          </a>
+          <a href="https://twitter.com/duksis" class="grid_3">
+            <img src="./images/rubie-100.png">
+            Hugo Duksis, coach
+            <small>@duksis</small>
+          </a>
           <a href="https://twitter.com/janic_" class="grid_3">
             <img src="./images/rubie-100.png">
             Jānis Vītums, coach
@@ -335,7 +327,7 @@ Steps to show on site
     </div>
     </div>
       
-    <!-- /content -->
+    <!-- footer -->
     
     <footer>
         <p>2010-2012, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/pages/Rails-Girls/136157603144471">Facebook</a></p>
