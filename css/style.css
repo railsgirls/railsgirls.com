@@ -305,12 +305,6 @@ background:url('../images/rg-austin.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.frankfurt#promo {
-  padding-left:340px;
-  background:url('../images/rg-frankfurt.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
-}
-
 pre {
   background:#eee;
   color:#111;
@@ -344,6 +338,16 @@ pre {
     color:#444;
     font-weight:normal;
     letter-spacing:3px;
+}
+
+.frankfurt#promo {
+  padding-left:340px;
+  background:url('../images/rg-frankfurt.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.frankfurt#promo h1 {
+  background:url('../images/rg-frankfurt-header.png') no-repeat left top;
 }
 
 .zagreb#promo h1 {
@@ -560,10 +564,6 @@ pre {
   padding-left:340px;
   background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-}
-
-.frankfurt#promo h1 {
-  background:url('../images/rg-frankfurt-header.png') no-repeat left top;
 }
 
 .dallas#promo h1.event-city {
