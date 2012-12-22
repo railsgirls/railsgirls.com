@@ -9,7 +9,7 @@
 		
 		<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->		
 		<meta name="author" content="Rails Girls Vienna">
-		<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>		
+		<meta property="og:image" content="./images/railsgirls-sq.png"/>		
 		<meta name="description" content="Rails Girls will stop in Vienna on 18-19 January 2013! We invite all interested women & girls to come and build their very first web application with Ruby on Rails.">
 		
 		<link rel="keywords" content="Rails Girls, Vienna, Austria, Wien, &Ouml;sterreich, J&auml;nner, Januar, January programming, programmieren, coden, coding, Ruby, Rails, Frau, Frauen, M&auml;dchen, woman, women, girl, girls, Programmiersprache, programming language, Event, Veranstaltung, Kurs, course, free, kostenlos, gratis, development">
@@ -23,6 +23,25 @@
 		<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+
+<!--	How to change the picture & header for site
+		In the assets folder there is a file called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
+	
+		Steps to show on site
+		1. Go to style.css
+		2. Add two lines, always replacing 'yourcityname' with your actual city name. 
+	
+	    .yourcityname#promo {
+	      padding-left:340px;
+	      background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+	                     url('../images/separator.png') no-repeat center bottom;
+	    }
+	
+	    .yourcityname#promo h1 {
+	      background:url('../images/rg-yourcityname-header.png') no-repeat left top;
+	    }
+	
+	    It will take a while before the changes show, so don't panic! -->
 
 		<style type="text/css">
 	    .vienna#promo {
@@ -62,27 +81,6 @@
 		        </nav>
 		    </div>
 	    </header>
-	
-<!--	How to change the picture & header for site
-		In the assets folder there is a file called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
-	
-		Steps to show on site
-		1. Go to style.css
-		2. Add two lines, always replacing 'yourcityname' with your actual city name. 
-	
-	    .yourcityname#promo {
-	      padding-left:340px;
-	      background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-	                     url('../images/separator.png') no-repeat center bottom;
-	    }
-	
-	    .yourcityname#promo h1 {
-	      background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-	    }
-	
-	    It will take a while before the changes show, so don't panic! 
-	    
--->
 
 <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
 	
@@ -101,7 +99,7 @@
 						Apply now! <a href="https://railsgirls.wufoo.com/forms/s7w8w7/">Applications</a> are open until 7 January.					
 					</p>
 					
-					<!-- Apply now! <a href="http://railsgirls.wufoo.com/forms/z7x0w7/">Applications</a> are open until the 10th of September.-->
+					<!-- Apply now! <a href="http://railsgirls.wufoo.com/forms/z7x0w7/">Applications</a> are open until the 10th of September. -->
 					
 					<!-- Applications will open later in December. Meanwhile, follow us on Twitter <a href="http://twitter.com/RailsGirls_VIE">@RailsGirls_VIE</a> or like our <a href="https://www.facebook.com/RailsGirlsVienna">Facebook Page</a> for updates! -->
 					<p>
@@ -128,10 +126,8 @@
 	
 				</div>
 
-				<hr>
-
-					
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->	  
+				<hr>					
+				<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->	  
 				<div class="grid_4 alpha feature">
 					<p>
 						<strong>You learn</strong> designing, prototyping and coding with the help of our coaches.
@@ -149,11 +145,9 @@
 				</div>
 				
 				<hr>
-	
 <!--  Update the texts! -->
 	 
 				<div class="grid_6 alpha">
-		  
 	<!--
 					<h2>Friday xxth Month</h2>
 	-->
@@ -182,10 +176,7 @@
 					</table>
 					
 					<hr />
-				
-<!--
-					<h2>Saturday xxth month</h2>
--->
+					<!-- <h2>Saturday xxth month</h2> -->
 					<h2>Saturday, 19 January</h2>
 					
 <!--	    
@@ -309,10 +300,22 @@
 -->
 						<strong>Location:</strong> <a href="http://vienna.the-hub.net/">The Hub Vienna</a>
 					</p>
-					
-	<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-		        
-		
+
+        			<h3>Press coverage</h3>
+       					<p>
+       						<a href="http://derstandard.at/1355460357559/Rails-Girls-Vienna-Aenfaengerinnen-lernen-programmieren">"Rails Girls Vienna": Anf&auml;ngerinnen lernen programmieren</a>
+       						<br>
+       						derStandard.at/Web, 21.12.2012
+       					</p>   			
+       
+       					<p>
+       						<a href="http://futurezone.at/digitallife/13107-rails-girls-animieren-frauen-zum-programmieren.php">Rails Girls animieren Frauen zum Programmieren</a>
+       						<br>
+       						futurezone.at, 20.12.2012
+       					</p>
+
+					<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
 					<h3>Partners</h3>
 		  
 						<p>Rails Girls Vienna is organised with the support of our wonderful partners!
@@ -365,8 +368,7 @@
 					<p>
 	<!--				<a href="http://www.coworkingcologne.de" style="float:right; margin:0 0 0; border:0;"><img src="./images/coworking.png" alt="Coworking Cologne"></a>
 					<a href="http://www.coworkingcologne.de">Coworking Cologne</a> is a Think & Do Ecosystem which helps to build Coworking Spaces, Fablabs, Think Tanks, Startup Accelerators, etc.		
-					</p>
-	-->
+					</p> -->
 					
 					<hr/>
 					
@@ -437,10 +439,6 @@
 					<a href="https://twitter.com/beanieboi" class="grid_3">
 					Benjamin Fritsch, coach
 					<small>@beanieboi</small>
-					</a>		
-					<a href="https://twitter.com/twissi" class="grid_3">
-					Kristin Albert, coach
-					<small>@twissi</small>
 					</a>
 					<a href="https://twitter.com/therod" class="grid_3">
 					Rodrigo Haenggi, coach
@@ -461,6 +459,14 @@
 					<a href="https://twitter.com/esad" class="grid_3">
 					Esad Hajdarevic, coach
 					<small>@esad</small>
+					</a>
+					<a href="https://github.com/miaerbus" class="grid_3">
+					Mia Erbus, coach
+					<small>miaerbus on GitHub</small>
+					</a>
+					<a href="https://twitter.com/andinovak" class="grid_3">
+					Andi Novak, coach
+					<small>@andinovak</small>
 					</a>
 				</div>		
 			</div>
