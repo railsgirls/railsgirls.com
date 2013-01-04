@@ -7,12 +7,12 @@ html {
 }
 
 body {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
     background:#fff;
-	color: #390c00;
-	text-rendering: optimizeLegibility;
-	font-size:14px;
+  color: #390c00;
+  text-rendering: optimizeLegibility;
+  font-size:14px;
 }
 
 #background {
@@ -26,17 +26,17 @@ body {
 }
 
 #poster h1 {
-	text-indent:-9999cm;
+  text-indent:-9999cm;
 }
 
 #vimeo {
-	margin:48px auto 0 auto;
-	width:580px;
-	background:#fff;
+  margin:48px auto 0 auto;
+  width:580px;
+  background:#fff;
 }
 
 #vimeo iframe {
-	-webkit-box-shadow:0 3px 8px rgba(0,0,0,0.5);
+  -webkit-box-shadow:0 3px 8px rgba(0,0,0,0.5);
 }
 
 .muted, .muted * {
@@ -305,6 +305,12 @@ background:url('../images/rg-austin.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.kampala#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 pre {
   background:#eee;
   color:#111;
@@ -352,7 +358,7 @@ pre {
 
 .zagreb#promo h1 {
   background:url('../images/rg-zagreb-header.png') no-repeat left top;
-	height:85px;
+  height:85px;
 }
 
 .ljubljana#promo h1 {
@@ -381,7 +387,7 @@ pre {
 }
 
 .prague#promo h1 {
-  background:url('../images/rg-prague-header.png') no-repeat left top;	
+  background:url('../images/rg-prague-header.png') no-repeat left top;
 }
 
 .austin#promo h1 {
@@ -468,7 +474,7 @@ pre {
 }
 
 .munich#promo h1 {
-	background:url('../images/rg-munich-header.png') no-repeat left top;
+  background:url('../images/rg-munich-header.png') no-repeat left top;
 }
 
 .tokyo#promo h1 {
@@ -534,7 +540,7 @@ pre {
 
 .chengdu#promo {
   padding-left:340px;
-  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                         		 url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                              url('../images/separator.png') no-repeat center bottom;
 }
 
 .chengdu#promo h1 {
@@ -548,6 +554,11 @@ pre {
 
 .gurgaon#promo h1 {
   background:url('../images/rg-gurgaon-header.png') no-repeat;
+  height: 85px;
+}
+
+.kampala#promo h1 {
+  background:url('../images/rg-kampala-header.png') no-repeat;
   height: 85px;
 }
 
@@ -597,7 +608,7 @@ pre {
 
 .melbourne#promo h1 {
   background:url('../images/rg-melbourne-header.png') no-repeat left top;
-	height:85px;
+  height:85px;
 }
 
 .dublin#promo {
@@ -1052,12 +1063,12 @@ footer a {
 }
 
 .quotes:before {
-	font-size:3em;
-	content:'“';
-	float:left;
-	margin-top:-15px;
-	color:#e0330c;
-	margin-left:-0.7em;
+  font-size:3em;
+  content:'“';
+  float:left;
+  margin-top:-15px;
+  color:#e0330c;
+  margin-left:-0.7em;
 }
 
 .upcoming span {
