@@ -58,6 +58,16 @@ body {
   background:url('../images/rg-beijing-header.png') no-repeat left top;
 }
 
+.beijing_siliconvalley#promo {
+  padding-left:340px;
+  background:url('../images/rg-beijing.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.beijing_siliconvalley#promo h1 {
+  background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
+}
+
 
 #promo {
   padding-left:340px;
