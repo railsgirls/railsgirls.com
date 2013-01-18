@@ -548,6 +548,10 @@ pre {
   background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
 }
 
+.philadelphia#promo h1 {
+  background:url('../images/rg-philadelphia-header.png') no-repeat left top;
+}
+
 .chengdu#promo {
   padding-left:340px;
   background:url('../images/rg-chengdu.png') no-repeat 0 10px,                              url('../images/separator.png') no-repeat center bottom;
@@ -582,6 +586,12 @@ pre {
 }
 
 .pittsburgh#promo {
+  padding-left:340px;
+  background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.philadelphia#promo {
   padding-left:340px;
   background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
