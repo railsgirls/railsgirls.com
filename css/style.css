@@ -644,6 +644,7 @@ pre {
 
 .rheinland#promo {
   padding-left:340px;
+  padding-bottom:51px;
   background:url('../images/rg-rheinland.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
