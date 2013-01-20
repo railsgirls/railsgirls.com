@@ -259,6 +259,12 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.tokyo#promo {
+  padding-left:340px;
+  background:url('../images/rg-tokyo.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .kyoto#promo {
   padding-left:340px;
   background:url('../images/rg-kyoto.png') no-repeat 0 10px,
@@ -489,6 +495,10 @@ pre {
 
 .tokyo-2012-09-07#promo h1 {
   background:url('../images/rg-tokyo-header-2012-09-07.png') no-repeat left top;
+}
+
+.tokyo#promo h1 {
+  background:url('../images/rg-tokyo-header.png') no-repeat left top;
 }
 
 .kyoto#promo h1 {
