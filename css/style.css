@@ -73,7 +73,8 @@ body {
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background: url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/rg-helsinki.jpg') no-repeat 10px 40px,
+             url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
 
@@ -344,8 +345,11 @@ pre {
 
 #promo h1 {
     text-indent:-9999cm;
-    margin-bottom:10px;
+    margin-bottom:10px;	
+}
 
+#promo.new {
+    padding-bottom:50px;
 }
 
 #promo.new h1 {
