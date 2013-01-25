@@ -19,7 +19,7 @@ You need to update two places.
  2. Add your city to **railsgirls.com/events.html**
 
 ## How to Change the Picture & Header for the Site
-In the **/assets** folder there is something called **rg-header.psd**. Be sure to download the **fonts** also. Name the file **rg-yourcityname-header.png** and your city picture **rg-yourcityname.png**. Add them to **/images** folder.
+Add your city picture **rg-yourcityname.png**. Add it to **/images** folder.
 
 **Steps to Show on Site**
  1. Go to **style.css**
@@ -29,10 +29,6 @@ In the **/assets** folder there is something called **rg-header.psd**. Be sure t
   padding-left:340px;
   background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-}
-
-.yourcityname#promo h1 {
-  background:url('../images/rg-yourcityname-header.png') no-repeat left top;
 }
 </pre>
 

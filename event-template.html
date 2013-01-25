@@ -9,7 +9,7 @@
   
 <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="Rails Girls goes (insert cityname) 28-29th September: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="description" content="Rails Girls goes (insert cityname) (insert date): join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
   <meta name="author" content="Rails Girls">
  
   <link rel="shortcut icon" href="/favicon.png">
@@ -50,16 +50,12 @@ In the assets folder there is something called rg-header.psd. Be sure to downloa
 
 Steps to show on site
 1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name. 
+2. Add these lines, always replacing 'yourcityname' with your actual city name. 
 
         .yourcityname#promo {
           padding-left:340px;
           background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
-        }
-
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
         }
 
         It will take a while before the changes show, so don't panic! 
@@ -71,12 +67,14 @@ Steps to show on site
  
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
-        <div id="promo" class="cologne">
-        <h1>Rails Girls (insert cityname) (dates) (year)</h1>
-        <p> Hello world!</p><p>
-          Rails Girls comes to (insert cityname)! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-<p>
-          Apply now! <a href="http://railsgirls.wufoo.com/forms/z7x0w7/">Applications</a> are open until the 10th of September.</p>
+        <div id="promo" class="new yourcity">
+        <h1>Rails Girls (insert city)
+            <small>(dates) (year)</small>
+        </h1>
+        <p>Hello world!</p>
+        <p>
+            Rails Girls comes to (insert cityname)! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
+        <p>Apply now! <a href="http://railsgirls.wufoo.com/forms/z7x0w7/">Applications</a> are open until the (insert date).</p>
 
 
 <!--  Update the sharing texts.-->
@@ -164,10 +162,6 @@ Steps to show on site
                   </td>
                 </tr>
             
-            
-            
-          
-
           <tr>
             <th>10:20 - 10:45</th>
             <td>
@@ -239,8 +233,8 @@ Steps to show on site
         
         <h3>Information</h3>
             <p>
-              <p><strong><a href="http://railsgirls.wufoo.com/forms/apply-to-rails-girls-cologne-2828-september/">Applications</a> close:</strong> September 10th<br/>
-                <strong>Acceptances informed:</strong>September 13th</p>
+              <p><strong><a href="http://railsgirls.wufoo.com/forms/yourcity/">Applications</a> close:</strong> September 10th<br/>
+                <strong>Acceptances informed:</strong>(insert date)</p>
               <strong>Location:</strong> (Add address and maybe link to Google Maps)
               
        
@@ -290,17 +284,16 @@ Steps to show on site
       
       
 <!--  Update the team list       -->
+
       <div class="coaches">
         <hr />
-        <h2>Cologne team</h2>
+        <h2>Yourcity team</h2>
         
         <a href="https://twitter.com/liane_thoennes" class="grid_3">
-Liane Thönnes, organizer
-<small>@liane_thoennes</small>
-</a>
+            Liane Thönnes, organizer
+            <small>@liane_thoennes</small>
+        </a>
 
-
-      
       </div>
       
     </div>
