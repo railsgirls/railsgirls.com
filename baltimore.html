@@ -27,15 +27,24 @@
         padding-left:0;
       }
 
-      .baltimore#promo img {
+      .baltimore#promo #photo {
+        float:left;
+        margin-bottom:15px;
+        margin-right:50px;
+      }
+
+      .baltimore#promo #photo img {
         -moz-border-radius:15px;
         -o-border-radius:150px;
         -ms-border-radius:150px;
         -webkit-border-radius:150px;
         border-radius:150px;
-        float:left;
-        margin-bottom:15px;
-        margin-right:50px;
+        display:block;
+      }
+
+      .baltimore#promo #photo small {
+        font-size:10pt;
+        padding:1em 0 0 0;
       }
 
       .baltimore#promo h1 {
@@ -76,7 +85,13 @@
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="baltimore">
-          <img alt="Baltimore Harbor" src="/images/rg-baltimore.jpg" height="290" width="290" />
+          <div id="photo">
+            <img alt="Baltimore Harbor" src="/images/rg-baltimore.jpg" height="290" width="290" />
+            <small>
+              Photo credit:
+              <br /><a href="http://www.flickr.com/photos/ktylerconk/3181331268/">www.flickr.com/photos/ktylerconk/3181331268/</a>
+            </small>
+          </div>
           <h1>Rails Girls Baltimore: March 1st-2nd, 2013</h1>
           <p>Welcome, friends!</p>
           <p>
