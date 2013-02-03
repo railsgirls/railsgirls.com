@@ -29,7 +29,15 @@
       <![endif]-->
     </head>
     <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
         <header>
         <div class="container_12">
             <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -83,18 +91,9 @@ Steps to show on site
         
           <div id="share">
 
-            <div>
-
-            <!---<div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls (insert city) (insert date)  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
-            Tweet</a>
-              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>-->
-            </div>
-
-            <div id="fb-root" style=""></div>
-            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
-
+            <div class="fb-like-box" data-href="http://www.facebook.com/RailsGirlsWroclaw" data-width="292" data-show-faces="false" data-stream="false" data-header="true">
+		
+	    </div>
           </div>
         </p>
         </div>
@@ -110,7 +109,7 @@ Steps to show on site
         <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <br><a href="mailto:wroclaw@railsgirls.com">Email us</a>.</p><br>
+        <p><strong><b>Want to help?</b></strong> We are looking for sponsors, speakers and volunteers!<br><a href="mailto:wroclaw@railsgirls.com">Email us</a>.</p><br>
       </div>
       
       <hr />
@@ -189,8 +188,12 @@ Steps to show on site
           <tr>
             <th>13:45 - 14:30</th>
             <td>
-              <h4>Lighting talks</h4>
-	       Speakers will be announced soon!<br>
+              <h4>Lighting talks*</h4>
+	       Go Rails Go<br>
+	       Marcin Sulikowski<br>
+	       Piotr Orzechowski<br>
+	       Maciej Oleksy<br>
+	       <font size="2" color='808080'><i>*this is only random order</i></font><br>
             </td>
           </tr>
 
@@ -204,8 +207,12 @@ Steps to show on site
           <tr>
             <th>17:00</th>
             <td>
-              <h4>Final lightning talks</h4>
-              Speakers will be announced soon!<br>
+              <h4>Final lightning talks*</h4>
+              Marcin Jędras<br>
+	       Piotr Żołnierek<br>
+	       Paweł Sołyga<br>
+	       Tomasz Popów<br>
+	       <font size="6" color='808080'><i>*this is only random order</i></font><br>
             
             </td>
           </tr>
@@ -234,15 +241,44 @@ Steps to show on site
 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
             
 
-       <h3>Partners</h3>
+       <h3>Sponsors</h3>
       
        <p>Rails Girls Wroclaw is co-organized with our awesome partners.</p><p>
-         <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:wroclaw@railsgirls.com">Email us</a>! </p>
-         <p>
-           <a href="http://www.kmpgroup.pl" style="float:right; margin:0 0 0; border:0;"><img src="./images/kmpgroup.png" alt="KMP group"></a>
-         <a href="http://www.kmpgroup.pl">KMP Group</a> provides unique <br>IT solutions, including comprehensive service, covering consultancy, strategy, development and implementation <br> of IT products
-
+         <p><strong>Want to help? We're looking for partners, sponsors and speakers for the non-profit event! </strong><a href="mailto:wroclaw@railsgirls.com">Email us</a>! </p>
+	 
+	 <p>
+           <a href="http://www.google.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/google-logo.png" alt="Google"></a>
+         <a href="http://www.google.com">Google</a><br>This one does not need an introduction :)<br><br>
 </p>
+	 
+	 <p>
+           <a href="http://www.gorailsgo.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/go-rails-go.png" alt="Go Rails Go"></a>
+         <a href="http://www.gorailsgo.com">Go Rails Go</a> is the team <br>of expertly trained and incomparably amicable Ruby on Rails developers<br><br>
+</p>
+
+	 <p>
+           <a href="http://www.selleo.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/selleo-logo.png" alt="Selleo"></a>
+         <a href="http://www.selleo.com">Selleo</a> creates meaningful web and mobile applications. They are specialising in Ruby on Rails development and other related web technologies <br><br>
+</p>
+
+	 <p>
+           <a href="http://www.kmpgroup.pl" style="float:right; margin:0 0 0; border:0;"><img src="./images/kmpgroup.png" alt="KMP group"></a>
+         <a href="http://www.kmpgroup.pl">KMP Group</a> provides unique <br> IT solutions including <br> comprehensive service, covering consultancy, strategy, development and implementation <br> of IT products
+</p>
+	 
+	 
+<h3>Partners</h3>
+
+	 	 <p>
+           <a href="http://www.helion.pl" style="float:right; margin:0 0 0; border:0;"><img src="./images/helionlogo.png" alt="Helion"></a>
+         <a href="http://www.helion.pl">Helion</a> is the leading publisher of computer books in Poland<br><br>
+	 
+	  	 <p>
+           <a href="http://www.na.pwr.wroc.pl" style="float:right; margin:0 0 0; border:0;"><img src="./images/na-pwr-logo.png" alt="NA PWr"></a>
+         <a href="http://www.na.pwr.wroc.pl">NA PWr</a> The infoportal of students community at Wroclaw University of Technology <br> 
+</p>
+
+
 <p>
     <!--<a href="http://www.railslove.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/railslove.jpg" alt="Railslove"></a>
          <a href="http://www.railslove.com">Railslove</a> is a small team of passionate hackers, thinkers and designers creating juicy stuff for the web.
@@ -284,15 +320,17 @@ Aneta Rejdych, organizer
 </a>
 
     <a href="" class="grid_3">
-Natalia Cieślak, organizer
-</a>
-
-    <a href="" class="grid_3">
 Joanna Wolska, organizer
 </a>
 
-    <a href="" class="grid_3">
+    <a href="https://twitter.com/Lexxzor" class="grid_3">
 Ola Berjak, organizer
+<small>@Lexxzor</small>
+</a>
+    
+    <a href="https://twitter.com/kolarzowski" class="grid_3">
+Staszek Kolarzowski, support
+<small>@kolarzowski</small>
 </a>
     
     <a href="https://twitter.com/_janek" class="grid_3">
@@ -301,8 +339,7 @@ Jan Dudek, coach
 </a>
 
     <a href="https://twitter.com/janfilipowski" class="grid_3">
-       Jan Filipowski, coach
-<small>@janfilipowski</small>
+       Ewa Limanówka, coach
 </a>
        
     <a href="https://twitter.com/sheerun" class="grid_3">
@@ -314,8 +351,9 @@ Adam Stankiewicz, coach
 Adrian Zamorski, coach
 </a>
     
-    <a href="" class="grid_3">
+    <a href="https://twitter.com/andrzejkrzywda" class="grid_3">
 Andrzej Krzywda, coach
+<small>@andrzejkrzywda</small>
 </a>
     
     <a href="" class="grid_3">
@@ -327,12 +365,14 @@ Konrad Kierys, coach
 <small>@kiero</small>
 </a>
     
-     <a href="" class="grid_3">
-Mateusz Bojarski, coach
+     <a href="https://twitter.com/matbaj" class="grid_3">
+Mateusz Bajorski, coach
+<small>@matbaj</small>
 </a>
      
-    <a href="" class="grid_3">
+    <a href="https://twitter.com/mjedras" class="grid_3">
 Marcin Jędras, coach
+<small>@mjedras</small>
 </a>
     
     <a href="" class="grid_3">
@@ -343,31 +383,41 @@ Mateusz Kubuszok, coach
 Piotr Lipiak, coach
 </a>
     
-    <a href="" class="grid_3">
+    <a href="https://twitter.com/piterniel" class="grid_3">
 Piotr Niełacny, coach
+<small>@piterniel</small>
 </a>
     
-    <a href="" class="grid_3">
+    <a href="https://twitter.com/switch_pl" class="grid_3">
 Kamil Dubel, coach
+<small>@switch_pl</small>
 </a>
     
-     <a href="" class="grid_3">
+     <a href="https://twitter.com/FilipPacanowski" class="grid_3">
 Filip Pacanowski, coach
+<small>@FilipPacanowski</small>
 </a>
-     
-      
+
+          <a href="https://twitter.com/chytreg" class="grid_3">
+Dariusz Gertych, coach
+<small>@chytreg</small>
+</a>
+
     <a href="https://twitter.com/swistak35" class="grid_3">
 Rafał Łasocha, coach
 <small>@swistak35</small>
 </a>
 
-  <a href="" class="grid_3">
+  <a href="https://twitter.com/karlaurbanska" class="grid_3">
 Karolina Urbańska, support
+<small>@karlaurbanska</small>
 </a>
   
     <a href="" class="grid_3">
 Joanna Głuchowska, support
 </a>
+    
+
 
 
 
