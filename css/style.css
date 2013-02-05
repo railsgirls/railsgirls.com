@@ -48,6 +48,15 @@ body {
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.porto#promo {
+  padding-left:340px;
+  background:url('../images/rg-porto.png') no-repeat 0px 10px,url('../images/separator.png') no-repeat center bottom;
+}
+
+.porto#promo h1 {
+  background:url('../images/rg-porto-header.png') no-repeat left top;
+}
+
 .beijing#promo {
   padding-left:340px;
   background:url('../images/rg-beijing.png') no-repeat 0 10px,
