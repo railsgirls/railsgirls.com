@@ -693,6 +693,19 @@ pre {
   background:url('../images/rg-rheinland-header.png') no-repeat left top;
 }
 
+.christchurch#promo {
+  padding-left:340px;
+  background:url('../images/rg-christchurch.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.christchurch#promo h1 {
+  background:url('../images/rg-christchurch-header.png') no-repeat left top;
+  height:85px;
+}
+
+
+
 #promo p {
   font-size:19px;
   line-height:1.4;
