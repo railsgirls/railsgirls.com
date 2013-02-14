@@ -105,6 +105,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.maribor#promo {
+  padding-left:340px;
+  background:url('../images/rg-maribor.png') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .dnipropetrovsk#promo {
   padding-left:340px;
   background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
@@ -403,6 +409,11 @@ pre {
 
 .ljubljana#promo h1 {
   background:url('../images/rg-ljubljana-header.png') no-repeat left top;
+  height:85px;
+}
+
+.maribor#promo h1 {
+  background:url('../images/rg-maribor-header.png') no-repeat left top;
   height:85px;
 }
 
