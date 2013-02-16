@@ -117,6 +117,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.bath#promo {
+          padding-left:340px;
+          background:url('../images/rg-bath.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+}
+
 .kyiv#promo {
   padding-left:340px;
   background:url('../images/rg-kyiv.jpg') no-repeat -20px 40px,
