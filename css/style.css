@@ -392,12 +392,6 @@ pre {
     letter-spacing:3px;
 }
 
-.rome#promo {
-  padding-left:340px;
-  background:url('../images/rg-rome.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
-}
-
 .frankfurt#promo {
   padding-left:340px;
   background:url('../images/rg-frankfurt.png') no-repeat 0 10px,
