@@ -715,7 +715,11 @@ pre {
   height:85px;
 }
 
-
+.london#promo {
+  padding-left:340px;
+  background:url('../images/rg-london.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 #promo p {
   font-size:19px;
