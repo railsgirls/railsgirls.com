@@ -585,6 +585,16 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.basel#promo h1 {
+  background:url('../images/rg-basel-header.png') no-repeat left top;
+}
+
+.basel#promo {
+  padding-left:340px;
+  background:url('../images/rg-basel.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .zurich#promo h1 {
   background:url('../images/rg-zurich-header.png') no-repeat left top;
 }
