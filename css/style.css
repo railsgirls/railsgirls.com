@@ -16,7 +16,7 @@ body {
 }
 
 #background {
-  background:url(../images/header.png) no-repeat 50% 180px;
+  background:url(/images/header.png) no-repeat 50% 180px;
 }
 
 #poster {
@@ -44,37 +44,37 @@ body {
 }
 .stockholm#promo {
           padding-left:340px;
-          background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
-                         url('../images/separator.png') no-repeat center bottom;
+          background:url('/images/rg-stockholm.png') no-repeat 0px 10px,
+                         url('/images/separator.png') no-repeat center bottom;
         }
 
 .porto#promo {
   padding-left:340px;
-  background:url('../images/rg-porto.png') no-repeat 0px 10px,url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-porto.png') no-repeat 0px 10px,url('/images/separator.png') no-repeat center bottom;
 }
 
 .porto#promo h1 {
-  background:url('../images/rg-porto-header.png') no-repeat left top;
+  background:url('/images/rg-porto-header.png') no-repeat left top;
 }
 
 .beijing#promo {
   padding-left:340px;
-  background:url('../images/rg-beijing.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-beijing.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .beijing#promo h1 {
-  background:url('../images/rg-beijing-header.png') no-repeat left top;
+  background:url('/images/rg-beijing-header.png') no-repeat left top;
 }
 
 .beijing_siliconvalley#promo {
   padding-left:340px;
-  background:url('../images/rg-beijing.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-beijing.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .beijing_siliconvalley#promo h1 {
-  background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
+  background:url('/images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
 
 
@@ -82,276 +82,276 @@ body {
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 10px 40px,
-             url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-helsinki.jpg') no-repeat 10px 40px,
+             url('/images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
 
 .oulu#promo {
   padding-left:340px;
-  background:url('../images/rg-oulu.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-oulu.png') no-repeat 10px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .zagreb#promo {
   padding-left:340px;
-  background:url('../images/rg-zagreb.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-zagreb.png') no-repeat 10px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .ljubljana#promo {
   padding-left:340px;
-  background:url('../images/rg-ljubljana.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-ljubljana.png') no-repeat 10px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .maribor#promo {
   padding-left:340px;
-  background:url('../images/rg-maribor.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-maribor.png') no-repeat 10px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .dnipropetrovsk#promo {
   padding-left:340px;
-  background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .bath#promo {
           padding-left:340px;
-          background:url('../images/rg-bath.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
+          background:url('/images/rg-bath.png') no-repeat 0 10px,
+                         url('/images/separator.png') no-repeat center bottom;
 }
 
 .kyiv#promo {
   padding-left:340px;
-  background:url('../images/rg-kyiv.jpg') no-repeat -20px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-kyiv.jpg') no-repeat -20px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .krakow#promo {
   padding-left:340px;
-  background:url('../images/rg-krakow.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-krakow.png') no-repeat 10px 40px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .manila#promo {
   padding-left:340px;
-  background:url('../images/rg-manila2.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-manila2.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .paris#promo {
   padding-left:340px;
-  background:url('../images/rg-paris.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-paris.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .riga#promo {
 padding-left:340px;
-background:url('../images/rg-riga.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+background:url('/images/rg-riga.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .prague#promo {
 padding-left:340px;
-background:url('../images/rg-prague.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+background:url('/images/rg-prague.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .austin#promo {
 padding-left:340px;
-background:url('../images/rg-austin.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+background:url('/images/rg-austin.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .singapore#promo {
   padding-left:340px;
-  background:url('../images/rg-singapore.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-singapore.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .shanghai#promo {
   padding-left:340px;
-  background:url('../images/rg-shanghai.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-shanghai.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .hamburg#promo {
   padding-left:340px;
-  background:url('../images/rg-hamburg.png') no-repeat 0 88px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-hamburg.png') no-repeat 0 88px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .berlin#promo {
   padding-left:340px;
-  background:url('../images/rg-berlin.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-berlin.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .tallinn#promo {
   padding-left:340px;
-  background:url('../images/rg-tallinn.png') no-repeat 0 -5px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-tallinn.png') no-repeat 0 -5px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .buenosaires#promo {
   padding-left:340px;
-  background:url('../images/rg-buenosaires.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-buenosaires.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .amsterdam#promo {
   padding-left:340px;
-  background:url('../images/rg-amsterdam.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-amsterdam.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .rotterdam#promo {
   padding-left:340px;
-  background:url('../images/rg-rotterdam.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-rotterdam.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 .thehague#promo {
   padding-left:340px;
-  background:url('../images/rg-thehague.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-thehague.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .sanfrancisco#promo {
   padding-left:340px;
-  background:url('../images/rg-sanfrancisco.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-sanfrancisco.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 
 .kharkov#promo {
   padding-left:340px;
-  background:url('../images/rg-kharkov.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-kharkov.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .recife#promo {
   padding-left:340px;
-  background:url('../images/rg-portoalegre.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-portoalegre.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .belem#promo {
   padding-left:340px;
-  background:url('../images/rg-belem.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-belem.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .portoalegre#promo {
   padding-left:340px;
-  background:url('../images/rg-portoalegre.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-portoalegre.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 
 .saopaulo#promo {
   padding-left:340px;
-  background:url('../images/rg-saopaulo.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-saopaulo.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .cologne#promo {
   padding-left:340px;
-  background:url('../images/rg-cologne.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-cologne.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 /*.washington#promo {*/
   /*padding-left:340px;*/
-  /*background:url('../images/rg-washington.png') no-repeat 0 10px,*/
-                 /*url('../images/separator.png') no-repeat center bottom;*/
+  /*background:url('/images/rg-washington.png') no-repeat 0 10px,*/
+                 /*url('/images/separator.png') no-repeat center bottom;*/
 /*}*/
 
 .portland#promo {
   padding-left:420px;
-  background:url('../images/rg-portland.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-portland.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .munich#promo {
   padding-left:340px;
-  background:url('../images/rg-munich.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-munich.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .tokyo-2012-09-07#promo {
   padding-left:340px;
-  background:url('../images/rg-tokyo-2012-09-07.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-tokyo-2012-09-07.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
   }
 
 .tokyo#promo {
   padding-left:340px;
-  background:url('../images/rg-tokyo.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-tokyo.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
   }
 
 .kyoto#promo {
   padding-left:340px;
-  background:url('../images/rg-kyoto.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-kyoto.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .chicago#promo {
   padding-left:340px;
-  background:url('../images/rg-berlin.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-berlin.png') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 .gurgaon#promo {
   padding-left:340px;
-  background:url('../images/rg-berlin.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-berlin.png') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 
 .atlanta#promo {
   padding-left:340px;
-  background:url('../images/rg-atlanta.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-atlanta.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .brussels#promo {
   padding-left:340px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-helsinki.jpg') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 
 .turku#promo {
   padding-left:340px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-helsinki.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .wroclaw#promo {
   padding-left:340px;
-  background:url('../images/rg-wroclaw.jpg') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-wroclaw.jpg') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 .belohorizonte#promo {
   padding-left:340px;
-  background:url('../images/rg-belohorizonte.jpg') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-belohorizonte.jpg') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 .riodejaneiro#promo {
   padding-left:340px;
-  background:url('../images/rg-riodejaneiro.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-riodejaneiro.png') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 .kampala#promo {
   padding-left:340px;
-  background:url('../images/rg-berlin.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-berlin.png') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 pre {
@@ -394,268 +394,268 @@ pre {
 
 .frankfurt#promo {
   padding-left:340px;
-  background:url('../images/rg-frankfurt.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-frankfurt.png') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 .frankfurt#promo h1 {
-  background:url('../images/rg-frankfurt-header.png') no-repeat left top;
+  background:url('/images/rg-frankfurt-header.png') no-repeat left top;
 }
 
 .zagreb#promo h1 {
-  background:url('../images/rg-zagreb-header.png') no-repeat left top;
+  background:url('/images/rg-zagreb-header.png') no-repeat left top;
   height:85px;
 }
 
 .ljubljana#promo h1 {
-  background:url('../images/rg-ljubljana-header.png') no-repeat left top;
+  background:url('/images/rg-ljubljana-header.png') no-repeat left top;
   height:85px;
 }
 
 .maribor#promo h1 {
-  background:url('../images/rg-maribor-header.png') no-repeat left top;
+  background:url('/images/rg-maribor-header.png') no-repeat left top;
   height:85px;
 }
 
 .dnipropetrovsk#promo h1 {
-  background:url('../images/rg-dnipropetrovsk-header.png') no-repeat left top;
+  background:url('/images/rg-dnipropetrovsk-header.png') no-repeat left top;
 }
 
 .kyiv#promo h1 {
-  background:url('../images/rg-kyiv-header.png') no-repeat left top;
+  background:url('/images/rg-kyiv-header.png') no-repeat left top;
 }
 
 .atlanta#promo h1 {
-  background:url('../images/rg-atlanta-header.png') no-repeat left top;
+  background:url('/images/rg-atlanta-header.png') no-repeat left top;
 }
 
 .paris#promo h1 {
-  background:url('../images/rg-paris-header.png') no-repeat left top;
+  background:url('/images/rg-paris-header.png') no-repeat left top;
 }
 
 .riga#promo h1 {
-  background:url('../images/rg-riga-header.png') no-repeat left top;
+  background:url('/images/rg-riga-header.png') no-repeat left top;
 }
 
 .prague#promo h1 {
-  background:url('../images/rg-prague-header.png') no-repeat left top;
+  background:url('/images/rg-prague-header.png') no-repeat left top;
 }
 
 .austin#promo h1 {
-  background:url('../images/rg-austin-header.png') no-repeat left top;
+  background:url('/images/rg-austin-header.png') no-repeat left top;
 }
 
 .amsterdam#promo h1 {
-  background:url('../images/rg-amsterdam-header.png') no-repeat left top;
+  background:url('/images/rg-amsterdam-header.png') no-repeat left top;
 }
 
 .rotterdam#promo h1 {
-  background:url('../images/rg-rotterdam-header.png') no-repeat left top;
+  background:url('/images/rg-rotterdam-header.png') no-repeat left top;
 }
 
 .thehague#promo h1 {
-  background:url('../images/RG-thehague-header.png') no-repeat left top;
+  background:url('/images/RG-thehague-header.png') no-repeat left top;
   height: 90px;
 }
 
 
 .singapore#promo h1 {
-  background:url('../images/rg-singapore-header.png') no-repeat left top;
+  background:url('/images/rg-singapore-header.png') no-repeat left top;
 }
 
 .shanghai#promo h1 {
-  background:url('../images/rg-shanghai-header.png') no-repeat left top;
+  background:url('/images/rg-shanghai-header.png') no-repeat left top;
 }
 
 .berlin#promo h1 {
-  background:url('../images/rg-berlin-header.png') no-repeat left top;
+  background:url('/images/rg-berlin-header.png') no-repeat left top;
 }
 
 .tallinn#promo h1 {
-  background:url('../images/rg-tallinn-header.png') no-repeat left top;
+  background:url('/images/rg-tallinn-header.png') no-repeat left top;
 }
 
 .krakow#promo h1 {
-  background:url('../images/rg-krakow-header.png') no-repeat left top;
+  background:url('/images/rg-krakow-header.png') no-repeat left top;
 }
 
 .buenosaires#promo h1 {
-  background:url('../images/rg-buenosaires-header.png') no-repeat left top;
+  background:url('/images/rg-buenosaires-header.png') no-repeat left top;
 }
 
 .sanfrancisco#promo h1 {
-  background:url('../images/rg-sanfrancisco-header.png') no-repeat -4px top;
+  background:url('/images/rg-sanfrancisco-header.png') no-repeat -4px top;
 }
 
 .oulu#promo h1 {
-  background:url('../images/rg-oulu-header.png') no-repeat left top;
+  background:url('/images/rg-oulu-header.png') no-repeat left top;
 }
 
 .kharkov#promo h1 {
-  background:url('../images/rg-kharkov-header.png') no-repeat left top;
+  background:url('/images/rg-kharkov-header.png') no-repeat left top;
 }
 
 .saopaulo#promo h1 {
-  background:url('../images/rg-saopaulo-header.png') no-repeat left top;
+  background:url('/images/rg-saopaulo-header.png') no-repeat left top;
 }
 
 .recife#promo h1 {
-  background:url('../images/rg-recife-header.png') no-repeat left top;
+  background:url('/images/rg-recife-header.png') no-repeat left top;
 }
 
 .belem#promo h1 {
-  background:url('../images/rg-belem-header.png') no-repeat left top;
+  background:url('/images/rg-belem-header.png') no-repeat left top;
 }
 
 .hamburg#promo h1 {
-  background:url('../images/rg-hamburg-header.png') no-repeat left top;
+  background:url('/images/rg-hamburg-header.png') no-repeat left top;
 }
 
 
 .portoalegre#promo h1 {
-  background:url('../images/rg-portoalegre-header.png') no-repeat left top;
+  background:url('/images/rg-portoalegre-header.png') no-repeat left top;
 }
 
 
 .cologne#promo h1 {
-  background:url('../images/rg-cologne-header.png') no-repeat left top;
+  background:url('/images/rg-cologne-header.png') no-repeat left top;
 }
 
 
 .washington#promo h1 {
-  background:url('../images/rg-washington-header.png') no-repeat left top;
+  background:url('/images/rg-washington-header.png') no-repeat left top;
 }
 
 .portland#promo h1 {
-  background:url('../images/rg-portland-header.png') no-repeat left top;
+  background:url('/images/rg-portland-header.png') no-repeat left top;
 }
 
 .munich#promo h1 {
-  background:url('../images/rg-munich-header.png') no-repeat left top;
+  background:url('/images/rg-munich-header.png') no-repeat left top;
 }
 
 .tokyo-2012-09-07#promo h1 {
-  background:url('../images/rg-tokyo-header-2012-09-07.png') no-repeat left top;
+  background:url('/images/rg-tokyo-header-2012-09-07.png') no-repeat left top;
 }
 
 .tokyo#promo h1 {
-  background:url('../images/rg-tokyo-header.png') no-repeat left top;
+  background:url('/images/rg-tokyo-header.png') no-repeat left top;
 }
 
 .kyoto#promo h1 {
-  background:url('../images/rg-kyoto-header.png') no-repeat left top;
+  background:url('/images/rg-kyoto-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
-  background:url('../images/rg-chicago-header.png') no-repeat left top;
+  background:url('/images/rg-chicago-header.png') no-repeat left top;
 }
 .brussels#promo h1 {
-  background:url('../images/rg-brussels-header.png') no-repeat left top;
+  background:url('/images/rg-brussels-header.png') no-repeat left top;
 }
 
 .madrid#promo h1 {
-  background:url('../images/rg-madrid-header.png') no-repeat left top;
+  background:url('/images/rg-madrid-header.png') no-repeat left top;
 }
 
 .warsaw#promo h1 {
-  background:url('../images/rg-warsaw-header.png') no-repeat left top;
+  background:url('/images/rg-warsaw-header.png') no-repeat left top;
 }
 
 .turku#promo h1 {
-  background:url('../images/rg-turku-header.png') no-repeat left top;
+  background:url('/images/rg-turku-header.png') no-repeat left top;
 }
 
 .warsaw#promo {
   padding-left:340px;
-  background:url('../images/rg-warsaw.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-warsaw.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .manila#promo h1 {
-  background:url('../images/rg-manila-header.png') no-repeat left top;
+  background:url('/images/rg-manila-header.png') no-repeat left top;
 }
 
 .natal#promo h1 {
-  background:url('../images/rg-natal-header2.png') no-repeat left top;
+  background:url('/images/rg-natal-header2.png') no-repeat left top;
 }
 
 .natal#promo {
   padding-left:340px;
-  background:url('../images/rg-warsaw.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-warsaw.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .basel#promo h1 {
-  background:url('../images/rg-basel-header.png') no-repeat left top;
+  background:url('/images/rg-basel-header.png') no-repeat left top;
 }
 
 .basel#promo {
   padding-left:340px;
-  background:url('../images/rg-basel.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-basel.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .zurich#promo h1 {
-  background:url('../images/rg-zurich-header.png') no-repeat left top;
+  background:url('/images/rg-zurich-header.png') no-repeat left top;
 }
 
 .zurich#promo {
   padding-left:340px;
-  background:url('../images/rg-zurich.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-zurich.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .pittsburgh#promo h1 {
-  background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
+  background:url('/images/rg-pittsburgh-header.png') no-repeat left top;
 }
 
 .philadelphia#promo h1 {
-  background:url('../images/rg-philadelphia-header.png') no-repeat left top;
+  background:url('/images/rg-philadelphia-header.png') no-repeat left top;
 }
 
 .chengdu#promo {
   padding-left:340px;
-  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                              url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-chengdu.png') no-repeat 0 10px,                              url('/images/separator.png') no-repeat center bottom;
 }
 
 .chengdu#promo h1 {
-  background:url('../images/rg-chengdu-header.png') no-repeat left top;
+  background:url('/images/rg-chengdu-header.png') no-repeat left top;
 }
 
 .wroclaw#promo h1 {
- background:url('../images/rg-wroclaw-header.png') no-repeat;
+ background:url('/images/rg-wroclaw-header.png') no-repeat;
 
 }
 
 .gurgaon#promo h1 {
-  background:url('../images/rg-gurgaon-header.png') no-repeat;
+  background:url('/images/rg-gurgaon-header.png') no-repeat;
   height: 85px;
 }
 
 .kampala#promo h1 {
-  background:url('../images/rg-kampala-header.png') no-repeat;
+  background:url('/images/rg-kampala-header.png') no-repeat;
   height: 85px;
 }
 
 .belohorizonte#promo h1 {
-  background:url('../images/rg-belohorizonte-header.png') no-repeat;
+  background:url('/images/rg-belohorizonte-header.png') no-repeat;
   height: 85px;
 }
 .riodejaneiro#promo h1 {
-  background:url('../images/rg-riodejaneiro-header.png') no-repeat;
+  background:url('/images/rg-riodejaneiro-header.png') no-repeat;
   height: 85px;
 }
 
 .pittsburgh#promo {
   padding-left:340px;
-  background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-pittsburgh.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .philadelphia#promo {
   padding-left:340px;
-  background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-pittsburgh.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .dallas#promo h1.event-city {
@@ -677,58 +677,58 @@ pre {
 
 .dallas#promo {
   padding-left:340px;
-  background:url('../images/rg-dallas.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-dallas.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .melbourne#promo {
   padding-left:340px;
-  background:url('../images/rg-melbourne.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-melbourne.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .melbourne#promo h1 {
-  background:url('../images/rg-melbourne-header.png') no-repeat left top;
+  background:url('/images/rg-melbourne-header.png') no-repeat left top;
   height:85px;
 }
 
 .dublin#promo {
   padding-left:340px;
-  background:url('../images/rg-dublin.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-dublin.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .dublin#promo h1 {
-    background:url('../images/rg-dublin-header.png') no-repeat left top;
+    background:url('/images/rg-dublin-header.png') no-repeat left top;
 
     }
 
 .rheinland#promo {
   padding-left:340px;
   padding-bottom:51px;
-  background:url('../images/rg-rheinland.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-rheinland.png') no-repeat 0 10px,
+  url('/images/separator.png') no-repeat center bottom;
 }
 
 .rheinland#promo h1 {
-  background:url('../images/rg-rheinland-header.png') no-repeat left top;
+  background:url('/images/rg-rheinland-header.png') no-repeat left top;
 }
 
 .christchurch#promo {
   padding-left:340px;
-  background:url('../images/rg-christchurch.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-christchurch.png') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 .christchurch#promo h1 {
-  background:url('../images/rg-christchurch-header.png') no-repeat left top;
+  background:url('/images/rg-christchurch-header.png') no-repeat left top;
   height:85px;
 }
 
 .london#promo {
   padding-left:340px;
-  background:url('../images/rg-london.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/rg-london.jpg') no-repeat 0 10px,
+                 url('/images/separator.png') no-repeat center bottom;
 }
 
 #promo p {
@@ -932,7 +932,7 @@ nav a {
 
 nav a:after {
   margin-left:15px;
-  content:url(../images/star.png);
+  content:url(/images/star.png);
 }
 
 nav a:last-child:after {
@@ -1234,7 +1234,7 @@ h2 a {
     margin-top: 3px;
 }
 .baltimore#promo {
-  background:url('../images/separator.png') no-repeat center bottom;
+  background:url('/images/separator.png') no-repeat center bottom;
   padding-left:0;
 }
 
@@ -1259,7 +1259,7 @@ h2 a {
 }
 
 .baltimore#promo h1 {
-  background:url('../images/rg-baltimore-header.png') no-repeat left top;
+  background:url('/images/rg-baltimore-header.png') no-repeat left top;
   margin-left:340px;
 }
 
