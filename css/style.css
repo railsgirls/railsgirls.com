@@ -1196,3 +1196,94 @@ h2 a {
   margin-right:15px;
 }
 
+#promo.zagreb .register-wrapper {
+  text-align: center;
+  font-size: .9em;
+  color: #666;
+}
+#promo.zagreb .register-wrapper .register {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-shadow: black 1px 1px 1px;
+  display: block;
+  float: none;
+  margin: 0 auto .5em auto;
+  width: 10em;
+}
+
+#promo.zagreb p[lang=en] {
+  font-style: italic;
+}
+
+.vienna#promo {
+  padding-left: 340px;
+  background:url('images/rg-vienna.png') no-repeat 0 10px,
+  url('') no-repeat center bottom;
+}
+	
+.vienna#promo h1 {
+  background:url('images/rg-vienna-header.png') no-repeat left top;
+  height: 82px;	      
+}
+#mc_embed_signup #mce-EMAIL {
+  background: #F4F4F4;
+  display: inline-block;
+}
+#mc_embed_signup #mc-embedded-subscribe {
+    display: inline-block;
+    margin-top: 3px;
+}
+.baltimore#promo {
+  background:url('../images/separator.png') no-repeat center bottom;
+  padding-left:0;
+}
+
+.baltimore#promo #photo {
+  float:left;
+  margin-bottom:15px;
+  margin-right:50px;
+}
+
+.baltimore#promo #photo img {
+  -moz-border-radius:15px;
+  -o-border-radius:150px;
+  -ms-border-radius:150px;
+  -webkit-border-radius:150px;
+  border-radius:150px;
+  display:block;
+}
+
+.baltimore#promo #photo small {
+  font-size:10pt;
+  padding:1em 0 0 0;
+}
+
+.baltimore#promo h1 {
+  background:url('../images/rg-baltimore-header.png') no-repeat left top;
+  margin-left:340px;
+}
+
+.baltimore #schedule th {
+  width:33%;
+}
+
+.baltimore .sponsor {
+  margin:2em 0 3em 0;
+}
+
+.baltimore .sponsor a {
+  font-weight:bold;
+}
+
+.baltimore .sponsor .sponsor-image {
+  border-width:0;
+  display:block;
+  margin:1em 0;
+}
+
+.baltimore .sponsor a img {
+  border-width:0;
+}
+.gurgaon .coaches a {
+  margin-bottom: 0;
+}
