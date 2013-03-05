@@ -1,70 +1,8 @@
-<!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="utf-8">
-
-    <!--  Add your city name, dates and year.  -->
-
-    <title>Kyoto 14-15th December 2012</title>
-
-    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
-
-    <meta name="description" content="Rails Girls goes Kyoto 14-15th December: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
-    <meta name="author" content="Rails Girls">
-
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="./css/style.css">
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
-    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-    <header>
-      <div class="container_12">
-        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-        <nav>
-          <a href="./events.html">Events</a>
-          <a href="./materials.html">Materials</a>
-          <a href="./press.html">Press</a>
-          <a href="http://blog.railsgirls.com">Blog</a>
-          <a href="http://guides.railsgirls.com">Guides</a>
-        </nav>
-      </div>
-    </header>
-
-    <!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-        }
-
-        It will take a while before the changes show, so don't panic!
-
--->
-
-
-    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
-
+---
+layout: default
+title: "Rails Girls Kyoto 14-15th December 2012"
+description: "Rails Girls goes Kyoto 14-15th December: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails."
+---
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="kyoto">
@@ -237,23 +175,23 @@ Steps to show on site
           <h3>パートナー</h3>
 
           <p>Rails Girls Kyoto は以下のすばらしいパートナーとの共同開催です。</p>
-          <p><a href="http://www.hatena.ne.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/hatena.png" alt="Hatena" width="200"></a>
+          <p><a href="http://www.hatena.ne.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="/images/hatena.png" alt="Hatena" width="200"></a>
             <a href="http://www.hatena.ne.jp/">株式会社はてな</a>は創業以来、人と人とのコミュニケーションを促進し、価値ある情報をより多くの人に届けることをミッションとしている会社です。「人力検索はてな」やソーシャルブックマークサービス「はてなブックマーク」など、ときには楽しくときには便利に、また長く使い続けることのできる、まるで生活のパートナーとして存在できるようなサービスを提供しています。</p>
-            <p><a href="http://www.paperboy.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/paperboy_sponsors.png" alt="paperboy&co." width="200"></a>
+            <p><a href="http://www.paperboy.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="/images/paperboy_sponsors.png" alt="paperboy&co." width="200"></a>
               <a href="http://www.paperboy.co.jp/">株式会社paperboy&co.</a> 「もっとおもしろくできる」を
               企業理念として、より多くの人に情報発信する喜びを提供できるよう、レンタルサーバー「ロリポップ!」に代表される
               個人向けインターネットサービスの開発と運営をしている会社です。 2012 年から開発言語を PHP から Ruby に
               切り替えるなど、全社的に Ruby と Rails への取り組みを強化しています。 </p>
-              <p><a href="http://www.happyelements.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/happyelements.png" alt="Happy Elements" width="200"></a>
+              <p><a href="http://www.happyelements.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="/images/happyelements.png" alt="Happy Elements" width="200"></a>
               Facebook(中国語)内でトップクラスのソーシャルゲームを手掛ける<a href="http://www.happyelements.co.jp/">HappyElements</a>。2010年に日本法人を設立。独立した開発スタジオとして、Ruby on Rails の高い生産性を活かし、モバイル向けのゲームを開発しています。将来的には中国本社とのシナジーを活かし日本から世界へ、日本発のソーシャルゲームを世界で展開したいと考えています。</p>
-              <p><a href="http://www.crandim.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/crandim_logo.png" alt="Crandim" width="200"></a>
+              <p><a href="http://www.crandim.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="/images/crandim_logo.png" alt="Crandim" width="200"></a>
                 <a href="http://www.crandim.co.jp/">クランディム</a>は創意・熱意・誠意を持って、顧客・社会・未来に貢献し、「ありがとうを創造する」を理念として業務系アプリケーション、コンシューマー系アプリケーションの開発を行っている会社です。2012年からはRuby と Railsを取り入れてさらなる「ありがとう」創造したいと考えています。</p>
-                <p><a href="http://everyleaf.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/everyleaf-logo.png" alt="Everyleaf" width="150"></a>
+                <p><a href="http://everyleaf.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="/images/everyleaf-logo.png" alt="Everyleaf" width="150"></a>
                   <a href="http://everyleaf.com/">(株)万葉</a> は「楽しく、役に立つ開発」をモットーに、Ruby on Rails
               によるWebアプリケーション開発や、スマートフォンアプリの開発サービスを提供しています。
               開発実績はEC、グループウェア、業務アプリケーション、ゲームなど。
               万葉はRubyコミュニティと共に成長していきたいと考えています。</p>
-                  <p><a href="http://ruby-no-kai.org" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/ruby-no-kai-long.png" alt="Nihon-Ruby-No-Kai" width="160"></a>
+                  <p><a href="http://ruby-no-kai.org" style="float:right; margin:0 0 0 15px; border:0;"><img src="/images/ruby-no-kai-long.png" alt="Nihon-Ruby-No-Kai" width="160"></a>
                     <a href="http://ruby-no-kai.org">日本Rubyの会</a>は、Rubyの利用者の支援とRuby(とRubyのライブラリ)開発者の支援を目的とした一般社団法人です。
               現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。</p>
                     <hr/>
@@ -369,24 +307,3 @@ Steps to show on site
 
       </div>
     </div>
-
-    <!-- /content -->
-
-    <footer>
-      <p>2010-2013, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
-      <p class="slogan">Get excited and make things!</p>
-    </footer>
-
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-  </body>
-</html>

@@ -1,72 +1,8 @@
-<!doctype html> 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-
-    <!--  Add your city name, dates and year.  -->
- 
-    <title>Rails Girls Rheinland, 1st + 2nd March 2013</title>
-  
-    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
-
-    <meta name="description" content="Rails Girls is coming to the Rheinland, 1-2 March 2013: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
-    <meta name="author" content="Rails Girls">
-
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="./css/style.css">
-  
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
-  
-    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-    <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header>
-      <div class="container_12">
-        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-        <nav>
-          <a href="./events.html">Events</a>
-          <a href="./materials.html">Materials</a>
-          <a href="./press.html">Press</a>
-          <a href="http://blog.railsgirls.com">Blog</a> 
-          <a href="http://guides.railsgirls.com">Guides</a>  
-        </nav>
-      </div>
-    </header>
-  
-    <!--
-How to change the picture & header for site
-
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
-
-Steps to show on site
-1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name. 
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-        }
-
-        It will take a while before the changes show, so don't panic! 
-        
-      -->
-
-    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
- 
+---
+layout: default
+title: "Rails Girls Rheinland, 1st + 2nd March 2013"
+description: "Rails Girls is coming to the Rheinland, 1-2 March 2013: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails."
+---
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="rheinland">
@@ -275,17 +211,17 @@ Steps to show on site
           <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirls@railslove.com>">Email us</a>! </p>
 
           <p>
-            <a href="http://www.innoq.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/innoQ.jpg" alt="InnoQ"></a>
+            <a href="http://www.innoq.com" style="float:right; margin:0 0 0; border:0;"><img src="/images/innoQ.jpg" alt="InnoQ"></a>
             <a href="http://www.innoq.com/">innoQ</a> offers consulting and development services for challenging projects.
           </p>
 
           <p>
-            <a href="http://www.railslove.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/railslove.jpg" alt="Railslove"></a>
+            <a href="http://www.railslove.com" style="float:right; margin:0 0 0; border:0;"><img src="/images/railslove.jpg" alt="Railslove"></a>
             <a href="http://www.railslove.com">Railslove</a> is a small team of passionate hackers, thinkers and designers creating juicy stuff for the web.
           </p>
 
           <p>
-            <a href="http://dpunkt.de/" style="float:right; margin:0 0 0; border:0;"><img src="./images/dpunkt.jpg" alt="dpunkt.verlag"></a>
+            <a href="http://dpunkt.de/" style="float:right; margin:0 0 0; border:0;"><img src="/images/dpunkt.jpg" alt="dpunkt.verlag"></a>
             <a href="http://dpunkt.de/">dpunkt</a> is one of the leading German publishers in the IT-publishing market. dpunkt serves the professional computing and telecommunications community by providing information products and services, primarily through publications (print and digital) and training.
 Although dpunkt's focus is on digital technology, its mission goes beyond technology, promoting its use to support creativity, and to improve communication among people. dpunkt uses digital technology in an extensive way to design, manufacture and distribute its products.
 We at dpunkt strongly believe that technology and its efficient use on one side and creativity and playful joy (or plain fun) on the other, are not mutually exclusive.
@@ -295,7 +231,7 @@ We at dpunkt strongly believe that technology and its efficient use on one side 
 
           <h3>Cooperation Partner</h3>
           <p>
-            <a href="http://www.creative.nrw.de" style="float:right; margin:0 0 0; border:0;"><img src="./images/creative_nrw.png" alt="CREATIVE.NRW"></a>
+            <a href="http://www.creative.nrw.de" style="float:right; margin:0 0 0; border:0;"><img src="/images/creative_nrw.png" alt="CREATIVE.NRW"></a>
             Cluster organization <a href="http://www.creative.nrw.de">CREATIVE.NRW</a> fosters creative companies and entrepreneurs in Germany´s biggest state, North Rhine-Westphalia (NRW). Featuring 315.000 people in 50.000 businesses, accounting for 36 billion Euro turnover, the Creative Industries ranks third place in NRW´s economy. The main objective of CREATIVE.NRW is to secure and expand this position by providing a wide range of professional services, thus expanding growth and innovation in NRW.
           </p>
 
@@ -426,7 +362,7 @@ We at dpunkt strongly believe that technology and its efficient use on one side 
           </div>
 
           <div class="grid_6 omega">
-            <p><img src="images/rheinland_location.jpg" alt="a picture of the location" width="300" height="266" /></p>
+            <p><img src="/images/rheinland_location.jpg" alt="a picture of the location" width="300" height="266" /></p>
           </div>
         </div>
 
@@ -533,26 +469,3 @@ We at dpunkt strongly believe that technology and its efficient use on one side 
       </div>
 
     </div>
-      
-    <!-- /content -->
-    
-    <footer>
-      <p>2010-2013, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls_rhl">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
-      <p class="slogan">Get excited and make things!</p>
-    </footer>
-
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>
-  </body>
-</html>

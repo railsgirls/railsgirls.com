@@ -5,7 +5,7 @@
 	Licensed under GPL and MIT.
 */
 
-/* `Container >> 24 Columns
+/* `Container >> 24 Columns"
 ----------------------------------------------------------------------------------------------------*/
 .container_24 {
 	margin-right: auto;
@@ -13,7 +13,7 @@
 	width: 960px;
 }
 
-/* `Grid >> Global
+/* `Grid >> Global"
 ----------------------------------------------------------------------------------------------------*/
 
 .grid_1,
@@ -72,7 +72,7 @@
 	position: relative;
 }
 
-/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)"
 ----------------------------------------------------------------------------------------------------*/
 
 .alpha {
@@ -83,7 +83,7 @@
 	margin-left: 0;
 }
 
-/* `Grid >> 24 Columns
+/* `Grid >> 24 Columns"
 ----------------------------------------------------------------------------------------------------*/
 
 .container_24 .grid_1 {
@@ -182,7 +182,7 @@
 	width: 950px;
 }
 
-/* `Prefix Extra Space >> 24 Columns
+/* `Prefix Extra Space >> 24 Columns"
 ----------------------------------------------------------------------------------------------------*/
 
 .container_24 .prefix_1 {
@@ -277,7 +277,7 @@
 	padding-right: 920px;
 }
 
-/* `Suffix Extra Space >> 24 Columns
+/* `Suffix Extra Space >> 24 Columns"
 ----------------------------------------------------------------------------------------------------*/
 
 .container_24 .suffix_1 {
@@ -372,7 +372,7 @@
 	padding-left: 920px;
 }
 
-/* `Push Space >> 24 Columns
+/* `Push Space >> 24 Columns"
 ----------------------------------------------------------------------------------------------------*/
 
 .container_24 .push_1 {
@@ -467,7 +467,7 @@
 	right: 920px;
 }
 
-/* `Pull Space >> 24 Columns
+/* `Pull Space >> 24 Columns"
 ----------------------------------------------------------------------------------------------------*/
 
 .container_24 .pull_1 {
@@ -562,7 +562,7 @@
 	right: -920px;
 }
 
-/* `Clear Floated Elements
+/* `Clear Floated Elements"
 ----------------------------------------------------------------------------------------------------*/
 
 /* http://sonspring.com/journal/clearing-floats */

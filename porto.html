@@ -1,73 +1,8 @@
-<!doctype html> 
-<!doctype html> 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-
-    <!--  Add your city name, dates and year.  -->
- 
-    <title>Rails Girls Porto, 1st + 2nd March 2013</title>
-  
-    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
-
-    <meta name="description" content="Rails Girls is coming to Porto, 1-2 March 2013: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
-    <meta name="author" content="Rails Girls">
-
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="./css/style.css">
-  
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
-  
-    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-    <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header>
-      <div class="container_12">
-        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-        <nav>
-          <a href="./events.html">Events</a>
-          <a href="./materials.html">Materials</a>
-          <a href="./press.html">Press</a>
-          <a href="http://blog.railsgirls.com">Blog</a> 
-          <a href="http://guides.railsgirls.com">Guides</a>  
-        </nav>
-      </div>
-    </header>
-  
-    <!--
-How to change the picture & header for site
-
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
-
-Steps to show on site
-1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name. 
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-        }
-
-        It will take a while before the changes show, so don't panic! 
-        
-      -->
-
-    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
- 
+---
+layout: default
+title: "Rails Girls Porto, 1st + 2nd March 2013"
+description: "Rails Girls is coming to Porto, 1-2 March 2013: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails."
+---
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="porto">
@@ -259,12 +194,12 @@ Steps to show on site
           <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirlspt@gmail.com>">Email us</a>! </p>
 
           <p>
-            <a href="http://portoklimt.com/" style="float:right; margin:0 0 0; border:0;"><img src="./images/PortoKlimtDowntown.png" alt="dpunkt.verlag" style="width: 215px;"></a>
+            <a href="http://portoklimt.com/" style="float:right; margin:0 0 0; border:0;"><img src="/images/PortoKlimtDowntown.png" alt="dpunkt.verlag" style="width: 215px;"></a>
             <a href="http://portoklimt.com/">Porto Klimt Downtown</a> is a Guest House and Charming Hostel. This Hostel is a completely restored house from 1932 located in the centre of Porto. Their main goal is comfort, sustainability, and trying to make it cozy and warm. And that it is why their motto is: 'Enter as strangers, Leave as friends'.
           </p>
 
           <p>
-            <a href="http://www.groupbuddies.com/" style="float:right; margin:0 0 0; border:0;"><img src="./images/iconbl.png" alt="http://www.groupbuddies.com/" style="width:160px;"></a>
+            <a href="http://www.groupbuddies.com/" style="float:right; margin:0 0 0; border:0;"><img src="/images/iconbl.png" alt="http://www.groupbuddies.com/" style="width:160px;"></a>
             Group Buddies <a href="http://www.groupbuddies.com//">groupbuddies.com</a> is a Web development company from northern Portugal, that aims to create innovative products for the Web and Mobile. We love creating beautiful and functional Web sites. We also do a pretty good job in establishing your company's visual identity. We're quite the friendly bunch, so let's have a chat!
             <br>
             <br>
@@ -272,12 +207,12 @@ Steps to show on site
 
          <!--
           <p>
-            <a href="http://www.innoq.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/" alt="InnoQ"></a>
+            <a href="http://www.innoq.com" style="float:right; margin:0 0 0; border:0;"><img src="/images/" alt="InnoQ"></a>
             <a href="http://www.innoq.com/">innoQ</a> offers consulting and development services for challenging projects.
           </p>
 
           <p>
-            <a href="http://www.railslove.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/railslove.jpg" alt="Railslove"></a>
+            <a href="http://www.railslove.com" style="float:right; margin:0 0 0; border:0;"><img src="/images/railslove.jpg" alt="Railslove"></a>
             <a href="http://www.railslove.com">Railslove</a> is a small team of passionate hackers, thinkers and designers creating juicy stuff for the web.
           </p>
 -->
@@ -285,7 +220,7 @@ Steps to show on site
 
           <h3>Sponsors</h3>
           <p>
-            <a href="http://bind.pt/" style="float:right; margin:0 0 0; border:0;"><img src="./images/bind.jpg" alt="Bind.pt"></a>
+            <a href="http://bind.pt/" style="float:right; margin:0 0 0; border:0;"><img src="/images/bind.jpg" alt="Bind.pt"></a>
             Bind <a href="http://bind.pt/">bind.pt</a> is an independent software development company, working in the market of CMS themes since 2005, and focusing on platforms like Sharepoint or DotNetNuke.
             <br>
             <br>
@@ -295,7 +230,7 @@ Steps to show on site
           
 
            <p>
-            <a href="http://elo-si.com/en/home" style="float:right; margin:0 0 0; border:0;"><img src="./images/elo-si.jpg" alt="Bind.pt"></a>
+            <a href="http://elo-si.com/en/home" style="float:right; margin:0 0 0; border:0;"><img src="/images/elo-si.jpg" alt="Bind.pt"></a>
             ELO-SI <a href="http://elo-si.com/en/home">elo-si.com</a> is a systems engineering company specializing in automatic data collection with action on the global market.
             <br>
             <br>
@@ -303,7 +238,7 @@ Steps to show on site
           </p>
 
           <p>
-            <a href="http://www.facebook.com/pages/Conga-Casa-das-Bifanas/167128723304943" style="float:right; margin:0 0 0; border:0;"><img src="./images/conga.jpg" alt="Conga Casa das Bifanas" style="width:160px;"></a>
+            <a href="http://www.facebook.com/pages/Conga-Casa-das-Bifanas/167128723304943" style="float:right; margin:0 0 0; border:0;"><img src="/images/conga.jpg" alt="Conga Casa das Bifanas" style="width:160px;"></a>
             Conga Casa das Bifanas <a href="http://www.facebook.com/pages/Conga-Casa-das-Bifanas/167128723304943">conga</a> is a restaurant in Porto that specializes in Bifanas, a typical portuguese dish. Bifana is a seasoned meat in bread. The secret of Conga sauce is still to be discovered, since it was first created 37 years ago.
             <br>
             <br>
@@ -312,7 +247,7 @@ Steps to show on site
           
 
           <p>
-            <a href="http://www.factoryworkstyle.com/" style="float:right; margin:0 0 0; border:0;"><img src="./images/fyfactory.png" alt="Fy Factory" style="width:160px;"></a>
+            <a href="http://www.factoryworkstyle.com/" style="float:right; margin:0 0 0; border:0;"><img src="/images/fyfactory.png" alt="Fy Factory" style="width:160px;"></a>
             Fy Factory <a href="http://www.factoryworkstyle.com/">factoryworkstyle.com</a> is a Cowork and Business Center in Braga. You can work on an open space or in a small office, have meetings or organize workshops in one of the several rooms available. The important thing is that you feeel good where you are working.
             <br>
             <br>
@@ -320,7 +255,7 @@ Steps to show on site
           </p>
 
            <p>
-            <a href="http://uptec.up.pt/" style="float:right; margin:0 0 0; border:0;"><img src="./images/uptec.jpg" alt="Empadaria do Chef" style="width:160px;"></a>
+            <a href="http://uptec.up.pt/" style="float:right; margin:0 0 0; border:0;"><img src="/images/uptec.jpg" alt="Empadaria do Chef" style="width:160px;"></a>
             UPTEC <a href="http://uptec.up.pt/">uptec.up.pt</a> is the structure of Porto University dedicated to Startups and Innovation Centers suporting the share of knowledge and tecnology.
             <br>
             <br>
@@ -328,7 +263,7 @@ Steps to show on site
           </p>
           
           <p>
-            <a href="http://www.facebook.com/tendenciavisual.lda?fref=ts" style="float:right; margin:0 0 0; border:0;"><img src="./images/tendenciavisual.jpg" alt="Tendência Visual" style="width:160px;"></a>
+            <a href="http://www.facebook.com/tendenciavisual.lda?fref=ts" style="float:right; margin:0 0 0; border:0;"><img src="/images/tendenciavisual.jpg" alt="Tendência Visual" style="width:160px;"></a>
             Tendência Visual <a href="http://www.facebook.com/tendenciavisual.lda?fref=ts">tendenciavisual</a> is a print shop located in Aveiro district. Business cards, posters, flyers, notebooks, t-shirts, uniforms and many other quality products.
             <br>
             <br>
@@ -336,7 +271,7 @@ Steps to show on site
           </p>
 
           <p>
-            <a href="http://www.unicer.pt/" style="float:right; margin:0 0 0; border:0;"><img src="./images/unicer.jpeg" alt="unicer.pt" style="width:160px;"></a>
+            <a href="http://www.unicer.pt/" style="float:right; margin:0 0 0; border:0;"><img src="/images/unicer.jpeg" alt="unicer.pt" style="width:160px;"></a>
             Unicer <a href="http://www.unicer.pt/">unicer.pt</a> is the biggest beverage company in Portugal. The main products are beer and water, even though juices and wines have also an important part of the market. Unicer mission is to be the first choice of the consumer, by focusing on quality and innovation.
             <br>
             <br>
@@ -344,7 +279,7 @@ Steps to show on site
           </p>
 
           <p>
-            <a href="http://www.facebook.com/MeioSustentoHandmadeVeganBaking?fref=ts" style="float:right; margin:0 0 0; border:0;"><img src="./images/logo_meio_sustento.jpg" alt="MeioSustento" style="width:160px;"></a>
+            <a href="http://www.facebook.com/MeioSustentoHandmadeVeganBaking?fref=ts" style="float:right; margin:0 0 0; border:0;"><img src="/images/logo_meio_sustento.jpg" alt="MeioSustento" style="width:160px;"></a>
             Meio Sustento <a href="http://www.facebook.com/MeioSustentoHandmadeVeganBaking?fref=ts">Meio Sustento</a> was a project started by Filipa and Joana with the purpose of making vegan cookies mainstream, by adding beautiful design and photography to traditional cooking and vegan ingredients. Handmade vegan cookies.
             <br>
             <br>
@@ -352,7 +287,7 @@ Steps to show on site
           </p>
 
           <p>
-            <a href="http://www.empadariadochef.com/" style="float:right; margin:0 0 0; border:0;"><img src="./images/empadariadochef.jpg" alt="Empadaria do Chef" style="width:160px;"></a>
+            <a href="http://www.empadariadochef.com/" style="float:right; margin:0 0 0; border:0;"><img src="/images/empadariadochef.jpg" alt="Empadaria do Chef" style="width:160px;"></a>
             Empadaria do Chef <a href="http://www.empadariadochef.com/">empadariadochef.com</a> is a restaurant with excelent empadas from the Chef, soups from the Chef and pastries from the Chef José Avilez.
           </p>
 
@@ -537,7 +472,7 @@ Steps to show on site
           </div>
 
           <div class="grid_6 omega">
-            <p><img src="images/portoklimtdowntown.jpeg" alt="a picture of the location" width="450" height="325" style="float:right; padding-bottom:30px;" /></p>
+            <p><img src="/images/portoklimtdowntown.jpeg" alt="a picture of the location" width="450" height="325" style="float:right; padding-bottom:30px;" /></p>
           </div>
         </div>
 
@@ -649,25 +584,3 @@ Steps to show on site
 
     </div>
       -->
-    <!-- /content -->
-    
-    <footer>
-      <p>2010-2013, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
-      <p class="slogan">Get excited and make things!</p>
-    </footer>
-
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>
-  </body>
-</html>

@@ -1,59 +1,9 @@
-<!doctype html> 
-<html lang="en">
-	<head>
-		<meta charset="utf-8">				
-		<title>Vienna 18-19 January 2013</title>
-		
-		<meta name="author" content="Rails Girls Vienna">
-		<meta property="og:image" content="./images/railsgirls-sq.png"/>		
-		<meta name="description" content="Rails Girls will stop in Vienna on 18-19 January 2013! We invite all interested women &amp; girls to come and build their very first web application with Ruby on Rails.">
-		
-		<link rel="keywords" content="Rails Girls, Vienna, Austria, Wien, &Ouml;sterreich, J&auml;nner, Januar, January programming, programmieren, coden, coding, Ruby, Rails, Frau, Frauen, M&auml;dchen, woman, women, girl, girls, Programmiersprache, programming language, Event, Veranstaltung, Kurs, course, free, kostenlos, gratis, development">
-		<link rel="shortcut icon" href="/favicon.png">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">		
-		<link rel="stylesheet" href="./css/style.css">
-		
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-		<script type="text/javascript" src="main.js"></script>
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>		
-		<!--[if lt IE 9]>
-		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+---
+layout: default
+title: "Rails Girls Vienna 18-19 January 2013"
+description: "Rails Girls will stop in Vienna on 18-19 January 2013! We invite all interested women &amp; girls to come and build their very first web application with Ruby on Rails."
+---
 
-<!--	How to change the picture & header for site
-		In the assets folder there is a file called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
-	
-		Steps to show on site
-		1. Go to style.css
-		2. Add two lines, always replacing 'yourcityname' with your actual city name. 
-	
-	    .yourcityname#promo {
-	      padding-left:340px;
-	      background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-	                     url('../images/separator.png') no-repeat center bottom;
-	    }
-	
-	    .yourcityname#promo h1 {
-	      background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-	    }
-	
-	    It will take a while before the changes show, so don't panic! -->
-
-		<style type="text/css">
-	    .vienna#promo {
-	      padding-left: 340px;
-	      background:url('images/rg-vienna.png') no-repeat 0 10px,
-	      url('') no-repeat center bottom;
-	    }
-	
-	    .vienna#promo h1 {
-	      background:url('images/rg-vienna-header.png') no-repeat left top;
-	      height: 82px;	      
-	    }
-	    </style>
-		
-	</head>
-	<body>
 		<!-- start Facebook "like" box -->
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -64,19 +14,6 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 		<!-- end Facebook "like" box -->
-	
-	    <header>
-		    <div class="container_12">
-		        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-		        <nav>
-		            <a href="./events.html">Events</a>
-		            <a href="./materials.html">Materials</a>
-		            <a href="./press.html">Press</a>
-		            <a href="http://blog.railsgirls.com">Blog</a> 
-		            <a href="http://guides.railsgirls.com">Guides</a>  
-		        </nav>
-		    </div>
-	    </header>
 
 		<div id="container" class="container_12 page clearfix">
 			<div class="grid_12 omega alpha">
@@ -325,7 +262,7 @@
 			        	<!-- Metalab -->         				
        				   	<p>
 	         				<a href="http://metalab.at" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/metalab.png" alt="Metalab">
+	         					<img src="/images/metalab.png" alt="Metalab">
 	         				</a>
 	         				<a href="http://metalab.at">Metalab</a> is an open (hacker)space in Vienna's city centre where people do creative things with and without technology. Metalab helps organise Rails Girls Vienna.
          				</p>
@@ -333,7 +270,7 @@
 			        	<!-- The Hub Vienna -->         				
        				   	<p>
 	         				<a href="http://vienna.the-hub.net" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/hubvienna.png" alt="The HUB Vienna">
+	         					<img src="/images/hubvienna.png" alt="The HUB Vienna">
 	         				</a>
 	         				<a href="http://vienna.the-hub.net">The HUB Vienna</a> is a co-working space in Vienna's 7th district, which offers a creative and intentional atmosphere for meetings, workshops and events of different formats.
          				</p>
@@ -341,7 +278,7 @@
 			        	<!-- photobasis.net -->       				   	
        				   	<p>
 	         				<a href="http://photobasis.net" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/photobasisnet.png" alt="photobasis.net">
+	         					<img src="/images/photobasisnet.png" alt="photobasis.net">
 	         				</a>
 	         				<a href="http://photobasis.net">photobasis.net</a> is where Vienna-based photographer <a href="http://raimundappel.com">Raimund Appel</a> makes all his event photography available to the public.
          				</p>
@@ -349,7 +286,7 @@
 			        	<!-- Tupalo.com -->
    				        <p>
 	         				<a href="http://tupalo.com" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/tupalo.png" alt="Tupalo.com">
+	         					<img src="/images/tupalo.png" alt="Tupalo.com">
 	         				</a>
 	         				<a href="http://tupalo.com">Tupalo.com</a> is a local search community (built on Ruby on Rails) where people discover, rate and review the best local businesses around the corner or around the world.
          				</p>         				
@@ -357,7 +294,7 @@
 			        	<!-- ZIT -->
    				        <p>
 	         				<a href="http://www.zit.co.at" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/zit.png" alt="ZIT">
+	         					<img src="/images/zit.png" alt="ZIT">
 	         				</a>
 	         				<a href="http://www.zit.co.at">ZIT</a> is the technology promotion agency of the City of Vienna. We enable ideas, support innovation and plan the infrastructure of tomorrow.
          				</p>         				
@@ -365,7 +302,7 @@
 			        	<!-- Super-Fi -->
        				   	<p>
 	         				<a href="http://super-fi.eu/" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/super-fi.png" alt="Super-Fi">
+	         					<img src="/images/super-fi.png" alt="Super-Fi">
 	         				</a>
 	         				<a href="http://super-fi.eu/">Super-Fi</a> is not only among the biggest digital agencies in Austria, but also a group of companies (including magazines The Gap and Biorama) sporting the same name.
          				</p>
@@ -373,7 +310,7 @@
 			        	<!-- ambuzzador -->         				
        				   	<p>
 	         				<a href="http://www.ambuzzador.com/" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/ambuzzador.png" alt="ambuzzador">
+	         					<img src="/images/ambuzzador.png" alt="ambuzzador">
 	         				</a>
 	         				<a href="http://www.ambuzzador.com/">ambuzzador</a> is a Buzz Marketing Agency in Vienna offering services in Buzz Marketing (WOM), Digital Communication and Social Branding, from strategy to implementation, to national and international brands.
          				</p>
@@ -381,7 +318,7 @@
 			        	<!-- ambuzzador -->         				
        				   	<p>
 	         				<a href="https://diebin.at/" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/bin.png" alt="bin">
+	         					<img src="/images/bin.png" alt="bin">
 	         				</a>
 	         				<a href="https://diebin.at/">/bin</a> (Basisgruppe Informatik) is a loosely organized, grassroots democratic group that tries to engage in critical and emancipatory politics in an antihierarchical way.
          				</p>
@@ -389,7 +326,7 @@
 			        	<!-- Platogo -->         				
        				   	<p>
 	         				<a href="http://platogo.com/" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/platogo.png" alt="Platogo">
+	         					<img src="/images/platogo.png" alt="Platogo">
 	         				</a>
 	         				<a href="http://platogo.com/">Platogo</a> designs and develops awesome and rock solid social media apps, games, web &amp; mobile apps - usually with Ruby on Rails. <a href="http://platogo.com/jobs/1">- And we are currently hiring!</a>
          				</p>
@@ -397,7 +334,7 @@
 			        	<!-- Wooga -->         				
        				   	<p>
 	         				<a href="http://www.wooga.com" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/wooga.png" alt="Wooga">
+	         					<img src="/images/wooga.png" alt="Wooga">
 	         				</a>
 	         				<a href="http://www.wooga.com">Wooga</a> creates games that excite around 50 million active players every month, which makes Wooga one of the largest social games developers in the world.
          				</p>
@@ -405,7 +342,7 @@
 			        	<!-- runtastic -->
        				   	<p>
 	         				<a href="http://www.runtastic.com/" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/runtastic.png" alt="runtastic">
+	         					<img src="/images/runtastic.png" alt="runtastic">
 	         				</a>
 	         				<a href="http://www.runtastic.com/">runtastic</a>, a leader in the mobile app sector, promotes health and fitness in a fun, interactive community via our mobile apps, supporting hardware, and online service.
          				</p>
@@ -413,12 +350,12 @@
 			        	<!-- MA57 -->
        				   	<p>
 	         				<a href="http://www.wien.gv.at/menschen/frauen/" style="float:right; margin: 0 0 0 15px; border:0;">
-	         					<img src="./images/MA57.jpg" alt="MA57 - Frauen in Wien">
+	         					<img src="/images/MA57.jpg" alt="MA57 - Frauen in Wien">
 	         				</a>
 	         				 <a href="http://www.wien.gv.at/menschen/frauen/">MA57</a>, Vienna's Women’s Department, is responsible for the promotion and coordination of women’s issues and advocates a gender-equitable society which offers women and men equal living and working opportunities.
          				</p>
        				   	<p style="clear:both;"></p>       				   	
-	<!--				<a href="http://www.coworkingcologne.de" style="float:right; margin:0 0 0; border:0;"><img src="./images/coworking.png" alt="Coworking Cologne"></a>
+	<!--				<a href="http://www.coworkingcologne.de" style="float:right; margin:0 0 0; border:0;"><img src="/images/coworking.png" alt="Coworking Cologne"></a>
 					<a href="http://www.coworkingcologne.de">Coworking Cologne</a> is a Think & Do Ecosystem which helps to build Coworking Spaces, Fablabs, Think Tanks, Startup Accelerators, etc.		
 					</p> -->
 					
@@ -530,29 +467,3 @@
 				</div>
 			</div>
 		</div>
-	  
-<!-- /content -->
-
-		<footer>
-		    <p>
-		    2010-2013, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a>
-		    </p>
-		    <p class="slogan">
-		    Get excited and make things!
-		    </p>
-		</footer>
-		<script type="text/javascript">
-		
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-19631067-1']);
-		_gaq.push(['_trackPageview']);
-		
-		(function() {
-		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-		
-		</script>
-	</body>
-</html>

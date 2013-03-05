@@ -1,72 +1,8 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-
-    <!--  Add your city name, dates and year.  -->
-
-    <title>Brussels 05-06 october 2012</title>
-
-    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
-
-    <meta name="description" content="Rails Girls goes Brussels 05-06 October 2012: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
-    <meta name="author" content="Rails Girls">
-
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="./css/style.css">
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
-    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-    <header>
-    <div class="container_12">
-      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-      <nav>
-      <a href="./events.html">Events</a>
-      <a href="./materials.html">Materials</a>
-      <a href="./press.html">Press</a>
-      <a href="http://blog.railsgirls.com">Blog</a>
-      <a href="http://guides.railsgirls.com">
-        Guides</a>
-      </nav>
-    </div>
-    </header>
-
-
-    <!--   How to change the picture & header for site
-    In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-    Steps to show on site
-    1. Go to style.css
-    2. Add two lines, always replacing 'yourcityname' with your actual city name.
-
-    .yourcityname#promo {
-    padding-left:340px;
-    background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-    url('../images/separator.png') no-repeat center bottom;
-    }
-
-    .yourcityname#promo h1 {
-    background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-    }
-
-    It will take a while before the changes show, so don't panic!
-
-    -->
-
-
-    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
-
+---
+layout: default
+title: "Rails Girls Brussels 05-06 october 2012"
+description: "Rails Girls goes Brussels 05-06 October 2012: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails."
+---
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="brussels">
@@ -247,7 +183,7 @@
 
           <h3>Brought to you by</h3>
           <p>
-          <a href="http://belighted.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/belighted.png" alt="Belighted"></a>
+          <a href="http://belighted.com" style="float:right; margin:0 0 0; border:0;"><img src="/images/belighted.png" alt="Belighted"></a>
           <a href="http://belighted.com">Belighted</a> is the first 100% Ruby on Rails company in Belgium and France.
 
           </p>
@@ -256,12 +192,12 @@
           <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:info+railsgirls-partners@belighted.com">Email us</a>! </p>
           <hr/>
           <p>
-            <a href="http://www.mongodb.org/" style="float:right; margin:0 20px 0; border:0; width: 200px;"><img style='width:200px;' src="./images/10gen.png" alt="mongoDB"></a>
+            <a href="http://www.mongodb.org/" style="float:right; margin:0 20px 0; border:0; width: 200px;"><img style='width:200px;' src="/images/10gen.png" alt="mongoDB"></a>
             <a href="http://www.mongodb.org/">MongoDB</a> is an open source, document-oriented database designed with both scalability and developer agility in mind. Instead of storing your data in tables and rows as you would with a relational database, in MongoDB you store JSON-like documents with dynamic schemas.
 
           </p>
           <p style='height: 130px'>
-            <a href="http://www.rubymotion.com/" style="float:right; margin:0 20px 0; border:0; width: 120px;"><img style='width:120px;' src="./images/rubymotion.png" alt="rubymotion"></a>
+            <a href="http://www.rubymotion.com/" style="float:right; margin:0 20px 0; border:0; width: 120px;"><img style='width:120px;' src="/images/rubymotion.png" alt="rubymotion"></a>
             <a href="http://www.rubymotion.com/">Rubymotion</a> lets you create iPhone apps in Ruby!
 
           </p>
@@ -269,37 +205,37 @@
           <hr/>
 
           <p style="height: 100px">
-            <a href="http://coworking.betagroup.be/" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width: 80px;' src="./images/betagroup.png" alt="betagroup"></a>
+            <a href="http://coworking.betagroup.be/" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width: 80px;' src="/images/betagroup.png" alt="betagroup"></a>
             <a href="http://coworking.betagroup.be/">Betagroup Coworking Brussels</a> is a shared office coworking space in Brussels.
 
           </p>
 
           <p style='height: 100px;'>
-            <a href="http://epic.net" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px;' src="./images/epic.png" alt="EPIC"></a>
+            <a href="http://epic.net" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px;' src="/images/epic.png" alt="EPIC"></a>
             <a href="http://epic.net">EPIC</a> is a creative agency specialised in beautifully crafted ruby websites & applications.
 
           </p>
           <p style='height: 100px;'>
-            <a href="https://www.pivotaltracker.com/" style="float:left; margin:0 20px 0; border:0; width: 80px; height: 100px;"><img style='width:80px; margin-top: 20px;' src="./images/pivotaltracker.png" alt="pivotal tracker"></a>
+            <a href="https://www.pivotaltracker.com/" style="float:left; margin:0 20px 0; border:0; width: 80px; height: 100px;"><img style='width:80px; margin-top: 20px;' src="/images/pivotaltracker.png" alt="pivotal tracker"></a>
             <a href="https://www.pivotaltracker.com/">Pivotal Tracker</a> is an Agile project management tool from the agile software development experts.
           </p>
           <p style='height: 100px;'>
-            <a href="http://www.siliconsalad.com/" style="float:left; margin:0 20px 0; border:0; width: 80px; height: 100px;"><img style='width:80px; margin-top: 20px;' src="./images/siliconsalad.png" alt="silicon salad"></a>
+            <a href="http://www.siliconsalad.com/" style="float:left; margin:0 20px 0; border:0; width: 80px; height: 100px;"><img style='width:80px; margin-top: 20px;' src="/images/siliconsalad.png" alt="silicon salad"></a>
             <a href="http://www.siliconsalad.com/">Silicon Salad</a> Silicon Salad is a french webagency based in Lille and created in 2008. We make web and mobile apps and are specialized in custom eCommerce solutions.
           </p>
 
           <p style='height: 100px;'>
-            <a href="http://sumocoders.be?utm_source=railsgirls&utm_medium=homepage&utm_campaign=railsgirlsbrussels" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px;' src="./images/sumocoders.png" alt="SumoCoders"></a>
+            <a href="http://sumocoders.be?utm_source=railsgirls&utm_medium=homepage&utm_campaign=railsgirlsbrussels" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px;' src="/images/sumocoders.png" alt="SumoCoders"></a>
             <a href="http://sumocoders.be?utm_source=railsgirls&utm_medium=homepage&utm_campaign=railsgirlsbrussels">SumoCoders</a>, Geeks coding with &lt;body&gt;
           </p>
 
           <p style='height: 100px;'>
-            <a href="http://www.xaop.com" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px; margin-top: 20px;' src="./images/xaop.png" alt="xaop"></a>
+            <a href="http://www.xaop.com" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px; margin-top: 20px;' src="/images/xaop.png" alt="xaop"></a>
             <a href="http://www.xaop.com">XAOP</a> uses Ruby to help organizations take advantage of technology.
           </p>
 
           <p style='height: 100px;'>
-            <a href="http://10to1.be" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px;' src="./images/10to1.jpg" alt="10to1"></a>
+            <a href="http://10to1.be" style="float:left; margin:0 20px 0; border:0; width: 80px"><img style='width:80px;' src="/images/10to1.jpg" alt="10to1"></a>
             <a href="http://10to1.be">10to1</a> builds mobile apps for businesses.
           </p>
           <hr/>
@@ -378,25 +314,3 @@
 
       </div>
     </div>
-
-    <!-- /content -->
-
-    <footer>
-    <p>2010-2013, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
-    <p class="slogan">Get excited and make things!</p>
-    </footer>
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-19631067-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
-
-</script>
-    </body>
-  </html>
