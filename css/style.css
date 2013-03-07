@@ -581,6 +581,11 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+h4.warsaw { 
+  font-size: 20px;
+  margin: 1.8em 0 0.8em 0;
+}
+
 .manila#promo h1 {
   background:url('../images/rg-manila-header.png') no-repeat left top;
 }
