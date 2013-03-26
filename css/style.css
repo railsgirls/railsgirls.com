@@ -500,6 +500,10 @@ pre {
   background:url('../images/rg-sanfrancisco-header.png') no-repeat -4px top;
 }
 
+.galway#promo h1 {
+  background:url('../images/rg-galway-header.png') no-repeat -4px top;
+}
+
 .oulu#promo h1 {
   background:url('../images/rg-oulu-header.png') no-repeat left top;
 }
