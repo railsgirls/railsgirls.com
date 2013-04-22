@@ -1,15 +1,15 @@
-﻿<!doctype html> 
+<!doctype html> 
 <html lang="en">
 <head>
 <meta charset="utf-8">
 
 <!--  Add your city name, dates and year.  -->
  
-  <title>Rome on 22-23rd March 2013</title>
+  <title>Rome  22-23 March 2013</title>
   
 <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="Rails Girls goes Rome on 22-23rd 2013: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="description" content="Rails Girls goes to Rome 22-23 March 2013: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
   <meta name="author" content="Rails Girls">
  
   <link rel="shortcut icon" href="/favicon.png">
@@ -23,13 +23,21 @@
   <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
   
-  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
     </head>
     <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
         <header>
         <div class="container_12">
             <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -50,7 +58,7 @@ In the assets folder there is something called rg-header.psd. Be sure to downloa
 
 Steps to show on site
 1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name. 
+2. Add two lines, always replacing 'yourcityname' with your actual city name. 
 
         .yourcityname#promo {
           padding-left:340px;
@@ -58,52 +66,42 @@ Steps to show on site
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+        .yourcityname#promo h1 {
+          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
+        }
+
         It will take a while before the changes show, so don't panic! 
         
 -->
-
 
 <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
  
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
-        <div id="promo" class="new yourcity">
+        <div id="promo" class="new">
         <h1>Rails Girls Rome
             <small>22-23rd March 2013</small>
         </h1>
         <p><i>Ciao Roma! Rails Girls sbarca nella città eterna! Durante il workshop di un giorno e mezzo ci immergeremo 
-		nel magico mondo di Ruby on Rails. Il seminario conserva il suo taglio internazionale ma si terrà interamente 
-		in italiano utilizzando in parte materiale e servizi online in inglese. Le <a href="https://railsgirls.wufoo.com/forms/s7w7z7/">iscrizioni</a> sono aperte fino al 17 marzo: 
-		affrettatevi e spargete la parola visitando la nostra <a href="http://www.facebook.com/RailsGirlsRome">
-		pagina Facebook</a> e seguendoci su <a href="http://www.twitter.com/railsgirlsrome">Twitter! </a></i></p>
-        <p>
-            Ciao Roma! Rails Girls comes to the Eternal City! During the free one-and-a-half-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-
-      <p>Apply now! <a href="https://railsgirls.wufoo.com/forms/s7w7z7/">Applications</a> are open until 10th March.</p>
+    nel magico mondo di Ruby on Rails. Il seminario conserva il suo taglio internazionale ma si terrà interamente 
+    in italiano utilizzando in parte materiale e servizi online in inglese.<br><br>
+    <b>Le iscrizioni sono chiuse. Le partecipanti accettate saranno informate a breve. Potete visitare la nostra <a href="http://www.facebook.com/RailsGirlsRome">
+    pagina Facebook</a> e seguirci su <a href="http://www.twitter.com/railsgirlsrome">Twitter!</b></a></i></p>
+        <p>Ciao Roma! Rails Girls comes to the Eternal City! During the free one-and-a-half-day workshop we'll dive into the magical world of Ruby on Rails. </p>
+        <p><b>Applications are closed. Acceptances will be sent very soon.</b></p>
 
 <!--  Update the sharing texts.-->
-        
-          <div id="share">
-
-            <div>
-
-            <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Rome 22-23rd March 2013" 
-        data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
-            Tweet</a>
+    <div id="share", style="height: 75px;">
+      <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Rome 22-23rd March 2013" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-            </div>
-
-            <div id="fb-root" style=""></div>
-            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
-
-          </div>
-      
-        </p>
-        </div>
       </div>
       
+      <div class="fb-like-box" data-href="http://www.facebook.com/RailsGirlsRome" data-width="292" data-show-faces="false" data-stream="false" data-header="true">
+      </div>
+    </div>
+	</div>
+      </div>
       
 <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
       
@@ -114,28 +112,27 @@ Steps to show on site
         <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:railsgirlsrome@googlegroups.com">Email us</a>.</p>
+        <p><strong><b>Want to help?</b></strong> We are looking for sponsors, speakers and volunteers!<br><a href="mailto:railsgirlsrome@googlegroups.com">Email us</a></p>
       </div>
-      
       <hr />
-  
 <!--  Update the texts! -->
-     
+
       <div class="grid_6 alpha">
         <h2>Friday 22nd March</h2>
         <table id="schedule">
           <tbody>
             <tr>
-              <th>18.00 -</th>
+              <th>20.00</th>
               <td>
-                <h4>Installation party</h4>
+                <h4>Install Fest</h4>
                   Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.<br>
-                  <strong>Where:</strong>
+                  <strong>Where:</strong> The Hub, via dello Scalo di San Lorenzo 67, Roma <br/>
+                  <strong>Hot to get there: </strong>Look <a href="http://www.hubroma.net/dove-siamo/">here <br/>
                   
                   
               </td></tr>
               <tr>
-               <th>21.00 -</th>
+               <th>21.300</th>
                 <td>
                   <h4>Coach dinner</h4>
                     All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day. 
@@ -155,32 +152,35 @@ Steps to show on site
           <tr>
             <th>9:00 - 10:00</th>
             <td>
-              <h4>Registration, coffee and installation fest</h4>
+              <h4>Registration, coffee and installation</h4>
                 During the morning we’ll install Ruby on Rails on your computer.
             </td>
           </tr>
 
           <tr>
-            <th>10:00 - 10:15</th>
+            <th>10:00 - 10:20</th>
             <td>
               <h4>Welcome</h4>
-                   Outline of the day &amp; word from sponsors
+                   Outline of the day & word from sponsors<br/>
+                  <strong>Welcome!</strong> - Sara Labanchi<br/>
+                  <strong>What is Rails Girls!</strong> - Daniele Tatti<br/>
+                  <strong>Mattia Quilici</strong> - SETIT<br/>
+                  <strong>Stefano Guglielmetti</strong> - Mikamai<br/>
                   </td>
                 </tr>
             
           <tr>
             <th>10:20 - 10:45</th>
             <td>
-               <h4>Designing your web app -workshop</h4>
+               <h4>Designing your web app</h4>
             </td>
           </tr>
           
              <tr>
                 <th>10:50 - 11:10</th>
                 <td>
-
-                  <h4><a href="http://www.tryruby.org">Tryruby.org</a></h4>
-                  <strong>Let's get coding!</strong> 
+                  <h4>Try tuby</a></h4>
+                  <strong>on your own VM!</strong> 
                 </td>
               </tr>
           
@@ -198,7 +198,7 @@ Steps to show on site
           </tr>
 
           <tr>
-            <th>13.30- 13:45</th>
+            <th>13.30 - 13:45</th>
             <td>
               <h4>Bentobox - Understanding Web Apps</h4> 
               Recap of what we’ve learned and how it all fits together.
@@ -208,21 +208,29 @@ Steps to show on site
           <tr>
             <th>13:45 - 14:30</th>
             <td>
-              <h4>Lightning talks from coaches</h4>
+              <h4>Lightning talks</h4>
+              <strong>Simona Forti</strong><br/>
+              <strong>Alessandro Ligi</strong><br/>
+              <strong>Other coaches on their coding experience</strong><br/>
             </td>
           </tr>
-
           <tr>
-            <th>14:30 - 16:30</th>
+            <th>15:00 - 15:10</th>
+            <td>
+              <h4>v/c with Linda Liukas and Girls in Tech Italy</h4>
+            </td>
+          </tr>
+          <tr>
+            <th>15:00 - 17:00</th>
             <td>
               <h4>WORKSHOP</h4>
               Extend your application.
             </td>
           </tr>
           <tr>
-            <th>20:00 -</th>
+            <th>19:00 -</th>
             <td>
-              <h4>Afterparty</h4>
+              <h4>Networking Time - Afterparty</h4>
               Open for everyone, meet cool people interested in tech. <br>
             
             </td>
@@ -239,7 +247,7 @@ Steps to show on site
         
         <h3>Information</h3>
             <p>
-              <p><strong><a href="https://railsgirls.wufoo.com/forms/s7w7z7/">Applications</a> close:</strong> March 10th<br/>
+              <p><strong>Applications close:</strong> March 10th<br/>
                 <strong>Acceptances informed:</strong> 17th March </p>
               <p><strong>Location:</strong> The Hub, via dello Scalo di San Lorenzo 67, Roma </p>
         <p><strong>Hot to get there: </strong>Look <a href="http://www.hubroma.net/dove-siamo/">here !</a>
@@ -251,6 +259,42 @@ Steps to show on site
             
          <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirlsrome@googlegroups.com">Email us</a>! </p>
 
+<h3>Under the patronage of</h3>
+
+<p>
+         <a href="http://www.digitpa.gov.it" style="margin:0 0 0; border:0;"><img src="./images/rome_logo-AID.png" alt="Agenzia per l'Italia Digitale"></a>
+</p>
+
+<h3>Sponsors</h3>
+
+<p>
+         <!-- <a href="http://www.mikamai.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-Mikamai.png" alt="Mikamai"></a> -->
+         <a href="http://www.mikamai.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-Mikamai+MRA.png" alt="Mikamai"></a>
+         <a href="http://www.mikamai.com">Mikamai</a> is a digital agency with a strong passion for Ruby and Rails programming.
+         <!-- <a href="http://www.rubyacademy.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-MRA.png" alt="Ruby Academy"></a> -->
+         Mikamai will organize the <a href="http://www.rubyacademy.com">Ruby Academy</a> 2nd Edition on March / April 2013 @ Milan offices. 
+</p>
+
+<p>
+         <a href="http://www.github.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-GitHub.png" alt="GitHub"></a>
+         <a href="http://www.github.com">GitHub</a> is the best place to share code with friends, co-workers, classmates, and complete strangers. Over three million people use GitHub to build amazing things together. 
+</p>
+
+<p>
+         <a href="http://www.setit.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-SETIT.jpg" alt="SETIT"></a>
+         <a href="http://www.setit.com">SETIT</a> nasce nel 2001 e da allora opera nel settore della consulenza informatica. Ha lavorato in tutti i settori, per la pubblica amministrazione ma anche al fianco di aziende grandi e medie, fino ai singoli privati, studiando volta per volta le soluzioni più adeguate. 
+</p>
+
+<p>
+         <a href="http://www.plivo.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-Plivo.jpg" alt="Plivo"></a>
+         <a href="http://www.plivo.com">Plivo</a> eliminates the complexity from telephony by providing the most scalable and feature-rich voice and messaging platform wrapped with flexible APIs and backed by 24/7 support. 
+</p>
+
+<p>
+         <a href="http://www.wooga.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-Wooga.jpeg" alt="Wooga"></a>
+         <a href="http://www.wooga.com">Wooga</a> develops Social Games with love in Berlin. 
+</p>
+
        <h3>Partners</h3>
       
        <p>Rails Girls Rome is co-organised with</p><p>
@@ -258,28 +302,17 @@ Steps to show on site
   <a href="http://www.hubroma.net" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-TheHubRoma.png" alt="The Hub Roma"></a>
         <a href="http://www.hubroma.net">The Hub Roma</a> is about the power of innovation through collaboration. We 
     set out to create spaces that combine the best of a trusted community, innovation lab, business incubator and 
-    the comforts of home. Spaces with all the tools and trimmings needed to grow and develop innovative ventures 
-    for the world. But above all, spaces for meaningful encounters, exchange and inspiration, full of diverse people 
-    doing amazing things.
+    the comforts of home.
 
 </p>
 <p>
          <a href="http://www.girlgeekdinnersroma.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-GGDRoma.jpg" alt="GGD Roma"></a>
          <a href="http://www.girlgeekdinnersroma.com">Girl Geek Dinners Roma</a> is an informal 
-     organisation that promotes women in the Information technology industry. Girl Geek Dinners was founded in 
-     London, United Kingdom in August 2005 and now has 64 established chapters in 23 countries. Chapters organise 
-     local events with a range of female and male speakers with the majority of attendees being female.
+     organisation that promotes women in the Information technology industry.
 </p>
 <p>
-         <a href="http://www.rubyday.it" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-RD2013.png" alt="Ruby Day 13"></a>
-         <a href="http://www.rubyday.it">Ruby Day 13</a> Ruby Day 13, is the official annual gathering of Ruby developers in Italy. The conference is happening in Milan on June 15, 2013. Founded in 2011, Ruby Day has been the Italian venue for announcements regarding the Ruby programming language usage to show people works, compare notes and involve the community. Ruby on Rails is an open-source web framework that's optimized for programmer happiness and sustainable productivity. It lets you write beautiful code by favoring convention over configuration.
-</p>
-       <h3>Sponsors</h3>
-
-<p>
-         <a href="http://www.setit.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-SETIT.jpg" alt="SETIT"></a>
-         <a href="http://www.setit.com">SETIT</a> nasce nel 2001 e da allora opera nel settore della consulenza informatica. Ha lavorato in tutti i settori, per la pubblica amministrazione ma anche al fianco di aziende grandi e medie, fino ai singoli privati, studiando volta per volta le soluzioni più adeguate. Sviluppa softwares e applicazioni ed offre idee personalizzate e calibrate su qualsiasi richiesta del cliente. 
-Nel suo portfolio tanti siti web, ma anche la reingegnerizzazione web oriented di molti sistemi aziendali, la creazione delle prime web communities e i portali di commercio elettronico, l'avvento dell'e-learning, i sistemi di knowledge management e l'integrazione con sistemi legacy. 
+         <a href="http://www.rubyday.it" style="float:right; margin:0 0 0; border:0;"><img src="./images/rome_logo-RD13.png" alt="Ruby Day 13"></a>
+         <a href="http://www.rubyday.it">Ruby Day 13</a> is the official annual gathering of Ruby developers in Italy. The next conference is happening in Milan on June 15, 2013.
 </p>
 
        <h3>Media partners</h3>
@@ -294,7 +327,7 @@ Nel suo portfolio tanti siti web, ma anche la reingegnerizzazione web oriented d
       </p>
        <p>
          <strong>Who is this aimed for?</strong>
-         Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop.
+         Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the workshop and small group work is done in italian, but one or two speeches are given in english. Please bring your laptop.
        </p>
        <p>
          <strong>Can men attend?</strong>
@@ -315,33 +348,69 @@ Nel suo portfolio tanti siti web, ma anche la reingegnerizzazione web oriented d
         <hr />
         <h2>Rome team</h2>
         
-        <a href="http://andreapavoni.com/" class="grid_3">
+        <a href="https://twitter.com/apeacox" class="grid_3">
             Andrea Pavoni, coach
             <small>@apeacox</small>
+        </a>
+        <a href="https://twitter.com/ligialex" class="grid_3">
+            Alessandro Ligi, speaker
+            <small>@ligialex</small>
+        </a>
+        <a href="https://twitter.com/pigatss" class="grid_3">
+            Andrea Pigato, coach
+            <small>@pigatss</small>
+        </a>
+        <a href="https://twitter.com/thestubborndev" class="grid_3">
+            Carlotta Tatti, website & graphics
+            <small>@thestubborndev</small>
         </a>
         <a href="https://twitter.com/danieletatti" class="grid_3">
             Daniele Tatti, organiser
             <small>@danieletatti</small>
         </a>
-        <a href="https://twitter.com/" class="grid_3">
-            Elena Giacchino, organiser
+        <a href="" class="grid_3">
+            Andrea Longhi, coach
             <small>@</small>
+        </a>
+        <a href="https://twitter.com/d4carr" class="grid_3">
+            Dario Carrera, organiser
+            <small>@d4carr</small>
         </a>
         <a href="https://twitter.com/fregini" class="grid_3">
             Fabrizio Regini, coach
             <small>@fregini</small>
         </a>
+        <a href="https://twitter.com/sa_su_ke" class="grid_3">
+            Francesco Agati, coach
+            <small>@sa_su_ke</small>
+        </a>
         <a href="https://twitter.com/vjt" class="grid_3">
             Marcello Barnaba, coach
             <small>@vjt</small>
+        </a>
+        <a href="https://twitter.com/mattiaq" class="grid_3">
+            Mattia Quilici, speaker
+            <small>@mattiaq</small>
+        </a>
+        <a href="https://twitter.com/npj" class="grid_3">
+            Peter J Brindisi, coach
+            <small>@npj</small>
         </a>
         <a href="http://www.kapusons.com/document/it/sara_labanchi/chi_siamo__studio_comunicazione_sviluppo_software" class="grid_3">
             Sara Labanchi, coach
             <small>@</small>
         </a>
+        <a href="https://twitter.com/silviorelli" class="grid_3">
+            Silvio Relli, coach
+            <small>@silviorelli</small>
+        </a>
         <a href="https://twitter.com/nhaima" class="grid_3">
-            Simona Forti, coach
+            Simona Forti, speaker
             <small>@nhaima</small>
+        </a>
+        <a href="https://twitter.com/jeko" class="grid_3">
+            Stefano Guglielmetti, speaker
+            <small>@jeko</small>
         </a>
 
       </div>
