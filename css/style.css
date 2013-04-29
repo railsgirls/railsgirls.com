@@ -366,6 +366,11 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
           background:url('../images/rg-galway.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
+.barcelona#promo {
+  padding-left:340px;
+  background:url('../images/rg-barcelona.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 pre {
   background:#eee;
