@@ -372,6 +372,13 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.wellington#promo {
+  padding-left:340px;
+  background:url('../images/rg-wellington.jpg') no-repeat 0 10px,
+                 url('../images/separator.jpg') no-repeat center bottom;
+}
+.wellington#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
 pre {
   background:#eee;
   color:#111;
@@ -1256,6 +1263,12 @@ h2 a {
   position:relative;
   top:1px;
 }
+
+.sponsor-note { 
+  font-size: 12px;
+  color: #999;
+}
+
 .sponsor-link {
   -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
   -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
