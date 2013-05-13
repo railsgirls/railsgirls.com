@@ -2,6 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+  function initialize() {
+      var myOptions = {
+        zoom: 14,
+        center: new google.maps.LatLng(-41.290512,174.77922),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+      var options = {
+        position: new google.maps.LatLng(-41.290512,174.77922),
+        icon: "./images/heart-marker-sm.png"
+      };
+      var marker = new google.maps.Marker(options);
+      marker.setMap(map);
+  }
+  </script>
 
 <!--  Add your city name, dates and year.  -->
  
@@ -27,8 +44,9 @@
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-    </head>
-    <body>
+</head>
+
+<body onload="initialize()">
 
         <header>
         <div class="container_12">
@@ -73,9 +91,8 @@ Steps to show on site
         </h1>
         <p>Kia ora!</p>
         <p>
-            Rails Girls comes to Wellington! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-        <p><a href="https://docs.google.com/forms/d/10lt4UPLlM0pQVDExqehBQSY9UEceLAxi66iKIaS8zuc/viewform">Apply now!</a> Keep up to date by following us on <a href="https://twitter.com/railsgirlswgtn">Twitter</a> or on <a href="https://www.facebook.com/RailsGirlsWellington?fref=ts">Facebook</a>.</p>
-
+          Rails Girls comes to Wellington! During this free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
+        <p>Applications are now closed but we will be plotting and scheming for more events. We received 81 applications which is so amazing! Keep up to date by following us on <a href="https://twitter.com/railsgirlswgtn">Twitter</a> or on <a href="https://www.facebook.com/RailsGirlsWellington?fref=ts">Facebook</a>.</p>
 
 <!--  Update the sharing texts.-->
         
@@ -84,7 +101,7 @@ Steps to show on site
             <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Wellington this June  - apply now!" data-count="horizontal" data-via="railsgirlswgtn" data-related="railsgirlswgtn">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Wellington this June  - applications now closed" data-count="horizontal" data-via="railsgirlswgtn" data-related="railsgirlswgtn">
             Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
@@ -108,7 +125,7 @@ Steps to show on site
         <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:contact@railsgirls.com">Email us</a>.</p>
+        <p><strong>Want to help?</strong> We're always excited to hear from people keen to support women in tech! <a href="mailto:railsgirlswgtn@gmail.com">Email us</a>.</p>
       </div>
       
       <hr />
@@ -235,9 +252,10 @@ Steps to show on site
 
         <h3>Information</h3>
             <p>
-              <p><strong><a href="https://docs.google.com/forms/d/10lt4UPLlM0pQVDExqehBQSY9UEceLAxi66iKIaS8zuc/viewform">Applications</a> close:</strong> May 22th</p>
-                <p><strong>Acceptances informed:</strong> May 24th</p>
+              <p><strong>Applications are closed</strong></p>
+                <p><strong>Acceptances informed:</strong> May 13th</p>
                 <p><strong>Location:</strong> Xero, 3 Market Lane, Wellington
+                <div id="map_canvas" style="height: 200px;"></div>
                 <a href = "https://maps.google.co.nz/maps?q=xero+wellington&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hl=en&sa=N&tab=wl"> Map </a></p>
             
        
@@ -249,21 +267,52 @@ Steps to show on site
       <hr/>
        <h3>Sponsors</h3>
       
-       <p>Rails Girls Wellington is co-organised with our awesome partners.</p><p>
-         <p style="margin-bottom: 40px;">Want to help? We're looking for partners &amp; sponsors for the non-profit event! <a href="mailto:railsgirlswgtn@gmail.com>">Email us</a>! </p>
-         
-         <p class="sponsor-note">
-           <a href="http://socialcode.io/" style="display:block; margin:0 0 10px; border:0;"><img src="./images/social-code.gif" alt="Social Code"></a>
-         <a href="http://socialcode.io/">Social Code</a> develops technology to help people be the best they can be, through mobile health solutions that are portable, personalised and participatory.
+       <p>Rails Girls Wellington has been made possible with the generosity and support of our sponsors.</p>
+       <br>
 
+          <p class="sponsor-note">
+           <a href="http://google-newzealand.blogspot.co.nz/" style="display:block; margin:0 0 10px; border:0;">
+              <img src="./images/google-logo-wgtn.png" alt="Google" style="max-width: 250px;">
+            </a>
           </p>
 
-        <p class="sponsor-note">
-           <a href="http://xero.com/" style="display:block; margin:0 0 10px; border:0;"><img src="./images/xero-logo.png" alt="Xero"></a>
-         <a href="http://www.xero.com">Xero</a> - Beautiful accounting software. Loved by over 200,000 people worldwide!
 
+          <p class="sponsor-note">
+            <a href="http://socialcode.io/" style="display:block; margin:0 0 10px; border:0;">
+              <img src="./images/social-code.gif" alt="Social Code" style="max-width: 200px;">
+            </a>
           </p>
 
+
+          <p class="sponsor-note">
+            <a href="http://www.3months.com" style="display:block; margin:0 0 10px; border:0;">
+              <img src="./images/3months-Logo.png" alt="3months" style="max-width: 200px;">
+            </a>
+          </p>
+
+          <p class="sponsor-note">
+            <a href="http://www.abletech.co.nz" style="display:block; margin: 0 0 10px; border:0;">
+              <img src="./images/Abletech-Logo.png" alt="Abletech" style="max-width: 200px;">
+            </a>
+          </p>
+
+          <p class="sponsor-note">
+            <a href="http://www.catalyst.net.nz" style="display:block; margin: 0 0 10px; border:0;">
+              <img src="./images/catalyst-logo.png" alt="Catalyst IT" style="max-width: 200px;">
+            </a>
+          </p>
+
+          <p class="sponsor-note">
+           <a href="http://www.rabid.co.nz/" style="display:block; margin:0 0 10px; border:0;">
+              <img src="./images/rabid-logo.png" alt="Rabid" style="max-width: 200px;">
+            </a>
+          </p>
+
+          <p class="sponsor-note">
+           <a href="http://xero.com/" style="display:block; margin:0 0 10px; border:0;">
+              <img src="./images/xero-logo.png" alt="Xero" style="max-width: 200px;">
+            </a>
+          </p>
 
     <hr/>
     <h3>FAQ</h3>
@@ -276,10 +325,10 @@ Steps to show on site
       <strong>Can men attend?</strong>
       Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority. 
     </p>
-    <p>
+<!--     <p>
       <strong>I know how to program - How can I help?</strong>
       We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="mailto:railsgirlswgtn@gmail.com>">Email us</a>
-    </p>
+    </p> -->
       
         
       </div>
@@ -310,9 +359,9 @@ Steps to show on site
         </a>
         
 
-        <a href="https://twitter.com/shevauncoker" class="grid_3">
-            Shevaun Coker
-            <small>@shevauncoker</small>
+        <a href="https://twitter.com/MxCarmine" class="grid_3">
+            Kiesia Croucher
+            <small>@MxCarmine</small>
         </a>
 
         <a href="https://twitter.com/robramsaynz" class="grid_3">
@@ -328,16 +377,49 @@ Steps to show on site
             <small>@ootoovak</small>
         </a>
 
+        <a href="https://twitter.com/megahbite" class="grid_3">
+            Megan Bowra-Dean
+            <small>@megahbite</small>
+        </a>
+
+
+        <a href="https://twitter.com/eoinkelly" class="grid_3">
+            Eoin Kelly
+            <small>@eoinkelly</small>
+        </a>
+
+        <a href="https://twitter.com/joshuavial" class="grid_3">
+            Josh Vial
+            <small>@joshuavial</small>
+        </a>
+        <a href="https://twitter.com/shevauncoker" class="grid_3">
+            Shevaun Coker
+            <small>@shevauncoker</small>
+        </a>
+                <a href="https://twitter.com/PrototypeAlex" class="grid_3">
+            Alex Gibson
+            <small>@PrototypeAlex</small>
+        </a>
+
+        <div class="grid_3"> Fiona Sanggang </div>
+        <div class="grid_3"> Hannah Salmon</div>
+
+
+
       </div>
 
       <div class="coaches clearfix">
         <h2> Presentations from...</h3>
 
-        <a href="https://twitter.com/auryn" class="grid_3">
-          Auryn Shaw
+        <a href="https://twitter.com/aurynn" class="grid_3">
+          Aurynn Shaw
           <small>@aurynn</small>
         </a>
           
+        <a href="https://twitter.com/eoinkelly" class="grid_3">
+            Eoin Kelly
+            <small>@eoinkelly</small>
+        </a>
 
 
       </div>
