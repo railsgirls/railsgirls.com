@@ -18,12 +18,24 @@
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
   <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+
+  <script language="JavaScript" type="text/javascript">
+    
+    function blocking(nr)
+    // for displaying or hiding parts of the page
+    {
+      displayNew = (document.getElementById(nr).style.display == 'none') ? 'block' : 'none';
+      document.getElementById(nr).style.display = displayNew;
+    }
+  
+  </script>
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
-<body>
+<body onload="blocking('ExpandCollapseParty'); blocking('ExpandCollapseWorkshop');">
+
 
 <header>
   <div class="container_12">
@@ -118,13 +130,15 @@
 <!--WORKSHOP AGENDA-->
   <div class="grid_8 alpha">
     <h2>Schedule: Tuesday, June 11, 2013<br />at: 1005 7th Street NW, Washington DC</h2>
-
+    <a href="" onclick="blocking('ExpandCollapseParty'); return false;">Click here to expand/collapse the Installation Party Schedule</a>
+      <div id="ExpandCollapseParty">
         <table id="schedule">
           <tbody>
             <tr>
               <th><strong>6:00pm - 9:00pm</strong></th>
               <td>
                 <h3>Installation Party/Meetup Get Together</h3>
+
                 <p>
                   Get know your coaches and peers. Bring your laptop so we can help you install Ruby on Rails using the <a href="http://guides.railsgirls.com/install/" target="_blank">install guide</a> if you haven't already installed them.
                 </p>
@@ -134,108 +148,113 @@
               </td>
             </tr>
         </table>
+      </div>
         <hr/>
   <h2>Schedule: Thursday, June 13, 2013 <br />
     at: One Veteran's Place Silver Spring, MD 20910</h2>
-  <p>*Please note exact times for each section are not set in stone and may change as the event gets closer*</p>
-  <table id="schedule"> 
-    <tbody>
-      <tr>
-        <th><strong>8:30am - 9:15am</strong></th>
-        <td>
-          <h3>Registration</h3>
-          <p>
-            If you haven't had a chance to install Ruby and Rails before the workshop you can get help from coaches at registration using the <a href="http://guides.railsgirls.com/install/" target="_blank">install guide</a>.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>9:15am - 9:30am</strong></th>
-        <td>
-          <h3>Welcome and Intro's</h3>
-          <p>We will talk about our awesome sponsors, the structure of the day, and designing web applications. You will also get to meet your team and coach for the day.</p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>9:30am - 12:00pm</strong></th>
-        <td>
-          <h3>Learn Ruby, Rails, and Start Coding</h3>
-          <p>
-            We will do an overview of Ruby then start <a href="http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html" target="_blank">coding</a> with Ruby.
-            <br />
-            Learn about Rails and why it's awesome from Rails experts
-            <br />
-            And get <a href="http://guides.railsgirls.com/app/" target="_blank">building</a> with Rails.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>12:00pm - 1:00pm</strong></th>
-        <td>
-          <h3>Lunch</h3>
-          <p>
-            Reward yourself for a successful morning with some grub. 
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>1:00pm - 1:30pm</strong></th>
-        <td>
-          <h3>Review</h3>
-          <p>
-            We will come back together review what you've been building and answer any questions.
-          <p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>1:30pm - 4:15pm</strong></th>
-        <td>
-          <h3>Complete Your Rails Apps</h3>
-          <p>
-            You will continue to work in your groups adding features and style to your Rails applications.<br/>
-            We will event have a chance for you to show them off to the group.
-          <p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>4:15pm - 5:30pm</strong></th>
-        <td>
-          <h3>Get Inspired!</h3>
-          <p>
-           We will be having a couple lightning talks from female leaders in the Ruby community, CTOs, and develoeprs, to help you keep going with the skills you gain at the workshop.
-           </p>
-           <p>Talk topics include: Becoming Your Own CTO, The Lean Startup Method, <a href="http://en.wikipedia.org/wiki/Grit_(personality_trait)" target="_blank">Grit</a>, and more!
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <th><strong>6:00pm - 8:00pm</strong></th>
-        <td>
-          <h3>Afterparty</h3>
-          <p>
-           Treat Yo' Self after a day of hard work and building your first Rails app, you deserve it!  Location TBA, time subject to change
-           </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p>*Please note exact times for each section are not set in stone and may change as the event gets closer*<br />
+  <a href=" " onclick="blocking('ExpandCollapseWorkshop'); return false;">Click here to expand/collapse the Workshop schedule.</a></p>
+  <div id="ExpandCollapseWorkshop">
+    <table id="schedule">
+      <tbody>
+        <tr>
+          <th><strong>8:30am - 9:15am</strong></th>
+          <td>
+            <h3>Registration</h3>
+            <p>
+              If you haven't had a chance to install Ruby and Rails before the workshop you can get help from coaches at registration using the <a href="http://guides.railsgirls.com/install/" target="_blank">install guide</a>.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>9:15am - 9:30am</strong></th>
+          <td>
+            <h3>Welcome and Intro's</h3>
+            <p>We will talk about our awesome sponsors, the structure of the day, and designing web applications. You will also get to meet your team and coach for the day.</p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>9:30am - 12:00pm</strong></th>
+          <td>
+            <h3>Learn Ruby, Rails, and Start Coding</h3>
+            <p>
+              We will do an overview of Ruby then start <a href="http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html" target="_blank">coding</a> with Ruby.
+              <br />
+              Learn about Rails and why it's awesome from Rails experts
+              <br />
+              And get <a href="http://guides.railsgirls.com/app/" target="_blank">building</a> with Rails.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>12:00pm - 1:00pm</strong></th>
+          <td>
+            <h3>Lunch</h3>
+            <p>
+              Reward yourself for a successful morning with some grub. 
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>1:00pm - 1:30pm</strong></th>
+          <td>
+            <h3>Review</h3>
+            <p>
+              We will come back together review what you've been building and answer any questions.
+            <p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>1:30pm - 4:15pm</strong></th>
+          <td>
+            <h3>Complete Your Rails Apps</h3>
+            <p>
+              You will continue to work in your groups adding features and style to your Rails applications.<br/>
+              We will event have a chance for you to show them off to the group.
+            <p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>4:15pm - 5:30pm</strong></th>
+          <td>
+            <h3>Get Inspired!</h3>
+            <p>
+             We will be having a couple lightning talks from female leaders in the Ruby community, CTOs, and develoeprs, to help you keep going with the skills you gain at the workshop.
+             </p>
+             <p>Talk topics include: Becoming Your Own CTO, The Lean Startup Method, <a href="http://en.wikipedia.org/wiki/Grit_(personality_trait)" target="_blank">Grit</a>, and more!
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th><strong>6:00pm - 8:00pm</strong></th>
+          <td>
+            <h3>Afterparty</h3>
+            <p>
+             Treat Yo' Self after a day of hard work and building your first Rails app, you deserve it!  Location TBA, time subject to change
+             </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-  <hr/>
-  <h2>Schedule: Friday and Saturday, June 14-15, 2013<br />
-    at: One Veteran's Place Silver Spring, MD 20910</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th><strong>All Day</strong></th>
-              <td>
-                <h3>RubyNation Conference</h3>
-                <p>
-                  Attendees and coaches are encouraged to attend the <a href="http://www.rubynation.org/" target="_blank">RubyNation</a> conference to keep learning and coding!
-                </p>
-              </td>
-            </tr>
-        </table>
-</div>
+    <hr/>
+    <h2>Schedule: Friday and Saturday, June 14-15, 2013<br />
+      at: One Veteran's Place Silver Spring, MD 20910</h2>
+          <table id="schedule">
+            <tbody>
+              <tr>
+                <th><strong>All Day</strong></th>
+                <td>
+                  <h3>RubyNation Conference</h3>
+                  <p>
+                    Attendees and coaches are encouraged to attend the <a href="http://www.rubynation.org/" target="_blank">RubyNation</a> conference to keep learning and coding!
+                  </p>
+                </td>
+              </tr>
+          </table>
+  </div>
+
 
 
 <!--WORKSHOP SPONSORS-->
@@ -264,7 +283,6 @@
         </a>
         <p></p>
     <h3>Silver Sponsors</h3>
-      <!--<p class="grid_3 alpha">-->
         <a href="http://socialdriver.com/">
             <img src="images/washingtondc/socialdriver-logo.png" target="_blank" alt="Social Driver Logo"/>
         </a>
