@@ -56,13 +56,7 @@ body {
 .porto#promo h1 {
   background:url('../images/rg-porto-header.png') no-repeat left top;
 }
-
-.lisboa#promo {
-  padding-left:340px;
-  background:url('../images/rg-lisboa.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
-} 
-
+ 
 .beijing#promo {
   padding-left:340px;
   background:url('../images/rg-beijing.png') no-repeat 0 10px,
@@ -83,6 +77,11 @@ body {
   background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
 
+.lisboa#promo {
+  padding-left:340px;
+  background:url('../images/rg-lisboa.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+} 
 
 #promo {
   padding-left:340px;
