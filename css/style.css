@@ -83,6 +83,10 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 } 
 
+.lisboa#promo h1 {
+ background:url('../images/rg-lisboa-header.png') no-repeat left top;
+}
+
 #promo {
   padding-left:340px;
   padding-top:30px;
