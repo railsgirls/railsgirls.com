@@ -96,6 +96,14 @@ body {
   min-height:300px;
 }
 
+
+.aarhus#promo {
+  padding-left:340px;
+  background:url('../images/rg-aarhus.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .oulu#promo {
   padding-left:340px;
   background:url('../images/rg-oulu.png') no-repeat 10px 40px,
