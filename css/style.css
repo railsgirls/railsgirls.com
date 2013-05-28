@@ -56,7 +56,7 @@ body {
 .porto#promo h1 {
   background:url('../images/rg-porto-header.png') no-repeat left top;
 }
-
+ 
 .beijing#promo {
   padding-left:340px;
   background:url('../images/rg-beijing.png') no-repeat 0 10px,
@@ -77,6 +77,15 @@ body {
   background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
 
+.lisboa#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+} 
+
+.lisboa#promo h1 {
+ background:url('../images/rg-lisboa-header.png') no-repeat left top;
+}
 
 #promo {
   padding-left:340px;
@@ -86,6 +95,14 @@ body {
              url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
+
+
+.aarhus#promo {
+  padding-left:340px;
+  background:url('../images/rg-aarhus.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 
 .oulu#promo {
   padding-left:340px;
@@ -366,6 +383,18 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
           background:url('../images/rg-galway.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
+.barcelona#promo {
+  padding-left:340px;
+  background:url('../images/rg-barcelona.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.wellington#promo {
+  padding-left:340px;
+  background:url('../images/rg-wellington.jpg') no-repeat 0 10px,
+                 url('../images/separator.jpg') no-repeat center bottom;
+}
+.wellington#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
 pre {
   background:#eee;
@@ -467,7 +496,7 @@ pre {
 }
 
 .thehague#promo h1 {
-  background:url('../images/RG-thehague-header.png') no-repeat left top;
+  background:url('../images/rg-header_TH.png') no-repeat left top;
   height: 90px;
 }
 
@@ -1251,6 +1280,12 @@ h2 a {
   position:relative;
   top:1px;
 }
+
+.sponsor-note { 
+  font-size: 12px;
+  color: #999;
+}
+
 .sponsor-link {
   -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
   -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
