@@ -27,7 +27,16 @@
       <![endif]-->
     </head>
     <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+	
         <header>
         <div class="container_12">
             <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -73,10 +82,10 @@ Steps to show on site
         <h1 class="czech">Rails Girls 21. až 22. června 2013 - Brno</h1>
 		 <p>Ahoj holky a dámy!</p>
 		 <p>S radostí oznamujeme, že v Brně dne 21.6. a 22.6. propukne bezplatný workshop, jehož cílem je vás provést jedním nejzajímavějších programovacích jazyků na světě – Ruby on Rails, díky kterému můžete jednodušeji realizovat své nápady a sny (webové stranky a projekty).</p>
-        	<p><a src="www.bitly.com/rgbrno)">Zaregistrovat zdarma</a></p>
+        	<p><a href="http://www.bitly.com/rgbrno">Zaregistrovat zdarma</a></p>
 		<p>Rails Girls už dvakrát úspěšně proběhly v Praze. Přečtě te si jaké to bylo (<a href="http://www.jobs.cz/poradna/clanky/aktuality/kdyz-se-holky-uci-programovat/">článek 1.</a>, <a href="http://www.lupa.cz/clanky/programatorky-jsou-ohrozeny-druh-rails-girls-se-to-v-praze-pokusily-zvratit/nazory/">článek 2.</a>,<a href="http://www.lenilumpik.cz/2012/12/ruby-ruby-ruby/"> článek 3.</a>)</p>
 
-        <p>Pro aktuální informace sledujte náš Twitter <a href="https://twitter.com/RailsGirlsCz">@RailsGirlsBrno</a>.</p>
+        <p>Pro aktuální informace sledujte náš Twitter <a href="https://twitter.com/RailsGirlsBrno">@RailsGirlsBrno</a>.</p>
 
 
 <!--  Update the sharing texts.-->
@@ -86,14 +95,14 @@ Steps to show on site
             <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Brno 21.-22. June - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Brno 21.-22. June - apply now!" data-count="horizontal" data-via="RailsGirlsBrno" data-related="railsgirls">
             Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-            </div>
 
-            <div id="fb-root" style=""></div>
-            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+            </div>
+            <div style="margin:0 15px 0 0;">
+				<div class="fb-like" data-href="https://www.facebook.com/RailsGirlsBrno" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+            </div>
 
           </div>
         </p>
