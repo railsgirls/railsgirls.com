@@ -176,6 +176,12 @@ background:url('../images/rg-prague.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.brno#promo {
+padding-left:340px;
+background:url('../images/rg-brno.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .austin#promo {
 padding-left:340px;
 background:url('../images/rg-austin.jpg') no-repeat 0 10px,
@@ -481,6 +487,10 @@ pre {
 
 .prague#promo h1 {
   background:url('../images/rg-prague-header.png') no-repeat left top;
+}
+
+.brno#promo h1 {
+  background:url('../images/rg-brno-header.png') no-repeat left top;
 }
 
 .austin#promo h1 {
