@@ -612,8 +612,6 @@ pre {
 
 .poznan#promo h1 {
   background:url('../images/rg-poznan-header.png') no-repeat left top;
-  height: 82px;
-  margin-left: -10px;
 }
 
 .turku#promo h1 {
