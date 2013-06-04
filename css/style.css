@@ -176,6 +176,12 @@ background:url('../images/rg-prague.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.brno#promo {
+padding-left:340px;
+background:url('../images/rg-prague.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .austin#promo {
 padding-left:340px;
 background:url('../images/rg-austin.jpg') no-repeat 0 10px,
@@ -313,6 +319,12 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
   padding-left:340px;
   background:url('../images/rg-kyoto.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
+}
+
+.sapporo#promo {
+  padding-left:340px;
+  background:url('../images/rg-sapporo.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
 }
 
 .chicago#promo {
@@ -483,6 +495,10 @@ pre {
   background:url('../images/rg-prague-header.png') no-repeat left top;
 }
 
+.brno#promo h1 {
+  background:url('../images/rg-brno-header.png') no-repeat left top;
+}
+
 .austin#promo h1 {
   background:url('../images/rg-austin-header.png') no-repeat left top;
 }
@@ -593,6 +609,10 @@ pre {
 
 .kyoto#promo h1 {
   background:url('../images/rg-kyoto-header.png') no-repeat left top;
+}
+
+.sapporo#promo h1 {
+  background:url('../images/rg-sapporo-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
