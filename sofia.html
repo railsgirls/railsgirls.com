@@ -71,6 +71,17 @@
       display: block;
       margin-bottom: 0.5em;
     }
+    #schedule td ol {
+      padding-left: 15px;
+      margin: 1em 0;
+    }
+    #schedule td ol li {
+      color: #222;
+    }
+    #schedule td ol li em {
+      display: block;
+      color: #555;
+    }
   </style>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
@@ -133,11 +144,12 @@
           </p>
 
           <p>
-            До края на 26 май ще изпратим писмо на всички, които заявиха участие в уъркшопа, за да ви известим дали кандидатурата ви е одобрена за това събитие, или не.
+            Благодарим на всички участници!
           </p>
 
           <p>
             Следете ни в <a href="https://twitter.com/railsgirls_sof">Twitter</a> или <a href="http://www.facebook.com/RailsGirlsSofia">Facebook</a> за новини около събитието.
+            Присъединете се в групата <a href="https://www.facebook.com/groups/RailsGirlsSofia/" target="_blank">Rails Girls Sofia</a>.
           </p>
         </div>
       </div>
@@ -158,24 +170,38 @@
 
       <!--  Update the texts! -->
 
-      <div class="grid_6 alpha">
+      <div class="grid_6 alpha" id="schedule">
         <h1>Програма</h1>
 
         <h2>Петък, 31 май 2013 г.</h2>
-        <table id="schedule">
+        <table>
           <tbody>
             <tr>
-              <th>19.00 - 21:00</th>
+              <th>18:45 - 19:00</th>
+              <td>
+                <h4>Регистрация</h4>
+                Нямате нужда от специални идентификационни знаци, освен името си. Моля не закъснявайте :)
+              </td>
+            </tr>
+            <tr>
+              <th>19:00 - 20:00</th>
               <td>
                 <h4>Инсталационно парти</h4>
                 Предварително запознаване с участниците. Носете си лаптопите, за да инсталираме необходимия за уъркшопа безплатен софтуер.
               </td>
             </tr>
             <tr>
-             <th>21.00 -</th>
+              <th>20:00 - 21:00</th>
               <td>
-                <h4>Сбирка на инструкторите</h4>
-                Всички инструктори ще бъдат събрани на вечеря, на която ще се запознаем и ще разясним програмата за следващия ден.
+                <h4>Тренирай си робот</h4>
+                Вашият първи досег с програмирането, и то какъв! Ще управлявате ваш собствен киборг.
+              </td>
+            </tr>
+            <tr>
+              <th>21:00 - 21:05</th>
+              <td>
+                <h4>Friday Hug!</h4>
+                Вземете участие във вашия първи <a href="http://fridayhug.com/" target="_blank">#FridayHug</a>!
               </td>
             </tr>
           </tbody>
@@ -185,7 +211,7 @@
 
         <h2>Събота, 1 юни 2013 г.</h2>
 
-        <table id="schedule">
+        <table>
           <tbody>
           <tr>
             <th>9:00 - 10:00</th>
@@ -233,7 +259,7 @@
           </tr>
 
           <tr>
-            <th>13.30- 13:45</th>
+            <th>13:30- 13:45</th>
             <td>
               <h4>Bentobox упражнение</h4>
               Преговор на наученото до момента и кое как пасва в цялостната картинка.
@@ -244,12 +270,20 @@
             <th>13:45 - 14:30</th>
             <td>
               <h4>Lightning talks от инструкторите</h4>
-              <em>Предстои да бъдат обявени</em>
+              <ol>
+                <li>Да променим света с програмиране! <em>Димитър Димитров</em></li>
+                <li>Внимание към детайлите <em>Сава Чанков</em></li>
+                <li>От нищо нещо, или open source <em>Пламен Стоев</em></li>
+                <li>За програмирането в gif-ове <em>Свилен Иванов</em></li>
+                <li>Don't Worry <em>Васил Колев, гост-лектор</em></li>
+                <li>Version Control <em>Стефан Кънев</em></li>
+                <li>Naming Things <em>Генади Самоковаров</em></li>
+              </ol>
             </td>
           </tr>
 
           <tr>
-            <th>14:30 - 16:30</th>
+            <th>14:30 - 17:30</th>
             <td>
               <h4>Уъркшоп</h4>
               Развийте вашето уеб приложение
@@ -260,7 +294,8 @@
             <td>
               <h4>Afterparty</h4>
               Отворено за всички. Елате и кажете "Здрасти!" на купчина готини хора, вълнуващи се от всичко технологично.<br>
-              <em>Мястото предстои да бъде уточнено</em>
+              Място: <a href="https://www.facebook.com/discostereobar" rel="nofollow" target="_blank">Disco Stereo Bar (сайт ↗)</a><br>
+              Адрес: <strong>ул. Позитано 8</strong>
             </td>
           </tr>
           </tbody>
@@ -271,19 +306,18 @@
       <!--  These also, just update :) -->
 
       <div class="grid_5 push_1 omega side">
-        <h3 style="margin-top: 1em;">Още</h3>
-
-        <p>
-          <!-- <strong><a href="http://railsgirls.wufoo.com/forms/yourcity/">Регистрацията</a> затваря на </strong>24 май<br> -->
-          <strong>Регистрацията</strong> приключва на 24 май<br>
-          <strong>Одобрените</strong> участници ще известим на 26 май
-        </p>
-
         <h3>Място</h3>
         <p>
           <strong>betahaus | Sofia</strong> (<a href="http://www.betahaus.bg/" rel="nofollow" target="_blank">сайт ↗</a>)<br>
           ул. Крум Попов 56-58, София (до 4-то РПУ)<br>
           <a href="https://maps.google.com/maps?q=%D1%83%D0%BB.+%E2%80%9E%D0%9A%D1%80%D1%83%D0%BC+%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%E2%80%9C+56-58,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;hl=bg&amp;ie=UTF8&amp;sll=35.675147,-95.712891&amp;sspn=69.024524,135.263672&amp;oq=%D1%83%D0%BB.+%D0%9A%D1%80%D1%83%D0%BC+%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2+56-58,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F&amp;hnear=%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%E2%80%9E%D0%9A%D1%80%D1%83%D0%BC+%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%E2%80%9C+58,+1421+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;t=m&amp;z=17&amp;iwloc=r0" target="_blank">Виж карта ↗</a>
+        </p>
+
+        <h3>Афтърпарти</h3>
+        <p>
+          <a href="https://www.facebook.com/discostereobar" rel="nofollow" target="_blank">Disco Stereo Bar (сайт ↗)</a><br>
+          ул. Позитано 8, София<br>
+          Начало: 20 ч., събота, 1 юни
         </p>
 
         <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
@@ -444,6 +478,13 @@
           <small>@akseniyap</small>
         </a>
 
+        <a href="http://stackoverflow.com/users/599686/bliof" class="coach grid_3">
+          <img src="http://s.gravatar.com/avatar/6e2b017e2266ab3c15e0439a1ca10946?s=80">
+          Александър Иванов
+          <em>инструктор</em>
+          <small>@bliof</small>
+        </a>
+
         <a href="https://twitter.com/cbfl" class="grid_3">
           <img src="https://api.twitter.com/1/users/profile_image/cbfl" alt="Аватар">
           Андрей Джуков
@@ -546,6 +587,13 @@
           Цветомила Михайлова
           <em>инструктор</em>
           <small>@tsvetomila</small>
+        </a>
+
+        <a href="http://dimitartenev.com" class="grid_3">
+          <img src="http://s.gravatar.com/avatar/55c7c0df4d16f9cdfb5109eb179ef572?s=80" alt="Аватар">
+          Димитър Тенев
+          <em>фотограф и оператор</em>
+          <small>dimitartenev.com</small>
         </a>
 
       </div>

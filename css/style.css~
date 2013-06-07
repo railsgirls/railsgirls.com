@@ -176,12 +176,6 @@ background:url('../images/rg-prague.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.brno#promo {
-padding-left:340px;
-background:url('../images/rg-prague.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
-}
-
 .austin#promo {
 padding-left:340px;
 background:url('../images/rg-austin.jpg') no-repeat 0 10px,
@@ -319,12 +313,6 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
   padding-left:340px;
   background:url('../images/rg-kyoto.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-}
-
-.sapporo#promo {
-  padding-left:500px;
-  background:url('../images/rg-sapporo.png') no-repeat 0 120px,
-  url('../images/separator.png') no-repeat center bottom;
 }
 
 .chicago#promo {
@@ -495,10 +483,6 @@ pre {
   background:url('../images/rg-prague-header.png') no-repeat left top;
 }
 
-.brno#promo h1 {
-  background:url('../images/rg-brno-header.png') no-repeat left top;
-}
-
 .austin#promo h1 {
   background:url('../images/rg-austin-header.png') no-repeat left top;
 }
@@ -611,10 +595,6 @@ pre {
   background:url('../images/rg-kyoto-header.png') no-repeat left top;
 }
 
-.sapporo#promo h1 {
-  background:url('../images/rg-sapporo-header.png') no-repeat left top;
-}
-
 .chicago#promo h1 {
   background:url('../images/rg-chicago-header.png') no-repeat left top;
 }
@@ -632,8 +612,6 @@ pre {
 
 .poznan#promo h1 {
   background:url('../images/rg-poznan-header.png') no-repeat left top;
-  height: 82px;
-  margin-left: -10px;
 }
 
 .turku#promo h1 {
@@ -811,12 +789,6 @@ h4.warsaw {
   background:url('../images/rg-london.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
-
-.leipzig#promo {
-          padding-left:340px;
-          background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
 
 #promo p {
   font-size:19px;
