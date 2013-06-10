@@ -322,8 +322,8 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
 }
 
 .sapporo#promo {
-  padding-left:340px;
-  background:url('../images/rg-sapporo.png') no-repeat 0 10px,
+  padding-left:500px;
+  background:url('../images/rg-sapporo.PNG') no-repeat 0 120px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -811,6 +811,12 @@ h4.warsaw {
   background:url('../images/rg-london.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+.leipzig#promo {
+          padding-left:340px;
+          background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
 
 #promo p {
   font-size:19px;
