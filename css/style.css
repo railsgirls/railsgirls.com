@@ -693,12 +693,12 @@ h4.warsaw {
   background:url('../images/rg-philadelphia-header.png') no-repeat left top;
 }
 
-.chengdu#promo {
+#chengdu #promo {
   padding-left:340px;
-  background:url('../images/rg-chengdu.png') no-repeat 0 10px,                              url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/rg-chengdu-0720.png') no-repeat 0 10px,                            
 }
 
-.chengdu#promo h1 {
+#chengdu h1 {
   background:url('../images/rg-chengdu-header.png') no-repeat left top;
 }
 
