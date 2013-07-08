@@ -401,6 +401,12 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.bangalore#promo {
+  padding-left:340px;
+  background:url('../images/rg-bangalore.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .wellington#promo {
   padding-left:340px;
   background:url('../images/rg-wellington.jpg') no-repeat 0 10px,
@@ -665,6 +671,10 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.bangalore#promo h1 {
+          background:url('../images/rg-bangalore-header.png') no-repeat left top;
+        }
+
 .basel#promo h1 {
   background:url('../images/rg-basel-header.png') no-repeat left top;
 }
@@ -811,6 +821,7 @@ h4.warsaw {
   background:url('../images/rg-london.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
 
 .leipzig#promo {
           padding-left:340px;
