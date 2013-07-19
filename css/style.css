@@ -829,6 +829,13 @@ h4.warsaw {
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.canberra#promo {
+          padding-left:360px;
+          padding-bottom: 80px;
+          background:url('../images/canberra/rg-canberra.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 #promo p {
   font-size:19px;
   line-height:1.4;
