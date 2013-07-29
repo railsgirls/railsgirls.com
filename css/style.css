@@ -847,12 +847,10 @@ h4.warsaw {
   text-indent:0;
 }
 .dh_fairfax#promo h1 small {
-display: block;
-font-size: 24px;
-color: #444;
-font-weight: normal;
-letter-spacing: 3px;
-padding-top: 5px;
+  padding-top: 5px;
+}
+.dh_fairfax#share {
+  padding-bottom: 30px;
 }
 
 #promo p {
