@@ -845,6 +845,12 @@ h4.warsaw {
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.istanbul#promo {
+          padding-left:340px;
+          background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 .canberra#promo {
           padding-left:360px;
           padding-bottom: 80px;
