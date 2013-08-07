@@ -87,6 +87,13 @@ body {
  background:url('../images/rg-lisboa-header.png') no-repeat left top;
 }
 
+.groningen#promo {
+  padding-left: 340px;
+  background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+
 #promo {
   padding-left:340px;
   padding-top:30px;
