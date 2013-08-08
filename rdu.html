@@ -29,7 +29,15 @@
       <![endif]-->
     </head>
     <body>
-
+      <!-- Facebook like: https://developers.facebook.com/docs/reference/plugins/like/ -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=575549279155545";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
         <header>
         <div class="container_12">
             <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -89,9 +97,8 @@ Steps to show on site
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
-<!--             <div id="fb-root" style=""></div>
-            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like> -->
+
+            <div class="fb-like" data-href="http://railsgirls.com/rdu" data-width="400" data-show-faces="true" data-send="true"></div>
 
           </div>
         </p>
@@ -253,7 +260,7 @@ Steps to show on site
         </p>
         <p>
            <a href="http://mentormeinfo.com" style="display: block; border: 0" target="_blank"><img src="./images/mentor-me.jpg" alt="Mentor Me" width="130px" height="130px"></a>
-           <a href="http://mentormeinfo.com" target="_blank">Mentor Me</a> - Mentoring for success
+           <a href="http://mentormeinfo.com" target="_blank">MentorMe</a> - Mentoring for success
         </p>
      <hr/>
      <h3>FAQ</h3>
@@ -305,6 +312,16 @@ Steps to show on site
         <a href="https://twitter.com/isharacomix" class="grid_3">
             Barry Peddycord III, coach
             <small>@isharacomix</small>
+        </a>
+
+        <a href="https://twitter.com/vbatts" class="grid_3">
+            Vincent Batts, coach
+            <small>@vbatts</small>
+        </a>
+
+        <a href="https://twitter.com/drapergeek" class="grid_3">
+            Jason Draper, coach
+            <small>@drapergeek</small>
         </a>
 
       </div>
