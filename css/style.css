@@ -87,6 +87,13 @@ body {
  background:url('../images/rg-lisboa-header.png') no-repeat left top;
 }
 
+.groningen#promo {
+  padding-left: 340px;
+  background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+
 #promo {
   padding-left:340px;
   padding-top:30px;
@@ -330,6 +337,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 .sapporo#promo {
   padding-left:500px;
   background:url('../images/rg-sapporo.png') no-repeat 0 120px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.matsue#promo {
+  padding-left:400px;
+  background:url('../images/rg-matsue.png') no-repeat 0 50px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -635,6 +648,10 @@ pre {
 
 .sapporo#promo h1 {
   background:url('../images/rg-sapporo-header.png') no-repeat left top;
+}
+
+.matsue#promo h1 {
+  background:url('../images/rg-matsue-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
