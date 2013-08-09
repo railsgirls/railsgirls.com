@@ -87,6 +87,13 @@ body {
  background:url('../images/rg-lisboa-header.png') no-repeat left top;
 }
 
+.groningen#promo {
+  padding-left: 340px;
+  background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+
 #promo {
   padding-left:340px;
   padding-top:30px;
@@ -260,6 +267,12 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.fortaleza#promo {
+padding-left:340px;
+background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+         url('../images/separator.png') no-repeat center bottom;
+}
+
 .belem#promo {
   padding-left:340px;
   background:url('../images/rg-belem.png') no-repeat 0 10px,
@@ -323,13 +336,13 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
 
 .sapporo#promo {
   padding-left:500px;
-  background:url('../images/rg-sapporo.PNG') no-repeat 0 120px,
+  background:url('../images/rg-sapporo.png') no-repeat 0 120px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
 .matsue#promo {
-  padding-left:500px;
-  background:url('../images/rg-matsue.jpg') no-repeat 0 120px,
+  padding-left:400px;
+  background:url('../images/rg-matsue.png') no-repeat 0 50px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -407,12 +420,28 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.bangalore#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .wellington#promo {
   padding-left:340px;
   background:url('../images/rg-wellington.jpg') no-repeat 0 10px,
                  url('../images/separator.jpg') no-repeat center bottom;
 }
 .wellington#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
+.columbia#promo {
+  padding-left:340px;
+  background:url('../images/rg-columbiaMD.png') no-repeat 0 50px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.columbia#promo h1 {
+  background: url('../images/rg-header-columbiaMD.png') no-repeat left top;
+}
 
 pre {
   background:#eee;
@@ -675,6 +704,10 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.bangalore#promo h1 {
+          background:url('../images/rg-bangalore-header.png') no-repeat left top;
+        }
+
 .basel#promo h1 {
   background:url('../images/rg-basel-header.png') no-repeat left top;
 }
@@ -822,11 +855,42 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+
 .leipzig#promo {
           padding-left:340px;
           background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
+
+.istanbul#promo {
+          padding-left:340px;
+          background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+.canberra#promo {
+          padding-left:360px;
+          padding-bottom: 80px;
+          background:url('../images/canberra/rg-canberra.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.dh_fairfax#promo h1{
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height:80px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:32px;
+  padding-bottom: 15px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+.dh_fairfax#promo h1 small {
+  padding-top: 5px;
+}
+.dh_fairfax#share {
+  padding-bottom: 30px;
+}
 
 #promo p {
   font-size:19px;
