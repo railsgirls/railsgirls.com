@@ -42,6 +42,13 @@ body {
 .muted, .muted * {
   color:#777 !important;
 }
+#promo.taipei {
+  background: url("../images/rg-taipei.jpg") no-repeat scroll 10px 40px, url("../images/separator.png") no-repeat scroll center bottom transparent;
+  min-height: 300px;
+  padding-bottom: 30px;
+  padding-left: 340px;
+  padding-top: 30px;
+}
 .stockholm#promo {
           padding-left:340px;
           background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
@@ -56,7 +63,7 @@ body {
 .porto#promo h1 {
   background:url('../images/rg-porto-header.png') no-repeat left top;
 }
- 
+
 .beijing#promo {
   padding-left:340px;
   background:url('../images/rg-beijing.png') no-repeat 0 10px,
@@ -81,7 +88,7 @@ body {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-} 
+}
 
 .lisboa#promo h1 {
  background:url('../images/rg-lisboa-header.png') no-repeat left top;
@@ -340,6 +347,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.matsue#promo {
+  padding-left:400px;
+  background:url('../images/rg-matsue.png') no-repeat 0 50px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -449,7 +462,7 @@ pre {
 
 #promo h1 {
     text-indent:-9999cm;
-    margin-bottom:10px;	
+    margin-bottom:10px;
 }
 
 #promo.new {
@@ -644,6 +657,10 @@ pre {
   background:url('../images/rg-sapporo-header.png') no-repeat left top;
 }
 
+.matsue#promo h1 {
+  background:url('../images/rg-matsue-header.png') no-repeat left top;
+}
+
 .chicago#promo h1 {
   background:url('../images/rg-chicago-header.png') no-repeat left top;
 }
@@ -675,7 +692,7 @@ pre {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-h4.warsaw { 
+h4.warsaw {
   font-size: 20px;
   margin: 1.8em 0 0.8em 0;
 }
@@ -728,7 +745,7 @@ h4.warsaw {
 
 #chengdu #promo {
   padding-left:340px;
-  background:url('../images/rg-chengdu-0720.png') no-repeat 0 10px,                            
+  background:url('../images/rg-chengdu-0720.png') no-repeat 0 10px,
 }
 
 #chengdu h1 {
@@ -1377,7 +1394,7 @@ h2 a {
   top:1px;
 }
 
-.sponsor-note { 
+.sponsor-note {
   font-size: 12px;
   color: #999;
 }
