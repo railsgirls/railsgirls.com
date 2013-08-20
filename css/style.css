@@ -881,6 +881,12 @@ h4.warsaw {
           background:url('../images/canberra/rg-canberra.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
+.dh_fairfax#promo {
+          padding-left:340px;
+          padding-bottom: 40px;
+          background:url('../images/dh/rg-dh_fairfax.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
 .dh_fairfax#promo h1{
   font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
   height:80px;
