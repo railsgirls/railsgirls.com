@@ -348,8 +348,8 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 
 .matsue#promo {
-  padding-left:400px;
-  background:url('../images/rg-matsue.png') no-repeat 0 50px,
+  padding-left:460px;
+  background:url('../images/rg-matsue.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -879,6 +879,12 @@ h4.warsaw {
           padding-left:360px;
           padding-bottom: 80px;
           background:url('../images/canberra/rg-canberra.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.dh_fairfax#promo {
+          padding-left:340px;
+          padding-bottom: 40px;
+          background:url('../images/dh/rg-dh_fairfax.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
 .dh_fairfax#promo h1{
