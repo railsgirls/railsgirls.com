@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RailsGirls Chennai 5th Oct</title>
+
+  <meta name="description" content="Rails Girls in Chennai, 5th October 2013: join the one-day crash-course to the exciting world of building web applications with Ruby on Rails." />
+  <meta name="author" content="Rails Girls" />
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="shortcut icon" href="./favicon.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/960.css">
+  <link rel="stylesheet" href="./css/typeplate.css">
+  <link href='http://fonts.googleapis.com/css?family=Sofia|Raleway' rel='stylesheet' type='text/css' />
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <style type="text/css">
+    /**
+     * RAILSGIRLS.COM STYLES
+    **/
+    header {
+      color:#fff;
+      padding: 30px 0;
+      background:#d3360b;
+    }
+
+    header #logo {
+      width:240px;
+      float:left;
+    }
+
+    nav {
+      margin:0 0 0 250px;
+      padding-top:12px;
+    }
+
+    nav a {
+      color:#fff;
+      text-decoration:none;
+      font-weight:300;
+      font-size:20px;
+      letter-spacing:1px;
+      margin-left:15px;
+    }
+
+    nav a:after {
+      margin-left:15px;
+      content:url(./images/star.png);
+    }
+
+    nav a:last-child:after {
+      content:none;
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    footer {
+      color:#666;
+      overflow:hidden;
+      width:100%;
+      padding:40px 0;
+      background:#F4F4F4;
+      line-height:1.5;
+      text-align:center;
+    }
+
+    footer a {
+      color:#111;
+      border-color:#111;
+    }
+
+    /**
+     * BUTTON STYLES
+     * from http://alexwolfe.github.io/Buttons/
+    **/
+
+    .button {
+      -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+      box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+      background-color: #eeeeee;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+      background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+      background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+      background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+      background: linear-gradient(top, #fbfbfb, #e1e1e1);
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      border: 1px solid #d4d4d4;
+      height: 32px;
+      line-height: 32px;
+      padding: 0px 25.6px;
+      font-weight: 300;
+      font-size: 14px;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #666666;
+      text-shadow: 0 1px 1px white;
+      margin: 0;
+      text-decoration: none;
+      text-align: center;
+    }
+    .button:hover {
+      background-color: #eeeeee;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+      background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+      background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+      background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+      background: linear-gradient(top, #ffffff, #dcdcdc);
+    }
+    /* line 47, ../scss/partials/_buttons.scss */
+    .button:active {
+      -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+      -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+      box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+      text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+      background: #eeeeee;
+      color: #bbbbbb;
+    }
+    .button:focus {
+      outline: none;
+    }
+    .button-wrap {
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3e3e3), color-stop(100%, #f2f2f2));
+      background: -webkit-linear-gradient(top, #e3e3e3, #f2f2f2);
+      background: -moz-linear-gradient(top, #e3e3e3, #f2f2f2);
+      background: -o-linear-gradient(top, #e3e3e3, #f2f2f2);
+      background: linear-gradient(top, #e3e3e3, #f2f2f2);
+      -webkit-border-radius: 200px;
+      -moz-border-radius: 200px;
+      -ms-border-radius: 200px;
+      -o-border-radius: 200px;
+      border-radius: 200px;
+      -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+      -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+      box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+      padding: 10px;
+      display: inline-block;
+    }
+    .button-pill {
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      border-radius: 50px;
+    }
+    .button-caution {
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8543f), color-stop(100%, #d9331a));
+      background: -webkit-linear-gradient(top, #e8543f, #d9331a);
+      background: -moz-linear-gradient(top, #e8543f, #d9331a);
+      background: -o-linear-gradient(top, #e8543f, #d9331a);
+      background: linear-gradient(top, #e8543f, #d9331a);
+      background-color: #e54028;
+      border-color: #c22d18;
+      color: white;
+      text-shadow: 0 -1px 1px rgba(103, 24, 13, 0.35);
+    }
+    .button-caution:hover {
+      background-color: #e54028;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb6855), color-stop(100%, #d9331a));
+      background: -webkit-linear-gradient(top, #eb6855, #d9331a);
+      background: -moz-linear-gradient(top, #eb6855, #d9331a);
+      background: -o-linear-gradient(top, #eb6855, #d9331a);
+      background: linear-gradient(top, #eb6855, #d9331a);
+    }
+    .button-large {
+      font-size: 19px;
+      height: 38.4px;
+      line-height: 38.4px;
+      padding: 0px 30.72px;
+    }
+
+    /**
+     * CUSTOM STYLES
+    **/
+
+    body { font-family: 'Raleway',sans-serif; background-color: #f4f4f4; line-height: 1.25; }
+    h1, h2, h3, h4 { font-family: 'Sofia', cursive; }
+
+    .first  { margin-left: 0; }
+    .last   { margin-right: 0; }
+    .button { font-size: 1.25em !important; }
+    .center { text-align: center; }
+    .clear  { margin-bottom: 15px; }
+
+    em { color: #d3360b; font-style: normal; }
+    a { text-decoration: none; }
+    a, a:visited, a:hover { color: #d3360b; }
+    p + p { text-indent: 0; margin-top: 0; }
+    h1, h3 { color: #d3360b; }
+
+    .control { display: none; color: #aaa; }
+    .control small { font-size: .5em; padding: 0 .5em; vertical-align: 30%; }
+    .skrollr .control { display: block; }
+
+    .section { padding: 30px 0; overflow: hidden; }
+
+    .intro { background-color: white; }
+    .intro a.button { color: white; }
+
+    .info { background-color: #111; padding: 30px 0; color: #ddd; }
+    .info h1, .info h2, .info h3, .info h4 { color: #eee; }
+
+    .dates dl dd { margin: 0.5em 0 1em 1em; }
+
+    .schedule table { overflow: hidden; }
+    .schedule th { width: 5em; text-align: right; font-size: 1.25em; }
+    .schedule td { padding: 0 0 20px 20px; }
+    .schedule h4 { margin-bottom: 10px; }
+
+    .partner a { text-transform: uppercase; }
+
+    .team { background-color: #d3360b; text-align: center; }
+    .team h1 { color: #111; }
+    .team img { display: block; margin: 10px auto; border-radius: 12px; }
+    .team span.name { display: block; font-size: 1em; color: #eee; }
+    .team span.role { color: #333; font-size: 0.85em; }
+
+    .faq { background-color: white; }
+    .faq dl dt { display: block; width: 47.5%; float: left; padding: 10px 1%; text-align: right; clear: both; }
+    .faq dl dd { display: block; width: 47.5%; float: left; padding: 10px 1%; border-left: 1px dashed #999; }
+
+    header a, header a:visited, header a:hover { color: white; }
+    footer a { font-family: 'Raleway',sans-serif; text-decoration: underline; }
+
+    @media all and (max-width: 959px) {
+      html { font-size: 100%; }
+      header { display: none; }
+      body { min-width: 0; }
+      .clear { margin-bottom: 10px; }
+
+      .container_12 {
+        width: 90% !important;
+        margin: 0 auto !important;
+      }
+
+      .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+        float: none !important;
+        width: 100% !important;
+        margin: 0 !important;
+        display: block;
+        clear: both;
+      }
+
+      .faq dl dt, .faq dl dd {
+        width: 100%;
+        border: 0;
+        text-align: left;
+      }
+
+      .intro .grid_8 small {
+        display: block;
+        margin: 0.5em 0;
+      }
+
+      h1, .intro, .location, .dates, .partner {
+        text-align: center;
+      }
+
+      .team { text-align: left; }
+      .team img { float: left; margin: 0 20px 10px 0; clear: both; max-width: 48px; max-height: 48px; }
+      .team span.name { padding-top: 5px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container_12">
+      <a href="/" id="logo"><img src="images/railsgirls-logo.png" alt="RailsGirls" /></a>
+      <nav>
+        <a href="./events.html">Events</a>
+        <a href="./materials.html">Materials</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="intro section">
+    <div class="container_12">
+      <div class="grid_4 first center"
+           data-0="transform:rotateY(0deg)"
+           data-150="transform:rotateY(180deg)">
+        <img class="fun" src="./images/rg-helsinki.jpg" />
+      </div>
+
+      <div class="grid_8 last">
+        <h1>Rails Girls Chennai</h1>
+
+        <p class="delta">
+          Rails Girls comes to Chennai on <em>Saturday, 5th October 2013</em>! This free one-day workshop is for women who want to learn about coding and building web applications in the magical world of Ruby on Rails.
+        </p>
+
+        <p>
+          <span class="button-wrap"><a href="https://docs.google.com/forms/d/1hkvGfpkXmseau152nV9PKbKyrbpL9TUNlVvWAruj9po/viewform" class="button button-large button-caution button-pill" target="_blank">Apply Now!</a></span>
+
+          <small>Registrations close on September 30th!</small>
+        </p>
+      </div>
+      <div class="clear"></div>
+
+      <div class="control">
+        <div class="grid_12 first last center">
+          <p class="epsilon">
+            keep scrolling<br />
+            &dArr; <small>or <a href="?&full">see full site</a></small> &dArr;
+          </p>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="grid_6 first center"
+           data-50="opacity:0;transform:rotate(90deg);transform-origin:0 100%"
+           data-200="opacity:1;transform:rotate(0deg)">
+        <h3>You learn...</h3>
+        <p class="delta">to develop web applications using Ruby on Rails, with help from our coaches</p>
+      </div>
+      <div class="grid_6 last center"
+           data-50="opacity:0;transform:rotate(-90deg);transform-origin:100% 100%"
+           data-200="opacity:1;transform:rotate(0deg)">
+        <h3>You need...</h3>
+        <p class="delta">a laptop (but let us know if you don't have one), curiosity and a sprinkle of imagination</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="info section">
+    <div class="container_12">
+      <div class="grid_8 first schedule">
+        <h1 class="center"
+          data-0="visibility:hidden"
+          data-250="visibility:visible;transform:translate(0,-100px)"
+          data-300="transform:translate(0,0)">Schedule</h1>
+
+        <table class="schedule" width="100%">
+          <tbody>
+            <tr>
+              <th data-150="opacity:0" data-400="opacity:0;transform:translate(-100px,0)" data-500="opacity:1;transform:translate(0,0)">9.00 am</th>
+              <td data-150="opacity:0" data-400="opacity:0;transform:translate(100px,0)" data-500="opacity:1;transform:translate(0,0)">
+                <h4>Registration, Installation and Setup</h4>
+                <span>Get Rails and other necessary software installed and sorted on your machine</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-450="opacity:0;transform:translate(-100px,0)" data-550="opacity:1;transform:translate(0,0)">9.30 am</th>
+              <td data-150="opacity:0" data-450="opacity:0;transform:translate(100px,0)" data-550="opacity:1;transform:translate(0,0)">
+                <h4>Welcome to Rails Girls Chennai</h4>
+                <span>Introduction games and team formations</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-500="opacity:0;transform:translate(-100px,0)" data-600="opacity:1;transform:translate(0,0)">10.00 am</th>
+              <td data-150="opacity:0" data-500="opacity:0;transform:translate(100px,0)" data-600="opacity:1;transform:translate(0,0)">
+                <h4>Introduction to Ruby</h4>
+                <span>You need to know Ruby before doing Ruby on Rails!</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-550="opacity:0;transform:translate(-100px,0)" data-650="opacity:1;transform:translate(0,0)">11.00 am</th>
+              <td data-150="opacity:0" data-550="opacity:0;transform:translate(100px,0)" data-650="opacity:1;transform:translate(0,0)">
+                <h4>Rails Workshop</h4>
+                <span>Let's get coding! Jumpstart your first Rails application</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-600="opacity:0;transform:translate(-100px,0)" data-700="opacity:1;transform:translate(0,0)">1.00 pm</th>
+              <td data-150="opacity:0" data-600="opacity:0;transform:translate(100px,0)" data-700="opacity:1;transform:translate(0,0)">
+                <h4>Lunch</h4>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-650="opacity:0;transform:translate(-100px,0)" data-750="opacity:1;transform:translate(0,0)">1.45 pm</th>
+              <td data-150="opacity:0" data-650="opacity:0;transform:translate(100px,0)" data-750="opacity:1;transform:translate(0,0)">
+                <h4>Lightning Talks</h4>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-700="opacity:0;transform:translate(-100px,0)" data-800="opacity:1;transform:translate(0,0)">2.00 pm</th>
+              <td data-150="opacity:0" data-700="opacity:0;transform:translate(100px,0)" data-800="opacity:1;transform:translate(0,0)">
+                <h4>Rails Workshop</h4>
+                <span>Extend your application</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-750="opacity:0;transform:translate(-100px,0)" data-850="opacity:1;transform:translate(0,0)">4.00 pm</th>
+              <td data-150="opacity:0" data-750="opacity:0;transform:translate(100px,0)" data-850="opacity:1;transform:translate(0,0)">
+                <h4>High Tea</h4>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-800="opacity:0;transform:translate(-100px,0)" data-900="opacity:1;transform:translate(0,0)">4.15 pm</th>
+              <td data-150="opacity:0" data-800="opacity:0;transform:translate(100px,0)" data-900="opacity:1;transform:translate(0,0)">
+                <h4>Rails Workshop</h4>
+                <span>The last lap</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-850="opacity:0;transform:translate(-100px,0)" data-950="opacity:1;transform:translate(0,0)">5.30 pm</th>
+              <td data-150="opacity:0" data-850="opacity:0;transform:translate(100px,0)" data-950="opacity:1;transform:translate(0,0)">
+                <h4>Showcase</h4>
+                <span>Let's see what you've done so far</span>
+              </td>
+            </tr>
+            <tr>
+              <th data-150="opacity:0" data-900="opacity:0;transform:translate(-100px,0)" data-1000="opacity:1;transform:translate(0,0)">6.00 pm</th>
+              <td data-150="opacity:0" data-900="opacity:0;transform:translate(100px,0)" data-1000="opacity:1;transform:translate(0,0)">
+                <h4>Networking and Farewell</h4>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid_4 last side">
+        <div class="dates"
+             data-0="opacity:0"
+             data-400="opacity:0;transform:rotateX(90deg)"
+             data-500="opacity:1;transform:rotateX(0deg)">
+          <h3>Important Dates</h3>
+          <dl>
+            <dt>Applications close:</dt>
+            <dd>Monday, Sep 30th</dd>
+            <dt>Applicants informed:</dt>
+            <dd>Tuesday, Oct 1st</dd>
+            <dt>Event takes place:</dt>
+            <dd>Saturday, Oct 5th</dd>
+          </dl>
+        </div>
+
+        <div class="location"
+             data-0="opacity:0"
+             data-600="opacity:0;transform:rotateX(90deg)"
+             data-700="opacity:1;transform:rotateX(0deg)">
+          <h3>Location</h3>
+          <p>
+            ThoughtWorks, <br />
+            3rd Phase, 9th Floor, <br />
+            Ascendas Tech Park, <br />
+            Tharamani,
+            Chennai  <br />
+            <a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=thoughtworks+chennai&aq=&sll=37.0625,-95.677068&sspn=56.899383,114.169922&vpsrc=0&ie=UTF8&hq=thoughtworks&hnear=Chennai,+Tamil+Nadu,+India&t=m&z=13&iwloc=A&cid=1639595661799347847" target="_blank">view map</a>
+          </p>
+        </div>
+
+        <div class="partner"
+             data-0="opacity:0"
+             data-800="opacity:0;transform:rotateX(90deg)"
+             data-900="opacity:1;transform:rotateX(0deg)">
+          <h3>Partners</h3>
+          <p><a href="http://thoughtworks.com" target="_blank">ThoughtWorks</a> is a community of passionate individuals whose purpose is to revolutionize software design, creation and delivery. We deliver disruptive thinking and empowering technology to help our clients succeed.</p>
+          <p><a href="http://railsfactory.com" target="_blank">RailsFactory</a> is a Ruby-on-Rails development and consulting company offering high end solutions for various business needs. They started in 2006 to build amazing products and solutions for companies that need them and have built more than 200 applicatons.</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="team section">
+    <div class="container_12">
+      <h1 class="center"
+        data-100="visibility:hidden"
+        data-1300="visibility:visible;transform:translate(0,-100px)"
+        data-1350="transform:translate(0,0)">The Team</h1>
+
+      <a class="grid_2 first"
+         href="http://twitter.com/sumanabiswas25" target="_blank"
+         data-0="opacity:0"
+         data-1400="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1600="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/af8f7e230d75f6da896fa409351a5889?d=mm&s=80" alt="Sumana" />
+        <span class="name">Sumana</span>
+        <span class="role">Organizer</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/openbala" target="_blank"
+         data-0="opacity:0"
+         data-1430="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1630="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/5aa8807330f7a2e2ade03296eb820848?d=mm&s=80" alt="Balaji" />
+        <span class="name">Balaji</span>
+        <span class="role">Organizer</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/rdsubhas" target="_blank"
+         data-0="opacity:0"
+         data-1460="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1660="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/3b2c21e0dfa85ff0d3d7ad4f277c3de0?d=mm&s=80" alt="Subhas" />
+        <span class="name">Subhas</span>
+        <span class="role">Organizer</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/siliconsenthil" target="_blank"
+         data-0="opacity:0"
+         data-1490="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1690="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/b78415ec052d8811a4f31c4746cbde9f?d=mm&s=80" alt="Senthil" />
+        <span class="name">Senthil</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/saranyak23" target="_blank"
+         data-0="opacity:0"
+         data-1520="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1720="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/f5c8af3e25e5592f8972e275315bfce4?d=mm&s=80" alt="Saranya" />
+        <span class="name">Saranya</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2 last"
+         href="http://github.com/sriv" target="_blank"
+         data-0="opacity:0"
+         data-1550="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1750="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/f882e1ef33bcbefabf8c2f9463fb1f7f?d=mm&s=80" alt="Srikanth" />
+        <span class="name">Srikanth</span>
+        <span class="role">Coach</span>
+      </a>
+      <div class="clear"></div>
+
+      <a class="grid_2 first"
+         href="#" target="_blank"
+         data-0="opacity:0"
+         data-1460="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1660="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/aishwarya?d=mm&s=80" alt="Aishwarya" />
+        <span class="name">Aishwarya</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/deepthirera" target="_blank"
+         data-0="opacity:0"
+         data-1490="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1690="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/48d59b0028340032f34fb5c48d94dd74?d=mm&s=80" alt="Deepthi" />
+        <span class="name">Deepthi</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://twitter.com/preethii" target="_blank"
+         data-0="opacity:0"
+         data-1520="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1720="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/preethi?d=mm&s=80" alt="Preethi" />
+        <span class="name">Preethi</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/dhivyada" target="_blank"
+         data-0="opacity:0"
+         data-1550="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1750="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/9ac52781aa04e4b715a7ddd48bf19e34?d=mm&s=80" alt="Dhivya" />
+        <span class="name">Dhivya</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/praveenram" target="_blank"
+         data-0="opacity:0"
+         data-1580="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1780="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/21ea759a88309d7309d78d59f4becdc3?d=mm&s=80" alt="Praveenram" />
+        <span class="name">Preveenram</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2 last"
+         href="http://github.com/sharans" target="_blank"
+         data-0="opacity:0"
+         data-1610="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1810="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/ef6d661671dc68ab6b8efd3a282361eb?d=mm&s=80" alt="Sharanya" />
+        <span class="name">Sharanya</span>
+        <span class="role">Coach</span>
+      </a>
+      <div class="clear"></div>
+
+      <a class="grid_2 first"
+         href="http://github.com/rajik" target="_blank"
+         data-0="opacity:0"
+         data-1520="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1720="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/f3498fa6fd26647113309ba1c213bb7d?d=mm&s=80" alt="Rajeswari" />
+        <span class="name">Rajeswari</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/deepasaj" target="_blank"
+         data-0="opacity:0"
+         data-1550="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1750="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/91b8e18658d83be79b3f8e5b447ec318?d=mm&s=80" alt="Deepa" />
+        <span class="name">Deepa</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/vgsmanian" target="_blank"
+         data-0="opacity:0"
+         data-1580="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1780="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/c204b2df92aea7bf7b289df16f25122c?d=mm&s=80" alt="Ganapathi" />
+        <span class="name">Ganapathi</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="#" target="_blank"
+         data-0="opacity:0"
+         data-1610="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1810="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/4a82e195da16ef9a1649526798004307?d=mm&s=80" alt="Abhinaya" />
+        <span class="name">Abhinaya</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2"
+         href="http://github.com/selvakn" target="_blank"
+         data-0="opacity:0"
+         data-1640="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1840="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/981c62da5b61c6924ef2d5b7fba6efca?d=mm&s=80" alt="Selvakumar" />
+        <span class="name">Selvakumar</span>
+        <span class="role">Coach</span>
+      </a>
+      <a class="grid_2 last"
+         href="http://github.com/snehavij" target="_blank"
+         data-0="opacity:0"
+         data-1670="opacity:0;transform:rotate(90deg);transform-origin:0 0"
+         data-1870="opacity:1;transform:rotate(0)">
+        <img src="http://gravatar.com/avatar/978e99db47cdee97ae7ef92e5dd23fae?d=mm&s=80" alt="Sneha" />
+        <span class="name">Sneha</span>
+        <span class="role">Coach</span>
+      </a>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="faq section">
+    <div class="container_12">
+      <div class="grid_12 first last">
+      <h1 class="center"
+        data-0="visibility:hidden"
+        data-1900="visibility:visible;transform:translate(0,-100px)"
+        data-1950="transform:translate(0,0)">FAQs</h1>
+
+        <dl>
+          <dt data-0="opacity:0"
+              data-2000="opacity:1;transform:scaleX(0);transform-origin:100% 0"
+              data-2100="transform:scaleX(1)"><em>How much does the event cost?</em></dt>
+          <dd data-0="opacity:0"
+              data-2000="opacity:1;transform:scaleX(0);transform-origin: 0 0"
+              data-2100="transform:scaleX(1)">Nothing, its free! You just need to be excited</dd>
+
+          <dt data-0="opacity:0"
+              data-2025="opacity:1;transform:scaleX(0);transform-origin:100% 0"
+              data-2125="transform:scaleX(1)"><em>Who is this aimed for?</em></dt>
+          <dd data-0="opacity:0"
+              data-2025="opacity:1;transform:scaleX(0);transform-origin: 0 0"
+              data-2125="transform:scaleX(1)">Women of any age with basic computer knowledge. We’ve had people of all ages taking part</dd>
+
+          <dt data-0="opacity:0"
+              data-2050="opacity:1;transform:scaleX(0);transform-origin:100% 0"
+              data-2150="transform:scaleX(1)"><em>Can men attend?</em></dt>
+          <dd data-0="opacity:0"
+              data-2050="opacity:1;transform:scaleX(0);transform-origin: 0 0"
+              data-2150="transform:scaleX(1)">Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority</dd>
+        </dl>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <footer>
+    <p>2010-2013, Rails Girls.</p>
+
+    <p>
+      <a href="./press.html">Contact us</a> or follow us on
+      <a href="http://twitter.com/railsgirls">Twitter</a> or
+      <a href="http://www.facebook.com/railsgirls">Facebook</a>
+    </p>
+
+    <p class="delta">Get excited and make things!</p>
+  </footer>
+
+  <script src="//cdn.jsdelivr.net/skrollr/0.6.8/skrollr.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var isMobile = false;
+    (function(a,b){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))isMobile=true})(navigator.userAgent||navigator.vendor||window.opera);
+
+    var forceFullMode = isMobile || document.URL.indexOf("full") >= 0 || window.innerWidth < 959;
+    if (!forceFullMode)
+      skrollr.init()
+  </script>
+</body>
+</html>
