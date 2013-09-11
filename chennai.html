@@ -210,23 +210,26 @@
     .intro { background-color: white; }
     .intro a.button { color: white; }
 
-    .info { background-color: #111; padding: 30px 0; color: #ddd; }
+    .info { background-color: #000; padding: 30px 0; color: #ddd; }
     .info h1, .info h2, .info h3, .info h4 { color: #eee; }
-
-    .dates dl dd { margin: 0.5em 0 1em 1em; }
 
     .schedule table { overflow: hidden; }
     .schedule th { width: 5em; text-align: right; font-size: 1.25em; }
     .schedule td { padding: 0 0 20px 20px; }
     .schedule h4 { margin-bottom: 10px; }
 
-    .partner a { text-transform: uppercase; }
+    .partner p small { font-size: .9em; }
 
     .team { background-color: #d3360b; text-align: center; }
-    .team h1 { color: #111; }
+    .team h1 { color: #000; }
     .team img { display: block; margin: 10px auto; border-radius: 12px; }
-    .team span.name { display: block; font-size: 1em; color: #eee; }
-    .team span.role { color: #333; font-size: 0.85em; }
+    .team h6 { color: #eaeaea; margin: 0; }
+    .team small { color: #dadada; }
+    .team a { border-radius: 12px; transition: background-color .4s;}
+    .team a:hover { background-color: #111; }
+
+    .team p { color: #eee; margin-top: 1em; }
+    .team p span { display: inline-block; }
 
     .faq { background-color: white; }
     .faq dl dt { display: block; width: 47.5%; float: left; padding: 10px 1%; text-align: right; clear: both; }
@@ -343,8 +346,7 @@
     <div class="container_12">
       <div class="grid_8 first schedule">
         <h1 class="center"
-          data-0="visibility:hidden"
-          data-250="visibility:visible;transform:translate(0,-100px)"
+          data-250="transform:translate(0,-100px)"
           data-300="transform:translate(0,0)">Schedule</h1>
 
         <table class="schedule" width="100%">
@@ -428,22 +430,21 @@
 
       <div class="grid_4 last side">
         <div class="dates"
-             data-0="opacity:0"
              data-400="opacity:0;transform:rotateX(90deg)"
              data-500="opacity:1;transform:rotateX(0deg)">
           <h3>Important Dates</h3>
-          <dl>
-            <dt>Applications close:</dt>
-            <dd>Monday, Sep 30th</dd>
-            <dt>Applicants informed:</dt>
-            <dd>Tuesday, Oct 1st</dd>
-            <dt>Event takes place:</dt>
-            <dd>Saturday, Oct 5th</dd>
+          <dl class="lining">
+            <dt>Applications close</dt>
+            <dd>Sep 30th</dd>
+            <dt>Applicants informed</dt>
+            <dd>Oct 1st</dd>
+            <dt>Event takes place</dt>
+            <dd>Oct 5th</dd>
           </dl>
+          <div class="clear"></div>
         </div>
 
         <div class="location"
-             data-0="opacity:0"
              data-600="opacity:0;transform:rotateX(90deg)"
              data-700="opacity:1;transform:rotateX(0deg)">
           <h3>Location</h3>
@@ -458,12 +459,23 @@
         </div>
 
         <div class="partner"
-             data-0="opacity:0"
              data-800="opacity:0;transform:rotateX(90deg)"
              data-900="opacity:1;transform:rotateX(0deg)">
           <h3>Partners</h3>
-          <p><a href="http://thoughtworks.com" target="_blank">ThoughtWorks</a> is a community of passionate individuals whose purpose is to revolutionize software design, creation and delivery. We deliver disruptive thinking and empowering technology to help our clients succeed.</p>
-          <p><a href="http://railsfactory.com" target="_blank">RailsFactory</a> is a Ruby-on-Rails development and consulting company offering high end solutions for various business needs. They started in 2006 to build amazing products and solutions for companies that need them and have built more than 200 applicatons.</p>
+
+          <a href="http://thoughtworks.com" target="_blank">
+            <img src="./images/chennai/tw-logo.jpeg" width="100%" alt="ThoughtWorks" />
+          </a>
+          <p>
+            <small><em>ThoughtWorks</em> is a community of passionate individuals whose purpose is to revolutionize software design, creation and delivery. We deliver disruptive thinking and empowering technology to help our clients succeed.</small>
+          </p>
+
+          <a href="http://railsfactory.com" target="_blank">
+            <img src="./images/chennai/rf-logo.png" width="100%" alt="RailsFactory" />
+          </a>
+          <p>
+            <small><em>RailsFactory</em> is a Ruby-on-Rails development and consulting company offering high end solutions for various business needs. They started in 2006 to build amazing products and solutions for companies that need them and have built more than 200 applicatons.</small>
+          </p>
         </div>
       </div>
       <div class="clear"></div>
@@ -473,178 +485,166 @@
   <div class="team section">
     <div class="container_12">
       <h1 class="center"
-        data-0="visibility:hidden"
-        data-1250="visibility:visible;transform:translate(0,-100px)"
+        data-1250="transform:translate(0,-100px)"
         data-1300="transform:translate(0,0)">The Team</h1>
 
       <a class="grid_2 first"
          href="http://twitter.com/sumanabiswas25" target="_blank"
-         data-0="opacity:0"
          data-1300="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1500="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/sumana.jpeg" alt="Sumana" />
-        <span class="name">Sumana</span>
-        <span class="role">Organizer</span>
+        <h6>Sumana</h6>
+        <small>Organizer</small>
       </a>
+
       <a class="grid_2"
          href="http://github.com/openbala" target="_blank"
-         data-0="opacity:0"
          data-1330="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1530="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/balaji.jpeg" alt="Balaji" />
-        <span class="name">Balaji</span>
-        <span class="role">Organizer</span>
+        <h6>Balaji</h6>
+        <small>Organizer</small>
       </a>
       <a class="grid_2"
          href="http://github.com/rdsubhas" target="_blank"
-         data-0="opacity:0"
          data-1360="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1560="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/subhas.jpeg" alt="Subhas" />
-        <span class="name">Subhas</span>
-        <span class="role">Organizer</span>
+        <h6>Subhas</h6>
+        <small>Organizer</small>
       </a>
       <a class="grid_2"
          href="http://github.com/siliconsenthil" target="_blank"
-         data-0="opacity:0"
          data-1390="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1590="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/senthil.jpeg" alt="Senthil" />
-        <span class="name">Senthil</span>
-        <span class="role">Coach</span>
+        <h6>Senthil</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/saranyak23" target="_blank"
-         data-0="opacity:0"
          data-1420="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1620="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Saranya" />
-        <span class="name">Saranya</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/saranyak.jpeg" alt="Saranya" />
+        <h6>Saranya</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2 last"
          href="http://github.com/sriv" target="_blank"
-         data-0="opacity:0"
          data-1450="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1650="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/srikanth.jpeg" alt="Srikanth" />
-        <span class="name">Srikanth</span>
-        <span class="role">Coach</span>
+        <h6>Srikanth</h6>
+        <small>Coach</small>
       </a>
       <div class="clear"></div>
 
       <a class="grid_2 first"
          href="#" target="_blank"
-         data-0="opacity:0"
          data-1360="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1560="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Aishwarya" />
-        <span class="name">Aishwarya</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/aishwarya.jpeg" alt="Aishwarya" />
+        <h6>Aishwarya</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/deepthirera" target="_blank"
-         data-0="opacity:0"
          data-1390="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1590="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Deepthi" />
-        <span class="name">Deepthi</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/deepthi.jpeg" alt="Deepthi" />
+        <h6>Deepthi</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://twitter.com/preethii" target="_blank"
-         data-0="opacity:0"
          data-1420="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1620="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Preethi" />
-        <span class="name">Preethi</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/preethi.jpeg" alt="Preethi" />
+        <h6>Preethi</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/dhivyada" target="_blank"
-         data-0="opacity:0"
          data-1450="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1650="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Dhivya" />
-        <span class="name">Dhivya</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/dhivya.jpeg" alt="Dhivya" />
+        <h6>Dhivya</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/praveenram" target="_blank"
-         data-0="opacity:0"
          data-1480="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1680="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/mm.jpeg" alt="Praveenram" />
-        <span class="name">Preveenram</span>
-        <span class="role">Coach</span>
+        <h6>Preveenram</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2 last"
          href="http://github.com/sharans" target="_blank"
-         data-0="opacity:0"
          data-1510="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1710="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/sharanya.jpeg" alt="Sharanya" />
-        <span class="name">Sharanya</span>
-        <span class="role">Coach</span>
+        <h6>Sharanya</h6>
+        <small>Coach</small>
       </a>
       <div class="clear"></div>
 
       <a class="grid_2 first"
          href="http://github.com/rajik" target="_blank"
-         data-0="opacity:0"
          data-1420="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1620="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/mm.jpeg" alt="Rajeswari" />
-        <span class="name">Rajeswari</span>
-        <span class="role">Coach</span>
+        <h6>Rajeswari</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/deepasaj" target="_blank"
-         data-0="opacity:0"
          data-1450="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1650="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Deepa" />
-        <span class="name">Deepa</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/deepa.jpeg" alt="Deepa" />
+        <h6>Deepa</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/vgsmanian" target="_blank"
-         data-0="opacity:0"
          data-1480="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1680="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/mm.jpeg" alt="Ganapathi" />
-        <span class="name">Ganapathi</span>
-        <span class="role">Coach</span>
+        <h6>Ganapathi</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="#" target="_blank"
-         data-0="opacity:0"
          data-1510="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1710="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/abhinaya.jpeg" alt="Abhinaya" />
-        <span class="name">Abhinaya</span>
-        <span class="role">Coach</span>
+        <h6>Abhinaya</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2"
          href="http://github.com/selvakn" target="_blank"
-         data-0="opacity:0"
          data-1540="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1740="opacity:1;transform:rotate(0)">
         <img src="./images/chennai/selva.jpeg" alt="Selvakumar" />
-        <span class="name">Selvakumar</span>
-        <span class="role">Coach</span>
+        <h6>Selvakumar</h6>
+        <small>Coach</small>
       </a>
       <a class="grid_2 last"
          href="http://github.com/snehavij" target="_blank"
-         data-0="opacity:0"
          data-1570="opacity:0;transform:rotate(90deg);transform-origin:0 0"
          data-1770="opacity:1;transform:rotate(0)">
-        <img src="./images/chennai/mm.jpeg" alt="Sneha" />
-        <span class="name">Sneha</span>
-        <span class="role">Coach</span>
+        <img src="./images/chennai/sneha.jpeg" alt="Sneha" />
+        <h6>Sneha</h6>
+        <small>Coach</small>
       </a>
-
       <div class="clear"></div>
+
+      <p class="grid_12 first last delta"
+         data-1725="transform:translate(-100%,0)"
+         data-1825="transform:translate(0,0)">
+        For any enquiries, drop a mail to
+        <code data-1825="opacity:0" data-1850="opacity:.75">sumana@thoughtworks.com</code>
+      </p>
     </div>
   </div>
 
@@ -652,31 +652,24 @@
     <div class="container_12">
       <div class="grid_12 first last">
       <h1 class="center"
-        data-0="visibility:hidden"
-        data-1800="visibility:visible;transform:translate(0,-100px)"
-        data-1850="transform:translate(0,0)">FAQs</h1>
+        data-1850="transform:translate(0,-100px)"
+        data-1900="transform:translate(0,0)">FAQs</h1>
 
         <dl>
-          <dt data-0="opacity:0"
-              data-1850="opacity:1;transform:scaleX(0);transform-origin:100% 0"
-              data-1900="transform:scaleX(1)"><em>How much does the event cost?</em></dt>
-          <dd data-0="opacity:0"
-              data-1850="opacity:1;transform:scaleX(0);transform-origin: 0 0"
-              data-1900="transform:scaleX(1)">Nothing, its free! You just need to be excited</dd>
+          <dt data-1900="transform:scaleX(0);transform-origin:100% 0"
+              data-1950="transform:scaleX(1)"><em>How much does the event cost?</em></dt>
+          <dd data-1900="transform:scaleX(0);transform-origin: 0 0"
+              data-1950="transform:scaleX(1)">Nothing, its free! You just need to be excited</dd>
 
-          <dt data-0="opacity:0"
-              data-1875="opacity:1;transform:scaleX(0);transform-origin:100% 0"
-              data-1925="transform:scaleX(1)"><em>Who is this aimed for?</em></dt>
-          <dd data-0="opacity:0"
-              data-1875="opacity:1;transform:scaleX(0);transform-origin: 0 0"
-              data-1925="transform:scaleX(1)">Women of any age with basic computer knowledge. We’ve had people of all ages taking part</dd>
+          <dt data-1925="transform:scaleX(0);transform-origin:100% 0"
+              data-1975="transform:scaleX(1)"><em>Who is this aimed for?</em></dt>
+          <dd data-1925="transform:scaleX(0);transform-origin: 0 0"
+              data-1975="transform:scaleX(1)">Women of any age with basic programming knowledge</dd>
 
-          <dt data-0="opacity:0"
-              data-1900="opacity:1;transform:scaleX(0);transform-origin:100% 0"
-              data-1950="transform:scaleX(1)"><em>Can men attend?</em></dt>
-          <dd data-0="opacity:0"
-              data-1900="opacity:1;transform:scaleX(0);transform-origin: 0 0"
-              data-1950="transform:scaleX(1)">Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority</dd>
+          <dt data-1950="transform:scaleX(0);transform-origin:100% 0"
+              data-2000="transform:scaleX(1)"><em>Can men attend?</em></dt>
+          <dd data-1950="transform:scaleX(0);transform-origin: 0 0"
+              data-2000="transform:scaleX(1)">Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority</dd>
         </dl>
         <div class="clear"></div>
       </div>
@@ -688,7 +681,7 @@
     <p>2010-2013, Rails Girls.</p>
 
     <p>
-      <a href="./press.html">Contact us</a> or follow us on
+      Follow RailsGirls on
       <a href="http://twitter.com/railsgirls">Twitter</a> or
       <a href="http://www.facebook.com/railsgirls">Facebook</a>
     </p>
