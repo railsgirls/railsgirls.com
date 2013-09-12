@@ -1,0 +1,35 @@
+@import url('rtl_960.css');
+@import url('rtl_text.css');
+
+#container {
+	direction: rtl;
+}
+#container .grid_12 {
+	float: left;
+}
+
+#promo {
+	padding-left: 0;
+	padding-right: 340px;
+	background-position: right 40px, center bottom;
+}
+
+#schedule th {
+	text-align: right;
+}
+
+.coaches .grid_3 {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.coaches .grid_3:nth-child(4n+4) {
+  margin-left:0;
+}
+.coaches .grid_3 small {
+	direction: ltr;
+	text-align: right;
+}
+
+#schedule th {
+	direction: ltr;
+}
