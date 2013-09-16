@@ -25,6 +25,112 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <style type="text/css">
+      /**
+       * BUTTON STYLES
+       * from http://alexwolfe.github.io/Buttons/
+      **/
+
+      .button {
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        background-color: #eeeeee;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+        background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: linear-gradient(top, #fbfbfb, #e1e1e1);
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        border: 1px solid #d4d4d4;
+        height: 32px;
+        line-height: 32px;
+        padding: 0px 25.6px;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: #666666;
+        text-shadow: 0 1px 1px white;
+        margin: 0;
+        text-decoration: none;
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #eeeeee;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+        background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+        background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+        background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+        background: linear-gradient(top, #ffffff, #dcdcdc);
+      }
+      /* line 47, ../scss/partials/_buttons.scss */
+      .button:active {
+        -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+        background: #eeeeee;
+        color: #bbbbbb;
+      }
+      .button:focus {
+        outline: none;
+      }
+      .button-wrap {
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3e3e3), color-stop(100%, #f2f2f2));
+        background: -webkit-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: -moz-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: -o-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: linear-gradient(top, #e3e3e3, #f2f2f2);
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        -ms-border-radius: 200px;
+        -o-border-radius: 200px;
+        border-radius: 200px;
+        -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        padding: 10px;
+        display: inline-block;
+      }
+      .button-pill {
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        border-radius: 50px;
+      }
+      .button-caution {
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8543f), color-stop(100%, #d9331a));
+        background: -webkit-linear-gradient(top, #e8543f, #d9331a);
+        background: -moz-linear-gradient(top, #e8543f, #d9331a);
+        background: -o-linear-gradient(top, #e8543f, #d9331a);
+        background: linear-gradient(top, #e8543f, #d9331a);
+        background-color: #e54028;
+        border-color: #c22d18;
+        color: white;
+        text-shadow: 0 -1px 1px rgba(103, 24, 13, 0.35);
+      }
+      .button-caution:hover {
+        background-color: #e54028;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb6855), color-stop(100%, #d9331a));
+        background: -webkit-linear-gradient(top, #eb6855, #d9331a);
+        background: -moz-linear-gradient(top, #eb6855, #d9331a);
+        background: -o-linear-gradient(top, #eb6855, #d9331a);
+        background: linear-gradient(top, #eb6855, #d9331a);
+      }
+      .button-large {
+        font-size: 19px;
+        height: 38.4px;
+        line-height: 38.4px;
+        padding: 0px 30.72px;
+      }    
+    </style>
+
   </head>
 
   <body>
@@ -48,14 +154,29 @@
 
         <div id="promo" class="new yourcity">
           <h1>Rails Girls תל אביב
-              <small>24-25 באוקטובר 2013</small>
+              <small style="font-weight: bold;">24-25 באוקטובר 2013</small>
           </h1>
           <p>שלום עולם! Rails Girls מגיעה לתל אביב!<p>
           <p> Rails Girls היא סדנה ללא תשלום שמטרתה לתת לבנות ולנשים את הכלים לבנות את הרעיונות שלהן באמצעות
             טכנולוגיה נחשקת בשם Ruby on Rails. 
             במהלך הסדנה בת היומיים אנחנו נצלול אל תוך העולם הקסום של פיתוח אתרים.
           </p>
-          <p>ההרשמה תפתח בקרוב.</p>
+
+          <span class="button-wrap">
+            <a href="https://docs.google.com/forms/d/1dj204e0ald4TblU-12FGywb98rr5T-pj2PVnLG5PF-Y/viewform" class="button button-large button-caution button-pill" target="_blank">הרשמי עכשיו!</a>
+          </span>
+
+          <div class="english">
+            <p> Hello world! Rails Girls is coming to Tel-Aviv!</p>
+            <p>
+              Rails Girls is a free workshop aimed at giving girls and women tools to build their own ideas using a desired technology, Ruby on Rails. During the two day workshop we will dive into the magical world of web development.
+            </p>
+
+            <span class="button-wrap">
+              <a href="https://docs.google.com/forms/d/1dj204e0ald4TblU-12FGywb98rr5T-pj2PVnLG5PF-Y/viewform" class="button button-large button-caution button-pill" target="_blank">Apply Now!</a>
+            </span>
+          </div>
+
           <!-- <p>הירשמי עכשיו! <a href="http://railsgirls.wufoo.com/forms/z7x0w7/">ההרשמה</a> פתוחה עד ה-15 באוקטובר 2013.</p> -->
 
           <div id="share">
@@ -81,14 +202,14 @@
         <p><strong>את צריכה</strong> להביא את המחשב הנייד שלך, סקרנות וקמצוץ של דמיון!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>רוצה לעזור??</strong> אנחנו מחפשים מאמנות מתנדבות. <a href="mailto:contact@railsgirls.co.il">צרי קשר</a>.</p>
+        <p><strong>רוצה לעזור??</strong> אנחנו מחפשים מדריכים/ות מתנדבים/ות. <a href="mailto:contact@railsgirls.co.il">צרו קשר</a>.</p>
       </div>
       
       <hr />
   
      
       <div class="grid_6 alpha">
-        <h2>יום חמישי, 25 בספטמבר</h2>
+        <h2>יום חמישי, 25 באוקטובר</h2>
         <table id="schedule">
           <tbody>
             <tr>
@@ -110,7 +231,7 @@
         
         <hr />          
         
-        <h2>יום שישי, 26 בספטמבר</h2>
+        <h2>יום שישי, 26 באוקטובר</h2>
         
         <table id="schedule">
           <tbody>
@@ -164,7 +285,7 @@
           <tr>
             <th>14:00 - 14:45</th>
             <td>
-              <h4>הרצאות קצרות ממאמנים</h4>
+              <h4>הרצאות קצרות ממדריכים</h4>
               <!-- how to google search:<br>
               https://speakerdeck.com/petermacrobert/how-to-search-like-a-developer <br><br>
 
@@ -187,13 +308,6 @@
               הרחיבי את האפליקציה שלך.
             </td>
           </tr>
-          <tr>
-            <th>20:00</th>
-            <td>
-              <h4>Afterparty</h4>
-              פתוח לכולם. הכירי אנשים מגניבים שמתעניינים בטכנולוגיה.
-            </td>
-          </tr>
           </tbody>
         </table>
         
@@ -205,9 +319,8 @@
         
         <h3>מידע</h3>
         <p>
-          <!-- <strong><a href="http://railsgirls.wufoo.com/forms/yourcity/">הרשמה</a> תסגר בתאריך:</strong> 15 באוקטובר<br>
-          <strong>הודעה על קבלה (או אי קבלה):</strong> 18 באוקטובר<br> -->
-          <strong>ההרשמה תפתח בקרוב</strong><br>
+          <strong><a href="https://docs.google.com/forms/d/1dj204e0ald4TblU-12FGywb98rr5T-pj2PVnLG5PF-Y/viewform" target="_blank">ההרשמה</a> תסגר בתאריך:</strong> 15 באוקטובר<br>
+          <!--<strong>הודעה על קבלה (או אי קבלה):</strong> 18 באוקטובר<br> -->
           <strong>מיקום:</strong> משרדי קלרנה תל אביב (מגדל אלקטרה, <a href="https://maps.google.com/?q=%D7%99%D7%92%D7%90%D7%9C%20%D7%90%D7%9C%D7%95%D7%9F%2098,%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91">יגאל אלון 98</a>)
         </p>
 
@@ -241,19 +354,17 @@
         </p>
         <p>
           <strong>למי מכוונת הסדנה?</strong>
-          נשים בכל הגילאים עם ידע בסיסי בתפעול מחשב. 
-          ההרצאות ינתנו בעברית, וכן המאמנים דוברי עברית. בבקשה הביאו את הלפטופ שלכן אתכן.
+          הסדנה מיועדת לנשים בכל הגילאים עם ידע בסיסי בתפעול מחשב. עליכן להיות מצויידות בלפטופ.
         </p>
         <!-- <p>
           <strong>האם גברים יכולים להשתתף?</strong>
           כן, אבל אתם צריכים להגיע עם בחורה מעוניינת. כמו כן, תנתן עדיפות לבנות.
         </p> -->
         <p>
-          <strong>אני יודעת לתכנת - כיצד אוכל לעזור?</strong>
-          אנחנו עדיין מחפשים מדריכות בארוע. אם מעניין אותך להיות
-          <a href="http://guides.railsgirls.com/coach/">מדריכת Rails Girls</a> את מוזמנת 
-          <a href="contact@railsgirls.co.il">ליצור איתנו קשר</a>.
-           נערוך מפגש בן 2-3 שעות לפני הארוע כדי לעבור עם כולם על המדריכים. 
+          <strong>אני יודע/ת לתכנת - כיצד אוכל לעזור?</strong>
+          אנחנו עדיין מחפשים מדריכים/ות בארוע. אם מעניין אותך להיות
+          <a href="http://guides.railsgirls.com/coach/">מדריך/ת Rails Girls</a>,
+          <a href="mailto:contact@railsgirls.co.il">צור/צרי איתנו קשר</a>.
         </p>
           
         
@@ -264,16 +375,17 @@
         <hr />
         <h2>צוות תל-אביב–יפו</h2>
         
-        <a href="#" class="grid_3">
+        <span class="grid_3">
             טלי זיו, מארגנת
-        </a>
+        </span>
         
-        <a href="#" class="grid_3">
+        <span class="grid_3">
             ענבל גילאי, מארגנת
-        </a>
+        </span>
 
-        <a href="#" class="grid_3">
+        <a href="https://twitter.com/500techil" class="grid_3">
             אילן פרח, מארגן
+            <small>@500Tech</small>
         </a>
         
         <a href="https://twitter.com/rotev" class="grid_3">
