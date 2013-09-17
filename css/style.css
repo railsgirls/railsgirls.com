@@ -99,6 +99,10 @@ body {
   background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
+.tel-aviv#promo {  
+  background: url('../images/rg-tel-aviv.jpg') no-repeat right 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 
 #promo {
