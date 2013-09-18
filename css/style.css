@@ -99,6 +99,10 @@ body {
   background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
+.tel-aviv#promo {  
+  background: url('../images/rg-tel-aviv.jpg') no-repeat right 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 
 #promo {
@@ -870,6 +874,12 @@ h4.warsaw {
 .christchurch#promo h1 {
   background:url('../images/rg-christchurch-header.png') no-repeat left top;
   height:85px;
+}
+
+.glasgow#promo {
+  padding-left:340px;
+  background: url('../images/rg-glasgow.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
 }
 
 .london#promo {

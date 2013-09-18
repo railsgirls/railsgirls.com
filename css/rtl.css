@@ -1,0 +1,73 @@
+@import url('rtl_960.css');
+@import url('rtl_text.css');
+
+
+/*@font-face {
+  font-family: 'Alef';
+  src: url("Alef-Bold.eot");
+  src: url("Alef-Bold.eot?#iefix") format("embedded-opentype"), url("Alef-Bold.woff") format("woff"), url("Alef-Bold.ttf") format("truetype"), url("Alef-Bold.svg#alefbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Alef';
+  src: url("Alef-Regular.eot");
+  src: url("Alef-Regular.eot?#iefix") format("embedded-opentype"), url("Alef-Regular.woff") format("woff"), url("Alef-Regular.ttf") format("truetype"), url("Alef-Regular.svg#alefregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }*/
+
+
+#container {
+	direction: rtl;
+}
+#container .grid_12 {
+	float: left;
+}
+
+#promo {
+	padding-left: 0;
+	padding-right: 340px;
+	background-position: right 40px, center bottom;
+}
+#promo.new h1 {
+	height: 90px;
+}
+#promo h1 small {
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 27px;
+}
+#promo .english {
+	direction: ltr;
+	text-align: left;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+#schedule th {
+	text-align: right;
+}
+
+.coaches .grid_3 {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.coaches .grid_3:nth-child(4n+4) {
+  margin-left:0;
+}
+.coaches .grid_3 small {
+	direction: ltr;
+	text-align: right;
+}
+.coaches span {
+	font-size: 16px;
+	border: 0;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	color: #e0330c;
+}
+
+#schedule th {
+	direction: ltr;
+}
