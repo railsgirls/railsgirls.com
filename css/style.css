@@ -99,6 +99,10 @@ body {
   background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
+.tel-aviv#promo {
+  background: url('../images/rg-tel-aviv.jpg') no-repeat right 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 
 #promo {
@@ -872,6 +876,12 @@ h4.warsaw {
   height:85px;
 }
 
+.glasgow#promo {
+  padding-left:340px;
+  background: url('../images/rg-glasgow.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .london#promo {
   padding-left:340px;
   background:url('../images/rg-london.jpg') no-repeat 0 10px,
@@ -880,12 +890,6 @@ h4.warsaw {
 
 
 .leipzig#promo {
-          padding-left:340px;
-          background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-.istanbul#promo {
           padding-left:340px;
           background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
