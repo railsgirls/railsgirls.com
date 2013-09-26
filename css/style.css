@@ -894,14 +894,24 @@ h4.warsaw {
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.xian#promo h1 {
+.xian-header {
   text-indent: 0;
   margin-bottom: 0;
   font-size: 70px;
   font-weight: bolder;
   color: #d3360b;
+  text-align: center;
 }
 
+.xian-date {
+  color: black;
+  text-align: center;
+}
+
+.xian-registration {
+  font-size: 35px;
+  font-weight: bolder;
+}
 
 .leipzig#promo {
           padding-left:340px;
