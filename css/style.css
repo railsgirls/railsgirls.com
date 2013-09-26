@@ -888,6 +888,20 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.xian#promo {
+  padding-left:340px;
+  background:url('../images/rg-galway.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.xian#promo h1 {
+  text-indent: 0;
+  margin-bottom: 0;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #d3360b;
+}
+
 
 .leipzig#promo {
           padding-left:340px;
