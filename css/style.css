@@ -611,6 +611,11 @@ pre {
   background:url('../images/rg-oulu-header.png') no-repeat left top;
 }
 
+.dresden#promo h1 {
+  height: 80px;
+  background:url('../images/rg-dresden.png') no-repeat left top;
+}
+
 .kharkov#promo h1 {
   background:url('../images/rg-kharkov-header.png') no-repeat left top;
 }
