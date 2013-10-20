@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 <meta charset="utf-8">
 
-<!--  Add your city name, dates and year.  -->
+  <title>Rails Girls Taipei 2nd, Nov 08-09, 2013</title>
 
-  <title>Rails Girls Taipei, Sep 06-07, 2013</title>
-
-<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
-
-  <meta name="description" content="Rails Girls 台北 2013.09: 加入為期兩天的工作坊, 體驗用Ruby on Rails打造網頁應用程式的快樂.">
+	<meta property="og:title" content="Rails Girls Taipei 2nd, Nov 08-09, 2013" />
+	<meta property="og:image" content="http://railsgirls.com/images/rg-taipei.jpg" />
+	<meta property="og:description" 
+	  content="Rails Girls 台北 2013.11: 加入為期兩天的工作坊, 體驗用Ruby on Rails打造網頁應用程式的快樂." />
+  <meta name="description" content="Rails Girls 台北 2013.11: 加入為期兩天的工作坊, 體驗用Ruby on Rails打造網頁應用程式的快樂.">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
@@ -44,38 +44,17 @@
         </div>
         </header>
 
-
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!
-
--->
-
-
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
-
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
         <div id="promo" class="new taipei">
-        <h1>Rails Girls Taipei
-            <small>September 2013</small>
+        <h1>Rails Girls Taipei 2nd
+            <small>November 2013</small>
         </h1>
         <p>Hello world!</p>
         <p>
-            Rails Girls 終於要來台北了! 我們將舉辦2天的工作坊，幫助女生們進入Ruby以及Rails的世界, 讓你們有能力實現自己的點子與理想。</p>
-        <p><a href="http://registrano.com/events/railsgirls-taipei-01">女性學員報名</a>截止於 2013/09/03.</p>
-        <p><a href="http://registrano.com/events/railsgirls-taipei-01-coach">教練(不限性別)報名</a>截止於 2013/09/03.</p>
+            Rails Girls 第二回! 我們將舉辦2天的工作坊，幫助女生們進入Ruby以及Rails的世界, 讓你們有能力實現自己的點子與理想。</p>
+        <p><a href="https://registrano.com/events/railsgirls-taipei-02">女性學員報名</a>開放中.</p>
+        <p><a href="https://registrano.com/events/railsgirls-taipei-02-coach">教練(不限性別)報名</a>開放中.</p>
 
 
 <!--  Update the sharing texts.-->
@@ -85,16 +64,19 @@ Steps to show on site
             <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/taipei" data-text="Rails Girls (Taipei) (2013/09/05)  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/taipei" data-text="Rails Girls (Taipei) (2013/09/06)  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
             Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
-
-            <!-- 似乎是壞掉的 -->
-            <div id="fb-root" style=""></div>
-            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
-
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=316078878536985";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+						<fb:like href="http://railsgirls.tw/" width="450" show_faces="true" send="true"></fb:like>
           </div>
         </p>
         </div>
@@ -120,7 +102,7 @@ Steps to show on site
 <!--  Update the texts! -->
 
       <div class="grid_6 alpha">
-        <h2>Friday 6th September</h2>
+        <h2>Friday 8th November</h2>
         <table id="schedule">
           <tbody>
             <tr>
@@ -134,7 +116,7 @@ Steps to show on site
 
         <hr />
 
-        <h2>Saturday 7th September</h2>
+        <h2>Saturday 9th November</h2>
 
         <table id="schedule">
           <tbody>
@@ -200,8 +182,7 @@ Steps to show on site
 
         <h3>Information</h3>
             <p>
-              <p><strong><a href="http://registrano.com/events/railsgirls-taipei-01">報名</a> : </strong>2013/09/03 截止<br/>
-              <strong>會場 : </strong><a href="https://www.facebook.com/CLBC.tw">CLBC慶隆商務中心</a>, <a href="http://goo.gl/maps/xqr1T">復興南路一段293號3樓之1</a>
+              <strong>會場 : </strong><a href="https://www.facebook.com/DeRoot/info">DeRoot休閒空間</a>, <a href="http://goo.gl/maps/5YYGD">台北市新生南路一段60號B1</a>
             </p>
 
 
@@ -210,15 +191,22 @@ Steps to show on site
 
        <h3>Partners</h3>
 
-       <p>本次Rails Girls Taipei 活動有下列的贊助商與夥伴</p><p>
+       <p>本次Rails Girls Taipei 活動有下列的贊助商與夥伴</p>
         <p>
-           <a href="http://verywed.com/" style="float:right; margin:0 0 0; border:0;"><img src="images/verywed.jpg" alt="非常婚禮"></a>
-         <a href="http://verywed.com/">非常婚禮verywed.com</a>為台灣知名婚禮服務入口網站 / 結婚社群網站。創業十餘
-年來，以開源技術幫助了無數海內外華人完成人生大事
+           <a href="http://faria.co" style="float:right; margin:0 0 0; border:0;"><img src="images/faria-logo.png" alt="Faria System co"></a>
+         <a href="http://faria.co">Faria System</a>Faria System 是一家的 SaaS (Software as a Service) 軟體公司，目前專注在國際學校的領域。
 			 	</p>
 				<p>
-				    <a href="http://www.openfoundry.org/" style="float:right; margin:0 0 0; border:0;"><img width="161" src="images/openfoundry.png" alt="Railslove"></a>
-				         <a href="http://www.railslove.com"> OpenFoundry</a>提供使用者從事自由軟體專案開發時，所需要的重要工具與服務
+				    <a href="http://www.openfoundry.org/" style="float:right; margin:0 0 0; border:0;"><img width="161" src="images/openfoundry.png" alt="Open Foundry"></a>
+				         <a href="http://www.openfoundry.org/"> OpenFoundry</a>提供使用者從事自由軟體專案開發時，所需要的重要工具與服務
+				</p>
+				<p>
+				    <a href="http://www.alphacamp.tw/" style="float:right; margin:0 0 0; border:0;"><img width="161" src="images/alpha_camp.png" alt="Alpha Camp"></a>
+				         <a href="http://www.alphacamp.tw/">ALPHA Camp</a> 是一所位於台灣、致力於創業教育的專業學校。不只「談」創業，我們更將提供你在新創事業中必備的知識、技巧及實際操作的機會，讓你能夠真正了解新創事業是怎麼一回事。
+				</p>
+				<p>
+				    <a href="http://pic-collage.com" style="float:right; margin:0 0 0; border:0;"><img width="161" src="images/piccollage.png" alt="Pic-collage"></a>
+				         <a href="http://pic-collage.com">PicCollage拼貼趣</a> 是個簡單好玩的拼貼App，在全球已超過 4000 萬次下載，並於數十個國家的App Store及Google Play都曾榮登照相類前十名！由成立於矽谷與台灣的跨國團隊<a href="http://cardinalblue.com/jobs">Cardinal Blue</a>開發，目前仍熱烈招募中。
 				</p>
      <hr/>
      <h3>FAQ</h3>
@@ -263,10 +251,6 @@ Steps to show on site
             Carol Hsu, coach
             <small>@sheseee</small>
         </a>
-        <a href="https://twitter.com/ManicLF" class="grid_3">
-            Manic Chuang, coach
-            <small>@ManicLF</small>
-        </a>
       </div>
 
     </div>
@@ -275,7 +259,7 @@ Steps to show on site
     <!-- /content -->
 
     <footer>
-        <p>2010-2013, Rails Girls. <a href="http://railsgirls.com/press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p>2010-2013, Rails Girls. <a href="mailto:contact@railsgirls.tw">Contact us</a> or follow us on <a href="http://twitter.com/railsgirlstw">Twitter</a> and <a href="https://www.facebook.com/railsgirlstw">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
       <script type="text/javascript">

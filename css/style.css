@@ -99,6 +99,10 @@ body {
   background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
+.tel-aviv#promo {
+  background: url('../images/rg-tel-aviv.jpg') no-repeat right 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 
 #promo {
@@ -280,6 +284,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
          url('../images/separator.png') no-repeat center bottom;
 }
 
+.istanbul#promo {
+          padding-left:340px;
+          background:url('../images/rg-istanbul.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 .belem#promo {
   padding-left:340px;
   background:url('../images/rg-belem.png') no-repeat 0 10px,
@@ -329,9 +339,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.tokyo-2013-03-01#promo {
+  padding-left:340px;
+  background:url('../images/rg-tokyo-2013-03-01.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .tokyo#promo {
   padding-left:340px;
-  background:url('../images/rg-tokyo.png') no-repeat 0 10px,
+  background:url('../images/rg-tokyo.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
@@ -348,8 +364,8 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 
 .matsue#promo {
-  padding-left:400px;
-  background:url('../images/rg-matsue.png') no-repeat 0 50px,
+  padding-left:460px;
+  background:url('../images/rg-matsue.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -595,6 +611,11 @@ pre {
   background:url('../images/rg-oulu-header.png') no-repeat left top;
 }
 
+.dresden#promo h1 {
+  height: 80px;
+  background:url('../images/rg-dresden.png') no-repeat left top;
+}
+
 .kharkov#promo h1 {
   background:url('../images/rg-kharkov-header.png') no-repeat left top;
 }
@@ -643,6 +664,10 @@ pre {
 
 .tokyo-2012-09-07#promo h1 {
   background:url('../images/rg-tokyo-header-2012-09-07.png') no-repeat left top;
+}
+
+.tokyo-2013-03-01#promo h1 {
+  background:url('../images/rg-tokyo-header-2013-03-01.png') no-repeat left top;
 }
 
 .tokyo#promo h1 {
@@ -856,20 +881,44 @@ h4.warsaw {
   height:85px;
 }
 
+.glasgow#promo {
+  padding-left:340px;
+  background: url('../images/rg-glasgow.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .london#promo {
   padding-left:340px;
   background:url('../images/rg-london.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.xian#promo {
+  padding-left:340px;
+  background:url('../images/rg-galway.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.xian-header {
+  text-indent: 0;
+  margin-bottom: 0;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #d3360b;
+  text-align: center;
+}
+
+.xian-date {
+  color: black;
+  text-align: center;
+}
+
+.xian-registration {
+  font-size: 35px;
+  font-weight: bolder;
+}
 
 .leipzig#promo {
-          padding-left:340px;
-          background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-.istanbul#promo {
           padding-left:340px;
           background:url('../images/rg-leipzig-header.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
