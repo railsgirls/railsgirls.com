@@ -19,11 +19,16 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <style type="text/css">
+    .twitter-share-button {
+      margin-bottom: 3px;
+    }
+
     .grid_12 .time {
       float: left;
       margin-right: 40px;
       text-align: left;
     }
+
     .grid_12 .time:after {
       content: " - ";
     }
@@ -49,6 +54,21 @@
     <![endif]-->
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=125980624201138";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
     <header>
       <div class="container_12">
         <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -70,6 +90,11 @@
           <p>Está chegando mais um Rails Girls em Porto Alegre!</p>
           <p>Sabia que você é capaz de criar um software, uma aplicação ou programa de computador, por exemplo, como o Facebook? Não faz ideia de como? Nós iremos te apresentar a este mundo mágico da programação, onde você escreve um texto e seu computador entende e faz tudo o que você quiser e puder imaginar! :)</p>
           <p><a href="https://docs.google.com/forms/d/1-loZagzOhVy0hjLvEidNqHfTtI1DSoKQ1zUnxhN-W6s/viewform" title="Inscrições" target="_blank">Inscreva-se!</a></p>
+
+          <!-- Social Network -->
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/portoalegre" data-text="Programar não é difícil, cola aí que a gente te mostra :)" data-hashtags="RailsGirlsPoa">Tweet</a>
+
+          <div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-Porto-Alegre/534692719952156?fb_source=rails_gilrs_poa_2013" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="true"></div>
         </div>
       </div>
 
