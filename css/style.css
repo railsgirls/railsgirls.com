@@ -375,6 +375,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.skopje#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .gurgaon#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
