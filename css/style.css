@@ -55,6 +55,12 @@ body {
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.popayan#promo {
+  padding-left:340px;
+  background:url('../images/rg-popayan.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .porto#promo {
   padding-left:340px;
   background:url('../images/rg-porto.png') no-repeat 0px 10px,url('../images/separator.png') no-repeat center bottom;
