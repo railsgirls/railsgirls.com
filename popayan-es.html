@@ -35,7 +35,13 @@
 <body>
 <!-- start Facebook "like" box -->
 <div id="fb-root"></div>
-
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- end Facebook "like" box -->
 
 <header>
@@ -100,6 +106,7 @@ Steps to show on site
                    data-lang="en">Follow @rgirlspopayan</a>
                 <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
+            <div class="fb-like-box" data-href="https://www.facebook.com/pages/Rails-Girls-Popay%C3%A1n/254976991320185" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
         </div>
         </p>
         <br>
