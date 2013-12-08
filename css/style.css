@@ -381,6 +381,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.nyc#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .skopje#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -700,6 +706,10 @@ pre {
 
 .chicago#promo h1 {
   background:url('../images/rg-chicago-header.png') no-repeat left top;
+}
+
+.nyc#promo h1 {
+  background:url('../images/rg-nyc-header.png') no-repeat left top;
 }
 .brussels#promo h1 {
   background:url('../images/rg-brussels-header.png') no-repeat left top;
