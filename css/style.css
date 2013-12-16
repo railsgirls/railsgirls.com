@@ -381,6 +381,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.nara#promo {
+  padding-left:460px;
+  background:url('../images/rg-nara.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
 
 .chicago#promo {
   padding-left:340px;
@@ -713,6 +718,10 @@ pre {
 
 .nagoya#promo h1 {
   background:url('../images/rg-nagoya-header.png') no-repeat left top;
+}
+
+.nara#promo h1 {
+  background:url('../images/rg-nara-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
