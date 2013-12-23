@@ -55,6 +55,12 @@ body {
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.popayan#promo {
+  padding-left:340px;
+  background:url('../images/rg-popayan.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .porto#promo {
   padding-left:340px;
   background:url('../images/rg-porto.png') no-repeat 0px 10px,url('../images/separator.png') no-repeat center bottom;
@@ -369,7 +375,25 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.nagoya#promo {
+  padding-left:460px;
+  background:url('../images/rg-nagoya.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.nara#promo {
+  padding-left:460px;
+  background:url('../images/rg-nara.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .chicago#promo {
+  padding-left:340px;
+  background:url('../images/rg-berlin.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.nyc#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
@@ -692,8 +716,20 @@ pre {
   background:url('../images/rg-matsue-header.png') no-repeat left top;
 }
 
+.nagoya#promo h1 {
+  background:url('../images/rg-nagoya-header.png') no-repeat left top;
+}
+
+.nara#promo h1 {
+  background:url('../images/rg-nara-header.png') no-repeat left top;
+}
+
 .chicago#promo h1 {
   background:url('../images/rg-chicago-header.png') no-repeat left top;
+}
+
+.nyc#promo h1 {
+  background:url('../images/rg-nyc-header.png') no-repeat left top;
 }
 .brussels#promo h1 {
   background:url('../images/rg-brussels-header.png') no-repeat left top;
