@@ -223,6 +223,12 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.neworleans#promo {
+padding-left:340px;
+background:url('../images/rg-neworleans.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;  
+}
+
 .singapore#promo {
   padding-left:340px;
   background:url('../images/rg-singapore.jpg') no-repeat 0 10px,
@@ -600,6 +606,10 @@ pre {
 
 .austin#promo h1 {
   background:url('../images/rg-austin-header.png') no-repeat left top;
+}
+
+.neworleans#promo h1 {
+  background:url('../images/rg-neworleans-header.png') no-repeat left top;
 }
 
 .amsterdam#promo h1 {
