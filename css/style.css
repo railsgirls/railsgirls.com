@@ -193,6 +193,12 @@ body {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.lille#promo {
+  padding-left:340px;
+  background:url('../images/rg-paris.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .paris#promo {
   padding-left:340px;
   background:url('../images/rg-paris.png') no-repeat 0 10px,
@@ -214,7 +220,7 @@ background:url('../images/rg-prague.jpg') no-repeat 0 10px,
 .brno#promo {
 padding-left:330px;
 background:url('../images/brno/rg-brno.png') no-repeat 0 10px;
-                 
+
 }
 
 .austin#promo {
@@ -226,7 +232,7 @@ background:url('../images/rg-austin.jpg') no-repeat 0 10px,
 .neworleans#promo {
 padding-left:340px;
 background:url('../images/rg-neworleans.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;  
+                 url('../images/separator.png') no-repeat center bottom;
 }
 
 .singapore#promo {
@@ -586,6 +592,11 @@ pre {
 
 .atlanta#promo h1 {
   background:url('../images/rg-atlanta-header.png') no-repeat left top;
+}
+
+.lille#promo h1 {
+  background:url('../images/rg-lille-header.png') no-repeat left top;
+  font-size: 40px;
 }
 
 .paris#promo h1 {
