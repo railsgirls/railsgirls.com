@@ -44,9 +44,10 @@ body {
 }
 
 .slc#promo {
+  padding-bottom: 100px;
   padding-left: 380px;
-  background:url('../images/slc/rg-slc.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat 0 330px;
+  background:url('../images/slc/rg-slc.png') no-repeat 0 60px,
+  url('../images/separator.png') no-repeat 0 460px;
 }
 
 #promo.taipei {
@@ -572,7 +573,7 @@ pre {
 }
 
 .slc#promo h1 {
-  background:url('../images/rg-slc-header.png') no-repeat left top;
+  background:url('../images/slc/rg-slc-header.png') no-repeat left top;
 }
 
 .frankfurt#promo h1 {
