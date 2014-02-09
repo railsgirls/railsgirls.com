@@ -847,6 +847,17 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.ticino#promo h1 {
+  background:url('../images/rg-ticino-header.png') no-repeat left top;
+}
+
+.ticino#promo {
+  padding-left:340px;
+  background:url('../images/rg-ticino.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .pittsburgh#promo h1 {
   background:url('../images/rg-pittsburgh-header.png') no-repeat left top;
 }
