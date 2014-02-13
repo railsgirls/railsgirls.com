@@ -58,6 +58,13 @@ body {
   padding-top: 30px;
 }
 
+.ankara#promo {
+          padding-left:340px;
+          background:url('../images/rg-ankara.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+
 .stockholm#promo {
           padding-left:340px;
           background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
