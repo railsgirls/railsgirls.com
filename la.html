@@ -48,12 +48,15 @@
     padding:6px 24px;
     text-decoration:none;
     text-shadow:1px 1px 0px #b23e35;
-  }.la-apply-now-link:hover {
+  }
+  .la-apply-now-link:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d3360b), color-stop(1, #fe1a00) );
     background:-moz-linear-gradient( center top, #d3360b 5%, #fe1a00 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3360b', endColorstr='#fe1a00');
     background-color:#d3360b;
-  }.la-apply-now-link:active {
+  }
+
+  .la-apply-now-link:active {
     position:relative;
     top:1px;
   }
@@ -62,7 +65,7 @@
     -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
     -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
     box-shadow:inset 0px 1px 0px 0px #ffffff;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff0), color-stop(1, #fc3) );
     background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
     background-color:#ededed;
@@ -79,11 +82,43 @@
     text-decoration:none;
     text-shadow:1px 1px 0px #ffffff;
   }.la-coaches-link:hover, .la-sponsor-link:hover {
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fcc), color-stop(1, #f9c) );
     background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
     background-color:#dfdfdf;
   }.la-coaches-link:active, .la-sponsor-link:active {
+    position:relative;
+    top:1px;
+  }
+  .la-sponsor-link {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #d3360b) );
+    background:-moz-linear-gradient( center top, #fe1a00 5%, #d3360b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#d3360b');
+    background-color:#fe1a00;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #d3360b;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #b23e35;
+  }
+  .la-sponsor-link:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d3360b), color-stop(1, #fe1a00) );
+    background:-moz-linear-gradient( center top, #d3360b 5%, #fe1a00 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3360b', endColorstr='#fe1a00');
+    background-color:#d3360b;
+  }
+
+  .la-sponsor-link:active {
     position:relative;
     top:1px;
   }
@@ -100,6 +135,12 @@
         <a href="./press.html">Press</a>
         <a href="http://blog.railsgirls.com">Blog</a>
         <a href="http://guides.railsgirls.com">Guides</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#faq">FAQ</a>
+        <a href="#location">Location</a>
+        <a href="#coaches">Coaches</a>
+        <a href="http://jendiamond.com/railsgirlsla_2014/railsgirls2014_poster.pdf">Poster</a>
       </nav>
     </div>
   </header>
@@ -111,22 +152,24 @@
           Rails Girls LA
           <small style="letter-spacing: .5px;">March 15 & 16th, 2014</small>
         </h1>
-        <p>Hello, Los Angeles! Rails Girls is happening again. <br />This time we are in Pasadena. </p>
-        <p>During this two-day workshop we'll dive into the magical world of Ruby & Ruby on Rails. YOU will build a web application with the support of a friendly coach.</p>
-        <p><a href="https://railsgirls.wufoo.eu/forms/apply-to-rails-girls-la-march-1516th-2014/" class="la-apply-now-link" target = "blank">Apply now!</a> &nbsp; <b> Apply now</b> to reserve your spot for this life changing event! Many women who attended Rails Girls last year are working in the Rails community now. This is a great place to get started.
+        <p>Hello, Los Angeles! Rails Girls is happening again. <br /> During this two day workshop we'll dive into the magical world of Ruby &#38; Ruby on Rails. <i>YOU</i> will build a web application with the support of a friendly coach.</p>
+
+  <div class="grid_9 alpha">
+      <div class="grid_3 omega alpha" >
+       <p style="font-size:14px"><a href="https://railsgirls.wufoo.eu/forms/apply-to-rails-girls-la-march-1516th-2014/" class="la-apply-now-link" target = "blank">Apply now!</a> <br /> <b> Apply now</b> to reserve your spot for this life changing event! Many women who attended Rails&nbsp;Girls last year are working in the Rails community now. This is a great place to get started.
+        Applications close on March 1st. Applicants informed on March 7th.</p>
+      </div>
+      <div class="grid_3 omega alpha">
+       <p style="font-size:14px"><a href="https://railsgirls.wufoo.eu/forms/coach-rails-girls-la-march-1516th-2014/" class="la-coaches-link"target = "blank">Volunteer to Coach</a> <br /> <b>We need coaches.</b><br /> Do your part to encourage diversity in programming and the welcoming, friendly reputation of the Ruby &#38; Rails community. Plus you'll have fun and get in some easy networking with other Rails developers.<br /><a href= "http://guides.railsgirls.com/coach/">What do I need to be a Rails Girls coach?</a> </p> 
+      </div>
+      <div class="grid_3 omega alpha">
+       <p style="font-size:14px">
+          <a href="http://railsgirls.com/la-sponsor-prospectus" class="la-sponsor-link" target = "blank">Become a Sponsor</a><br /><b>We Need Sponsors</b><br /> to make this event happen.
         </p>
-        <p>Applications close on March 1st.<br/>
-        Applicants informed on March 7th.</p>
-        <p><a href="https://railsgirls.wufoo.eu/forms/coach-rails-girls-la-march-1516th-2014/" class="la-coaches-link"target = "blank">Volunteer to Coach</a> &nbsp; <b>We are also looking for coaches.</b> Do your part to encourage diversity in programming and the welcoming, friendly reputation of the Ruby & Rails community. Plus you'll have fun and get in some easy networking with other Rails developers. </p>
+      </div>
+  </div>
         <p>Follow <a href = "https://twitter.com/RailsGirlsLA">@RailsGirlsLA</a> on Twitter for the latest news!</p>
         <p>
-
-
-          <!--<a href="http://railsgirls.com/la-sponsor-prospectus" class="la-sponsor-link" target = "blank">
-            Become a Sponsor
-          </a>-->
-        </p>
-
         <p>
           <div id="share">
             <div style="margin:0 15px 0 0;">
@@ -165,6 +208,7 @@
         </p>
       </div>
 
+<a name="faq"></a>
       <hr />
   <div class="grid_12">
         <h2>FAQ</h2>
@@ -192,8 +236,9 @@
           </a>
         </p>
       </div>
+  </div>
   <hr />
-
+<a name="schedule"></a>
 <div class="grid_12 alpha feature">
 
   <div class="grid_5 alpha" style="padding:5px 5px 5px 5px; background-color: #bebebe; border:1px solid; border-radius:10px;">
@@ -342,6 +387,8 @@
   </div>
 </div>
 
+<a name="location"></a>
+
 <hr />
 <div class="grid_12 alpha feature">
   <div class="grid_4 alpha feature">
@@ -354,31 +401,31 @@
     <iframe width="600" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=800+East+Colorado+Boulevard,+Pasadena,+CA&amp;aq=0&amp;oq=800+East+Colorado+Boulevard&amp;sll=34.020479,-118.411732&amp;sspn=0.457568,0.598755&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=800+E+Colorado+Blvd,+Pasadena,+California+91101&amp;z=14&amp;ll=34.145557,-118.133369&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=800+East+Colorado+Boulevard,+Pasadena,+CA&amp;aq=0&amp;oq=800+East+Colorado+Boulevard&amp;sll=34.020479,-118.411732&amp;sspn=0.457568,0.598755&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=800+E+Colorado+Blvd,+Pasadena,+California+91101&amp;z=14&amp;ll=34.145557,-118.133369" style="color:#0000FF;text-align:left">View Larger Map</a></small>
   </div>
 </div>
+
+<a name="sponsors"></a>
 <hr/>
 <div class="grid_12 alpha feature">
-  <h1 style="color:red">Our sponsors make Rails Girls LA possible!</h1>
-    <p class="grid_3 alpha">
-      <a href="http://beaconcapital.com/bcsp.php?bcsp=6" style="border:0px">
-        <img width="100%" src="images/losangeles/beacon_capital.png" alt="Beacon Capital Logo"/>
-      </a>
-    </p>
-    <p class="grid_3 alpha">
-      <a href="http://www.us.jll.com/united-states/en-us" style="border:0px">
-        <img width="100%" src="images/losangeles/jones_lang_lasalle.png" alt="Jones Lang LaSalle Logo"/>
-      </a>
-    </p>
+  <h1 style="color:#c00;">&#10084; Our sponsors make Rails Girls LA possible!&#10084;</h1>
+  <p class="grid_3 alpha">
+    <a href="http://www.oconnorwealthmgt.com/index.php"><img width=100% src="images/losangeles/oconnor_logo.jpg" alt= "O'Connor Wealth Management" /></a>
+  </p>
+  <p class="grid_3 alpha">
+    <a href="http://beaconcapital.com/bcsp.php?bcsp=6" style="border:0px"><img width="100%" src="images/losangeles/beacon_capital.png" alt="Beacon Capital Logo"/></a>
+  </p>
+  <p class="grid_3 alpha">
+    <a href="http://www.us.jll.com/united-states/en-us" style="border:0px"><img width="100%" src="images/losangeles/jones_lang_lasalle.png" alt="Jones Lang LaSalle Logo"/></a>
+  </p>
+  <p class="grid_3 alpha">
+    <a href="http://www.spokeo.com/about" style="border:0px"><img width="100%" src="images/losangeles/spokeo_logo.png" alt="Spokeo Logo"/></a>
+  </p>
 </div>
 
-
-<!--
         <hr/>
-
+<!--
         <h2>Sponsors</h2>
 
         <p class="grid_3 alpha">
-          <a href="http://railsgirls.com/la-sponsor-prospectus" class="la-sponsor-link">
-            Become a Sponsor
-          </a>
+
         </p>
         <p class="grid_2 omega">
           <strong>
@@ -625,7 +672,7 @@
     <p>2010-2014, Rails Girls. <a href="./press.html">Contact us</a> or follow
     us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a
     href="https://www.facebook.com/railsgirls">Facebook</a></p>
-    <p class="slogan">Get excited and make things!</p>
+    <p class="slogan" style="background-color: pink">Get excited and make things!</p>
   </footer>
 
   <script type="text/javascript">
