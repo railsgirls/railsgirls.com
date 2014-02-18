@@ -106,6 +106,12 @@ body {
   background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
 
+.budapest#promo {
+          padding-left:340px;
+          background:url('../images/budapest/rg-budapest.jpg') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 .lisboa#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
@@ -1063,6 +1069,12 @@ h4.warsaw {
 }
 .dh_fairfax#share {
   padding-bottom: 30px;
+}
+
+.cairo#promo {
+  padding-left:340px;
+  background: url('../images/rg-cairo-header.png') no-repeat -15px 20px,
+              url('../images/separator.png') no-repeat center bottom;
 }
 
 #promo p {
