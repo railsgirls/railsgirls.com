@@ -531,8 +531,9 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 
 .wellington#promo {
-  padding-left:340px;
-  background:url('../images/rg-wellington.jpg') no-repeat 0 10px,
+  padding-left: 334px;
+  padding-top: 0;
+  background:url('../images/wellington/rg-wgtn-photos.jpg') no-repeat 0 10px,
                  url('../images/separator.jpg') no-repeat center bottom;
 }
 .wellington#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
