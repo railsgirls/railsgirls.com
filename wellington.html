@@ -16,12 +16,12 @@
       function initialize() {
           var myOptions = {
             zoom: 14,
-            center: new google.maps.LatLng(-41.290512,174.77922),
+            center: new google.maps.LatLng(-41.3063424,174.7768557),
             mapTypeId: google.maps.MapTypeId.ROADMAP
           };
           map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
           var options = {
-            position: new google.maps.LatLng(-41.290512,174.77922),
+            position: new google.maps.LatLng(-41.3063424,174.7768557),
             icon: "./images/heart-marker-sm.png"
           };
           var marker = new google.maps.Marker(options);
@@ -88,7 +88,6 @@
             It will take a while before the changes show, so don't panic! 
             
     -->
-
 
     <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
  
@@ -273,7 +272,6 @@
             <div class="coaches clearfix">
                 <hr />
                 <h2>Wellington Coordinators</h2>
-
                 <a href="https://twitter.com/merxplat" class="grid_2">Merrin Macleod<small>@merxplat</small></a>
                 <a href="https://twitter.com/kellective" class="grid_2">Kelly Cheesman<small>@kellective</small></a>
 
@@ -367,6 +365,10 @@
 
            
         <div class="grid_4 push_1 omega">
+                <h3> Location</h3>
+                <p>Powershop, 43 Hanson Street, Mount Cook, Wellington, 6021</p>
+               <div id="map_canvas" style="height: 200px;"></div>
+                <a href = "https://maps.google.co.nz/maps?q=43+hanson+street+wellington&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hl=en&sa=N&tab=wl"> Map </a></p>
             
                 <h3>Sponsors</h3>
           
@@ -384,11 +386,20 @@
                         <a href="https://www.nzx.com" style="display:block; margin:0 0 10px; border:0;">
                             <img src="./images/wellington/nzx-logo.jpg" alt="NZX" style="max-width: 180px;">
                         </a>
+                      <a href="http://www.catalyst.net.nz" style="display:block; margin: 0 0 10px; border:0;">
+                        <img src="./images/wellington/catalyst-logo.png" alt="Catalyst IT" style="max-width: 200px;">
+                      </a>
                     </p>
                     <p><strong>Silver Sponsors</strong></p>
                     <p class="sponsor-note">
                         <a href="http://www.abletech.co.nz" style="display:block; margin: 0 0 10px; border:0;">
                             <img src="./images/wellington/Abletech-Logo.png" alt="Abletech" style="max-width: 160px;">
+                        </a>
+                    </p>
+                    <p><strong>Bronze Sponsors</strong></p>
+                    <p class="sponsor-note">
+                        <a href="http://www.3months.com" style="display:block; margin:0 0 10px; border:0;">
+                            <img src="./images/wellington/3months-Logo.png" alt="3months" style="max-width: 160px;">
                         </a>
                     </p>
                     <p><strong>Bronze Sponsors</strong></p>
