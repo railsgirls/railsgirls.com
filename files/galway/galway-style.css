@@ -1,0 +1,29 @@
+.galway#head1{
+  background-color: #068706;
+}
+.galway div#header{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.galway#promo {
+          padding-left:340px;
+          background:url('./../../images/galway/rg-galway.png') no-repeat 0 10px,
+                         url('./../../images/separator.png') no-repeat center bottom;
+        }
+
+
+
+.galway#promo2013 {
+          padding-left:340px;
+          background:url('./../../images/galway/rg-galway.png') no-repeat 0 10px,
+                         url('./../../images/separator.png') no-repeat center bottom;
+        }
+
+.galway#promo2013 h1 {
+  background:url('./../../images/galway/rg-galway-header2013.png') no-repeat left top;
+}
+
+
+

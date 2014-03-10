@@ -58,6 +58,14 @@ body {
   padding-top: 30px;
 }
 
+
+
+
+.galway#promo h1 {
+  background:url('./../images/rg-galway-header.png') no-repeat left top;
+}
+
+
 .ankara#promo {
           padding-left:340px;
           background:url('../images/rg-ankara.png') no-repeat 0 10px,
@@ -521,11 +529,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.galway#promo {
-          padding-left:340px;
-          background:url('../images/rg-galway.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+
 .barcelona#promo {
   padding-left:340px;
   background:url('../images/rg-barcelona.png') no-repeat 0 10px,
