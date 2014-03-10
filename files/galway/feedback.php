@@ -57,7 +57,7 @@
 
 // ------------- CONFIGURABLE SECTION ------------------------
 
-$mailto = 'railsgirlsgalway@gmail.com' ;
+$mailto = 'iammyr@email.com' ;
 $subject = "Feedback Form" ;
 $formurl = "http://railsgirls.com/files/galway/feedback.html" ;
 $thankyouurl = "http://railsgirls.com/files/galway/thankyou.html" ;
