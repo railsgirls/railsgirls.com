@@ -560,6 +560,26 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background: url('../images/rg-header-columbiaMD.png') no-repeat left top;
 }
 
+.ostrava#promo{
+  padding-left:340px;
+  padding-top:30px;
+  padding-bottom:30px;
+  background:url('../images/ostrava/railsgirls-logo.jpg') no-repeat 10px 40px,
+             url('../images/separator.png') no-repeat center bottom;
+  min-height:300px;
+}
+
+.ostrava#promo h1{
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height:80px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:52px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+
 pre {
   background:#eee;
   color:#111;
