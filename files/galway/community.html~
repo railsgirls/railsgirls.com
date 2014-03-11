@@ -77,13 +77,27 @@ But now, you can use our non-profit workshops for networking with other women wh
 
 <p>
 <a href="https://groups.google.com/forum/#!forum/rails-girls-galway-handson" target="_blank">Join our community</a> of peer-learning and networking among Irish female programmers!<br />
-We are aprt of the <a href="http://codinggrace.com/" target="_blank">Coding Grace</a> group, as well. Keep an eye on the <a href="http://www.eventbrite.ie/o/coding-grace-3737795691?s=21873117" target="_blank">upcoming events</a> and meet-ups.
+We are part of the <a href="http://codinggrace.com/" target="_blank">Coding Grace</a> group, as well. Keep an eye on the <a href="http://www.eventbrite.ie/o/coding-grace-3737795691?s=21873117" target="_blank">upcoming events</a> and meet-ups.
 </p>
 
 <p>Share your Love for Crafting with us! :)</p>
     
-      
+      <div>
 
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/rails-girls-galway-handson'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
+</div>
     </div>
       
     
