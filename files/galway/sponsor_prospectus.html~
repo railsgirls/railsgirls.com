@@ -1,0 +1,217 @@
+<!doctype html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--  Add your city name, dates and year.  -->
+ 
+  <title>Galway 20-21st June 2014</title>
+  
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="2nd Rails Girls Galway 20-21st June 2014: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="author" content="Rails Girls Galway">
+ 
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ 
+  <link rel="stylesheet" href="./../../css/style.css">
+  <link rel="stylesheet" href="./galway-style.css">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+  
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="./../../images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./../../events.html">Events</a>
+                <a href="./../../materials.html">Materials</a>
+                <a href="./../../press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a> 
+                <a href="http://guides.railsgirls.com">
+                  Guides</a>  
+            </nav>
+        </div>
+        </header>
+
+        <header  class="galway" id="head1">
+        <div id="header">
+            <a id="logo" href="/"><img src="./../../images/galway/railsgirls-logo-galwayHeader.png" alt="Rails Girls Galway" /></a>
+            <nav>
+                <a href="./../../galway.html" alt="What's Next">Home</a>
+                <a href="./2013.html" alt="Past workshops and meet ups">Past Events</a>
+                <a href="./community.html" alt="The Galway Community">Community</a>
+                <a href="./resources.html" alt="Our workshop materials">Resources</a>
+                <a href="./gallery.html" alt="Our Photos">Gallery</a>
+                <a href="./press.html" alt="What they say about us">Media</a>
+                <a href="./feedback.html" alt="Your Feedback">Feedback</a>
+                <a href="./about.html" alt="Who we are">About Us</a>
+                <a href="./faq.html" alt="Frequently Asked Questions">FAQ</a>
+            </nav>
+        </div>
+        </header>
+  
+
+
+ 
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="galway">
+        <h1>Rails Girls Galway
+            <small>20-21st June 2014</small>
+        </h1>
+        <h3>Sponsor Prospectus</h3>
+        <p>
+          Rails Girls is a two-day free event targeted
+          at women to give them a great first experience in software
+          craftmanship. We aim to impart inspiration to get started, tools to
+          understand technology, and an open, supportive community.  Rails
+          Girls is not just about programming, it’s about building things.
+          During the workshop, attendees will build their first Ruby on Rails
+          application with help and guidance from their coach.  We will also
+          have inspiring lightning talks and exercises.
+        </p>
+        <p>
+          <a href="http://railsgirls.com">
+            See more about Rails Girls worldwide.
+          </a>
+        </p>
+        <p>
+          <a href="http://railsgirls.com/galway">
+            See more about Rails Girls Galway.
+          </a>
+        </p>
+
+
+             <div id="share">
+
+            <div>
+
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Galway 17-18th May  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+            Tweet About Us</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+
+            <div id="fb-root" style=""></div>
+            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+
+          </div>
+        </p>
+        </div>
+      </div>
+      
+      
+      <div class="grid_4 alpha feature">
+       <p><strong>Contact</strong> <a href="mailto:railsgirlsgalway@gmail.com">Email Myriam Leggieri</a> to receive bank transfer details or any further information.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>Coaches</strong> 11 coaches (recruiting process still ongoing)</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Attendees</strong> 135 applications received in 2013 from all over Ireland. Currently applications are still opened.</p>
+      </div>
+      
+      <hr />
+  
+
+
+      <h2>Sponsorship Packages</h2>
+      <div class="grid_12">
+        <div class="grid_3 alpha">
+          <h3>Gold – &euro;1000</h3>
+          <p>10 minutes for a representative to speak to everyone.</p>
+          <p>Your logo on our website with a short description.</p>
+          <p>Your logo on a banner during the event.</p>
+        </div>
+        <div class="grid_3">
+          <h3>Silver – &euro;500</h3>
+          <p>5 minutes for a representative to speak to everyone.</p>
+          <p>Your logo on our website with a short description.</p>
+        </div>
+        <div class="grid_3 omega">
+          <h3>Bronze – &euro;250</h3>
+          <p>5 minutes for a representative to speak to everyone.</p>
+          <p>Your logo on our website.</p>
+        </div>
+        <div class="grid_3 omega">
+          <h3>Other Amount</h3>
+          <p>We are happy to accept<br /> any donation amount<br /> from &euro;5 on up. :)</p>
+          <p>Thank you for your contribution.</p>
+        </div>
+      </div>
+
+    <hr />
+
+
+      <h2>Our Costs</h2>
+      <div class="grid_12">
+        <div class="grid_4 omega">
+          <h3>Breakfast & Lunch</h3>
+          <p>
+            A healthy breakfast and lunch will keep everyone feuled to program
+            through the day without getting grumpy.
+          </p>
+        </div>
+      </div>
+      <div class="grid_12">
+        <div class="grid_4 alpha">
+          <h3>Printed Materials</h3>
+          <p>
+            Posters help get the word out to coaches and applications. Printed
+            learning materials assist some of our exercises.
+          </p>
+        </div>
+        <div class="grid_4">
+          <h3>Afterparty Refreshments</h3>
+          <p>
+            After a long day of accomplishing new feats a party is definitely
+            in order. Coaches and attendees can socialize and network.
+            </p>
+        </div>
+        <div class="grid_4 omega">
+          <h3>Swag</h3>
+          <p>
+            Stickers and t-shirts. It's great to have something to remind 
+            the attendees to keep their programming interest alive.<br />
+            Everyone loves swag.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ 
+      
+    
+    <footer>
+        <p>2010-2014, Rails Girls Galway. <a href="./files/galway/about.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls_galw">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
