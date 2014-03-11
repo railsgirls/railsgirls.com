@@ -67,18 +67,15 @@
  
     <div id="container" class="container_12 page clearfix">
       
-            <div class="grid_5 push_1 omega side">
+            <div class="twitter-stream">
         
         <h3>Twitter Stream</h3>
-            <div width="100" height="1000">
               
 
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=%40railsgirls_galw" data-widget-id="443417849181122560">Tweets about "@railsgirls_galw"</a>
+<a class="twitter-timeline" data-dnt="true"  width="250" height="1000" href="https://twitter.com/search?q=%40railsgirls_galw" data-widget-id="443417849181122560">Tweets about "@railsgirls_galw"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
-       
-            </div>
             
    
     </div>
@@ -87,8 +84,8 @@
 
 <p>We'd be delighted if you could leave us your feedback about our community and workshops. Thanks a million! ;) </p>
 
-<div align="center">
-<form action="feedback.php" method="post" id="rgg-form">
+<div class="rgg-form">
+<form action="feedback.php" method="post">
 <table border="0" cellpadding="8" cellspacing="8">
 <tr><td><label for="tswname">Name</label>:</td><td><input type="text" name="fullname" id="tswname" size="25" /></td></tr>
 <tr><td><label for="tswemail">Email address (optional)</label>:</td><td><input type="text" id="tswemail" name="email" size="25" /></td></tr>
