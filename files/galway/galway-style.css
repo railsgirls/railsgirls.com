@@ -25,5 +25,14 @@
   background:url('./../../images/galway/rg-galway-header2013.png') no-repeat left top;
 }
 
+#rgg-form {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#rgg-form input[type=text], textarea{
+  background-color: #99FF66;
+}
+
 
 
