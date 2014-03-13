@@ -446,6 +446,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.osaka#promo {
+  padding-left:420px;
+  background:url('../images/rg-osaka.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -819,6 +825,10 @@ pre {
 
 .nara#promo h1 {
   background:url('../images/rg-nara-header.png') no-repeat left top;
+}
+
+.osaka#promo h1 {
+  background:url('../images/rg-osaka-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
