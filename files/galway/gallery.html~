@@ -1,0 +1,106 @@
+<!doctype html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--  Add your city name, dates and year.  -->
+ 
+  <title>Galway 20-21st June 2014</title>
+  
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="2nd Rails Girls Galway 20-21st June 2014: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="author" content="Rails Girls Galway">
+ 
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ 
+  <link rel="stylesheet" href="./../../css/style.css">
+  <link rel="stylesheet" href="./galway-style.css">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+  
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="./images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./events.html">Events</a>
+                <a href="./materials.html">Materials</a>
+                <a href="./press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a> 
+                <a href="http://guides.railsgirls.com">
+                  Guides</a>  
+            </nav>
+        </div>
+        </header>
+
+        <header  class="galway" id="head1">
+        <div id="header">
+            <a id="logo" href="/"><img src="images/galway/railsgirls-logo-galwayHeader.png" alt="Rails Girls Galway" /></a>
+            <nav>
+                <a href="./galway.html" alt="What's Next">Home</a>
+                <a href="./files/galway/2013.html" alt="Past workshops and meet ups">Past Events</a>
+                <a href="./files/galway/community.html" alt="The Galway Community">Community</a>
+                <a href="./files/galway/resources.html" alt="Our workshop materials">Resources</a>
+                <a href="./files/galway/gallery.html" alt="Our Photos">Gallery</a>
+                <a href="./files/galway/press.html" alt="What they say about us">Media</a>
+                <a href="./files/galway/feedback.html" alt="Your Feedback">Feedback</a>
+                <a href="./files/galway/about.html" alt="Who we are">About Us</a>
+                <a href="./files/galway/faq.html" alt="Frequently Asked Questions">FAQ</a>
+            </nav>
+        </div>
+        </header>
+  
+
+
+ 
+    <div id="container" class="container_12 page clearfix">
+      
+      
+
+<h2>Photo Gallery 2013</h2>
+
+<div align="center"><a name="photos" />
+<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=97787850@N08&set_id=&text=" frameBorder="0" width="900" height="600" scrolling="no"></iframe>
+<p>Have more? Send them to us at railsgirlsgalway_at_gmail.com</p>
+<br/><small>Created with <a href="http://www.admarket.se" title="Admarket.se">Admarket's</a> <a href="http://flickrslidr.com" title="flickrSLiDR">flickrSLiDR</a>.</small>
+</div>
+ <hr />
+     
+    
+      
+
+    </div>
+      
+    <!-- /content -->
+    
+    <footer>
+        <p>2010-2014, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
