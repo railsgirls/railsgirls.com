@@ -58,6 +58,14 @@ body {
   padding-top: 30px;
 }
 
+
+
+
+.galway#promo h1 {
+  background:url('./../images/rg-galway-header.png') no-repeat left top;
+}
+
+
 .ankara#promo {
           padding-left:340px;
           background:url('../images/rg-ankara.png') no-repeat 0 10px,
@@ -149,6 +157,10 @@ body {
               url('../images/separator.png') no-repeat center bottom;
 }
 
+.hongkong#promo {
+  background: url('../images/rg-hongkong.png') no-repeat 10px 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 #promo {
   padding-left:340px;
@@ -277,7 +289,7 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
 
 .hamburg#promo {
   padding-left:340px;
-  background:url('../images/rg-hamburg.png') no-repeat 0 88px,
+  background:url('../images/rg-hamburg.png') no-repeat 0 30px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -438,6 +450,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.osaka#promo {
+  padding-left:420px;
+  background:url('../images/rg-osaka.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -521,11 +539,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.galway#promo {
-          padding-left:340px;
-          background:url('../images/rg-galway.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+
 .barcelona#promo {
   padding-left:340px;
   background:url('../images/rg-barcelona.png') no-repeat 0 10px,
@@ -554,6 +568,36 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .columbia#promo h1 {
   background: url('../images/rg-header-columbiaMD.png') no-repeat left top;
+}
+
+.baltimore-2014#promo {
+  padding-left:340px;
+  background:url('../images/rg-baltimore-2014.png') no-repeat 0 50px,
+                  url('../images/separator.png') no-repeat center bottom;
+}
+
+.baltimore-2014#promo h1 {
+  background: url('../images/rg-header-baltimore-2014.png') no-repeat left top;
+}
+
+.ostrava#promo{
+  padding-left:340px;
+  padding-top:30px;
+  padding-bottom:30px;
+  background:url('../images/ostrava/railsgirls-logo.jpg') no-repeat 10px 40px,
+             url('../images/separator.png') no-repeat center bottom;
+  min-height:300px;
+}
+
+.ostrava#promo h1{
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height:80px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:52px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
 }
 
 pre {
@@ -795,6 +839,10 @@ pre {
 
 .nara#promo h1 {
   background:url('../images/rg-nara-header.png') no-repeat left top;
+}
+
+.osaka#promo h1 {
+  background:url('../images/rg-osaka-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
