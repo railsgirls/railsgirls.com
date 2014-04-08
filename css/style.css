@@ -59,6 +59,9 @@ body {
 }
 
 
+.luxembourg#promo {
+  background:url('../images/rg-luxembourg.png') no-repeat 0px 40px;
+}
 
 
 .galway#promo h1 {
