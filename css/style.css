@@ -389,7 +389,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .washington#promo {
   padding-left:340px;
-  background:url('../images/washingtondc/rg-washingtondc.png') no-repeat 0 10px,
+  background:url('../images/washingtondc/RGDC-logo.jpg') no-repeat 0 40px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -809,7 +809,7 @@ pre {
 
 
 .washington#promo h1 {
-  background:url('../images/rg-washington-header.png') no-repeat left top;
+    font-size:42px;
 }
 
 .portland#promo h1 {
