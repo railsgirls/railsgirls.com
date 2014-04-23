@@ -998,7 +998,21 @@ h4.warsaw {
   background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.denizli#promo{
+    padding-left:340px;
+    background:url('../images/denizli/rg_denizli-logo2.png') no-repeat 0 0px,
+    url('../images/separator.png') no-repeat center bottom -5px;
 
+}
+.denizli#promo h1
+{
+    text-indent: 0cm !important;
+    color: #E0330C;
+    font-size: 56px;
+    font-family: "HELVETICA NEUE";
+    font-weight: bolder;
+
+}
 .dallas#promo h1.event-city {
   background: none;
   text-indent: 0px;
