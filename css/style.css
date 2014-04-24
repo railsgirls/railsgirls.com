@@ -1004,8 +1004,7 @@ h4.warsaw {
     url('../images/separator.png') no-repeat center bottom -5px;
 
 }
-.denizli#promo h1
-{
+.denizli#promo h1 {
     text-indent: 0cm !important;
     color: #E0330C;
     font-size: 56px;
