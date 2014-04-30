@@ -117,6 +117,12 @@ body {
   background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
 
+.bucharest#promo {
+          padding-left:400px;
+          background:url('../images/bucharest/rg-bucharest.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 .budapest#promo {
           padding-left:340px;
           background:url('../images/budapest/rg-budapest.jpg') no-repeat 0 10px,
