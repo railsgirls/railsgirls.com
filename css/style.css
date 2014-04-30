@@ -284,6 +284,12 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.santiago#promo {
+  padding-left:340px;
+  background:url('../images/rg-santiago.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .singapore#promo {
   padding-left:340px;
   background:url('../images/rg-singapore.jpg') no-repeat 0 10px,
