@@ -561,6 +561,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.szczecin#promo {
+  padding-left:340px;
+  background:url('../images/rg-szczecin.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .bangalore#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
