@@ -638,6 +638,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
         }
 .udine#promo h1 {color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
+.lodz#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz#promo h1 {
+  background:url('../images/rg-lodz-header.png') no-repeat left top;
+}
+
 pre {
   background:#eee;
   color:#111;
