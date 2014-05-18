@@ -496,6 +496,10 @@ Steps to show on site
     <p>
     <code>
       gem 'carrierwave-blob', git: "https://gist.github.com/f1dc8c75d67b92b23a55.git"
+      # In: app/uploaders/picture_uploader.rb
+      storage CarrierWave::Storage::Blob
+      rails generate carrier_wave_blob_migration Idea
+      rake db:migrate
     </code>
     <p>
 	</div>
