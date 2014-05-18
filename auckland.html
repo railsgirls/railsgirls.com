@@ -1,0 +1,405 @@
+<!doctype html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+         .coaches .grid_2 { margin-left: 0; }
+         .large { font-size: 25px; margin-bottom: 20px; }
+         #promo { padding-top: 0;}
+         #promo p.small { font-size: 14px; }
+         a.apply { background: #d3360b; display: inline-block; color: #fff; padding: 10px 20px; -webkit-border-radius: 4px;
+                   -moz-border-radius: 4px; border-radius: 4px; }
+
+        </style>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript">
+         function initialize() {
+             var myOptions = {
+                 zoom: 14,
+                 center: new google.maps.LatLng(-36.871377, 174.777874),
+                 mapTypeId: google.maps.MapTypeId.ROADMAP
+             };
+             map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+             var options = {
+                 position: new google.maps.LatLng(-36.871377, 174.777874),
+                 icon: "./images/heart-marker-sm.png"
+             };
+             var marker = new google.maps.Marker(options);
+             marker.setMap(map);
+         }
+        </script>
+
+        <!--  Add your city name, dates and year.  -->
+        
+        <title>Auckland July 2014</title>
+        
+        <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+        <meta name="description" content="Rails Girls goes to Auckland: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+        <meta name="author" content="Rails Girls">
+
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+        <link rel="stylesheet" href="./css/style.css">
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+        <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+
+        <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body onload="initialize()">
+
+        <header>
+            <div class="container_12">
+                <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+                <nav>
+                    <a href="./events.html">Events</a>
+                    <a href="./materials.html">Materials</a>
+                    <a href="./press.html">Press</a>
+                    <a href="http://blog.railsgirls.com">Blog</a> 
+                    <a href="http://guides.railsgirls.com">
+                        Guides</a>  
+                </nav>
+            </div>
+        </header>
+        
+
+        <!--   How to change the picture & header for site
+        In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
+
+        Steps to show on site
+        1. Go to style.css
+        2. Add these lines, always replacing 'yourcityname' with your actual city name. 
+
+        .yourcityname#promo {
+        padding-left:340px;
+        background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+        url('../images/separator.png') no-repeat center bottom;
+        }
+
+        It will take a while before the changes show, so don't panic! 
+        
+        -->
+
+        <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+        
+        <div id="container" class="container_12 page clearfix">
+            <div class="grid_12 omega alpha">
+                <div id="promo" class="auckland">
+                    <h1>Rails Girls Auckland
+                        <small>Fri 4th &amp; Sat 5th July 2014</small>
+                    </h1>
+                    
+                    <p>Kia ora!</p>
+                    <p>Rails Girls is coming to Auckland for the first time! During this free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
+                    <p>All of the material is available for you to learn at home by yourself but Rails Girls offers a casual and friendly environment to learn with others and a good tutor to student ratio to help get past some tricky areas.</p>
+                    <p><b>Applications are open now! You can apply <a href="https://docs.google.com/forms/d/1JyJT7z4cxAgRgRnIqX6wNn4qWbXrx77xs8rvVaOKG7c/viewform?usp=send_form" target="_blank">here</a>.</b></p>
+
+                    <!--  Update the sharing texts.-->
+                    
+                    <div id="share">
+                        <div style="margin:0 10px 0 0;">
+                            <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Auckland is happening for the first time on 4th/5th of July!" data-count="horizontal" data-via="RailsGirlsAkl" data-related="RailsGirlsAkl">Tweet</a>
+                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                        </div>
+
+                        <div id="fb-root" style=""></div>
+                        <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+                        <fb:like href="https://www.facebook.com/railsgirlsakl" layout="standard" width="300px" send="true" show_faces="true" font=""></fb:like>
+
+                    </div>
+
+                </div>
+
+                <hr />
+                
+                <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+                
+                <div class="grid_4 alpha feature">
+                    <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches. We introduce you to Ruby on Rails as one of the open-source web developing frameworks.</p>
+                </div>
+                <div class="grid_4 feature">
+                    <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+                </div>
+                <div class="grid_4 omega feature">
+                    <p><strong>Want to help?</strong> Send us an email if you'd like to be involved - <a href="mailto:railsgirlsauckland@gmail.com">email us</a>.</p>
+                </div>
+
+            </div>
+            
+            <hr />
+            
+            <!--  Update the texts! -->
+            
+            <div class="grid_7 alpha">
+                <h3>FAQ</h3>
+                <p><strong>How much does the workshop cost?</strong>
+                    Nothing, it's free! You just need to be excited!
+                </p>
+
+                <p><strong>Who is this aimed at?</strong>
+                    Rails Girls Auckland is open to all those who identify as women or girls with basic knowledge of working with a computer. We’ve had people of all ages taking part.</p>
+                <p><strong>Can men attend?</strong>
+                    Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority. 
+                </p>
+                <p><strong>Do you have a code of conduct?</strong>
+                    Yes - it is <a href="https://docs.google.com/document/d/1Ajm6-3blEa_pMtiOP7BABfbePxin_zu9ipVXyl91bmU/edit?usp=sharing">here</a>. We expect attendees, coaches, and sponsor representatives to behave respectfully to make sure everyone has a great time.
+                </p>
+
+                <hr />   
+                <h2>Friday</h2>
+                <table id="schedule">
+                    <tbody>
+                        <tr>
+                            <th>18.00 - 20:00</th>
+                            <td>
+                                <h4>Installation party</h4>
+                                Come get Rails installed by our bunch of pros, along with a funky looking terminal, easy-to-use text editor and more. There’ll be pizza. And drinks. <br/><br/>
+
+                                Sponsors, boyfriends, girlfriends and developers that happen-to-be-in-the-neighborhood are more than welcome to join.                </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <hr />          
+
+                <h2>Saturday</h2>
+                <table id="schedule">
+                    <tbody>
+                        <tr>
+                            <th>09:30 - 10:15</th>
+                            <td>
+                                <h4>Registration & coffee</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>10:15 - 10:30</th>
+                            <td>
+                                <h4>Welcome</h4>
+                                Outline of the day & word from sponsors
+                            </td>
+                        </tr>
+                        <tr><th>10:30 - 11:00</th>
+                            <td>
+                                <h4>Bentobox</h4>
+                                We will teach you some 'tech talk', using the <a href="http://blog.railsgirls.com/post/20405930015/bentobox-learn-the-language-of-technology">Bentobox exercise</a>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>11:00 - 13:00</th>
+                            <td>
+                                <h4>Hands-on, minds-on learning!</h4>
+                                Rails Girls workshop includes learning the first steps into software craftsmanship, creating a fun app, in small teams.
+                            </td>
+                        </tr>
+                        <tr><th>13:00 - 14:00</th>
+                            <td>
+                                <h4>Lunch</h4>
+                            </td>
+                        </tr>
+                        <tr><th>14:00 - 14:30</th>
+                            <td>
+                                <h4>Lightning talks</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>14:30 - 16:30</th>
+                            <td>
+                                <h4>Second part of the workshop</h4>
+                            </td>
+                        </tr>                
+                        <tr><th>16:30</th>
+                            <td>
+                                <h4>Wrap-up</h4>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- <hr/> -->
+            <div class="grid_4 push_1 omega">
+                <h3>Location</h3>
+                <p>Vend, Level 1, 2-36 Nuffield Street, Newmarket, Auckland</p>
+                <div id="map_canvas" style="height: 200px;"></div>
+                <a href = "https://maps.google.co.nz/maps?q=2-36+nuffield+street+auckland&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hl=en&sa=N&tab=wl">Map</a>
+                
+                <p></p>
+
+                <h3>We are looking for sponsors!</h3>
+                <p>
+                    <small>Want to help? We are looking for partners and sponsors to support Rails Girls Auckland!
+                        <a href="mailto:railsgirlsauckland@gmail.com">Email us!</a>
+                    </small>
+                </p>
+
+                <h3>Our awesome Sponsors:</h3>
+                <br>
+                <div>
+                    <h4>Gold Partners</h4>
+                    <p class="sponsor-note">
+                        <a href="http://www.trineo.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/trineo-logo.png" alt="Trineo" style="max-width: 180px;">
+                        </a>
+                    </p>
+
+                    <p class="sponsor-note">
+                        <a href="http://www.vendhq.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/vend-logo.png" alt="Vend" style="max-width: 180px;">
+                        </a>
+                    </p>
+
+                    <p class="sponsor-note">
+                        <a href="https://internetnz.net.nz/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/InternetNZ-logo.png" alt="Trineo" style="max-width: 180px;">
+                        </a>
+                    </p>
+
+                    <h4>Silver Partners</h4>
+                    <p class="sponsor-note">
+                        <a href="http://www.github.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/github-logo.png" alt="GitHub" style="max-width: 180px;">
+                        </a>
+                    </p>
+
+                    <h4>Bronze Partners</h4>
+                    <p class="sponsor-note">
+                        <a href="http://catalyst.net.nz/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/catalyst-logo.png" alt="Catalyst" style="max-width: 180px;">
+                        </a>
+                    </p>
+                    <p class="sponsor-note">
+                    	<a href="http://codemania.co.nz" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/CodemaniaLogo.png" alt="Catalyst" style="max-width: 180px;">
+
+                    <h4>Coffee sponsored by:</h4>
+                    <p class="sponsor-note">
+                        <a href="http://www.espressoworkshop.co.nz/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="./images/auckland/espresso-workshop-logo.png" alt="Catalyst" style="max-width: 180px;">
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <!--  Update the team list       -->
+            <div>
+                <div class="coaches clearfix">
+                    <hr />
+                    <h2>Auckland Coordinators</h2>
+                    <a href="https://twitter.com/NatDudley" class="grid_2">Nat Dudley<small>@NatDudley</small></a>
+                    <a href="https://twitter.com/mayaneise" class="grid_2">Maria Neise<small>@mayaneise</small></a>
+
+                    <hr />
+                    <h2>Auckland Coaches</h2>
+
+                    <a href="#" class="grid_3">
+                        Felix Geller
+                    </a>
+
+                    <a href="https://twitter.com/snikchnz" class="grid_3">
+                        Mal Curtis
+                        <small>@snikchnz</small>
+                    </a>
+
+                    <a href="https://twitter.com/Caleb_T" class="grid_3">
+                        Caleb Tutty
+                        <small>@Caleb_T</small>
+                    </a>
+
+                    <a href="https://twitter.com/four_seven" class="grid_3">
+                        Mathew Hartley
+                        <small>@four_seven</small>
+                    </a>
+
+                    <a href="https://twitter.com/DraconisNZ" class="grid_3">
+                        Daniel Brooker
+                        <small>@DraconisNZ</small>
+                    </a>
+
+                    <a href="https://twitter.com/amiejcp" class="grid_3">
+                        Amie Parker
+                        <small>@amiejcp</small>
+                    </a>
+
+                    <a href="https://twitter.com/christopherbull" class="grid_3">
+                        Chris Bull
+                        <small>@christopherbull</small>
+                    </a>
+
+                    <a href="https://twitter.com/steveh7" class="grid_3">
+                        Steve Hoeksema
+                        <small>@steveh7</small>
+                    </a>
+
+                    <a href="#" class="grid_3">
+                        Constantine Zaytsev
+                    </a>
+
+                    <a href="https://twitter.com/theprij" class="grid_3">
+                        Priya Singh
+                        <small>@theprij</small>
+                    </a>
+
+                    <a href="https://twitter.com/goodforenergy" class="grid_3">
+                        Helen Durrant
+                        <small>@goodforenergy</small>
+                    </a>
+
+                    <a href="https://twitter.com/jamesotron" class="grid_3">
+                        James Harton
+                        <small>@jamesotron</small>
+                    </a>
+
+                    <a href="https://twitter.com/segfault88" class="grid_3">
+                        Malcolm Lockyer
+                        <small>@segfault88</small>
+                    </a>
+
+                    <a href="https://twitter.com/gilesthompson" class="grid_3">
+                        Giles Thompson
+                        <small>@gilesthompson</small>
+                    </a>
+
+                    <a href="https://twitter.com/gingermusketeer" class="grid_3">
+                        Max Brosnahan
+                        <small>@gingermusketeer</small>
+                    </a>
+					<a href="https://twitter.com/tanya" class="grid_3">
+                        Tanya Gray
+                        <small>@tanya</small>
+                    </a>
+                    <a href="https://twitter.com/merxplat" class="grid_3">
+                        Merrin Macleod
+                        <small>@merxplat</small>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- /content -->
+
+        <footer>
+            <p>2010-2014, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+            <p class="slogan">Get excited and make things!</p>
+        </footer>
+        <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+         ga('create', 'UA-40976825-1', 'railsgirls.com');
+         ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

@@ -58,6 +58,17 @@ body {
   padding-top: 30px;
 }
 
+
+.luxembourg#promo {
+  background:url('../images/rg-luxembourg.png') no-repeat 0px 40px;
+}
+
+
+.galway#promo h1 {
+  background:url('./../images/rg-galway-header.png') no-repeat left top;
+}
+
+
 .ankara#promo {
           padding-left:340px;
           background:url('../images/rg-ankara.png') no-repeat 0 10px,
@@ -106,6 +117,12 @@ body {
   background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
 
+.bucharest#promo {
+          padding-left:400px;
+          background:url('../images/bucharest/rg-bucharest.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 .budapest#promo {
           padding-left:340px;
           background:url('../images/budapest/rg-budapest.jpg') no-repeat 0 10px,
@@ -149,6 +166,10 @@ body {
               url('../images/separator.png') no-repeat center bottom;
 }
 
+.hongkong#promo {
+  background: url('../images/rg-hongkong.png') no-repeat 10px 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 #promo {
   padding-left:340px;
@@ -263,6 +284,12 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.santiago#promo {
+  padding-left:340px;
+  background:url('../images/rg-santiago.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .singapore#promo {
   padding-left:340px;
   background:url('../images/rg-singapore.jpg') no-repeat 0 10px,
@@ -277,7 +304,7 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
 
 .hamburg#promo {
   padding-left:340px;
-  background:url('../images/rg-hamburg.png') no-repeat 0 88px,
+  background:url('../images/rg-hamburg.png') no-repeat 0 30px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -374,7 +401,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .washington#promo {
   padding-left:340px;
-  background:url('../images/washingtondc/rg-washingtondc.png') no-repeat 0 10px,
+  background:url('../images/washingtondc/RGDC-logo.jpg') no-repeat 0 40px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -437,6 +464,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-nara.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
+
+.osaka#promo {
+  padding-left:420px;
+  background:url('../images/rg-osaka.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
 
 .chicago#promo {
   padding-left:340px;
@@ -521,16 +554,19 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.galway#promo {
-          padding-left:340px;
-          background:url('../images/rg-galway.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+
 .barcelona#promo {
   padding-left:340px;
   background:url('../images/rg-barcelona.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+.szczecin#promo {
+  padding-left:340px;
+  background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 
 .bangalore#promo {
   padding-left:340px;
@@ -554,6 +590,61 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .columbia#promo h1 {
   background: url('../images/rg-header-columbiaMD.png') no-repeat left top;
+}
+
+.baltimore-2014#promo {
+  padding-left:340px;
+  background:url('../images/rg-baltimore-2014.png') no-repeat 0 50px,
+                  url('../images/separator.png') no-repeat center bottom;
+}
+
+.baltimore-2014#promo h1 {
+  background: url('../images/rg-header-baltimore-2014.png') no-repeat left top;
+}
+
+.ostrava#promo{
+  padding-left:340px;
+  padding-top:30px;
+  padding-bottom:30px;
+  background:url('../images/ostrava/railsgirls-logo.jpg') no-repeat 10px 40px,
+             url('../images/separator.png') no-repeat center bottom;
+  min-height:300px;
+}
+
+.ostrava#promo h1{
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height:80px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:52px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+
+.auckland#promo {
+  padding-left: 334px;
+  padding-top: 0;
+  background:url('../images/rg-auckland.jpg') no-repeat 0 10px,
+             url('../images/separator.jpg') no-repeat center bottom;
+}
+.auckland#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
+.udine#promo {
+        padding-left:334px;
+        padding-top: 0;
+        background:url('../images/udine/rg-udine.jpg') no-repeat 0 10px;
+              url('../images/separator.png') no-repeat center bottom;
+        }
+.udine#promo h1 {color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
+.lodz#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz#promo h1 {
+  background:url('../images/rg-lodz-header.png') no-repeat left top;
 }
 
 pre {
@@ -754,7 +845,7 @@ pre {
 
 
 .washington#promo h1 {
-  background:url('../images/rg-washington-header.png') no-repeat left top;
+    font-size:42px;
 }
 
 .portland#promo h1 {
@@ -795,6 +886,10 @@ pre {
 
 .nara#promo h1 {
   background:url('../images/rg-nara-header.png') no-repeat left top;
+}
+
+.osaka#promo h1 {
+  background:url('../images/rg-osaka-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
@@ -939,7 +1034,20 @@ h4.warsaw {
   background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.denizli#promo{
+    padding-left:340px;
+    background:url('../images/denizli/rg_denizli.png') no-repeat 0 0px,
+    url('../images/separator.png') no-repeat center bottom -5px;
 
+}
+.denizli#promo h1 {
+    text-indent: 0cm !important;
+    color: #E0330C;
+    font-size: 56px;
+    font-family: "HELVETICA NEUE";
+    font-weight: bolder;
+
+}
 .dallas#promo h1.event-city {
   background: none;
   text-indent: 0px;
