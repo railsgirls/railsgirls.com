@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -1730,4 +1730,27 @@ h2 a {
   top:1px;
 }
 
+article.clients {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 203px;
+	height: 150px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #4d4d4d;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	             border-radius: 3px;
+}
 
+article.clients * {
+	vertical-align: middle;
+}
+
+article.clients span {
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
