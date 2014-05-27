@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -561,6 +561,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.szczecin#promo {
+  padding-left:340px;
+  background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .bangalore#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
@@ -630,6 +637,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
         }
 .udine#promo h1 {color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
+.lodz#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz#promo h1 {
+  background:url('../images/rg-lodz-header.png') no-repeat left top;
+}
 
 pre {
   background:#eee;
@@ -1714,4 +1730,27 @@ h2 a {
   top:1px;
 }
 
+article.clients {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 203px;
+	height: 150px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #4d4d4d;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	             border-radius: 3px;
+}
 
+article.clients * {
+	vertical-align: middle;
+}
+
+article.clients span {
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
