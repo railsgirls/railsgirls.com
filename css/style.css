@@ -1754,3 +1754,7 @@ article.clients span {
 	height: 100%;
 	width: 1px;
 }
+
+article.clients a {
+	text-decoration: none;
+}
