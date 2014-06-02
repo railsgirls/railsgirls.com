@@ -1755,6 +1755,4 @@ article.clients span {
 	width: 1px;
 }
 
-article.clients a {
-	text-decoration: none;
-}
+.clients a {border: 0px !important;}
