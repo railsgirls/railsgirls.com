@@ -562,7 +562,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 
 .szczecin#promo {
-  padding-left:340px;
+  padding-left:334px;
   background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
@@ -1755,6 +1755,4 @@ article.clients span {
 	width: 1px;
 }
 
-article.clients a {
-	text-decoration: none;
-}
+.clients a {border: 0px !important;}
