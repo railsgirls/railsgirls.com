@@ -1199,6 +1199,15 @@ h4.warsaw {
   background: url('../images/rg-cairo-header.png') no-repeat -15px 20px,
               url('../images/separator.png') no-repeat center bottom;
 }
+.hannover#promo {
+  padding-left:340px;
+  background: url('../images/rg-hannover.jpg') no-repeat -15px 20px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+.hannover#promo h1 {
+  background:url('./../images/rg-hannover-header.png') no-repeat left top;
+}
 
 .maine#promo {
   padding-left:340px;
