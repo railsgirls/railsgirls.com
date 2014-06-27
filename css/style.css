@@ -1,4 +1,4 @@
-@import url('reset.css');
+﻿@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -116,6 +116,12 @@ body {
 .beijing_siliconvalley#promo h1 {
   background:url('../images/rg-beijing-siliconvalley-header.png') no-repeat left top;
 }
+
+.bucharest#promo {
+          padding-left:400px;
+          background:url('../images/bucharest/rg-bucharest.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
 
 .budapest#promo {
           padding-left:340px;
@@ -278,6 +284,12 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.santiago#promo {
+  padding-left:340px;
+  background:url('../images/rg-santiago.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .singapore#promo {
   padding-left:340px;
   background:url('../images/rg-singapore.jpg') no-repeat 0 10px,
@@ -389,7 +401,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .washington#promo {
   padding-left:340px;
-  background:url('../images/washingtondc/rg-washingtondc.png') no-repeat 0 10px,
+  background:url('../images/washingtondc/RGDC-logo.jpg') no-repeat 0 40px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -549,6 +561,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.szczecin#promo {
+  padding-left:334px;
+  background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .bangalore#promo {
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
@@ -610,6 +629,23 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
              url('../images/separator.jpg') no-repeat center bottom;
 }
 .auckland#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
+.udine#promo {
+        padding-left:334px;
+        padding-top: 0;
+        background:url('../images/udine/rg-udine.jpg') no-repeat 0 10px;
+              url('../images/separator.png') no-repeat center bottom;
+        }
+.udine#promo h1 {color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
+.lodz#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz#promo h1 {
+  background:url('../images/rg-lodz-header.png') no-repeat left top;
+}
 
 pre {
   background:#eee;
@@ -809,7 +845,7 @@ pre {
 
 
 .washington#promo h1 {
-  background:url('../images/rg-washington-header.png') no-repeat left top;
+    font-size:42px;
 }
 
 .portland#promo h1 {
@@ -998,7 +1034,20 @@ h4.warsaw {
   background:url('../images/rg-pittsburgh.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.denizli#promo{
+    padding-left:340px;
+    background:url('../images/denizli/rg_denizli.png') no-repeat 0 0px,
+    url('../images/separator.png') no-repeat center bottom -5px;
 
+}
+.denizli#promo h1 {
+    text-indent: 0cm !important;
+    color: #E0330C;
+    font-size: 56px;
+    font-family: "HELVETICA NEUE";
+    font-weight: bolder;
+
+}
 .dallas#promo h1.event-city {
   background: none;
   text-indent: 0px;
@@ -1149,6 +1198,16 @@ h4.warsaw {
   padding-left:340px;
   background: url('../images/rg-cairo-header.png') no-repeat -15px 20px,
               url('../images/separator.png') no-repeat center bottom;
+}
+
+.maine#promo {
+  padding-left:340px;
+  background:url('../images/rg-maine.jpg') no-repeat 0 30px,
+             url('../images/separator.png') no-repeat center bottom;
+}
+
+.maine.tba {
+  width: 345px;
 }
 
 #promo p {
@@ -1681,4 +1740,29 @@ h2 a {
   top:1px;
 }
 
+article.clients {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 203px;
+	height: 150px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #4d4d4d;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	             border-radius: 3px;
+}
 
+article.clients * {
+	vertical-align: middle;
+}
+
+article.clients span {
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
+
+.clients a {border: 0px !important;}

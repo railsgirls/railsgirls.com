@@ -12,14 +12,14 @@
   <meta name="description" content="2nd Rails Girls Galway 20-21st June 2014: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
   <meta name="author" content="Rails Girls Galway">
  
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="shortcut icon" href="./../../favicon.png">
+  <link rel="apple-touch-icon" href="./../../apple-touch-icon.png">
  
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./files/galway/galway-style.css">
+  <link rel="stylesheet" href="./../../css/style.css">
+  <link rel="stylesheet" href="./galway-style.css">
   
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="../../main.js"></script>
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
   <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
@@ -33,11 +33,11 @@
 
         <header>
         <div class="container_12">
-            <a id="logo" href="/"><img src="./images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <a id="logo" href="/"><img src="./../../images/railsgirls-logo.png" alt="Rails Girls" /></a>
             <nav>
-                <a href="./events.html">Events</a>
-                <a href="./materials.html">Materials</a>
-                <a href="./press.html">Press</a>
+                <a href="./../../events.html">Events</a>
+                <a href="./../../materials.html">Materials</a>
+                <a href="./../../press.html">Press</a>
                 <a href="http://blog.railsgirls.com">Blog</a> 
                 <a href="http://guides.railsgirls.com">
                   Guides</a>  
@@ -47,17 +47,17 @@
 
         <header  class="galway" id="head1">
         <div id="header">
-            <a id="logo" href="/"><img src="images/galway/railsgirls-logo-galwayHeader.png" alt="Rails Girls Galway" /></a>
+            <a id="logo" href="/"><img src="./../../images/galway/railsgirls-logo-galwayHeader.png" alt="Rails Girls Galway" /></a>
             <nav>
-                <a href="./galway.html" alt="What's Next">Home</a>
-                <a href="./files/galway/2013.html" alt="Past workshops and meet ups">Past Events</a>
-                <a href="./files/galway/community.html" alt="The Galway Community">Community</a>
-                <a href="./files/galway/resources.html" alt="Our workshop materials">Resources</a>
-                <a href="./files/galway/gallery.html" alt="Our Photos">Gallery</a>
-                <a href="./files/galway/press.html" alt="What they say about us">Media</a>
-                <a href="./files/galway/feedback.html" alt="Your Feedback">Feedback</a>
-                <a href="./files/galway/about.html" alt="Who we are">About Us</a>
-                <a href="./files/galway/faq.html" alt="Frequently Asked Questions">FAQ</a>
+                <a href="./../../galway.html" alt="What's Next">Home</a>
+                <a href="./2013.html" alt="Past workshops and meet ups">Past Events</a>
+                <a href="./community.html" alt="The Galway Community">Community</a>
+                <a href="./resources.html" alt="Our workshop materials">Resources</a>
+                <a href="./gallery.html" alt="Our Photos">Gallery</a>
+                <a href="./press.html" alt="What they say about us">Media</a>
+                <a href="./feedback.html" alt="Your Feedback">Feedback</a>
+                <a href="./about.html" alt="Who we are">About Us</a>
+                <a href="./faq.html" alt="Frequently Asked Questions">FAQ</a>
             </nav>
         </div>
         </header>
@@ -71,6 +71,42 @@
   <h1>What the Media say about us</h1>
 
 <h2>2014</h2>
+ <table id="schedule">
+          <tbody>
+            <tr>
+              <th></th>
+              <td>
+                <h4><a href="https://www.nuigalway.ie/about-us/news-and-events/news-archive/2014/may2014/-cyber-girls-movement-to-increase-female-interest-and-awareness-in-technology-returns-to-galway-.html" target="_blank">NUI Galway Press</a></h4>  
+              </td></tr>
+              <tr>
+               <th></th>
+                <td>
+                  <h4><a href="http://www.galwayindependent.com/20140514/educationtraining/free-tech-event-for-women-S37782.html" target="_blank">Galway Independent</a></h4>
+                </td>
+            </tr>
+              
+<tr>
+               <th></th>
+                <td>
+                  <h4><a href="http://www.flirtfm.ie/shows/flirt-newsfeed/" target="_blank">Flirt FM</a></h4>
+                </td>
+            </tr>
+
+            <tr>
+              <th></th>
+              <td>
+                <h4><a href="http://www.siliconrepublic.com/careers/item/36855-wit2014" target="_blank">Silicon Republic</a></h4>  
+              </td></tr>
+              <tr>
+               <th></th>
+                <td>
+                  <h4><a href="http://www.galwayindependent.com/20140514/educationtraining/free-tech-event-for-women-S37782.html" target="_blank">Galway Independent</a></h4>
+                </td>
+            </tr>
+              
+
+          </tbody>
+        </table>
 
 <hr />
 
