@@ -1,0 +1,469 @@
+<!doctype html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--  Add your city name, dates and year.  -->
+ 
+  <title>Galway 20-21st June 2014</title>
+  
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="2nd Rails Girls Galway 20-21st June 2014: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="author" content="Rails Girls Galway">
+ 
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ 
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./files/galway/galway-style.css">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+  
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="./images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./events.html">Events</a>
+                <a href="./materials.html">Materials</a>
+                <a href="./press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a> 
+                <a href="http://guides.railsgirls.com">
+                  Guides</a>  
+            </nav>
+        </div>
+        </header>
+
+        <header  class="galway" id="head1">
+        <div id="header">
+            <a id="logo" href="/"><img src="images/galway/railsgirls-logo-galwayHeader.png" alt="Rails Girls Galway" /></a>
+            <nav>
+                <a href="./galway.html" alt="What's Next">Home</a>
+                <a href="./files/galway/2013.html" alt="Past workshops and meet ups">Past Events</a>
+                <a href="./files/galway/community.html" alt="The Galway Community">Community</a>
+                <a href="./files/galway/resources.html" alt="Our workshop materials">Resources</a>
+                <a href="./files/galway/gallery.html" alt="Our Photos">Gallery</a>
+                <a href="./files/galway/press.html" alt="What they say about us">Media</a>
+                <a href="./files/galway/feedback.html" alt="Your Feedback">Feedback</a>
+                <a href="./files/galway/about.html" alt="Who we are">About Us</a>
+                <a href="./files/galway/faq.html" alt="Frequently Asked Questions">FAQ</a>
+            </nav>
+        </div>
+        </header>
+  
+
+
+ 
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="galway">
+        <h1>Rails Girls Galway
+            <small>20-21st June 2014</small>
+        </h1>
+        <h3>Hi Girls :)<br /> Let's learn together how to make new things with the Web!</h3>
+        <p>Rails Girls comes to Galway again!
+            During the *free* two-days workshop in June 2014, we will dive into the magical world of Ruby on Rails and build an application together, from scratch. </p>
+        <p>
+
+Applications are now closed.<br /> 
+<del>Places are limited so be sure to <a href="https://iammyr.wufoo.com/forms/rails-girls-galway-2014-application/" target="_blank"><strong>submit your interest</strong></a> <br />
+<strong><a href="https://iammyr.wufoo.com/forms/rails-girls-galway-2014-application/">Applications</a> close:</strong> <del>June 5th</del> - <strong>Extended till June 13th</strong><br/>
+                <strong>Acceptances informed:</strong> June 8th
+</del>
+</p>
+
+
+ 
+
+<p>
+ <div class="grid_3 omega">
+          <p><a href="./files/galway/sponsor_prospectus.html" target="_blank"><img src="./images/galway/donate.jpg" width="100" height="100" /></a></p>
+        </div>
+<a href="https://twitter.com/railsgirls_galw" target="_blank">
+<img src="./images/galway/twitter-logo.png" width="50" height="50" /></a> 
+<a href="https://www.facebook.com/pages/RailsGirlsGalway/627595477257302" target="_blank">
+<img src="./images/galway/facebook-logo.png" width="50" height="50" /></a>
+</p>
+
+
+          <div id="share">
+
+            <div>
+
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Galway 17-18th May  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+            Share This</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+
+            <div id="fb-root" style=""></div>
+            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+
+          </div>
+        </p>
+        </div>
+      </div>
+      
+            
+      
+      <div class="grid_4 alpha feature">
+       <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Want to help?</strong> <a href="mailto:railsgirlsgalway@gmail.com">Volunteer</a> as a coach or photographer or media coverage.
+<a href="./files/galway/sponsor_prospectus.html" target="_blank"><strong>Make a donation</strong></a>  </p>
+
+
+      </div>
+      
+<hr />
+  <p align="center">
+              
+              <strong>Location:</strong> <a href="http://www.insight-centre.org" target="_blank">INSIGHT Centre for Data Analytics</a> (ex DERI building) <br />
+IDA Business Park, Lower Dangan<br />
+Galway City, Ireland<br />
+<a href="http://goo.gl/maps/LaQz0" target="_blank">View it on a Map</a>
+              
+       
+            </p>
+
+<hr />
+
+<h1>Lightning Talks</h1>
+
+<div class="grid_4 alpha feature">
+       <p><a href = "https://twitter.com/dariocravero" target="_blank"><img src="./images/galway/dario.jpeg" alt="Darío Javier Cravero"  width="120" height="120"></a></p>
+      </div>
+
+      <div class="grid_4 feature">
+        <p><strong>Darío Javier Cravero</strong> is CTO and co-founder at <a href="http://contentkingdom.co/" target="_blank">Content Kingdom</a> in Galway. He previously was Web Innovator & Co-Founder at UXtemple, CTO at Ex-Ordo, CTO at Starlight Solutions. He is core contributor to the <a href="http://www.padrinorb.com/" target="_blank">Padrino Web Framework</a> which is one of the most popular Ruby frameworks. He won the awards titled Best New Web Application/Service and Best Practices at the Irish Web Awards in 2011. He is also a volunteer coach for Rails Girls Galway 2014. </p>
+      </div>
+
+      <div class="grid_4 omega feature">
+        <p>Talk Topic: <strong>How and Why to contribute to Open Source</strong>. </p>
+      </div>
+
+<hr />
+
+<div class="grid_4 alpha feature">
+       <p><a href = "https://twitter.com/DorothyCreaven" target="_blank"><img src="./images/galway/dorothy.jpeg" alt="Dorothy Creaven"  width="120" height="120"></a></p>
+      </div>
+
+      <div class="grid_4 feature">
+        <p><strong>Dorothy Creaven</strong> is co-founder and CEO of <a href="http://elementwave.com/" target="_blank">Element Software</a> in Galway. In a short time, she has piloted the company from being a small start-up to winning Ireland's largest business competition (Seedcorn), winning public tender contracts, and signing significant deals with multinational customers, such as Sage and Ericsson. She is an electronic engineering graduate of NUIG and has worked for big names, such as Google and Abbott Vascular. Included in the <a href="http://www.siliconrepublic.com/careers/item/37203-wit2014" target="_blank">Top 100 women in STEM list by SiliconRepublic</a> and in the <a href="http://technologyvoice.com/2013/10/06/ireland%E2%80%99s-technology-women-yet-another-talented-38" target="_blank">Ireland’s Technology Women: Yet Another Talented 38 list by Technology Voice</a>. </p>
+      </div>
+
+      <div class="grid_4 omega feature">
+        <p>Talk Topic: <strong>Women in Entrepreneurship</strong>. </p>
+      </div>
+
+
+<hr />
+
+
+
+<div class="grid_4 alpha feature">
+       <p><a href = "https://twitter.com/catherinecronin" target="_blank"><img src="./images/galway/catherine.jpeg" alt="Catherine Cronin"  width="120" height="120"></a></p>
+      </div>
+
+      <div class="grid_4 feature">
+        <p><strong>Catherine Cronin</strong> is Academic Coordinator of online IT programmes at the National University of Ireland, Galway, as well as a lecturer and online facilitator in both BSc and MSc programmes. Her work is focused on online and open education, digital literacies and social media in education.</p>
+      </div>
+
+      <div class="grid_4 omega feature">
+        <p>Talk Topic: <strong>IT Education and Gender Divide</strong>. </p>
+      </div>
+
+
+<hr />
+
+
+
+
+<div class="grid_4 alpha feature">
+       <p><a href = "http://twitter.com/sparklyparticle" target="_blank"><img src="./images/galway/alanna.jpg" alt="Alanna Kelly"  width="120" height="120"></a></p>
+      </div>
+
+      <div class="grid_4 feature">
+        <p><strong>Alanna Kelly</strong> is an experienced software engineer. She worked for over 6 years in the top tier game development studio "PopCap Games". She is currently a Research Assistant at INSIGHT Centre for Data Analytics, NUIG working on <a href="http://www.gambas-ict.eu" target="_blank">Gambas</a>, a Generic Adaptive Middleware for Behavior-driven Autonomous Services. She is also an electronics hacker and railway modeler. As a stable member and advocacate of the Galway-based <a href="" target="_blank">091labs hackerspace</a> she run several programming and electronic-related workshops. She is the organizer of the popular <a href="https://twitter.com/GalwayGameJam" target="_blank">Galway Game Jam</a> and a volunteer coach at both Rails Girls Galway 2013 and 2014. </p>
+      </div>
+
+      <div class="grid_4 omega feature">
+        <p>Talk Topic: <strong>Game Crafting</strong>. </p>
+      </div>
+
+
+<hr />
+
+
+
+
+<div class="grid_4 alpha feature">
+       <p><a href = "https://twitter.com/bnighrogain" target="_blank"><img src="./images/galway/bianca.jpg" alt="Bianca Ní Ghrógáin"  width="120" height="120"></a></p>
+      </div>
+
+      <div class="grid_4 feature">
+        <p><strong>Bianca Ní Ghrógáin</strong> teaches at Griffeen Valley Educate Together National School, where she is extremely passionate about the use of technology as a pedagogical tool. She currently integrates educational technology into all areas of her teaching and her children’s learning. She is a maker, a learning technologist, a gaelgóir, a human rights education tutor and an eternal student.</p>
+      </div>
+
+      <div class="grid_4 omega feature">
+        <p>Talk Topic: <a href="http://www.makeymakey.com/" target="_blank"><strong>MaKey MaKey</strong></a>: an Invention Kit for Everyone </p>
+      </div>
+      
+
+
+<hr />
+
+
+
+<div class="grid_4 alpha feature">
+       <p><a href = "https://twitter.com/mtryle" target="_blank"><img src="./images/galway/maire.jpg" alt="Máire Ryle"  width="120" height="120"></a></p>
+      </div>
+
+      <div class="grid_4 feature">
+        <p><strong>Máire Ryle</strong> attended Rails Girls Galway 2013 and is now a volunteer coach for Rails Girls Galway 2014. She changed her career path from being a Critical Care Nurse to undertaking the Higher Diploma in Business Systems Analysis. She also completed a Software developer Traineeship and after achieving the Irish Times Digital Marketing Diploma she became involved in the launch of Muldoon Whiskey, a new Waterford product; helping develop their website and digital strategy. Currently involved in business development with Ryle + Company.</p>
+      </div>
+
+      <div class="grid_4 omega feature">
+        <p>Talk Topic: <strong>Career Path Change</strong>.</p>
+      </div>
+
+
+
+<hr />
+
+<h1>Workshop Program</h1>
+
+
+<a name="schedule"></a>
+<div class="grid_12 alpha feature">
+
+  <div class="grid_5 alpha" style="padding:5px 5px 5px 5px; background-color: #bebebe; border:1px solid; border-radius:10px;width:200px">
+    <h3 style="color:#000">Schedule: Friday, June 20, 2014 6pm - 8pm</h3>
+      <div style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>18pm - 20pm</strong></h4>
+        <h3>Installation Party</h3>
+        <ul class="list-unstyled">
+          <li><b>Bring your laptop</b> so we can help you install 
+              Ruby&nbsp;on&nbsp;Rails and everything else you'll need
+              using the <a href="http://guides.railsgirls.com/install/">
+              INSTALL GUIDE.</a></li>
+          <li>If there is no way you can make it on  Saturday 
+              and need help with installation make arrangements
+              to come at 9am on Saturday. We want to keep exceptions 
+              to the bare minimum  Please be respectful of our 
+              volunteer coaches' time.       <br />           <strong>Where:</strong> <a href="http://www.insight-centre.org" target="_blank">Insight Centre for Data Analytics</a> (ex DERI building), first floor</li>
+        </ul>
+      </div>
+
+      <br />
+
+   
+   
+  </div>
+
+  <div class="grid_5 push_1 omega" style="padding:5px 5px 5px 5px; background-color: #bebebe; border:1px solid; border-radius:10px;width:650px">
+    <h3 style="color:#000">Schedule: Saturday, June 21, 2014 9 am - 6 pm</h2>
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>9 am - 10 am</strong></h4>
+        <h3>Registration</h3>
+        <p>Register, find your seat, get your name tag and meet some people. </p>
+        <h3>Late Installations</h3>
+        <p>If you are absolutely not able to attend the Installation
+          Party on Saturday we will get your computer ready to roll.
+          <br />Please be here by 9am.</p>
+      </div>
+
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>10 - 10.20am</strong></h4>
+        <h3>Welcome</h3>
+          <ul>
+            <li>What will we do/learn today? What will we develop?</li>
+            <li>Sponsors</li>
+          </ul>
+      </div>
+
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>10.20 am - 11 am</strong></h4>
+        <h3>Workshop</h3>
+          <p>We split into small groups. Each group is supervised by a coach who helps you to
+              get started on your first web application using the <a
+              href="http://guides.railsgirls.com/app/">app guide</a>
+          </p>
+<h3>Web Applications</h3>
+	<ul>
+		<li>what are they? (explanation)</li>
+		<li>let's start developing one (hands-on)</li>
+		<li>what are libraries? (explanation) - Keith Cortis</li>
+		<li>let's use them! (hands-on)</li>
+                <li>how are web apps structured? Bentobox (explanation)</li>
+		<li>let's generate our own structure (hands-on)</li>
+	</ul>
+      </div>
+
+      <br />
+
+  <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>11.00 am - 11.10 am</strong></h4>
+        <h3>Break</h3>
+      </div>
+
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>11.00 am - 12.30 am</strong></h4>
+        <h3>Programming</h3>
+	
+	<ul>
+		<li>Overview, Ruby and Ruby on Rails (explanation) - Stefania Farrugia</li>
+		<li>let's dive into the code we've used so far (hands-on)</li>
+                <li>MVC and HTML (explanation)</li>
+		<li>let's improve our design (hands-on)</li>
+	</ul>
+      </div>
+
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>12.30 am - 1.00 am</strong></h4>
+        <h3>GitHub</h3>
+	<ul>
+		<li>what is it? (explanation) - Kevin Lyda</li>
+		<li>let's create our first account and project (hands-on)</li>
+	</ul>
+      </div>
+
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>1 pm - 2 pm</strong></h4>
+        <h3>Lunch</h3>
+          <p>Reward yourself for a successful morning with some grub. Talk
+            with your coaches and peers about how awesome your first web
+            applications are.</p>
+	<h3>Lightning Talks</h3>
+	<ul>
+		<li>Game Crafting - Alanna Kelly</li>
+		<li>IT in Education - Catherine Cronin</li>
+		<li>MaKey Makey - Bianca Ní Ghrógáin</li>
+        </ul>
+      </div>
+
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>2 pm - 3 pm</strong></h4>
+<h3>App extension: Autism-friendly Tourism in Galway</h3>
+	<ul>
+		<li>what are the single components? (explanation) - Myriam Leggieri</li>
+		<li>start working on the component assigned to your group (hands-on)</li>
+		<li>push each contribution on our shared GitHub account</li>
+	</ul>
+      </div>
+
+      <br />
+  <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>3 pm - 4 pm</strong></h4>
+<h3>Continuous Deployment</h3>
+	<ul>
+		<li>what are unit tests? (explanation)</li>
+		<li>let's create our test cases (hands-on)</li>
+		<li>how to apply continuous deployment on GitHub (explanation)</li>
+		<li>let's do it! (hands-on)</li>
+	</ul>
+</div>
+<br />
+
+  <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>4 pm - 4.30 pm</strong></h4>
+<h3>Lightning Talks</h3>
+	<ul>
+		<li> Entrepreneurship - Dorothy Creaven</li>
+		<li>Career Change - Máire Ryle</li>
+        </ul>
+<h3>Break</h3>
+ </div><br />
+
+  <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>4.30 pm - 5.30 pm</strong></h4>
+<h3>Cloud Deployment</h3>
+	<ul>
+		<li>Microsoft Azure and OpenShift (explanation) - Gerry Kavanagh</li>
+		<li>let's publish our app online! (hands-on)</li>
+        </ul>
+</div>
+      <br />
+
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>5.30 pm - 6 pm</strong></h4>
+<h3>Show of everyone's work<h3>
+<h3>Where to go from here</h3>
+<h3>Awards celebration<h3>
+</div>
+<br />
+      <div  style="padding:5px 5px 5px 5px; background-color: #fff;  border:1px solid; border-radius:10px;">
+        <h4 style="color:#000;"><strong>6.00 pm - 8 pm</strong></h4>
+        <h3>Afterparty at Westwood</h3>
+          <p>Reward yourself for a successful day with a tasty beverage and
+             treats. Network and chat with coaches and peers. <br />  Westwood is just across the road from the workshop venue.
+          </p>
+      </div>
+  </div>
+</div>
+
+     
+    
+              
+        
+  
+
+
+      </div>
+      
+      
+
+     
+      
+    </div>
+    </div>
+      
+    
+    <footer>
+        <p>2010-2014, Rails Girls Galway. <a href="./files/galway/about.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls_galw">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
