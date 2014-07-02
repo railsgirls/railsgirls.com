@@ -562,7 +562,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 
 .szczecin#promo {
-  padding-left:340px;
+  padding-left:334px;
   background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
@@ -1198,6 +1198,25 @@ h4.warsaw {
   padding-left:340px;
   background: url('../images/rg-cairo-header.png') no-repeat -15px 20px,
               url('../images/separator.png') no-repeat center bottom;
+}
+.hannover#promo {
+  padding-left:340px;
+  background: url('../images/rg-hannover.jpg') no-repeat -15px 20px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+.hannover#promo h1 {
+  background:url('./../images/rg-hannover-header.png') no-repeat left top;
+}
+
+.maine#promo {
+  padding-left:340px;
+  background:url('../images/rg-maine.jpg') no-repeat 0 30px,
+             url('../images/separator.png') no-repeat center bottom;
+}
+
+.maine.tba {
+  width: 345px;
 }
 
 #promo p {
