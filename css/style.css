@@ -50,6 +50,10 @@ body {
   url('../images/separator.png') no-repeat 0 540px;
 }
 
+.brisbane#promo h1 {
+  text-indent: 0cm;
+}
+
 #promo.taipei {
   background: url("../images/rg-taipei.jpg") no-repeat scroll 10px 40px, url("../images/separator.png") no-repeat scroll center bottom transparent;
   min-height: 300px;
