@@ -72,6 +72,11 @@ body {
   background:url('./../images/rg-galway-header.png') no-repeat left top;
 }
 
+.quito#promo {
+  padding-left:340px;
+  background:url('../images/rg-quito.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 .ankara#promo {
           padding-left:340px;
