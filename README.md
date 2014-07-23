@@ -36,9 +36,11 @@ It will take a while before the changes show, so don't panic!
 
 ## Checklist
 - Did you remember to change Twitter & Facebook details?
+- Did you include a [http://guides.railsgirls.com/guide/](Code of Conduct)?
 - Did you remember to add an e-mail where people can contact you?
 - Did you remember to add your event to index.html and events.html?
 - Did you remember to remove your event after it finished?
+
 
 ## Tools
 The Wufoo form is accessible with team@railsgirls.com and pw: rubynhienomekko
