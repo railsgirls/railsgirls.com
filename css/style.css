@@ -50,6 +50,15 @@ body {
   url('../images/separator.png') no-repeat 0 540px;
 }
 
+.rome2014#promo {
+          background:url('../images/rg-rome2014.png') no-repeat right top, url('../images/separator.png') no-repeat center bottom !important;
+		  padding-left:340px;
+          }
+
+.rome2014#promo h1 {
+          background:url('../images/rg-rome2014-header.png') no-repeat left top;
+        }
+
 .brisbane#promo h1 {
   text-indent: 0cm;
 }
