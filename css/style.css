@@ -253,6 +253,10 @@ body {
   background:url('../images/rg-krakow.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.maputo#promo {
+  background:url('../images/maputo/logo-draft.png') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 .manila#promo {
   padding-left:340px;
