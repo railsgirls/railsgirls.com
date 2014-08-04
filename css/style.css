@@ -51,9 +51,9 @@ body {
 }
 
 .rome2014#promo {
-          padding-left:450px;
-		  background:url('../images/rg-rome2014.png') no-repeat top left !important; url('../images/separator.png') no-repeat center bottom !important;
-		            }
+  background: url('../images/rg-rome2014.png') no-repeat 10px 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
 .rome2014#promo h1 {
           background:url('../images/rg-rome2014-header.png') no-repeat left top;
