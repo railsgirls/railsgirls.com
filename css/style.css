@@ -1268,6 +1268,14 @@ h4.warsaw {
   text-indent: 0;
 }
 
+.silesia .page {
+  padding-top: 10px;
+}
+
+.silesia #languages {
+  text-align: right;
+  color: #e0330c;
+}
 
 #promo p {
   font-size:19px;
