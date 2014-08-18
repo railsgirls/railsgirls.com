@@ -50,6 +50,15 @@ body {
   url('../images/separator.png') no-repeat 0 540px;
 }
 
+.rome2014#promo {
+  background: url('../images/rg-rome2014.png') no-repeat 10px 40px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+.rome2014#promo h1 {
+          background:url('../images/rg-rome2014-header.png') no-repeat left top;
+        }
+
 .brisbane#promo h1 {
   text-indent: 0cm;
 }
@@ -242,6 +251,10 @@ body {
 .krakow#promo {
   padding-left:340px;
   background:url('../images/rg-krakow.png') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+.maputo#promo {
+  background:url('../images/maputo/logo-draft.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1230,7 +1243,7 @@ h4.warsaw {
 
 .maine#promo {
   padding-left:340px;
-  background:url('../images/rg-maine.jpg') no-repeat 0 30px,
+  background:url('../images/rg-maine.png') no-repeat 0 30px,
              url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1238,10 +1251,30 @@ h4.warsaw {
   width: 345px;
 }
 
-.silesia#promo {
-  padding-left:340px;
+.silesia #promo {
+  padding-left: 340px;
   background: url('../images/rg-silesia.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
+}
+
+.silesia #promo h1 {
+  font-family: 'expressway', 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+
+.silesia .page {
+  padding-top: 10px;
+}
+
+.silesia #languages {
+  text-align: right;
+  color: #e0330c;
 }
 
 #promo p {
@@ -1800,3 +1833,11 @@ article.clients span {
 }
 
 .clients a {border: 0px !important;}
+
+
+.kl#promo {
+  padding-left:340px;
+  background:url('../images/kl/rg-kl.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 340px;
+}
