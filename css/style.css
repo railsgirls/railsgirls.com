@@ -1296,6 +1296,12 @@ h4.warsaw {
   margin-top: 0;
 }
 
+.silesia .coach {
+  border: 1 solid #ddd;
+  border-radius: 40px;
+  margin-bottom: 50px;
+}
+
 #promo p {
   font-size:19px;
   line-height:1.4;
