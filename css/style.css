@@ -1272,6 +1272,10 @@ h4.warsaw {
   padding-top: 10px;
 }
 
+.silesia .float-right {
+  float: right;
+}
+
 .silesia #languages {
   text-align: right;
   color: #e0330c;
