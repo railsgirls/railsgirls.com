@@ -1281,6 +1281,21 @@ h4.warsaw {
   color: #e0330c;
 }
 
+.silesia .image-possition {
+  margin-top: 80px;
+}
+
+.silesia .image-possition img {
+  margin-left: 20px;
+}
+
+.silesia .image-possition h2 {
+  color: #d3360b;
+  font-weight: 700;
+  font-size: 25pt;
+  margin-top: 0;
+}
+
 #promo p {
   font-size:19px;
   line-height:1.4;
