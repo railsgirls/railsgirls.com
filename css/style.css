@@ -318,6 +318,12 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.penang#promo {
+  padding-left:340px;
+  background:url('../images/railsgirls-penang.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .shanghai#promo {
   padding-left:340px;
   background:url('../images/rg-shanghai.png') no-repeat 0 10px,
