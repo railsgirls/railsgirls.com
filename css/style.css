@@ -626,6 +626,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background: url('../images/rg-header-columbiaMD.png') no-repeat left top;
 }
 
+.columbiaOct2014#promo {
+  padding-left:340px;
+  background:url('../images/rg-columbiaOct2014.png') no-repeat 0 50px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.columbiaOct2014#promo h1 {
+  background: url('../images/rg-header-columbiaOct2014.png') no-repeat left top;
+}
+
 .baltimore-2014#promo {
   padding-left:340px;
   background:url('../images/rg-baltimore-2014.png') no-repeat 0 50px,
@@ -1278,9 +1288,34 @@ h4.warsaw {
   padding-top: 10px;
 }
 
+.silesia .float-right {
+  float: right;
+}
+
 .silesia #languages {
   text-align: right;
   color: #e0330c;
+}
+
+.silesia .image-possition {
+  margin-top: 80px;
+}
+
+.silesia .image-possition img {
+  margin-left: 20px;
+}
+
+.silesia .image-possition h2 {
+  color: #d3360b;
+  font-weight: 700;
+  font-size: 25pt;
+  margin-top: 0;
+}
+
+.silesia .coach {
+  border: 1 solid #ddd;
+  border-radius: 40px;
+  margin-bottom: 50px;
 }
 
 #promo p {
