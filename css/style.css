@@ -1492,9 +1492,9 @@ hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 
 /* ------ CLEAN ------- */
 header {
-  height:70px;
+  height:25px;
   color:#fff;
-  padding-top:50px;
+  padding:30px 0;
   background:#d3360b;
 }
 
@@ -1503,27 +1503,37 @@ header #logo {
   float:left;
 }
 
+header #logo img {
+  width:140px;
+}
+
 nav {
   margin:0 0 0 250px;
-  padding-top:12px;
+  padding-top:5px;
 }
 
 nav a {
   color:#fff;
   text-decoration:none;
   font-weight:300;
-  font-size:20px;
+  font-size:16px;
   letter-spacing:1px;
   margin-left:15px;
 }
 
 nav a:after {
-  margin-left:15px;
-  content:url(../images/star.png);
+  margin-left: 15px;
+  content: " ";
+  width:10px;
+  height:10px;
+  display:inline-block;
+
+  background: url(../images/star.png) no-repeat;
+  background-size:10px;
 }
 
 nav a:last-child:after {
-  content:none;
+  background:none;
 }
 
 nav a:hover{
@@ -1546,7 +1556,6 @@ footer a {
 }
 
 .event {
-  box-shadow:0 2px 3px #ddd;
   border:1px solid #eee;
   height:200px;
   background-position:0 -100px;
@@ -1556,8 +1565,7 @@ footer a {
 
 .event:hover {
   -webkit-transition:0.4s all;
-  box-shadow:0 2px 3px #999;
-  border-color: #ddd;
+  border-color: #d1d1d1;
 }
 
 .event.tba {
@@ -1574,19 +1582,32 @@ footer a {
   color:#888;
 }
 
-.event h3 {
-  margin-top:129px;
+.event {
+  position:relative;
+}
+
+.event > div {
+  position:absolute;
+  bottom:0;
+  height:42px;
+  left:0;
+  right:0;
   padding:10px 15px;
   background:#fff;
   border-top:3px solid #d3360b;
 }
 
-.event h3 small {
-  line-height:1.5;
+.event h3 {
+  margin:0 0 5px;
+  font-size:16px;
+}
+
+.event p {
   display:block;
-  font-size:80%;
+  font-size:14px;
   color:#000;
   font-weight:400;
+  margin:0;
 }
 
 

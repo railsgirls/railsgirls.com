@@ -40,6 +40,7 @@ It will take a while before the changes show, so don't panic!
 - Did you remember to add an e-mail where people can contact you?
 - Did you remember to add your event to index.html and events.html?
 - Did you remember to remove your event after it finished?
+- Did you add your city to [the Map](http://rails-girls-map.herokuapp.com/#)?
 
 
 ## Tools
