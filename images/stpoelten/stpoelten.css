@@ -1,3 +1,7 @@
 p a img, img a, img {
 	border: 0;
 }
+
+.grid_12 #promo {
+	background: url('pixel_logo.png') no-repeat 10px 40px;
+}
