@@ -1429,7 +1429,6 @@ a img, img a, img {
 
 h2, h5 {
   font-weight:normal;
-  font-weight:200;
 }
 
 h2 {
@@ -1556,17 +1555,40 @@ footer a {
   border-color:#111;
 }
 
+.events {
+  margin:40px 0 40px -30px;
+}
+
 .event {
-  border:1px solid #eee;
+  box-shadow:0 0 0 1px #eee;
+  border:0;
   height:200px;
   background-position:0 -100px;
   margin-bottom:40px;
-  -webkit-transition:0.4s box-shadow;
+  transition:0.4s box-shadow;
+  width:300px;
+  float:left;
+  margin-left:30px;
+}
+
+.events h2, .events hr {
+  margin-left:30px;
+}
+
+.events .meta {
+  float:right;
+  color:#ccc;
+  line-height:30px;
+}
+
+.events .meta a {
+  border:0;
+  margin:0 5px;
 }
 
 .event:hover {
-  -webkit-transition:0.4s all;
-  border-color: #d1d1d1;
+  transition:0.4s all;
+  box-shadow: 0 0 0 1px #ccc;
 }
 
 .event.tba {
@@ -1595,7 +1617,7 @@ footer a {
   right:0;
   padding:10px 15px;
   background:#fff;
-  border-top:3px solid #d3360b;
+  border-top:3px solid #eee;
 }
 
 .event h3 {
@@ -1642,7 +1664,6 @@ footer a {
 .coaches .grid_3:nth-child(4n+4) {
   margin-right:0;
 }
-
 
 #left, #right {
   width:250px;
@@ -1900,7 +1921,17 @@ article.clients span {
 
 .kl#promo {
   padding-left:340px;
-  background:url('../images/kl/rg-kl.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/kl/rg-kl.png') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
   background-size: 340px;
+}
+
+@media (max-width:960px) {
+
+  .container_12 {
+    max-width:960px;
+    width:auto;
+    padding-left:40px;
+    padding-right:40px;
+  }
+
 }
