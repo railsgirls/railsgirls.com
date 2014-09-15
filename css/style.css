@@ -15,6 +15,10 @@ body {
   font-size:14px;
 }
 
+a, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
+}
+
 #background {
   background:url(../images/header.png) no-repeat 50% 180px;
 }
@@ -1169,11 +1173,18 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.london#promo {
+.london-three#promo {
   padding-left:340px;
   background:url('../images/rg-london.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+.london-four#promo {
+  padding-left:340px;
+  background:url('../images/london2014/rails_girls_london_cats.jpg') 0px 10px/32% no-repeat,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 
 .la#promo {
   padding-left:340px;
