@@ -1,1 +1,4 @@
 git add C:\Users\grudzkar\Desktop\To sort\rails-girlie.jpg
+git commit -m 'add png file'
+git remote add origin https://github.com/rails-girlie.git
+git push -u origin master
