@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <title>MegiTeam | streaming</title>
+    <link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="./mediaplayer/jwplayer.js"></script>
+    <style type="text/css">
+    .ggc a { font-family: Rochester; white-space: nowrap; color: #e06e5f !important }
+    #ggclogo { width: 51.5px }
+    #strut { height: 60px; }
+    * + h3 { margin-top: 30px; }
+    body.dark {
+        background: #333;
+        color: #fff;
+    }
+    body.dark a, body.dark a:hover {
+        color: #f6d437;
+    }
+    </style>
+  </head>
+  <body class="dark">
+    <div class="container">
+      <div class="row">
+        <div class="span12" id="strut">
+        </div>
+      </div>
+      <div class="row">
+        <div class="span9">
+          <p id="container1">Please install the Flash Plugin</p>
+          <script type="text/javascript">
+            jwplayer("container1").setup({
+            flashplayer: "./mediaplayer/player.swf",
+            file: "livestream",
+            width: 640,
+            height: 480,
+            streamer:'rtmp://176.119.35.45/stream',
+            autostart:'true',
+            bufferlength:'0.1'
+            })
+          </script>
+        </div>
+        <div class="span3">
+         <h3><a href="http://megiteam.pl/" target="_blank"><img alt="MegiTeam" src="http://www.megiteam.pl/media/img/logo.png"></a></h3>
+         <p><strong><a href="http://megiteam.pl/" target="_blank">MegiTeam</a> to usługi hostingowe dla programistów, firm, agencji interaktywnych.</strong>
+         Pracujemy z pasją, dbamy o najwyższą jakość usług, wdrażamy najnowocześniejsze rozwiązania w hostingu.</p>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
