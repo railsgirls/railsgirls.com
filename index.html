@@ -1,3 +1,7 @@
+---
+layout: none
+---
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -89,14 +93,12 @@
             <a href="./events.html">Upcoming Events</a>
           </h2>
 
-            <a href='./silesia.html' class='upcoming'>
-              <img src='./images/rg-silesia.png' width='50'>
-              <h3>
-                Silesia, Poland
-                <br/>
-                <span>October 04-05, 2014</span>
-              </h3>
-            </a>
+            {% for post in site.posts %}
+              <a href='{{ post.url }}' class='upcoming'>
+                <img src='{{ post.image | prepend: "./images/" }}' width='50'>
+                <h3>{{ post.location }}<br/><span>{{ post.datedescription }}</span></h3>
+              </a>
+            {% endfor %}
 
             <a href="./eindhoven.html" class="upcoming">
               <img src="./images/rg-eindhoven-sq.png" width="50">
