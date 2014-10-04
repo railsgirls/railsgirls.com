@@ -6,3 +6,6 @@ Thumbs.db
 
 assets/fonts/04b_03/about.gif
 szczecin.html
+
+_site
+.sass-cache
