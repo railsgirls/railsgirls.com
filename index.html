@@ -1,5 +1,6 @@
 ---
 layout: none
+today: 2014-10-04 00:00:00 +0000
 ---
 
 <!doctype html>
@@ -94,10 +95,12 @@ layout: none
           </h2>
 
             {% for post in site.posts reversed %}
+            {% if post.date >= page.today %}
               <a href='{{ post.url }}' class='upcoming'>
                 <img src='{{ post.image | prepend: "./images/" }}' width='50'>
                 <h3>{{ post.location }}<br/><span>{{ post.datedescription }}</span></h3>
               </a>
+            {% endif %}
             {% endfor %}
 
             <a href="./eindhoven.html" class="upcoming">
