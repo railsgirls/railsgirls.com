@@ -93,7 +93,7 @@ layout: none
             <a href="./events.html">Upcoming Events</a>
           </h2>
 
-            {% for post in site.posts %}
+            {% for post in site.posts reversed %}
               <a href='{{ post.url }}' class='upcoming'>
                 <img src='{{ post.image | prepend: "./images/" }}' width='50'>
                 <h3>{{ post.location }}<br/><span>{{ post.datedescription }}</span></h3>
