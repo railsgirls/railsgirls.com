@@ -57,7 +57,7 @@ layout: none
         <a href='./{{ event.url }}' class='event' style='background: url({{ event.events_image | prepend: "./images/" }}) 0px -40px no-repeat;'>
           <div>
             <h3>{{ event.location }}</h3>
-            <p>{{ event.datedescription }}</p>
+            <p>{{ event.date_description }}</p>
           </div>
         </a>
       {% endif %}
@@ -192,13 +192,6 @@ layout: none
     <hr style="clear:both;" />
 
     <h2>Past Events</h2>
-
-    <a href="./penang.html" class="event" style="background:url(images/railsgirls-penang-thumb.jpg) 0px -49px no-repeat; background-size: 300px">
-      <div>
-        <h3>Penang, Malaysia</h3>
-        <p>27 September 2014</p>
-      </div>
-    </a>
 
     <a href="./maine.html" class="event" style="background:url(images/rg-maine.png) 0px -80px no-repeat;">
       <div>
