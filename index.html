@@ -1,6 +1,5 @@
 ---
 layout: none
-today: 2014-10-04 00:00:00 +0000
 ---
 
 <!doctype html>
@@ -94,15 +93,15 @@ today: 2014-10-04 00:00:00 +0000
             <a href="./events.html">Upcoming Events</a>
           </h2>
 
-            {% for post in site.posts reversed %}
-            {% if post.date >= site.today %}
-              <a href='{{ post.url }}' class='upcoming'>
-                <img src='{{ post.image | prepend: "./images/" }}' width='50'>
-                <h3>{{ post.location }}<br/><span>{{ post.datedescription }}</span></h3>
+            {% for event in site.posts reversed %}
+            {% if event.date >= site.time %}
+              <a href='{{ event.url }}' class='upcoming'>
+                <img src='{{ event.index_image | prepend: "./images/" }}' width='50'>
+                <h3>{{ event.location }}<br/><span>{{ event.datedescription }}</span></h3>
               </a>
             {% endif %}
             {% endfor %}
-
+<!--
             <a href="./eindhoven.html" class="upcoming">
               <img src="./images/rg-eindhoven-sq.png" width="50">
               <h3>
@@ -110,7 +109,7 @@ today: 2014-10-04 00:00:00 +0000
                 <br/>
                 <span>October 10 &amp; 11, 2014</span>
               </h3>
-            </a>
+            </a> -->
 
             <a href="./oulu.html" class="upcoming">
               <img src="./images/rg-oulu.png" width="50">

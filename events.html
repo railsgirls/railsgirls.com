@@ -1,21 +1,25 @@
-   <!doctype html>
-   <html lang="en">
-   <head>
-    <meta charset="utf-8">
-    <title>Events - Rails Girls</title>
-    <meta name="description" content="Events">
-    <meta name="author" content="Rails Girls">
+---
+layout: none
+---
 
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Events - Rails Girls</title>
+<meta name="description" content="Events">
+<meta name="author" content="Rails Girls">
 
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<link rel="stylesheet" href="./css/style.css">
 
-    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -48,20 +52,16 @@
 
       <h2>Upcoming Events</h2>
 
-
-    <a href='./silesia.html' class='event' style='background: url(images/silesia/events.png) 0px 0px no-repeat; background-size: contain;'>
-      <div>
-        <h3>Silesia, Poland</h3>
-        <p>04-05 October 2014</p>
-      </div>
-    </a>
-
-    <a href="./eindhoven.html" class="event" style="background: url(images/rg-eindhoven.png) 0px -40px no-repeat;">
-      <div>
-        <h3>Eindhoven, Netherlands</h3>
-        <p>10-11 October 2014</p>
-      </div>
-    </a>
+      {% for event in site.posts reversed %}
+      {% if event.date >= site.time %}
+        <a href='./{{ event.url }}' class='event' style='background: url({{ event.events_image | prepend: "./images/" }}) 0px -40px no-repeat;'>
+          <div>
+            <h3>{{ event.location }}</h3>
+            <p>{{ event.datedescription }}</p>
+          </div>
+        </a>
+      {% endif %}
+      {% endfor %}
 
     <a href="./oulu.html" class="event" style="background: url(images/rg-oulu.png) 0px -40px no-repeat;">
       <div>
