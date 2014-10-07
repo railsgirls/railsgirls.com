@@ -35,7 +35,7 @@ listed_events_nodes = events_page.css('a.event')
     a.attributes["href"].text.gsub("./", ""),
     {
       layout: "none",
-      title:  Nokogiri::HTML(open(a.attributes["href"])).css('title').text,
+      title:  "\"" + Nokogiri::HTML(open(a.attributes["href"])).css('title').text + "\"",
       date:   date_to_iso(a.css('p').text),
       events_image: a.attributes['style'].value[/images\/[^)]+/].gsub("images/", ""),
       location: a.css('h3').text,
@@ -47,7 +47,7 @@ end]
 # order them both by the link
 
 index_events.each { |k,v|
-  @listed_events[k][:index_image] = v
+  @listed_events[k][:index_image] = v[:index_image]
 }
 
 # move the files while attaching a header
