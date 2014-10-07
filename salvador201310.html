@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--  Add your city name, dates and year.  -->
+
+  <title>Salvador 25 e 26 de Outubro de 2013 - Rails Girls</title>
+
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="Rails Girls em Salvador: 25 e
+26/10/2013: dois dias intensos e divertidos para aprender
+muito sobre desenvolvimento de software utilizando Ruby on Rails.">
+  <meta name="author" content="Rails Girls">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    .coach {
+      border-radius: 50px;
+    }
+
+    .sponsor {
+      float:right;
+      margin:0 0 0;
+      border:0;
+    }
+  </style>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./events.html">Events</a>
+                <a href="./materials.html">Materials</a>
+                <a href="./press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a>
+                <a href="http://guides.railsgirls.com">
+                  Guides</a>
+            </nav>
+        </div>
+        </header>
+
+
+<!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+Steps to show on site
+1. Go to style.css
+2. Add these lines, always replacing 'yourcityname' with your actual city name.
+
+        .yourcityname#promo {
+          padding-left:340px;
+          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+        It will take a while before the changes show, so don't panic!
+
+-->
+
+
+<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="new yourcity">
+        <h1>Rails Girls Salvador
+            <small>Dias 25 e 26 de Outubro de 2013</small>
+        </h1>
+        <p>Olá, garotas!</p>
+        <p>Finalmente Salvador terá sua 1ª edição do Rails Girls, um evento voltado a mulheres de todas as idades. Estamos muito animados!</p>
+        <p>Serão dois dias intensos e divertidos onde vocês irão aprender muito sobre desenvolvimento de software utilizando Ruby on Rails.</p>
+        <p>Não precisa saber nada sobre programação! Basta ter vontade de aprender e a equipe irá dar todo o suporte.</p>
+        <h4>As inscrições estão encerradas!<h4>
+        <p>Em breve, enviaremos um e-mail com a confirmação das inscrições.</p>
+
+
+<!--  Update the sharing texts.-->
+
+          <div id="share">
+
+            <div>
+
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Salvador 25-26 Outubro)  - inscreva-se!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+            Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+
+            <div id="fb-root" style=""></div>
+            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+
+          </div>
+        </p>
+        </div>
+      </div>
+
+
+<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
+      <div class="grid_4 alpha feature">
+       <p><strong>Você irá aprender</strong> a desenvolver aplicativos web com a ajuda dos nossos mentores.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>Você vai precisar</strong> de um laptop, curiosidade e imaginação!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Quer ajudar?</strong> Voluntários, apoio e patrocínio. <a href="mailto:railsgirlsssa@gmail.com">Envie um e-mail pra nós</a>.</p>
+      </div>
+
+      <hr />
+
+<!--  Update the texts! -->
+
+      <div class="grid_6 alpha">
+        <h2>Sexta, 25 de Outubro</h2>
+        <table id="schedule">
+          <tbody>
+            <tr>
+              <th>18:00 </th>
+              <td>
+                <h4>Abertura: Ana Paula Machado e Maurício Vieira </h4>
+                  Apresentação de patrocinadores, equipe, mentores e participantes.<br />
+                  <a href="http://www.slideshare.net/RailsGirlsSSA/rails-girls-salvador" target="_blank">Slides</a>
+              </td>
+            </tr>
+            <tr>
+              <th>19:15</th>
+              <td>
+                <h4>Palestra: Paulo Ortins.</h4>
+                  <strong>Explicando conceitos de software usando situações do cotidiano.</strong><br />
+                  <a href="http://www.slideshare.net/pauloortins/explicando-conceitos-de-software-usando-situaes-do-cotidiano" target="_blank">Slides</a>
+              </td>
+            </tr>
+            <tr>
+              <th>19:30 - 21:00</th>
+              <td>
+                <h4>Festa de Instalação</h4>
+                <strong>Traga seu laptop</strong> para instalar tudo o que for necessário e se preparar para o dia de atividades!. <br />
+                <a href="http://www.slideshare.net/RailsGirlsSSA/passo-a-passo-vagrant" target="_blank">Instruções</a> (por <a href="#matheuslao">Matheus Andrade</a>).
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr />
+
+        <h2>Sábado 26 de Outubro</h2>
+
+        <table id="schedule">
+          <tbody>
+          <tr>
+            <th>9:00 - 09:30</th>
+            <td>
+              <h4>Registro e Boas Vindas</h4>
+                Durante a manhã vamos instalar o Ruby on Rails no seu computador, se você teve algum problema na noite anterior. 
+            </td>
+          </tr>
+
+          <tr>
+            <th>09:30 - 09:45</th>
+            <td>
+              <h4>Palestra <strong>Melissa Wen</strong></h4>
+              <strong>Gnome OPW: não é sobre Rails, mas é para garotas.</strong>  <br />
+              <a href="http://www.slideshare.net/melissawen/gnome-27778028" target="_blank">Slides</a>
+            </td>
+          </tr>
+
+          <tr>
+            <th>09:45 - 10:00</th>
+            <td>
+              <h4>Palestra <strong>Daniela Feitosa</strong></h4>
+              <strong>Confie no seu código</strong> &#128521; <br />
+              <a href="http://softwarelivre.org/dani/slides/confie-no-codigo.pdf" target="_blank">Slides</a>
+            </td>
+          </tr>
+
+          <tr>
+            <th>10:00 - 12:15</th>
+            <td>
+               <h4>Workshop</h4>
+               Faça a sua primeira aplicação web. Faremos exercícios e vamos por a mão na massa, ou melhor, no código!
+            </td>
+          </tr>
+
+          <tr>
+            <th>12:15 - 14:00</th>
+            <td>
+               <h4>Almoço</h4>
+            </td>
+          </tr>
+
+          <tr>
+            <th>14:00 - 14:15</th>
+            <td>
+              <h4>Palestra <strong>Caio Almeida</strong></h4>
+              <strong>Desenvolvimento web em camadas: cada componente faz uma coisa.</strong> <br />
+              <a href="http://homes.dcc.ufba.br/~caiosba/railsgirls2013/slides.svg" target="_blank">Slides</a>
+            </td>
+          </tr>
+
+          <tr>
+            <th>14:15 - 16:45</th>
+            <td>
+              <h4>Workshop</h4>
+						  Vamos continuar construindo nossos softwares!
+            </td>
+          </tr>
+
+          <tr>
+            <th>16:45 - 17:00</th>
+            <td>
+              <h4>Palestra <strong>Rodrigo Souto</strong></h4>
+              <strong>Proximos passos.</strong>  <br />
+              <!-- <a href="http://www.4shared.com/office/Y7xHx5Gz/proximos-passos-rgssa2013.html" target="_blank">Slides</a> -->
+            </td>
+          </tr>
+
+          <tr>
+            <th>17:00 - 17:30</th>
+            <td>
+              <h4>Apresentação dos Projetos</h4> 
+              Vamos mostrar o que foi desenvolvido durante o workshop para o resto do grupo!
+            </td>
+          </tr>
+
+          <tr>
+            <th>17:30</th>
+            <td>
+              <h4>Pós Evento</h4>
+							Aberto a todos os participantes. Venha conversar com o pessoal e conhecer um pouco mais sobre tecnologia!
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+<!--  These also, just update :) -->
+
+
+      <div class="grid_5 push_1 omega side">
+
+        <h3>Informações</h3>
+            <p>
+              Evento gratuito ;)<br/>
+              <strong>Inscrições encerradas</strong> <br/>
+              <strong>Confirmação das Inscrições até:</strong> 22 de Outubro<br/>
+            </p>
+				<p>
+				  <strong>Datas:</strong> 25 e 26 de Outubro de 2013
+            </p>
+
+            <p>
+              <strong>Local:</strong>
+				  <a href="https://www.google.com.br/maps?q=Av.+Tancredo+Neves,+1024-1072+-+Caminho+das+%C3%81rvore,+Salvador+-+BA,+41820-020&ie=UTF8&ll=-12.980974,-38.456142&spn=0.001163,0.001725&sll=-12.981028399999994,-38.45639624005372&t=h&hnear=Av.+Tancredo+Neves,+1024+-+Caminho+das+%C3%81rvore,+Salvador+-+Bahia,+41820-020&z=19&layer=c&cbll=-12.980974,-38.456142&panoid=9sjIFffjP6bcpGgfOa5Ggw&cbp=12,225.62,,0,-2.1" target="_blank">Av. Tancredo
+Neves, 1186. Ed. Catabas Center, 6º andar.</a>
+              <div class='map'>
+                <iframe width="380" height="275" frameborder="0" scrolling="no"
+marginheight="0" marginwidth="0"
+src="https://www.google.com.br/maps?q=Av.+Tancredo+Neves,+1024-1072+-+Caminho+das+%C3%81rvore,+Salvador+-+BA,+41820-020&amp;ie=UTF8&amp;sll=-12.981028399999994,-38.45639624005372&amp;t=m&amp;hnear=Av.+Tancredo+Neves,+1024+-+Caminho+das+%C3%81rvore,+Salvador+-+Bahia,+41820-020&amp;layer=c&amp;cbll=-12.980956,-38.456162&amp;panoid=9sjIFffjP6bcpGgfOa5Ggw&amp;cbp=13,225.62,,0,-2.1&amp;hq=&amp;source=embed&amp;ll=-12.988417,-38.456182&amp;spn=0.026261,0.032616&amp;z=14&amp;output=svembed"></iframe><br/><small><a
+href="https://www.google.com.br/maps?q=Av.+Tancredo+Neves,+1024-1072+-+Caminho+das+%C3%81rvore,+Salvador+-+BA,+41820-020&amp;ie=UTF8&amp;sll=-12.981028399999994,-38.45639624005372&amp;t=m&amp;hnear=Av.+Tancredo+Neves,+1024+-+Caminho+das+%C3%81rvore,+Salvador+-+Bahia,+41820-020&amp;layer=c&amp;cbll=-12.980956,-38.456162&amp;panoid=9sjIFffjP6bcpGgfOa5Ggw&amp;cbp=13,225.62,,0,-2.1&amp;hq=&amp;source=embed&amp;ll=-12.988417,-38.456182&amp;spn=0.026261,0.032616&amp;z=14"
+style="text-align:left">Exibir mapa ampliado</a></small>
+              </div>
+            </p>
+
+            <p>O Rails Girls SSA também pode ser encontrado:</p>
+            <ul>
+              <li>no <a href="http://twitter.com/RailsGirlsSSA">Twitter</a></li>
+              <li>no <a href="https://www.facebook.com/railsgirls.ssa">Facebook</a></li>
+            </ul>
+
+
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+       <h3>Parceiros</h3>
+
+       <p>Rails Girls Salvador é co-organizado por ótimos parceiros.</p>
+       <p>ThoughtWorks</p>
+					<a href="http://www.thoughtworks.com" style="border:0;">
+				     <img src="./images/tw_lg.gif" height="48px" style="margin-bottom: 15px" alt="ThoughtWorks">
+				  </a>					
+				</p>
+				<p>
+				
+       <p>JusBrasil</p>
+					<a href="http://www.jusbrasil.com.br" style="border:0;">
+				     <img src="http://www.jusbrasil.com.br/static/image/jusbrasil-logo.png" height="60px" style="margin-bottom: 15px" alt="JusBrasil">
+				  </a>					
+				</p>
+				<p>
+        <p>Colivre</p>
+					<a href="http://colivre.coop.br" style="border:0;">
+				     <img src="http://colivre.coop.br/pub/Colivre/WebHome/logo-colivre.png" height="190px" style="margin-bottom: 15px" alt="Colivre">
+				  </a>					
+				</p>
+				<p>
+         <p>Quer ajudar? O RGSSA é um evento sem fins lucrativos. Estamos procurando por parceiros e patrocinadores! <a href="mailto:railsgirlssssa@gmail.com>">Entre em contato</a>! </p>
+
+
+     <hr/>
+
+
+     </div>
+
+     <div class="grid_12 faq">
+
+     <h3>FAQ</h3>
+          <p><strong>O evento será todo em inglês?</strong> Não! A maioria do evento será feito em português e
+          os treinadores serão todos brasileiros. No entanto, parte dos materiais e
+          palestras motivacionais poderão estar em inglês.</p>
+
+          <p><strong>Quanto custa o evento?</strong>
+          Nada, é de graça! Você só precisa ser curiosa!
+          </p>
+
+          <p><strong> Qual é o publico alvo?</strong>
+          Mulheres de qualquer idade que tenham um conhecimento básico em lidar com computadores. Já tivemos participantes de todas as idades. Por favor, traga seu notebook.</p>
+	 </p>
+          <p>
+          <strong>
+              Homens podem participar?</strong>
+          Sim, mas devem vir acompanhados de uma mulher que
+          esteja interessada. Será dada prioridade as mulheres.
+          </p>
+
+          <p><strong>Eu sei programar! Como posso ajudar?</strong> Estamos procurando por treinadores. Nós
+          teremos um workshop de 3 horas uma semana antes do evento para explicar como será passado o currículo. Nos envie um <a href="mailto:railsgirlsssa@gmail.com">email</a>!
+          </p>
+
+     </div>
+<!--  Update the team list       -->
+
+      <div class="coaches">
+        <hr />
+        <h2>Equipe de Salvador</h2>
+
+        <a id="danifeitosa" href="https://twitter.com/danifeitosa" class="grid_3">
+            <img
+src="http://gravatar.com/avatar/4183a013964d3119ec3491bf8958bf77?s=50" class="coach" />
+            Daniela Feitosa, organizadora
+            <small>@danifeitosa</small>
+        </a>
+
+        <a id="geisasantos" href="https://twitter.com/geisasantos" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/51d8d33a4d118eb55485536eb638a040?s=50" class="coach" />
+            Geisa Santos, organizadora
+            <small>@geisasantos</small>
+        </a>
+
+        <a id="mauriciovieira" href="https://twitter.com/mauriciovieira" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/a567f0434d3be3d2a466f491345fede3?s=50" class="coach" />
+            Maurício Vieira, organizador
+            <small>@mauriciovieira</small>
+        </a>
+
+        <a id="aplm_ana" href="https://twitter.com/aplm_ana" class="grid_3">
+            Ana Paula Machado, palestrante
+            <small>@aplm_ana</small>
+        </a>
+
+        <a id="caiosba" href="http://github.com/caiosba" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar.php?gravatar_id=fcd7708520a028e7cdb9f57fcc5e438e?s=50" class="coach" />
+            Caio Almeida, coach
+            <small>@caiosba</small>
+        </a>
+
+        <a id="melissawen" href="https://github.com/melissawen" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/c8b72d0556872a2aea21e8fed0a72001?s=50" class="coach" />
+            Melissa Wen, coach
+            <small>@melissawen</small>
+        </a>
+
+        <a id="diguliu" href="https://github.com/diguliu" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/2fb770603e9880964ce0f8ac999d516f?s=50" class="coach" />
+            Rodrigo Souto, coach
+            <small>@diguliu</small>
+        </a>
+
+        <a id="leandronunes" href="https://github.com/leandronunes" class="grid_3">
+            <img src="https://0.gravatar.com/avatar/5bf9bf341e9d00ebd854cdaf1a4299b2?s=50" class="coach" />
+            Leandro Nunes, coach
+            <small>@leandronunes</small>
+        </a>
+
+        <a id="joenio" href="https://github.com/joenio" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/5aff57c7238795d3b159d493ab071d6c?s=50" class="coach" />
+            Joenio Costa, coach
+            <small>@joenio</small>
+        </a>
+
+        <a id="larissa" href="https://github.com/larissa" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/40978867608e81b4fb066c2e92f45620?s=50" class="coach" />
+            Larissa Reis, coach
+            <small>@larissa</small>
+        </a>
+
+        <a id="asrail" href="https://github.com/asrail" class="grid_3">
+            <img src="https://2.gravatar.com/avatar/4067f157de92122248aceb27762b7e46?s=50" class="coach" />
+            Caio Tiago, coach
+            <small>@asrail</small>
+        </a>
+
+        <a id="vtorves" href="https://twitter.com/vtorves" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/f44aac6bc5595e8139b0d35c1d7b4f52?s=50" class="coach" />
+            Vinicius Torves, coach
+            <small>@vtorves</small>
+        </a>
+
+        
+        <a id="matheuslao" href="https://twitter.com/matheuslao" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/44cd0d4a22b24e593ae8b9246ddf20ad?s=50" class="coach" />
+            Matheus Andrade, coach
+            <small>@matheuslao</small>
+        </a>
+
+        <a id="pauloortins" href="https://twitter.com/pauloortins" class="grid_3">
+            <img
+src="http://www.gravatar.com/avatar/a1c6e240931b44f7f4b21492232cd3fc?s=50" class="coach" />
+            Paulo Ortins, palestrante
+            <small>@pauloortins</small>
+        </a>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- /content -->
+
+    <footer>
+        <p>2010-2014, Rails Girls.
+        <a href="mailto:railsgirlsssa@gmail.com">Entre em contato por e-mail</a> ou nos
+siga no
+        <a href="http://twitter.com/RailsGirlsSSA">Twitter</a> e
+        <a href="https://www.facebook.com/railsgirls.ssa">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+      Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44823093-1', 'railsgirls.com');
+        ga('send', 'pageview');
+      </script>
+    </body>
+</html>

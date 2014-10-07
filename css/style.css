@@ -1339,7 +1339,11 @@ h4.warsaw {
   border-radius: 40px;
   margin-bottom: 50px;
 }
-
+.amman#promo {
+  padding-left:340px;
+  background:url('../images/rg-amman.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
 #promo p {
   font-size:19px;
   line-height:1.4;
