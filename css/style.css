@@ -234,6 +234,12 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.celje#promo {
+  padding-left:340px;
+  background:url('../images/rg-celje.jpg') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .dnipropetrovsk#promo {
   padding-left:340px;
   background:url('../images/rg-dnipropetrovsk.png') no-repeat 10px 40px,
@@ -765,6 +771,11 @@ pre {
 
 .maribor#promo h1 {
   background:url('../images/rg-maribor-header.png') no-repeat left top;
+  height:85px;
+}
+
+.celje#promo h1 {
+  background:url('../images/rg-celje-header.jpg') no-repeat left top;
   height:85px;
 }
 
