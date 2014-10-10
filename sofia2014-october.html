@@ -39,6 +39,25 @@
       display: block;
       margin: 0 auto 0.5em auto;
     }
+
+    .sponsor img,
+    .logos-wall p img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .sponsor:hover img,
+    .logos-wall p:hover img {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+
     a img {
       max-width: 100%;
     }
@@ -104,7 +123,7 @@
       margin: 0 2% 5% 0;
       float: left;
     }
-    .logos-wall p:nth-child(3n+0) {
+    .logos-wall p:nth-child(3n+2) {
       clear: left;
     }
     .logos-wall p a {
