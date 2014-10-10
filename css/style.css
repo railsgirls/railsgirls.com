@@ -216,6 +216,12 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.braga2014#promo {
+          padding-left:340px;
+          background:url('../images/rg-braga2014.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 .zagreb#promo {
   padding-left:340px;
   background:url('../images/rg-zagreb.png') no-repeat 10px 40px,
