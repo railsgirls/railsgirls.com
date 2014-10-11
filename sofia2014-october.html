@@ -32,14 +32,39 @@
       border: none;
       color: #444;
       line-height: 130%;
+      text-align: center;
     }
     a.sponsor img {
       max-width: 80%;
       display: block;
-      margin-bottom: 0.5em;
+      margin: 0 auto 0.5em auto;
     }
+
+    .sponsor img,
+    .logos-wall p img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .sponsor:hover img,
+    .logos-wall p:hover img {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+
     a img {
       max-width: 100%;
+    }
+    h3.sponsor-type {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
     }
     .coaches .grid_3 {
       height: 80px;
@@ -87,6 +112,26 @@
     }
     .regular li {
       color: #390c00;
+    }
+    .logos-wall {
+      overflow: hidden;
+      margin-top: 5%;
+    }
+    .logos-wall p {
+      display: block;
+      max-width: 31%;
+      margin: 0 2% 5% 0;
+      float: left;
+    }
+    .logos-wall p:nth-child(3n+2) {
+      clear: left;
+    }
+    .logos-wall p a {
+      text-decoration: none;
+      border-bottom: none;
+    }
+    .logos-wall img {
+      max-width: 100%;
     }
   </style>
 
@@ -254,24 +299,24 @@
               </td>
             </tr>
             <tr>
-              <th>19:00 - 20:00</th>
-              <td>
-                <h4>Инсталационно парти</h4>
-                Предварително запознаване с участниците. Носете си лаптопите, за да инсталираме необходимия за уъркшопа безплатен софтуер.
-              </td>
-            </tr>
-            <tr>
-              <th>20:00 - 21:00</th>
+              <th>19:15 - 20:15</th>
               <td>
                 <h4>Тренирай си робот</h4>
                 Вашият първи досег с програмирането, и то какъв! Ще управлявате ваш собствен киборг.
               </td>
             </tr>
             <tr>
-              <th>21:00 - 21:05</th>
+              <th>20:15 - 20:50</th>
               <td>
-                <h4>Friday Hug!</h4>
-                Вземете участие във вашия първи <a href="http://fridayhug.com/" target="_blank">#FridayHug</a>!
+                <h4>Увод в средата за разработка</h4>
+                Ще ви дадем достъп до вашата собствена работилница.
+              </td>
+            </tr>
+            <tr>
+              <th>20:50 - 21:00</th>
+              <td>
+                <h4>Групова снимка</h4>
+                Вземете участие във вашия първи <a href="http://fridayhug.com/" target="_blank">(late) #FridayHug</a>!
               </td>
             </tr>
           </tbody>
@@ -287,7 +332,7 @@
             <th>9:00 - 10:00</th>
             <td>
               <h4>Регистрация, кафе и инсталация</h4>
-              В тази сутрешна сесия ще довършим започнатото в петък вечер, изчиствайки евентуални проблеми.
+              Време е за събуждане и зареждане с енергия. Чака ни дълъг и вълнуващ ден.
             </td>
           </tr>
 
@@ -295,15 +340,15 @@
             <th>10:00 - 10:10</th>
             <td>
               <h4>Добре дошли!</h4>
-              Програма за деня и няколко думи от спонсорите
+              Програма за деня, няколко думи за събитието.
             </td>
           </tr>
 
           <tr>
             <th>10:10 - 10:40</th>
             <td>
-              <h4>Уъркшоп</h4>
-              Проектиране на вашето уеб приложение
+              <h4>Блиц-увод в програмирането</h4>
+              Да налеем стабилна бетонна основа за бъдещия небостъргач.
             </td>
           </tr>
 
@@ -316,7 +361,15 @@
           </tr>
 
           <tr>
-            <th>11:30 - 13:00</th>
+            <th>11:30 - 11:50</th>
+            <td>
+              <h4>Уеб приложения</h4>
+              Що е то "приложение", при това "уеб" такова? Основни термини и принципи.
+            </td>
+          </tr>
+
+          <tr>
+            <th>11:50 - 13:00</th>
             <td>
               <h4>Уъркшоп</h4>
               Започнете вашия първи уеб сайт с лъвски скок!
@@ -341,6 +394,14 @@
             <td>
               <h4>Lightning talks от инструкторите</h4>
               <strong><em>Предстои да бъдат обявени</em></strong>
+              <ol>
+                <li>Андрей Радев</li>
+                <li>Димитър Димитров</li>
+                <li>Димитър Шалварджиев</li>
+                <li>Мартина Радева</li>
+                <li>Свилен Иванов</li>
+                <li>Яна Петрова</li>
+              </ol>
               <!-- <ol>
                 <li>Да променим света с програмиране! <em>Димитър Димитров</em></li>
                 <li>Щастието да програмираш <em>Васил Колев</em></li>
@@ -357,12 +418,28 @@
           </tr>
 
           <tr>
-            <th>14:30 - 17:30</th>
+            <th>14:30 - 15:45</th>
             <td>
               <h4>Уъркшоп</h4>
-              Развийте вашето уеб приложение
+              Развийте вашето уеб приложение.
             </td>
           </tr>
+
+          <tr>
+            <th>15:45 - 16:00</th>
+            <td>
+              <h4>Кафе-пауза</h4>
+            </td>
+          </tr>
+
+          <tr>
+            <th>16:00 - 18:00</th>
+            <td>
+              <h4>Уъркшоп</h4>
+              Довършете вашето уеб приложение.
+            </td>
+          </tr>
+
           <tr>
             <th>20:00 -</th>
             <td>
@@ -411,9 +488,16 @@
 
         <p>Искате да помогнете? Търсим спонсори и партньори за това некомерсиално събитие. <a href="mailto:rails-girls-sofia-organizers@googlegroups.com>">Пишете ни</a>!</p>
 
-        <h3 id="sponsors">Спонсори и партньори</h3>
+        <a name="sponsors"></a>
 
-        <p id="major-sponsors"><strong>Дългосрочни партньори</strong></p>
+        <h3 id="major-sponsors" class="sponsor-type">Дългосрочни партньори</h3>
+
+        <p>
+          <a href="http://www.telelink.com/bg/" target="_blank" class="sponsor">
+            <img src="images/sofia/telelink-logo.png" alt="Лого на Телелинк ЕАД" title="Телелинк ЕАД"><br>
+            Телелинк е водеща компания за системна интеграция в Югоизточна Европа с доказан опит, професионални умения и задълбочени познания в областта на безжичните мрежи, системната интеграция и интелигентните сгради.
+          </a>
+        </p>
 
         <p>
           <a href="http://superhosting.bg/" target="_blank" class="sponsor">
@@ -429,7 +513,7 @@
           </a>
         </p>
 
-        <p id="regular-sponsors"><strong>Спонсори</strong></p>
+        <h3 id="regular-sponsors" class="sponsor-type">Спонсори</h3>
 
         <p>
           <a href="https://www.getclouder.com/" target="_blank" class="sponsor">
@@ -459,13 +543,6 @@
         </p>
 
         <!-- <p>
-          <a href="http://www.telelink.com/bg/" target="_blank" class="sponsor">
-            <img src="images/sofia/telelink-logo.png" alt="Лого на Телелинк ЕАД" title="Телелинк ЕАД"><br>
-            Телелинк е водеща компания за системна интеграция в Югоизточна Европа с доказан опит, професионални умения и задълбочени познания в областта на безжичните мрежи, системната интеграция и интелигентните сгради.
-          </a>
-        </p> -->
-
-        <!-- <p>
           <a href="http://www.is-bg.net/" target="_blank" class="sponsor">
             <img src="images/sofia/information-services-logo-304px.png" alt="Лого на Информационно обслужване АД" title="Информационно обслужване АД"><br>
             Информационно обслужване предлага решения в областта на системната интеграция, изграждане и поддръжка на национални бази данни и електронни регистри, софтуерни продукти и електронен подпис, мрежови решения, асемблиране и поддръжка на хардуерни системи, аутсорсинг услуги, уеб дизайн, разработка на приложения, консултантски услуги за хардуер, софтуер и информационни технологии.
@@ -493,7 +570,7 @@
           </a>
         </p> -->
 
-        <p id="community-sponsors"><strong>Community спонсори</strong></p>
+        <h3 id="community-sponsors" class="sponsor-type">Community спонсори</h3>
 
         <p>
           <a href="http://questers.com/" target="_blank" class="sponsor">
@@ -502,38 +579,62 @@
           </a>
         </p>
 
-        <p id="partners"><strong>Други партньори</strong></p>
+        <p>
+          <a href="http://taxime.to/" target="_blank" class="sponsor">
+            <img src="images/sofia/taxime-logo.png" alt="TaxiMe - Logo" width="40%"><br>
+            TaxiMe е мобилно приложение за iOS и Android, с което поръчваш такси с подбран шофьор на стандартни тарифи. Поръчваш лесно и бързо, без досадни разговори с диспечери. Пътуваш сигурно и комфортно, благодарение на интелигентен софтуер, който ти изпраща шофьора с най-висок рейтинг наблизо.
+          </a>
+        </p>
+      </div>
+
+      <div class="clear"></div>
+
+      <div id="partners" class="logos-wall">
+        <h3>Партньори</h3>
 
         <p>
-          <a href="http://www.digitalchampion.bg" target="_blank" class="sponsor">
+          <a href="http://www.digitalchampion.bg" target="_blank">
             <img src="images/sofia/digital-champion-bulgaria-logo.png" alt="Лого на дигиталния шампион за България" title="Digital Champion Bulgaria">
           </a>
         </p>
 
         <p>
-          <a href="http://www.paneuropa.bg/" target="_blank" class="sponsor">
+          <a href="http://www.paneuropa.bg/" target="_blank">
             <img src="images/sofia/paneuropa-bulgaria-logo.png" alt="Лого на Paneuropean Union" title="Paneuropean Union">
           </a>
         </p>
 
         <p>
-          <a href="http://www.atlantic-club.org/index.php?bg" target="_blank" class="sponsor">
+          <a href="http://www.atlantic-club.org/index.php?bg" target="_blank">
             <img src="images/sofia/atlantic-club-bulgaria-logo.png" alt="Лого на Атлантически клуб в България" style="background-color: #2b6eff" title="Атлантически клуб в България">
           </a>
         </p>
 
         <p>
-          <a href="http://www.bgwomeninict.org/" target="_blank" class="sponsor">
+          <img src="images/sofia/grand-coallition-for-digital-jobs-logo.png" alt="Лого на Grand Coallition For Digital Jobs" title="Grand Coallition For Digital Jobs">
+        </p>
+
+        <p>
+          <img src="images/sofia/us-alumni-logo.png" alt="Лого на Американо-Българска Алумни Асоциация" title="Американо-Българска Алумни Асоциация">
+        </p>
+
+        <p>
+          <a href="http://www.bgwomeninict.org/" target="_blank">
             <img src="images/sofia/bcwt-logo.png" style="background-color: #2f2f2f; padding: 10px; max-width: 75%; border-radius: 4px;" alt="Лого на Български център на жените в технологиите" title="Български център на жените в технологиите">
           </a>
         </p>
 
         <p>
-          <a href="https://github.com/" target="_blank" class="sponsor">
+          <a href="https://github.com/" target="_blank">
             <img src="images/github-logo.png" alt="Лого на GitHub - Social Coding" title="GitHub - Social Coding">
           </a>
         </p>
 
+        <p>
+          <a href="http://bulgaria.usembassy.gov/" target="_blank">
+            <img src="images/sofia/us-embassy-logo.png" alt="Лого на Американско посолство в България" title="Американско посолство в България">
+          </a>
+        </p>
       </div>
 
       <div class="clear"></div>
@@ -628,11 +729,29 @@
           <small>@gerganapassy</small>
         </a>
 
+        <a href="https://www.facebook.com/Kasapoff" class="grid_3">
+          <img src="http://graph.facebook.com/100000017232796/picture?type=square" alt="Аватар">
+          Георги Касапов
+          <em>организатор</em>
+        </a>
+
         <a href="https://twitter.com/mitio" class="grid_3">
           <img src="http://gravatar.com/avatar/9d3a04d8252ce89d5edbb0268af7ad8e?s=50" alt="Аватар">
           Димитър Димитров
           <em>организатор</em>
           <small>@mitio</small>
+        </a>
+
+        <a href="https://www.facebook.com/elena.nikolova.526" class="grid_3">
+          <img src="http://graph.facebook.com/1018326022/picture?type=square" alt="Аватар">
+          Елена Николова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://www.facebook.com/cactusmactus.okay" class="grid_3">
+          <img src="http://graph.facebook.com/1529976945/picture?type=square" alt="Аватар">
+          Мартина Колева
+          <em>организатор</em>
         </a>
 
         <a href="https://twitter.com/akseniyap" class="grid_3">
@@ -643,7 +762,7 @@
         </a>
 
         <a href="http://stackoverflow.com/users/599686/bliof" class="coach grid_3">
-          <img src="http://gravatar.com/avatar/6e2b017e2266ab3c15e0439a1ca10946?s=80">
+          <img src="http://gravatar.com/avatar/6e2b017e2266ab3c15e0439a1ca10946?s=80" alt="Аватар">
           Александър Иванов
           <em>инструктор</em>
           <small>@bliof</small>
@@ -661,6 +780,12 @@
           Борис Петров
           <em>инструктор</em>
           <small>@bppetrov</small>
+        </a>
+
+        <a href="https://www.facebook.com/bostko" class="grid_3">
+          <img src="https://graph.facebook.com/1714376324/picture?type=square" alt="Аватар">
+          Валентин Ейткен
+          <em>инструктор</em>
         </a>
 
         <a href="https://twitter.com/vsakarov" class="grid_3">
@@ -722,12 +847,12 @@
           <em>инструктор</em>
         </a>
 
-        <a href="https://twitter.com/fake_heal" class="grid_3">
+        <!-- <a href="https://twitter.com/fake_heal" class="grid_3">
           <img src="http://graph.facebook.com/1234821768/picture?type=square" alt="Аватар">
           Иванка Тодорова
           <em>инструктор</em>
           <small>@fake_heal</small>
-        </a>
+        </a> -->
 
         <a href="https://twitter.com/karadimov" class="grid_3">
           <img src="http://gravatar.com/avatar/05d76051cf29faaf40f7982cf3f23275?s=50" alt="Аватар">
