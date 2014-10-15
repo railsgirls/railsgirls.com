@@ -1981,3 +1981,34 @@ article.clients span {
   }
 
 }
+
+.bratislava2014#promo {
+  background:url('../images/rg-bratislava2014.jpg') no-repeat -100px 15px/48% auto;
+}
+
+.bratislava2014-p p {
+  padding:20px 10px 20px;
+}
+
+a.bratislava2014-a {
+  width: 60%; 
+  margin: auto; 
+  display: block; 
+  padding: 15px; 
+  background-color: #d3360b; 
+  text-align: center; 
+  color: white; 
+  font-size: 28px; 
+  font-weight: bold;
+}
+
+
+a:hover.bratislava2014-a {
+  background-color: #bd3009; 
+} 
+ 
+
+
+.bratislava2014-img img {
+  border-radius: 50%;
+}
