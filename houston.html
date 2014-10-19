@@ -116,12 +116,13 @@ Steps to show on site
             <p>- Rails Girls Houston Team</p>
           </div>
           <div id="rsvpNo" class="clearfix hidden rsvp">
-            <h3>We're sorry you can't make it to</h3>
+            <h3>We're sorry you won't be coming to</h3>
             <h1>Rails Girls Houston
                 <small>October 24 - 25, 2014</small>
             </h1>
             <p>We'll be sure to let you know about the next one and send you the guides for this event!</p>
             <p>Please <a href="mailto:railsgirlshou@gmail.com">email us</a> if you have any questions or suggestions.</p>
+            <p>- Rails Girls Houston Team</p>
           </div>
 
 
@@ -658,6 +659,7 @@ Steps to show on site
           if(reply){
             $('#justIntro').add('.feature').hide();
             $('#' + reply).removeClass('hidden');
+            $('#share').remove();
           }
         }
         showRsvp();
