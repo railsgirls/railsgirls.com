@@ -202,7 +202,14 @@ a, a:visited, a:focus, a:active, a:hover{
   min-height:300px;
 }
 
-
+.jhb#promo {
+    padding-left:340px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background:url('../images/rg-sa.png') no-repeat 10px 40px,
+    url('../images/separator.png') no-repeat center bottom;
+    min-height:300px;
+}
 .aarhus#promo {
   padding-left:340px;
   background:url('../images/rg-aarhus.jpg') no-repeat 0 10px,
