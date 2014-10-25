@@ -1,4 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@font-face{
+ font-family: "Varela Round";
+ src: url("VarelaRound-Regular.otf");
+}
+
 *{
 	margin:0;
 	padding:0;
@@ -10,28 +14,58 @@
   display: block;
   background: url("countdown2.png") center center no-repeat;
   font-family: 'Varela Round', sans-serif;
-  font-size: 38px;
   color: #581302;
   margin: auto;
 }
+.highlight #countdown{
+  width: 400px;
+  height: 196px;
+  display: block;
+  background: url("countdown2.png") center center no-repeat;
+  font-size: 38px;
+}
 
-#countdown td{
+#countdown{
+  width: 600px;
+  height: 293px;
+  display: block;
+  background: url("countdown.png") center center no-repeat;
+  font-size: 60px;
+}
+
+.highlight #countdown td{
   padding-top: 30px;
   position: relative;
 }
+#countdown td{
+  padding-top: 40px;
+  position: relative;
+}
 
-
-#day-countdown{
+.highlight #day-countdown{
   padding-left: 39px;
 }
-
-#hour-countdown{
-  padding-left: 45px;
+#day-countdown{
+  padding-left: 57px;
 }
 
-#minute-countdown{
+.highlight #hour-countdown{
+  padding-left: 45px;
+}
+#hour-countdown{
+  padding-left: 64px;
+}
+
+.highlight #minute-countdown{
   padding-left: 47px;
 }
-#second-countdown{
+#minute-countdown{
+  padding-left: 64px;
+}
+
+.highlight #second-countdown{
   padding-left: 45px;
+}
+#second-countdown{
+  padding-left: 64px;
 }
