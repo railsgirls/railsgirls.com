@@ -18,7 +18,12 @@ software utilizando Ruby on Rails.">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="./css/style.css">
+  <link type="text/css" rel="stylesheet" media="all" href="files/salvador/countdown.css" />
   <style>
+    .page {
+      padding-top: 0px;
+    }
+
     #menu {
       width: 960px;
       height: 40px;
@@ -38,8 +43,34 @@ software utilizando Ruby on Rails.">
 
     .salvador#promo {
       padding-left: 320px;
+      padding-top: 0px;
+      text-align: justify;
       background:url('images/salvador/rg-logo-thumb.jpg') no-repeat 0 30px,
                  url('images/separator.png') no-repeat center bottom;
+    }
+
+    #promo p {
+      margin-bottom: 1em;
+    }
+
+    .salvador#promo #moreinfo {
+      margin-left: -320px;
+    }
+
+    #rgssa2014-counter {
+      top: 125px;
+      left: 0px;
+      position: fixed;
+      opacity: 0.3;
+      transition: 1s ease-in-out 0s;
+    }
+
+    #rgssa2014-counter:hover {
+      opacity: 1;
+    }
+
+    .scrolled #rgssa2014-counter {
+      top: 10px;
     }
 
     h3 {
@@ -149,32 +180,38 @@ Steps to show on site
 
   <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
+
       <div id="promo" class="new salvador">
         <h1>Rails Girls Salvador
           <small>Dias 07 e 08 de Novembro de 2014</small>
         </h1>
+
         <p>Olá, garotas!</p>
         <p>Chegou a hora da 2ª edição do Rails Girls em Salvador! Um evento voltado para mulheres de todas as idades interessadas em ter uma primeira experiência em construção de software.</p>
         <p>Serão dois dias intensos e divertidos onde vocês aprenderão sobre desenvolvimento de software utilizando Ruby on Rails.</p>
-        <p>Não é preciso ter conhecimentos em programação. Basta ter disposição para aprender e o resto fica por conta de nossa equipe.</p>
-        <p>A edição deste ano acontece nos dias 07 e 08 de novembro na Superintendência de Tecnologia da Informação (STI) da Universidade Federal da Bahia (Ufba), em Ondina.</p>
-        <h4>As vagas estão esgotadas!<h4>
-        <p>Agradecemos às pessoas inscritas. Em breve, entraremos em contato ;)</p>
 
-<!--  Update the sharing texts.-->
+        <div id="moreinfo">
+          <div id="rgssa2014-counter"></div>
+          <p>Não é preciso ter conhecimentos em programação. Basta ter disposição para aprender e o resto fica por conta de nossa equipe.</p>
+          <p>A edição deste ano acontece nos dias 07 e 08 de novembro na Superintendência de Tecnologia da Informação (STI) da Universidade Federal da Bahia (Ufba), em Ondina.</p>
+          <h4>As vagas estão esgotadas!<h4>
+          <p>Agradecemos às pessoas inscritas. Em breve, entraremos em contato ;)</p>
 
-        <div id="share">
-          <a href="https://twitter.com/share" class="twitter-share-button"
+  <!--  Update the sharing texts.-->
+
+          <div id="share">
+            <a href="https://twitter.com/share" class="twitter-share-button"
 data-via="railsgirlsssa" data-related="railsgirlsssa" data-text="Rails Girls
 Salvador 07-08 Novembro)  - inscreva-se!" data-count="none" data-hashtags="railsgirlsssa">Tweet</a>
-          <a href="https://twitter.com/railsgirlsssa"
+            <a href="https://twitter.com/railsgirlsssa"
 class="twitter-follow-button" data-show-count="false">Follow @railsgirlsssa</a>
-          <script>!function(d,s,id){var
+            <script>!function(d,s,id){var
 js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script',
 'twitter-wjs');</script>
 
-          <div class="fb-like" data-href="https://www.facebook.com/railsgirls.ssa" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-        </div>
+            <div class="fb-like" data-href="https://www.facebook.com/railsgirls.ssa" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+          </div>
+        </div><!-- end moreinfo-->
       </div><!-- end promo -->
 
 <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
@@ -450,13 +487,17 @@ ga no
     ga('send', 'pageview');
   </script>
   <div id="toTop">Ir ao Topo</div>
-  <script>
+  <script type="text/javascript">
     jQuery(window).scroll(function() {
             if(jQuery(this).scrollTop() != 0) jQuery(document.body).addClass('scrolled');
             else jQuery(document.body).removeClass('scrolled');
     });
     jQuery('#toTop').click(function() {
             jQuery('body,html').animate({scrollTop:0},800);
+    });
+
+    jQuery(function($){
+      $("#rgssa2014-counter").load("files/salvador/countdown.html");
     });
   </script>
 </body>

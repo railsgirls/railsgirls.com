@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+*{
+	margin:0;
+	padding:0;
+}
+
+#countdown{
+  width: 400px;
+  height: 196px;
+  display: block;
+  background: url("countdown2.png") center center no-repeat;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 38px;
+  color: #581302;
+  margin: auto;
+}
+
+#countdown td{
+  padding-top: 30px;
+  position: relative;
+}
+
+
+#day-countdown{
+  padding-left: 39px;
+}
+
+#hour-countdown{
+  padding-left: 45px;
+}
+
+#minute-countdown{
+  padding-left: 47px;
+}
+#second-countdown{
+  padding-left: 45px;
+}
