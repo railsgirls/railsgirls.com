@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="utf-8">
 
@@ -12,13 +12,35 @@
   <meta name="description" content="Rails Girls em Salvador: 07 e 08/11/2014:
 dois dias intensos e divertidos para aprender muito sobre desenvolvimento de
 software utilizando Ruby on Rails.">
-  <meta name="author" content="Rails Girls">
+  <meta name="author" property="author" content="Rails Girls">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" value="summary">
+  <meta name="twitter:url" content="http://railsgirls.com/salvador201411">
+  <meta name="twitter:title" content="Rails Girls Salvador: 07 e 08 de Novembro de 2014">
+  <meta name="twitter:description" content="Rails Girls em Salvador: dois dias intensos e divertidos para aprender muito sobre desenvolvimento de software utilizando Ruby on Rails.">
+  <meta name="twitter:image" content="http://railsgirls.com/images/salvador/rg-logo.jpg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://railsgirls.com/salvador201411">
+  <meta property="og:title" content="Rails Girls Salvador: 07 e 08 de Novembro de 2014">
+  <meta property="og:site_name" content="Rails Girls Salvador">
+  <meta property="og:description" content="2ª edição do Rails Girls em Salvador! Um evento voltado para mulheres de todas as idades interessadas em ter uma primeira experiência em construção de software. Serão dois dias intensos e divertidos onde vocês aprenderão sobre desenvolvimento de software utilizando Ruby on Rails.">
+  <meta property="og:image" content="http://railsgirls.com/images/salvador/rg-logo.jpg"/>
+  <meta property="article:author" content="https://www.facebook.com/railsgirls.ssa" />
+  <meta property="article:publisher" content="https://www.facebook.com/railsgirls.ssa" />
 
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="./css/style.css">
+  <link type="text/css" rel="stylesheet" media="all" href="files/salvador/countdown.css" />
   <style>
+    .page {
+      padding-top: 0px;
+    }
+
     #menu {
       width: 960px;
       height: 40px;
@@ -38,8 +60,34 @@ software utilizando Ruby on Rails.">
 
     .salvador#promo {
       padding-left: 320px;
+      padding-top: 0px;
+      text-align: justify;
       background:url('images/salvador/rg-logo-thumb.jpg') no-repeat 0 30px,
                  url('images/separator.png') no-repeat center bottom;
+    }
+
+    #promo p {
+      margin-bottom: 1em;
+    }
+
+    .salvador#promo #moreinfo {
+      margin-left: -320px;
+    }
+
+    #rgssa2014-counter {
+      top: 125px;
+      left: 0px;
+      position: fixed;
+      opacity: 0.3;
+      transition: 1s ease-in-out 0s;
+    }
+
+    #rgssa2014-counter:hover {
+      opacity: 1;
+    }
+
+    .scrolled #rgssa2014-counter {
+      top: 10px;
     }
 
     h3 {
@@ -88,10 +136,6 @@ software utilizando Ruby on Rails.">
   <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
 </head>
 
 <body>
@@ -149,32 +193,40 @@ Steps to show on site
 
   <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
+
       <div id="promo" class="new salvador">
         <h1>Rails Girls Salvador
           <small>Dias 07 e 08 de Novembro de 2014</small>
         </h1>
+
         <p>Olá, garotas!</p>
         <p>Chegou a hora da 2ª edição do Rails Girls em Salvador! Um evento voltado para mulheres de todas as idades interessadas em ter uma primeira experiência em construção de software.</p>
         <p>Serão dois dias intensos e divertidos onde vocês aprenderão sobre desenvolvimento de software utilizando Ruby on Rails.</p>
-        <p>Não é preciso ter conhecimentos em programação. Basta ter disposição para aprender e o resto fica por conta de nossa equipe.</p>
-        <p>A edição deste ano acontece nos dias 07 e 08 de novembro na Superintendência de Tecnologia da Informação (STI) da Universidade Federal da Bahia (Ufba), em Ondina.</p>
-        <p>O evento é totalmente gratuito e as inscrições podem ser feitas aqui: <a href='http://even.tc/rails-girls-salvador-2014' target='_blank'>http://even.tc/rails-girls-salvador-2014</a>.</p>
-        <p>O número de vagas é limitado, então faça já sua inscrição e não fique de fora da 2ª edição do Rails Girls em Salvador!</p>
 
-<!--  Update the sharing texts.-->
+        <div id="moreinfo">
+          <div id="rgssa2014-counter" class="highlight">
+            <a href="http://railsgirls.com/files/salvador/countdown" title="Contagem regressiva" target="_blank"></a>
+          </div>
+          <p>Não é preciso ter conhecimentos em programação. Basta ter disposição para aprender e o resto fica por conta de nossa equipe.</p>
+          <p>A edição deste ano acontece nos dias 07 e 08 de novembro na Superintendência de Tecnologia da Informação (STI) da Universidade Federal da Bahia (Ufba), em Ondina.</p>
+          <h4>As vagas estão esgotadas!<h4>
+          <p>Agradecemos às pessoas inscritas. Em breve, entraremos em contato ;)</p>
 
-        <div id="share">
-          <a href="https://twitter.com/share" class="twitter-share-button"
+  <!--  Update the sharing texts.-->
+
+          <div id="share">
+            <a href="https://twitter.com/share" class="twitter-share-button"
 data-via="railsgirlsssa" data-related="railsgirlsssa" data-text="Rails Girls
 Salvador 07-08 Novembro)  - inscreva-se!" data-count="none" data-hashtags="railsgirlsssa">Tweet</a>
-          <a href="https://twitter.com/railsgirlsssa"
+            <a href="https://twitter.com/railsgirlsssa"
 class="twitter-follow-button" data-show-count="false">Follow @railsgirlsssa</a>
-          <script>!function(d,s,id){var
+            <script>!function(d,s,id){var
 js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script',
 'twitter-wjs');</script>
 
-          <div class="fb-like" data-href="https://www.facebook.com/railsgirls.ssa" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-        </div>
+            <div class="fb-like" data-href="https://www.facebook.com/railsgirls.ssa" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+          </div>
+        </div><!-- end moreinfo-->
       </div><!-- end promo -->
 
 <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
@@ -285,7 +337,7 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
     <div class="grid_12 omega alpha">
       <h3 id="info">Informações</h3>
       <div class="grid_3 alpha">
-        <p><strong>Evento gratuito!</strong><br/> As inscrições estão abertas até o dia 29/10/2014 e podem ser feitas aqui: <a href='http://even.tc/rails-girls-salvador-2014' target='_blank'>http://even.tc/rails-girls-salvador-2014</a>.</p>
+        <p><strong>Evento gratuito!</strong><br/> Inscrições encerradas.</p>
       </div>
       <div class="grid_3">
         <p><strong>Datas:</strong> 07 e 08 de Novembro de 2014<br/>
@@ -308,27 +360,32 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
     <div class="grid_12 omega alpha">
       <h3 id="partners">Parceiros</h3>
       <div style='text-align: center'>
-      <div class="grid_4 alpha">
-        <a href="http://www.sti.ufba.br/" style="border:0;">
-          <img src="http://railsgirls.com/images/salvador/logo_sti.png" height="132px" style="margin-bottom: 15px" alt="STI">
-        </a>
-        <p><b>Superintendência de Tecnologia da Informação - UFBa</b></p>
-      </div>
-      <div class="grid_4">
-        <a href="http://colivre.coop.br" style="border:0;">
-          <img src="http://colivre.coop.br/pub/Colivre/WebHome/logo-colivre.png" height="190px" style="margin-bottom: 15px" alt="Colivre">
-        </a>
-        <p><b>Colivre</b></p>
-      </div>
-      <div class="grid_4 omega">
-        <a href="www.pop-ba.rnp.br" style="border:0;">
-          <img src="http://railsgirls.com/images/salvador/logo-pop-ba.png" height="190px" style="margin-bottom: 15px" alt="PoP-BA">
-        </a>
-        <p><b>PoP-BA</b></p>
-      </div>
+        <div class="grid_4 alpha">
+          <a href="http://www.sti.ufba.br/" style="border:0;">
+            <img src="http://railsgirls.com/images/salvador/logo_sti.png" height="132px" style="margin-bottom: 15px" alt="STI">
+          </a>
+          <p><b>Superintendência de Tecnologia da Informação - UFBa</b></p>
+        </div>
+        <div class="grid_4">
+          <a href="http://colivre.coop.br" style="border:0;">
+            <img src="http://colivre.coop.br/pub/Colivre/WebHome/logo-colivre.png" height="190px" style="margin-bottom: 15px" alt="Colivre">
+          </a>
+          <p><b>Colivre</b></p>
+        </div>
+        <div class="grid_4 omega">
+          <a href="www.pop-ba.rnp.br" style="border:0;">
+            <img src="http://railsgirls.com/images/salvador/logo-pop-ba.png" height="190px" style="margin-bottom: 15px" alt="PoP-BA">
+          </a>
+          <p><b>PoP-BA</b></p>
+        </div>
+        <div class="grid_4 omega">
+          <a href="http://www.aprendavirtual.com/" style="border:0;">
+            <img src="images/salvador/logo-aprenda_virtual.png" width="290px" style="margin: 0px 15px 15px 0px" alt="Aprenda Virtual">
+          </a>
+          <p><b>Aprenda Virtual</b></p>
+        </div>
       </div>
       <p>Quer ajudar? O RGSSA é um evento sem fins lucrativos. Estamos procurando por parceiros e patrocinadores! <a href="mailto:railsgirlssssa@gmail.com">Entre em contato</a>! </p>
-
     </div>
 
     <div class="grid_12 omega alpha">
@@ -410,6 +467,13 @@ src="http://www.gravatar.com/avatar/81f83e1cf3a5c0fd5b59ae066f64e3c0?s=50" class
         <small>@gomex</small>
       </a>
 
+      <a id="monicapazz" href="http://monicapaz.net" class="grid_3">
+        <img
+src="http://gravatar.com/avatar/4f8f6077bb8bfaa2035b730e273f7115?s=50" class="coach" />
+          Mônica Paz, palestrante
+        <small>@monicapazz</small>
+      </a>
+
       <a id="caiosba" href="http://github.com/caiosba" class="grid_3">
         <img
 src="http://www.gravatar.com/avatar.php?gravatar_id=fcd7708520a028e7cdb9f57fcc5e438e?s=50" class="coach" />
@@ -424,6 +488,28 @@ src="http://www.gravatar.com/avatar/40978867608e81b4fb066c2e92f45620?s=50" class
         <small>@larissa</small>
       </a>
 
+      <a id="matheuslao" href="https://twitter.com/matheuslao" class="grid_3">
+          <img
+src="http://www.gravatar.com/avatar/44cd0d4a22b24e593ae8b9246ddf20ad?s=50" class="coach" />
+          Matheus Andrade, coach
+          <small>@matheuslao</small>
+      </a>
+
+      <a id="rodrigorgs" href="https://twitter.com/xrodrigorgs" class="grid_3">
+        <img
+src="http://gravatar.com/avatar/5b5d74b9ee9cd59f57c33dcee63517fa?s=50"
+class="coach" />
+          Rodrigo Rocha, coach
+        <small>@xrodrigorgs</small>
+      </a>
+
+      <a id="diguliu" href="https://github.com/diguliu" class="grid_3">
+        <img
+src="http://www.gravatar.com/avatar/2fb770603e9880964ce0f8ac999d516f?s=50"
+class="coach" />
+          Rodrigo Souto, coach
+        <small>@diguliu</small>
+      </a>
 
     </div>
 
@@ -450,13 +536,17 @@ ga no
     ga('send', 'pageview');
   </script>
   <div id="toTop">Ir ao Topo</div>
-  <script>
+  <script type="text/javascript">
     jQuery(window).scroll(function() {
             if(jQuery(this).scrollTop() != 0) jQuery(document.body).addClass('scrolled');
             else jQuery(document.body).removeClass('scrolled');
     });
     jQuery('#toTop').click(function() {
             jQuery('body,html').animate({scrollTop:0},800);
+    });
+
+    jQuery(function($){
+      $("#rgssa2014-counter a").load("files/salvador/counter.html");
     });
   </script>
 </body>

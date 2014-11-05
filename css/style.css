@@ -202,7 +202,14 @@ a, a:visited, a:focus, a:active, a:hover{
   min-height:300px;
 }
 
-
+.jhb#promo {
+    padding-left:340px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background:url('../images/rg-sa.png') no-repeat 10px 40px,
+    url('../images/separator.png') no-repeat center bottom;
+    min-height:300px;
+}
 .aarhus#promo {
   padding-left:340px;
   background:url('../images/rg-aarhus.jpg') no-repeat 0 10px,
@@ -1139,7 +1146,7 @@ h4.warsaw {
   height: 60px;
   margin-bottom: 0px;
   letter-spacing:-3px;
-  vertical-align: :top;
+  vertical-align:top;
 }
 
 .dallas#promo div.event-date{
@@ -1176,6 +1183,10 @@ h4.warsaw {
 
     }
 
+.jhb#promo h1 {
+    background:url('../images/johannesburg/rg-jhb-header.png') no-repeat left top;
+
+}
 .rheinland#promo {
   padding-left:340px;
   padding-bottom:51px;
@@ -1464,7 +1475,7 @@ li {
   color:#e0330c;
 }
 
-a {
+a{
 
 }
 
