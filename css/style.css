@@ -2028,3 +2028,7 @@ a:hover.bratislava2014-a {
 .bratislava2014-img img {
   border-radius: 50%;
 }
+
+.kuching#promo {
+    background: url('../images/kuching/rg-kuching.png') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+}
