@@ -17,31 +17,24 @@
 
         <link rel="stylesheet" href="./css/style.css">
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-        <script type="text/javascript" src="main.js"></script>
-        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-        <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
         <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
         <!--[if lt IE 9]>
             <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
 
-            <style>
-.kuching-img-a{
-    border: 0;
-    padding-bottom: 12px;
-    display: block;
-
-}
+        <style>
+        .kuching-img-a{
+            border: 0;
+            display: block;
+            padding-bottom: 20px;
+        }
 
         .kuching-img-a img{
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
         }
 
-        .kuching-sponsor-text{
+        .kuching-sponsors{
             font-size: 20px;
             color: black;
             padding-top: 20px;
@@ -58,7 +51,7 @@
             font-size: 28px; 
             font-weight: bold;
         }
-            </style>
+        </style>
     </head>
     <body>
 
@@ -268,41 +261,6 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4720.634864958!2d110.358052!3d1.5325279999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba70b11e02ce7%3A0x69cbf290cfd24bb7!2sSwinburne+University+of+Technology+-+Sarawak!5e1!3m2!1sen!2ssk!4v1415728103877" width="400" height="300" frameborder="0" style="border:0"></iframe>
                     <p><a target="_blank" href="https://goo.gl/maps/Pycp2">Rails Girls Kuching</a> in a larger map.</p>
 
-                    <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-                    <!-- TODO: Update sponsors and partners -->
-                    <div>
-                        <h2>Partners</h2>
-
-                        <p>Rails Girls Kuching is co-organized with our awesome partners and sponsors.</p>
-                        <p>
-                        Want to help? We're looking for sponsors for this non-profit event!
-                        <a href="mailto:railsgirlskuching@gmail.com">Email us</a>
-                        !
-                        </p>
-
-                        <div class="">
-                            <a class="kuching-img-a" href="http://codeequality.org" target="_blank">
-                                <img  width="150px" src="./images/kl/sponsors/ce.png" alt="Code Equality"/>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h2>Sponsors</h2>
-                        <h3>Coming Soon!</h3>
-
-                        <!--<div class="">
-                            <a class="kl-img-a" href="http://github.com/" target="_blank">
-                            <img  width="150px" src="./images/kl/sponsors/github.png" alt="Github"/>
-                            </div>
-
-                            <div class="">
-                            </a> <a class="kl-img-a" href="http://nitrous.io/" target="_blank">
-                            <img  width="150px" src="./images/kl/sponsors/nitrousio.png" alt="Nitrous IO"/>
-                            </a>
-                            </div>  -->
-                    </div>
-
                     <hr/>
                     <h2>FAQ</h2>
                     <p>
@@ -333,6 +291,12 @@
                     <a href="mailto:railsgirlskuching@gmail.com">email us</a>
                     .
                     </p>
+
+                    <hr>
+                    <h2>Partners and Sponsors</h2>
+
+                    <p>Rails Girls Kuching is co-organized with our awesome <a href="#sponsors">partners and sponsors</a>.</p>
+                    <p> Want to help? We're looking for sponsors for this non-profit event!  <a href="mailto:railsgirlskuching@gmail.com">Email us</a> !  </p>
 
                 </div>
 
@@ -370,6 +334,54 @@
                         Sher Minn Chong, mentor
                         <small>@piratefsh</small>
                     </a>
+
+                    <a href="#" class="grid_3">
+                        Genevieve Edine Ho, mentor
+                    </a>
+                </div>
+
+                <hr />
+                <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+                <!-- TODO: Update sponsors and partners -->
+                <div class="" id="sponsors">
+                    <h2>Partners and Sponsors</h2>
+
+                    <div class="grid_2">
+                        <a class="kuching-img-a" href="http://github.com/" target="_blank">
+                            <img src="./images/kl/sponsors/github.png" alt="Github"/>
+                        </a> 
+                    </div>
+
+                    <div class="grid_4">
+                        <a class="kuching-img-a" href="http://codeequality.org" target="_blank">
+                            <img src="./images/kl/sponsors/ce.png" alt="Code Equality"/>
+                        </a>
+                    </div>
+                    <div class="grid_4">
+                        <a class="kuching-img-a" href="http://nitrous.io/" target="_blank">
+                            <img src="./images/kl/sponsors/nitrousio.png" alt="Nitrous IO"/>
+                        </a>
+                    </div>
+                    <div class="grid_2">
+                        <a class="kuching-img-a" href="http://says.com/my/" target="_blank">
+                            <img src="./images/kl/sponsors/says.png" alt="Says.my"/>
+                        </a>
+                    </div>
+                    <div class="grid_2">
+                        <a class="kuching-img-a" href="http://www.swinburne.edu.my" target="_blank">
+                            <img src="./images/kuching/sponsors/swinburne_logo.jpg" alt="Swinburne University of Technology Sarawak"/>
+                        </a>
+                    </div>
+                    <div class="grid_2">
+                        <a class="kuching-img-a" href="" target="_blank">
+                            <img src="./images/kuching/sponsors/sssc_logo.jpg" alt="Swinburne Sarawak Student Council"/>
+                        </a>
+                    </div>
+                    <div class="grid_2">
+                        <a class="kuching-img-a" href="http://www.kivasystems.com" target="_blank">
+                            <img src="./images/kuching/sponsors/kivasystems.png" alt="KIVA Systems"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -387,6 +399,13 @@
             </p>
             <p class="slogan">Get excited and make things!</p>
         </footer>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
         <script type="text/javascript">
 
 var _gaq = _gaq || [];
