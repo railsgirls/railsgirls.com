@@ -1999,7 +1999,7 @@ article.clients span {
 }
 
 .bratislava2014#promo {
-  background:url('../images/rg-bratislava2014.jpg') no-repeat -100px 15px/48% auto;
+  background:url('../images/rg-bratislava2014.jpg') no-repeat -100px 15px/48% auto; height: 365px;
 }
 
 .bratislava2014-p p {
@@ -2027,4 +2027,17 @@ a:hover.bratislava2014-a {
 
 .bratislava2014-img img {
   border-radius: 50%;
+}
+
+.kuching#promo {
+    padding-left: 340px;
+    background:url('../images/kuching/rg-kuching.png') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+    background-size: 340px;
+}
+
+.ottawa#promo {
+  padding-left:340px;
+  background:url('../images/rg-Ottawa.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
 }
