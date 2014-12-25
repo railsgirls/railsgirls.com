@@ -193,6 +193,11 @@ a, a:visited, a:focus, a:active, a:hover{
               url('../images/separator.png') no-repeat center bottom;
 }
 
+.utrecht#promo {
+  padding-left: 340px;
+  background: url('../images/logo-utrecht.png') no-repeat -2px 25px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 #promo {
   padding-left:340px;
   padding-top:30px;
@@ -537,6 +542,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-osaka.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
+
+.shiojiri#promo {
+  padding-left:420px;
+  background:url('../images/rg-shiojiri.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 .chicago#promo {
   padding-left:340px;
@@ -980,6 +991,10 @@ pre {
 
 .osaka#promo h1 {
   background:url('../images/rg-osaka-header.png') no-repeat left top;
+}
+
+.shiojiri#promo h1 {
+  background:url('../images/rg-shiojiri-header.png') no-repeat left top;
 }
 
 .chicago#promo h1 {
@@ -2040,4 +2055,5 @@ a:hover.bratislava2014-a {
   padding-left:340px;
   background:url('../images/rg-Ottawa.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 320px;
 }
