@@ -2102,3 +2102,9 @@ a:hover.bratislava2014-a {
 .helsinki_header_button:hover {
   background: #C2320A;
 }
+
+.novisad#promo {
+	padding-left:340px;
+    background:url('../images/rg-novisad.jpg') no-repeat 0 10px,
+				url('../images/separator.png') no-repeat center bottom;
+}
