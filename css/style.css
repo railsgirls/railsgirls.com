@@ -198,14 +198,6 @@ a, a:visited, a:focus, a:active, a:hover{
   background: url('../images/logo-utrecht.png') no-repeat -2px 25px,
               url('../images/separator.png') no-repeat center bottom;
 }
-#promo {
-  padding-left:340px;
-  padding-top:30px;
-  padding-bottom:30px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 10px 40px,
-             url('../images/separator.png') no-repeat center bottom;
-  min-height:300px;
-}
 
 .jhb#promo {
     padding-left:340px;
@@ -2056,4 +2048,63 @@ a:hover.bratislava2014-a {
   background:url('../images/rg-Ottawa.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 320px;
+}
+
+/* Helsinki 2015 */
+.helsinki_header {
+  background: #d3360b url('../images/thinkers.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.helsinki_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  top: -42px;
+}
+
+.helsinki_header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.helsinki_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.helsinki_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.helsinki_header_button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
+.helsinki_header_button:hover {
+  background: #C2320A;
+}
+
+.novisad#promo {
+	padding-left:340px;
+    background:url('../images/rg-novisad.jpg') no-repeat 0 10px,
+				url('../images/separator.png') no-repeat center bottom;
 }

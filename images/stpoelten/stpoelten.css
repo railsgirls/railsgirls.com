@@ -3,7 +3,8 @@ p a img, img a, img {
 }
 
 .grid_12 #promo {
-	background: url('pixel_logo_long.jpg') no-repeat 10px 40px;
+	background: url('pixel_logo_long.jpg') no-repeat right 40px;
+	padding-right: 300px;
 }
 
 .button {
