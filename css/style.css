@@ -2108,3 +2108,10 @@ a:hover.bratislava2014-a {
     background:url('../images/rg-novisad.jpg') no-repeat 0 10px,
 				url('../images/separator.png') no-repeat center bottom;
 }
+
+.barcelona#promo {
+  padding-left:340px;
+  background:url('../images/barcelona/chica_logo_600x600.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 320px;
+}
