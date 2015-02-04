@@ -2116,3 +2116,9 @@ a:hover.bratislava2014-a {
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 320px;
 }
+
+.grancanaria#promo {
+  padding-left:340px;
+  background:url('../images/rg-grancanaria.jpeg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+	background-size: 320px;
+}
