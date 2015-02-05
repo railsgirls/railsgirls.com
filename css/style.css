@@ -274,8 +274,7 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .krakow#promo {
   padding-left:340px;
-  background:url('../images/rg-krakow.png') no-repeat 10px 40px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/rg-krakow.png') no-repeat 10px 40px;
 }
 .maputo#promo {
   background:url('../images/maputo/logo-draft.png') no-repeat 10px 40px,
@@ -2015,22 +2014,22 @@ article.clients span {
 }
 
 a.bratislava2014-a {
-  width: 60%; 
-  margin: auto; 
-  display: block; 
-  padding: 15px; 
-  background-color: #d3360b; 
-  text-align: center; 
-  color: white; 
-  font-size: 28px; 
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding: 15px;
+  background-color: #d3360b;
+  text-align: center;
+  color: white;
+  font-size: 28px;
   font-weight: bold;
 }
 
 
 a:hover.bratislava2014-a {
-  background-color: #bd3009; 
-} 
- 
+  background-color: #bd3009;
+}
+
 
 
 .bratislava2014-img img {
