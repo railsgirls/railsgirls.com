@@ -356,7 +356,8 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
 
 .hamburg#promo {
   padding-left:340px;
-  background:url('../images/rg-hamburg.png') no-repeat 0 30px,
+  height: 430px;
+  background:url('../images/rg-hamburg.png') no-repeat 0 50px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -589,8 +590,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .turku#promo {
   padding-left:340px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
 }
 
 .wroclaw#promo {
@@ -1556,6 +1556,7 @@ input[type=submit] {
   line-height:16px;;
 }
 
+
 hr {clear:both;margin:2.5em 0 1.5em 0; border:0; border-bottom:1px solid #ddd;}
 
 
@@ -2122,4 +2123,8 @@ a:hover.bratislava2014-a {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-
+.grancanaria#promo {
+  padding-left:340px;
+  background:url('../images/rg-grancanaria.jpeg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+	background-size: 320px;
+}
