@@ -2117,6 +2117,12 @@ a:hover.bratislava2014-a {
   background-size: 320px;
 }
 
+.yilan#promo {
+  padding-left:350px;
+  background:url('../images/yilan/rg-yilan.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .grancanaria#promo {
   padding-left:340px;
   background:url('../images/rg-grancanaria.jpeg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
