@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Rails Girls Ticino 28. + 29. March 2014</title>
+    <title>Rails Girls Leman 13 + 14 Mars 2015</title>
     <meta name="description"
-          content="Rails Girls is coming to Lugano!, 28-29. March 2014: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails in the heart of Ticino.">
+          content="Rails Girls goes to EPFL!">
     <meta name="author" content="Rails Girls">
 
     <link rel="shortcut icon" href="/favicon.png">
@@ -52,37 +52,37 @@
 
 <div id="promo" class="ticino" style="padding-left: 0px;">
 
-    <h1 style="height: 70px;">Rails Girls Ticino 28. + 29. March 2014</h1>
+    <h1 style="height: 70px;">Rails Girls Leman 13 + 14 Mars 2015</h1>
 
     <br>
-    <p>Rails Girls arriva in Ticino a Lugano!</p>
-    <p>Durante il workshop gratuito ci immergeremo nel magico mondo delle web app con Ruby on Rails.</p>
+    <p>Rails Girls goes to EPFL, Lausanne!</p>
+    <p></p>
 
      
-    <p>ISCRIZIONI CHIUSE!! 
+    <p>Inscriptions...
     <br><br>
-    Contattateci per qualsiasi domanda all'indirizzo <a href="mailto:railsgirlsticino@gmail.com">railsgirlsticino@gmail.com</a>.
+    Contactez-nous pour toutes questions à <a href="mailto:railsgirlsleman@gmail.com">railsgirlsleman@gmail.com</a>.
     <br><br>
-    <a href="https://twitter.com/RailsGirls_TI" class="twitter-follow-button" data-show-count="false">Follow @RailsGirls_TI</a>
+    <a href="https://twitter.com/RG_Leman" class="twitter-follow-button" data-show-count="false">Follow @RG_Leman</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-Ticino/661001703947826?ref=hl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-L%C3%A9man/945101968834392?ref=bookmarks" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
     <!--<div id="share">
 
     <div> 
 
              <div style="margin:0 15px 0 0;"> 
-                     <a href="https://twitter.com/RailsGirls_TI" class="twitter-follow-button" data-show-count="false">Follow @RailsGirls_TI</a>
+                     <a href="https://twitter.com/RG_Leman" class="twitter-follow-button" data-show-count="false">Follow @RG_Leman</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     
          </div>
 
-             <div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-Ticino/661001703947826?ref=hl" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+             <div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-L%C3%A9man/945101968834392?ref=bookmarks" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
 
          </div> 
      </div> -->
 
 </div>
-
+<!--
 <div class="grid_4 alpha feature">
     <p><strong>Imparerai</strong> come progettare e programmare una web app con Ruby on Rails grazie all'aiuto dei nostri coaches.</p>
 </div>
@@ -518,6 +518,9 @@
 
     <p class="slogan">Get excited and make things!</p>
 </footer>
+
+-->
+
 <script type="text/javascript">
 
     var _gaq = _gaq || [];
