@@ -408,6 +408,13 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.kharkiv2015#promo {
+  padding-left:340px;
+  background:url('../images/kharkiv/rg-kharkiv-2015.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+                 background-size: 300px;
+}
+
 .recife#promo {
   padding-left:340px;
   background:url('../images/rg-portoalegre.png') no-repeat 0 10px,
