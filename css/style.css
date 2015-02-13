@@ -1320,8 +1320,7 @@ h4.warsaw {
 }
 .hannover#promo {
   padding-left:340px;
-  background: url('../images/rg-hannover.jpg') no-repeat -15px 20px,
-              url('../images/separator.png') no-repeat center bottom;
+  background: url('../images/rg-hannover.jpg') no-repeat -15px 20px;
 }
 
 .hannover#promo h1 {
