@@ -2202,6 +2202,11 @@ a:hover.bratislava2014-a {
     height: auto;
 }
 
+.perth-bg {
+    background:url('../images/perth/rg-perth-background.png') no-repeat center;
+    background-size: auto 200px;
+}
+
 .perth#promo {
   padding-left:340px;
   background:url('../images/perth/rg-perth-background.png') no-repeat 0 10px;
