@@ -2139,3 +2139,76 @@ a:hover.bratislava2014-a {
   background:url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
 	background-size: 320px;
 }
+
+
+/* Perth 2015 */
+
+.perth_header {
+  background: #d3360b url('../images/perth/rg-perth-background.png') no-repeat center;
+  background-size: cover;
+  display: table;
+  height: 50vh;
+  width: 100%;
+}
+
+.perth_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  position: relative;
+}
+
+.perth_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  font-weight:bold;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+  color:#d3360b;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.perth_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.perth_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.perth_header_button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
+.perth_header_button:hover {
+  background: #C2320A;
+}
+
+.perth-tw-logo {
+    width: 250px;
+    height: auto;
+}
+
+.perth-bg {
+    background:url('../images/perth/rg-perth-background.png') no-repeat center;
+    background-size: auto 200px;
+}
+
+.perth#promo {
+  padding-left:340px;
+  background:url('../images/perth/rg-perth-background.png') no-repeat 0 10px;
+}
+
