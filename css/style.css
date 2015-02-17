@@ -2146,6 +2146,13 @@ a:hover.bratislava2014-a {
 	background-size: 320px;
 }
 
+.bialystok #apply-link {
+  background: #d3360b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
 
 /* Perth 2015 */
 
