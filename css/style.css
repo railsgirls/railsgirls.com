@@ -299,6 +299,10 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.heinola#promo h1 {
+  background: url('../images/rg-header-heinola.png') no-repeat left top;
+}
+
 .paris#promo {
   padding-left:340px;
   background:url('../images/rg-paris.png') no-repeat 0 10px,
