@@ -2187,7 +2187,7 @@ a:hover.bratislava2014-a {
 }
 
 .oulu_header p {
-  color: #fff;
+  color: #d3360b;
   max-width: 30em;
   margin: 0 auto 1em;
   font-size: 26px;
@@ -2200,13 +2200,13 @@ a:hover.bratislava2014-a {
   padding: 1em 1.5em;
   font-weight: bold;
   font-size: 16px;
-  color: #d3360b;
+  color: white;
   margin: 0 0.5em;
   display: inline-block;
 }
 
 .oulu_header_button:hover {
-  background: white;
+  background: #d3360b;
 }
 
 /* Perth 2015 */
