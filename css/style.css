@@ -1,4 +1,4 @@
-﻿@import url('reset.css');
+@import url('reset.css');
 @import url('960.css');
 @import url('text.css');
 
@@ -291,6 +291,16 @@ a, a:visited, a:focus, a:active, a:hover{
   padding-left:340px;
   background:url('../images/rg-paris.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
+}
+
+.heinola#promo {
+  padding-left:340px;
+  background:url('../images/rg-heinola.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.heinola#promo h1 {
+  background: url('../images/rg-header-heinola.png') no-repeat left top;
 }
 
 .paris#promo {
@@ -892,8 +902,8 @@ pre {
   background:url('../images/rg-galway-header.png') no-repeat left top;
 }
 
-.oulu#promo h1 {
-  background:url('../images/rg-oulu-header.png') no-repeat left top;
+/*.oulu#promo h1 {
+  background:url('../images/rg-oulu-header.png') no-repeat left top;*/
 }
 
 .dresden#promo h1 {
@@ -2140,6 +2150,12 @@ a:hover.bratislava2014-a {
 	background-size: 320px;
 }
 
+.bialystok #apply-link {
+  background: #d3360b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
 
 /* Perth 2015 */
 
