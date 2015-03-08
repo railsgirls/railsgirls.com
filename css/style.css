@@ -598,7 +598,8 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 
 .brussels#promo {
-  padding-left:340px;
+  padding-left: 340px;
+  padding-bottom: 32px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
