@@ -609,6 +609,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
 }
 
+.salo#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
+}
+
 .wroclaw#promo {
   padding-left:340px;
   background:url('../images/rg-wroclaw.jpg') no-repeat 0 10px,
