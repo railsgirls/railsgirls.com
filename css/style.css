@@ -610,6 +610,14 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
 }
 
+
+.helsinki2015#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+
 .wroclaw#promo {
   padding-left:340px;
   background:url('../images/rg-wroclaw.jpg') no-repeat 0 10px,
@@ -1033,6 +1041,10 @@ pre {
 
 .turku#promo h1 {
   background:url('../images/rg-turku-header.png') no-repeat left top;
+}
+
+ .helsinki2015#promo h1 {
+  background:url('../images/rg-helsinki2015-header.png') no-repeat left top;
 }
 
 .warsaw#promo {
