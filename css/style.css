@@ -1763,9 +1763,24 @@ footer a {
   margin-right:20px;
 }
 
-
 .coaches .grid_3:nth-child(4n+4) {
   margin-right:0;
+}
+
+.logo.grid_3{
+  margin-left: 0;
+}
+
+.logo.grid_3 a {
+  text-align: left;
+  border: 0;
+  line-height: 72px;
+}
+
+.logo.grid_3 a>img {
+  width: 150px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 #left, #right {
