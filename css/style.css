@@ -189,7 +189,7 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 
 .hongkong#promo {
-  background: url('../images/rg-hongkong.png') no-repeat 10px 40px,
+  background: url('../images/rg-hongkong.png') no-repeat center 300px,
               url('../images/separator.png') no-repeat center bottom;
 }
 
