@@ -1783,6 +1783,10 @@ footer a {
   display: inline-block;
 }
 
+.logo.grid_3.stretched a>img {
+  width: 190px;
+}
+
 #left, #right {
   width:250px;
   float:left;
