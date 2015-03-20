@@ -161,12 +161,16 @@ a, a:visited, a:focus, a:active, a:hover{
  background:url('../images/rg-lisboa-header.png') no-repeat left top;
 }
 
-.groningen#promo {
+.groningen13#promo {
   padding-left: 340px;
   background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
-
+.groningen15#promo {
+  padding-left: 340px;
+  background: url('../images/rg_groningen_rocks.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 .eindhoven#promo {
   padding-left: 340px;
   background: url('../images/rg-eindhoven.png') no-repeat 0 10px,
