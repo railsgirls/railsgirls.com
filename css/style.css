@@ -761,6 +761,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-lodz-header.png') no-repeat left top;
 }
 
+.lodz.lodz2015#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz.lodz2015#promo h1 {
+  background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
+}
+
 pre {
   background:#eee;
   color:#111;
@@ -1273,7 +1282,7 @@ h4.warsaw {
 
 .london-four#promo {
   padding-left:340px;
-  background:url('../images/london2014/rails_girls_london_cats.jpg') 0px 10px/32% no-repeat,
+  background:url('../images/london/rails_girls_london_cats.jpg') 0px 10px/32% no-repeat,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
