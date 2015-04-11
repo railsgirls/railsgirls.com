@@ -36,9 +36,17 @@ It will take a while before the changes show, so don't panic!
 
 ## Checklist
 - Did you remember to change Twitter & Facebook details?
+- Did you include a [Code of Conduct](http://guides.railsgirls.com/guide/)?
+- Did you remember to add an e-mail where people can contact you?
 - Did you remember to add your event to index.html and events.html?
 - Did you remember to remove your event after it finished?
+- Did you add your city to [the Map](http://rails-girls-map.herokuapp.com/#)?
+
 
 ## Tools
+The Wufoo form is accessible with team@railsgirls.com and pw: rubynhienomekko
+
+The example application http://railsgirlsapp.herokuapp.com/ideas is accessible on Heroku with linda@railsgirls.com and pw: rubynhienomekko
+
 Thanks to @ys for the counter you can include on your page.
 https://github.com/ys/rails-girls-count#readme

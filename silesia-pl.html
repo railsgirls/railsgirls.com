@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang='pl'>
+<head>
+  <meta charset='utf-8'>
+  <title>Rails Girls Silesia - 04-05 październik 2014</title>
+  <meta name='description'
+        content='Rails Girls w końcu na Śląsku (04-05 październik 2014): przyjdź na dwudniowe warsztaty i poznaj magiczny świat tworzenia aplikacji internetowych w Ruby on Rails.'>
+  <meta name='author' content='Rails Girls Silesia'>
+
+  <link rel='shortcut icon' href='/favicon.png'>
+  <link rel='apple-touch-icon' href='/apple-touch-icon.png'>
+
+  <link rel='stylesheet' href='./css/style.css'>
+
+  <style>
+    .side img { vertical-align middle }
+    .side a { border: 0 }
+  </style>
+
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+  <script type='text/javascript' src='main.js'></script>
+  <script type='text/javascript' src='https://apis.google.com/js/plusone.js'></script>
+  <script type='text/javascript' src='http://use.typekit.net/nbs6fzt.js'></script>
+  <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
+
+  <meta property='og:image' content='http://railsgirls.com/images/railsgirls-sq.png'/>
+  <!--[if lt IE 9]>
+  <script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
+  <![endif]-->
+</head>
+<body class='silesia'>
+
+  <!-- Facebook script -->
+  <div id='fb-root'></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=104240249608573&version=v2.0';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
+  <header>
+  <div class='container_12'>
+    <a id='logo' href='/'><img src='images/railsgirls-logo.png' alt='Rails Girls' /></a>
+    <nav>
+      <a href='./events.html'>Wydarzenia</a>
+      <a href='./materials.html'>Materiały</a>
+      <a href='./press.html'>Prasa</a>
+      <a href='http://blog.railsgirls.com'>Blog</a>
+    </nav>
+  </div>
+  </header>
+
+  <div id='container' class='container_12 page clearfix'>
+    <div id='languages' class='grid_12'>
+      <a href='./silesia.html' title='In English'>In English</a> |
+      <a href='./silesia-silesian.html' title='Po ślönsku'>Po ślönsku</a>
+    </div>
+    <div class='grid_12 omega alpha'>
+      <div id='promo' class='silesia'>
+        <h1>Rails Girls Silesia
+          <small>04-05 października 2014</small>
+        </h1>
+        <p>Witaj!</p>
+        <p>
+          Rails Girls w końcu na Śląsku.
+          Podczas dwudniowych, darmowych warsztatów zanurzymy się magicznym świecie Ruby on Rails.
+        </p>
+        <p>Rejestracja zakończona</p>
+        <p>
+          Śledź nas na <a href='http://twitter.com/rg_silesia'>Twitterze</a> i <a href='http://facebook.com/railsgirlssilesia'>Facebooku</a>.
+        </p>
+
+        <div id='share'>
+
+          <div style='margin:0 15px 0 0;'>
+            <a href='https://twitter.com/rg_silesia' class='twitter-follow-button' data-show-count='true'>
+              Śledź @rg_silesia
+            </a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script>
+          </div>
+
+          <div class='fb-like' data-href='http://facebook.com/RailsGirlsSilesia' data-layout='standard' data-action='like' data-show-faces='true' data-share='false'></div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </div>
+
+      </div>
+
+
+      <div class='grid_4 alpha feature'>
+        <p>Z pomocą naszych trenerów <strong>nauczysz się</strong> projektować i programować aplikacje internetowe.</p>
+      </div>
+      <div class='grid_4 feature'>
+        <p>Jedyne co <strong>potrzebujesz</strong> to własny komputer, odrobina ciekawości i szczypta wyobraźni!</p>
+      </div>
+      <div class='grid_4 omega feature'>
+        <p>
+          <strong>Chcesz pomóc?</strong> Szukamy wolontariuszy oraz trenerów Ruby on Rails.
+          <a href='mailto:railsgirlssilesia@fractalsoft.org'>Napisz do nas</a>.
+        </p>
+      </div>
+
+      <hr>
+
+      <div class='grid_6 alpha'>
+        <iframe src="http://player.vimeo.com/video/114024898" width="940" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/114024898">Rails Girls Silesia 2014</a> from <a href="http://vimeo.com/railsgirlssilesia">Rails Girls Silesia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+
+      <hr>
+
+      <div class='grid_6 alpha'>
+        <h2>Sobota, 04. października</h2>
+        <table id='schedule'>
+          <tbody>
+            <tr>
+              <th>16:30 - 17:00</th>
+              <td><h4>Rejestracja</h4></td>
+            </tr>
+            <tr>
+              <th>17:00 - 18:00</th>
+              <td>
+                <h4>Powitanie i instalacja środowiska</h4>
+                Będziemy instalować Ruby on Rails na Twoim komputerze, więc prosimy o zabranie laptopów.
+              </td>
+            </tr>
+            <tr>
+              <th>18:00 - 19:00</th>
+              <td>
+                <h4>Krótkie prezentacje</h4>
+                <strong>Dorota Sokołowska</strong> - "Dlaczego Geek Girls kochaja marchewki - czyli parę słów o GGC"
+                <br>
+                <strong>Adam Sibik</strong> - "Programowanie to prawie jak supermoce. CoderDojo na świecie, w Polsce, w Gliwicach"
+                <br>
+                <strong>Marlena Staszek</strong> - "Women in Technology"
+              </td>
+            </tr>
+            <tr>
+              <th>19:00 - 20:00</th>
+              <td><h4>Warsztaty</h4></td>
+            </tr>
+            <tr>
+              <th>20:00 - 24:00</th>
+              <td>
+                <h4>Friday Hug i wieczorek integracyjny</h4>
+                ;]
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr />
+
+        <h2>Niedziela, 05. października</h2>
+
+        <table id='schedule'>
+          <tbody>
+            <tr>
+              <th>09:00 - 10:00</th>
+              <td><h4>Śniadanie</h4></td>
+            </tr>
+            <tr>
+              <th>10:00 - 13:00</th>
+              <td><h4>Warsztaty</h4></td>
+            </tr>
+            <tr>
+              <th>13:00 - 13:45</th>
+              <td><h4>Obiad</h4></td>
+            </tr>
+            <tr>
+              <th>13:45 - 14:00</th>
+              <td>
+                <h4>Bentobox - Zrozumieć aplikacje internetowe</h4>
+                <strong>Michał Skóra</strong>
+              </td>
+            </tr>
+            <tr>
+              <th>14:00 - 15:00</th>
+              <td>
+                <h4>Krótkie prezentacje</h4>
+                <strong>Basia Madej</strong> - "Adventures? Make You Late for Dinner"
+                <br>
+                <strong>Michał Wyrobek</strong> - "Communication oriented programming"
+                <br>
+                <strong>Zofia Lekki</strong> - "Niech MOOC będzie z Tobą!"
+                <br>
+                <strong>Alek Małaszkiewicz</strong> - "Efektywność w zespołach"
+              </td>
+            </tr>
+            <tr>
+              <th>15:00 - 18:00</th>
+              <td>
+                <h4>Warsztaty</h4>
+                Rozwijanie aplikacji
+              </td>
+            </tr>
+            <tr>
+              <th>18:00</th>
+              <td><h4>Krótkie prezentacje końcowe</h4></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr>
+
+        <h3 title='Często Zadawane Pytania'>FAQ</h3>
+        <p>
+          <strong>Ile kosztuje udział w warsztatach?</strong>
+          Zupełnie nic, warsztaty są za darmo! Ciesz się chwilą!
+        </p>
+        <p>
+          <strong>Dla kogo są te warsztaty?</strong>
+          Warsztaty kierowane są do kobiet, w każdym wieku, z podstawową znajomością komputera.
+          Prezentacje oraz praca w grupach w większości odbywać się będzie w języku polskim, ale mogą pojawić się też grupy angielskojęzyczne.
+          Proszę zabrać swoje laptopy.
+        </p>
+        <p>
+          <strong>Czy mężczyźni też mogą uczestniczyć?</strong>
+          Tak, ale kobiety będą mieć pierwszeństwo.
+        </p>
+        <p>
+          <strong>Wiem jak programować - Jak mogę pomóc?</strong>
+          Poszukujemy również wolontariuszy jako trenerów. Przed warsztatami odbędzie się spotkanie organizacyjne z trenerami. <a href='http://twitter.com/rg_silesia'>Ćwierknij do nas</a>
+        </p>
+
+        <h3>Miejsce</h3>
+        <iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src="http://www.openstreetmap.org/export/embed.html?bbox=18.673732280731198%2C50.28363574205394%2C18.680813312530518%2C50.28694002296156&amp;layer=mapnik&amp;marker=50.28528791118408%2C18.67727279663086" style='border: 1px solid black'></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.28529&amp;mlon=18.67727#map=18/50.28529/18.67727">Zobacz większą mapę</a></small>
+
+        <hr>
+
+        <div class='side'>
+          <h3>Przyjaciele, partnerzy i kibice</h3>
+
+          <p>
+            <a href='http://silesia.hackerspace.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/hackerspace-silesia.png' alt='Hackerspace Silesia' title='Hackerspace Silesia'>
+            </a>
+            <a href='http://silesia.hackerspace.pl/' target='_blank'>Hackerspace Silesia</a> jest to <strong>społeczność kreatywnych ludzi</strong> z&nbsp;różnych obszarów zainteresowań związanych z&nbsp;<strong>technologiami</strong>.
+          </p>
+
+          <p>
+            <a href='http://wit.insys.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/women-in-technology.png' alt='Women in Technology' title='Women in Technology'>
+            </a>
+            <a href='http://wit.insys.pl/' target='_blank'>Women in Technology</a> Women in Technology to <strong>społeczność kobiet</strong>, które łączy jedna wspólna cecha - <strong>technologia</strong>.
+          </p>
+
+          <br>
+
+          <p>
+            <a href='http://mikstura.it/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/mikstura-it.png' alt='Mikstura IT' title='Mikstura IT'>
+            </a>
+            <a href='http://mikstura.it/' target='_blank'>Mikstura IT</a> jest fundacją, która <strong>skupia społeczność internetową i mobilną</strong>. Ma&nbsp;na celu dostarczenie <strong>forum</strong> dla programistów, grafików, przedsiębiorców, organizacji pozarządowych i wszystkich zainteresowanych.
+          </p>
+
+          <p>
+            <a href='http://womanonrails.com/pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/woman-on-rails.png' alt='Woman on Rails' title='Woman on Rails'>
+            </a>
+            <a href='http://womanonrails.com/pl/' target='_blank'>Woman on Rails</a> to blog o <strong>technologiach</strong> (np. Ruby, Rails, JavaScript, CoffeeScript), <strong>emocjach i&nbsp;wydarzeniach z branży IT</strong>.
+          </p>
+
+          <br>
+
+          <p>
+            <a href='http://soroptimist.cieszyn.pl' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/soroptimist.png' alt='Soroptimist International Klub w Cieszynie' title='Soroptimist International Klub w Cieszynie'>
+            </a>
+            <a href='http://soroptimist.cieszyn.pl/' target='_blank'>Soroptimist International Klub w Cieszynie</a> to ogólnoświatowa <strong>organizacja dla kobiet</strong> o wysokiej pozycji zawodowej i&nbsp;społecznej. Ich misją jest podejmowanie działań dla <strong>poprawy życia kobiet i&nbsp;dziewcząt</strong>.
+          </p>
+
+          <p>
+            <a href='http://srug.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/srug.png' alt='Śląska Grupa Użytkowników Ruby' title='Śląska Grupa Użytkowników Ruby'>
+            </a>
+            <a href='http://srug.pl/' target='_blank'>SRUG (Śląska Grupa Użytkowników Ruby)</a> to przyjacielskie i cykliczne <strong>spotkania dot. języka Ruby</strong> i nie tylko. Celem jest <strong>wymiana wiedzy i&nbsp;doświadczeń</strong> programistów.
+          </p>
+
+          <p>
+            <a href='http://geekgirlscarrots.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/geek-girls-carrots.png' alt='Geek Girls Carrots' title='Geek Girls Carrots'>
+            </a>
+            <a href='http://geekgirlscarrots.pl/' target='_blank'>Geek Girls Carrots (GGC)</a> to <strong>społeczności</strong> kobiet kochających nowe technologie. Misją <strong>społeczności</strong> jest promowanie kobiet w IT.
+          </p>
+
+          <br>
+
+          <p>
+            <a href='http://hack4good.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/hack4good.png' alt='hack4good 0.6' title='hack4good 0.6'>
+            </a>
+            Weź udział w <strong>krakowskiej edycji hackathonu</strong> <a href='http://hack4good.pl/' target='_blank'>#hack4good 0.6</a> 12-14 września 2014.
+          </p>
+
+          <br>
+          <br>
+
+          <p>
+            <a href='http://smartdevcon.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/smartdevcon.png' alt='SmartDevCon' title='SmartDevCon'>
+            </a>
+            Konferencja <a href='http://smartdevcon.pl/' target='_blank'>SmartDevCon</a> jest wydarzeniem skierowanym do osób związanych z <strong>rozwiązaniami mobilnymi i wbudowanymi</strong>.
+          </p>
+
+          <p>
+            <a href='http://coderslab.pl/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/coders-lab.png' alt="Coder's Lab" title="Coder's Lab">
+            </a>
+            <a href='http://coderslab.pl/' target='_blank'>Coder's Lab</a> to pierwsza w Polsce <strong>Szkoła Programowania</strong>, oparta na nowoczesnych kursach typu bootcamp. Flagowy kurs Ruby on Rails skierowany jest do osób, które chcą dołączyć do grona specjalistów poszukiwanych w branży IT.
+          </p>
+
+          <p>
+            <a href='http://recruitcoders.com/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/recruit-coders.png' alt='Recruit Coders' title='Recruit Coders'>
+            </a>
+            <a href='http://recruitcoders.com/' target='_blank'>Recruit Coders</a> to platforma internetowa, która stanowi <strong>pomost pomiędzy programistami i firmami</strong> z całego świata.
+          </p>
+
+          <p>
+            <a href='https://gliwice.eu/' target='_blank' class='float-right'>
+              <img src='./images/silesia/logo/miasto-gliwice.png' alt='Prezydent miasta Gliwice' title='Prezydent miasta Gliwice'>
+            </a>
+            Patronat Prezydenta <a href='https://gliwice.eu/' target='_blank'>Miasta Gliwice</a>.
+          </p>
+
+        </div>
+      </div>
+
+      <div class='grid_5 push_1 omega side'>
+        <h3>Informacje</h3>
+        <p>
+          <strong>Otwarcie rejestracji:</strong> Sierpień 24, 2014<br>
+          <strong>Zakończenie rejestracji:</strong> Wrzesień 14, 2014<br>
+          <strong>Informacja o przyjęciu na warsztaty:</strong> Wrzesień 20, 2014<br>
+          <strong>Miejsce:</strong> Pszczyńska 85, Gliwice, Poland
+        </p>
+
+        <h3>Partnerzy</h3>
+
+        <p>Rails Girls Silesia jest współorganizowane dzięki naszym wspaniałym partnerom i sponsorom.</p>
+
+        <p>
+          Chcesz pomóc? Szukamy partnerów i sponsorów, którzy wesprą to wydarzenie non-profit!
+          <a href='mailto:railsgirlssilesia@fractalsoft.org'>Napisz do nas</a>!
+        </p>
+
+        <hr>
+
+        <p>Aby wydobyć piękno kamieni szlachetnych należy zastosować odpowiedni szlif.</p>
+
+
+        <h3><strong>Główny Sponsor Ruby</strong></h3>
+
+        <p>
+          <a href='http://fb.com/fractalsoft' target='_blank'>
+            <img src='./images/silesia/logo/fractalsoft.png' alt='Fractal Soft' title='Fractal Soft'>
+          </a><br>
+          <a href='http://fb.com/fractalsoft' target='_blank'>Fractal Soft</a>
+          to zgrany zespół, z pasją. Kochają <strong>proste rozwiązania</strong> i dobre praktyki programistyczne. Używają <strong>Ruby on Rails</strong> aby spełniać marzenia o aplikacjach internetowych. Można ich spotkać na różnych wydarzeniach IT.
+        </p>
+
+
+        <h3>Ruby Sponsor Szlifu Brylantowego</h3>
+
+        <p>
+          <a href='http://www.thesoftwarehouse.pl/en' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/the-software-house.png' alt='The Software House' title='The Software House'>
+          </a>
+          <a href='http://www.thesoftwarehouse.pl/'>The Software House</a> to zespół <strong>świetnych developerów</strong> pracujących nad wspaniałymi projektami dla miłych, międzynarodowych klientów. Pracują z <strong>najlepszymi dostępnymi narzędziami</strong> w&nbsp;przyjemnym biurze w centrum Gliwic (i zdalnie!).
+        </p>
+
+
+        <h3>Ruby Sponsor Szlifu Szmaragdowego</h3>
+
+        <p>
+          <a href='http://github.com' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/github.png' alt='Github Logo' title='Github Community'>
+          </a>
+          <a href='http://github.com'>Github</a> to najlepsze miejsce do <strong>dzielenia się kodem</strong> z&nbsp;przyjaciółmi, współpracownikami, kolegami, oraz obcymi osobami. Ponad <strong>6 milionów osób</strong> używa Githuba do budowania niesamowitych rzeczy.
+        </p>
+
+
+        <h3>Ruby Sponsor Szlifu Fantazyjnego</h3>
+
+        <p>
+          <a href='http://selleo.com/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/selleo.png' alt='Selleo' title='Selleo'>
+          </a>
+          <a href='http://selleo.com/' target='_blank'>Selleo</a> projektuje i wdraża <strong>aplikacje webowe i mobilne</strong> dla firm oraz organizacji pozarządowych. Ruby on Rails zawsze był główną technologią webową, w której <strong>zespół</strong> tworzył projekty.
+        </p>
+
+        <p>
+          <a href='http://trix.pl/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/trix.png' alt='Trix' title='Trix'>
+          </a>
+          <a href='http://trix.pl/'>Trix.pl</a> jest zespołem doświadczonych inżynierów <strong>pracujących zdalnie</strong> ze startupami na różnych poziomach używając Railsów przez <strong>ponad 10 lat</strong>.
+        </p>
+
+        <br>
+
+        <p>
+          <a href='https://cowbell-labs.com/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/cowbell-labs.png' alt='Cowbell Labs' title='Cowbell Labs'>
+          </a>
+          <a href='https://cowbell-labs.com/'>Cowbell Labs</a> to niewielki zespół zapaleńców, zajmujących się tworzeniem <strong>aplikacji internetowych i mobilnych</strong>, wykorzystujących do tego celu najnowsze i&nbsp;najlepsze narzędzia - m.in. <strong>Ruby on Rails</strong>.
+        </p>
+
+        <p>
+          <a href='http://megiteam.pl/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/megi-team.png' alt='Megi Team' title='Megi Team'>
+          </a>
+          <a href='http://megiteam.pl/'>MegiTeam</a> to <strong>hosting nowych technologii w chmurze</strong>. Gotowe środowiska programistyczne oferujące szybkie wdrażanie serwisów webowych i uruchomienie aplikacji <strong>jednym kliknięciem</strong>.
+        </p>
+
+        <p>
+          <a href='http://www.unikatstudio.pl/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/unikat-studio.png' alt='Unikat Studio' title='Unikat Studio'>
+          </a>
+          <strong>Salon fryzjerski</strong> <a href='http://www.unikatstudio.pl/'>Unikat Studio</a> w&nbsp;Katowicach świadczy profesjonalne usługi fryzjerskie oparte na produktach firmy <strong>Goldwell</strong>.
+        </p>
+
+        <p>
+          <a href='http://monterail.com/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/monterail.png' alt='Monterail' title='Monterail'>
+          </a>
+          Idea stojąca za Rails Girls pokrywa się z poglądami <a href='http://monterail.com/'>Monterail</a>. Tak jak organizatorzy wierzymy, że <strong>niesłabnąca chęć do nauki</strong> wyróżnia ludzi mogących zmieniać świat swój i innych. Promowanie takiego podejścia idealnie zawsze znajdzie miejsce w naszym <strong>kodeksie zawodowym</strong>. I dlatego znalazły tam miejsce również Rails Girls.
+        </p>
+
+        <p>
+          <a href='https://netguru.co/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/netguru.png' alt='Netguru' title='Netguru'>
+          </a>
+          <a href='https://netguru.co/'>Netguru</a> to zgrany <strong>zespół web developerów</strong>, specjalizujący się w projektowaniu, wdrażaniu i&nbsp;utrzymywaniu systemów i&nbsp;aplikacji internetowych, wykorzystując technologie Ruby on Rails. Działamy w&nbsp;oparciu o sprawdzone metodologie <strong>Agile i Lean Startup</strong>.
+        </p>
+
+
+        <h3>Sponsorzy</h3>
+
+        <p>
+          <a href='https://www.codeschool.com/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/code-school.png' alt='Code School' title='Code School'>
+          </a>
+          Odłóż książki z programowania i <strong>ucz się</strong> z&nbsp;<a href='https://www.codeschool.com/' target='_blank'>Code School</a>. Code School oferuje różnorodne kursy <strong>JavaScrip, HTML/CSS, Ruby i iOS</strong>, które pomogą Ci rozwinąć swoje umiejętności i nauczą nowych technologii.
+        </p>
+
+        <p>
+          <a href='http://www.wooga.com/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/wooga.png' alt='Wooga'>
+          </a>
+          Utworzona w roku 2009, <a href='http://www.wooga.com/' target='_blank'>Wooga</a> stała się jednym z&nbsp;najbardziej popularnych producentów <strong>gier mobilnych</strong> na świecie.
+        </p>
+
+        <p>
+          <a href='http://helion.pl/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/helion.png' alt='Helion'>
+          </a>
+          <a href='http://helion.pl/' target='_blank'>Helion</a> to <strong>wydawnictwo specjalistyczne</strong> publikujące książki związane z technologiami, kierowane do wszystkich <strong>użytkowników komputerów</strong>, bez względu na stopień zaawansowania.
+        </p>
+
+        <p>
+          <a href='http://www.goodcake.pl/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/good-cake.png' alt='Good Cake' title='Good Cake'>
+          </a>
+          <a href='http://www.goodcake.pl/' target='_blank'>Good Cake</a> to <strong>angielska piekarnia</strong> w Gliwicach. Bella stworzyła Good Cake czerpiąc <strong>inspiracje z&nbsp;angielskiej tradycji wypieków</strong>. Good Cake to po prostu dobre ciasto.
+        </p>
+
+        <p>
+          <a href='http://www.wegebar.com/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/zloty-osiol.png' alt='Złoty Osioł' title='Złoty Osioł'>
+          </a>
+          <a href='http://www.wegebar.com/'>Złoty Osioł</a> to bar wegetariański w&nbsp;samym centrum Katowic i&nbsp;Gliwic. Gotujemy <strong>dania wege</strong> z&nbsp;kuchni całego świata.
+        </p>
+
+        <p>
+          <a href='https://skygatedigital.co.uk/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/skygate.png' alt='SkyGate' title='SkyGate'>
+          </a>
+          <strong>Software i design house</strong> z&nbsp;Gliwic (HQ), Wrocławia i&nbsp;Krakowa, zajmuje się kompleksowym rozwojem projektów.
+        </p>
+
+        <hr>
+
+        <h3>Media</h3>
+
+        <p class='links'>
+          <a href='http://www.tvp.pl/katowice' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/tvp-katowice.png' alt='TVP Katowice'>
+          </a>
+          <a href='http://www.tvp.pl/katowice' target='_blank'>TVP Katowice</a> jest naszym patronem medialnym.
+        </p>
+
+        <br>
+        <br>
+
+        <p class='links'>
+          <a href='http://webmastah.pl/' target='_blank' class='float-right'>
+            <img src='./images/silesia/logo/webmastah.png' alt='TVP Katowice'>
+          </a>
+          <a href='http://webmastah.pl/' target='_blank'>Webmastah</a> to miejsce wymiany poglądów i&nbsp;doświadczeń <strong>niezależnie od języka programowania</strong>, przekonań czy ilości godzin przesiedzianych nad kodem.
+        </p>
+      </div>
+
+
+      <div class='grid_5 push_1 omega side'>
+        <hr>
+        <p>
+          <a href='http://learn-rails.com/learn-ruby-on-rails.html' target='_blank'>
+            <img src='./images/silesia/cover/learn-rails-book.png' alt='Learn Ruby on Rails' title='Learn Ruby on Rails'>
+          </a>
+        </p>
+
+      </div>
+
+
+      <div class='coaches'>
+        <hr />
+        <h2>Ekipa ze Śląska</h2>
+
+        <a href='https://twitter.com/womanonrails' class='grid_3'>
+          <img src='https://pbs.twimg.com/profile_images/486568316647923712/EsKWv_I-_400x400.png' alt='Agnieszka Matysek' class='coach'>
+          Agnieszka Matysek,<br>
+          organizer
+          <small>@womanonrails</small>
+        </a>
+
+        <a href='https://twitter.com/torrocus' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/f6bcc574c88017e6cc8491b571fd816d.png' alt='Aleksander Małaszkiewicz' class='coach'>
+          Aleksander Małaszkiewicz,<br>
+          organizer
+          <small>@torrocus</small>
+        </a>
+
+        <a href='https://twitter.com/8shad8' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/70a1d56aaa61c42c1b3c98f1671745cc.png' alt='Ula Hołodniak' class='coach'>
+          Ula Hołodniak,<br>
+          organizer, coach
+          <small>@8shad8</small>
+        </a>
+
+        <a href='#' class='grid_3'>
+          <img src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c8.0.160.160/p160x160/10322728_4275584943339_9011438441104029908_n.jpg?oh=fae828d4f30fe00a92782df967a834cc&oe=55137C20&__gda__=1427386092_3ebb78f978368638df1fc876c4d711a4' alt='Danuta Piwowar' class='coach'>
+          Danuta Piwowar,<br>
+          graphics designer
+          <!-- We are waiting for Your twitter -->
+        </a>
+
+        <a href='https://twitter.com/noplisu' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/0c63820e8b1390a92c4dbbcaa10fe8c4.png' alt='Grzegorz Lisowski' class='coach'>
+          Grzegorz Lisowski,<br>
+          assistant, coach
+          <small>@noplisu</small>
+        </a>
+
+        <a href='https://twitter.com/agrzbiela' class='grid_3'>
+          <img src='https://abs.twimg.com/sticky/default_profile_images/default_profile_0_400x400.png' alt='Andrzej Grzbiela' class='coach'>
+          Andrzej Grzbiela,<br>
+          assistant
+          <small>@agrzbiela</small>
+        </a>
+
+        <a href='https://twitter.com/michalvichy' class='grid_3'>
+          <img src='https://pbs.twimg.com/profile_images/489694770826997760/-tfoGgRD_400x400.jpeg' alt='Michał Skóra' class='coach'>
+          Michał Skóra,<br>
+          assistant
+          <small>@michalvichy</small>
+        </a>
+
+        <a href='#' class='grid_3'>
+          <img src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p160x160/47261_140125609363955_7521568_n.jpg?oh=81e96c687757c832e941c5ae94c24d9d&oe=54F94DDE&__gda__=1426243687_fd2e1aad32e9618465b630c6ef62df29' alt='Patryk Fitzner' class='coach'>
+          Patryk Fitzner,<br>
+          assistant
+          <!-- We are waiting for Your twitter -->
+        </a>
+
+        <a href='https://twitter.com/morgoth85' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/8085138938c34ae1af140bfc91f2fe56.png' alt='Wojciech Wnętrzak' class='coach'>
+          Wojciech Wnętrzak,<br>
+          coach
+          <small>@morgoth85</small>
+        </a>
+
+        <a href='https://twitter.com/NataliaStanko' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/e69217d77165efba1875dd95b7be7ab9.png' alt='Natalia Stanko' class='coach'>
+          Natalia Stanko,<br>
+          coach
+          <small>@NataliaStanko</small>
+        </a>
+
+        <a href='https://twitter.com/MagdaEriruos' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/0a7ff0ea3a9430775955029df1defeb0.png' alt='Magdalena Malinowska' class='coach'>
+          Magdalena Malinowska,<br>
+          coach
+          <small>@MagdaEriruos</small>
+        </a>
+
+        <a href='https://twitter.com/_idengager' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/adb4704a0cb6b43c3a59eb46c637189b.png' alt='Kasia Jarmołowicz' class='coach'>
+          Kasia Jarmołkowicz,<br>
+          coach
+          <small>@_idengager</small>
+        </a>
+
+        <a href='#' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/bb552183220deee1f7f1db93348c3377.png' alt='Zofia Lekki' class='coach'>
+          Zofia Lekki,<br>
+          coach
+          <small></small>
+        </a>
+
+        <a href='https://twitter.com/KatarzynaSzawan' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/1553ffde18006f1f12791d4c3d9f441b.png' alt='Katarzyna Szawan' class='coach'>
+          Katarzyna Szawan,<br>
+          coach
+          <small>@KatarzynaSzawan</small>
+        </a>
+
+        <a href='https://twitter.com/bug_sylvia' class='grid_3'>
+          <img src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.32.160.160/p160x160/10516747_874268065918134_7433068833847535268_n.jpg?oh=a1c087df04a4681e0cd1c12e597aa6ed&oe=54FD71DC&__gda__=1426184603_c72200ec618c7177b21765242c856997' alt='Sylwia Robak' class='coach'>
+          <!-- http://www.gravatar.com/avatar/da81fdb3866fc5cb57f1c5a740e2677c.png -->
+          Sylwia Robak,<br>
+          coach
+          <small>@bug_sylvia</small>
+        </a>
+
+        <a href='#' class='grid_3'>
+          <img src='http://www.gravatar.com/avatar/b8357e2d1151025b6affa9aa880b8009.png' alt='Michał Wyrobek' class='coach'>
+          Michał Wyrobek,<br>
+          coach
+          <small></small>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- /content -->
+  <footer>
+    <p>
+      2010-2014, Rails Girls. <a href='./press.html'>Skontaktuj się z nami</a> lub śledź nas na <a href='http://twitter.com/railsgirls'>Twitterze</a> i <a href='https://www.facebook.com/railsgirls'>Facebooku</a>
+    </p>
+    <p class='slogan'>Get excited and make things!</p>
+  </footer>
+
+  <script type='text/javascript'>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+</html>
