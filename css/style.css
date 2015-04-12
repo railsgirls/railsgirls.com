@@ -82,7 +82,7 @@ a, a:visited, a:focus, a:active, a:hover{
 
 
 .galway#promo h1 {
-  background:url('./../images/rg-galway-header.png') no-repeat left top;
+  background:url('./../images/rg-galway-header2015.png') no-repeat left top;
 }
 
 .quito#promo {
@@ -161,12 +161,16 @@ a, a:visited, a:focus, a:active, a:hover{
  background:url('../images/rg-lisboa-header.png') no-repeat left top;
 }
 
-.groningen#promo {
+.groningen13#promo {
   padding-left: 340px;
   background: url('../images/rg-groningen-drawing.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
-
+.groningen15#promo {
+  padding-left: 340px;
+  background: url('../images/rg_groningen_rocks.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 .eindhoven#promo {
   padding-left: 340px;
   background: url('../images/rg-eindhoven.png') no-repeat 0 10px,
@@ -189,7 +193,7 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 
 .hongkong#promo {
-  background: url('../images/rg-hongkong.png') no-repeat 10px 40px,
+  background: url('../images/rg-hongkong.png') no-repeat center 300px,
               url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -598,7 +602,8 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 
 .brussels#promo {
-  padding-left:340px;
+  padding-left: 340px;
+  padding-bottom: 32px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
@@ -608,6 +613,19 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
 }
+
+.salo#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
+}
+
+
+.helsinki2015#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
+  no-repeat center bottom;
+}
+
 
 .wroclaw#promo {
   padding-left:340px;
@@ -741,6 +759,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
         }
 .lodz#promo h1 {
   background:url('../images/rg-lodz-header.png') no-repeat left top;
+}
+
+.lodz.lodz2015#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz.lodz2015#promo h1 {
+  background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
 }
 
 pre {
@@ -899,7 +926,7 @@ pre {
 }
 
 .galway#promo h1 {
-  background:url('../images/rg-galway-header.png') no-repeat left top;
+  background:url('../images/rg-galway-header2015.png') no-repeat left top;
 }
 
 /*.oulu#promo h1 {
@@ -1032,6 +1059,10 @@ pre {
 
 .turku#promo h1 {
   background:url('../images/rg-turku-header.png') no-repeat left top;
+}
+
+ .helsinki2015#promo h1 {
+  background:url('../images/rg-helsinki2015-header.png') no-repeat left top;
 }
 
 .warsaw#promo {
@@ -1251,7 +1282,7 @@ h4.warsaw {
 
 .london-four#promo {
   padding-left:340px;
-  background:url('../images/london2014/rails_girls_london_cats.jpg') 0px 10px/32% no-repeat,
+  background:url('../images/london/rails_girls_london_cats.jpg') 0px 10px/32% no-repeat,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1745,9 +1776,28 @@ footer a {
   margin-right:20px;
 }
 
-
 .coaches .grid_3:nth-child(4n+4) {
   margin-right:0;
+}
+
+.logo.grid_3{
+  margin-left: 0;
+}
+
+.logo.grid_3 a {
+  text-align: left;
+  border: 0;
+  line-height: 72px;
+}
+
+.logo.grid_3 a>img {
+  width: 150px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo.grid_3.stretched a>img {
+  width: 190px;
 }
 
 #left, #right {
@@ -2228,3 +2278,26 @@ a:hover.bratislava2014-a {
   background:url('../images/perth/rg-perth-background.png') no-repeat 0 10px;
 }
 
+.lviv#promo {
+  padding-left:340px;
+  padding-bottom: 40px;
+  background:url('../images/lviv/lviv.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+.lviv#promo h1{
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height:80px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:32px;
+  padding-bottom: 15px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+.lviv#promo h1 small {
+  padding-top: 5px;
+}
+.lviv#share {
+  padding-bottom: 30px;
+}
