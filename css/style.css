@@ -550,9 +550,9 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.osaka#promo {
+.osaka-1st#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka.jpg') no-repeat 0 10px,
+  background:url('../images/rg-osaka-1st.jpg') no-repeat left top,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
@@ -1024,8 +1024,8 @@ pre {
   background:url('../images/rg-nara-header.png') no-repeat left top;
 }
 
-.osaka#promo h1 {
-  background:url('../images/rg-osaka-header.png') no-repeat left top;
+.osaka-1st#promo h1 {
+  background:url('../images/rg-osaka-header-1st.png') no-repeat left top;
 }
 
 .shiojiri#promo h1 {
