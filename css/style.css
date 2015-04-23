@@ -562,6 +562,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.fukuoka#promo {
+  padding-left:420px;
+  background:url('../images/fukuoka/railsgirls.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.fukuoka#promo h1 {
+  background: none;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
