@@ -568,6 +568,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.fukuoka#promo {
+  padding-left:420px;
+  background:url('../images/fukuoka/railsgirls.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.fukuoka#promo h1 {
+  background: none;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -2310,4 +2320,42 @@ a:hover.bratislava2014-a {
 }
 .lviv#share {
   padding-bottom: 30px;
+}
+
+.bogota#promo {
+  padding-left:340px;
+  background:url('../images/rg-bogota.jpg') no-repeat 0 10px;
+}
+
+.bogota#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
+.bogota#promo div.registro{height: 80px; }
+.bogota#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.bogota#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.bogota#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
 }
