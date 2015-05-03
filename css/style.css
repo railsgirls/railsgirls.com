@@ -486,7 +486,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .munich#promo {
   padding-left:340px;
-  background:url('../images/rg-munich.png') no-repeat 0 10px,
+  background:url('../images/munich/rg-munich.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -997,7 +997,7 @@ pre {
 }
 
 .munich#promo h1 {
-  background:url('../images/rg-munich-header.png') no-repeat left top;
+  background:url('../images/munich/rg-munich-header.png') no-repeat left top;
 }
 
 .tokyo-2012-09-07#promo h1 {
