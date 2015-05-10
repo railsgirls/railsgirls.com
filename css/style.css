@@ -2198,8 +2198,14 @@ a:hover.bratislava2014-a {
 }
 
 .novisad#promo {
-	padding-left:340px;
-    background:url('../images/rg-novisad.jpg') no-repeat 0 10px,
+	padding-left:345px;
+    background:url('../images/rg-novisad.jpg') no-repeat 0 90px,
+				url('../images/separator.png') no-repeat center bottom;
+}
+
+.novisad2#promo {
+	padding-left:345px;
+    background:url('../images/novisad/workshop.jpg') no-repeat 0 90px,
 				url('../images/separator.png') no-repeat center bottom;
 }
 
