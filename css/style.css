@@ -2199,13 +2199,13 @@ a:hover.bratislava2014-a {
 
 .beograd#promo {
   padding-left:345px;
-    background:url('../images/beograd/left1.jpg') no-repeat 0 90px, 
+    background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px, 
         url('../images/separator.png') no-repeat center bottom;
 }
 
 .pitanja {
   padding-left:345px;
-    background:url('../images/beograd/left2.jpg') no-repeat 0
+    background:url('../images/beograd/left_pot2.jpg') no-repeat 0
 }
 
 .novisad#promo {
