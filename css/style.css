@@ -2197,6 +2197,17 @@ a:hover.bratislava2014-a {
   background: #C2320A;
 }
 
+.beograd#promo {
+  padding-left:345px;
+    background:url('../images/beograd/left1.jpg') no-repeat 0 90px, 
+        url('../images/separator.png') no-repeat center bottom;
+}
+
+.pitanja {
+  padding-left:345px;
+    background:url('../images/beograd/left2.jpg') no-repeat 0
+}
+
 .novisad#promo {
 	padding-left:345px;
     background:url('../images/rg-novisad.jpg') no-repeat 0 90px,
