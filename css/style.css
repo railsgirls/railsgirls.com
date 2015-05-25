@@ -799,6 +799,10 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   height: 75px;
 }
 
+.lodz2015 #schedule small {
+  font-size: 90%;
+}
+
 pre {
   background:#eee;
   color:#111;
