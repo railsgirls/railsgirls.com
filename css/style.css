@@ -785,13 +785,22 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-lodz-header.png') no-repeat left top;
 }
 
-.lodz.lodz2015#promo {
+.lodz2015#promo {
           padding-left:340px;
           background:url('../images/rg-lodz.png') no-repeat 0 10px;
                          url('../images/separator.png') no-repeat center bottom;
         }
-.lodz.lodz2015#promo h1 {
+.lodz2015#promo h1 {
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
+}
+
+.lodz2015 .coaches .grid_3 {
+  width: 205px;
+  height: 75px;
+}
+
+.lodz2015 #schedule small {
+  font-size: 90%;
 }
 
 pre {
@@ -1494,6 +1503,7 @@ h4.warsaw {
 #schedule td {
   padding:1em 0;
   font-size:15px;
+  color:#390c00;
 }
 
 #schedule th {
