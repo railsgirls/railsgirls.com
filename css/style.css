@@ -86,7 +86,7 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 
 .galway#video {
-  float: center;  
+  float: center;
 }
 
 .galway#video iframe {
@@ -125,6 +125,12 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .porto#promo h1 {
   background:url('../images/rg-porto-header.png') no-repeat left top;
+}
+
+.da-nang#promo {
+  padding-left:340px;
+  background:url('../images/rg-da-nang.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
 }
 
 .beijing#promo {
@@ -2209,7 +2215,7 @@ a:hover.bratislava2014-a {
 
 .beograd#promo {
   padding-left:345px;
-    background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px, 
+    background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px,
         url('../images/separator.png') no-repeat center bottom;
 }
 
