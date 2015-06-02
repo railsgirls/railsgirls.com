@@ -2408,3 +2408,9 @@ small.bogota{
 small.bta_role{
   font-size: 80%;
 }
+
+.tampere2015#promo {
+  padding-left:340px;
+  background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
