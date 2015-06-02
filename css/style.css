@@ -86,7 +86,7 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 
 .galway#video {
-  float: center;  
+  float: center;
 }
 
 .galway#video iframe {
@@ -125,6 +125,12 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .porto#promo h1 {
   background:url('../images/rg-porto-header.png') no-repeat left top;
+}
+
+.da-nang#promo {
+  padding-left:340px;
+  background:url('../images/rg-da-nang.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
 }
 
 .beijing#promo {
@@ -785,13 +791,22 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-lodz-header.png') no-repeat left top;
 }
 
-.lodz.lodz2015#promo {
+.lodz2015#promo {
           padding-left:340px;
           background:url('../images/rg-lodz.png') no-repeat 0 10px;
                          url('../images/separator.png') no-repeat center bottom;
         }
-.lodz.lodz2015#promo h1 {
+.lodz2015#promo h1 {
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
+}
+
+.lodz2015 .coaches .grid_3 {
+  width: 205px;
+  height: 75px;
+}
+
+.lodz2015 #schedule small {
+  font-size: 90%;
 }
 
 pre {
@@ -2200,7 +2215,7 @@ a:hover.bratislava2014-a {
 
 .beograd#promo {
   padding-left:345px;
-    background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px, 
+    background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px,
         url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -2384,4 +2399,12 @@ a:hover.bratislava2014-a {
   color: #444;
   font-weight: normal;
   letter-spacing: 3px;
+}
+
+small.bogota{
+  color: #444;
+}
+
+small.bta_role{
+  font-size: 80%;
 }
