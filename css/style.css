@@ -2394,3 +2394,11 @@ a:hover.bratislava2014-a {
   font-weight: normal;
   letter-spacing: 3px;
 }
+
+small.bogota{
+  color: #444;
+}
+
+small.bta_role{
+  font-size: 80%;
+}
