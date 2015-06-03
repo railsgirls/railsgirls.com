@@ -2363,6 +2363,8 @@ a:hover.bratislava2014-a {
   padding-bottom: 30px;
 }
 
+/* Bogota */
+
 .bogota#promo {
   padding-left:340px;
   background:url('../images/rg-bogota.jpg') no-repeat 0 10px;
@@ -2401,13 +2403,17 @@ a:hover.bratislava2014-a {
   letter-spacing: 3px;
 }
 
-small.bogota{
-  color: #444;
-}
+small.bogota{ color: #444;}
 
-small.bta_role{
-  font-size: 80%;
-}
+small.bta_role{ font-size: 80%; }
+
+div.bta-sponsors{ margin-bottom: 30px; height: 90px; }
+
+div.bta-sponsors a { float:left; margin:0 0 0; border:0;}
+
+div.bta-sponsors-top{ margin-top: 50px;}
+
+/* End Bogota */
 
 .tampere2015#promo {
   padding-left:340px;
