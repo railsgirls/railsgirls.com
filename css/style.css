@@ -592,6 +592,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background: none;
 }
 
+.kobe#promo {
+  padding-left:420px;
+  background:url('../images/kobe/rg-kobe1-logo1.jpg') no-repeat left top,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
