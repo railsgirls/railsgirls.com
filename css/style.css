@@ -2426,3 +2426,31 @@ div.bta-sponsors-top{ margin-top: 50px;}
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+.poa_header {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.poa_header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.poa_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.poa_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
