@@ -859,6 +859,22 @@ pre {
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.oslo#promo {
+  padding-left:390px;
+  background:url('../images/oslo/header.jpg') no-repeat 0 10px;
+}
+
+.oslo#promo h1 {
+  line-height: 1.6;
+  text-indent: 0;
+}
+.oslo#promo .event-date {
+  color: #d3360b;
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  font-size: 32px;
+  margin: 0 0 .8em 0;
+}
+
 .slc#promo h1 {
   background:url('../images/slc/rg-slc-header.png') no-repeat left top;
 }
@@ -1601,6 +1617,11 @@ h2 {
   margin:0.2em 0 1em;
 }
 
+h2.oslo {
+  margin:0.2em 0 1em;
+  letter-spacing: 0;
+}
+
 h4 {
   font-weight:400;
 }
@@ -2219,6 +2240,23 @@ a:hover.bratislava2014-a {
   background: #C2320A;
 }
 
+.oslo_header_button {
+  background: transparent;
+  border: 3px solid #d3360b;
+  border-radius: 3px;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #d3360b;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
+.oslo_header_button:hover {
+  background: #d3360b;
+  color: #fff;
+}
+
 .beograd#promo {
   padding-left:345px;
     background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px,
@@ -2425,4 +2463,32 @@ div.bta-sponsors-top{ margin-top: 50px;}
   padding-left:340px;
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
+}
+
+.poa_header {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.poa_header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.poa_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.poa_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
