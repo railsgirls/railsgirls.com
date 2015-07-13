@@ -2164,9 +2164,66 @@ a.bratislava2014-a {
   font-weight: bold;
 }
 
+/* Bratislava 2015 */
+.bratislava_header {
+  background: #d3360b url('../images/bratislava/bratislava_bg.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.bratislava_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  top: -42px;
+}
+
+.bratislava_header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.bratislava_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.bratislava_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.bratislava_header_button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 26px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
+.bratislava_header_button:hover {
+  background: #d3360b;
+}
+
+#sharebratislava div {
+  float:center;
+}
 
 a:hover.bratislava2014-a {
-  background-color: #bd3009;
+  background-color: #d3360b;
 }
 
 
