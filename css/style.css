@@ -524,6 +524,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.tokyo-2014-09-21#promo {
+  padding-left:420px;
+  background:url('../images/rg-tokyo-2014-09-21.jpg') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .tokyo#promo {
   padding-left:420px;
   background:url('../images/rg-tokyo.jpg') no-repeat left top;
