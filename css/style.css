@@ -2528,14 +2528,15 @@ div.bta-sponsors-top{ margin-top: 50px;}
   background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
   background-size: cover;
   display: table;
-  height: 100vh;
+  height: 90vh;
   height: 1vm;
   width: 100%;
 }
 
 .poa_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
   color: #fff;
-  font-size: 42px;
+  font-size: 65px;
   margin: 0 0 0.25em;
 }
 
@@ -2548,6 +2549,17 @@ div.bta-sponsors-top{ margin-top: 50px;}
   color: #fff;
   max-width: 30em;
   margin: 0 auto 1em;
-  font-size: 26px;
+  font-size: 22px;
   text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
+
+.poa_header .button {
+  background-color: rgba(211, 54, 11, 0);
+  transition: background-color 0.5s ease;
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+.poa_header .button:hover { background-color: rgb(211, 54, 11); }
