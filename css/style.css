@@ -531,9 +531,10 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   }
 
 .tokyo#promo {
-  padding-left:420px;
-  background:url('../images/rg-tokyo.jpg') no-repeat left top;
+  padding-left:390px;
+  background:url('../images/rg-tokyo.png') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
   }
 
 .kyoto#promo {
@@ -1065,7 +1066,7 @@ pre {
   background:url('../images/rg-tokyo-header-2013-10-18.png') no-repeat left top;
 }
 
-.tokyo#promo h1 {
+.tokyo-2014-09-21#promo h1 {
   background:url('../images/rg-tokyo-header.png') no-repeat left top;
 }
 
