@@ -2569,3 +2569,9 @@ div.bta-sponsors-top{ margin-top: 50px;}
   margin: 0 0.5em;
 }
 .poa_header .button:hover { background-color: rgb(211, 54, 11); }
+#poa-map { border: none; }
+#poa-map img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
