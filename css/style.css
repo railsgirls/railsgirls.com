@@ -664,6 +664,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
 }
 
+.hki-junction#promo {
+  padding-left:340px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
+}
+
+.new.hki-junction#promo h1 {
+  font-size: 40px;
+}
+
 
 .helsinki2015#promo {
   padding-left:340px;
