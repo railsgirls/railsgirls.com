@@ -2332,6 +2332,18 @@ a:hover.bratislava2014-a {
   color: #fff;
 }
 
+.oslo_header_button_disabled {
+  background: transparent;
+  border: 3px solid rgba(211,54,11,.5);
+  border-radius: 3px;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #d3360b;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
 .beograd#promo {
   padding-left:345px;
     background:url('../images/beograd/left_pot1.jpg') no-repeat 0 90px,
