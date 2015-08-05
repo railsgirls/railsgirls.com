@@ -80,6 +80,7 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .luxembourg#promo {
   padding-left:340px;
+  padding-top: 0;
   background:url('../images/rg-luxembourg.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
