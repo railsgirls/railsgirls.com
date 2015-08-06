@@ -56,6 +56,10 @@
       -webkit-filter: grayscale(100%);
       -moz-filter: grayscale(100%);
       filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
     }
     .sponsor:hover {
       color: #444;
@@ -66,6 +70,7 @@
       -webkit-filter: grayscale(0%);
       -moz-filter: grayscale(0%);
       filter: grayscale(0%);
+      opacity: 1;
     }
 
     header {
@@ -148,17 +153,24 @@
     .regular li {
       color: #390c00;
     }
-    .logos-wall {
+    .sponsors-wall {
+      clear: both;
+      padding: 3em 0 1em 0;
       overflow: hidden;
-      margin-top: 5%;
     }
+    #sponsors.sponsors-wall p {
+      margin-bottom: 2%;
+    }
+    /*.sponsors-wall p {
+      float: left;
+    }*/
     .logos-wall p {
       display: block;
       max-width: 31%;
       margin: 0 2% 5% 0;
       float: left;
     }
-    .logos-wall p:nth-of-type(3n+2) {
+    .logos-wall p:nth-of-type(3n+1) {
       clear: left;
     }
     .logos-wall p a {
@@ -328,6 +340,14 @@
         display: block;
       }
 
+      .logos-wall p:nth-of-type(3n+1) {
+        clear: none;
+      }
+
+      .logos-wall p:nth-of-type(2n+1) {
+        clear: left;
+      }
+
       .logos-wall p {
         max-width: 48%;
         margin: 0 2% 2% 0;
@@ -420,7 +440,7 @@
 
           <!-- <p><strong>Регистрацията ще отвори скоро.</strong></p> -->
 
-<!--           <p>
+          <!-- <p>
             Регистрацията ще отвори тук на обяд във вторник, 28 юли. Ще е активна до 3 август, включително. Местата са силно ограничени.
           </p>
           <p>
@@ -662,8 +682,6 @@
 
           <p>Бихте помогнали? Търсим спонсори и партньори за това некомерсиално събитие. <a href="mailto:railsgirlssofia@gmail.com">Пишете ни</a>!</p>
 
-          <a name="sponsors"></a>
-
           <h3 id="major-sponsors" class="sponsor-type">Дългосрочни партньори</h3>
 
           <p>
@@ -688,8 +706,10 @@
               Инвестираме в иновации и в амбициозни таланти, които правят банкирането по-лесно, по-бързо и по-удобно, 24/7, където поискате.  Най-добра дигитална банка за потребителите 2015 от Global Finance magazine.
             </a>
           </p>
+        </div>
 
-          <h3 id="regular-sponsors" class="sponsor-type">Спонсори</h3>
+        <div id="sponsors" class="sponsors-wall logos-wall">
+          <h3 id="regular-sponsors">Спонсори</h3>
 
           <p>
             <a href="http://www.mtel.bg/" target="_blank" class="sponsor">
