@@ -2555,8 +2555,8 @@ div.bta-sponsors-top{ margin-top: 50px;}
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.poa_header {
-  background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
+.bh-header {
+  background: #d3360b url('../images/belo-horizonte/rails_girls_bh.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -2564,19 +2564,19 @@ div.bta-sponsors-top{ margin-top: 50px;}
   width: 100%;
 }
 
-.poa_header h1 {
+.bh-header h1 {
   font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
   color: #fff;
   font-size: 80px;
   margin: 0 0 0.25em;
 }
 
-.poa_header h1 small {
+.bh-header h1 small {
   display: block;
   font-size: 24px;
 }
 
-.poa_header p {
+.bh-header p {
   color: #fff;
   max-width: 30em;
   margin: 50px auto 1em;
@@ -2584,7 +2584,7 @@ div.bta-sponsors-top{ margin-top: 50px;}
   text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
-.poa_header .button {
+.bh-header .button {
   background-color: rgba(211, 54, 11, 0.9);
   border: 1px solid white;
   padding: 10px 30px;
@@ -2592,9 +2592,9 @@ div.bta-sponsors-top{ margin-top: 50px;}
   color: #fff;
   margin: 0 0.5em;
 }
-.poa_header .button:hover { background-color: rgb(211, 54, 11); }
-#poa-map { border: none; }
-#poa-map img {
+.bh-header .button:hover { background-color: rgb(211, 54, 11); }
+#bh-map { border: none; }
+#bh-map img {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
