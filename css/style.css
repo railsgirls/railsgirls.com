@@ -2554,7 +2554,50 @@ div.bta-sponsors-top{ margin-top: 50px;}
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.poa_header {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
 
+.poa_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+.poa_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.poa_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.poa_header .button {
+  background-color: rgba(211, 54, 11, 0.9);
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+.poa_header .button:hover { background-color: rgb(211, 54, 11); }
+#poa-map { border: none; }
+#poa-map img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
 .bh-header {
   background: #d3360b url('../images/belo-horizonte/rails_girls_bh.jpg') no-repeat;
   background-size: cover;
