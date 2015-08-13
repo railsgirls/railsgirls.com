@@ -78,8 +78,7 @@ Steps to show on site
                 <small>11-12 September 2015</small>
             </h1>
           <p>こんにちは世界！</p>
-          <p>Rails Girlsが、初めて富山で開催されます！<br/>
-             このワークショップで、Ruby on Railsのすてきな世界を体験してみませんか？ワークショップは無料です。</p>
+          <p>Rails Girlsが、初めて富山で開催されます！このワークショップで、Ruby on Railsのすてきな世界を体験してみませんか？ワークショップは無料です。</p>
           <!--<p>０４月××日までに<a href="http://railsgirls-osaka.doorkeeper.jp/events/xxxx">こちら</a>から応募してください。</p>-->
           <p>Hello world!</p>
           <p>Rails Girls comes to Kobe! During the free two-day workshop we'll dive into the magical world of Ruby on Rails.</p>
@@ -106,15 +105,12 @@ Steps to show on site
         <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
 
         <div class="grid_4 alpha feature">
-          <p><strong>概要</strong>　コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。</p>
+          <p><strong>概要</strong>　コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。今回のワークショップではグループで「おみくじアプリ」を制作します。</p>
         </div>
         <div class="grid_4 feature">
-          <p><strong>必要なもの</strong>　自分のノートパソコン、やる気とキラリと光るイマジネーションを持ってきてください！</p>
+          <p><strong>必要なもの</strong>やる気とキラリと光るイマジネーションを持ってきてください！コンピュータは学校のものを使用するので必要ありません。もしiPadをお持ちでしたら、Keynoteをインストールしてご持参ください。</p>
         </div>
         <div class="grid_4 omega feature">
-          <!--<p><strong>コーチとしてお手伝いいただける方を募集しています！</strong>
-            お手伝いいただける方は<a href="https://railsgirls-osaka.doorkeeper.jp/events/23602">こちら</a>からお申し込みをお願いいたします。-->
-          </p>
         </div>
 
         <hr />
@@ -122,21 +118,6 @@ Steps to show on site
         <!--  Update the texts! -->
 
         <div class="grid_6 alpha">
-          <h2>2015年9月11日 金曜日</h2>
-          <table id="schedule">
-            <tbody>
-              <tr>
-                <th>18:00開場 ～</th>
-                <td>
-                  <h4>インストール・ディ</h4>
-                まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
-                それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <hr />
 
           <h2>2015年9月12日 土曜日</h2>-->
           <strong>タイムテーブルは予定のものです。</strong>
