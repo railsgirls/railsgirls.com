@@ -1301,6 +1301,12 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.maceio#promo{
+  padding-left:340px;
+  background:url('../images/rg-maceio.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom; 
+}
+
 .melbourne#promo {
   padding-left:340px;
   background:url('../images/rg-melbourne.png') no-repeat 0 10px,
