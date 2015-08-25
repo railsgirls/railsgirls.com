@@ -243,14 +243,21 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.braga2014#promo {
-          padding-left:340px;
-          background:url('../images/rg-braga2014.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+.braga#promo {
+  padding-left: 340px;
+  background: url('../images/rg-braga2014.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
 
-.braga2014#promo h1 {
- background:url('../images/braga/braga2014/rg-header-Braga-12Oct.png') no-repeat left top;
+.braga#promo h1 {
+  text-indent: initial;
+  color: #d3360b;
+  font-size: 60px;
+}
+
+.braga #share {
+  display: inline-block;
+  margin-bottom: 25px;
 }
 
 .zagreb#promo {
@@ -825,6 +832,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
         }
 .lodz2015#promo h1 {
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
+}
+
+.saarbruecken#promo {
+  background:url('../images/rg-saarbruecken-header.png') no-repeat left top;
+  padding-left:340px;
 }
 
 .lodz2015 .coaches .grid_3 {
