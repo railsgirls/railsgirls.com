@@ -1327,7 +1327,7 @@ h4.warsaw {
 .maceio#promo{
   padding-left:340px;
   background:url('../images/rg-maceio.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom; 
+                 url('../images/separator.png') no-repeat center bottom;
 }
 
 .melbourne#promo {
@@ -2524,6 +2524,17 @@ a:hover.bratislava2014-a {
 }
 .lviv#share {
   padding-bottom: 30px;
+}
+
+/*Geneva*/
+.geneva_header {
+  background: #d3360b url('../images/geneva/geneva2.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+  opacity: 0.9;
 }
 
 /* Bogota */
