@@ -827,6 +827,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
 }
 
+.saarbruecken#promo {
+  background:url('../images/rg-saarbruecken-header.png') no-repeat left top;
+  padding-left:340px;
+}
+
 .lodz2015 .coaches .grid_3 {
   width: 205px;
   height: 75px;
