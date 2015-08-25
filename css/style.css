@@ -838,6 +838,18 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
 }
 
+.saarbruecken_page h2 {
+  font-weight: bold;
+  color: #d3360b;
+  margin-top: 0 !important;
+}
+
+.saarbruecken_page div.sign_up {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 35px;
+}
+
 .lodz2015 .coaches .grid_3 {
   width: 205px;
   height: 75px;
