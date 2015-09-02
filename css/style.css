@@ -2564,7 +2564,7 @@ a:hover.bratislava2014-a {
   height: 1vm;
   width: 100%;
   opacity: 0.9;
-  
+}
 .helsinki_header_button {
   background: #C2320A;
   border: 3px solid white;
@@ -2732,4 +2732,3 @@ div.bta-sponsors-top{ margin-top: 50px;}
         background:url('../images/logo_toyama_first.png') no-repeat 0 10px,
 	url('../images/separator.png') no-repeat center bottom;
 }
-
