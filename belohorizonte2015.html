@@ -50,7 +50,7 @@
     .partners {
       margin-bottom: 15px;
       vertical-align: middle;
-      text-align: center
+      text-align: justify;
     }
 
     .partners a {
@@ -81,8 +81,24 @@
       display: block;
     }
 
+    #social {
+      text-align: center;
+      padding-left: 120px;
+    }
+
     #social .fb_iframe_widget {
-      display: block;
+      display: inline-block;
+      margin: 0 0 20px 50px;
+      vertical-align: middle;
+    }
+
+    .partner {
+      display: inline-block;
+      margin: 5px 50px;
+      vertical-align: middle;
+    }
+    .partner img {
+      width: 100%;
     }
   </style>
 
@@ -242,13 +258,39 @@
         <h3>Parceiros</h3>
       	<!-- <div class="grid_4 first"> -->
         <div>
-          <a href="http://thoughtworks.com.br" title="ThoughtWorks" class="partners" target="_blank"><img src="./images/tw_lg.gif" height="48px" alt="ThoughtWorks"></a>
+          <a href="http://alternativauniformesmg.com.br" title="Alternativa Uniformes" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-alternativa.png" alt="Alternativa Uniformes">
+          </a>
+          <a href="http://atlasdesenvolvimento.com.br" title="Atlas Desenvolvimento" class="partner" target="_blank" style="width: 15%; margin-left: 100px;">
+            <img src="./images/belo-horizonte/logo-atlas.png" alt="Atlas Desenvolvimento">
+          </a>
+          <a href="http://avenuecode.com" title="Avenue Code" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-avenue.png" alt="Avenue Code">
+          </a>
+          <a href="http://frameworksystem.com/" title="Framework System" class="partner" target="_blank" style="width: 20%;">
+            <img src="./images/belo-horizonte/logo-framework.png" alt="Framework System">
+          </a>
+          <a href="http://github.com" title="GitHub" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-github.png" alt="GitHub">
+          </a>
+          <a href="https://facebook.com/grupoconfio" title="Confio Patches" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-confio.png" alt="Confio Patches">
+          </a>
+          <a href="https://jetbrains.com/ruby/" title="JetBrains RubyMine" class="partner" target="_blank" style="width: 20%;">
+            <img src="./images/belo-horizonte/logo-jetbrains.jpeg" alt="JetBrains RubyMine">
+          </a>
+          <a href="http://thoughtworks.com.br" title="ThoughtWorks" class="partner" target="_blank" style="width: 30%; margin-left: 65px;">
+            <img src="./images/tw_lg.gif" alt="ThoughtWorks">
+          </a>
+          <a href="http://toptal.com" title="Toptal" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-toptal.png" alt="Toptal">
+          </a>
         </div>
       </div>
 
       <hr/>
 
-      <div id="social" class="grid_12 partners">
+      <div id="social" class="grid_12">
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/belohorizonte2015" data-text="Programar n&atilde;o &eacute; dif&iacute;cil, cola a&iacute; que a gente te mostra :)" data-hashtags="RailsGirlsBH">Tweet</a>
         <div class="fb-like" data-href="https://www.facebook.com/railsgirlsbh?fb_source=rails_girls_bh_2015" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="true"></div>
       </div>
