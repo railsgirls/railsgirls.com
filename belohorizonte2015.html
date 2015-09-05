@@ -50,7 +50,7 @@
     .partners {
       margin-bottom: 15px;
       vertical-align: middle;
-      text-align: center
+      text-align: justify;
     }
 
     .partners a {
@@ -81,8 +81,24 @@
       display: block;
     }
 
+    #social {
+      text-align: center;
+      padding-left: 120px;
+    }
+
     #social .fb_iframe_widget {
-      display: block;
+      display: inline-block;
+      margin: 0 0 20px 50px;
+      vertical-align: middle;
+    }
+
+    .partner {
+      display: inline-block;
+      margin: 5px 50px;
+      vertical-align: middle;
+    }
+    .partner img {
+      width: 100%;
     }
   </style>
 
@@ -123,20 +139,15 @@
           <small>11-12 de Setembro, 2015</small>
         </h1>
           <p>
-           <a href="http://goo.gl/forms/ay7HFJnc48" class='button' title="Inscreva-se!" target="_blank">Inscreva-se!</a>
+            <span class='button'>Inscrições encerradas :( #chatiada</span>
          </p>
        </div>
      </div>
 
     <div id="container" class="container_12 page clearfix">
-      <div class="grid_6 alpha feature">
+      <div class="grid_12 alpha feature">
         <p><strong>Está chegando mais um Rails Girls em Belo Horizonte!</strong><br/>
         Sabia que voc&ecirc; &eacute; capaz de criar um software, uma aplica&ccedil;&atilde;o ou um programa de computador como, por exemplo, o Facebook? N&atilde;o faz ideia de como? N&oacute;s iremos te apresentar a este mundo m&aacute;gico da programa&ccedil;&atilde;o, onde voc&ecirc; escreve um texto e seu computador entende e faz tudo o que voc&ecirc; quiser e puder imaginar! :)</p>
-      </div>
-
-      <div class="grid_6 feature">
-        <p><strong>Quer participar?</strong> N&atilde;o precisa saber programar, apenas ter interesse e vontade de aprender!<br/><a href="http://goo.gl/forms/ay7HFJnc48" title="Inscri&ccedil;&otilde;es" target="_blank">Inscreva-se</a> até o dia 09/09/2015.</p>
-        <p><strong>Quer ajudar?</strong> Sabe Ruby e gosta de compartilhar conhecimento? N&oacute;s precisamos de voc&ecirc;!<br/><a href="http://goo.gl/forms/KPMA1OQaqc" title="Coaches" target="_blank">Seja treinadora ou treinador!</a></p>
       </div>
 
       <hr/>
@@ -232,8 +243,6 @@
         <p><strong>Qual &eacute; o publico alvo?</strong> Todos que se identifiquem como mulheres, de qualquer idade, que tenham um conhecimento b&aacute;sico em lidar com computadores. J&aacute; tivemos participantes de todas as idades. <strong>Por favor, se poss&iacute;vel traga seu notebook. Se não tiver, não se preocupe!</strong></p>
 
         <p><strong>Homens podem participar?</strong> A prioridade será dada às mulheres. Caso sobrem vagas abriremos para os homens também.</p>
-
-        <p><strong>Eu sei programar! Como posso ajudar?</strong> Estamos procurando por treinadoras(es). <a href="http://goo.gl/forms/KPMA1OQaqc" title="Coaches" target="_blank">Clique aqui</a> e nos conte sobre você! Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a fun&ccedil;&atilde;o de treinador. Caso voc&ecirc; tenha qualquer d&uacute;vida, manda um email para <a href="mailto:agda.martins@thoughtworks.com">nós</a>.</p>
       </div>
 
       <hr/>
@@ -242,13 +251,39 @@
         <h3>Parceiros</h3>
       	<!-- <div class="grid_4 first"> -->
         <div>
-          <a href="http://thoughtworks.com.br" title="ThoughtWorks" class="partners" target="_blank"><img src="./images/tw_lg.gif" height="48px" alt="ThoughtWorks"></a>
+          <a href="http://alternativauniformesmg.com.br" title="Alternativa Uniformes" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-alternativa.png" alt="Alternativa Uniformes">
+          </a>
+          <a href="http://atlasdesenvolvimento.com.br" title="Atlas Desenvolvimento" class="partner" target="_blank" style="width: 15%; margin-left: 100px;">
+            <img src="./images/belo-horizonte/logo-atlas.png" alt="Atlas Desenvolvimento">
+          </a>
+          <a href="http://avenuecode.com" title="Avenue Code" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-avenue.png" alt="Avenue Code">
+          </a>
+          <a href="http://frameworksystem.com/" title="Framework System" class="partner" target="_blank" style="width: 20%;">
+            <img src="./images/belo-horizonte/logo-framework.png" alt="Framework System">
+          </a>
+          <a href="http://github.com" title="GitHub" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-github.png" alt="GitHub">
+          </a>
+          <a href="https://facebook.com/grupoconfio" title="Confio Patches" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-confio.png" alt="Confio Patches">
+          </a>
+          <a href="https://jetbrains.com/ruby/" title="JetBrains RubyMine" class="partner" target="_blank" style="width: 20%;">
+            <img src="./images/belo-horizonte/logo-jetbrains.jpeg" alt="JetBrains RubyMine">
+          </a>
+          <a href="http://thoughtworks.com.br" title="ThoughtWorks" class="partner" target="_blank" style="width: 30%; margin-left: 65px;">
+            <img src="./images/tw_lg.gif" alt="ThoughtWorks">
+          </a>
+          <a href="http://toptal.com" title="Toptal" class="partner" target="_blank" style="width: 15%;">
+            <img src="./images/belo-horizonte/logo-toptal.png" alt="Toptal">
+          </a>
         </div>
       </div>
 
       <hr/>
 
-      <div id="social" class="grid_12 partners">
+      <div id="social" class="grid_12">
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/belohorizonte2015" data-text="Programar n&atilde;o &eacute; dif&iacute;cil, cola a&iacute; que a gente te mostra :)" data-hashtags="RailsGirlsBH">Tweet</a>
         <div class="fb-like" data-href="https://www.facebook.com/railsgirlsbh?fb_source=rails_girls_bh_2015" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="true"></div>
       </div>

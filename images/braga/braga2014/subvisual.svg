@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 440">
+  <title>
+    logo-color
+  </title>
+  <defs>
+    <linearGradient id="linearGradient-1" x1="72.27%" x2="-4.6%" y1="39.15%" y2="39.15%">
+      <stop stop-color="#517F96" offset="0%"/>
+      <stop stop-color="#466D81" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-2" x1="62.42%" x2="50%" y1="36.04%" y2="62.3%">
+      <stop stop-color="#09DFF3" offset="0%"/>
+      <stop stop-color="#44BEFF" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g id="stickers" fill="none" fill-rule="evenodd">
+    <g id="Artboard-1">
+      <g id="logo-color">
+        <path id="Rectangle-165-Copy" fill="#5889A2" d="M0 350l150 90 150-90v-80l-150 90L0 270v80z"/>
+        <path id="Rectangle-165" fill="#5889A2" d="M0 90L150 0l150 90v80L150 80 0 170V90z"/>
+        <path id="Rectangle-165-Copy-6" fill="url(#linearGradient-1)" d="M0 90l100 20L0 170V90z"/>
+        <path id="Rectangle-165-Copy-7" fill="url(#linearGradient-1)" d="M200 270l100 20-100 60v-80z" transform="matrix(-1 0 0 -1 500 620)"/>
+        <path id="Rectangle-165-Copy-5" fill="url(#linearGradient-2)" d="M0 90l150 90 150 90v80l-150-90L0 170V90z"/>
+      </g>
+    </g>
+  </g>
+</svg>
