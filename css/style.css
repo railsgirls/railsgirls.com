@@ -558,6 +558,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.matsue-2013-11-22#promo {
+  padding-left:460px;
+  background:url('../images/rg-matsue-2013-11-22.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .matsue#promo {
   padding-left:460px;
   background:url('../images/rg-matsue.png') no-repeat 0 10px,
@@ -1111,6 +1117,10 @@ pre {
 
 .sapporo#promo h1 {
   background:url('../images/rg-sapporo-header.png') no-repeat left top;
+}
+
+.matsue-2013-11-22#promo h1 {
+  background:url('../images/rg-matsue-header-2013-11-22.png') no-repeat left top;
 }
 
 .matsue#promo h1 {
@@ -2545,6 +2555,26 @@ a:hover.bratislava2014-a {
   width: 100%;
   opacity: 0.9;
 }
+
+/*Lagos*/
+.lagos_header {
+  background: #d3360b url('../images/lagos/lagos.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+  opacity: 0.9;
+}
+.lagos_header {
+  background: #d3360b url('../images/lagos/lagos.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+  opacity: 0.9;
+}
 .helsinki_header_button {
   background: #C2320A;
   border: 3px solid white;
@@ -2712,4 +2742,3 @@ div.bta-sponsors-top{ margin-top: 50px;}
         background:url('../images/logo_toyama_first.png') no-repeat 0 10px,
 	url('../images/separator.png') no-repeat center bottom;
 }
-
