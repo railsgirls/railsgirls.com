@@ -80,6 +80,13 @@
       color:#111;
       border-color:#111;
     }
+
+
+/* responsive */
+div.q { padding: 0.5em; margin: 1em; }
+@media screen and (min-width:750px) {
+  div.q { float: left; width: 48%; padding: 1em; margin: 0.5%; }
+}
   </style>
 
 </head>
@@ -99,7 +106,7 @@
     </header>
 
     <!-- content -->
-
+<div id="container" class="container-16">
 <div class="q" id="info">
 <h1>Communiqué de presse</h1>
 <h2>RailsGirls Paris #6</h2>
@@ -180,11 +187,12 @@
 <p>
   Comprendre ce qui se passe derrière un écran n'est pas réservé aux curieux,
   c'est déjà nécessaire à toute vie professionnelle et citoyenne.<br />
-  Pour d'autres générations, la voiture représentait la liberté,
-  l'autonomie : on ne demandait pas d'être mécanicien pour autant
-  mais de comprendre un peu ce qui se passe, et de pouvoir l'entretenir,
-  sans quoi toute une partie du monde vous était interdite.<br />
-  Aujourd'hui, la voiture c'est un peu magique, et même les bricoleurs
+  Au-delà du code, les enjeux sont parfois plus simples mais plus graves :
+  ce site est-il sécurisé ? Cet email est-il légitime ? Que puis-je mettre
+  sur les réseaux sociaux et que dois-je éviter ? <br />
+  Pour comparer : la voiture c'était complexe mais c'était la liberté.
+  Sans être un mécanicien, tout le monde devait savoir au moins entretenir sa voiture.
+  Maintenant c'est un peu magique, et même les bricoleurs
   n'ont plus le droit de triturer leur propre véhicule.
   Ne laissez pas cela vous arriver avec le code, ne restez pas sur le bord de la route !
 </p>
@@ -211,7 +219,7 @@ Depuis, l’évènement a été organisé un peu partout dans le monde.
   mensuelles : <a href="http://www.meetup.com/parisrb/">http://www.meetup.com/parisrb/</a>
 </p>
 </div>
-
+</div>
     <footer>
         <p>2010-2015, Rails Girls. <a href="/press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
