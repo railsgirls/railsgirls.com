@@ -2762,9 +2762,8 @@ div.bta-sponsors-top{ margin-top: 50px;}
 .slc2015Location {
   font-size: 1.1em;
 }
-.beakr-img {
-  max-width: 120px;
-}
+.beakr-img,
 .cs-img {
-  max-width: 150px;
+  max-width: 100px;
+  max-height: 100px;
 }
