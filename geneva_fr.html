@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="./css/style.css">
-  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
   <style type="text/css">
     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
   </style>
@@ -27,7 +27,16 @@
   <![endif]-->
 </head>
 <body>
-
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.4&appId=100241770135223";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <header>
     <div class="container_12">
       <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls"/></a>
@@ -62,15 +71,29 @@
       <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
       </script>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
+      <div class="fb-like" data-href="https://www.facebook.com/railsgirlsleman" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true">Facebook</div>
     </div>
   </div>
   <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
-      <div class="grid_6 alpha feature">
-        <p><strong>Vous apprendrez</strong> le design, le prototypage et le dévelopment d'application web à l'aide de nos mentors.</p>
-     </div>
-     <div class="grid_5 feature">
-      <p><strong>Vous aurez besoin</strong> de votre propre laptop, de curiosité et d'un peu d'imagination!</p>
+      <div class="grid_4 alpha feature">
+        <p>
+          <strong>Vous apprendrez</strong> le design, le prototypage et le dévelopment d'application web à l'aide de nos mentors.
+        </p>
+      </div>
+      <div class="grid_4 feature">
+        <p>
+          <strong>Vous aurez besoin</strong> de votre propre laptop, de curiosité et d'un peu d'imagination!
+        </p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p>
+          <a href="http://codeweek.eu/" target="_blank" style="border: 0; float: right"><img src="./images/geneva/codeweek-badge-small-250.png" alt="Code Week EU"></a>
+        </p>
+      </div>
     </div>
     <hr/>
     <!-- INFO WHEN WHERE -->
@@ -273,6 +296,11 @@
       <a href="http://ruby42.com//" target="_blank"><img src="./images/geneva/Ruby42logo.png" alt="Ruby42"></a>
     </p>
   </div>
+  <div class="logo grid_3">
+    <p>
+      <a href="http://mx3.ch" target="_blank"><img src="./images/geneva/MX3_Logo_FR.png" alt="MX3.ch"></a>
+    </p>
+  </div>
 
   <!--COACHES  -->
 
@@ -311,9 +339,8 @@
       </a>
     </div>
   </div>
-</div>
 
-<!-- /content -->
+  <!-- /content -->
 
   <footer>
     <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a
@@ -322,7 +349,7 @@
     </p>
     <p class="slogan">Get excited and make things!</p>
   </footer>
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+  <script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -337,7 +364,6 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
   })();
-
   </script>
 </body>
 </html>

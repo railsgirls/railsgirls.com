@@ -789,7 +789,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background:url('../images/ostrava/rails-girlie_for_event-page.jpg') no-repeat 10px 40px,
+  background:url('../images/ostrava/rg-ostrava-template.jpg') no-repeat 10px 40px,
              url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
@@ -1364,6 +1364,11 @@ h4.warsaw {
 
 .dublin2#promo h1 {
     background:url('../images/rg-dublin-header2.png') no-repeat left top;
+
+    }
+
+.dublin2#promo h1 {
+    background:url('../images/rg-dublin-header3.png') no-repeat left top;
 
     }
 
@@ -2741,4 +2746,29 @@ div.bta-sponsors-top{ margin-top: 50px;}
 	padding-left:420px;
         background:url('../images/logo_toyama_first.png') no-repeat 0 10px,
 	url('../images/separator.png') no-repeat center bottom;
+}
+
+/***** Salt Lake City 2015 *****/
+
+.saltLakeCity2015#promo {
+  padding-left:340px;
+  background: url('../images/saltLakeCity2015/railsgirlsslc.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+#applyBtn {
+  border-radius: 5px;
+  padding: 10px 18px;
+  margin-top: 2%;
+  border: 3px solid #d3360b;
+  background-color: #fff;
+  font-size: .7em;
+  cursor: pointer;
+}
+.slc2015Location {
+  font-size: 1.1em;
+}
+.beakr-img,
+.cs-img {
+  max-width: 100px;
+  max-height: 100px;
 }
