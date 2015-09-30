@@ -1932,8 +1932,44 @@ footer a {
   display: inline-block;
 }
 
-.logo.grid_3.stretched a>img {
-  width: 190px;
+.logo.grid_4{
+  margin-left: 0;
+}
+
+.logo.grid_4 a {
+  text-align: left;
+  border: 0;
+  line-height: 144px;
+}
+
+.logo.grid_4 a>img {
+  width: 280px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo.grid_4.stretched a>img {
+  width: 300px;
+}
+
+.logo.grid_6{
+  margin-left: 0;
+}
+
+.logo.grid_6 a {
+  text-align: left;
+  border: 0;
+  line-height: 216px;
+}
+
+.logo.grid_6 a>img {
+  width: 460px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo.grid_6.stretched a>img {
+  width: 480px;
 }
 
 #left, #right {
