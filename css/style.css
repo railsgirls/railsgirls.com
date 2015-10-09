@@ -2850,7 +2850,14 @@ div.bta-sponsors-top{ margin-top: 50px;}
   font-size: 1.1em;
 }
 .beakr-img,
-.cs-img {
+.cs-img,
+.sponsor-img {
   max-width: 100px;
   max-height: 100px;
+}
+.sponsors-line1 {
+  margin-top: 40px;
+}
+.sponsors {
+  text-align: center;
 }
