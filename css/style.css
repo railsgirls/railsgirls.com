@@ -2850,14 +2850,22 @@ div.bta-sponsors-top{ margin-top: 50px;}
   font-size: 1.1em;
 }
 .beakr-img,
-.cs-img,
-.sponsor-img {
+.cs-img {
   max-width: 100px;
   max-height: 100px;
 }
-.sponsors-line1 {
-  margin-top: 40px;
+.mx-logo {
+  max-width: 170px;
 }
-.sponsors {
-  text-align: center;
+.mastery-logo {
+  max-width: 190px;
+}
+.adobe-logo {
+  max-width: 130px;
+  max-height: 130px;
+  margin-left: 32px;
+}
+.coding-logo {
+  max-height: 145px;
+  margin-left: 75px;
 }
