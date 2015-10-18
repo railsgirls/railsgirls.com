@@ -2482,6 +2482,18 @@ a:hover.bratislava2014-a {
   border-radius: 5px;
 }
 
+/* Cluj-Napoca 2015 */
+
+.cluj#promo h1 {
+  text-indent: 0;
+}
+
+.cluj#promo {
+  padding-left:340px;
+  background:url('../images/cluj/rg-cluj.jpg') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+  background-size: 320px;
+}
+
 /* Perth 2015 */
 
 .perth_header {
