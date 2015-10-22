@@ -2494,6 +2494,9 @@ a:hover.bratislava2014-a {
   background-size: 320px;
 }
 
+.coaches-cluj a img {
+  height: 50px;
+}
 /* Perth 2015 */
 
 .perth_header {
