@@ -9,7 +9,7 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-    background:#fff;
+  background:#fff;
   color: #390c00;
   text-rendering: optimizeLegibility;
   font-size:14px;
@@ -1642,6 +1642,7 @@ a {text-decoration:none; border-bottom: 1px dotted #d3360b;}
 
 p {
   font-size:1.1em;
+  margin-top: 30px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -2494,6 +2495,9 @@ a:hover.bratislava2014-a {
   background-size: 320px;
 }
 
+.coaches-cluj a img {
+  height: 50px;
+}
 /* Perth 2015 */
 
 .perth_header {
