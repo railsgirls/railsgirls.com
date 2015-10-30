@@ -2892,3 +2892,15 @@ div.bta-sponsors-top{ margin-top: 50px;}
   max-height: 145px;
   margin-left: 75px;
 }
+
+/* Okayama city 2015 */
+.okayama#promo {
+  padding-left:400px;
+  background:url('../images/okayama/rg-okayama.png') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
+
+
+
+
