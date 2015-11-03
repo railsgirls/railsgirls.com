@@ -1,4 +1,4 @@
-var target_date = new Date("Nov 07 2014 18:00:00").getTime();
+var target_date = new Date("Nov 06 2015 18:00:00").getTime();
 var days, hours, minutes, seconds;
 var day_countdown = document.getElementById("day-countdown");
 var hour_countdown = document.getElementById("hour-countdown");
