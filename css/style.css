@@ -2509,6 +2509,16 @@ a:hover.bratislava2014-a {
   float:right;
   border:0;
   max-width: 380px;
+  padding-bottom: 15px;
+}
+
+.simplon {
+  float: left !important;
+  width: 235px;
+}
+
+.captain-bean {
+  width: 130px;
 }
 
 /* Perth 2015 */
