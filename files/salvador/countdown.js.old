@@ -12,18 +12,18 @@ setInterval(function () {
   days = parseInt(seconds_left / 86400);
   days = ("0" + days).slice(-2);
   seconds_left = seconds_left % 86400;
-     
+
   hours = parseInt(seconds_left / 3600);
   hours = ("0" + hours).slice(-2);
   seconds_left = seconds_left % 3600;
-    
+
   minutes = parseInt(seconds_left / 60);
   minutes = ("0" + minutes).slice(-2);
   seconds = parseInt(seconds_left % 60);
   seconds = ("0" + seconds).slice(-2);
-     
+
   day_countdown.innerHTML = days;
-  hour_countdown.innerHTML = hours; 
-  minute_countdown.innerHTML = minutes; 
-  second_countdown.innerHTML = seconds; 
+  hour_countdown.innerHTML = hours;
+  minute_countdown.innerHTML = minutes;
+  second_countdown.innerHTML = seconds;
 }, 1000);

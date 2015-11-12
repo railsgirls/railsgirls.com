@@ -2451,6 +2451,12 @@ a:hover.bratislava2014-a {
 				url('../images/separator.png') no-repeat center bottom;
 }
 
+.novisad3#promo {
+	padding-left:345px;
+    background:url('../images/novisad/rgns.jpg') no-repeat 0 90px,
+				url('../images/separator.png') no-repeat center bottom;
+}
+
 .barcelona#promo {
   padding-left:340px;
   background:url('../images/barcelona/chica_logo_600x600.png') no-repeat 0 10px,
@@ -2503,6 +2509,16 @@ a:hover.bratislava2014-a {
   float:right;
   border:0;
   max-width: 380px;
+  padding-bottom: 15px;
+}
+
+.simplon {
+  float: left !important;
+  width: 235px;
+}
+
+.captain-bean {
+  width: 130px;
 }
 
 /* Perth 2015 */
@@ -2901,6 +2917,9 @@ div.bta-sponsors-top{ margin-top: 50px;}
   background-size: 390px;
 }
 
-
+/* Kristina RGNS*/
+a.large{
+	font-size: 19px;
+}
 
 
