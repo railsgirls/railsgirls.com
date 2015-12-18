@@ -368,6 +368,11 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.sanantonio#promo {
+  padding-left:360px;
+  background:url('../images/rg-sanantonio.png') no-repeat 0 5px;
+}
+
 .santiago#promo {
   padding-left:340px;
   background:url('../images/rg-santiago.png') no-repeat 0 10px,
@@ -2927,5 +2932,3 @@ div.bta-sponsors-top{ margin-top: 50px;}
 a.large{
 	font-size: 19px;
 }
-
-
