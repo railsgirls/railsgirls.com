@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+
+  <!--  Add your city name, dates and year.  -->
+  <title>São Paulo, 27-28 Novembro, 2015</title>
+
+  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+  <meta name="description" content="Depois de três anos, Rails Girls está de volta à São Paulo. Venha para se divertir e aprender Ruby on Rails conosco.">
+  <meta name="author" content="Rails Girls">
+  <meta name="keywords" content="rails, railsgirls, rails girls, ruby on rails, women in tech, mulheres na computação">
+
+  <link rel="shortcut icon" href="./favicon.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style type="text/css">
+    .partners {
+      margin-bottom: 15px;
+      vertical-align: middle;
+      text-align: center
+    }
+    .partners a {
+      border-bottom: none;
+    }
+    .partners .first {
+      margin: 15px 0 0 0;
+    }
+    .partners .grid_4:not(.alpha) {
+      margin-top: 20px;
+    }
+    .grid_12 .time:after {
+      content: " - ";
+    }
+    .coach {
+      border-radius: 50px;
+    }
+    #promo {
+      height: 350px;
+      background-image: url(./images/saopaulo2015/girl-saopaulo2015.png);
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;
+    }
+    #promo.new{
+      padding-bottom: 0px;
+    }
+    #promo.new p{
+      font-size: 18px;
+    }
+    #promo.new h1{
+      padding-top: 34px;
+      font-size: 60px;
+    }
+    #promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
+    #promo .insciption-button a{
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      background-color: #d3360b;
+      color: white;
+      letter-spacing: 2px;
+      padding: 20px 70px 18px 70px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    #promo .insciption-button a:hover{
+      background-color: #be310a;
+    }
+    #promo.new #share{
+      padding-top: 10px;
+    }
+  </style>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Eventos</a>
+        <a href="./materials.html">Materiais</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--   How to change the picture & header for site
+  In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+  Steps to show on site
+  1. Go to style.css
+  2. Add these lines, always replacing 'yourcityname' with your actual city name.
+
+          .yourcityname#promo {
+            padding-left:340px;
+            background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                           url('../images/separator.png') no-repeat center bottom;
+          }
+
+          It will take a while before the changes show, so don't panic!
+  -->
+
+  <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+  <div id="container" class="container_12 page clearfix">
+    <div class="grid_12 omega alpha">
+      <div id="promo" class="new yourcity">
+        <h1>Rails Girls São Paulo
+          <small>27-28 Novembro, 2015</small>
+        </h1>
+        <p>Depois de três anos, Rails Girls está de volta à São Paulo. Venha para se divertir e aprender Ruby on Rails conosco.</p>
+        <p class="insciption-button"><a href="#">INSCRIÇÕES ENCERRADAS</a></p>
+
+        <!--  Update the sharing texts.-->
+        <div id="share">
+          <div>
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls São Paulo - 27-28 Novembro, 2015 - Tá chegando!" data-count="horizontal" data-via="railsgirlssp #railsgirlsSP" data-related="railsgirlssp">
+                Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+            <!-- Facebook like button code -->
+            <div class="fb-like" data-href="https://www.facebook.com/railsgirlssp2015" data-width="160" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      <div class="grid_4 alpha feature">
+        <p><strong>Você aprenderá</strong> design e programação com a ajuda dos nossos coaches.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>Quer participar?</strong> Não precisa saber programar, apenas ter interesse e vontade de aprender!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Quer ajudar?</strong> Sabe Ruby e gosta de compartilhar conhecimento? Nós precisamos de você! <a href="https://railsgirlssp.typeform.com/to/JfF6Xe" target="_blank">Seja coach</a>!</p>
+      </div>
+
+      <!--  Update the texts! -->
+      <div class="grid_12">
+        <div class="grid_6 alpha">
+          <h2>Sexta 27 de Novembro de 2015</h2>
+          <div class="grid_4">
+            <span class="time">18:00 - 18:30</span>
+            <h4>Registro</h4>
+          </div>
+          <div class="grid_4">
+            <span class="time">18:30 - 19:00</span>
+            <h4>Abertura</h4>
+            <p>
+              Você vai conhecer os nossos coaches, suas colegas de time e obter uma introdução das ferramentas que usaremos no workshop no sábado.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">19:00 - 19:20</span>
+            <h4>Palestra - Introdução a git</h4>
+            <p>
+              Palestrinha rápida com a Raquel Lira sobre como usar o git para controle de versão do seu código.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">19:30 - 20:00</span>
+            <h4>Palestra - Um pouquinho sobre métodos agéis</h4>
+            <p>
+              A Dhiana Deva vai falar um poquinho sobre o que é agile e como ele é usado no desenvolvimento.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">20:00 - 21:00</span>
+            <h4>Instalação do ambiente</h4>
+            <p>
+              Traga o seu notebook e intalaremos todos os recursos necessários para começar com Ruby on Rails.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">21:00</span>
+            <h4>Encerramento</h4>
+            <p>
+              Nos vemos amanhã! Traga toda a sua vontade de aprender e se divertir.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid_6 omega">
+          <h2>Sábado 28 de Novembro de 2015</h2>
+          <div class="grid_4">
+            <span class="time">09:00 - 09:30</span>
+            <h4>Abertura</h4>
+            <p>
+              Teremos um café da manhã para compartilhar conhecimentos e nos conhecermos melhor!
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">09:30 - 09:50</span>
+            <h4>Palestra - Como funciona a web?</h4>
+            <p>
+              A Alda Rocha vai nos contar sobre as ferramentas que são usadas na web e o que acontece por baixo dos panos quando você acessa um site.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">09:50 - 10:20</span>
+            <h4>Palestra - Try ruby</h4>
+            <p>
+              A Bárbara Barbosa mostrará como funciona o Ruby de um jeito interativo.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">10:20 - 13:00</span>
+            <h4>Mãos à obra</h4>
+            <p>
+              Começamos o desenvolvimento dos nossos aplicativos!
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">13:00 - 14:00</span>
+            <h4>Almoço</h4>
+            <p>
+              Não se preocupe, é por nossa conta.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">14:00 - 14:20</span>
+            <h4>Palestra - Mulheres na computação</h4>
+            <p>
+              Vamos falar um pouquinho sobre como é o mundo das mulheres em tecnologia.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">14:20 - 17:30</span>
+            <h4>Mãos à obra: O Retorno</h4>
+            <p>
+              Nós continuamos o desenvolvimento dos nossos aplicativos!
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">17:30 - 18:00</span>
+            <h4>Encerramento</h4>
+            <p>
+              Apresentação dos aplicativos, retrospectiva e surpresas!
+            </p>
+          </div>
+        </div>
+        <p>
+          <strong>Atenção</strong>: A agenda pode ser alterada até a data do evento.
+        </p>
+      </div>
+
+      <!--  These also, just update :) -->
+      <div class="grid_12">
+        <h3>Informações</h3>
+        <p><strong>Inscrições abertas até:</strong> 04 de Outubro de 2015<br/>
+          <strong>Local:</strong> BankFacil: Av. Nova Independência, 956, Brooklin - São Paulo - SP.
+        </p>
+        <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Av.%20Nova%20Independ%C3%AAncia%2C%20956%2C%20Brooklin%20-%20S%C3%A3o%20Paulo%20-%20SP&key=AIzaSyD2qHP2IM_AwWaXk1HNv__E2ABcog7PUlc" allowfullscreen></iframe>
+      </div>
+
+      <div class="grid_12">
+        <h3 style="margin-top: 16.800px;">FAQ</h3>
+        <p>
+          <strong>Quanto custa o evento?</strong>
+          Nada, é gratuito!
+        </p>
+        <p>
+          <strong>Qual é o publico alvo?</strong>
+          Mulheres de qualquer idade que tenham um conhecimento básico em lidar com computadores. Já tivemos participantes de todas as idades.
+        </p>
+        <p>
+          <strong>Preciso levar alguma coisa?</strong>
+          Sim! Por favor, traga seu notebook.
+        </p>
+        <p>
+          <strong>Homens podem participar?</strong>
+          A prioridade será dada às mulheres. Caso sobrem vagas abriremos para os homens também.
+        </p>
+        <p>
+          <strong>Eu sei programar! Como posso ajudar?</strong>
+          Estamos procurando por coaches. <a href="https://railsgirlssp.typeform.com/to/JfF6Xe" target="_blank">Clique aqui</a> e nos conte sobre você! Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a função de coach. Caso você tenha qualquer dúvida, mande um email para <a href="mailto:railsgirls.sp@gmail.com">nós</a>.
+        </p>
+        <p>
+          <strong>Quero patrocinar o evento. O que faço?</strong>
+          Entre em contato conosco clicando <a href="mailto:railsgirls.sp@gmail.com">aqui</a>!
+        </p>
+        <p>
+          <strong>Posso ajudar de mais alguma maneira?</strong>
+          SIM! Você pode contribuir na nossa <a href="https://www.vakinha.com.br/vaquinha/rails-girls-sao-paulo-2015/">vakinha</a>!
+        </p>
+      </div>
+
+      <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+      <div class="grid_12 partners">
+        <h3>Nossos patrocinadores</h3>
+        <div class="grid_4 first">
+          <a href="https://www.bankfacil.com.br/" title="BankFacil" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/BankFacilLogo.png" alt="BankFacil" height="48px"></a>
+        </div>
+        <div class="grid_4">
+          <a href="http://www.casadocodigo.com.br/" title="Casa do código" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/casaCodigoLogo.png" alt="Casa do Código" height="48px"></a>
+        </div>
+        <div class="grid_4">
+          <a href="https://www.thoughtworks.com/pt/" title="thoughtworks" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/twLogo.gif" alt="ThoughtWorks" height="48px"></a>
+        </div>
+      </div>
+      <div class="grid_12 partners">
+        <div class="grid_4 first">
+          <a href="http://www.codus.com.br/" title="Codus" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/codus.jpg" alt="Codus" height="65px">
+        </div>
+        <div class="grid_4">
+          <a href="http://hite.com.br/" title="Hite" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/hite.jpg" alt="Hite" height="65px">
+        </div>
+        <div class="grid_4">
+          <a href="http://www.campuscode.com.br/" title="Campus code" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/campusCode.png" alt="Campus code" height="65px">
+        </div>
+      </div>
+      <div class="grid_12 partners">
+        <div class="grid_12 first">
+          <a href="http://http://www.toptal.com/" title="Toptal" class="partners" target="_blank">
+            <img src="./images/saopaulo2015/toptalLogo.png" alt="Toptal" height="50px">
+        </div>
+      </div>
+
+      <!--  Update the team list -->
+      <div class="coaches">
+        <h3 style="text-align: center;">Nosso time</h3>
+
+        <a href="https://twitter.com/bahbbc" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/barbara.jpg" alt="bahbbc">
+          Bárbara Barbosa, Organizadora<br>
+          <small>@bahbbc</small>
+        </a>
+        <a href="https://twitter.com/camposmilaa" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/camila.jpg" alt="camposmilaa">
+          Camila Campos, Organizadora
+          <small>@camposmilaa</small>
+        </a>
+        <a href="https://twitter.com/RaizaBClaudino" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/raiza.jpg" alt="RaizaBClaudino">
+          Raiza Barbosa, Colaboradora
+          <small>@RaizaBClaudino</small>
+        </a>
+        <a href="https://twitter.com/renato_zannon" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/renato.jpg" alt="renato_zannon">
+          Renato Zannon, Colaborador
+          <small>@renato_zannon</small>
+        </a>
+        <a href="https://twitter.com/raphamonteiro" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/raphael.jpg" alt="raphamonteiro">
+          Raphael Monteiro, Colaborador
+          <small>@raphamonteiro</small>
+        </a>
+        <a href="https://twitter.com/raffesmind" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/ventura.jpg" alt="raffesmind">
+          Rafael Ventura, Colaborador
+          <small>@raffesmind</small>
+        </a>
+        <a href="https://twitter.com/dannyeuu" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/daniel.jpg" alt="dannyeuu">
+          Daniel Lopes, Colaborador
+          <small>@dannyeuu</small>
+        </a>
+        <a href="https://twitter.com/guifigueiroa" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/guilherme.jpg" alt="guifigueiroa">
+          Guilherme Figueirôa, Colaborador
+          <small>@guifigueiroa</small>
+        </a>
+        <a href="https://twitter.com/regis_hideki" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/regis.jpg" alt="regis_hideki">
+          Regis Hattori, Colaborador
+          <small>@regis_hideki</small>
+        </a>
+        <a href="https://twitter.com/murilo_capanema" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/murilo.jpg" alt="murilo_capanema">
+          Murilo Capanema, Colaborador
+          <small>@murilo_capanema</small>
+        </a>
+        <a href="https://twitter.com/murilo_capanema" class="grid_3">
+          <img class="coach" src="./images/saopaulo2015/ana.jpg" alt="ana_barbosa">
+          Ana Barbosa Silva, Colaboradora
+          <small>@carolpepita</small>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>2010-2015, Rails Girls. <a href="mailto:railsgirls.sp@gmail.com">Entre em contato</a> e nos siga no <a href="https://twitter.com/railsgirlssp">Twitter</a> e <a href="https://www.facebook.com/railsgirlssp2015">Facebook</a></p>
+    <p class="slogan">Get excited and make things!</p>
+  </footer>
+
+  <!-- Google Analytics Script -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-66370893-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

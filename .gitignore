@@ -4,5 +4,10 @@
 Thumbs.db
 *.swp
 
+config.codekit
+
 assets/fonts/04b_03/about.gif
 szczecin.html
+
+*.sublime-project
+*.sublime-workspace

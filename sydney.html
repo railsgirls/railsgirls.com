@@ -3,13 +3,25 @@
 <head>
   <meta charset="utf-8">
 
-<!--  Add your city name, dates and year.  -->
+<!--
 
-  <title>Sydney 11-12 July 2014</title>
+  - Find/replace the following date text: August 21-22, 2015
 
-<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+  - Update the #VENUE (workshop & closing party)
 
-  <meta name="description" content="Rails Girls in Sydney (July 11-12, 2014): join us for a two-day workshop in Ruby and programming practices.">
+  - Confirm how many #TRACKS we're running this time
+
+  - Update #APPLICATIONS details (set closing date)
+
+  - Search for all instances of #SPONSOR and update them
+
+  - Update all the #COACHES
+
+-->
+
+  <title>Sydney August 21-22, 2015</title>
+
+  <meta name="description" content="Rails Girls in Sydney (August 21-22, 2015): join us for a two-day workshop in Ruby and programming practices.">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
@@ -71,23 +83,26 @@ Steps to show on site
     <div class="grid_12 omega alpha">
       <div id="promo" class="new sydney">
         <h1>Rails Girls - Sydney
-          <small>July 11-12, 2014</small>
+          <small>August 21-22, 2015</small>
         </h1>
-        <p>Hello world!</p>
-        <p>Rails Girls comes to Sydney! During the free two-day workshop we'll dive into the magical world of Ruby on Rails.</p>
-        <p><strong>This time around, we are offering three tracks:</strong></p>
+        <p>Rails Girls is back in Sydney! During the free two-day workshop we'll dive into the magical world of Ruby on Rails.</p>
+
+        <!-- #TRACKS -->
+        <p><strong>We are offering two tracks:</strong></p>
         <p>For beginners: the regular Rails Girls tutorial</p>
         <p>For not so beginners: Rails Girls Next exercises that utilise pair programming and retrospectives practices.</p>
-        <p>For challenge seekers: GovHack hackathon</p>
 
-        <h3>Applications are now closed.</h3>
-
-<!--  Update the sharing texts.-->
+        <!-- #APPLICATIONS
+         <h1>
+          <a href="http://rails-girls-events.herokuapp.com/">Applications are open!</a>
+        </h1> -->
+        <h1> Applications are now closed. </h1>
+        <p>However you can sign up <a href="http://goo.gl/forms/joSVo8qKjG">here</a> to receive details on future events.</p>
 
         <div id="share">
           <div>
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Next - Sydney 19th February 2014!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls - Sydney August 21-22, 2015!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
@@ -99,9 +114,6 @@ Steps to show on site
         </div>
       </div>
 
-
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
-
       <div class="grid_4 alpha feature">
         <p><strong>You learn</strong> more about Ruby, how the internet works, and test driven development.</p>
       </div>
@@ -109,13 +121,10 @@ Steps to show on site
         <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. Email us at railsgirlsau at gmail dot com</a>.</p>
+        <p><strong>Want to help?</strong> Please consider <br/><a href="http://eventie.io/events/31-rails-girls-sydney-winter-2015">sponsoring us</a>.</p>
       </div>
 
       <hr />
-
-
-<!--  Update the texts! -->
 
       <div class="grid_7 alpha">
         <h3>FAQ</h3>
@@ -130,14 +139,19 @@ Steps to show on site
         <p><strong>Do you have a code of conduct?</strong>
             Yes, it is on the <a href="http://ruby.org.au/code-of-conduct.html">ruby.org.au</a> website. We expect attendees, coaches, and sponsor representatives to behave respectfully to make sure everyone has a great time.
         </p>
-        <p>
+        <!-- <p>
           <strong>Will there be coffee?</strong>
           Hells yeah.
         </p>
         <p>
           <strong>I know how to program - How can I help?</strong>
-          We're also looking for people to be coaches. Email us at railsgirlsau at gmail dot com</a>
-        </p>
+          We're also looking for people to be coaches. Email us at <a href="mailto:railsgirlssyd@gmail.com">railsgirlssyd@gmail.com</a>.</a>
+        </p> -->
+
+        <hr />
+
+        <h3> Typical schedule </h3>
+        <p> This is the schedule we used for our last event. It'll be quite similar for the next one, but probably not exactly the same. </p>
         <h2>Friday</h2>
         <table id="schedule">
           <tbody>
@@ -145,7 +159,7 @@ Steps to show on site
                   <th>18.00 - 20:30</th>
                   <td>
                       <h4>Installation party</h4>
-                      Come get Rails installed by our bunch of pros, along with a funky looking terminal, easy-to-use text editor and more. There’ll be pizza. And drinks. <br/><br/>
+                      Come get Rails installed by our bunch of pros, along with a funky looking terminal, easy-to-use text editor and more. There’ll be food. And drinks. <br/><br/>
 
                       Sponsors, boyfriends, girlfriends and developers that happen-to-be-in-the-neighborhood are more than welcome to join.
                     </td>
@@ -158,8 +172,13 @@ Steps to show on site
             <tr>
               <th>9:30 - 09:45</th>
               <td>
-                <h4>Registration and coffee</h4>
-                During the morning we'll have some coffee, thanks to <a href="http://www.lookahead.com.au/">Lookahead Search</a>, so that we're all set for a great day of Rails Girls!
+                <h4>Registration, coffee, and nibbles</h4>
+                During the morning we'll have some coffee, thanks to
+
+                <!-- #SPONSOR -->
+                <a href="http://www.lookahead.com.au/">Lookahead Search</a>
+
+                , so that we're all set for a great day of Rails Girls!
               </td>
             </tr>
 
@@ -172,10 +191,16 @@ Steps to show on site
             </tr>
 
             <tr>
-              <th>10:00 - 12:30</th>
+              <th>10:00 - 10:30</th>
               <td>
-                <h4>Hand-on Coding with Ruby</h4>
-                At Rails Girls you got to play with Ruby a bit, but now it's time to really understand some of its features and syntax.
+                <h4>Lightning talks pt. 1</h4>
+              </td>
+            </tr>
+
+            <tr>
+              <th>10:30 - 12:30</th>
+              <td>
+                <h4>Workshop pt. 1 – Hands-on Coding with Ruby</h4>
               </td>
             </tr>
 
@@ -183,24 +208,27 @@ Steps to show on site
               <th>12:30 - 13:30</th>
               <td>
                 <h4>Lunch</h4>
-                Delicious food from local startup <a href="http://www.youchews.com.au/">You Chews</a>.
+
+                <!-- #SPONSOR -->
+                 Brought to you by
+                <a href="http://prismatik.com.au/">Prismatik</a>.
               </td>
             </tr>
 
             <tr>
-              <th>13:30 - 14:15</th>
+              <th>13:30 - 14:00</th>
               <td>
-                <h4>Lightning talks</h4>
+                <h4>Lightning talks pt. 2</h4>
               </td>
             </tr>
             <tr>
-              <th>14:15 - 17:00</th>
+              <th>14:00 - 17:00</th>
               <td>
-                <h4>Second part of the workshop</h4>
+                <h4>Workshop pt. 2</h4>
               </td>
             </tr>
             <tr>
-              <th>17:00 - 17:30</th>
+              <th>17:00 - 18:00</th>
               <td>
                 <h4>Retrospectives and Wrap-up</h4>
                 We'll go over everything we did for the day, and hear about your experiences from the day.
@@ -210,107 +238,167 @@ Steps to show on site
               <th>18:00</th>
               <td>
                 <h4>Closing Party</h4>
-                Shelbourne Hotel
+
+                <!-- #VENUE -->
+                Location to be announced! We can't give away everything ;)
               </td>
             </tr>
           </tbody>
         </table>
       </div>
 
-
-<!--  These also, just update :) -->
-
       <div class="grid_4 push_1 omega side">
 
         <h3>Information</h3>
-        <p>
-          <strong>Location:</strong> <a href="https://ninefold.com/">Ninefold</a> <a href="http://goo.gl/maps/1VyTD">2 Market St, Sydney 2000</a>
-          Entry is actually from around the corner on Kent Street.
-        </p>
+        <div>
+          <!-- #VENUE -->
+          <strong>Location:</strong>
+          <h4><a href="http://www.ansarada.com/">Ansarada</a></h4>
+          <p><a href="https://www.google.com.au/maps/place/ansarada/@-33.857993,151.209388,15z/data=!4m2!3m1!1s0x0:0xe5f38a25444a39af?sa=X&ved=0CIsBEPwSMA1qFQoTCNyNyeHi_MYCFaUopgod0XgIJw">2/80 George St, The Rocks NSW 2000</a></p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13252.915336747159!2d151.209388!3d-33.857993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5f38a25444a39af!2sansarada!5e0!3m2!1sen!2sau!4v1438050369150" width="300" height="300" frameborder="0" style="border:0"></iframe>
 
 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
 
 
-        <h3>We are looking for sponsors!</h3>
+
+        <!-- #SPONSOR -->
+        <h3>Our awesome Sponsors:</h3>
+
         <p>
-          <small>Want to help? We are looking for partners and sponsors to support Rails Girls Sydney!
-              <a href="mailto:railsgirlsau@gmail.com">Email us!</a>
-          </small>
+          <a href="http://ruby.org.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/rubyau.png" alt="Ruby Australia">
+          </a>
         </p>
 
-        <h3>Our awesome Sponsors:</h3>
         <p>
-          <a href="http://www.ninefold.com" style="display:block; margin-top:20px; border:0;" target="_blank">
-            <img src="./images/sydney/ninefold.png" alt="Ninefold">
+          <a href="http://prismatik.com.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/prismatik.png" alt="Prismatik" width="200">
           </a>
         </p>
+
         <p>
-          <a href="http://www.rea-group.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
-            <img src="./images/sydney/rea.jpg" alt="REA Group" width=280>
-          </a>
-        </p>
-        <p>
-          <a href="http://www.reinteractive.net" style="display:block; margin-top:20px; border:0;" target="_blank">
+          <a href="https://reinteractive.net" style="display:block; margin-top:20px; border:0;" target="_blank">
             <img src="./images/sydney/reinteractive.png" alt="reInteractive">
           </a>
         </p>
+
+        <p>
+          <a href="http://www.ansarada.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/ansarada.jpg" alt="Ansarada">
+          </a>
+        </p>
+
         <p>
           <a href="http://www.lookahead.com.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
             <img src="./images/sydney/lookahead.png" alt="Lookahead Search">
           </a>
         </p>
+
         <p>
-          <a href="http://fairfaxmedia.com.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
-            <img src="./images/sydney/fairfax.svg" alt="Fairfax Media">
+          <a href="https://www.google.com.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/google-logo.png" alt="Google">
           </a>
         </p>
-        <p>
-          <a href="http://dius.com.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
-            <img src="./images/sydney/dius.png" alt="Dius" width=150>
-          </a>
-        </p>
-        <p>
-          <a href="http://www.jobready.com.au/" style="display:block; margin-top:20px; border:0;" target="_blank">
-            <img src="./images/sydney/jobready.png" alt="Job Ready" width=150>
-          </a>
-        </p>
+
         <p>
           <a href="https://generalassemb.ly/sydney" style="display:block; margin-top:20px; border:0;" target="_blank">
-            <img src="./images/sydney/ga.jpg" alt="General Assembly" height=55>
+            <img src="./images/sydney/general_assembly.png" alt="General Assembly" width="200px">
           </a>
         </p>
+
+        <!-- #SPONSOR request -->
+        <!-- <h4>Want your name here?</h4>
+        <p>
+          <small>We are looking for partners and sponsors to support Rails Girls Sydney!
+              <a href="http://eventie.io/events/31-rails-girls-sydney-winter-2015">Sponsor us</a> or
+              <a href="mailto:railsgirlssyd@gmail.com">email</a> for more information.
+          </small>
+        </p> -->
+
+        <!-- <p>
+          <a href="http://www.thoughtworks.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/thoughtworks-250-logo.png" alt="ThoughtWorks">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="http://www.blake.com.au" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/blake.jpg" alt="Blake">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="http://www.envato.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/envato.png" alt="Envato" height="50">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="http://www.thecoderfactory.com" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/thecoderfactory.png" alt="CoderFactory" width="160">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="https://www.atlassian.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/atlassian.png" alt="Atlassian">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="https://www.campaignmonitor.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+            <img src="./images/sydney/campaignmonitor.png" alt="Campaign Monitor">
+          </a>
+        </p> -->
+
         <hr/>
       </div>
 
-      <!-- <h1 class="grid_6 push_4 feature"><a href="https://railsgirlsau.typeform.com/to/TlI7GI">Excited? Sign up here!</a></h1> -->
-<!--  Update the team list       -->
+      <!-- #APPLICATIONS -->
+      <div>
+        <h1 class="grid_6 push_3 feature">
+          <a href="http://rails-girls-events.herokuapp.com/">Excited? Sign up here!</a>
+        </h1>
+      </div>
 
-      <div class="coaches">
-        <hr />
-        <a href="http://twitter.com/aemeredith" class="grid_3">Elle Meredith<small>@aemeredith</small></a>
-        <a href="https://twitter.com/lucykbain" class="grid_3">Lucy Bain<small>@lucykbain</small></a>
-        <a href="https://twitter.com/gregmcintyre" class="grid_3">Gregory McIntyre<small>@gregmcintyre</small></a>
-        <a href="https://twitter.com/joshuapaling" class="grid_3">Joss Paling<small>@joshuapaling</small></a>
-        <a href="https://twitter.com/andrewjgrimm" class="grid_3">Andrew Grimm<small>@andrewjgrimm</small></a>
-        <a href="https://twitter.com/Angie_Gove" class="grid_3">Angie Gove<small>@Angie_Gove</small></a>
-        <a href="https://twitter.com/nolim1t" class="grid_3">Barry Teoh<small>@nolim1t</small></a>
-        <a href="https://twitter.com/CathJones0" class="grid_3">Catherine Jones<small>@CathJones0</small></a>
-        <a href="https://twitter.com/clairettran" class="grid_3">Claire Tran<small>@clairettran</small></a>
-        <a href="https://twitter.com/danieldraper" class="grid_3">Dan Draper<small>@danieldraper</small></a>
-        <a href="#" class="grid_3">Dave Swensen</a>
-        <a href="#" class="grid_3">Elliott Murray</a>
-        <a href="https://twitter.com/gogogarrett" class="grid_3">Garrett Heinlen<small>@gogogarrett</small></a>
-        <a href="https://twitter.com/lgarvey" class="grid_3">Leonard Garvey<small>@lgarvey</small></a>
-        <a href="#" class="grid_3">Manic Chuang</a>
-        <a href="https://twitter.com/mattallen" class="grid_3">Matt Allen<small>@mattallen</small></a>
-        <a href="https://twitter.com/thetron" class="grid_3">Nicholas Bruning<small>@thetron</small></a>
-        <a href="https://twitter.com/riana_ferreira" class="grid_3">Riana Ferreira<small>@riana_ferreira</small></a>
-        <a href="#" class="grid_3">Shamim Jahandideh</a>
-        <a href="#" class="grid_3">Simon Hildebrandt</a>
-        <a href="https://twitter.com/minty8880" class="grid_3">Tanya Sager<small>@minty8880</small></a>
-        <a href="https://twitter.com/tobyhede" class="grid_3">Toby Hede<small>@tobyhede</small></a>
-        <a href="https://twitter.com/TracyMuSung" class="grid_3">Tracy Mu Sung<small>@TracyMuSung</small></a>
-        <a href="https://twitter.com/willrax" class="grid_3">Will Raxworthy<small>@willrax</small></a>
+      </div>
+
+      <div class="coaches grid_12">
+          <h3> Organisers </h3>
+          <a class="grid_3" href="https://twitter.com/lucykbain">Lucy Bain<small>@lucykbain</small></a>
+          <a class="grid_3" href="https://twitter.com/Angie_Gove">Angie Gove<small>@Angie_Gove</small></a>
+          <a class="grid_3" href="https://twitter.com/amesimmons">Amy Simmons<small>@amesimmons</small></a>
+      </div>
+        <!-- #COACHES -->
+        <div class="coaches grid_12">
+          <h3> Coaches </h3>
+          <a class="grid_3" href="https://twitter.com/gregmcintyre">Gregory McIntyre<small>@gregmcintyre</small></a>
+          <a class="grid_3" href="https://twitter.com/charlie__gerard">Charlie Gerard<small>@charlie__gerard</small></a>
+          <a class="grid_3" href="https://twitter.com/geoffroh">Geoff Hodgson<small>@geoffroh</small></a>
+          <a class="grid_3" href="https://twitter.com/nadiavu_">Nadia Vu<small>@nadiavu_</small></a>
+          <a class="grid_3" href="https://twitter.com/lgarvey">Leonard Garvey<small>@lgarvey</small></a>
+          <a class="grid_3" href="https://twitter.com/@gogogarrett">Garrett Heinlen<small>@gogogarrett</small></a>
+          <a class="grid_3" href="https://twitter.com/@joshuapaling">Joss Paling<small>@joshuapaling</small></a>
+          <a class="grid_3" href="https://twitter.com/@minty8880">Tanya Sager<small>@minty8880</small></a>
+          <a class="grid_3" href="https://twitter.com/@riana_ferreira">Riana Ferreira <small>@riana_ferreira</small></a>
+          <a class="grid_3" href="https://twitter.com/maetl">Mark Rickerby<small>@maetl</small></a>
+          <span class="grid_3">And more!</small></span>
+          <hr />
+          <!--
+          <a class="grid_3" href="https://twitter.com/tjmcewan">Tim McEwan<small>@tjmcewan</small></a>
+          <a class="grid_3" href="https://twitter.com/mootpointer">Andrew Harvey<small>@mootpointer</small></a>
+          <a class="grid_3" href="https://twitter.com/chriswait91">Chris Wait<small>@chriswait91</small></a>
+          <a class="grid_3" href="https://twitter.com/lachiecox">Lachie Cox<small>@lachiecox</small></a>
+
+          <a class="grid_3" href="https://twitter.com/suzanne_aseer">Suzanne Aseervatham<small>@suzanne_aseer</small></a>
+          <a class="grid_3" href="https://twitter.com/svetixbot">Svetlana Filimonova<small>@svetixbot</small></a>
+          <a class="grid_3" href="https://twitter.com/tobyhede">Toby Hede<small>@tobyhede</small></a>
+          <a class="grid_3" href="https://twitter.com/TracyMuSung">Tracy Mu Sung<small>@TracyMuSung</small></a>
+          <a class="grid_3" href="https://www.linkedin.com/in/vinnylawrensonwoods">Vinny Lawrenson-Woods<small>(LinkedIn)</small></a>
+          <a class="grid_3" href="https://twitter.com/xiaoningrwang">Xiaoning (Ruth) Wang<small>@xiaoningrwang</small></a>
+        -->
+        </div>
       </div>
 
     </div>
@@ -319,7 +407,7 @@ Steps to show on site
 <!-- /content -->
 
   <footer>
-    <p>2010-2014, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a>
+    <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a>
     </p>
     <p class="slogan">Get excited and make things!</p>
   </footer>
