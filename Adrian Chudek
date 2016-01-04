@@ -252,28 +252,16 @@
 
             </p>
 
-
-       <h3>Partners</h3>
-
-       <p>Rails Girls (insert) is co-organized with our awesome partners.</p><p>
-         <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:contact@railslove.com>">Email us</a>! </p>
-         <p>
-           <a href="http://www.coworkingcologne.de" style="float:right; margin:0 0 0; border:0;"><img src="./images/coworking.png" alt="Coworking Cologne"></a>
-         <a href="http://www.coworkingcologne.de">Coworking Cologne</a> is a Think & Do Ecosystem which helps to build Coworking Spaces, Fablabs, Think Tanks, Startup Accelerators, etc.
-
-</p>
-<p>
-    <a href="http://www.railslove.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/railslove.jpg" alt="Railslove"></a>
-         <a href="http://www.railslove.com">Railslove</a> is a small team of passionate hackers, thinkers and designers creating juicy stuff for the web.
-</p>
-<p>
-    <a href="http://www.innoq.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/innoQ.jpg" alt="InnoQ"></a>
-         <a href="http://www.innoq.com/">InnoQ</a> offers consulting and development services for challenging projects.
-</p>
-     <hr/>
   -->
+  
+
   <a class="twitter-timeline" href="https://twitter.com/RailsGirls3City" data-widget-id="679046417361563648">Tweety użytkownika @RailsGirls3City </a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   <hr />
+   <h3>Partnerzy</h3>
+   
+   <a href="http://www.adrianchudek.com" style="display: block; background: url(http://adrianchudek.com/railsgirls/adrianchudek.png); background-size: contain; width: 200px; height: 106px; margin: 0 auto; border: none;"></a>
+
+     <hr/>
      <h3>FAQ</h3>
       <p><strong>Ile kosztują warsztaty?</strong>
           Nic, są całkowicie bezpłatne! Wystarczy Twoje pozytywne nastawienie :)
