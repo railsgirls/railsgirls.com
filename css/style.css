@@ -2932,3 +2932,12 @@ div.bta-sponsors-top{ margin-top: 50px;}
 a.large{
 	font-size: 19px;
 }
+
+/* Pune 2016 */
+.pune#promo {
+  padding-left:430px;
+  background:url('../images/rg-pune.png') no-repeat 0 50px,
+  url('../images/separator.png') no-repeat center bottom;
+  background-size: 400px;
+}
+
