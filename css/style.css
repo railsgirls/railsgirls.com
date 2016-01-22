@@ -2941,3 +2941,25 @@ a.large{
   background-size: 400px;
 }
 
+
+/* Ternopil 2016 */
+.ternopil#promo {
+  padding-left:300px;
+  background:url('../images/ternopil/rg-ternopil.png') no-repeat 0px 0px,
+  url('../images/separator.png') no-repeat center bottom;
+  background-size: 300px;
+}
+
+.ternopil > .text-center {
+  text-align: center;
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 60px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 42px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+
+/* end Ternopil 2016 */
