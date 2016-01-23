@@ -2941,3 +2941,113 @@ a.large{
   background-size: 400px;
 }
 
+/* Ica - Peru 2016 */
+.ica {
+  margin: 0 auto;
+  width: 960px;
+}
+.ica #promo-ica {
+  font-size: 17px;
+}
+.ica #promo-ica h1 {
+  color:#d3360b;
+  font-size: 52px;
+  margin-top: 50px;
+  margin-bottom:0px;
+  padding-bottom: 0px;
+  font-family: Helvetica;
+  line-height: 45px;
+}
+.ica #fecha {
+  font-size:24px;
+  color:#444;
+  margin-top: 0px;
+  letter-spacing:3px;
+  padding-left: 3px;
+}
+.ica #descripcion {
+  margin-top: 30px;
+  margin-bottom: 180px;
+}
+.ica #descripcion p{
+float: left;
+  width: 30%;
+  margin-right: 5%;
+  font-size: 17px;
+}
+.ica #descripcion p:last-child{
+  margin-right:0;
+}
+.ica #descripcion span {
+  color:#d3360b;
+  font-weight: bold;
+  font-size: 17px;
+}
+.ica #agenda {
+  width: 48%;
+  float:left;
+  margin-top: 0px;
+}
+.ica h2 {
+  padding-top: 0px;
+  line-height: 0.2;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.ica #agenda tr {
+  font-size: 19px;
+}
+.ica #agenda th{
+  font-weight: lighter;
+  font-size: 17px;
+  font-weight: 200;
+  text-align: left;
+}
+.ica #agenda td {
+color:#e0330c;
+padding-bottom:15px;
+padding-left:2px;
+}
+.ica #informacion {
+  width: 42%;
+  float:right;
+margin-top: 0px;
+margin-top: 30px;
+}
+.ica #informacion p a{
+margin: auto 0;
+}
+.ica #informacion img{
+  float: right;
+  width: 140px;
+}
+.ica #team{
+  padding-bottom: 150px;
+}
+.ica #team div{
+  display: inline;
+  float: left;
+  width:25%;
+}
+.ica #team img{
+  border-radius: 100%;
+  width: 50px;
+  height:50px;
+  float: left;
+}
+.ica #team p{
+  margin: 0;
+  padding-left: 60px;
+}
+.ica #team h5{
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.ica #team hr{
+padding-top:30px;
+}
+.ica #team a{
+  text-decoration: none;
+  border-bottom: none;
+}
