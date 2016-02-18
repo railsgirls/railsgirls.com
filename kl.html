@@ -3,10 +3,17 @@
 <head>
   <meta charset="utf-8">
   <script>
-    var DATE = "30th January 2016"
-    var ADDRESS = "Idea River Run, D-5-8 Parklane Commercial Hub, Jalan SS7/26 Kelana Jaya, 47301 Petaling Jaya Malaysia"
-    var EVENT_URL = "https://www.facebook.com/events/441538756053410/"
-    document.title = "Kuala Lumpur " + DATE
+
+    // Things to change:
+    // 1. Update variables
+    // 2. Change sponsor images
+    // 3. Update venue iframe
+
+    var DATE = "27 February 2016";
+    var ADDRESS = "The Co. Kuala Lumpur, 8 Lengkok Abdullah, Bangsar, 59000 Kuala Lumpur, Malaysia";
+    var EVENT_URL = "https://www.facebook.com/events/1685102981731694/";
+    var TWEET_TEXT = "Rails Girls Kuala Lumpur, " + DATE + " - apply now! #railsgirlskl";
+    document.title = "Kuala Lumpur " + DATE;
   </script>
 
 
@@ -16,7 +23,7 @@
 
   <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="Rails Girls KL Meetup, Jan 2016! We will learn about the web, prototyping, basic programming and get introduced to the world of technology. No experience required – just some curiosity!">
+  <meta name="description" content="Rails Girls KL Meetup! We will learn about the web, prototyping, basic programming and get introduced to the world of technology. No experience required – just some curiosity!">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
@@ -62,6 +69,13 @@
     .kl-prev-coaches a {
       color: gray;
     }
+
+    .group-picture {
+      background: url(images/kl/rgkl-group-picture.jpg) no-repeat center -350px fixed;
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
   </style>
 </head>
 <body>
@@ -81,24 +95,8 @@
     </div>
   </header>
 
-  <!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+  <div class="group-picture"></div>
 
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!
-
--->
-
-  <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
   <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
       <div id="promo" class="new kl">
@@ -108,7 +106,7 @@ Steps to show on site
         </h1>
         <p>Hello world!</p>
         <p>
-          We're back for the first Rails Girls KL meetup for 2016!
+          Ever wondered what a programmer does at work? Ever wanted to build the next Facebook?
         </p>
 
         <p>
@@ -117,7 +115,7 @@ Steps to show on site
 
         <p>Ruby on Rails is a framework that you can build web apps on. Some apps that are built on Ruby on Rails are <a href="http://kfit.com/" target="_blank">KFIT</a> and <a href="http://www.touristly.com/" target="_blank">Touristly</a>.</p>
 
-        <p><a target="_blank" href="https://www.facebook.com/events/441538756053410/">Apply now!</a>
+        <p><a id="application_link" target="_blank" href="#">Apply now!</a>
 
         <p><strong>This workshop is suitable for beginners to coding.</strong></p>
 
@@ -136,7 +134,7 @@ Steps to show on site
           <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Kuala Lumpur, 12th December 2015  - apply now! #railsgirlskl" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+              <a id='twitter' href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
@@ -258,7 +256,7 @@ Steps to show on site
       <h2>Information</h2>
       <strong>Location:</strong>
       <script>document.write(ADDRESS)</script>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.946679416098!2d101.59191031459402!3d3.108809354266651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c1f48d4e069%3A0x3f3e02f634d917d0!2sIdeaRiverRun!5e0!3m2!1sen!2smy!4v1447750059064" width=100% frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8660490423936!2d101.67582481527047!3d3.1300871977207683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc499679f605af%3A0xa55c0836c8e39a26!2sThe+Co+KL!5e0!3m2!1sen!2smy!4v1455789684532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
       <div>
@@ -289,15 +287,28 @@ Steps to show on site
       <div>
         <h2>Sponsors</h2>
 
+        <!--
         <div class="">
-          <a class="kl-img-a" href="gorgeousgeeks.net" target="_blank">
+          <a class="kl-img-a" href="http://gorgeousgeeks.net" target="_blank">
             <img  width="150px" src="./images/kl/sponsors/gg.png" alt="Gorgeous Geeks"/>
           </a>
         </div>
 
         <div class="">
-          <a class="kl-img-a" href="ideariverrun.com" target="_blank">
-            <img  width="150px" src="./images/kl/sponsors/irr.png" alt="IRR"/>
+          <a class="kl-img-a" href="http://ideariverrun.com" target="_blank">
+            <img  width="150px" src="./images/kl/sponsors/irr.png" alt="irr"/>
+          </a>
+        </div>
+        -->
+        <div class="">
+          <a class="kl-img-a" href="http://jointhe.co" target="_blank">
+            <img  width="150px" src="./images/kl/sponsors/theco.png" alt="irr"/>
+          </a>
+        </div>
+
+        <div class="">
+          <a class="kl-img-a" href="http://learn-rails.com" target="_blank">
+            <img  width="150px" src="./images/kl/sponsors/learn-rails-book-cover.jpg" alt="irr"/>
           </a>
         </div>
 
@@ -331,6 +342,7 @@ Steps to show on site
         <a target="_blank" href="http://goo.gl/forms/CPqPb8WW6s">Sign up</a>
         or
         <a href="mailto:codeequality@gmail.com">email us</a>
+        <a href="mailto:railsgirlsmy@gmail.com">email us</a>
         .
       </p>
 
@@ -348,7 +360,6 @@ Steps to show on site
     <a href="" class="grid_3">Jeanette Goon, organizer </a>
     <a href="" class="grid_3">Kher Yee, organizer </a>
     <a href="" class="grid_3">Ei-Vonne, organizer </a>
-    <a href="" class="grid_3">Marxha, organizer </a>
     <a href="http://twitter.com/kriskhaira" class="grid_3">Kris Khaira, mentor<small>@kriskhaira</small></a>
     <a href="" class="grid_3">Nguyen Vu Nguyen, mentor </a>
     <a href="" class="grid_3">Nadia Hazeman, mentor</a>
@@ -356,7 +367,6 @@ Steps to show on site
     <a href="" class="grid_3">Nicholas Ng, mentor</a>
     <a href="" class="grid_3">Gooi Liang Zheng, mentor</a>
     <a href="" class="grid_3">Iqbal Hasnan, mentor</a>
-    <a href="" class="grid_3">Nurul Atiqah Ahmad, mentor</a>
     <a href="" class="grid_3">Joanne Chia, mentor</a>
     <a href="" class="grid_3">Cedric, mentor</a>
 
@@ -367,6 +377,8 @@ Steps to show on site
       <a href="https://twitter.com/ubikentang" class="grid_3">Wunmin Wong, organizer<small>@ubikentang</small></a>
       <a href="https://twitter.com/joshZteng" class="grid_3">Josh Teng, organizer<small>@joshZteng</small></a>
       <a href="https://twitter.com/piratefsh" class="grid_3">Sher Minn Chong, organizer<small>@piratefsh</small></a>
+      <a href="" class="grid_3">Nurul Atiqah Ahmad, mentor</a>
+      <a href="" class="grid_3">Marxha, organizer </a>
       <a href="" class="grid_3">Ryan Law, mentor </a>
       <a href="" class="grid_3">Afif Najib, mentor </a>
       <a href="" class="grid_3">Eyad Alama, mentor </a>
@@ -404,7 +416,7 @@ Steps to show on site
 
 <footer>
 <p>
-  2010-2015, Rails Girls.
+  2010-2016, Rails Girls.
   <a href="./press.html">Contact us</a>
   or follow us on
   <a href="http://twitter.com/railsgirls">Twitter</a>
@@ -412,19 +424,23 @@ Steps to show on site
   <a href="https://www.facebook.com/railsgirls">Facebook</a>
 </p>
 <p class="slogan">Get excited and make things!</p>
+
 </footer>
 <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19631067-1']);
+  _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-      </script>
+  document.getElementById("application_link").href = EVENT_URL;
+  document.getElementById("twitter").setAttribute("data-text", TWEET_TEXT);
+
+</script>
 </body>
 </html>
