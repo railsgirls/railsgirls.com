@@ -9,10 +9,11 @@
     // 2. Change sponsor images
     // 3. Update venue iframe
 
-    var DATE = "27 February 2016"
-    var ADDRESS = "The Co. Kuala Lumpur, 8 Lengkok Abdullah, Bangsar, 59000 Kuala Lumpur, Malaysia"
-    var EVENT_URL = "https://www.facebook.com/events/1685102981731694/"
-    document.title = "Kuala Lumpur " + DATE
+    var DATE = "27 February 2016";
+    var ADDRESS = "The Co. Kuala Lumpur, 8 Lengkok Abdullah, Bangsar, 59000 Kuala Lumpur, Malaysia";
+    var EVENT_URL = "https://www.facebook.com/events/1685102981731694/";
+    var TWEET_TEXT = "Rails Girls Kuala Lumpur, " + DATE + " - apply now! #railsgirlskl";
+    document.title = "Kuala Lumpur " + DATE;
   </script>
 
 
@@ -124,7 +125,7 @@
           <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Kuala Lumpur, 12th December 2015  - apply now! #railsgirlskl" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+              <a id='twitter' href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
@@ -428,7 +429,8 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-  document.getElementById("application_link").href = EVENT_URL
+  document.getElementById("application_link").href = EVENT_URL;
+  document.getElementById("twitter").setAttribute("data-text", TWEET_TEXT);
 
 </script>
 </body>
