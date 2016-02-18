@@ -3,6 +3,12 @@
 <head>
   <meta charset="utf-8">
   <script>
+
+    // Things to change:
+    // 1. Update variables
+    // 2. Change sponsor images
+    // 3. Update venue iframe
+
     var DATE = "27 February 2016"
     var ADDRESS = "The Co. Kuala Lumpur, 8 Lengkok Abdullah, Bangsar, 59000 Kuala Lumpur, Malaysia"
     var EVENT_URL = "https://www.facebook.com/events/1685102981731694/"
@@ -81,24 +87,6 @@
     </div>
   </header>
 
-  <!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!
-
--->
-
-  <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
   <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
       <div id="promo" class="new kl">
@@ -117,7 +105,7 @@ Steps to show on site
 
         <p>Ruby on Rails is a framework that you can build web apps on. Some apps that are built on Ruby on Rails are <a href="http://kfit.com/" target="_blank">KFIT</a> and <a href="http://www.touristly.com/" target="_blank">Touristly</a>.</p>
 
-        <p><a target="_blank" href="https://www.facebook.com/events/441538756053410/">Apply now!</a>
+        <p><a id="application_link" target="_blank" href="#">Apply now!</a>
 
         <p><strong>This workshop is suitable for beginners to coding.</strong></p>
 
@@ -344,6 +332,7 @@ Steps to show on site
         <a target="_blank" href="http://goo.gl/forms/CPqPb8WW6s">Sign up</a>
         or
         <a href="mailto:codeequality@gmail.com">email us</a>
+        <a href="mailto:railsgirlsmy@gmail.com">email us</a>
         .
       </p>
 
@@ -425,19 +414,22 @@ Steps to show on site
   <a href="https://www.facebook.com/railsgirls">Facebook</a>
 </p>
 <p class="slogan">Get excited and make things!</p>
+
 </footer>
 <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19631067-1']);
+  _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-      </script>
+  document.getElementById("application_link").href = EVENT_URL
+
+</script>
 </body>
 </html>
