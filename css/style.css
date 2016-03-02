@@ -3028,6 +3028,7 @@ margin: auto 0;
   display: inline;
   float: left;
   width:25%;
+  margin-bottom: 25px;
 }
 .ica #team img{
   border-radius: 100%;
