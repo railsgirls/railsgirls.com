@@ -1575,6 +1575,14 @@ h4.warsaw {
   background:url('../images/rg-amman.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
+
+.athens#promo {
+  padding-left:340px;
+  background:url('../images/rg-athens.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+
 #promo p {
   font-size:19px;
   line-height:1.4;
