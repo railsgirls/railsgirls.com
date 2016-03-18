@@ -7,11 +7,12 @@
     // Things to change:
     // 1. Update variables
     // 2. Change sponsor images
-    // 3. Update venue iframe
+    // 3. Update venue iframe (take from google maps)
+    // 4. Update upcoming event listing at /events.html /index.html
 
-    var DATE = "27 February 2016";
-    var ADDRESS = "The Co. Kuala Lumpur, 8 Lengkok Abdullah, Bangsar, 59000 Kuala Lumpur, Malaysia";
-    var EVENT_URL = "https://www.facebook.com/events/1685102981731694/";
+    var DATE = "26th March 2016";
+    var ADDRESS = "NEXT Academy, A-1-11, Glomac Damansara, Jalan Damansara, Bukit Kiara, 60000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia";
+    var EVENT_URL = "https://www.facebook.com/events/1752923224846570/";
     var TWEET_TEXT = "Rails Girls Kuala Lumpur, " + DATE + " - apply now! #railsgirlskl";
     document.title = "Kuala Lumpur " + DATE;
   </script>
@@ -106,7 +107,7 @@
         </h1>
         <p>Hello world!</p>
         <p>
-          Ever wondered what a programmer does at work? Ever wanted to build the next Facebook?
+          Have a great idea you want to realize? Want to make the web a better place for everyone? This is your chance!
         </p>
 
         <p>
@@ -115,7 +116,7 @@
 
         <p>Ruby on Rails is a framework that you can build web apps on. Some apps that are built on Ruby on Rails are <a href="http://kfit.com/" target="_blank">KFIT</a> and <a href="http://www.touristly.com/" target="_blank">Touristly</a>.</p>
 
-        <p><a id="application_link" target="_blank" href="#">Apply now!</a>
+        <p><a id="application_link" target="_blank" href="#">Apply now!</a></p>
 
         <p><strong>This workshop is suitable for beginners to coding.</strong></p>
 
@@ -256,7 +257,7 @@
       <h2>Information</h2>
       <strong>Location:</strong>
       <script>document.write(ADDRESS)</script>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8660490423936!2d101.67582481527047!3d3.1300871977207683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc499679f605af%3A0xa55c0836c8e39a26!2sThe+Co+KL!5e0!3m2!1sen!2smy!4v1455789684532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1580.9910032364728!2d101.63024343347283!3d3.1349264459245507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49390073a8f5%3A0x79d9b5ae9a2d9ec1!2sGlomac+Damansara%2C+Jalan+Damansara%2C+Bukit+Kiara%2C+60000+Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur!5e0!3m2!1sen!2smy!4v1458277219365" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
       <div>
@@ -287,7 +288,6 @@
       <div>
         <h2>Sponsors</h2>
 
-        <!--
         <div class="">
           <a class="kl-img-a" href="http://gorgeousgeeks.net" target="_blank">
             <img  width="150px" src="./images/kl/sponsors/gg.png" alt="Gorgeous Geeks"/>
@@ -295,16 +295,23 @@
         </div>
 
         <div class="">
+          <a class="kl-img-a" href="http://nextacademy.com" target="_blank">
+            <img  width="150px" src="./images/kl/sponsors/next.png" alt="Next Academy"/>
+          </a>
+        </div>
+
+        <!--
+        <div class="">
           <a class="kl-img-a" href="http://ideariverrun.com" target="_blank">
             <img  width="150px" src="./images/kl/sponsors/irr.png" alt="irr"/>
           </a>
         </div>
-        -->
         <div class="">
           <a class="kl-img-a" href="http://jointhe.co" target="_blank">
             <img  width="150px" src="./images/kl/sponsors/theco.png" alt="irr"/>
           </a>
         </div>
+        -->
 
         <div class="">
           <a class="kl-img-a" href="http://learn-rails.com" target="_blank">
@@ -341,7 +348,7 @@
         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
         <a target="_blank" href="http://goo.gl/forms/CPqPb8WW6s">Sign up</a>
         or
-        <a href="mailto:codeequality@gmail.com">email us</a>
+        <!--<a href="mailto:codeequality@gmail.com">email us</a>-->
         <a href="mailto:railsgirlsmy@gmail.com">email us</a>
         .
       </p>
@@ -355,20 +362,24 @@
     <h2>The Rails Girls KL team</h2>
 
     <a href="http://twitter.com/jellene4eva" class="grid_3">Jellene Khoh, organizer<small>@jellene4eva</small></a>
-    <a href="http://twitter.com/jimmynguyc" class="grid_3">Jimmy Ngu, organizer<small>@jimmynguyc</small></a>
     <a href="" class="grid_3">Faezrah Rizalman, organizer </a>
     <a href="" class="grid_3">Jeanette Goon, organizer </a>
     <a href="" class="grid_3">Kher Yee, organizer </a>
     <a href="" class="grid_3">Ei-Vonne, organizer </a>
-    <a href="http://twitter.com/kriskhaira" class="grid_3">Kris Khaira, mentor<small>@kriskhaira</small></a>
-    <a href="" class="grid_3">Nguyen Vu Nguyen, mentor </a>
+    <a href="" class="grid_3">Joanne Chia, organizer</a>
     <a href="" class="grid_3">Nadia Hazeman, mentor</a>
     <a href="" class="grid_3">Gwee Jo-Ee, mentor</a>
     <a href="" class="grid_3">Nicholas Ng, mentor</a>
     <a href="" class="grid_3">Gooi Liang Zheng, mentor</a>
-    <a href="" class="grid_3">Iqbal Hasnan, mentor</a>
-    <a href="" class="grid_3">Joanne Chia, mentor</a>
-    <a href="" class="grid_3">Cedric, mentor</a>
+    <a href="" class="grid_3">Shaii Ong, mentor</a>
+    <a href="" class="grid_3">Lim Jun Xian, organizer</a>
+    <a href="" class="grid_3">Zulhilmi Zainudin, organizer</a>
+    <a href="http://twitter.com/kriskhaira" class="grid_3">Kris Khaira, mentor<small>@kriskhaira</small></a>
+    <a href="http://twitter.com/parasquid" class="grid_3">Tristan Gomez, mentor<small>@parasquid</small></a>
+    <a href="http://twitter.com/sas1ni69" class="grid_3">Hassanin Ahmed, mentor<small>@sas1ni69</small></a>
+    <a href="http://twitter.com/jimmynguyc" class="grid_3">Jimmy Ngu, mentor<small>@jimmynguyc</small></a>
+    <a href="" class="grid_3">Nguyen Vu Nguyen, mentor </a>
+    <a href="" class="grid_3">Raja Hafify, mentor </a>
 
     <hr/>
     <h3>Previous Contributors</h3>
@@ -377,6 +388,8 @@
       <a href="https://twitter.com/ubikentang" class="grid_3">Wunmin Wong, organizer<small>@ubikentang</small></a>
       <a href="https://twitter.com/joshZteng" class="grid_3">Josh Teng, organizer<small>@joshZteng</small></a>
       <a href="https://twitter.com/piratefsh" class="grid_3">Sher Minn Chong, organizer<small>@piratefsh</small></a>
+      <a href="" class="grid_3">Cedric, mentor</a>
+      <a href="" class="grid_3">Iqbal Hasnan, mentor</a>
       <a href="" class="grid_3">Nurul Atiqah Ahmad, mentor</a>
       <a href="" class="grid_3">Marxha, organizer </a>
       <a href="" class="grid_3">Ryan Law, mentor </a>
@@ -384,12 +397,9 @@
       <a href="" class="grid_3">Eyad Alama, mentor </a>
       <a href="" class="grid_3">Kevin, mentor </a>
       <a href="" class="grid_3">Low Kian Yang, mentor </a>
-      <a href="http://twitter.com/parasquid" class="grid_3">Tristan Gomez, mentor<small>@parasquid</small></a>
       <a href="" class="grid_3">Yihang Ho, mentor </a>
       <a href="" class="grid_3">rizal muthi, mentor </a>
       <a href="" class="grid_3">Karg Weng Lee, mentor </a>
-      <a href="http://twitter.com/sas1ni69" class="grid_3">Hassanin Ahmed, mentor<small>@sas1ni69</small></a>
-      <a href="" class="grid_3">Raja Hafify, mentor </a>
       <a href="http://twitter.com/wfxyz" class="grid_3">Wafiq Rodzuan, mentor<small>@wfxyz</small></a>
       <a href="" class="grid_3">Hu Imm, mentor </a>
       <a href="http://twitter.com/ajmalafif" class="grid_3">Ajmal Afif, mentor<small>@ajmalafif</small></a>
