@@ -1,0 +1,612 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   
+    <title>Rails Girls Jerusalem, July 23-24, 2015</title>
+
+	<meta name="description" content="Rails Girls מגיעה לירושלים ב-23-24 ליולי 2015: הצטרפו לקורס המזורז כדי להכנס לעולם המרתק של פיתוח אפליקציות web עם Ruby on Rails">
+    <meta name="author" content="Rails Girls ירושלים">
+   
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+   
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/rtl.css">
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+    
+  	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      /**
+       * BUTTON STYLES
+       * from http://alexwolfe.github.io/Buttons/
+      **/
+
+      .button {
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        background-color: #eeeeee;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+        background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: linear-gradient(top, #fbfbfb, #e1e1e1);
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        border: 1px solid #d4d4d4;
+        height: 32px;
+        line-height: 32px;
+        padding: 0px 25.6px;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: #666666;
+        text-shadow: 0 1px 1px white;
+        margin: 0;
+        text-decoration: none;
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #eeeeee;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+        background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+        background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+        background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+        background: linear-gradient(top, #ffffff, #dcdcdc);
+      }
+      /* line 47, ../scss/partials/_buttons.scss */
+      .button:active {
+        -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+        background: #eeeeee;
+        color: #bbbbbb;
+      }
+      .button:focus {
+        outline: none;
+      }
+      .button-wrap {
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3e3e3), color-stop(100%, #f2f2f2));
+        background: -webkit-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: -moz-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: -o-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: linear-gradient(top, #e3e3e3, #f2f2f2);
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        -ms-border-radius: 200px;
+        -o-border-radius: 200px;
+        border-radius: 200px;
+        -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        padding: 10px;
+        display: inline-block;
+      }
+      .button-pill {
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        border-radius: 50px;
+      }
+      .button-caution {
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8543f), color-stop(100%, #d9331a));
+        background: -webkit-linear-gradient(top, #e8543f, #d9331a);
+        background: -moz-linear-gradient(top, #e8543f, #d9331a);
+        background: -o-linear-gradient(top, #e8543f, #d9331a);
+        background: linear-gradient(top, #e8543f, #d9331a);
+        background-color: #e54028;
+        border-color: #c22d18;
+        color: white;
+        text-shadow: 0 -1px 1px rgba(103, 24, 13, 0.35);
+      }
+      .button-caution:hover {
+        background-color: #e54028;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb6855), color-stop(100%, #d9331a));
+        background: -webkit-linear-gradient(top, #eb6855, #d9331a);
+        background: -moz-linear-gradient(top, #eb6855, #d9331a);
+        background: -o-linear-gradient(top, #eb6855, #d9331a);
+        background: linear-gradient(top, #eb6855, #d9331a);
+      }
+      .button-large {
+        font-size: 19px;
+        height: 38.4px;
+        line-height: 38.4px;
+        padding: 0px 30.72px;
+      }    
+
+      .more-events {
+        margin-bottom: 20px;
+        color: #666;
+      }
+      .more-events a {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      .more-events a.active {
+        font-weight: bold;
+      }
+
+      #promo.new h1 {
+        height: auto;
+      }
+
+	  ol.short-talk {
+		list-style-type: disc;
+	  }
+
+	  .short-talk li {
+		color: black;
+	  }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a> 
+          <a href="http://guides.railsgirls.com">Guides</a>  
+        </nav>
+      </div>
+    </header>
+
+ 
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+
+        <div id="promo" class="new jerusalem">
+          <h1>Rails Girls ירושלים
+            <small style="font-weight: bold;">23-24 ליולי 2015</small>
+          </h1>
+          <p>שלום עולם<bdi>!</bdi> Rails Girls מגיעה לראשונה לירושלים<bdi>!</bdi><p>
+          <p> Rails Girls היא סדנה ללא תשלום שמטרתה לתת לבנות ולנשים את הכלים לבנות את הרעיונות שלהן באמצעות
+            טכנולוגיה נחשקת בשם Ruby on Rails<bdi>.</bdi>
+            במהלך הסדנה בת היומיים אנחנו נצלול אל תוך העולם הקסום של פיתוח אתרים.
+          </p>
+
+          <!--
+		  <p>
+            	ההרשמה תיפתח בקרוב.
+          </p>
+		  -->	
+
+          <!--
+			  <span class="button-wrap">
+			  <a href="https://docs.google.com/forms/d/1iyILr_BChQLf0t4NEEeJm8m4qfsLC8KPLse7HEcb-hA/viewform" class="button button-large button-caution button-pill" target="_blank">הרשמי עכשיו!</a>
+          </span>
+		  -->
+
+          <div class="english">
+            <p> Shalom world! Rails Girls is coming to Jerusalem!</p>
+            <p>
+              Rails Girls is a free workshop aimed at giving girls and women tools to build their own ideas using a desired technology, Ruby on Rails. During the two day workshop we will dive into the magical world of web development.
+            </p>
+
+	        <!--<p>
+              Registration will open soon.
+            </p>
+			-->
+			
+			<!--
+             <span class="button-wrap">
+              <a href="https://docs.google.com/forms/d/1iyILr_BChQLf0t4NEEeJm8m4qfsLC8KPLse7HEcb-hA/viewform" class="button button-large button-caution button-pill" target="_blank">Apply Now!</a>
+             </span>
+			-->
+          </div>
+
+      </div><!-- promo -->
+      
+      
+      <div class="grid_4 alpha feature">
+       <p><strong>את תלמדי</strong> לעצב, לתכנן ולתכנת בעזרתם של המדריכים שלנו.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>את צריכה</strong> להביא את המחשב הנייד שלך, סקרנות וקמצוץ של דמיון!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>רוצה לעזור?</strong> אנחנו מחפשים מדריכים/ות מתנדבים/ות<bdi>.</bdi> <a href="mailto:contact@railsgirls.co.il">צרו קשר</a>.</p>
+      </div>
+      
+      <hr />
+  
+     
+      <div class="grid_6 alpha">
+        <h2>יום חמישי, 23 ליולי</h2>
+        <table id="schedule">
+          <tbody>
+            <tr>
+              <th>18:00 - 21:00</th>
+              <td>
+                <h4>מסיבת התקנה <bdi>+</bdi> <a href="http://tryruby.org" target="_blank">Try Ruby</a></h4>
+                  הכירו מעט את המשתתפות לפני הסדנא<bdi>.</bdi> הביאו את הלפטופים שלכן אם תוכלו<bdi>,</bdi> על מנת שנוכל להתקין בהם את סביבת העבודה<bdi>,</bdi> והתכוננו ללמוד שפת תכנות חדשה!<br>
+              </td>
+            </tr>
+            <!-- <tr>
+               <th>20:30 - late</th>
+                <td>
+                  <h4>מפגש מאמנים</h4>
+                  All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day. 
+                </td>
+            </tr> -->
+          </tbody>
+        </table>
+        
+        <hr />
+
+        <h2>יום שישי, 24 ליולי</h2>
+        
+        <table id="schedule">
+          <tbody>
+          <tr>
+            <th>8:30 - 09:15</th>
+            <td>
+              <h4>הרשמה וקפה</h4>
+              במהלך הבוקר נסייע בהתקנה לאלו שעדיין לא סיימו להכין את סביבת העבודה על המחשב שלהן.
+            </td>
+          </tr>
+
+          <tr>
+            <th>9:15 - 9:30</th>
+            <td>
+              <h4>דברי פתיחה</h4>
+              תקציר היום וכמה מילים מהספונסרים שלנו.
+              </td>
+          </tr>
+            
+          <tr>
+            <th>9:30 - 10:00</th>
+            <td>
+              <h4>מבוא לפיתוח Web</h4>
+				ענבל גילאי<bdi>,</bdi> מייסדת ריילס גירלס ישראל
+            </td>
+          </tr>
+        
+          <tr>
+            <th>10:00 - 13:00</th>
+            <td>
+              <h4>סדנה</h4>
+              התניעי את האפליקציה הראשונה שלך.
+            </td>
+          </tr>
+
+          <tr>
+            <th>13:00 - 13:40</th>
+            <td><h4>ארוחת צהריים</h4></td>
+          </tr>
+
+          <tr>
+            <th>13:40 - 14:45</th>
+            <td>
+              <h4>הרצאות קצרות</h4>
+			  <br/>
+			  <ol class="short-talk">
+				<li>
+					פרוייקט הכיתה02
+					<br/>
+					יותם מנור<bdi>,</bdi> מפתח בסדנא לידע ציבורי
+					<br/>
+				</li>
+				<br/>
+
+				<li>
+					כלי פיתוח בכרום
+					<br/>
+					גלעד גולדברג<bdi>,</bdi> מפתח בפייפאל
+					<br/>
+				</li>
+				<br/>
+
+				<li>
+					מעברים ואנימציות בCSS
+					<br/>
+					אסף גלבר<bdi>,</bdi> מפתח בפייפאל
+					<br/>
+				</li>
+				<br/>
+
+				<li>
+					מבוא לבסיסי נתונים
+					<br/>
+					סלע רפאלי<bdi>,</bdi> מייסד יס<bdi>.</bdi>נואו
+					<br/>
+				</li>
+
+			  </ol>
+			</td>
+          </tr>
+
+          <tr>
+            <th>14:45 - 16:25</th>
+            <td>
+              <h4>סדנה</h4>
+              הרחיבי את האפליקציה שלך.
+            </td>
+          </tr>
+
+          <tr>
+            <th>16:25 - 16:35</th>
+            <td>
+              <h4>סיכום היום</h4>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+          
+
+        <hr/>
+        <h3>שאלות נפוצות</h3>
+        
+        <p>
+          <strong>מהו מחיר ההשתתפות בסדנה?</strong>
+          הסדנה מוקדשת לכן באהבה ללא תשלום.
+        </p>
+        <p>
+          <strong>למי מכוונת הסדנה?</strong>
+          הסדנה מיועדת לנשים בכל הגילאים עם ידע בסיסי בתפעול מחשב<bdi>.</bdi> עליכן להיות מצויידות בלפטופ.
+        </p>
+        <p>
+          <strong>האם גברים יכולים להשתתף?</strong>
+          כן!
+        </p>
+        <p>
+		<strong>אני יודע/ת לתכנת<bdi> - </bdi>כיצד אוכל לעזור?</strong>
+          אנחנו עדיין מחפשים מאמנים/ות לאירוע. אם מעניין אותך להיות
+		  <a href="http://guides.railsgirls.com/coach/">מאמן/ת Rails Girls</a><bdi>,</bdi>
+          <a href="mailto:contact@railsgirls.co.il">צור/צרי קשר</a>.
+        </p>
+
+
+        
+      </div>
+
+
+      <!--  These also, just update :) -->
+      <div class="grid_5 push_1 omega side">
+        <h3>מידע</h3>
+        <p>
+		<strong>ההרשמה נסגרה<bdi>.</bdi> תודה (:</strong><br>
+           <!--
+			   <strong>לבקשתכן הארכנו את ההרשמה עד יום רביעי</strong><br>
+		  <a href="https://docs.google.com/forms/d/1iyILr_BChQLf0t4NEEeJm8m4qfsLC8KPLse7HEcb-hA/viewform"/><strong>ניתן להרשם</strong></a><strong> עד ליום<bdi>:</bdi> </strong> רביעי<bdi>,</bdi> 21/07/2015 14:00<br>
+		  <strong>נודיע על קבלה ביום<bdi>:</bdi> </strong> רביעי<bdi>,</bdi> 21/07/2015 15:00<br>
+		   <strong>ההרשמה תיפתח בקרוב</strong><br>
+		  -->
+		  <strong>מיקום:</strong> האוניברסיטה העברית
+		  <!--
+		<a href="https://maps.google.com/?q=%D7%99%D7%92%D7%90%D7%9C%20%D7%90%D7%9C%D7%95%D7%9F%2098,%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91">יגאל אלון 98</a>, קומה 13)
+		  -->
+		</p>
+
+        <h3>שותפים</h3>
+
+        <p>Rails Girls תל-אביב-יפו מאורגנת ביחד בעזרת השותפים המדהימים שלנו<bdi>.</bdi>
+        רוצים לעזור<bdi>?</bdi> אנחנו מחפשים שותפים וספונסרים עבור הארוע! <a href="mailto:contact@railsgirls.co.il">כתבו לנו</a>! </p>
+
+		<p style="text-align: left; direction: ltr;">
+			<a href="http://github.com" target="_blank" style="float:right; margin: 0 0 0; border: 0"><img src="./images/fukuoka/github.png" style="width: 190px;" alt="webbing"></a>
+			<a href="http://github.com" target="_blank">GitHub</a> is how people build software.
+			With a community of more than 10 million people, developers can discover, use,
+			and contribute to over 25 million projects using a powerful collaborative development workflow.
+		</p>
+
+		<p style="text-align: left; direction: ltr;">
+			<a href="http://siftech.co" target="_blank" style="float:right; margin: 0 0 0; border: 0"><img src="./images/jerusalem/siftech.jpg" style="width: 190px;" alt="webbing"></a>
+			<a href="http://siftech.co" target="_blank">Siftech</a> was founded in early 2012 as grassroots initiative of the Hebrew University Students Union.
+	The idea was to create a vibrant ecosystem and environment for entrepreneurs and early-stage startups to flourish in Jerusalem.
+	We started out as a community catalyst, organizing events and initiating projects aimed at driving entrepreneurial activity. Six months later, we launched the first startup accelerator in the city.
+	As the nerve center of Jerusalem’s rapidly growing startup scene, we grow and support local entrepreneurial talent, providing the platforms, mentorship and business opportunities for young founders to create and succeed.
+	Our long-term vision is to transform Jerusalem into a global hub of creativity and innovation.
+		</p>
+
+
+		<a href="https://klarna.com/" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/klarna.png" alt="הפקולטה למדעי הטבע" target="_blank"></a>
+        <p>
+          <a href="https://klarna.com/" target="_blank">Klarna</a> 
+          נוסדה ב-2005 במטרה לספק פתרונות תשלומים מקוונים קלים ומהירים<bdi>,</bdi> אשר יאפשרו יחסי צרכן-סוחר בטוחים ופשוטים ככל האפשר<bdi>.</bdi> קלרנה עושה זאת בכך שהיא מאפשרת לצרכן לשלם עבור המוצר אותו קנה רק לאחר קבלתו<bdi>,</bdi> ותוך כך לוקחת על עצמה את הסיכון מיד הסוחר. כיום<bdi>,</bdi> קלרנה היא אחת החברות האירפואיות בעלות שיעורי הצמיחה המהירים ביותר<bdi>:</bdi> בתוך 8 שנים גדלה החברה וכיום היא מונה כ- 800 עובדים<bdi>,</bdi> ופועלת ב-7 שווקים שונים.
+		</p>
+
+        <p>
+          <a href="https://www.facebook.com/pages/Faculty-of-Science-Hebrew-University-of-Jerusalem/195426840502272" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/huji_logo.png" alt="HUJI" target="_blank" style="width: 170px;"></a>
+		  <a href="https://www.facebook.com/pages/Faculty-of-Science-Hebrew-University-of-Jerusalem/195426840502272" target="_blank">בפקולטה למדעי הטבע</a> קיימים חמישה מכוני מחקר<bdi>,</bdi> בית הספר להנדסה ומדעי המחשב ומספר רב של מרכזי מחקר<bdi>:</bdi> ננו-מדע וננוטכנולוגיה<bdi>,</bdi> ביולוגיה מבנית<bdi>,</bdi> ביו-גיאוכימיה ימית<bdi>,</bdi> כימיה קוונטית חישובית<bdi>,</bdi> אינפורמציה קוונטית<bdi>,</bdi> אנליזה מתמטית<bdi>,</bdi> דינמיקה מולקולרית ועוד<bdi>.</bdi> שני מרכזי מחקר בינתחומיים משלבים מסלולי לימוד לתואר דוקטור: חישוביות עצבית וחקר הרציונליות<bdi>.</bdi> הפקולטה שותפה לשלש תוכניות לימודים רב-פקולטאיות לתארים מתקדמים (סביבה<bdi>,</bdi> הידרולוגיה<bdi>,</bdi> וביו-טכנולוגיה)<bdi>.</bdi> המציאות החדשה של המחקר הבינתחומי הניעה אותנו לפתח מסלולים משולבים של לימודי הסביבה<bdi>,</bdi> כימיה-פיסיקה<bdi>,</bdi> כימיה-ביולוגיה<bdi>,</bdi> ביולוגיה חישובית וביולוגיה-פסיכולוגיה<bdi>.</bdi> כמו כן יש בפקולטה תוכניות לתלמידים מצטיינים<bdi>.</bdi> תוכניות הלימודים לבוגר שלנו מתוכננות לאפשר לסטודנט לבחור האם להתמקד בנושא מסוים כבר בתחילת לימודיו או לחילופין<bdi>,</bdi> להחליט על כך רק בתום השנה הראשונה<bdi>.</bdi> שנת הניסיון הראשונה במדע מתוכננת לעזור להתאקלמות באוניברסיטה ולהחלטה על הכיוון המדעי הרצוי<bdi>.</bdi> אנו משתמשים במגוון שיטות הוראה כדי לפתח יכולות חשיבה<bdi>,</bdi> תכונות אישיות ויכולות תקשורת עם אחרים והתנסות בעבודה בקבוצות מחקר<bdi>.</bdi>
+        </p>
+
+		<p style="text-align: left; direction: ltr;">
+			<a href="http://www.appugo.com" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/jerusalem/appugo.png" style="width: 180px;" alt="App U Go"></a>
+		Our mission: Bringing more app ideas to life
+
+We call it the seed funding paradox. Investors require user traction and metrics, while what’s needed to gain those, a minimal viable product - MVP - is out of reach of many early stage startup teams. Actually, financing the product development was the main reason the startup was raising seed at the first place…
+
+<a href="http://appugo.com" target ="_blank">App U Go</a> is presenting a revolutionary concept: MVP as a Service. We offer production-level MVPs, fully developed in Israel, at a setup cost starring at $6,000 - a fraction of the current market cost, and well within most teams own resources. With a product, users and field experience the chances to raise funds at a better valuation - or just bootstrap all the way to a profitable business - becomes much more realistic.
+		</p>
+     
+		<p>
+          <a href="https://www.facebook.com/coaorganic" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/coa_logo.png" alt="COA" target="_blank" style="width: 180px"></a>
+          <a href="https://www.facebook.com/coaorganic" target="_blank">COA</a> 
+    		הוא מותג תיקים המיוצרים מכותנה אורגנית ההופכת אותם לחזקים יותר וידידותיים לסביבה<bdi>.</bdi> כל תיק מיוצר בעבודת יד ובישראל ובאהבה גדולה<bdi>.</bdi>
+			ניתן להזמין דרך האינבוקס בדף הפייסבוק COA או דרך <a href="mailto:coaorganic@gmail.com">האימייל שלנו.</a>
+		</p>
+		<p>
+			<img src="./images/jerusalem/coa_img1.jpg" style="width: 122px; height: 70px"></img>
+			<img src="./images/jerusalem/coa_img2.jpg" style="width: 122px; height: 70px"></img>
+			<img src="./images/jerusalem/coa_img3.jpg" style="width: 122px; height: 70px"></img>
+		</p>
+
+		<p style="text-align: left; direction: ltr;">
+			<a href="http://webbing.me" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/jerusalem/webb_color.jpg" style="width: 120px;" alt="webbing"></a>
+			<a href="http://webbing.me" target="_blank">Webbing Labs Ltd.</a> is a fast-growing software development company located in Jerusalem that provides specialized services for clients in the fields of text analysis, machine learning, and speech recognition. In addition to our consulting services for clients, Webbing Labs also develops its own consumer and business products that aim to improve the flow of information on interest-based networking platforms.
+		</p>
+
+		<p>
+          <a href="http://www.otentivee.co.il/" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/otentivi.jpg" alt="COA" target="_blank" style="width: 180px"></a>
+		במאה הזו מתחוללת המהפכה אולי החשובה ביותר בהיסטוריה<bdi>,</bdi> בכל הקשור לתזונה בריאה ונכונה<bdi>.</bdi>
+		בזמן שתעשיות מזון בעולם כולו מרעילות אותנו במזון<bdi>,</bdi> שכולו חומרים מסוכנים לבריאות האדם<bdi>,</bdi> מתרחשת מהפכה טבעונית אותנטית<bdi>,</bdi> מהפכה שמצטרפים אליה מיליוני בני אדם ברחבי העולם כולו<bdi>.</bdi> המזון הטבעוני האותנטי מבוסס על מזון מן הצומח ומחקרים מקיפים בעולם כולו מראים שהבחירה במזון זה מבטיחה דרך לבריאות<bdi>,</bdi>  חוסן גופני ואריכות ימים<bdi>.</bdi> חברת אותנטבעי<bdi>,</bdi> שמייסדיה הם מבני הקהילה העברית וממחוללי המהפכה מגישה לכם אוכל טבעוני אותנטי<bdi>,</bdi> טעים<bdi>,</bdi> בריא ומקורי שיהפוך את התזונה שלכם לטעימה ובעיקר בריאה<bdi>.</bdi> כולם תרים אחר סוד הבריאות ואריכות הימים<bdi>.</bdi> אנחנו מגישים לכם אותו...
+		</p>
+		<!--
+        <p style="text-align: left; direction: ltr;">
+          <a href="http://astrails.com/" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/jerusalem/astrails.png" style="width: 190px;" alt="Astrails"></a>
+          We create awesome web applications.<br>
+          Astrails is a small company working on big ideas. With a comprehensive
+          list of tools, skill-sets and best practices accumulated over the
+          years, we approach our work with a great deal of experience, curiosity
+          and vigor. Astrails has also worked with, evaluated or otherwise
+          formed an opinion on the most current technologies in its surrounding
+          technology community. The fast pace of development keeps Astrails
+          always intrigued, always interested and never bored.
+        </p>
+		-->
+
+        <!--
+		<p style="text-align: left; direction: ltr;">
+          <a href="http://fiverr.com/" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/jerusalem/fiverr.png" style="width: 170px;" alt="Fiverr"></a>
+          <a href="http://fiverr.com/">Fiverr®</a> creates jobs for talented people. As the leader of the Gig Economy, Fiverr is proving that everyone has a chance for financial independence by doing what they love. Fiverr is the world’s largest marketplace for Gigs (services), currently listing over 2.5 million Gigs in 120 categories across 200 countries. Fiverr is one of the top 200 websites in the world according to <a href="http://alexa.com/" target="_blank">Alexa.com</a>.
+        </p>
+
+        <p style="text-align: left; direction: ltr;">
+          <a href="http://www.chegg.com/" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/jerusalem/chegg.png" style="width: 170px;" alt="Chegg"></a>
+          <a href="http://www.chegg.com/">Chegg®</a> WE PUT STUDENTS FIRST! We are on the mission to improve students’ outcomes. We’re going to make the world better to study in by building products and services that help students save time, save money and get smarter!
+        </p>
+		-->
+
+        <!--
+        <p>
+          <a href="http://tikalk.com/" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/tikal.png" alt="טיקל"></a>
+          <a href="http://tikalk.com/" target="_blank">טיקל</a>           
+          היא חברת מומחי פיתוח בקוד פתוח, שאוהבים טכנולוגיה ואתגרים. אנו עוזרים לאנשים וארגונים שיש להם משימות שאפתניות להצליח.<br>
+          אנחנו מקימים צוותים שאוהבים אתגרים וחשיבה אחרת ומסייעים ללקוחותינו לתכנן, לפתח, לבנות ולהטמיע כל מערכת תוכנה, בכל סדר גודל, ע"י טכנולוגיות עכשוויות ובמגוון כלי פיתוח חדשניים, בכל התחומים הבאים : JAVA, .net, JavaScript, ALM, RoR.<br>
+          אנו מאמינים ששיתוף הידע והניסיון שצברנו עם קהילת הפיתוח, דרך הרצאות וסדנאות מעשיות, מסייע לאנשי הקהילה להישאר בחזית הידע המעודכן ביותר ולממש את השאיפות שלהם.
+        </p>
+		-->
+
+		<!--
+        <p>
+          <a href="http://notninjas.com/" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/ebay.png" alt="eBay IIC"></a>
+          <a href="http://notninjas.com/">eBay IIC</a>           
+           הינה השלוחה הישראלית בקבוצת החדשנות של eBay, שמטרתה ייזום ופיתוח דור העתיד של המוצרים ב-eBay. קבוצת החדשנות מתמקדת ביצירת חוויות משתמש עשירות המשולבות בנכסי הליבה של eBay. <br>
+          הקבוצה מפתחת בטכנולוגיות Open Source למובייל, טאבלט, דקסטופ ולמעשה כל מסך שעתיד להופיע בשוק. אנו שואפים להגדיר וליצור את עתיד ה-Commerce.
+        </p>
+		-->
+
+		<!--
+        <p>
+          <a href="http://www.500tech.com/" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/500tech.png" alt="500Tech"></a>
+          <a href="http://www.500tech.com/">500טק</a>
+          הינה חברה פיתוח מובילה בארץ בתחום הרובי און ריילס, 
+          בתחומים של פיתוח אאוטסורס, ייעוץ, הכשרה, הצבת כח אדם, מפגשים והעצמת קהילת המפתחים בארץ.
+          כמו כן, היא מנהלת תחת כנפיה את ה hackademy, שמציע קורס רובי און ריילס מקצועי למתחילים.
+        </p>      
+
+        <p>
+          <a href="http://hackademy.500tech.com/" style="float:left; margin:0 0 0; border:0;"><img src="./images/jerusalem/hackademy.png" alt="ההאקדמיה"></a>
+          <a href="http://hackademy.500tech.com/">ההאקדמיה</a> - 
+          קורס רובי און ריילס בהוראת מפתחים בכירים מחברת 500Tech אשר בא ללמד Best Practices וכלים מתקדמים בפיתוח אפליקציות ווב מודרניות. לאחר הקורס תלמידות שיחפצו בכך, יקבלו עזרה בהשמה אצל חברות ריילס בארץ.
+        </p>
+		-->
+ 
+        
+      </div>
+	  <hr>  
+	<div class=coaches>
+        <span class="grid_3">
+			אדם פינברג<bdi>,</bdi> מאמן
+        </span>
+
+        <span class="grid_3">
+			אלכסנדרה דוחובני<bdi>,</bdi> מארגנת
+		</span>
+
+        <span class="grid_3">
+			אסף גלבר<bdi>,</bdi> מאמן
+        </span>
+
+		<span class="grid_3">
+			אפרים דמבוריץ<bdi>,</bdi> מאמן
+		</span>
+
+        <span class="grid_3">
+			גלעד גולדברג<bdi>,</bdi> מאמן
+        </span>
+
+		<span class="grid_3">
+			דימיד דוחובני<bdi>,</bdi> {מאמן<bdi>,</bdi> מארגן}
+		</span>
+
+		<span class="grid_3">
+			ולדימיר שטיינמן<bdi>,</bdi> מאמן
+		</span>
+
+		<span class="grid_3">
+			יוחאי אטון<bdi>,</bdi> מאמן
+        </span>
+
+        <span class="grid_3">
+			יעל חרמון<bdi>,</bdi> מאמנת
+        </span>
+        
+        <span class="grid_3">
+			יעל יוקליס<bdi>,</bdi> {מעצבת<bdi>,</bdi> מארגנת}
+
+        </span>
+
+		<span class="grid_3">
+			ענבל גילאי<bdi>,</bdi> מאמנת
+        </span>
+
+		<span class="grid_3">
+			סלע רפאלי<bdi>,</bdi> מאמן
+		</span>
+
+		<span class="grid_3">
+			קובי ג׳ונסון<bdi>,</bdi> מאמן
+		</span>
+
+		<span class="grid_3">
+			שחר אוסובסקי<bdi>,</bdi> {מאמן<bdi>,</bdi> מארגן}
+		</span>
+     </div>
+    </div>
+    </div>
+      
+    <!-- /content -->
+    
+    <footer>
+        <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>

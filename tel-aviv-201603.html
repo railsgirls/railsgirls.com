@@ -1,0 +1,520 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   
+    <title>Rails Girls Tel-Aviv, March 17-18, 2016</title>
+
+    <meta name="description" content="Rails Girls מגיעה לתל אביב ב-17-18 במרץ 2016: הצטרפו לקורס המזורז כדי להכנס לעולם המרתק של פיתוח אפליקציות web עם Ruby on Rails.">
+    <meta name="author" content="Rails Girls תל אביב">
+   
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+   
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/rtl.css">
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+    
+  	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      /**
+       * BUTTON STYLES
+       * from http://alexwolfe.github.io/Buttons/
+      **/
+
+      .button {
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        background-color: #eeeeee;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+        background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+        background: linear-gradient(top, #fbfbfb, #e1e1e1);
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
+        border: 1px solid #d4d4d4;
+        height: 32px;
+        line-height: 32px;
+        padding: 0px 25.6px;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: #666666;
+        text-shadow: 0 1px 1px white;
+        margin: 0;
+        text-decoration: none;
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #eeeeee;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+        background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+        background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+        background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+        background: linear-gradient(top, #ffffff, #dcdcdc);
+      }
+      /* line 47, ../scss/partials/_buttons.scss */
+      .button:active {
+        -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+        text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+        background: #eeeeee;
+        color: #bbbbbb;
+      }
+      .button:focus {
+        outline: none;
+      }
+      .button-wrap {
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3e3e3), color-stop(100%, #f2f2f2));
+        background: -webkit-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: -moz-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: -o-linear-gradient(top, #e3e3e3, #f2f2f2);
+        background: linear-gradient(top, #e3e3e3, #f2f2f2);
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        -ms-border-radius: 200px;
+        -o-border-radius: 200px;
+        border-radius: 200px;
+        -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+        padding: 10px;
+        display: inline-block;
+      }
+      .button-pill {
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        border-radius: 50px;
+      }
+      .button-caution {
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8543f), color-stop(100%, #d9331a));
+        background: -webkit-linear-gradient(top, #e8543f, #d9331a);
+        background: -moz-linear-gradient(top, #e8543f, #d9331a);
+        background: -o-linear-gradient(top, #e8543f, #d9331a);
+        background: linear-gradient(top, #e8543f, #d9331a);
+        background-color: #e54028;
+        border-color: #c22d18;
+        color: white;
+        text-shadow: 0 -1px 1px rgba(103, 24, 13, 0.35);
+      }
+      .button-caution:hover {
+        background-color: #e54028;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb6855), color-stop(100%, #d9331a));
+        background: -webkit-linear-gradient(top, #eb6855, #d9331a);
+        background: -moz-linear-gradient(top, #eb6855, #d9331a);
+        background: -o-linear-gradient(top, #eb6855, #d9331a);
+        background: linear-gradient(top, #eb6855, #d9331a);
+      }
+      .button-large {
+        font-size: 19px;
+        height: 38.4px;
+        line-height: 38.4px;
+        padding: 0px 30.72px;
+      }    
+
+      .more-events {
+        margin-bottom: 20px;
+        color: #666;
+      }
+      .more-events a {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      .more-events a.active {
+        font-weight: bold;
+      }
+
+      #promo.new h1 {
+        height: auto;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a> 
+          <a href="http://guides.railsgirls.com">Guides</a>  
+        </nav>
+      </div>
+    </header>
+
+ 
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+
+        <div id="promo" class="new tel-aviv">
+          <h1>Rails Girls תל אביב
+            <small style="font-weight: bold;">17-18 במרץ 2016</small>
+          </h1>
+          <div class="more-events">
+            כל הארועים הבאים:
+            <a href="tel-aviv-201602.html">4-5 בפברואר</a>
+            <a href="tel-aviv-201604.html">אפריל 14-15</a>
+          </div>
+          <p>          שלום עולם! Rails Girls מגיעה לתל אביב!<p>
+          <p>
+
+            תמיד רצית לבנות אפליקציית ווב ולא ידעת איך? בואי לנסות!
+            אם גם היום את עוד לא בטוחה מה את רוצה לעשות כשתהיי גדולה, ואת אוהבת אתגרים ורוצה לטעום מעולם התכנות בסביבה נעימה, הצטרפי לסדנה החינמית שלנו.
+          </p>
+
+
+          <p>
+            ההרשמה סגורה. תודה לכל הנרשמות :-)
+          </p>
+
+          <!--<p>ההרשמה תפתח בקרוב.</p>-->
+
+          <!--<span class="button-wrap">-->
+            <!--<a href="http://goo.gl/forms/FKVdybHQYE" class="button button-large button-caution button-pill" target="_blank">הרשמי עכשיו!</a>-->
+          <!--</span>-->
+
+          <div class="english">
+            <p> Hello world! Rails Girls is coming to Tel-Aviv!</p>
+            <p>
+
+              Always wanted to build a web app but didn't know how to do it? Come and try!
+              If you're still not sure what you want to be when you grow up,
+              and you like challenges and want to have a taste of the tech world in a fun atmosphere , come join our free workshop!
+
+            </p>
+
+
+            <p>
+              Application is closed. Thanks! :-)
+            </p>
+
+            <!--<p>Application will open soon.</p>-->
+
+             <!--<span class="button-wrap">-->
+              <!--<a href="http://goo.gl/forms/FKVdybHQYE" class="button button-large button-caution button-pill" target="_blank">Apply Now!</a>-->
+             <!--</span>-->
+          </div>
+
+          <!-- <p>הירשמי עכשיו! <a href="http://railsgirls.wufoo.com/forms/z7x0w7/">ההרשמה</a> פתוחה עד ה-15 באוקטובר 2014.</p> -->
+
+      </div><!-- promo -->
+      
+      
+      <div class="grid_4 alpha feature">
+       <p><strong>את תלמדי</strong> לעצב, לתכנן ולתכנת בעזרתם של המדריכים שלנו.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>את צריכה</strong> להביא את המחשב הנייד שלך, סקרנות וקמצוץ של דמיון!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>רוצה לעזור??</strong> אנחנו מחפשים מדריכים/ות מתנדבים/ות. <a href="mailto:contact@railsgirls.co.il">צרו קשר</a>.</p>
+      </div>
+      
+      <hr />
+  
+     
+      <div class="grid_6 alpha">
+        <h2>יום חמישי, 17 במרץ</h2>
+        <table id="schedule">
+          <tbody>
+            <tr>
+              <th>18:00 - 21:00</th>
+              <td>
+                <h4>מסיבת התקנה + <a href="http://tryruby.org" target="_blank">Try Ruby</a></h4>
+                הביאו את המחשב הנייד שלכן כדי להתקין בו את סביבת העבודה. תוך כדי ההתקנה נשחק קצת עם שפת רובי, נכיר את שאר המשתתפות ונשתה קאווה!
+                <br>
+              </td>
+            </tr>
+            <!-- <tr>
+               <th>20:30 - late</th>
+                <td>
+                  <h4>מפגש מאמנים</h4>
+                  All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day. 
+                </td>
+            </tr> -->
+          </tbody>
+        </table>
+        
+        <hr />
+
+        <h2>יום שישי, 18 במרץ</h2>
+        
+        <table id="schedule">
+          <tbody>
+          <tr>
+            <th>8:30 - 09:15</th>
+            <td>
+              <h4>הרשמה וקפה</h4>
+              במהלך הבוקר נסייע בהתקנה לאלו שעדיין לא סיימו להכין את סביבת העבודה על המחשב שלהן.
+            </td>
+          </tr>
+
+          <tr>
+            <th>9:15 - 9:30</th>
+            <td>
+              <h4>דברי פתיחה</h4>
+              תקציר היום וכמה מילים מהספונסרים שלנו.
+              </td>
+          </tr>
+            
+          <tr>
+            <th>9:30 - 10:00</th>
+            <td>
+              <h4>מבוא לפיתוח Web</h4>
+            </td>
+          </tr>
+        
+          <tr>
+            <th>10:00 - 13:00</th>
+            <td>
+              <h4>סדנה</h4>
+              התניעי את האפליקציה הראשונה שלך.
+            </td>
+          </tr>
+
+          <tr>
+            <th>13:00 - 13:45</th>
+            <td><h4>ארוחת צהריים</h4></td>
+          </tr>
+
+          <tr>
+            <th>13:45 - 14:45</th>
+            <td>
+              <h4>הרצאות קצרות ממדריכים</h4>
+            </td>
+          </tr>
+
+          <tr>
+            <th>14:45 - 16:45</th>
+            <td>
+              <h4>סדנה</h4>
+              הרחיבי את האפליקציה שלך.
+            </td>
+          </tr>
+
+          <tr>
+            <th>16:45 - 17:00</th>
+            <td>
+              <h4>סיכום היום</h4>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+          
+
+        <hr/>
+        <h3>שאלות נפוצות</h3>
+        
+        <p>
+          <strong>מהו מחיר ההשתתפות בסדנה?</strong>
+          הסדנה מוקדשת לכן באהבה ללא תשלום.
+        </p>
+        <p>
+          <strong>למי מכוונת הסדנה?</strong>
+          הסדנה מיועדת לנשים בכל הגילאים עם ידע בסיסי בתפעול מחשב. עליכן להיות מצויידות בלפטופ.
+        </p>
+        <p>
+          <strong>האם גברים יכולים להשתתף?</strong>
+          כן!
+        </p>
+        <p>
+          <strong>אני יודע/ת לתכנת - כיצד אוכל לעזור?</strong>
+          אנחנו עדיין מחפשים מאמנים/ות בארוע. אם מעניין אותך להיות
+          <a href="http://guides.railsgirls.com/coach/">מאמן/ת Rails Girls</a>,
+          <a href="http://goo.gl/forms/W71d2FvQoW">הרשמ/י בטופס המדריכים שלנו</a>.
+        </p>
+
+
+        
+      </div>
+
+
+      <!--  These also, just update :) -->
+      <div class="grid_5 push_1 omega side">
+        
+        <h3>מידע</h3>
+        <p>
+          <!--<strong>ההרשמה טרם נפתחה</strong><br>-->
+          <strong>ההרשמה נסגרה</strong><br>
+          <!--<a href="http://goo.gl/forms/FKVdybHQYE"/><strong>ניתן להרשם</strong></a><strong> עד ליום: </strong> ראשון, 24/01/2016<br>-->
+          <strong>נודיע על קבלה ביום:</strong> חמישי, 28/01/2016<br>
+          <strong>מיקום:</strong> משרדי קלרנה תל אביב (מגדל אלקטרה, <a href="https://maps.google.com/?q=%D7%99%D7%92%D7%90%D7%9C%20%D7%90%D7%9C%D7%95%D7%9F%2098,%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91">יגאל אלון 98</a>, קומה 13)
+        </p>
+
+        <h3>שותפים</h3>
+
+        <p>Rails Girls תל-אביב-יפו מאורגנת ביחד בעזרת השותפים המדהימים שלנו.
+          רוצים לעזור? אנחנו מחפשים שותפים וספונסרים עבור הארוע! <a href="mailto:contact@railsgirls.co.il>">כתבו לנו</a>! </p>
+
+        <a href="https://klarna.com/" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/tel-aviv/klarna.png"  style="width: 170px;" alt="Klarna" target="_blank"></a>
+        <a href="https://klarna.com/" target="_blank">Klarna</a>
+        קלרנה, ענקית התשלומים השבדית, שמה לה למטרה לשנות את עולם הקניות המקוונות, ולהפוך אותו לקל יותר, כיף יותר ובטוח יותר. לקלרנה יותר מ-25 מיליון משתמשים ו-45,000 סוחרים לרבות ASOS, ספוטיפיי וזארה. קלרנה מאפשרת ללקוחותיה לשלם על המוצרים שרכשו רק לאחר קבלתם, ובכך משפרת את חווית הקניה גם עבור הלקוח וגם עבור הסוחר.
+        </p>
+
+
+        <p style="text-align: left; direction: ltr;">
+          <a href="http://como.com/" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/tel-aviv/como-logo.png" style="width: 190px;" alt="Como"></a>
+          A Big Solution for Small Businesses.<br>
+          Whether you own a pet shop, a pub, or a pampering spa, your loyal customers are the heart of your business.
+          Como gives you all the tools you need to keep your business in the hearts and pockets of your customers with a
+          loyalty app as unique as your business.
+        </p>
+
+        <p style="text-align: left; direction: ltr;">
+          <a href="http://engineering.wix.com" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/tel-aviv/Wix.png" style="width: 230px;" alt="Wix"></a>
+          <a href="http://engineering.wix.com/">Wix</a>
+          builds and operates one of the biggest content platforms on the web, serving 1.5B HTTP requests per day at <50ms. Hosting 72M sites spanning petabytes of storage is no easy task.
+          At Wix Engineering we develop some of the most innovative cloud-based web applications that influence our 70+ million users worldwide.
+          We are always happy to expand our family with talented software engineers.
+          Find out more about Wix Engineering by visiting
+          <a href="http://wix.io/">our Engineering Blog</a> or
+          <a href="http://stackshare.io/wix">our professional stack</a>
+        </p>
+
+        <p style="text-align: left; direction: ltr;">
+          <a href="http://www.chegg.com/" target="_blank" style="float:right; margin:0 0 0; border:0;"><img src="./images/tel-aviv/chegg.png" style="width: 190px;" alt="Chegg"></a>
+          <a href="http://www.chegg.com/">Chegg®</a> WE PUT STUDENTS FIRST! We are on the mission to improve students’ outcomes. We’re going to make the world better to study in by building products and services that help students save time, save money and get smarter!
+        </p>
+
+        <p>
+          <a href="http://www.facebook.com/fair.shared.city/" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/tel-aviv/ir_shava.png" style="width: 80px; margin-right: 7px;" alt="עיר שווה"></a>
+          <a href="http://www.tel-aviv.gov.il/Pages/HomePage.aspx" target="_blank" style="float:left; margin:0 0 0; border:0;"><img src="./images/tel-aviv/telaviv-municipality.png" style="width: 150px; margin-right: 5px;" alt="Tel Aviv municipality"></a>
+          עיריית תל אביב יפו, ביוזמת משרד יועצת ראש העיר לשוויון מגדרי, שמה לה למטרה להיות "עיר שווה” - עיר שיוצרת ומקדמת שוויון ושחרור מגדרי. כחלק ממדיניות זו, העירייה מעודדת יוזמות כמו ריילס גירלס, המאפשרות לנשים ולגברים להשתחרר מסטריאוטיפים מגדריים.
+        </p>
+
+      </div>
+      
+
+      <div class="coaches" style="text-align: left; direction: ltr;">
+        <hr />
+        <h2>צוות תל-אביב–יפו</h2>
+
+        <span class="grid_3">
+          Michal Tirosh, Organizer
+           </span>
+
+           <span class="grid_3">
+          Ilona Shub, Organizer & Coach
+           </span>
+
+        <span class="grid_3">
+          Inbal Gilai, Organizer & Coach
+           </span>
+
+        <span class="grid_3">
+        Tali Blumenfeld, Coach
+           </span>
+
+        <span class="grid_3">
+        Yael Hermon, Coach
+           </span>
+
+        <span class="grid_3">
+        Adam Fineberg, Coach
+           </span>
+
+        <span class="grid_3">
+        Ido Ben Yair, Coach
+           </span>
+
+        <span class="grid_3">
+        Denis Wolf, Coach
+           </span>
+
+        <span class="grid_3">
+        Yon Bergman, Coach
+           </span>
+
+        <span class="grid_3">
+        Yossi Motro, Coach
+           </span>
+
+        <span class="grid_3">
+        Lital Hassine, Coach
+           </span>
+
+        <span class="grid_3">
+        Lilach Adir, Coach
+           </span>
+
+        <span class="grid_3">
+        Alissa Bonas, Coach
+           </span>
+
+        <span class="grid_3">
+        Sergey Bolshchikov, Coach
+           </span>
+
+        <span class="grid_3">
+        Alon Burg, Coach
+           </span>
+
+        <span class="grid_3">
+        Aviel Hershkovitz, Coach
+           </span>
+
+        <span class="grid_3">
+        Yoni Gozman, Coach
+           </span>
+
+        <span class="grid_3">
+        Shay Malchi, Coach
+           </span>
+
+        <span class="grid_3">
+        Moria Ahi-Mordehai, Coach
+           </span>
+
+         <span class="grid_3">
+        Guy Dubrovski, Coach
+           </span>
+
+      </div>
+      
+    </div>
+    </div>
+      
+    <!-- /content -->
+    
+    <footer>
+        <p>2010-2016, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>

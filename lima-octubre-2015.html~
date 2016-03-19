@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--  Add your city name, dates and year.  -->
+
+  <title>Lima, 17-18 de Octubre 2015</title>
+
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+
+  <meta name="description" content="Rails Girls por tercera vez en Lima, en Octubre 2015: únetenos en un curso acelerado de un fin de semana para aprender el mundo excitante de aplicaciones web con Ruby on Rails.">
+
+  <meta name="author" content="Rails Girls">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <style type="text/css">
+    .schedule-tables th{
+      width: 28%;
+      text-align: right;
+      padding-right: 4%;
+    }
+    em {
+      font-style: normal;
+      font-weight: bold;
+    }
+    .transparent{
+      display: none;
+    }
+    .hidden {
+      display: none !important;
+      visibility: hidden !important;
+    }
+    .rsvp small{
+      font-size: 0.75em;
+      font-weight: 200;
+    }
+    .previous-team{
+      cursor: pointer;
+    }
+    .previous-team small{
+      font-size: 0.5em;
+      font-style: italic;
+      display: none;
+      opacity: 0.5;
+    }
+    .previous-team:hover small{
+      display: inline-block;
+    }
+  </style>
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./events.html">Events</a>
+                <a href="./materials.html">Materials</a>
+                <a href="./press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a>
+                <a href="http://codeparkhouston.com/railsgirls/events/feb2014/workshop/">
+                  Guides</a>
+            </nav>
+        </div>
+        </header>
+
+
+<!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+Steps to show on site
+1. Go to style.css
+2. Add these lines, always replacing 'yourcityname' with your actual city name.
+
+        .yourcityname#promo {
+          padding-left:340px;
+          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+        It will take a while before the changes show, so don't panic!
+
+-->
+
+
+<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+
+    <div id="container" class="container_12 page clearfix">
+      <div class=" omega alpha">
+        <div id="promo" class="new yourcity">
+          <div id="justIntro">
+            <h1>Rails Girls Lima
+                <small>17 y 18 de Octubre, 2015</small>
+            </h1>
+            <div class="grid_6">
+            <p>¡Hola Mundo!</p>
+            <p>¡Un Rails Girls más en Lima, organizado por <a href="http://www.facebook.com/witperu" target="_blank">WiT Perú</a>! Durante este evento gratuito de 2 días exploraremos el interesante mundo de las aplicaciones web con Ruby on Rails </p>
+            <p><a href="https://witperu.wufoo.com.mx/forms/rails-girls-lima-octubre-2015/" target="_blank" style="color:#E84D00">Regístrate aquí</a></p>
+
+<!--  Update the sharing texts.-->
+
+          <div id="share">
+  <!--           <div class="grid_2" style="margin-top: -12px">
+           <a class="wepay-widget-button wepay-green" id="wepay_widget_anchor_51eca01de7bb1" href="https://www.wepay.com/donations/26451026">Donate</a><script type="text/javascript">var WePay = WePay || {};WePay.load_widgets = WePay.load_widgets || function() { };WePay.widgets = WePay.widgets || [];WePay.widgets.push( {object_id: 26451026,widget_type: "donation_campaign",anchor_id: "wepay_widget_anchor_51eca01de7bb1",widget_options: {list_suggested_donations: true,allow_cover_fee: true,enable_recurring: true,allow_anonymous: true,reference_id: ""}});if (!WePay.script) {WePay.script = document.createElement('script');WePay.script.type = 'text/javascript';WePay.script.async = true;WePay.script.src = 'https://static.wepay.com/min/js/widgets.v2.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(WePay.script, s);} else if (WePay.load_widgets) {WePay.load_widgets();}</script>
+            </div> -->
+            <div class="grid_2">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Lima, Octubre 17 - 18! Regístrate en http://railsgirls.com/lima-octubre-2015" data-count="horizontal" data-via="railsgirlslima" data-related="railsgirls">Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+            <div class="grid_2" id="fb-root" style=""></div>
+            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+          </div>
+        </div>
+
+            </div>
+            <div class="grid_6">
+            <p>Nuestra edición anterior:<br/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AFTItpeBrj8" frameborder="0" allowfullscreen></iframe>
+          </p>
+          </div>
+          </div>
+
+
+
+<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
+<div class="grid_4 alpha feature">
+ <p><strong>Aprenderás</strong> diseño, prototipeo y programación con ayuda de nuestros coaches.</p>
+</div>
+<div class="grid_4 feature">
+  <p><strong>Requieres</strong> traer una laptop, curiosidad y una pizca de imaginación!</p>
+</div>
+<div class="grid_4 omega feature">
+  <p><strong>¿Deseas ayudar?</strong> Visita <a href="http://colabora.witperu.org/events/2/" target="_blank" >nuestro site de crowdfunding</a> y elige con qué nos puedes colaborar. ¡Necesitamos muchas manos para hacer de este un evento genial!</p>
+</div>
+
+      <hr class="feature"/>
+
+<!--  Update the texts! -->
+      <div class="grid_6 alpha">
+        <img src="http://www.witperu.org/wp-content/uploads/2013/06/196467_10151433888721417_737320628_n.jpg" style="width:100%;margin-top:4em">
+        <a name="schedule"><h2 style="margin-bottom:0">Agenda</h2></a>
+
+
+        <div class="grid_6 alpha">
+          <h2>Sábado 17 de Octubre</h2>
+
+          <table id="schedule">
+            <tbody>
+            <tr>
+              <th>09.00 - 10.30</th>
+              <td>
+                <h4>Bienvenida - Registro - Install Fest! </h4>
+
+              </td>
+            </tr>
+
+            <tr>
+              <th>10.30 - 11.30</th>
+              <td>
+                <h4>Intro Workshop</h4>
+
+                    </td>
+            </tr>
+
+            <tr>
+              <th>11.30 - 12.30</th>
+              <td>
+                 <h4>1er. Workshop</h4>
+              </td>
+            </tr>
+
+
+
+            <tr>
+              <th>12.30 - 13.30</th>
+              <td>
+                <h4>Almuerzo</h4>
+
+              </td>
+            </tr>
+
+
+            <tr>
+              <th>13.30 - 13.45</th>
+              <td>
+                <h4>Entendiendo Aplicaciones Web</h4>
+
+              </td>
+            </tr>
+
+            <tr>
+              <th>13.45 - 14.45</th>
+              <td>
+                <h4>Lightning talks from coaches</h4>
+              </td>
+            </tr>
+
+            <tr>
+              <th>14.45 - 15.00</th>
+              <td>
+                <h4>Receso</h4>
+
+              </td>
+            </tr>
+            <tr>
+              <th>15.00 - 16.30</th>
+              <td>
+                <h4>¡Manos a la obra!</h4>
+
+
+              </td>
+            </tr>
+             <tr>
+              <th>16.30 - 17.00</th>
+              <td>
+                <h4>Cierre ~ Final Talks</h4>
+
+
+              </td>
+            </tr>
+
+            </tbody>
+          </table>
+
+
+
+
+          <hr />
+
+          <h2>Domingo 18 de Octubre</h2>
+          <table id="schedule">
+            <tbody>
+
+              <tr>
+                <th>10.00 - 10.30</th>
+                <td>
+                  <h4>Registro / Charlas de Bienvenida</h4>
+                </td>
+              </tr>
+
+               <tr>
+                 <th>10.30 - 11.30</th>
+                  <td>
+                    <h4>¡Manos a la obra!</h4>
+
+                  </td>
+              </tr>
+
+
+              </tr>
+                <tr>
+                 <th>11.30 - 12.30</th>
+                  <td>
+                    <h4>Presentación de proyectos</h4>
+                  </td>
+              </tr>
+
+
+              </tr>
+                <tr>
+                 <th>12.30 - 13.00</th>
+                  <td>
+                    <h4>Cierre</h4>
+
+
+                  </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+
+      </div>
+
+<!--  These also, just update :) -->
+
+
+      <div class="grid_5 push_1 omega side">
+
+        <h3>Información</h3>
+            <p>
+              <strong>Registro abierto hasta el 10 de Octubre</strong>
+            </p>
+            <p><strong>Dónde:</strong> Laboratoria<br/>Av.José Pardo 641, Miraflores</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3900.8961990356115!2d-77.03746996655555!3d-12.11925424555906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x9105c83d34b0edfb%3A0xd149d0955758c1bf!2sAv+Jos%C3%A9+Pardo+641%2C+Lima!3m2!1d-12.1192595!2d-77.0351579!5e0!3m2!1ses-419!2spe!4v1441732345890" width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         <hr/>
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+      <h3>Esta edición es posible gracias a:</h3>
+
+      <div class="grid_2 alpha" style="margin-top:4em">
+        <a href="http://www.witperu.org/" target="_blank" style="display:block; margin: 0; border:0;">
+          <img src="http://www.witperu.org/wp-content/uploads/2014/02/WitPeru_logo-300x81.png" alt="WIT Perú" style="width:200%; margin: 0 0;">
+        </a>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="grid_2 alpha" style="margin-top:4em">
+        <a href="http://www.laboratoria.la/" target="_blank" style="display:block; margin: 0; border:0;">
+          <img src="http://laboratoria.la/assets/logos/logo_laboratoria-v2.png" alt="Laboratoria" style="width:200%; margin: 0 0;">
+        </a>
+      </div>
+
+        <div class="clear"></div>
+        <div class="grid_2 alpha" style="margin-top:4em">
+          <a href="http://ruby.pe" target="_blank" style="display:block; margin: 0; border:0;">
+            <img src="http://ruby.pe/img/rubyperu_logo.png" alt="Ruby Perú" style="width:150px; margin: 0 0;">
+          </a>
+        </div>
+        <div class="clear"></div>
+
+
+
+
+<div class="grid_2 alpha" style="margin-top:4em">
+  <a href="http://productoskibo.com/" target="_blank" style="display:block; margin: 0; border:0;">
+    <img src="http://productoskibo.com/wp-content/uploads/Productos-Kibo_Logo.png" alt="Productos Kibo" style="width:80%; margin: 0 0;">
+  </a>
+</div>
+
+
+        <hr/>
+
+      <h3><a name="faq">FAQ</a></h3>
+      <p><strong>¿Cuánto cuesta?</strong>
+          Nada, ¡el evento es gratuito! Sólo es necesario que lleves dinero para tu almuerzo.
+      </p>
+       <p>
+         <strong>¿A Quiénes está dirigido?</strong>
+         No hay límite edad, solo precisas tener conocimientos básicos de como funciona con una computadora. Las chicas tienen prioridad y los chicos que quieran participar deberán estar acompañados de una chica interesada en aprender también.
+       </p>
+    </div>
+
+
+<!--  Update the team list       -->
+
+      <div class="coaches">
+        <hr />
+        <h2>El Awesome Team</h2>
+        <a href="https://twitter.com/karen_dax" target="_blank"  class="grid_3">
+            Karen Da Cruz
+            <small>@karen_dax</small>
+        </a>
+        <a href="https://twitter.com/la__Steph" target="_blank"  class="grid_3">
+            Stephanie Frias
+            <small>@la__Steph</small>
+        </a>
+        <a href="https://twitter.com/yaraher" target="_blank"  class="grid_3">
+            Alvaro Pereyra
+            <small>@yaraher</small>
+        </a>
+
+        <a href="https://twitter.com/videmor" target="_blank"  class="grid_3">
+            Jorge Crisóstomo
+            <small>@videmor</small>
+        </a>
+
+        <a href="https://twitter.com/angelsystem" target="_blank"  class="grid_3">
+            Ángel Huamán
+            <small>@angelsystem</small>
+        </a>
+        
+        <a href="https://twitter.com/nxvl" target="_blank"  class="grid_3">
+            Nicolas Valcarcel
+            <small>@nxvl</small>
+        </a>
+
+        <a href="https://www.facebook.com/marisol.luna.564" target="_blank"  class="grid_3">
+            Marisol Luna
+
+        </a>
+
+        <a href="http://carmenluyo.github.io/portafolio/" class="grid_3">
+            Carmen Luyo
+
+        </a>
+
+      </div>
+
+
+
+    </div>
+</div>
+    <!-- /content -->
+
+    <footer>
+        <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls" target="_blank">Twitter</a> and <a href="https://www.facebook.com/railsgirls" target="_blank">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+
+    <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-67318542-1', 'railsgirls.com');
+            ga('send', 'pageview');
+
+
+
+    </script>
+
+    </body>
+    </html>
