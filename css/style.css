@@ -243,6 +243,10 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+#promo.Tampere {
+  padding-bottom:0px;
+}
+
 .braga#promo {
   padding-left: 340px;
   background: url('../images/rg-braga2014.png') no-repeat 0 10px;
