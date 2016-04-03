@@ -508,6 +508,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.vienna#promo {
+    padding-left: 340px;
+    background:url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+}
+.vienna#promo h1 {
+    text-indent: 0;
+    color: #d3360b;
+    font-size:42px;
+}
+
 .portland#promo {
   padding-left:420px;
   background:url('../images/rg-portland.png') no-repeat 0 10px,
