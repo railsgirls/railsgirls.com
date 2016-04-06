@@ -514,7 +514,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .vienna#promo {
     padding-left: 340px;
-    background:url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+    background: url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
 }
 .vienna#promo h1 {
     text-indent: 0;

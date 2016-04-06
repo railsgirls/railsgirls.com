@@ -6,7 +6,7 @@
           content="Rails Girls in Vienna, Austria!">
     <meta name="author" content="Rails Girls">
 
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <link rel="stylesheet" href="./css/style.css">
@@ -17,21 +17,27 @@
 
     <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
 
-    <script language="JavaScript" type="text/javascript">
-        function blocking(element) {
-            // for displaying or hiding parts of the page
-            var displayNew = (document.getElementById(element).style.display == 'none') ? 'block' : 'none';
-            document.getElementById(element).style.display = displayNew;
-        }
-
-    </script>
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
-<body onload="blocking('ExpandCollapseParty'); blocking('ExpandCollapseWorkshop');">
+<body>
+<style type="text/css">
+    .twitter-link {
+        background: url('images/vienna/twitter.png') no-repeat 0 center;
+        background-size: 16px;
+        padding-left: 22px;
+        color: #000;
+        border: none;
+    }
 
+    .coach-name {
+        color: #e0330c;
+        font-size: 1.2em;
+        line-height: 42px;
+    }
+</style>
 <header>
     <div class="container_12">
         <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls"/></a>
@@ -83,30 +89,58 @@
         <p></p>
         <hr/>
 
-        <div class="omega">
-            <h3>Information</h3>
+    </div>
 
-            <p>Want to help? We're looking for sponsors for the
-                non-profit event! <a href="mailto:contact@railsgirlsvienna.com">Email us</a>!</p>
+    <!-- Information -->
+    <h3>Information</h3>
 
-            <hr/>
-            <h3>FAQ</h3>
-            <p><strong>How much does the workshop cost?</strong><br />
-                Nothing, it's free! You just need to be excited!
-            </p>
-            <p>
-                <strong>Who is this aimed at?</strong><br />
-                Women of any age with basic knowledge of working with a computer.
-                We’ve had people of all ages taking part. Please bring your laptop.
-            </p>
-            <p>
-                <strong>I know how to program - How can I help?</strong><br />
-                We’re also looking for people to be coaches. We’ll have a two-three
-                hour workshop before the event to walk you through the curriculum.
-                <a href="mailto:contact@railsgirlsvienna.com">Email us</a>
-            </p>
+    <p>Want to help? We're looking for sponsors for the
+        non-profit event! <a href="mailto:contact@railsgirlsvienna.com">Email us</a>!</p>
 
-        </div>
+    <hr/>
+
+    <!-- FAQ -->
+    <h3>FAQ</h3>
+    <p><strong>How much does the workshop cost?</strong><br />
+        Nothing, it's free! You just need to be excited!
+    </p>
+    <p>
+        <strong>Who is this aimed at?</strong><br />
+        Women of any age with basic knowledge of working with a computer.
+        We’ve had people of all ages taking part. Please bring your laptop.
+    </p>
+    <p>
+        <strong>I know how to program - How can I help?</strong><br />
+        We’re also looking for people to be coaches. We’ll have a two-three
+        hour workshop before the event to walk you through the curriculum.
+        <a href="mailto:contact@railsgirlsvienna.com">Email us</a>
+    </p>
+
+    <hr />
+
+    <!-- Past events -->
+    <h3>Past Events</h3>
+
+    <h2><a href="vienna2014.html">14-15 November 2014</a></h2>
+    <p><a href="vienna2014.html">Rails Girls Vienna 2014</a> took place at Microsoft Austria with the support of 13 local partners.</p>
+
+    <h2><a href="vienna2013.html">18-19 January 2013</a></h2>
+    <p><a href="vienna2013.html">Rails Girls Vienna 2013</a> took place at The Hub Vienna with the support of 12 local partners.</p>
+
+    <hr />
+
+    <!-- The team -->
+    <h3>Rails Girls Vienna team</h3>
+    <div style="margin-bottom: 30px; overflow: hidden;">
+        <span class="grid_3">
+            <span class="coach-name">Laura Gaetano, organiser</span>
+            <small><a href="https://twitter.com/alicetragedy" class="twitter-link">@alicetragedy</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Laura Bârlădeanu, organiser</span>
+            <small><a href="https://twitter.com/bulinutz" class="twitter-link">@bulinutz</a></small>
+        </span>
     </div>
 
     <hr />
