@@ -3152,3 +3152,8 @@ padding-top:30px;
   background: #6D0001;
 }
 /* end Hanoi 2016 */
+.kollam#promo {
+  padding-left:340px;
+  background:url('../images/rg-kollam.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
