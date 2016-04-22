@@ -2816,6 +2816,51 @@ div.bta-sponsors-top{ margin-top: 50px;}
   margin-bottom: 20px;
 }
 
+.nh_header {
+  background: #d3360b url('../images/novo-hamburgo/bg.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.nh_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+.nh_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.nh_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.nh_header .button {
+  background-color: rgba(211, 54, 11, 0.9);
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+.nh_header .button:hover { background-color: rgb(211, 54, 11); }
+#nh-map { border: none; }
+#nh-map img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .rio_header {
   background: #d3360b;
   background-size: cover;
