@@ -2766,6 +2766,51 @@ div.bta-sponsors-top{ margin-top: 50px;}
 
 /* End Bogota */
 
+/* Cali */
+.cali#promo {
+  padding-left:340px;
+  background:url('../images/cali/rg-cali-monochrome.jpg') no-repeat 0 10px;
+}
+
+.cali#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
+.cali#promo div.registro{ height: 80px; }
+.cali#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.cali#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.cali#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.cali{ color: #444; }
+
+small.cali-role{ font-size: 80%; }
+
+/* End Cali */
+
 .tampere2015#promo {
   padding-left:340px;
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
