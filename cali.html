@@ -20,9 +20,41 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
+    <style type="text/css">
+      /* CSS extracted from houston */
+      .schedule-tables th{
+        width: 28%;
+        text-align: right;
+        padding-right: 4%;
+      }
+      em {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .transparent{
+        display: none;
+      }
+      .hidden {
+        display: none !important;
+        visibility: hidden !important;
+      }
+      .rsvp small{
+        font-size: 0.75em;
+        font-weight: 200;
+      }
+      .previous-team{
+        cursor: pointer;
+      }
+      .previous-team small{
+        font-size: 0.5em;
+        font-style: italic;
+        display: none;
+        opacity: 0.5;
+      }
+      .previous-team:hover small{
+        display: inline-block;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -38,21 +70,6 @@
         </nav>
       </div>
     </header>
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!-->
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
 
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
@@ -89,105 +106,112 @@ Steps to show on site
           <p><strong>Quieres ayudar?</strong> Estamos buscando voluntarios y apoyos económicos <a href="railsgirlscali@gmail.com">Contáctanos</a>.</p>
         </div>
         <hr />
-        <!--  Update the texts! -->
-        <!--  Update the texts! -->
         <div class="grid_6 alpha">
-          <h2>Viernes 29 de Abril</h2>
-          <table id="schedule">
+          <img src="./images/cali/poster-cali.jpg" style="width:100%;margin-top:1em">
+          <a name="schedule"><h1 style="margin-top: 20px; margin-bottom:0;">Schedule</h1></a>
+         <h2 style="margin-top:0">Friday, TBD, 2015</h2>
+          <table class="schedule-tables">
             <tbody>
               <tr>
-                <th>13.00 - 14.00</th>
+                <th><strong>6:00pm - 8:30</strong></th>
                 <td>
-                  <h4>Registro</h4>
+                  <h3>Installation party</h3>
+                    <p>Completely <em>optional</em>, as long as you can install everything yourself! Bring your laptop if you can, so we can install Ruby on Rails for you. This is an open block of time so drop in whenever is good for you. You'll get to meet coaches and fellow Rails Girls!</p>
                 </td>
               </tr>
               <tr>
-                <th>14.00 - 14.40</th>
+                <th><strong>8:30</strong></th>
                 <td>
-                  <h4>Bienvenida</h4>
-                  Conozcan a los coaches!
-                </td>
-              </tr>
-              <tr>
-                <th>14.40 - 15.00</th>
-                <td>
-                  <h4>Receso</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>15.00 - 16.30</th>
-                <td>
-                  <h4>Fiesta de Instalación</h4>
-                  Prepararemos tu laptop para los workshops
-                </td>
-              </tr>
-              <tr>
-                <th>16.30 - 18.00</th>
-                <td>
-                  <h4>Intro a Ruby</h4>
+                  <h3>Coaches' dinner</h3>
+                  <p>All of the coaches are welcome to our Coach's Dinner</p>
                 </td>
               </tr>
             </tbody>
           </table>
-          <hr/>
-          <h2>Sábado 30 de Abril</h2>
-          <table id="schedule">
+          <hr />
+          <h2>Saturday, April 30, 2016</h2>
+          <table class="schedule-tables">
             <tbody>
-              <tr>
-                <th>09.00 - 09.30</th>
-                <td>
-                  <h4>Bienvenida</h4>
-                  Conocernos más y conversar sobre el primer día de Workshop
-                </td>
-              </tr>
-              <tr>
-                <th>09.30- 10.30</th>
-                <td>
-                  <h4> UX | UI </h4>
-                </td>
-              </tr>
-               <tr>
-                <th>10.30 - 10.50</th>
-                <td>
-                  <h4>Receso</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>10.50 - 12.00</th>
-                <td>
-                  <h4>Iniciando con Rails</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>12.00 - 13.00</th>
-                <td>
-                  <h4>Almuerzo</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>13.00 - 15.30</th>
-                <td>
-                  <h4>Aprendiendo Rails</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>15.30 - 15.50</th>
-                <td>
-                  <h4>Receso</h4>
-                </td>
-              </tr>
-               <tr>
-                <th>15.50 - 16.00</th>
-                <td>
-                  <h4>Lightning talks</h4>
-                </td>
-              </tr>
-               <tr>
-                <th>17.40 - 18.00</th>
-                <td>
-                  <h4>Cierre del Evento</h4>
-                </td>
-              </tr>
+            <tr>
+              <th><strong>9:00 am - 10:00</strong></th>
+              <td>
+                <h3>Registration, Breakfast/Coffee & Installation Fest</h3>
+                <p>During the morning, we’ll install Ruby on Rails on your computer while enjoying coffee and breakfast.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <th><strong>10:00 - 10:15</strong></th>
+              <td>
+                <h3>Welcome</h3>
+                <p>We will talk about the day and get a word from our sponsors.</p>
+              </td>
+            </tr>
+
+  <!--           <tr>
+              <th><strong>10:15 - 10:45</strong></th>
+              <td>
+                 <h3>Introduction: The Web as a Restaurant</h3>
+                 <p>Let's learn about what really happens when we type in a web address.</p>
+              </td>
+            </tr> -->
+
+            <tr>
+              <th><strong>10:15 am - 1 pm</strong></th>
+              <td>
+                 <h3>Workshop: Let's get coding!</h3>
+                 <p>We will break into small groups and jumpstart your first web application!</p>
+              </td>
+            </tr>
+
+            <tr>
+              <th><strong>1:00 - 1:30</strong></th>
+              <td><h3>Lunch</h3></td>
+            </tr>
+
+            <tr>
+              <th><strong>1:30 - 1:50</strong></th>
+              <td>
+                <h3>Lightning Talks!</h3>
+  <!--               <p>Let's dig a little deeper and understand what's behind the magic of big web apps!</p> -->
+              </td>
+            </tr>
+            <tr>
+              <th><strong>2:00 - 4</strong></th>
+              <td>
+                <h3>Workshop: Exploration!</h3>
+                <p>We will continue building out our web app.</p>
+              </td>
+            </tr>
+
+  <!--           <tr>
+              <th><strong>4 - 5</strong></th>
+              <td>
+                <h3>Lightning talks from coaches</h3>
+              </td>
+            </tr> -->
+
+            <tr>
+              <th><strong>4 - 4:05</strong></th>
+              <td>
+                <h3>Closing Remarks</h3>
+              </td>
+            </tr>
+
+            <tr>
+              <th><strong>4:05 - 6</strong></th>
+              <td>
+                <h3>Exploration</h3>
+                <p>Continue learning as you'd like!</p>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>6:00</strong></th>
+              <td>
+                <h3>A very Rails Girls dinner!</h3>
+                <p>Hang out and have dinner with us in Rice Village!</p>
+              </td>
+            </tr>
             </tbody>
           </table>
           <hr/>
@@ -198,25 +222,28 @@ Steps to show on site
           <p><strong>¿Pueden asistir hombres?</strong> Si, pero la prioridad en la lista de selección es para la chicas!</p>
         </div>
         <!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
-        <div class="grid_5 push_1 omega side">
-          <h3>Información</h3>
+        <div class="grid_6 omega side">
+          <h1>Información</h1>
           <!-- <p>Las inscripciones son totalmente <strong>gratuitas</strong>  pero los cupos son <strong>limitados</strong>,<strong> Inscripciones <a href="https://docs.google.com/forms/d/11z0gP-LdHZmsZ1a8_J3mLzxWiep5XJY9kSmWZVKUCO8/viewform" target="_blank">abiertas</a> </strong></p> -->
           Las inscripciones al evento han sido cerradas, gracias por tu valiosa participación.
+          <p>Lee nuestro <a href="https://docs.google.com/document/d/1Q16fJUjKhBFFWsxPRoxNekDghXYAcPa9ZGAV0lRUBgo/edit?usp=sharing" target="_blank">Código de Conducta</a>.</p>
+          <div class="">
+            <p><strong>Aprenderás</strong> a diseñar, prototipar y   codificar con la ayuda de nuestros tutores.</p>
+          </div>
+          <div class="">
+            <p><strong>Necesitas</strong> tu propio computador (preferiblemente), curiosidad y una pizca de imaginación.</p>
+          </div>
+          <div class="">
+            <p><strong>Quieres ayudar?</strong> Estamos buscando voluntarios y apoyos económicos <a href="railsgirlscali@gmail.com">Contáctanos</a>.</p>
+          </div>
+          <hr />
 
           </strong><br/>
-          <p>Lee nuestro <a href="https://docs.google.com/document/d/1Q16fJUjKhBFFWsxPRoxNekDghXYAcPa9ZGAV0lRUBgo/edit?usp=sharing" target="_blank">Código de Conducta</a>.</p>
           <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
            <h3>Patrocinadores</h3>
           <p> Rails Girls Cali es co-organizado con nuestros patrocinadores. </p>
           <p> ¿Quieres ayudar? Estamos buscando  patrocinadores para el evento sin fines de lucro, <a href="mailto:railsgirlscali@gmail.com"> Envíanos un correo electrónico!</a> </p-->
-          <!--<p>
-            <a href="https://www.toptal.com/" style="float:right; margin:0 0 0; border:0; width: 220px;" target="_blank">
-              <img src="./images/cali/sponsors/toptal.png" alt="Toptal" width=220>
-            </a>
-            <a href="https://www.toptal.com/" target="_blank">Toptal</a>
-            Toptal is an exclusive network of the top freelance software developers and designers in the world. Top companies rely on Toptal freelancers for their most important projects.
-          </p>
-          <p>-->
+
           <div class="grid_2 alpha" style="margin-top:2.5em">
             <a href="http://codescrum.com/" target="_blank" style="display:block; margin: 0; border:0;">
               <img src="./images/cali/sponsors/codescrum.png" alt="Codescrum" style="width:100%; margin: 0 0;">
