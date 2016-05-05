@@ -1,0 +1,492 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Rails Girls App Tutorial - Rails Girls</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+    <link href="tutorial.css" rel="stylesheet" />
+    <link href="../../favicon.png" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a class="span3" href="/" id="logo">
+            <img alt="Rails Girls Guides" src="../../images/vienna/railsgirls-guides.png" />
+        </a>
+        <nav></nav>
+    </div>
+</header>
+<article class="container">
+    <div class="span10">
+        <h1 id="rails-girls-app-tutorial">Ruby on Rails Tutorial</h1>
+
+        <p>If you haven't installed Ruby on Rails on your computer yet, please
+            <a href="install.html"><strong>follow the installation guide</strong></a> to get set up.</p>
+
+        <h2 id="get-to-know-the-tools">Get to know the tools</h2>
+
+        <div class="indent">
+
+            <h3><i class="icon-text-editor">&nbsp;</i></h3>
+
+            <h3 id="text-editor">Text Editor</h3>
+
+            <ul>
+                <li><a href="https://atom.io/">Atom</a>, <a href="http://www.sublimetext.com">Sublime Text</a>,
+                    Vim and Emacs are examples of text editors your can use for writing code and editing files.</li>
+            </ul>
+
+            <h3><i class="icon-prompt">&nbsp;</i></h3>
+
+            <h3 id="terminal-known-as-command-prompt-on-windows">Terminal (known as Command Prompt on Windows)</h3>
+
+            <ul>
+                <li>Where you start the rails server and run commands.</li>
+            </ul>
+
+            <h3><i class="icon-browser">&nbsp;</i></h3>
+
+            <h3 id="web-browser">Web browser</h3>
+
+            <ul>
+                <li>(Chrome, Firefox, Safari) for viewing your application.</li>
+            </ul>
+
+        </div>
+
+        <h3 id="important">Important</h3>
+
+        <p>It is important that you select the instructions specific to your operating system - the commands you need to
+            run on a Windows computer are slightly different to Mac or Linux. If you’re having trouble check the Operating
+            System switcher at the bottom of the commands. In case you’re using a cloud service (e.g. nitrous), you need to
+            run the Linux commands even if you are on a Windows computer.</p>
+
+        <h2 id="what-is-rails"><em>1.</em>What is Ruby on Rails?</h2>
+        <p>Ruby on Rails is a web application development framework written in the Ruby language. It is designed to make
+            programming web applications easier by making assumptions about what every developer needs to get started.</p>
+
+        <h2 id="creating-the-application"><em>2.</em>Creating your first application</h2>
+
+        <p>In this tutorial you will be creating a Blog application using Ruby on Rails.</p>
+
+        <p>First, let’s open a terminal:</p>
+
+        <ul>
+            <li>Mac OS X: Open Spotlight, type <em>Terminal</em> and click the <em>Terminal</em> application.</li>
+            <li>Windows: Click Start and look for <em>Command Prompt</em>, then click <em>Command Prompt with Ruby on Rails</em>.</li>
+            <li>Linux (Ubuntu/Fedora): Search for <em>Terminal</em> on the dash and click <em>Terminal</em>.</li>
+            <li>Cloud service (e.g. nitrous): Log in to your account, start your box and switch to its IDE (see <a href="install.html#using-a-cloud-service">installation guide</a> for details).
+                The terminal is usually at the bottom of your browser window.</li>
+        </ul>
+
+        <p>Next, type these commands in the terminal / command prompt:</p>
+
+        <div class="os-specific">
+            <div class="nix">
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">mkdir projects</code></pre></figure>
+
+
+                <div>
+                    <p>You can verify that a directory named <code>projects</code> was created by running the list command: <code>ls</code> (osx / unix) / <code>dir</code> (win).
+                        You should see the <code>projects</code> directory in the output. Now you want to change the directory you are currently in to the <code>projects</code> folder by running:</p>
+                </div>
+
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nb">cd </span>projects</code></pre></figure>
+
+
+                <div>
+                    <p>You can verify you are now in an empty directory or folder by again running the <code>ls</code> (osx / unix) / <code>dir</code> (win) command.
+                        In order to create a new Ruby on Rails application called <code>blog</code> type the following:</p>
+                </div>
+
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails new blog</code></pre></figure>
+
+
+                <div>
+                    <p>This will create a new application in the folder <code>blog</code>, so we again want to change the directory to be inside of our rails app by running:</p>
+                </div>
+
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nb">cd </span>blog</code></pre></figure>
+
+                <p>The <code>blog</code> directory has a number of auto-generated files and folders that make up the structure of a
+                    Rails application. Most of the work in this tutorial will happen in the app folder</p>
+
+
+                <div style="margin-bottom: 40px;">
+                    <p>If you run <code>ls</code> (osx / unix) / <code>dir</code> (win) inside of the directory you should see the following folders (among others):</p>
+
+                    <table class="responsive bordered">
+                        <thead>
+                        <tr>
+                            <th>File/Folder</th>
+                            <th>Purpose</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>app/</td>
+                            <td>Contains the controllers, models, views, helpers, mailers and assets for your application. You'll focus on this folder for the remainder of this guide.</td>
+                        </tr>
+                        <tr>
+                            <td>bin/</td>
+                            <td>Contains the rails script that starts your app and can contain other scripts you use to setup, deploy or run your application.</td>
+                        </tr>
+                        <tr>
+                            <td>db/</td>
+                            <td>Contains your current database description (schema), as well as the database migrations.</td>
+                        </tr>
+                        <tr>
+                            <td>Gemfile<br>Gemfile.lock</td>
+                            <td>These files allow you to specify what gem dependencies are needed for your Rails application. These files are used by the Bundler gem.</td>
+                        </tr>
+                        <tr>
+                            <td>public/</td>
+                            <td>The only folder seen by the world as-is. Contains static files and compiled assets.</td>
+                        </tr>
+                        <tr>
+                            <td>README.rdoc</td>
+                            <td>This is a brief instruction manual for your application. You should edit this file to tell others what your application does, how to set it up, and so on.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p>Start your application:</p>
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails server</code></pre></figure>
+
+            </div>
+        </div>
+
+        <p>Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> in your browser.
+            If you are using a cloud service (e.g. nitrous), use its preview functionality instead
+            (see <a href="install.html#using-a-cloud-service">installation guide</a> for details).</p>
+
+        <p>You should see “Welcome aboard” page, which means that the generation of your new app worked correctly.</p>
+
+        <p><img src="../../images/vienna/tutorial-image-1.png" alt="Welcome aboard" title="Apple menu" width="450" /></p>
+
+        <p>Notice in this window the command prompt is not visible because you are now in the Rails server, the command prompt looks like this:</p>
+
+        <div class="os-specific">
+            <div class="nix">
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="err">$</span></code></pre></figure>
+
+            </div>
+            <div class="win">
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">&gt;</code></pre></figure>
+
+            </div>
+        </div>
+
+        <p>When the command prompt is not visible you cannot execute new commands. If you try running <code class="highlighter-rouge">cd</code> or another command it will not work. To return to the normal command prompt:</p>
+
+        <p>Hit <kbd>Ctrl</kbd>+<kbd>C</kbd> in the terminal to stop the application server.</p>
+
+        <p><strong class="coach-hint">Coach:</strong> Explain what each command does. What was generated? What does the server do?</p>
+
+        <h2 id="say-hello"><em>3.</em>Say "Hello" in Rails</h2>
+        <p>To get Rails saying "Hello", you need to create at minimum a <em>controller</em> and a <em>view</em>.</p>
+        <p>A <code>controller</code>'s purpose is to receive specific requests from the browser to the application, do some calculations,
+            and then respond in a way or another.</p>
+        <p>A <code>view</code>'s purpose is to display the information that the controller tells it to in a humanly readable format.
+            An important distinction to make is that it is the controller, not the view, where information is collected.
+            The view should just display that information.</p>
+        <p>To create a new controller, you will need to run the "controller" generator and tell it you want a controller
+            called "welcome" with an action called "index", just like this:</p>
+        <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails generate controller welcome index</code></pre></figure>
+
+        <p>If you run <code>ls app/controllers/</code> (osx / unix) / <code>dir app/controllers/</code> (win) you should be able to see
+            a new file called <code>welcome_controller.rb</code>. Run <code>ls app/views/</code> (osx / unix) / <code>dir app/views/</code>
+            and you will see a new folder called <code>welcome</code>. This is where the welcome controller's views will be.</p>
+
+        <p>Open the <code>app/views/welcome/index.html.erb</code> file in your text editor. Delete all of the existing code in the file,
+            and replace it with the following single line of code:</p>
+
+        <figure class="highlight"><pre><code class="language-sh" data-lang="sh">&lt;h1&gt;Hello, Rails!&lt;/h1&gt;</code></pre></figure>
+
+        <p>Start your server again with <code>rails server</code> and navigate your browser to
+            <a href="http://localhost:3000/welcome/index" target="_blank">localhost:3000/welcome/index</a></p>
+
+        <p><strong class="coach-hint">Coach:</strong> Explain routing, the mapping from browser URLs to application controllers and views.</p>
+
+        <h2 id="create-idea-scaffold"><em>4.</em>Creating Articles</h2>
+
+        <p>We’re going to use Rails’ scaffolding functionality to generate a starting point that allows us to list, add, remove, edit, and view articles.</p>
+
+        <p><strong class="coach-hint">Coach:</strong> What is Rails scaffolding? (Explain the command, the model name and related database table, naming conventions, attributes and types, etc.)
+            What are migrations and why do you need them?</p>
+
+        <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails generate scaffold article title:string text:text date:datetime</code></pre></figure>
+
+        <p>The scaffold creates new files in your project directory, but to get it to work properly we need to run a couple of other commands to update our database and restart the server.</p>
+
+        <div class="os-specific">
+            OSX / Unix: <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rake db:migrate
+rails server</code></pre></figure>
+
+            Windows: <figure class="highlight"><pre><code class="language-sh" data-lang="sh">ruby bin/rake db:migrate
+rails server</code></pre></figure>
+
+        </div>
+    </div>
+
+    <p>Open <a href="http://localhost:3000/articles" target="_blank">localhost:3000/articles</a> in your browser.
+        Cloud service (e.g. nitrous) users need to append ‘/articles’ to their preview url instead
+        (see <a href="install.html#using-a-cloud-service">installation guide</a>).</p>
+
+    <p>Create a few articles and click around to get familiar with your brand new functional blog application.</p>
+
+    <p>Hit <kbd>Ctrl</kbd>+<kbd>C</kbd> to quit the server again when you’ve clicked around a little.</p>
+
+    <p><strong class="coach-hint">Coach:</strong> Explain what new files have been created with the Article scaffold.</p>
+
+    <h2 id="design"><em>5.</em>User Interface (aka. make it pretty)</h2>
+
+    <p><strong class="coach-hint">Coach:</strong> Talk about the relationship between HTML and Rails. What part of views is HTML and what is
+        Embedded Ruby (ERB)? What is MVC and how does this relate to it?
+        (Models and controllers are responsible for generating the HTML views.)</p>
+
+    <p>The app doesn't look very nice yet. Let’s do something about that. We’ll use the <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> project to give us
+        nicer styling really easily. Bootstrap makes front-end web development faster and easier. It's made for folks of
+        all skill levels, devices of all shapes, and projects of all sizes.</p>
+
+    <p><strong class="coach-hint">Coach:</strong> Explain what layouts are and how they are used by the views in the application.</p>
+
+    <p>Open <code class="highlighter-rouge">app/views/layouts/application.html.erb</code> in your text editor and above the line:</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="cp">&lt;%=</span> <span class="n">stylesheet_link_tag</span> <span class="s2">"application"</span><span class="p">,</span> <span class="ss">media: </span><span class="s2">"all"</span><span class="p">,</span> <span class="s2">"data-turbolinks-track"</span> <span class="o">=&gt;</span> <span class="kp">true</span> <span class="cp">%&gt;</span></code></pre></figure>
+
+    <p>add</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb">&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"&gt;</code></pre></figure>
+
+    <p>and replace</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="cp">&lt;%=</span> <span class="k">yield</span> <span class="cp">%&gt;</span></code></pre></figure>
+
+    <p>with</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="k">yield</span> <span class="cp">%&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+    <p><strong class="coach-hint">Coach:</strong> Bootstrap CSS documentation can be found here:
+        <a href="http://getbootstrap.com/css/">http://getbootstrap.com/css/</a>. Encourage the
+    trainee to play around with new HTML elements, styling, and colours.</p>
+
+    <p>Let’s also add a navigation bar and footer to the layout. In the same file, under <code class="highlighter-rouge">&lt;body&gt;</code> add</p>
+
+    <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-default navbar-fixed-top"</span> <span class="na">role=</span><span class="s">"navigation"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-header"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"navbar-toggle"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">".navbar-collapse"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Toggle navigation<span class="nt">&lt;/span&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon-bar"</span><span class="nt">&gt;&lt;/span&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon-bar"</span><span class="nt">&gt;&lt;/span&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon-bar"</span><span class="nt">&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>My Blog<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav navbar-nav"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/articles"</span><span class="nt">&gt;</span>Articles<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/nav&gt;</span></code></pre></figure>
+
+    <p>and before <code class="highlighter-rouge">&lt;/body&gt;</code> add</p>
+
+    <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;footer&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+        Rails Girls Vienna 2016
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/footer&gt;</span>
+<span class="nt">&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"&gt;&lt;/script&gt;</span></code></pre></figure>
+
+    <p>Now let’s also change the styling of the articles table. Open <code class="highlighter-rouge">app/assets/stylesheets/application.css</code> and at the bottom add</p>
+
+    <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span> <span class="nl">padding-top</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">footer</span> <span class="p">{</span> <span class="nl">margin-top</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">table</span><span class="o">,</span> <span class="nt">td</span><span class="o">,</span> <span class="nt">th</span> <span class="p">{</span> <span class="nl">vertical-align</span><span class="p">:</span> <span class="nb">middle</span><span class="p">;</span> <span class="nl">border</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">th</span> <span class="p">{</span> <span class="nl">border-bottom</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="m">#ddd</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
+
+    <p>Now make sure you saved your files and refresh the browser to see what was changed. You can also change the HTML &amp; CSS further.</p>
+
+    <p>In case your Terminal shows you an error message that <em>sort of</em> implies there is something wrong with your JavaScript or CoffeeScript, install <a href="http://nodejs.org/download/">nodejs</a>.
+        This issue should not appear when you’ve used the RailsInstaller (but when you’ve installed Rails via
+        <code class="highlighter-rouge">gem install rails</code>).</p>
+
+    <h2 id="adding-comments"><em>6.</em> Adding comments</h2>
+
+    <p>It would be cool if people viewing the articles could also comment on them, wouldn't it? For this, we need to add a second model
+    called Comment. Type the following in the Terminal:</p>
+    <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails generate scaffold comment commenter:string body:text article_id:integer
+rake db/migrate</code></pre></figure>
+
+    <p>Open the newly created <code>app/models/comment.rb</code> file and replace the content with the following code:</p>
+
+    <figure class="highlight"><pre><code class="language-rb" data-lang="rb">class Comment < ActiveRecord::Base
+    belongs_to :article
+end</code> </pre></figure>
+
+    <p>Open the previously created mode, <code>app/models/article.rb</code> and replace the content with the following:</p>
+    <figure class="highlight"><pre><code class="language-rb" data-lang="rb">class Article < ActiveRecord::Base
+    has_many :comments
+end</code></pre></figure>
+
+    <p><strong class="coach-hint">Coach:</strong> Talk about models, their mapping in the data base, and associations.</p>
+
+    <p>Displaying the existing comments on an article, as well as creating new ones can be easily done by adding the following to
+    <code>app/views/articles/show.html.erb</code>, before the <code>&lt;%= link_to 'Edit', edit_article_path(@article) %&gt;</code> line:</p>
+    <figure class="highlight"><pre><code class="language-rb" data-lang="rb">&lt;h3&gt;Comments&lt;/h3&gt;
+    &lt;% @article.comments.each do |comment| %&gt;
+        &lt;div&gt;
+            &lt;strong&gt;&lt;%= comment.commenter %&gt;&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;p&gt;&lt;%= comment.body %&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;%= link_to 'Delete', comment_path(comment), method: :delete, data: { confirm: 'Are you sure?' } %>&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;% end %&gt;
+&lt;%= render 'comments/form' %&gt;</code></pre></figure>
+
+    <p>Open <code>app/controllers/articles_controller.rb</code>, and after the line <code>def show</code> add the following code:</p>
+    <figure class="highlight"><pre><code class="language-rb" data-lang="rb">@comment = Comment.new(article: @article)</code></pre></figure>
+
+    <p>Open <code>app/views/comments/_form.html.erb</code>, and before the line <code>&lt;div class="actions"&gt;</code> add the following code:</p>
+    <figure class="highlight"><pre><code class="language-rb" data-lang="rb"><%= f.hidden_field :article_id %></code></pre></figure>
+
+    <p><strong class="coach-hint">Coach:</strong> Explain the model form.</p>
+
+    <p>In order for the browser to display the article again after a comment has been created, we need to setup redirection in the
+    comments controller. To do so, open the <code>app/controllers/comments_controller.rb</code> file, and
+    instead of the line <code>format.html { redirect_to @comment, notice: 'Comment was successfully created.' }</code> write the following:</p>
+    <figure class="highlight"><pre><code class="language-rb" data-lang="rb">format.html { redirect_to @comment.article }</code></pre></figure>
+
+    <p>Refresh your browser and create comments.</p>
+    <p><strong class="coach-hint">Coach:</strong> Talk a bit about redirection in Rails.</p>
+
+    <h2 id="adding-picture-uploads"><em>7.</em>Adding an image to articles</h2>
+
+    <p>In some cases you might want to add images to a blog article. In order to do so, we need a new gem to our applications,
+        <a href="https://github.com/carrierwaveuploader/carrierwave" target="_blank">carrierwave</a>.
+        Remember what gems are?</p>
+
+    <p><strong class="coach-hint">Coach:</strong> Explain what libraries / gems are and why they are useful. Describe what open source software is.</p>
+
+    <p>Open <code class="highlighter-rouge">Gemfile</code> in the project directory using your text editor and add at the end:</p>
+
+    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">gem</span> <span class="s1">'carrierwave'</span></code></pre></figure>
+
+    <p>Hit <kbd>Ctrl</kbd>+<kbd>C</kbd> in the terminal to quit the server.</p>
+
+    <p>In the terminal run:</p>
+
+    <figure class="highlight"><pre><code class="language-sh" data-lang="sh">bundle install</code></pre></figure>
+
+    <p>Now we can generate the code for handling uploads. In the terminal run:</p>
+
+    <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails generate uploader Image</code></pre></figure>
+
+    <p>In order for articles to be able to store an image, we also need to add another attribute to the Article model. We
+    do this by creating a migration. Run the following in the terminal:</p>
+    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">rails g migration add_image_to_articles image:string
+rake db:migrate</code></pre></figure>
+
+    <p>We need to tell the articles controller that we are now allowing an image to be attached to an article.
+    Open <code>app/controllers/articles_controller.rb</code> and instead of the line <code>params.require(:article).permit(:title, :text, :date)</code> type:</p>
+
+    <figure class="highlight"><pre><code class="language-ruby" data-lang="rb">params.require(:article).permit(:title, :text, :date, :image)</code></pre></figure>
+
+    <p>Please start the rails server now.</p>
+
+    <p>Note: Some people might be using a second terminal to run the rails server continuously.
+        If so you need to <strong>restart the Rails server process</strong> now.
+        This is needed for the app to load the added library.</p>
+
+    <p>Open <code class="highlighter-rouge">app/models/article.rb</code> and under the line</p>
+
+    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">has_many :comments</code></pre></figure>
+
+    <p>add</p>
+
+    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">mount_uploader :image, ImageUploader</code></pre></figure>
+
+    <p>Open <code class="highlighter-rouge">app/views/articles/_form.html.erb</code> and before the line <code>&lt;div class="actions"&gt;</code> add the following:</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb">&lt;%= f.file_field :image %&gt;</code></pre></figure>
+
+    <p>Sometimes, you might get an <em>TypeError: can’t cast ActionDispatch::Http::UploadedFile to string</em>.</p>
+
+    <p>If this happens, in file <code class="highlighter-rouge">app/views/articles/_form.html.erb</code> change the line</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb">&lt;%= form_for(@article) do |f| %&gt;</code></pre></figure>
+
+    <p>to</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb">&lt;%= form_for(@article, :html => {:multipart => true}) do |f| %&gt;</code></pre></figure>
+
+    <p>In your browser, add a new article with an image. Before you can also see the image you need to add some code.</p>
+
+    <p>Open <code class="highlighter-rouge">app/views/articles/show.html.erb</code> and before <code>&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt;</code></p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb">&lt;%= image_tag(@article.image_url, :width => 600) if @article.image.present? %&gt;</code></pre></figure>
+
+    <p>Now refresh your browser to see what changed.</p>
+
+    <h2 id="what-next"><em>8.</em>What next?</h2>
+
+    <ul>
+        <li>Change your welcome page to display a summary of the latest 5 articles.</li>
+        <li>Add design using HTML &amp; CSS</li>
+        <li>Add ratings to articles</li>
+        <li>Add authentication</li>
+        <li>Use JavaScript to add interaction</li>
+        <li>Add picture resizing to make loading the pictures faster</li>
+    </ul>
+
+    <h2 id="additional-guides">Additional Guides</h2>
+
+    <ul>
+        <li>Guide 1: <a href="http://www.pragtob.info/rails-beginner-cheatsheet/">Handy cheatsheet for Ruby, Rails, console etc.</a></li>
+        <li>Guide 2: <a href="http://guides.railsgirls.com/heroku">Put your app online with Heroku by Terence Lee</a> / <a href="/openshift">Put your app online with OpenShift by Katie Miller</a> / <a href="/anynines">Put your app online with anynines</a> / <a href="/trucker">Put your app online with Trucker.io</a></li>
+        <li>Guide 3: <a href="http://guides.railsgirls.com/thumbnails">Create thumbnail images for the uploads by Miha Filej</a></li>
+        <li>Guide 4: <a href="http://guides.railsgirls.com/design">Add design using HTML &amp; CSS by Alex Liao</a></li>
+        <li>Guide 5: <a href="http://guides.railsgirls.com/devise">Add Authentication (user accounts) with Devise by Piotr Steininger</a></li>
+        <li>Guide 6: <a href="http://guides.railsgirls.com/gravatar">Adding profile pictures with Gravatar</a></li>
+        <li>Guide 7: <a href="http://guides.railsgirls.com/testing-rspec">Test your app with RSpec</a></li>
+        <li>Guide 8: <a href="http://guides.railsgirls.com/continuous-travis">Continuous Deployment with Travis-CI</a> / <a href="/continuous">Continuous Deployment with Codeship</a> / <a href="/continuous-snap-ci">Continuous Deployment with Snap CI</a></li>
+        <li>Guide 9: <a href="https://github.com/lbain/railsgirls">Go through additional explanations for the App by Lucy Bain</a></li>
+    </ul>
+
+    <hr />
+    <p style="margin-bottom: 50px;">This guide is based on the official <a href="http://guides.railsgirls.com/app">Rails Girls guide</a>
+        created by Vesa Vänskä and the official
+        <a href="http://guides.rubyonrails.org/getting_started.html">Ruby on Rails tutorial</a>.</p>
+    </div>
+</article>
+<footer>
+    <p>
+        This work is licensed under a
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a>
+    </p>
+    <p>
+        <a href="http://railsgirls.com">Rails Girls</a>
+        &middot; Crafted with excitement from Helsinki, Finland &middot; Follow us on
+        <a href="http://twitter.com/railsgirls">Twitter</a>
+        and
+        <a href="https://www.facebook.com/railsgirls">Facebook</a>
+    </p>
+</footer>
+</body>
+</html>

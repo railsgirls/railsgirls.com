@@ -37,6 +37,25 @@
         font-size: 1.2em;
         line-height: 42px;
     }
+
+    .timetable-hour {
+        font-weight: 200;
+    }
+
+    .timetable-description {
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #e0330c;
+        margin-left: 15px;
+    }
+
+    .small {
+        font-size: 0.8em;
+    }
+
+    .container_12 .grid_3 {
+        margin-top: 20px;
+    }
 </style>
 <header>
     <div class="container_12">
@@ -63,10 +82,10 @@
             </p>
 
             <p>
-                Rails Girls is coming to Vienna again! Join us for a full day workshop on Ruby on Rails and meet fellow Ruby enthusiasts. More details to come.
+                Rails Girls is coming to Vienna again! Join us for a full day workshop on Ruby on Rails and meet fellow Ruby enthusiasts.
             </p>
 
-            <p><strong><a href="https://railsgirlsvienna.typeform.com/to/doYcXU">Apply here</a></strong> until April 28.</p>
+            <p>Applications are closed! If you've applied, you should be hearing from us soon.</p>
 
             <p>
                 Follow us on <a href="https://www.facebook.com/RailsGirlsVienna/">Facebook</a>,
@@ -91,11 +110,91 @@
 
     </div>
 
-    <!-- Information -->
-    <h3>Information</h3>
+    <!-- Schedule -->
+    <div class="grid_6 alpha" style="padding-bottom: 40px;">
+        <h2>Location</h2>
 
-    <p>Want to help? We're looking for sponsors for the
-        non-profit event! <a href="mailto:contact@railsgirlsvienna.com">Email us</a>!</p>
+        <p style="font-size: 1.2em;">Sektor5, Siebenbrunnengasse 44, 1050 Wien<br />
+            <a href="https://goo.gl/maps/q7ivuLRFXSM2" target="_blank">See map</a>
+        </p>
+
+        <h2>Friday, May 6th</h2>
+        <p>
+            <span class="timetable-hour">18:00 - 21:00</span>
+            <span class="timetable-description">Installation Party</span>
+        </p>
+
+        <h2>Saturday, May 7th</h2>
+        <p>
+            <span class="timetable-hour">09:00 - 10:00</span>
+            <span class="timetable-description">Coffee & Snacks</span>
+        </p>
+        <p>
+            <span class="timetable-hour">10:00 - 10:10</span>
+            <span class="timetable-description">Welcome!</span>
+        </p>
+        <p>
+            <span class="timetable-hour">10:10 - 10:30</span>
+            <span class="timetable-description">Talk: Introduction to Programming</span>
+        </p>
+        <p>
+            <span class="timetable-hour">10:30 - 12:30</span>
+            <span class="timetable-description">Workshop</span>
+        </p>
+        <p>
+            <span class="timetable-hour">12:30 - 13:40</span>
+            <span class="timetable-description">Lunch</span>
+        </p>
+        <p>
+            <span class="timetable-hour">13:45 - 14:00</span>
+            <span class="timetable-description">Talk: Motivation during transfer</span>
+        </p>
+        <p>
+            <span class="timetable-hour">14:00 - 14:15</span>
+            <span class="timetable-description">Talk: Introduction to Version Control and Git</span>
+        </p>
+        <p>
+            <span class="timetable-hour">14:15 - 17:00</span>
+            <span class="timetable-description">Workshop</span>
+        </p>
+        <p>
+            <span class="timetable-hour">17:00 - 17:30</span>
+            <span class="timetable-description">Talk: Keep Moving Forward</span>
+        </p>
+        <p>
+            <span class="timetable-hour">17:30 - 19:00</span>
+            <span class="timetable-description">Closing up, networking</span>
+        </p>
+    </div>
+
+    <div class="grid_5 push_1 omega side">
+        <p><img src="images/vienna/pspdfkit2.png" style="max-height: 60px;"></p>
+        <p style="margin-top: 0;"><a href="https://pspdfkit.com/" target="_blank">PSPDFKit</a> is the industry-leading iOS framework for displaying
+            and annotating PDFs and filling out PDF forms. We're located in Vienna with a team all over the world.
+            We use Rails both for internal and external applications and are proud to support Rails Girls and help
+            bring more diversity into Tech.</p>
+
+        <p><img src="images/vienna/github.png" style="max-height: 60px; margin-left: -10px;"></p>
+        <p style="margin-top: 0;"><a href="https://github.com/" target="_blank">GitHub</a> is how people build software.
+            With a community of more than 14 million people, developers can discover, use, and contribute to over 35 million
+            projects using a powerful collaborative development workflow.</p>
+
+        <p><img src="images/vienna/meisterlabs.svg" style="max-height: 50px;" /></p>
+        <p style="margin-top: 0;">MeisterLabs is the publisher of <a href="https://www.mindmeister.com" target="_blank">MindMeister</a>, the
+            market-leading collaborative online mind mapping software solution, and of <a href="https://www.meistertask.com" target="_blank">MeisterTask</a>,
+            the most intuitive collaboration and task management tool on the web, both of them Ruby on Rails apps.</p>
+
+        <p><img src="images/vienna/sektor5.jpeg" style="max-height: 80px;"></p>
+        <p style="margin-top: 0;"><a href="http://www.sektor5.at/" target="_blank">sektor5</a> is one of the most established co-working spaces in Austria and was crowned
+            “Best Coworking Space in Austria” by the CESAwards in 2015. Since its founding in 2010, sektor5 has been home to a diverse
+            community of startups, developers and freelancers, and they host numerous events and meetups.
+            The owners are particularly committed to fostering the involvement of women in tech.</p>
+
+        <p><img src="images/vienna/wooga2.png" style="max-height: 60px; margin-left: -10px;"></p>
+        <p style="margin-top: 0;"><a href="https://www.wooga.com/" target="_blank">Wooga</a> is one of the most popular developers of mobile games in the world.
+            At its headquarters in Berlin, employees from more than 40 nations develop high quality free-to-play games for a global
+            audience. Wooga’s focus is on regularly creating hits such as Jelly Splash, Pearl’s Peril, Diamond Dash and most recently Agent Alice.</p>
+    </div>
 
     <hr/>
 
@@ -116,6 +215,12 @@
         <a href="mailto:contact@railsgirlsvienna.com">Email us</a>
     </p>
 
+    <h3 style="margin-top: 50px;"><a href="vienna_coc.html">Code of Conduct</a></h3>
+    <p>
+        Rails Girls Vienna 2015 has a <a href="vienna_coc.html">Code of Conduct</a>, which we expect all
+        participants to have read and understood.
+    </p>
+
     <hr />
 
     <!-- Past events -->
@@ -130,17 +235,68 @@
     <hr />
 
     <!-- The team -->
-    <h3>Rails Girls Vienna team</h3>
+    <h3 style="margin: 0;">Rails Girls Vienna team</h3>
     <div style="margin-bottom: 30px; overflow: hidden;">
         <span class="grid_3">
             <span class="coach-name">Laura Gaetano, organiser</span>
-            <small><a href="https://twitter.com/alicetragedy" class="twitter-link">@alicetragedy</a></small>
+            <small><a href="https://twitter.com/alicetragedy" class="twitter-link" target="_blank">@alicetragedy</a></small>
         </span>
 
         <span class="grid_3">
             <span class="coach-name">Laura Bârlădeanu, organiser</span>
-            <small><a href="https://twitter.com/bulinutz" class="twitter-link">@bulinutz</a></small>
+            <small><a href="https://twitter.com/bulinutz" class="twitter-link" target="_blank">@bulinutz</a></small>
         </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Sonja Waldgruber, coach</span>
+            <small><a href="https://twitter.com/SonjaWaldgruber" class="twitter-link" target="_blank">@SonjaWaldgruber</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Pilar Huidobro, coach</span>
+            <small><a href="https://twitter.com/Althaire" class="twitter-link" target="_blank">@Althaire</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Stefan Haslinger, coach</span>
+            <small><a href="https://twitter.com/informatom" class="twitter-link" target="_blank">@informatom</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Mirjam Zenz, coach</span>
+            <small><a href="https://twitter.com/lilachaos" class="twitter-link" target="_blank">@lilachaos</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Nicolas Dular, coach</span>
+            <small><a href="https://twitter.com/NicolasDular" class="twitter-link" target="_blank">@NicolasDular</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Julia Waltl, coach</span>
+            <small><a href="https://twitter.com/cuddleism" class="twitter-link" target="_blank">@cuddleism</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Ramon Huidobro, coach</span>
+            <small><a href="https://twitter.com/senorhuidobro" class="twitter-link" target="_blank">@senorhuidobro</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Markus Prinz, coach</span>
+            <small><a href="https://twitter.com/nuclearsquid" class="twitter-link" target="_blank">@nuclearsquid</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Max, coach</span><br/>
+            <small><a href="https://twitter.com/klappradla" class="twitter-link" target="_blank">@klappradla</a></small>
+        </span>
+
+        <span class="grid_3">
+            <span class="coach-name">Michael Emhofer, coach</span><br/>
+            <small><a href="https://twitter.com/michaelem" class="twitter-link" target="_blank">@michaelem</a></small>
+        </span>
+
     </div>
 
     <hr />

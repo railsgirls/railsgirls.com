@@ -20,9 +20,45 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
+    <style type="text/css">
+      /* CSS extracted from houston */
+      .schedule-tables th{
+        width: 131px;
+        text-align: right;
+        padding-right: 2%;
+      }
+      .schedule-tables td p{
+        margin-top: 0em;
+        margin-bottom: 1em;
+      }
+      em {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .transparent{
+        display: none;
+      }
+      .hidden {
+        display: none !important;
+        visibility: hidden !important;
+      }
+      .rsvp small{
+        font-size: 0.75em;
+        font-weight: 200;
+      }
+      .previous-team{
+        cursor: pointer;
+      }
+      .previous-team small{
+        font-size: 0.5em;
+        font-style: italic;
+        display: none;
+        opacity: 0.5;
+      }
+      .previous-team:hover small{
+        display: inline-block;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -38,25 +74,10 @@
         </nav>
       </div>
     </header>
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!-->
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
 
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
-        <div id="promo" class="bogota">
+        <div id="promo" class="cali">
           <h1>Rails Girls Cali
             <small> 29 y 30 de Abril 2016</small>
           </h1>
@@ -75,119 +96,162 @@ Steps to show on site
               <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
             </div>
           </div>
-          <div class="registro">
-            <p><a href="https://docs.google.com/forms/d/11z0gP-LdHZmsZ1a8_J3mLzxWiep5XJY9kSmWZVKUCO8/viewform" target="_blank">Inscríbete ahora! </a> Inscripciones hasta 8 de Abril.</p>
+          <div>
+            <h3>Lugar del Evento</h3>
+            <p>Cámara de Comercio de Cali - Sala Múltiple 2 | Sótano<br>
+              Calle 8 No. 3 - 14<br>
+              Cali, Colombia</p>
+            <!-- <p><a href="https://docs.google.com/forms/d/11z0gP-LdHZmsZ1a8_J3mLzxWiep5XJY9kSmWZVKUCO8/viewform" target="_blank">Inscríbete ahora! </a> Inscripciones hasta el 22 de Abril.</p> -->
           </div>
         </div>
-        <div class="grid_4 alpha feature">
-          <p><strong>Aprenderás</strong> a diseñar, prototipar y   codificar con la ayuda de nuestros tutores.</p>
-        </div>
-        <div class="grid_4 feature">
-          <p><strong>Necesitas</strong> tu propio computador (preferiblemente), curiosidad y una pizca de imaginación.</p>
-        </div>
-        <div class="grid_4 omega feature">
-          <p><strong>Quieres ayudar?</strong> Estamos buscando voluntarios y apoyos económicos <a href="railsgirlscali@gmail.com">Contáctanos</a>.</p>
-        </div>
         <hr />
-        <!--  Update the texts! -->
-        <!--  Update the texts! -->
         <div class="grid_6 alpha">
-          <h2>Viernes 29 de Abril</h2>
-          <table id="schedule">
+          <img src="./images/cali/poster-cali.jpg" style="width:100%;margin-top:1em">
+        </div>
+        <div class="grid_6 omega side">
+          <h1>Información</h1>
+          <!-- <p>Las inscripciones son totalmente <strong>gratuitas</strong>  pero los cupos son <strong>limitados</strong>,<strong> Inscripciones <a href="https://docs.google.com/forms/d/11z0gP-LdHZmsZ1a8_J3mLzxWiep5XJY9kSmWZVKUCO8/viewform" target="_blank">abiertas</a> </strong></p> -->
+          Las inscripciones al evento han sido cerradas, gracias por tu valiosa participación.
+          <p>Lee nuestro <a href="https://docs.google.com/document/d/1Q16fJUjKhBFFWsxPRoxNekDghXYAcPa9ZGAV0lRUBgo/edit?usp=sharing" target="_blank">Código de Conducta</a>.</p>
+          <div class="">
+            <p><strong>Aprenderás</strong> a diseñar, prototipar y   codificar con la ayuda de nuestros tutores.</p>
+          </div>
+          <div class="">
+            <p><strong>Necesitas</strong> tu propio computador (preferiblemente), curiosidad y una pizca de imaginación.</p>
+          </div>
+          <div class="">
+            <p><strong>Quieres ayudar?</strong> Estamos buscando voluntarios y apoyos económicos <a href="railsgirlscali@gmail.com">Contáctanos</a>.</p>
+          </div>
+          <hr/>
+          </strong><br/>
+          <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+        </div>
+        <div class="grid_12 omega">
+          <a name="schedule"><h1 style="margin-top: 20px; margin-bottom:0;">Agenda</h1></a>
+         <h2 style="margin-top:0">Viernes, Abril 29, 2016</h2>
+          <table class="schedule-tables">
             <tbody>
               <tr>
-                <th>13.00 - 14.00</th>
+                <th><strong>12:00 - 01:30pm</strong></th>
                 <td>
-                  <h4>Registro</h4>
+                  <h3>Registro</h3>
+                    <p>Espacio para <em>registro</em> y <em>reconocimiento</em>, conoce el sitio, las instalaciones y escoge tu lugar preferido, aqui comienza nuestra gran aventura!</p>
                 </td>
               </tr>
               <tr>
-                <th>14.00 - 14.40</th>
+                <th><strong>01:30 - 02:00pm</strong></th>
                 <td>
-                  <h4>Bienvenida</h4>
-                  Conozcan a los coaches!
+                  <h3>Bienvenida</h3>
+                  <p>Queremos extender nuestra mejor bienvenida, contarte acerca del mundo rails y empezar a emprender el divertido camino del desarrollo de software.</p>
                 </td>
               </tr>
               <tr>
-                <th>14.40 - 15.00</th>
+                <th><strong>02:00 - 02:30pm</strong></th>
                 <td>
-                  <h4>Receso</h4>
+                  <h3>Organización</h3>
+                  <p>Para empezar algo debemos tener un plan y un gran equipo, en este espacio organizaremos nuestro taller y objetivos...</p>
                 </td>
               </tr>
               <tr>
-                <th>15.00 - 16.30</th>
+                <th><strong>02:30 - 03:30pm</strong></th>
                 <td>
-                  <h4>Fiesta de Instalación</h4>
-                  Prepararemos tu laptop para los workshops
+                  <h3>Contexto</h3>
+                  <p>Antes de empezar a desarrollar, queremos presentarte el contexto acerca del desarrollo de software y como Ruby y Ruby on Rails lo soporta profesionalmente.</p>
                 </td>
               </tr>
               <tr>
-                <th>16.30 - 18.00</th>
+                <th><strong>03:30 - 03:45pm</strong></th>
                 <td>
-                  <h4>Intro a Ruby</h4>
+                  <h3>Refrigerio</h3>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>03:30 - 05:00pm</strong></th>
+                <td>
+                  <h3>Configuración</h3>
+                  <p>Para empezar a desarrollar nuestras aplicaciones y nuestras ideas con Ruby y Ruby on Rails necesitamos un entorno de desarrollo, aquí te explicaremos cómo usarlo.</p>
                 </td>
               </tr>
             </tbody>
           </table>
-          <hr/>
-          <h2>Sábado 30 de Abril</h2>
-          <table id="schedule">
+          <hr />
+          <h2>Sábado, Abril 30, 2016</h2>
+          <table class="schedule-tables">
             <tbody>
-              <tr>
-                <th>09.00 - 09.30</th>
-                <td>
-                  <h4>Bienvenida</h4>
-                  Conocernos más y conversar sobre el primer día de Workshop
-                </td>
-              </tr>
-              <tr>
-                <th>09.30- 10.30</th>
-                <td>
-                  <h4> UX | UI </h4>
-                </td>
-              </tr>
-               <tr>
-                <th>10.30 - 10.50</th>
-                <td>
-                  <h4>Receso</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>10.50 - 12.00</th>
-                <td>
-                  <h4>Iniciando con Rails</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>12.00 - 13.00</th>
-                <td>
-                  <h4>Almuerzo</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>13.00 - 15.30</th>
-                <td>
-                  <h4>Aprendiendo Rails</h4>
-                </td>
-              </tr>
-              <tr>
-                <th>15.30 - 15.50</th>
-                <td>
-                  <h4>Receso</h4>
-                </td>
-              </tr>
-               <tr>
-                <th>15.50 - 16.00</th>
-                <td>
-                  <h4>Lightning talks</h4>
-                </td>
-              </tr>
-               <tr>
-                <th>17.40 - 18.00</th>
-                <td>
-                  <h4>Cierre del Evento</h4>
-                </td>
-              </tr>
+            <tr>
+              <th><strong>09:00 - 09:15am</strong></th>
+              <td>
+                <h3>¿Cómo vamos?</h3>
+                <p>Durante el principio de la mañana revisaremos cómo vamos en el proceso de configuración del enetorno inicial.</p>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>09:15 - 09:30am</strong></th>
+              <td>
+                <h3>Propuestas</h3>
+                <p>Sabemos que tienes muchas ideas que quieres desarrollar, sin embargo, hemos diseñado algunas alternativas de aplicaciones web para que puedas aprender de la mano de nuestros coaches...</p>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>09:30 - 10:45am</strong></th>
+              <td>
+                 <h3>A programar!</h3>
+                 <p>Empezamos a programar! <em>Railsmocionate</em> y construye cosas increíbles!</p>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>10:45 - 11:00am</strong></th>
+              <td><h3>Refrigerio</h3></td>
+            </tr>
+            <tr>
+              <th><strong>11:00 - 12:30pm</strong></th>
+              <td>
+                 <h3>Seguimos programando!</h3>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>12:30 - 01:30pm</strong></th>
+              <td>
+                <h3>Almuerzo [Libre]</h3>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>01:30 - 02:00pm</strong></th>
+              <td>
+                <h3>Showcase - Front end</h3>
+                <p>Por qué el estilo es importante, te mostraremos algunas alternativas que tienes para que tu aplicación luzca genial!</p>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>02:00 - 03:45pm</strong></th>
+              <td>
+                <h3>Volvamos a programar!</h3>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>03:45 - 04:00pm</strong></th>
+              <td><h3>Refrigerio</h3></td>
+            </tr>
+            <tr>
+              <th><strong>04:00 - 05:00pm</strong></th>
+              <td>
+                <h3>Sigamos programando!</h3>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>05:00 - 05:30pm</strong></th>
+              <td>
+                <h3>Showcase Final</h3>
+                <p>Es hora de revisar nuestras experiencias y avances a lo largo del taller!</p>
+              </td>
+            </tr>
+            <tr>
+              <th><strong>05:30 - 6:00pm</strong></th>
+              <td>
+                <h3>Cierre</h3>
+                <p>Casi llegamos al final del evento, sin embargo, tenemos preparada la mejor despedida, nuestro conversatorio final con invitadas muy especiales, personas que te van a inspirar a seguir un camino junto al desarrollo de software...</p>
+              </td>
+            </tr>
             </tbody>
           </table>
           <hr/>
@@ -197,41 +261,67 @@ Steps to show on site
           <p><strong>¿A quién va dirigido?</strong> Mujeres de cualquier edad con conocimientos básicos de computación. Hemos tenido gente de todas las edades que han participado en Rails Girls de otras ciudades. La mayoría de las orientaciones serán en español, sin embargo,la documentación y las guías estarán en ingles.</p>
           <p><strong>¿Pueden asistir hombres?</strong> Si, pero la prioridad en la lista de selección es para la chicas!</p>
         </div>
-        <!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
-        <div class="grid_5 push_1 omega side">
-          <h3>Información</h3>
-          <p>Las inscripciones son totalmente <strong>gratuitas</strong>  pero los cupos son <strong>limitados</strong>,<strong> Inscripciones <a href="https://docs.google.com/forms/d/11z0gP-LdHZmsZ1a8_J3mLzxWiep5XJY9kSmWZVKUCO8/viewform" target="_blank">abiertas</a> </strong></p>
 
-
-          </strong><br/>
-          <p>Lee nuestro <a href="https://drive.google.com/file/d/0B0ekE9H1pL72T1RiSWpvVkdQbmc/edit?usp=sharing"target="_blank">Código de Conducta</a>.</p>
-          <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-           <h3>Patrocinadores</h3>
+        <div class="grid_12 omega">
+          <h3>Patrocinadores</h3>
           <p> Rails Girls Cali es co-organizado con nuestros patrocinadores. </p>
           <p> ¿Quieres ayudar? Estamos buscando  patrocinadores para el evento sin fines de lucro, <a href="mailto:railsgirlscali@gmail.com"> Envíanos un correo electrónico!</a> </p-->
-          <!--div class="bta-sponsors bta-sponsors-top">
-            <a href="https://developers.google.com/"  target="_blank">
-              <img src="./images/cali/sponsors/logo_google_developers.png" alt="Google Developers" style="width:300px;"></a>
+
+          <div class="grid_2 alpha" style="margin-top:2.5em">
+            <a href="http://codescrum.com/" target="_blank" style="display:block; margin: 0; border:0;">
+              <img src="./images/cali/sponsors/codescrum.png" alt="Codescrum" style="width:100%; margin: 0 0;">
+            </a>
           </div>
-          <div class="bta-sponsors">
-            <a href="http://atomhouse.com/" target="_blank">
-              <img src="./images/cali/sponsors/logo_atom_house.png" alt="Atom House" style="height:80px;"> </a>
-          </div-->
-
-          <!--h3>Aliados</h3>
-           <div class="bta-sponsors bta-sponsors-top">
-            <a href="https://www.codeschool.com/" target="_blank">
-            <img src="./images/cali/sponsors/logo_code_school_horizontal.png" alt="Code School" style="width: 300px;"></a>
-          </p>
-          </div-->
-
+          <div class="grid_10 omega">
+            <p style="margin-top:2em"><a href="http://codescrum.com/" target="_blank">Codescrum</a> Empresa especializada en la consultoría y desarrollo de aplicaciones web y de internet B2B para pequeñas y medianas empresas. Codescrum fundamenta su operación en procesos modernos de gestión de proyectos, desarrollo ágil, utilización de herramientas y plataformas eficientes basadas en conceptos de reutilización y automatización. Igualmente, las técnicas y metodologías utilizadas por Codescrum comprenden buenas prácticas, actualización constante e innovación.</p>
+          </div>
+          <div class="grid_2 alpha" style="margin-top:2.5em">
+            <a href="http://www.makeitreal.camp/" target="_blank" style="display:block; margin: 0; border:0;">
+              <img src="./images/cali/sponsors/makeitreal.png" alt="MAKEitREAL" style="width:100%; margin: 0 0;">
+            </a>
+          </div>
+          <div class="grid_10 omega">
+            <p style="margin-top:2em"><a href="http://www.makeitreal.camp/" target="_blank">MAKE it REAL</a> ofrece programas online y presenciales para que te conviertas en Web Developer con el apoyo de mentores experimentados.</p>
+          </div>
+          <div class="grid_2 alpha" style="margin-top:2.5em">
+            <a href="http://www.ccc.org.co/" target="_blank" style="display:block; margin: 0; border:0;">
+              <img src="./images/cali/sponsors/ccc.jpg" alt="Cámara de Comercio de Cali" style="width:100%; margin: 0 0;">
+            </a>
+          </div>
+          <div class="grid_10 omega">
+            <p style="margin-top:2em"><a href="http://www.ccc.org.co/" target="_blank">Cámara de Comercio de Cali</a> En la Cámara de Comercio de Cali nos propusimos desafiar a los empresarios a crecer rentable y sosteniblemente y a competir con éxito en una economía global para construir una región más competitiva.</p>
+          </div>
+          <div class="grid_2 alpha" style="margin-top:2.5em">
+            <a href="http://creadev.co" target="_blank" style="display:block; margin: 0; border:0;">
+              <img src="./images/cali/sponsors/creadev.png" alt="CreaDev" style="width:100%; margin: 0 0;">
+            </a>
+          </div>
+          <div class="grid_10 omega">
+            <p style="margin-top:2em"><a href="http://creadev.co" target="_blank">CreaDev</a> Somos una empresa Jóven nacida en el 2015 dedicada a la animación, diseño gráfico y desarrollo de páginas web óptimas. En nuestro recorrido hemos apoyado con nuestro trabajo desde emprendedores del Tecnoparque hasta fundaciones lideradas por docentes de Univalle.</p>
+          </div>
+          <div class="grid_2 alpha" style="margin-top:2.5em">
+            <a href="https://platzi.com/" target="_blank" style="display:block; margin: 0; border:0;">
+              <img src="./images/cali/sponsors/platzi.png" alt="Platzi" style="width:100%; margin: 0 0;">
+            </a>
+          </div>
+          <div class="grid_10 omega">
+            <p style="margin-top:2em"><a href="https://platzi.com/" target="_blank">Platzi</a> Cursos profesionales de desarrollo web y de apps, marketing online, diseño de interfaces, servidores. Con clases en vivo y profesores sabios de la industria.</p>
+          </div>
+          <div class="grid_2 alpha" style="margin-top:2.5em">
+            <a href="https://worldtechmakers.com/" target="_blank" style="display:block; margin: 0; border:0;">
+              <img src="./images/cali/sponsors/world-tech-makers.png" alt="World Tech Makers" style="width:100%; margin: 0 0;">
+            </a>
+          </div>
+          <div class="grid_10 omega">
+            <p style="margin-top:2em"><a href="https://worldtechmakers.com/" target="_blank">World Tech Makers</a> Aprende a escribir código de manera limpia y a crear productos de software. Aprende de un equipo global apoyado por el legendario Tim Draper.</p>
+          </div>
 
         </div>
         <div class="grid_12 coaches">
           <hr/>
           <div class="grid_3 omega side">
             <h3>Ubicación:</h3>
-            <p>Cámara de Comercio de Cali <br>
+            <p>Cámara de Comercio de Cali - Sala Múltiple 2 | Sótano <br>
               Calle 8 No. 3 - 14<br>
               Cali, Colombia</p>
           </div>
@@ -247,49 +337,61 @@ Steps to show on site
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundandres.jpg" class="coach" style="border:none;"> -->
             Andrés Muñoz
             <small>@pipemun</small>
-            <small class="cali bta_role">Organiser</small>
+            <small class="cali bta-role">Organiser</small>
           </a>
           <a href="https://twitter.com/johan_tique" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundvictor.png" class="coach" style="border:none;"> -->
             Johan Tique
             <small class="cali">@johan_tique</small>
-            <small class="cali bta_role">Organiser - Coach</small>
+            <small class="cali bta-role">Organiser - Coach</small>
           </a>
           <a href="https://twitter.com/im_cortex" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundvictor.png" class="coach" style="border:none;"> -->
             Victor Cortes
             <small class="cali">@im_cortex</small>
-            <small class="cali bta_role">Coach</small>
+            <small class="cali bta-role">Coach</small>
           </a>
           <a href="https://twitter.com/chuchobassman" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundpedro.png" class="coach" style="border:none;"> -->
              Jesús Muñoz
             <small class="cali">@chuchobassman</small>
-            <small class="cali bta_role"> Coach</small>
+            <small class="cali bta-role"> Coach</small>
           </a>
-          <a href="https://twitter.com/moisesvw" target="_blank" class="grid_3">
+          <a href="https://twitter.com/estebance" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundjuan.png" class="coach" style="border:none;" /> -->
-            Moises Vargas
-            <small class="cali">@moisesvw</small>
-            <small class="cali bta_role"> Coach</small>
+            Esteban Cerón
+            <small class="cali">@estebance</small>
+            <small class="cali bta-role"> Coach</small>
           </a>
           <a href="https://twitter.com/BastianVelandia" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundjuan.png" class="coach" style="border:none;" /> -->
             Sebastian Velandia
             <small class="cali">@BastianVelandia</small>
-            <small class="cali bta_role"> Coach</small>
+            <small class="cali bta-role"> Coach</small>
           </a>
           <a href="https://twitter.com/jroadev" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundjuan.png" class="coach" style="border:none;" /> -->
             Juan Roa
             <small class="cali">@jroadev</small>
-            <small class="cali bta_role"> Coach</small>
+            <small class="cali bta-role"> Coach</small>
           </a>
           <a href="https://twitter.com/samirbasante" target="_blank" class="grid_3">
             <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundsamir.png" class="coach" style="border:none;"> -->
             Samir Basante
             <small class="cali">@samirbasante</small>
-            <small class="cali bta_role"> Designer</small>
+            <small class="cali bta-role">Designer</small>
+          </a>
+          <a href="https://twitter.com/ChrisEstanol" target="_blank" class="grid_3">
+            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundsamir.png" class="coach" style="border:none;"> -->
+            Christophe Estanol
+            <small class="cali">@ChrisEstanol</small>
+            <small class="cali bta-role">Coach</small>
+          </a>
+          <a href="https://twitter.com/gato_omega" target="_blank" class="grid_3">
+            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundsamir.png" class="coach" style="border:none;"> -->
+            Miguel Diaz
+            <small class="cali">@gato_omega</small>
+            <small class="cali bta-role">Coach</small>
           </a>
         </div>
       </div>

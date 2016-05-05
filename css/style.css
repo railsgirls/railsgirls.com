@@ -613,9 +613,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.osaka-2nd#promo {
+  padding-left:420px;
+  background:url('../images/rg-osaka-2nd.jpg') no-repeat left top,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .osaka#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka.jpg') no-repeat left top,
+  background:url('../images/rg-osaka.png') no-repeat 0 80px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
@@ -1166,6 +1172,10 @@ pre {
 
 .osaka-1st#promo h1 {
   background:url('../images/rg-osaka-header-1st.png') no-repeat left top;
+}
+
+.osaka-2nd#promo h1 {
+  background:url('../images/rg-osaka-header-2nd.png') no-repeat left top;
 }
 
 .osaka#promo h1 {
@@ -2756,6 +2766,51 @@ div.bta-sponsors-top{ margin-top: 50px;}
 
 /* End Bogota */
 
+/* Cali */
+.cali#promo {
+  padding-left:340px;
+  background:url('../images/cali/rg-cali-monochrome.jpg') no-repeat 0 10px;
+}
+
+.cali#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
+.cali#promo div.registro{ height: 80px; }
+.cali#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.cali#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.cali#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.cali{ color: #444; }
+
+small.cali-role{ font-size: 80%; }
+
+/* End Cali */
+
 .tampere2015#promo {
   padding-left:340px;
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
@@ -2801,6 +2856,51 @@ div.bta-sponsors-top{ margin-top: 50px;}
 .poa_header .button:hover { background-color: rgb(211, 54, 11); }
 #poa-map { border: none; }
 #poa-map img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.nh_header {
+  background: #d3360b url('../images/novo-hamburgo/bg.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.nh_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+.nh_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.nh_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.nh_header .button {
+  background-color: rgba(211, 54, 11, 0.9);
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+.nh_header .button:hover { background-color: rgb(211, 54, 11); }
+#nh-map { border: none; }
+#nh-map img {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
