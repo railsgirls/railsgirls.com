@@ -332,7 +332,7 @@ rails server</code></pre></figure>
     <p>It would be cool if people viewing the articles could also comment on them, wouldn't it? For this, we need to add a second model
     called Comment. Type the following in the Terminal:</p>
     <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails generate scaffold comment commenter:string body:text article_id:integer
-rake db/migrate</code></pre></figure>
+rake db:migrate</code></pre></figure>
 
     <p>Open the newly created <code>app/models/comment.rb</code> file and replace the content with the following code:</p>
 
