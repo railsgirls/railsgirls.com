@@ -780,6 +780,14 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 .wellington#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
+.christchurch#promo {
+  padding-left: 334px;
+  padding-top: 0;
+  background:url('../images/christchurch/rg-christchurch.jpg') no-repeat 0 10px,
+                 url('../images/separator.jpg') no-repeat center bottom;
+}
+.chirstchurch#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
 .columbia#promo {
   padding-left:340px;
   background:url('../images/rg-columbiaMD.png') no-repeat 0 50px,
