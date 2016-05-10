@@ -250,7 +250,20 @@ rails server</code></pre></figure>
 
     <p><strong class="coach-hint">Coach:</strong> Explain what new files have been created with the Article scaffold.</p>
 
-    <h2 id="design"><em>5.</em>User Interface (aka. make it pretty)</h2>
+    <h2 id="finetune-routes"><em>5.</em> Finetune the routes</h2>
+    <p>Open <a href="http://localhost:3000">http://localhost:3000</a> (or your preview url, if you are using a cloud service).
+        It still shows the “Welcome aboard” page. Let’s make it redirect to the articles listing.</p>
+
+    <p>Open <code>config/routes.rb</code> and after the first line add:</p>
+
+    <figure class="highlight"><pre><code class="language-erb" data-lang="erb">root to: redirect('/articles')</code></pre></figure>
+
+    <p>Test the change by opening the root path (that is, <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>
+        or your preview url) in your browser.</p>
+
+    <p><strong class="coach-hint">Coach:</strong> Talk about routes, and include details on the order of routes and their relation to static files.</p>
+
+    <h2 id="design"><em>6.</em>User Interface (aka. make it pretty)</h2>
 
     <p><strong class="coach-hint">Coach:</strong> Talk about the relationship between HTML and Rails. What part of views is HTML and what is
         Embedded Ruby (ERB)? What is MVC and how does this relate to it?
@@ -327,7 +340,7 @@ rails server</code></pre></figure>
         This issue should not appear when you’ve used the RailsInstaller (but when you’ve installed Rails via
         <code class="highlighter-rouge">gem install rails</code>).</p>
 
-    <h2 id="adding-comments"><em>6.</em> Adding comments</h2>
+    <h2 id="adding-comments"><em>7.</em> Adding comments</h2>
 
     <p>It would be cool if people viewing the articles could also comment on them, wouldn't it? For this, we need to add a second model
     called Comment. Type the following in the Terminal:</p>
@@ -376,7 +389,7 @@ end</code></pre></figure>
     <p>Refresh your browser and create comments.</p>
     <p><strong class="coach-hint">Coach:</strong> Talk a bit about redirection in Rails.</p>
 
-    <h2 id="adding-picture-uploads"><em>7.</em>Adding an image to articles</h2>
+    <h2 id="adding-picture-uploads"><em>8.</em>Adding an image to articles</h2>
 
     <p>In some cases you might want to add images to a blog article. In order to do so, we need a new gem to our applications,
         <a href="https://github.com/carrierwaveuploader/carrierwave" target="_blank">carrierwave</a>.
@@ -444,12 +457,12 @@ rake db:migrate</code></pre></figure>
 
     <p>Now refresh your browser to see what changed.</p>
 
-    <h2 id="what-next"><em>8.</em>What next?</h2>
+    <h2 id="what-next"><em>9.</em>What next?</h2>
 
     <ul>
-        <li>Change your welcome page to display a summary of the latest 5 articles.</li>
+        <li>Change your welcome page to display a summary of the latest 5 articles with a link to the next ones.</li>
+        <li>Display the number of comments on each article on the article listing page</li>
         <li>Add design using HTML &amp; CSS</li>
-        <li>Add ratings to articles</li>
         <li>Add authentication</li>
         <li>Use JavaScript to add interaction</li>
         <li>Add picture resizing to make loading the pictures faster</li>
