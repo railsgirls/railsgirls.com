@@ -2450,6 +2450,44 @@ a:hover.bratislava2014-a {
   background: #C2320A;
 }
 
+.pori_header {
+  background: #d3360b url('../images/summer.jpeg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.pori_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  top: -42px;
+}
+
+.pori_header h1 {
+  color: #C2320A;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.pori_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.pori_header p {
+  color: #333;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+ß
+
 .oslo_header_button {
   background: transparent;
   border: 3px solid #d3360b;
