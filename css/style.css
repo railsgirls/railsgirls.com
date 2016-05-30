@@ -872,15 +872,6 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
 }
 
-.lodz2014#promo {
-          padding-left:340px;
-          background:url('../images/rg-lodz.png') no-repeat 0 10px;
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-.lodz2014#promo h1 {
-  background:url('../images/rg-lodz-header-2014.png') no-repeat left top;
-}
-
 .saarbruecken#promo {
   background:url('../images/rg-saarbruecken-header.png') no-repeat left top;
   padding-left:340px;
@@ -2555,6 +2546,17 @@ a:hover.bratislava2014-a {
 				url('../images/separator.png') no-repeat center bottom;
 }
 
+
+.kraljevo#promo {
+  padding-left:350px;
+    background:url('../images/kraljevo/rg-kraljevo.jpg') no-repeat 0 90px,
+        url('../images/separator.png') no-repeat center bottom;
+}
+.prijava {
+   padding-left:350px;
+    background:url('../images/kraljevo/rg-kraljevo-2.png') no-repeat 0 0px
+}
+
 .barcelona#promo {
   padding-left:340px;
   background:url('../images/barcelona/chica_logo_600x600.png') no-repeat 0 10px,
@@ -3312,3 +3314,5 @@ padding-top:30px;
   background:url('../images/rg-kollam.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+
