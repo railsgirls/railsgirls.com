@@ -872,6 +872,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
 }
 
+.lodz2014#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz2014#promo h1 {
+  background:url('../images/rg-lodz-header-2014.png') no-repeat left top;
+}
+
 .saarbruecken#promo {
   background:url('../images/rg-saarbruecken-header.png') no-repeat left top;
   padding-left:340px;
