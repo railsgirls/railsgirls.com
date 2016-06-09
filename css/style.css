@@ -2882,8 +2882,18 @@ small.cali-role{ font-size: 80%; }
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
-.poa_header {
-  background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
+
+.poa_header_2016 {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa_2016.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.poa_header_2015 {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa_2015.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -3323,5 +3333,3 @@ padding-top:30px;
   background:url('../images/rg-kollam.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
-
-
