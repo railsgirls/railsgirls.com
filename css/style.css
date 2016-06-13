@@ -1560,9 +1560,16 @@ h4.warsaw {
   width: 345px;
 }
 
+
 .silesia #promo {
   padding-left: 340px;
   background: url('../images/rg-silesia.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+.silesia #promo.cieszyn {
+  padding-left: 340px;
+  background: url('../images/cieszyn/logo.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
 
