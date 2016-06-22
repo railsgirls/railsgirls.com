@@ -558,9 +558,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
-.tokyo#promo {
+.tokyo-2015-09-12#promo {
   padding-left:390px;
   background:url('../images/rg-tokyo.png') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
+.tokyo#promo {
+  padding-left:390px;
+  background:url('../images/rg-tokyo-2016-07-23.png') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
   }
