@@ -3347,3 +3347,15 @@ padding-top:30px;
   background:url('../images/rg-kollam.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.barranquilla{
+  padding: 15px 5px;
+  margin: 0 auto;
+}
+.barranquilla > a{
+  border: 0;
+  display: block;
+}
+.barranquilla img{
+  display: block;
+  margin: 0 auto;
+}
