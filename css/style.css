@@ -3359,3 +3359,8 @@ padding-top:30px;
   display: block;
   margin: 0 auto;
 }
+.barranquilla > h3{
+  color: black;
+  text-align: center;
+  margin: 15px auto;
+}
