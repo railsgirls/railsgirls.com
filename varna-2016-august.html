@@ -173,6 +173,16 @@
     .logos-wall p:nth-of-type(3n+1) {
       clear: left;
     }
+    .logos-wall.two-columns p {
+      max-width: 48%;
+      margin: 0 2% 2% 0;
+    }
+    .logos-wall.two-columns p:nth-of-type(3n+1) {
+      clear: none;
+    }
+    .logos-wall.two-columns p:nth-of-type(2n+1) {
+      clear: left;
+    }
     .logos-wall p a {
       text-decoration: none;
       border-bottom: none;
@@ -377,6 +387,15 @@
       #team .grid_3 {
         float: none;
         width: auto;
+      }
+
+      .logos-wall p,
+      .logos-wall p:nth-of-type(3n+1),
+      .logos-wall.two-columns p,
+      .logos-wall.two-columns p:nth-of-type(3n+1) {
+        float: none;
+        max-width: 98%;
+        clear: none;
       }
     }
   </style>
@@ -764,7 +783,7 @@
           </p>
         </div>
 
-        <div id="sponsors" class="sponsors-wall logos-wall">
+        <div id="sponsors" class="sponsors-wall logos-wall two-columns">
           <h3 id="regular-sponsors">Спонсори</h3>
 
           <!-- <p><em>Предсти да бъдат обявени.</em></p> -->
