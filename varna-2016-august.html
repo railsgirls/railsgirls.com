@@ -1,0 +1,1622 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--  Add your city name, dates and year.  -->
+  <title>Varna 14 August 2016 - Rails Girls Varna 2.0</title>
+
+  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+  <meta name="description" content="Rails Girls Varna 2.0 е безплатен уъркшоп за дами, въвеждащ в магическия свят на изработката на уеб приложения. Ще се проведе на 14 август 2016 г.">
+  <meta name="author" content="Rails Girls Varna">
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <style type="text/css">
+    .varna#promo {
+      padding-left: 340px;
+      background: url('images/varna/rg-varna.jpg') no-repeat 0 10px;
+    }
+    .clear {
+      clear: both;
+    }
+    a.signup {
+      display: inline-block;
+      padding: 0.6em 1em;
+      border-radius: 4px;
+      background-color: #e2390c;
+      border-bottom: none;
+      color: #fff;
+      line-height: 1.3em;
+    }
+    a.sponsor {
+      display: block;
+      margin: 2em 0;
+      border: none;
+      color: #666;
+      line-height: 130%;
+      text-align: center;
+      font-size: 0.8em;
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    a.sponsor img {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto 0.5em auto;
+    }
+
+    .sponsor img,
+    .logos-wall p img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .sponsor:hover {
+      color: #444;
+      opacity: 1;
+    }
+    .sponsor:hover img,
+    .logos-wall p:hover img {
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+
+    header {
+      padding: 0;
+      height: auto;
+      line-height: 1em;
+      overflow: hidden;
+    }
+    header #logo {
+      padding: 1em 0;
+      width: 140px;
+    }
+    header nav a {
+      display: inline-block;
+      padding: 0.7em 0;
+    }
+
+    a img {
+      max-width: 100%;
+    }
+    h3.sponsor-type {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    .coaches {
+      margin-right: -20px;
+    }
+    .coaches .grid_3 {
+      height: 80px;
+      margin: 0 20px 30px 0;
+    }
+    .coaches a img,
+    .coaches div.coach img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      margin-bottom: 30px;
+    }
+    .coaches a em,
+    .coaches div.coach em {
+      display: block;
+      font-style: normal;
+      font-size: 0.75em;
+    }
+    .coaches div.coach {
+      color: #e0330c;
+    }
+    .coaches .grid_3:nth-child(4n+4) {
+      margin-right: 20px;
+    }
+    .faq {
+      overflow: hidden;
+      margin-right: -70px;
+    }
+    .faq .column {
+      width: 440px;
+      margin-right: 70px;
+      float: left;
+    }
+    .faq strong {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    #schedule th {
+      white-space: nowrap;
+      padding-right: 0.6em;
+    }
+    #schedule td ol {
+      padding-left: 15px;
+      margin: 1em 0;
+    }
+    #schedule td ol li {
+      color: #222;
+    }
+    #schedule td ol li em {
+      display: block;
+      color: #555;
+    }
+    .regular li {
+      color: #390c00;
+    }
+    .sponsors-wall {
+      clear: both;
+      padding: 3em 0 1em 0;
+      overflow: hidden;
+    }
+    #sponsors.sponsors-wall p {
+      margin-bottom: 2%;
+    }
+    /*.sponsors-wall p {
+      float: left;
+    }*/
+    .logos-wall p {
+      display: block;
+      max-width: 31%;
+      margin: 0 2% 5% 0;
+      float: left;
+    }
+    .logos-wall p:nth-of-type(3n+1) {
+      clear: left;
+    }
+    .logos-wall.two-columns p {
+      max-width: 48%;
+      margin: 0 2% 2% 0;
+    }
+    .logos-wall.two-columns p:nth-of-type(3n+1) {
+      clear: none;
+    }
+    .logos-wall.two-columns p:nth-of-type(2n+1) {
+      clear: left;
+    }
+    .logos-wall p a {
+      text-decoration: none;
+      border-bottom: none;
+    }
+    .logos-wall img {
+      max-width: 100%;
+    }
+
+    img, iframe {
+      max-width: 100%;
+    }
+
+    iframe.map {
+      border: 0;
+      width: 100%;
+    }
+
+    body {
+      min-width: 0;
+    }
+
+    footer {
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #past-editions a {
+      display: block;
+      float: left;
+      max-width: 48%;
+      height: 31%;
+      margin-right: 1.4%;
+      margin-bottom: 2em;
+    }
+
+    #past-editions a.full-width {
+      float: none;
+      max-width: 98%;
+    }
+
+    #past-editions a:nth-child(odd) {
+      clear: left;
+    }
+    #past-editions a:last-child {
+      margin-right: 0;
+    }
+
+    .varnaconf-box {
+      margin: 30px 0;
+      border: 1px solid #ddd;
+      border-width: 1px 0 0 0;
+      padding: 2em 0 1em 0;
+    }
+
+    .varnaconf-logo {
+      width: 110px;
+      height: 110px;
+      float: left;
+      margin: 0 2em 1em 0;
+      border-bottom: none;
+    }
+
+    .varnaconf-logo img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .varnaconf-logo:hover img {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+
+    @media (max-width: 960px) {
+      header nav {
+        margin-left: 180px;
+      }
+      .container_12 .grid_12,
+      .container_16 .grid_16 {
+        max-width: 940px;
+        width: auto;
+      }
+      .varna#promo {
+        padding-left: 0;
+        background: none;
+      }
+      .coaches .grid_3 {
+        width: 30%;
+      }
+      .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+        margin-right: 1%;
+      }
+      .container_12 .grid_6,
+      .container_16 .grid_8 {
+        width: 49%;
+      }
+      .container_12 .push_1 {
+        left: 6%;
+      }
+      .container_12 .grid_5 {
+        width: 40%;
+      }
+      .container_12 .grid_4 {
+        width: 30%;
+      }
+      .container_12 .grid_4 p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    @media (max-width: 750px) {
+      header {
+        text-align: center;
+      }
+      header #logo {
+        float: none;
+        display: inline-block;
+      }
+      header nav {
+        margin-left: 0;
+        clear: left;
+      }
+
+      .container_12 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    @media (max-width: 639px) {
+      #promo.new h1 {
+        height: auto;
+        font-size: 40px;
+      }
+
+      .varna#promo {
+        padding-bottom: 0;
+      }
+
+      .feature p {
+        padding: 0;
+        margin: 1em 0;
+      }
+
+      .side h3 {
+        margin-top: 1.5em;
+      }
+
+      .page h1 {
+        line-height: 1.2em;
+      }
+
+      .container_12 .push_1 {
+        left: 0;
+      }
+      .container_16 .grid_8,
+      .container_12 .grid_6,
+      .container_12 .grid_5,
+      .container_12 .grid_4,
+      .container_12 .grid_3 {
+        width: auto;
+        float: none;
+        display: block;
+      }
+
+      .logos-wall p:nth-of-type(3n+1) {
+        clear: none;
+      }
+
+      .logos-wall p:nth-of-type(2n+1) {
+        clear: left;
+      }
+
+      .logos-wall p {
+        max-width: 48%;
+        margin: 0 2% 2% 0;
+      }
+
+      #past-editions a {
+        float: none;
+        width: auto;
+        max-width: 100%;
+      }
+
+      #team .grid_3 {
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 450px) {
+      #team .grid_3 {
+        float: none;
+        width: auto;
+      }
+
+      .logos-wall p,
+      .logos-wall p:nth-of-type(3n+1),
+      .logos-wall.two-columns p,
+      .logos-wall.two-columns p:nth-of-type(3n+1) {
+        float: none;
+        max-width: 98%;
+        clear: none;
+      }
+    }
+  </style>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Events</a>
+        <a href="./materials.html">Materials</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">Guides</a>
+      </nav>
+    </div>
+  </header>
+
+    <!--   How to change the picture & header for site
+    In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+    Steps to show on site
+    1. Go to style.css
+    2. Add these lines, always replacing 'yourcityname' with your actual city name.
+
+            .yourcityname#promo {
+              padding-left:340px;
+              background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                             url('../images/separator.png') no-repeat center bottom;
+            }
+
+            It will take a while before the changes show, so don't panic!
+
+    -->
+
+    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="new varna">
+          <h1>
+            Rails Girls Varna 2.0
+            <small>14 август 2016 г.</small>
+          </h1>
+          <p>Rails Girls за <a href="#past-editions">втори</a> път във Варна!</p>
+          <p>
+            Rails Girls е <strong>безплатен</strong> целодневен уъркшоп, насочен към дами с нулев или минимален опит в програмирането и технологиите.
+          </p>
+          <p>
+            Основната ни цел е да ви покажем, че програмирането е забавно, интересно, вълнуващо и много полезно умение, като ви помогнем да създадете своето първо уеб приложение, в приятна атмосфера и под ръководството на опитни инструктори. Ще ви ориентираме и вие ще решите дали и как да продължите.
+          </p>
+
+          <!-- <p>
+            Събитието приключи. <a href="#thanks"><strong>Благодарим ви!</strong></a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://eepurl.com/POSQ1" class="signup">Извести ме за последващи издания →</a>
+          </p> -->
+
+          <!-- <p><strong>Регистрацията ще отвори скоро.</strong></p> -->
+
+          <!-- <p>
+            <strong>Регистрацията ще отвори тук на обяд в сряда, 20 юли.</strong>
+            Ще е активна до сряда, 3 август, включително. Местата ни са ограничени.
+          </p>
+          <p>
+            <a href="http://eepurl.com/POSQ1" class="signup">Извести ме когато регистрацията отвори →</a>
+          </p> -->
+
+          <p>
+            <a href="http://goo.gl/forms/BToErU02GHLrgcAg1" class="signup">Регистрация →</a>
+          </p>
+          <p>Местата са ограничени, кандидатствайте рано!</p>
+          <p>
+            Регистрацията ще е отворена до сряда, 3 август, 23:59 ч. Местата са ограничени.
+            В срок до вечерта на 6 август ще ви пишем дали кандидатурата ви е одобрена или не
+            и ще ви помолим за потвърждение за участието ви.
+          </p>
+
+          <!-- <p>
+            <strong>Регистрацията приключи.</strong>
+          </p> -->
+
+          <!-- <p>
+            Ще ви пишем дали сте одобрени за участие на имейла, който сте посочили при регистрацията, най-късно до вечерта на 6 август, включително. Ако дотогава не сте получили известие, <a href="mailto:railsgirlssofia@gmail.com">пишете ни</a>.
+          </p> -->
+
+          <!-- <p>Очакваме ви!</p> -->
+
+          <p>
+            Ако желаете да ви изпращаме известия за предстоящи Rails Girls събития,
+            или важни новини около тях, абонирайте се за <a href="http://eepurl.com/POSQ1">новинарския ни бюлетин</a>. Изпращаме няколко писма на година.
+          </p>
+
+          <p>
+            Следете ни в <a href="https://twitter.com/railsgirlssofia">Twitter</a> или <a href="http://www.facebook.com/RailsGirlsSofia">Facebook</a> за новини около събитието.
+            Присъединете се в групата <a href="https://www.facebook.com/groups/RailsGirlsSofia/" target="_blank">Rails Girls Sofia</a>.
+          </p>
+
+          <p>Очакваме всички, присъстващи на събитието, да са се запознали с и да спазват нашия <a href="#code-of-conduct">кодекс на поведение</a>.</p>
+        </div>
+      </div>
+
+      <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
+      <div class="grid_4 alpha feature">
+       <p><strong>Ще ви покажем</strong> основи на дизайна, прототипизирането и програмирането за уеб с помощта на нашите инструктори.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>Имате нужда</strong> единствено от лаптоп, любопитство към нови неща и щипка въображение!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Искате да помогнете?</strong> Екипът ни от доброволци е отворен към всякакви предложения. <a href="mailto:railsgirlssofia@gmail.com">Пишете ни по всяко време</a>.</p>
+      </div>
+
+      <!--  Update the texts! -->
+
+      <div class="grid_12 alpha" style="margin-bottom: 30px;">
+        <h1 id="goals">Цел на уъркшопа</h1>
+        <p><strong>Ще ви връчим чук и ще започнете да виждате пироните около вас.</strong></p>
+
+        <p>Под ръководството на опитните ни и пълни с ентусиазъм за обяснения инструктори, в приветлива и отпускаща атмосфера, ще направим едно семпло уеб приложение, с цел да ви покажем, че:</p>
+        <ul class="regular">
+          <li>Програмирането не е занаят за богоизбрани.</li>
+          <li>Изобщо не е толкова сложно, колкото изглежда на пръв поглед. И е страшно интригуващо!</li>
+          <li>Има много хора, които са готови да обясняват с желание и общността ни е винаги широко отворена.</li>
+          <li>Не сте сами! Има и други като вас – начинаещи, ориентиращи се в света на технологиите дами.</li>
+          <li>Има множество качествени материали за самообучение онлайн. Ще ви помогнем да се ориентирате в многообразието.</li>
+        </ul>
+        <p>Ще се постараем да постигнем и за следните неща:</p>
+        <ul class="regular">
+          <li>Да ви ориентираме накъде е север и юг в програмирането за уеб.</li>
+          <li>Да ви дадем силен начален тласък по темата.</li>
+          <li>Да отприщим енергията ви за създаване на неща, като ви връчим необходимите инструменти и ви покажем как да ги овладеете.</li>
+          <li>Да се забавлявате и да си прекарате приятно.</li>
+          <li>Да ви пристрастим.</li>
+          <li>Да ви покажем как да продължите да се развивате в сферата.</li>
+        </ul>
+
+        <h2>Какво няма да научите?</h2>
+        <p><strong>Няма да се научите да програмирате.</strong></p>
+        <p>За съжаление, това не може да стане за няколко дни. Съществуват, обаче, примери за участници в Rails Girls събития, които са <a href="http://bit.ly/joan-on-rails">постигнали "от нула до програмист за една година"</a>. С други думи, това е напълно възможно и зависи изцяло от мотивацията ви и от готовността да отделяте време след събитието, за да продължите да се занимавате и развивате.</p>
+        <p><strong>Интересувам се специфично от Ruby и Ruby on Rails. За мен ли е това събитие?</strong></p>
+        <p>За кандидатите, които имат повече опит с технологиите, с програмиране и/или следващи технически насочени специалности в университет, които се интересуват специфично от Ruby и Ruby on Rails, този уъркшоп не е подходящ. В случая, избраната технология е просто средството, което инструкторите ще използват, за да обяснят основите на програмирането на участниците.</p>
+        <p>Може би сте по-подходящи за инструктор – <a href="mailto:railsgirlssofia@gmail.com">непременно ни пишете</a> :) Допълнително, по-голямата част от екипа са хора с голям опит в сферата на Ruby, Rails и програмирането за уеб и биха могли да ви ориентират и насочат как да започнете да напредвате с тези технологии.</p>
+      </div>
+
+      <!-- VarnaConf -->
+      <div class="grid_12 alpha varnaconf-box">
+        <a href="http://varnaconf.com/" class="varnaconf-logo">
+          <img src="images/varna/varnaconf.png">
+        </a>
+
+        <p>
+          Първото издание на Rails Girls Varna се случва съвместно с организацията на <a href="http://varnaconf.com/">VarnaConf 2016</a>.
+        </p>
+
+        <p>
+          VarnaConf е техническа конференция с безплатен вход, част от IT Турнето - пътуващи из България конференции, инициирани от група ентусиасти. VarnaConf 2016 е четвърто поредно издание и се организира съвместно с VarnaLab и с подкрепата на Chaos Group.
+        </p>
+      </div>
+
+      <!-- Thank you & group photo -->
+      <!-- <div class="grid_12 alpha" style="margin-bottom: 30px;">
+        <h1 id="thanks">Благодаря!</h1>
+
+        <p>От името на целия екип, благодарим на всички участници в Rails Girls Varna 2.0!</p>
+
+        <img src="images/varna/rails-girls-varna-2.0-august-2016-group-photo.jpg" alt="Rails Girls Varna 2.0 August 2016 Group Photo" style="max-width: 100%;" />
+      </div> -->
+
+      <hr />
+
+      <div class="schedule-and-sponsors">
+
+        <div class="grid_6 alpha" id="schedule">
+          <h1>Програма</h1>
+
+          <!-- <p><strong><em>Предстоят промени в програмата, но началният час и продължителността ще се запазят.</em></strong></p> -->
+
+          <!-- <h2>Събота, 13 август 2016 г.</h2>
+          <table>
+            <tbody>
+              <tr>
+                <th>18:30 -</th>
+                <td>
+                  <h4>Pre-party</h4>
+                  Отворено за всички и заедно с партито на <a href="http://varnaconf.com/">VarnaConf 2016</a>. Елате и кажете "Здрасти!" на купчина готини хора, вълнуващи се от всичко технологично.<br>
+                  Място: <strong>
+                    <a href="https://www.facebook.com/pages/AQUARIUM-Snack-bar/894762580582330">
+                    Снек-бар Аквариум </a><a href="https://www.google.bg/maps/dir/43.2013613,27.9227107//@43.2012968,27.9223191,19z"> (карта)</a>
+                  </strong><br>
+                </td>
+              </tr>
+            </tbody>
+          </table> -->
+
+          <h2>Неделя, 14 август 2016 г.</h2>
+          <table>
+            <tbody>
+              <tr>
+                <th>9:30 - 10:00</th>
+                <td>
+                  <h4>Регистрация и кафе</h4>
+                  <p>Време е за събуждане и зареждане с енергия. Чака ни дълъг и вълнуващ ден.</p>
+                  <p>Нямате нужда от специални идентификационни знаци, освен името си. <strong>Носете си лаптоп</strong> и не закъснявайте :)</p>
+                </td>
+              </tr>
+
+              <tr>
+                <th>10:00 - 10:10</th>
+                <td>
+                  <h4>Добре дошли!</h4>
+                  Няколко думи за събитието, приветствия от нашите домакини и спонсори, процедурни разяснения.
+                  <p>
+                    (<a href="https://www.youtube.com/watch?v=ER5cyfauc8Y&amp;index=1&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP" target="_blank">видеозапис от предишното издание</a>)
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <th>10:10 - 11:00</th>
+                <td>
+                  <h4>Блиц-увод в програмирането и уеб приложенията</h4>
+                  Основни термини и концепции. Ориентация.
+                  <p>
+                    (<a href="https://www.youtube.com/watch?v=ER5cyfauc8Y&amp;index=1&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP&amp;t=17m" target="_blank">видеозапис от предишното издание</a>)
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <th>11:00 - 13:00</th>
+                <td>
+                  <h4>Уъркшоп</h4>
+                  Започнете вашия първи уеб сайт с лъвски скок!
+                </td>
+              </tr>
+
+              <tr>
+                <th>13:00 - 13:30</th>
+                <td><h4>Обяд</h4></td>
+              </tr>
+
+              <tr>
+                <th>13:30- 13:50</th>
+                <td>
+                  <h4>Lightning talks от инструкторите</h4>
+                  <p>Няколко кратки, 5-минутни презентации за връщане на темата.</p>
+                  <em>Предстои да бъдат обявени</em>
+                  <!-- <ol>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=VKnGUPeehfU&amp;index=2&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP" target="_blank">
+                        Увод към презентациите <em>Димитър Димитров</em>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=krvbLq_bmII&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP&amp;index=3" target="_blank">
+                        За грамотността, умението и майсторството <em>Марта Радева</em>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=d2YAi_Y24WU&amp;index=4&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP" target="_blank">
+                        Още една "мъжка" професия <em>Иван Ангелов</em>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=q3ouaWDSW9I&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP&amp;index=5" target="_blank">
+                        За възрастта и програмирането <em>Димитър Данаилов</em>
+                      </a>
+                    </li>
+                  </ol> -->
+                </td>
+              </tr>
+
+              <tr>
+                <th>13:50 - 16:00</th>
+                <td>
+                  <h4>Уъркшоп</h4>
+                  Развийте вашето уеб приложение.
+                </td>
+              </tr>
+
+              <tr>
+                <th>16:00 - 16:10</th>
+                <td>
+                  <h4>Закриване</h4>
+                  Заключителни слова, как да продължим, благодарности.
+                  <p>
+                    (<a href="https://www.youtube.com/watch?v=uJ_M5MP3qG0&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP&amp;index=7" target="_blank">видеозапис</a>)
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <th>16:10 - 16:15</th>
+                <td>
+                  <h4>Групова снимка</h4>
+                  По традиция, снимка на всички за спомен.
+                  <p>
+                    (<a href="https://www.youtube.com/watch?v=EzRMlOcpM_k&amp;index=8&amp;list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP" target="_blank">видеозапис</a>)
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <h2 id="materials">Материали от събитието</h2>
+
+          <p><em>Материалите от Rails Girls Varna 2.0 предстои да бъдат публикувани. Междувременно, може да прегледате тези от предишното издание:</em></p>
+
+          <ul>
+            <li>
+              <a href="https://speakerdeck.com/mitio/rails-girls-varna-1-dot-0-august-2015">
+                <strong>Презентация от Rails Girls Varna 1.0 →</strong>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLM5_2F3n2H5fJFhUuwE2WE1vrOmrzIfFP">
+                <strong>Видеозаписи от Rails Girls Varna 1.0 (плейлист) →</strong>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="grid_5 push_1 omega side">
+          <h3 id="venue">Място</h3>
+          <p>
+            <strong>х-л "Черно море"</strong>  (<a href="http://www.chernomorebg.com/" rel="nofollow" target="_blank">сайт ↗</a>)<br>
+            бул. "Сливница" 33, Варна<br>
+            Конферентна зала 1 (на втория етаж, по стълбите вдясно)<br>
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.2189261965996!2d27.919643399999998!3d43.2048955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a453f620e313b5%3A0x5af5c7627ee1f02!2sbul.+%22Slivnitsa%22+33%2C+9000+Varna%2C+Bulgaria!5e1!3m2!1sen!2sus!4v1438727087877" width="380" height="250" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+
+          <!-- <h3 id="afterparty">Pre-party</h3>
+          <p>
+            Начало: 18:30 ч., събота, 15 август<br>
+            Място: <strong><a href="https://www.facebook.com/pages/AQUARIUM-Snack-bar/894762580582330">
+                    Снек-бар Аквариум </a><a href="https://www.google.bg/maps/dir/43.2013613,27.9227107//@43.2012968,27.9223191,19z"> (карта)</a></strong><br>
+          </p> -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932.5755572387316!2d23.3314212!3d42.6915324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85748b204ec1%3A0xd47ec74c623aadc!2sul.+%22Slavyanska%22+36%2C+1000+Sofia%2C+Bulgaria!5e0!3m2!1sen!2s!4v1425570803553" width="380" height="250" frameborder="0" class="map"></iframe> -->
+
+          <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+          <h3 id="organizers">Организатори</h3>
+
+          <p>
+            Rails Girls Varna е събитие с некомерсиална, идеална цел и се организира на доброволен принцип, с подкрепата на екипа на <a href="http://digitalalliance.bg/bg/index/home">Дигиталната национална коалиция (ДНК)</a>, екипа на <a href="http://it-tour.bg/">IT-турнето</a> и местна подкрепа.
+          </p>
+
+          <p>Бихте помогнали? Търсим спонсори и партньори за това некомерсиално събитие. <a href="mailto:railsgirlssofia@gmail.com">Пишете ни</a>!</p>
+
+          <!-- <h3 id="major-sponsors" class="sponsor-type">Дългосрочни партньори</h3> -->
+
+          <!-- <p>
+            <a href="http://www.telelink.com/bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/telelink-logo.png" alt="Лого на Телелинк ЕАД" title="Телелинк ЕАД"><br>
+              Телелинк е водеща компания за системна интеграция в Югоизточна Европа с доказан опит, професионални умения и задълбочени познания в областта на безжичните мрежи, системната интеграция и интелигентните сгради.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://superhosting.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/superhosting-logo-304px.png" alt="Лого на Суперхостинг" title="Суперхостинг — Хостинг компания от ново поколение!"><br>
+              Суперхостинг — Ние сме ново поколение хостинг компания!
+            </a>
+          </p> -->
+
+          <!-- <h3 id="bank" class="sponsor-type">Официална банка на събитието</h3>
+          <p>
+            <a href="http://www.unicreditbulbank.bg/" target="_blank" class="sponsor">
+              <img src="images/varna/unicredit-bulbank-logo.png" alt="Лого на УниКредит Булбанк" title="УниКредит Булбанк"><br>
+              Инвестираме в иновации и в амбициозни таланти, които правят банкирането по-лесно, по-бързо и по-удобно, 24/7, където поискате.  Най-добра дигитална банка за потребителите 2015 от Global Finance magazine.
+            </a>
+          </p> -->
+        </div>
+
+        <div id="sponsors" class="sponsors-wall logos-wall two-columns">
+          <h3 id="regular-sponsors">Спонсори</h3>
+
+          <!-- <p><em>Предсти да бъдат обявени.</em></p> -->
+
+          <p>
+            <a href="http://www.vmware.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/vmware-logo.png" alt="Лого на WMware" title="VMware"><br>
+              VMware е глобален лидер в сферата на облачните инфраструктури и технологиите за бизнес мобилност. Решенията на компанията, базирани на водещата виртуализационна платформа, осигуряват прехода към нов ИТ модел, отличаващ се с гъвкав подход, достъпност и високо ниво на сигурност. Възможностите за по-бърза разработка, доставка и защитено потребление на приложения позволява на клиентите да ускорят значително темпа на иновации. VMware има годишен приход от 6 млрд. долара за 2014 г., повече от 500 000 клиенти и 75 000 бизнес партньори. Компанията е базирана в Силициевата долина и разполага с офиси в целия свят.
+            </a>
+          </p>
+
+          <!-- <p>
+            <a href="http://www.mtel.bg/" target="_blank" class="sponsor">
+              <img src="images/varna/mtel-logo.png" alt="Лого на Мтел" title="Мтел"><br>
+              Мтел, част от Telekom Austria Group, е водеща компания на пазара на телекомуникации в България с 20-годишна история. Телекомът предоставя фиксирани и мобилни гласови услуги, интернет и телевизия през оптична и сателитна свързаност на над четири милиона клиенти. Мтел има важна роля като двигател на икономиката и обществото в България с инвестиции от над 3,5 милиарда лева от основаването на компанията досега. Компанията води последователна политика за корпоративна социална отговорност, нарежда се сред най-големите дарители в страната и подкрепя редица социални каузи с обществено значение, както и проекти в областта на културата и спорта.
+            </a>
+          </p> -->
+
+          <p>
+            <a href="https://www.progress.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/progress-logo.png" alt="Лого на Progress" title="Progress"><br>
+              Progress (NASDAQ: PRGS) е глобален лидер в разработката на приложения, които са двигателят зад дигиталната трансформация, от която компаниите се нуждаят, за да създават и поддържат ангажиращо потребителско преживяване, отговарящо на динамично развиващите се пазари днес. Със своите уеб и мобилни решения и решения за данни за локални (on-premises) и базирани в „облака“ среди, Progress помага на стартиращи организации и водещи компании от целия свят да трансформират своя бизнес. В България компанията стъпи през декември 2014 г., след като придоби водещата българска софтуерна компания Telerik. Progress продължава да развива и разширява изключително успешната безплатна образователна инициатива  „Академия на Телерик“, предлагаща обучения по софтуерно инженерство, дигитални технологии и отскоро по дигитален маркетинг.
+            </a>
+          </p>
+
+          <!-- <p>
+            <a href="http://mcdonalds.bg/kontakt/" target="_blank" class="sponsor">
+              <img src="images/varna/sunfoods-bulgaria-logo.png" alt="Лого на Сънфуудс България" title="Сънфуудс България"><br>
+                Първият ресторант на Макдоналдс в България е открит в Пловдив през 1994 г. За 20 години развитие в България, Макдоналдс се утвърди като една от най-предпочитаните, модерни и любими марки на българския пазар.
+
+                Макдоналдс в България осигурява работа и възможност за развитие на над 1200 млади българи в градовете София, Пловдив, Пазарджик, Варна, Бургас, Велико Търново и Стара Загора, които обслужват повече от 6,5 милиона клиента годишно.
+
+                Макдоналдс е водещата глобална верига за бързо обслужване с над 35 000 ресторанта в повече от 100 страни по светa.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://www.virtech-bg.com/" target="_blank" class="sponsor">
+              <img src="images/varna/virtech-logo.png" alt="Лого на VirTech" title="VirTech"><br>
+              Virtech е високо-технологична компания, спецализираща в сферата на ICT технологиите. Участвала е в повече от 30 индурстриални и R&amp;D проекта, включващи повече от 15 европейски такива. Компанията има богат технологичен и дигитален опит (различни видове приложения, устройства, формати за телефони и таблети, иновативни интернет услуги, системи и т.н.), набор от програмни езици, платформи за разработка и административни оперативни системи.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="https://www.siteground.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/siteground-logo-black-on-white.png" alt="SiteGround - Logo"><br>
+              Web Hosting Crafted With Care
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://www.microsoft.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/microsoft-logo-304px.png" alt="Лого на Microsoft" title="Microsoft България">
+              Майкрософт е световен лидер в развитието на софтуер, услуги и решения, които помагат на хората и на бизнеса за пълна реализация на техните възможности. Това, което постоянно ни мотивира и вдъхновява е начинът, по който клиентите ни използват нашия софтуер, за да откриват креативни решения на проблемите в работата си, да разработват откривателски идеи или просто да поддържат постоянна връзка с това, което е наистина важно за тях.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://www.vivacom.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/vivacom-logo.png" alt="Vivacom - Logo"><br>
+              VIVACOM е лидер в предоставянето на съвременни телекомуникационни услуги, които отговарят на най-високите професионални стандарти.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://www.betahaus.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/betahaus-sofia-logo.jpg" alt="betahaus | Sofia - Logo"><br>
+              betahaus е споделено работно пространство, където се помещават вдъхновяващи професионалисти, утрешните големи компании и вълнуващи събития.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://pepsi.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/pepsi-logo-304px.png" alt="Лого на Pepsi" title="Pepsi"><br>
+            </a>
+          </p> -->
+
+
+          <!-- <h3 id="community-sponsors" class="sponsor-type">Community спонсори</h3> -->
+
+          <!-- <p>TBA</p> -->
+
+          <!-- <p>
+            <a href="http://questers.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/questers-logo-304px.png" alt="Questers - Logo"><br>
+              Questers e технологичен парк, предоставящ пълен спектър от услуги на международни софтуерни и технологични компании, помагайки им да изградят и мeнажират високоефективни екипи, чрез осигуряването на подходяща среда и методология за работа, квалификация и кариерно развитие на IT професионалисти и консултанти в Източна Европа. Част от стратегията на компанията е подкрепата образователни проекти и инициативи, спомагащи развитието на индустрията.
+            </a>
+          </p> -->
+
+          <!-- <p>
+            <a href="http://taxime.to/" target="_blank" class="sponsor">
+              <img src="images/sofia/taxime-logo.png" alt="TaxiMe - Logo" width="40%"><br>
+              TaxiMe е мобилно приложение за iOS и Android, с което поръчваш такси с подбран шофьор на стандартни тарифи. Поръчваш лесно и бързо, без досадни разговори с диспечери. Пътуваш сигурно и комфортно, благодарение на интелигентен софтуер, който ти изпраща шофьора с най-висок рейтинг наблизо.
+            </a>
+          </p> -->
+
+        </div>
+
+        <div class="clear"></div>
+      </div>
+
+
+      <div id="partners" class="logos-wall">
+        <h3>Партньори</h3>
+
+        <p>
+          <a href="http://www.digitalchampion.bg" target="_blank">
+            <img src="images/sofia/digital-champion-bulgaria-logo.png" alt="Лого на дигиталния шампион за България" title="Digital Champion Bulgaria">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://digitalalliance.bg/bg/index/home" target="_blank">
+            <img src="images/sofia/digital-alliance-bulgaria-dnk-logo-2016.png" alt="Лого на Дигитална национална коалиция (ДНК)" title="Дигитална национална коалиция (ДНК)">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://www.paneuropa.bg/" target="_blank">
+            <img src="images/sofia/paneuropa-bulgaria-logo.png" alt="Лого на Paneuropean Union" title="Paneuropean Union">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://www.atlantic-club.org/index.php?bg" target="_blank">
+            <img src="images/sofia/atlantic-club-bulgaria-logo.png" alt="Лого на Атлантически клуб в България" style="background-color: #2b6eff" title="Атлантически клуб в България">
+          </a>
+        </p>
+
+        <p>
+          <img src="images/sofia/grand-coallition-for-digital-jobs-logo.png" alt="Лого на Grand Coallition For Digital Jobs" title="Grand Coallition For Digital Jobs">
+        </p>
+
+        <p>
+          <img src="images/sofia/us-alumni-logo.png" alt="Лого на Американо-Българска Алумни Асоциация" title="Американо-Българска Алумни Асоциация">
+        </p>
+
+        <!-- <p>
+          <a href="http://www.bgwomeninict.org/" target="_blank">
+            <img src="images/sofia/bcwt-logo.png" style="background-color: #2f2f2f; padding: 10px; max-width: 75%; border-radius: 4px;" alt="Лого на Български център на жените в технологиите" title="Български център на жените в технологиите">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="https://github.com/" target="_blank">
+            <img src="images/github-logo.png" alt="Лого на GitHub - Social Coding" title="GitHub - Social Coding">
+          </a>
+        </p> -->
+
+        <!-- <p>
+          <a href="http://bulgaria.usembassy.gov/" target="_blank">
+            <img src="images/sofia/us-embassy-logo.png" alt="Лого на Американско посолство в България" title="Американско посолство в България">
+          </a>
+        </p> -->
+      </div>
+
+      <div class="clear"></div>
+      <hr/>
+
+      <div class="grid_12 alpha" id="past-editions">
+        <h1>Минали издания</h1>
+
+        <p>Rails Girls Varna ще е осмо поредно издание на Rails Girls събитията в България и второ поред във Варна. Може да научите повече за предишните на страниците им.</p>
+
+        <a href="varna-2015-august" class="full-width">
+          <h4>Rails Girls Varna 1.0, август 2015</h4>
+          <img src="images/varna/rails-girls-varna-1.0-august-2015-group-photo.jpg" alt="Rails Girls Varna 1.0 August 2015 Group Photo" />
+        </a>
+
+        <hr/>
+
+        <a href="sofia2016-march">
+          <h4>Rails Girls Sofia 6.0, март 2016</h4>
+          <img src="images/sofia/rails-girls-sofia-6.0-march-2016-friday-hug.jpg" alt="Rails Girls Sofia 6.0 March 2016 Friday Hug" />
+        </a>
+        <a href="sofia2015-october">
+          <h4>Rails Girls Sofia 5.0, октомври 2015</h4>
+          <img src="images/sofia/rails-girls-sofia-5.0-october-2015-friday-hug.jpg" alt="Rails Girls Sofia 5.0 October 2015 Friday Hug" />
+        </a>
+        <a href="sofia2015-march">
+          <h4>Rails Girls Sofia 4.0, март 2015</h4>
+          <img src="images/sofia/rails-girls-sofia-4.0-march-2015-friday-hug.jpg" alt="Rails Girls Sofia 4.0 March 2015 Friday Hug" />
+        </a>
+        <a href="sofia2014-october.html">
+          <h4>Rails Girls Sofia 3.0, октомври 2014</h4>
+          <img src="images/rails-girls-sofia-3.0-group-photo.jpg" alt="Rails Girls Sofia October 2014 Group Photo" />
+        </a>
+        <a href="sofia2014.html">
+          <h4>Rails Girls Sofia 2.0, март 2014</h4>
+          <img src="images/rails-girls-sofia-2014-friday-hug.jpg" alt="Rails Girls Sofia March 2014 Friday Hug" />
+        </a>
+        <a href="sofia2013.html">
+          <h4>Rails Girls Sofia 1.0, юни 2013</h4>
+          <img src="images/rails-girls-sofia-2013-friday-hug-cropped.jpg" alt="Rails Girls Sofia 2013 Friday Hug" />
+        </a>
+      </div>
+
+      <div class="faq clear" id="faq">
+
+        <h2>Често задавани въпроси</h2>
+
+        <div class="column">
+          <p>
+            <strong>Колко струва участието?</strong>
+            Безплатно е! Достатъчни са единствено вашето вдъхновение, мотивация и ентусиазъм!
+          </p>
+          <p>
+           <strong>За кого е това събитие?</strong>
+           За жени и момичета на произволна възраст, имащи единствено основни познания за работа с компютър, но с интерес в технологиите и желание да учат нови неща. В други издания на това събитие по света са участвали дами на всякаква възраст. Събитието ще е на български, но спецификата на проблемната област изисква да може да се оправяте прилично с четене и разбиране на английски текстове. Носете си лаптоп.
+          </p>
+          <p>
+            <strong>Допускат ли се мъже?</strong>
+            Интересът към Rails Girls събитията обикновено е много голям, а местата са ограничени и дамите са с предимство. Ако има места и сте момче, може да ви допуснем, но трябва да водите и любопитна дама с вас :)
+          </p>
+          <p>
+            <strong>Как ще протече събитието?</strong>
+            Важна част са уъркшоп сесиите. Те ще представляват работа на малки групички от по няколко участника и един инструктор, с цел максимално индивидуализиран подход спрямо участниците. Освен тези сесии, програмата на събитието е разнообразна и включва забавни и разтоварващи занимания. Най-важното е, че ще бъде весело!
+          </p>
+          <p>
+            <strong>Какви технологии ще се използват?</strong>
+            За изработката на уеб приложението ще се използва популярната и мощна библиотека с отворен код <a href="http://rubyonrails.org/">Ruby on Rails</a>. Ще се занимаваме с HTML, CSS, Command prompt/Terminal и езика за програмиране Ruby.
+          </p>
+          <p>
+            <strong>Аз мога да програмирам - как да помогна?</strong>
+            Винаги търсим инструктори и спонсори. Ако имате опит в уеб програмирането, дори да не е с Ruby on Rails и желание да обяснявате на начинаещи, <a href="mailto:railsgirlssofia@gmail.com">пишете ни</a>. Може също така да погледнете <a href="http://guides.railsgirls.com/coach">ръководството за инструктори</a>.
+          </p>
+        </div>
+
+        <div class="column">
+          <p>
+            <strong>Как ще бъдат одобрявани регистрациите?</strong>
+            Поради очаквания голям интерес и ограничените места, се налага да приложим процес по селекция над кандидатурите за участие. Тя ще се извърши от организационния екип. На първо място, ще одобряваме или отхвърляме кандидати на база на отговорите им във формата за регистрация. Допълнителни указания ще дадем в самата регистрационна форма. На второ място, ще имат предимство тези от вас, подали одобрена заявка за регистрация първи.
+          </p>
+          <p>
+            <strong>Ще има ли видео записи за хората, които не могат да се включат на място?</strong>
+            Няма да има излъчване на живо или видеозаписи на цялото събитие, тъй като в основата на събитието са уъркшоп сесиите, които ще се провеждат в групички от по няколко участника и един инструктор. Презентационните сесии са сведени до минимум, като ще се стремим към по-неформална и приветлива атмосфера. Целта е максимално индивидуализиран подход. За съжаление няма как да излъчваме 15 паралелни видеопотока, като същевременно точно заради индивидуализирания подход няма гаранция, че дадено видео ще е полезно на някого.
+            <br><br>
+            Основна идея на събитието е да се присъства, да се участва и да се зарази човек с духа му — "get excited and make things".
+          </p>
+          <p>
+            <strong>Имате други въпроси?</strong>
+            Не се колебайте да ни питате във <a href="http://www.facebook.com/RailsGirlsSofia">Facebook</a>, <a href="https://twitter.com/railsgirlssofia">Twitter</a> или директно на <a href="mailto:railsgirlssofia@gmail.com">имейла на организаторите</a>.
+          </p>
+        </div>
+      </div>
+
+      <!--  Update the team list -->
+
+      <div class="coaches" id="team">
+        <hr />
+        <h2>Екип на Rails Girls Varna 2.0 August 2016</h2>
+
+        <p><em>Предстоят промени в екипа.</em></p>
+
+        <!--
+          Options for avatars:
+          1. Facebook
+            obtain the user ID for a username:
+            - https://facebook.com/username and look for "uid"
+            - http://graph.facebook.com/username if it works
+            and then compose a URL loke this one
+            http://graph.facebook.com/user_id/picture?type=square&amp;width=100&amp;height=100
+          2. Gravatar
+            http://gravatar.com/avatar/xxx?s=100
+            where xxx is the md5 of the user's email
+          3. Default image
+            images/rubie-100.png
+        -->
+
+        <a href="https://twitter.com/gerganapassy" class="grid_3">
+          <img src="http://graph.facebook.com/100000846584201/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Гергана Паси
+          <em>организатор</em>
+          <small>@gerganapassy</small>
+        </a>
+
+        <a href="https://www.facebook.com/adriana.georgieva" class="grid_3">
+          <img src="http://graph.facebook.com/1269927796/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Адриана Панайотова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://twitter.com/mitio" class="grid_3">
+          <img src="http://gravatar.com/avatar/9d3a04d8252ce89d5edbb0268af7ad8e?s=100" alt="Аватар">
+          Димитър Димитров
+          <em>организатор</em>
+          <small>@mitio</small>
+        </a>
+
+        <a href="https://www.facebook.com/dimitar.smilyanov" class="grid_3">
+          <img src="http://gravatar.com/avatar/79057a0a5ca51933d22930997ec3bf61?s=100" alt="Аватар">
+          Димитър Смилянов
+          <em>инструктор, организатор</em>
+          <small>@ShadowmarN</small>
+        </a>
+
+        <!-- <a href="https://www.facebook.com/elena.nikolova.526" class="grid_3">
+          <img src="http://graph.facebook.com/1018326022/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Елена Николова
+          <em>организатор</em>
+        </a> -->
+
+        <a href="https://www.facebook.com/cactusmactus.okay" class="grid_3">
+          <img src="http://graph.facebook.com/1529976945/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Колева
+          <em>организатор</em>
+          <small>@MaartinaK</small>
+        </a>
+
+        <a href="https://www.facebook.com/martaradeva" class="grid_3">
+          <img src="http://graph.facebook.com/625194590/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Радева
+          <em>организатор, инструктор</em>
+        </a>
+
+        <a href="https://www.facebook.com/sab.hristova" class="grid_3">
+          <img src="http://graph.facebook.com/624764537/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Сабина Христова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://vasil.ludost.net/" class="grid_3">
+          <img src="http://gravatar.com/avatar/3068da32382a367ee85d4f362f28754e?s=100" alt="Аватар">
+          Васил Колев
+          <em>магьосник</em>
+          <small>@krokodilerian</small>
+        </a>
+
+        <!-- <a href="https://twitter.com/akseniyap" class="grid_3">
+          <img src="http://gravatar.com/avatar/d0928ebc4e6dcd5de99fbf2e759a4602?s=100" alt="Аватар">
+          Аксения Пенкова
+          <em>инструктор</em>
+          <small>@akseniyap</small>
+        </a> -->
+
+        <!-- <a href="http://stackoverflow.com/users/599686/bliof" class="coach grid_3">
+          <img src="http://gravatar.com/avatar/6e2b017e2266ab3c15e0439a1ca10946?s=80" alt="Аватар">
+          Александър Иванов
+          <em>инструктор</em>
+          <small>@bliof</small>
+        </a> -->
+
+        <!-- <a href="https://github.com/AlexVPopov" class="coach grid_3">
+          <img src="http://gravatar.com/avatar/058744c91d324bf29bb5423b5ce7bdde?s=80" alt="Аватар">
+          Александър Попов
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/andrewradev" class="grid_3">
+          <img src="http://gravatar.com/avatar/fc59401781a26b10f5d4fc5b758fb3b7?s=100" alt="Аватар">
+          Андрей Радев
+          <em>инструктор</em>
+          <small>@andrewradev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/bppetrov" class="grid_3">
+          <img src="http://gravatar.com/avatar/62937e4bfb5442d82e414534fbf27fa7?s=100" alt="Аватар">
+          Борис Петров
+          <em>инструктор</em>
+          <small>@bppetrov</small>
+        </a> -->
+
+        <a href="https://www.facebook.com/borislav.traikov1" class="grid_3">
+          <img src="http://gravatar.com/avatar/563df41d769de65fd93fef86ca1d9c6b?s=100" alt="Аватар">
+          Борислав Трайков
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://www.facebook.com/branimira" class="grid_3">
+          <img src="https://graph.facebook.com/623599003/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Бранимира Тодорова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/bostko" class="grid_3">
+          <img src="https://graph.facebook.com/1714376324/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Валентин Ейткен
+          <em>инструктор</em>
+        </a> -->
+
+        <a href="https://www.facebook.com/joskov" class="grid_3">
+          <img src="http://gravatar.com/avatar/e3e2dccdf901a87a3d4a80bd781999ef?s=100" alt="Аватар">
+          Васил Йосков
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://www.facebook.com/vasil.manolov.90" class="grid_3">
+          <img src="https://graph.facebook.com/1552710547/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Васил Манолов
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/vsakarov" class="grid_3">
+          <img src="https://graph.facebook.com/588640387/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Васил Сакъров
+          <em>инструктор</em>
+          <small>@vsakarov</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/ventzy.velkov" class="grid_3">
+          <img src="http://gravatar.com/avatar/ce82cd94071b7b99854e09cf67a393c0?s=100" alt="Аватар">
+          Венцислав Велков
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/v_aleksiev" class="grid_3">
+          <img src="http://gravatar.com/avatar/a5d7e3f09a25de65227b8846342ea0b2?s=100" alt="Аватар">
+          Владимир Алексиев
+          <em>инструктор</em>
+          <small>@v_aleksiev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/sial_ari" class="grid_3">
+          <img src="http://gravatar.com/avatar/26b9624036ca1f5794d551a979da1f0e?s=100" alt="Аватар">
+          Владимир Тодоров
+          <em>инструктор</em>
+          <small>@sial_ari</small>
+        </a> -->
+
+        <a href="https://www.facebook.com/gabby.luhova" class="grid_3">
+          <img src="https://graph.facebook.com/1443492988/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Габриела Лухова
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://twitter.com/gsamokovarov" class="grid_3">
+          <img src="http://gravatar.com/avatar/1ac5a00efa41cd58c421d3cd98dda7b9?s=100" alt="Аватар">
+          Генади Самоковаров
+          <em>инструктор</em>
+          <small>@gsamokovarov</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/stormbreakerbg" class="grid_3">
+          <img src="http://gravatar.com/avatar/18d98db711546c2e761c9f760bd16779?s=100" alt="Аватар">
+          Георги Ангелов
+          <em>инструктор</em>
+          <small>@stormbreakerbg</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/deni_bel" class="grid_3">
+          <img src="images/rubie-100.png" alt="Аватар">
+          Деница Белогушева
+          <em>инструктор</em>
+          <small>@deni_bel</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/dshalvardjiev" class="grid_3">
+          <img src="http://gravatar.com/avatar/5f4c597a5e82b68552292c7d77748ac0?s=100" alt="Аватар">
+          Димитър Шалварджиев
+          <em>инструктор</em>
+        </a> -->
+
+        <a href="" class="grid_3">
+          <img src="images/rubie-100.png" alt="Аватар">
+          Добромир Иванов
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://www.facebook.com/ek.goranova" class="grid_3">
+          <img src="http://gravatar.com/avatar/93306f737bb108cc84ac12b0f5897b9e?s=100" alt="Аватар">
+          Екатерина Горанова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://plus.google.com/u/0/104361993674663591171/posts" class="grid_3">
+          <img src="http://gravatar.com/avatar/5e3fda595e39570f120c358275ddb40d?s=100" alt="Аватар">
+          Емануела Моллова
+          <em>инструктор</em>
+        </a> -->
+
+        <a href="https://www.facebook.com/gelev.emil" class="grid_3">
+          <img src="http://gravatar.com/avatar/31fa799ac5b2dfe3c5f9efb017751d2b?s=100" alt="Аватар">
+          Емил Гелев
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://www.facebook.com/profile.php?id=100002828012654" class="grid_3">
+          <img src="http://gravatar.com/avatar/501d77b45add7c0ba18bff610afc210f?d=identicon" alt="Аватар">
+          Емил Станчев
+          <em>инструктор</em>
+        </a> -->
+
+        <a href="" class="grid_3">
+          <img src="images/rubie-100.png" alt="Аватар">
+          Зорница Славова
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://twitter.com/ivangeloff" class="grid_3">
+          <img src="http://gravatar.com/avatar/981aedc406b82b5e5acab9afacf8c28b?s=100" alt="Аватар">
+          Иван Ангелов
+          <em>инструктор</em>
+          <small>@ivangeloff</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/fake_heal" class="grid_3">
+          <img src="http://graph.facebook.com/1234821768/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Иванка Тодорова
+          <em>инструктор</em>
+          <small>@fake_heal</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/karadimov" class="grid_3">
+          <img src="http://gravatar.com/avatar/05d76051cf29faaf40f7982cf3f23275?s=100" alt="Аватар">
+          Йоан Карадимов
+          <em>инструктор</em>
+          <small>@karadimov</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/Markoffy" class="grid_3">
+          <img src="http://gravatar.com/avatar/1141cc2242db75c0df0cd77b1b5dc239?s=100" alt="Аватар">
+          Йоан Марков
+          <em>инструктор</em>
+          <small>@Markoffy</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/pau4o" class="grid_3">
+          <img src="http://gravatar.com/avatar/6e634a2ec9a569f1a2b8102434c9c513?s=100" alt="Аватар">
+          Камен Найденов
+          <em>инструктор</em>
+          <small>pau4o</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/tastybyte" class="grid_3">
+          <img src="http://www.gravatar.com/avatar/a60aa51c1eaff544592b964641de1ca9?s=100" alt="Аватар">
+          Красимира Малджанска
+          <em>инструктор</em>
+          <small>tastybyte</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/skirmisherr" class="grid_3">
+          <img src="http://gravatar.com/avatar/4d23abcedc3b4dc773caac56d54401fc" alt="Аватар">
+          Любомир Тошев
+          <em>инструктор</em>
+        </a> -->
+
+        <a href="http://hydra.azilian.net/blog/" class="grid_3">
+          <img src="http://graph.facebook.com/695157945/picture?type=square" alt="Аватар">
+          Мариян Маринов
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="https://twitter.com/mario_daskalov" class="grid_3">
+          <img src="http://gravatar.com/avatar/4314026cf587ea9b3947ed1b0437857d?s=100" alt="Аватар">
+          Марио Даскалов
+          <em>инструктор</em>
+          <small>@mario_daskalov</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/martin.mihaylov.180" class="grid_3">
+          <img src="http://gravatar.com/avatar/d30ba58df61b07efb95c8c0516d38947?s=80" alt="Аватар">
+          Мартин Михайлов
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/martin.popov.martin" class="grid_3">
+          <img src="https://graph.facebook.com/1464651401/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартин Попов
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/profile.php?id=100005446364648" class="grid_3">
+          <img src="http://gravatar.com/avatar/878a0939def049de98b2f39e1c3973de?s=100" alt="Аватар">
+          Мартин Райков
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/martaradeva" class="grid_3">
+          <img src="https://graph.facebook.com/625194590/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Радева
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/milena.drenska" class="grid_3">
+          <img src="https://graph.facebook.com/817388941/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Милена Дренска
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://github.com/mirosr" class="grid_3">
+          <img src="http://gravatar.com/avatar/14ab50ff328dbe1798a259edc4750e64?s=100" alt="Аватар">
+          Мирослав Рачев
+          <em>инструктор</em>
+        </a> -->
+
+        <a href="https://mihailvelikov.eu/" class="grid_3">
+          <img src="http://gravatar.com/avatar/0c9322624b5e732e339a8ca99eb8ff8e?s=100" alt="Аватар">
+          Михаил Великов
+          <em>инструктор</em>
+        </a>
+
+        <!-- <a href="http://plus.google.com/116834019247226666431" class="grid_3">
+          <img src="http://gravatar.com/avatar/3810ded3471e4b75c3eab054abd09ee0?s=100" alt="Аватар">
+          Моника Димитрова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/NikolaKirev" class="grid_3">
+          <img src="http://gravatar.com/avatar/a43745f7d97aa05c320cfb001ae57064?s=100" alt="Аватар">
+          Никола Кирев
+          <em>инструктор</em>
+          <small>@NikolaKirev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/_nyxz" class="grid_3">
+          <img src="http://gravatar.com/avatar/de3fe23e6f6dc7d6092b6b777a60c676?s=80" alt="Аватар">
+          Николай Георгиев
+          <em>инструктор</em>
+          <small>@_nyxz</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/n1ghtwatch" class="grid_3">
+          <img src="http://gravatar.com/avatar/da0374ea874abc88869f7344d8603b88?s=100" alt="Аватар">
+          Павлина Колева
+          <em>инструктор</em>
+          <small>@n1ghtwatch</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/PetyaRuskova" class="grid_3">
+          <img src="http://gravatar.com/avatar/bcc52e7c96a085b806bab71878507afb?s=100" alt="Аватар">
+          Петя Рускова
+          <em>инструктор</em>
+          <small>@PetyaRuskova</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/psstoev" class="grid_3">
+          <img src="http://gravatar.com/avatar/fec7e1a5fe64b4382b8b924c55da2272?s=100" alt="Аватар">
+          Пламен Стоев
+          <em>инструктор</em>
+          <small>@psstoev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/rado_g" class="grid_3">
+          <img src="https://avatars3.githubusercontent.com/u/387867?v=2&s=100" alt="Аватар">
+          Радослав Георгиев
+          <em>инструктор</em>
+          <small>@rado_g</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/rstankov" class="grid_3">
+          <img src="http://gravatar.com/avatar/7a0e72a6f55811246bb5d9a946fd2e49?s=100" alt="Аватар">
+          Радослав Станков
+          <em>инструктор</em>
+          <small>@rstankov</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/rosko132" class="grid_3">
+          <img src="http://gravatar.com/avatar/04392ce7e4ee1114bec03fd73abff282?s=100" alt="Аватар">
+          Росен Рачев
+          <em>инструктор</em>
+          <small>@rosko132</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/kanmeiban" class="grid_3">
+          <img src="http://graph.facebook.com/100007314455305/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Сава Чанков
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/buhtum" class="grid_3">
+          <img src="http://gravatar.com/avatar/f4f7a92de896248a1674d235a0c37778?s=100" alt="Аватар">
+          Свилен Иванов
+          <em>инструктор</em>
+          <small>@buhtum</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/sovanesyan" class="grid_3">
+          <img src="http://gravatar.com/avatar/912bc7c7ce97aeaca308a07713cd7f60?s=100" alt="Аватар">
+          Серж Ованесян
+          <em>инструктор</em>
+          <small>@sovanesyan</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/slav.vasileva" class="grid_3">
+          <img src="https://graph.facebook.com/589157229/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Славена Василева
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/snejy.spasova" class="grid_3">
+          <img src="http://gravatar.com/avatar/020f04049380205dcd72d1ead55294f2?s=100" alt="Аватар">
+          Снежана Спасова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/e4Qh5Bc4Qf7x" class="grid_3">
+          <img src="https://graph.facebook.com/100000243194722/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          София Петрова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/stanbb" class="grid_3">
+          <img src="http://gravatar.com/avatar/50618854fcf4aa335e6d4086b10861fa?s=100" alt="Аватар">
+          Станислав Божков
+          <em>инструктор</em>
+          <small>@stanbb</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/skanev" class="grid_3">
+          <img src="http://gravatar.com/avatar/5ca07e641fada5a88a09277c45bd7c1b?s=100" alt="Аватар">
+          Стефан Кънев
+          <em>инструктор</em>
+          <small>@skanev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/TsetsiMetsi" class="grid_3">
+          <img src="http://gravatar.com/avatar/62def0b7f6b3fdffd205037d78c0de6f?s=100" alt="Аватар">
+          Цанка Енчева
+          <em>инструктор</em>
+          <small>@TsetsiMetsi</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/ts_borisova" class="grid_3">
+          <img src="http://gravatar.com/avatar/407961424f12d857dc77c09f9b296a16?s=100" alt="Аватар">
+          Цветелина Борисова
+          <em>инструктор</em>
+          <small>@ts_borisova</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/tsvetomila" class="grid_3">
+          <img src="http://gravatar.com/avatar/980832429e55ae709d350ca2954d4bf0?s=100" alt="Аватар">
+          Цветомила Михайлова
+          <em>инструктор</em>
+          <small>@tsvetomila</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/ypetrova" class="grid_3">
+          <img src="http://gravatar.com/avatar/430d943d3e6f2c61d70d8e548a08b7ce?s=100" alt="Аватар">
+          Яна Петрова
+          <em>инструктор</em>
+          <small>@ypetrova</small>
+        </a> -->
+
+        <!-- <a href="http://zecho.info" class="grid_3">
+          <img src="http://gravatar.com/avatar/7c82826e912039e186be743fdf17f0a3?s=100" alt="Аватар">
+          Янко Симеонов
+          <em>инструктор</em>
+          <small>@zecho23</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/koledan" class="grid_3">
+          <img src="http://gravatar.com/avatar/f149d52a2f4b4729880d33b052bd94da?s=100" alt="Аватар">
+          Владимир Каладан Петков
+          <em>фотограф</em>
+          <small>@koledan</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/maximilian.berovsky" class="grid_3">
+          <img src="https://graph.facebook.com/1199888613/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Максимилиан Беровски
+          <em>фотограф</em>
+        </a> -->
+      </div>
+
+      <hr />
+
+      <div class="code-of-conduct">
+        <h1 id="code-of-conduct">Кодекс на поведение</h1>
+
+        <p><em>Текстът е базиран на <a href="http://rubyberlin.github.io/code-of-conduct/">Berlin Code of Conduct</a>. Преводът е на <a href="http://andrewradev.com/">Андрей Радев</a>.</em></p>
+
+        <h3 id="coc-purpose">Цел на кодекса</h3>
+
+        <p>Основна цел на всички конференции и групи, които използват този Кодекс на поведение, е да бъдат отворени към колкото се може по-голям кръг от участници от всякакъв тип.</p>
+
+        <p>Затова полагаме усилие да предоставим приятелска, безопасна и уютна атмосфера за всички, независимо от пол, сексуална ориентация, възможности, етнически произход, социално-икономически статут и религия (или липсата на такава).</p>
+
+        <p>Кодексът на поведение обобщава очакванията ни за поведението на всички участници, както и последствията от нарушаването му.</p>
+
+        <h3 id="coc-citizenship">Членство в Open Source/Culture/Tech общества</h3>
+
+        <p>Вторична роля на този Кодекс е да увеличи членството в open [source/culture/tech] като окуражи участниците да разпознаят и подсилят връзката между действията ни и ефекта им върху общността ни.</p>
+
+        <p>Общностите са огледала на обществата, в които съществуват, и са нужни позитивни действия за да се противопоставим на многото форми неравенство и злоупотреба с власт, които съществуват в обществото.</p>
+
+        <p>Ако видите някой, който полага извънредно усилие да поддържа общността ни отворена, приятелски настроена и окуражаваща всички членове да участват в максимална степен, искаме да знаем за това.</p>
+
+        <h3 id="coc-behaviour">Очаквано поведение</h3>
+
+        <ul class="regular">
+          <li>Да участвате активно. По този начин помагате за здравето и дълголетието на тази общност.</li>
+          <li>Да показвате уважение с думите и действията си към останалите участници.</li>
+          <li>Да се опитвате да разрешавате конфликти спокойно и търпеливо.</li>
+          <li>Да не се използват обидни, дискриминиращи или тормозяващи реч и поведение.</li>
+          <li>Да мислите за обстановката и останалите участници. Кажете на ръководителите на общността ако забележите опасна ситуация, проблем или нарушавания на този Кодекс на поведение, дори да изглеждат маловажни.</li>
+        </ul>
+
+        <h3 id="coc-unacceptable">Недопустимо поведение</h3>
+
+        <p>Недопустимо поведение включва: заплашителна, подтискаща, тормозяваща, дискриминираща, обидна или унизителна реч или поведение от страна на който и да е участник в общността ни онлайн, в което и да е от свързаните събития или лични комуникации, случващи се в контекста на общността ни. Местата на провеждане на събитията може да бъдат споделени с външни посетители; моля, уважавайте всички присъстващи.</p>
+
+        <p>Тормоз включва: нараняващи или предубедени вербални или написани коментари свързани с пол, сексуална ориентация, раса, религия, физически способности; неподходяща употреба на голота и/или сексуализирани образи в публични пространства (включително слайдове в презентации); преднамерено заплашване или следене; нежелана фотография или видеозапис; продължително прекъсване на лекции и други събития; неподходящ физически контакт и нежелано сексуално внимание.</p>
+
+        <h3 id="coc-consequences">Последствия при недопустимо поведение</h3>
+
+        <p>Недопустимо поведение от който и да е член на общността, включително спонсори и организатори, няма да бъде толерирано. Всеки, който е помолен да спре недопустимото поведение, се очаква да го направи веднага.</p>
+
+        <p>В случай, че член на общността се държи недопустимо, организаторите на общността може да вземат каквото действие решат за подходящо, включително временно изгонване или постоянно премахване от общността без предупреждение (и без парично обезщетение в случай на платено събитие).</p>
+
+        <h3 id="coc-act">Ако сте свидетел или жертва на недопустимо поведение</h3>
+
+        <p>Ако сте свидетел или жертва на недопустимо поведение, или имате друг проблем, неописан в този текст, моля уведомете някой от организаторите на общността колкото се може по-скоро. На тази страница можете да намерите контакти на организатори за всеки от поддръжниците на този Кодекс на поведение. Допълнително, организаторите на общността ще помогнат на участниците да се свържат с местната полиция или да помогнат по друг начин на жертвите на подобно поведение да се чувстват в безопасност. В контекста на събития на живо, организаторите също ще предоставят придружители ако жертвата на тормоз го пожелае.</p>
+
+        <h3 id="coc-complaints">Адресиране на оплаквания</h3>
+
+        <p>Ако чувствате, че сте бил грешно или нечестно обвинен в нарушение на този Кодекс, уведомете някой от организаторите с кратко описание на оплакването си. То ще бъде обработено спрямо правилата на общността.</p>
+
+        <h3 id="coc-scope">Обхват</h3>
+
+        <p>Очакваме всички участници в общността (лектори, платени или не; спонсори; други гости) да следват този Кодекс във всички седалища на общността — онлайн и лице-в-лице — както и във всички лични комуникации, свързани с общността.</p>
+      </div>
+
+
+    </div>
+    </div>
+
+    <!-- /content -->
+
+    <footer>
+        <p>2010-2016, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
