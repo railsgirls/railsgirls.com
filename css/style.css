@@ -558,9 +558,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
-.tokyo#promo {
+.tokyo-2015-09-12#promo {
   padding-left:390px;
   background:url('../images/rg-tokyo.png') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
+.tokyo#promo {
+  padding-left:420px;
+  background:url('../images/rg-tokyo-2016-07-23.png') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
   }
@@ -3338,5 +3345,27 @@ padding-top:30px;
 .kollam#promo {
   padding-left:340px;
   background:url('../images/rg-kollam.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+.barranquilla{
+  padding: 15px 5px;
+  margin: 0 auto;
+}
+.barranquilla > a{
+  border: 0;
+  display: block;
+}
+.barranquilla img{
+  display: block;
+  margin: 0 auto;
+}
+.barranquilla > h3{
+  color: black;
+  text-align: center;
+  margin: 15px auto;
+}
+.rzeszow#promo {
+  padding-left:340px;
+  background:url('../images/rzeszow/rg-rzeszow.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
