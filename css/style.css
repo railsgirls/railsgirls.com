@@ -3041,6 +3041,16 @@ small.cali-role{ font-size: 80%; }
   margin-bottom: 20px;
 }
 
+.rio_header_2016 {
+  background: #d3360b url('../images/rio-de-janeiro/rails_girls_rio_2016.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+
 .bh-header {
   background: #d3360b url('../images/belo-horizonte/rails_girls_2015.jpg') no-repeat;
   background-size: cover;
