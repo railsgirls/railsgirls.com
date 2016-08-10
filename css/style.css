@@ -2794,6 +2794,58 @@ a:hover.bratislava2014-a {
   background: #6d0001;
 }
 
+/* Medellin */
+
+.medellin#promo {
+  padding-left:340px;
+  background:url('../images/rg-medellin.png') no-repeat 0 10px;
+}
+
+.medellin#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
+.medellin#promo div.registro{height: 80px; }
+.medellin#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.medellin#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.medellin#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.medellin{ color: #444;}
+
+small.bta_role{ font-size: 80%; }
+
+div.bta-sponsors{ margin-bottom: 30px; height: 90px; }
+
+div.bta-sponsors a { float:left; margin:0 0 0; border:0;}
+
+div.bta-sponsors-top{ margin-top: 50px;}
+
+/* End Medellin */
+
 /* Bogota */
 
 .bogota#promo {
