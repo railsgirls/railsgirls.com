@@ -1,0 +1,14 @@
+GOLD:
+Puzzle ITC
+Simplificator
+konoma GmbH
+Tamedia
+
+SILVER:
+ergon
+
+BRONZE:
+Netcetera
+
+LOCATION:
+Colab
