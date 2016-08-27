@@ -479,7 +479,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
           padding-left:340px;
           background:url('../images/rg-istanbul.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
-        }
+}
+
+.jaipur#promo {
+          padding-left:340px;
+          background:url('../images/rg-jaipur.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+}
 
 .belem#promo {
   padding-left:340px;
