@@ -55,7 +55,7 @@
       display: inline-block;
     }
   </style>
-	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
@@ -102,7 +102,7 @@ Steps to show on site
         <div id="promo" class="new yourcity">
           <div id="justIntro">
             <h1>Rails Girls Houston
-                <small>April 30, 2016</small>
+                <small>June 18, 2016</small>
             </h1>
             <p>Hello world.</p>
             <p>During this <strong>free, hands-on workshop</strong> we'll dive into building a web application using Rails!</p>
@@ -115,7 +115,7 @@ Steps to show on site
           <div id="rsvpYes" class="clearfix hidden rsvp">
             <h3>We're excited you're coming to</h3>
             <h1>Rails Girls Houston!
-                <small>April 30, 2016</small>
+                <small>June 18, 2016</small>
             </h1>
             <p>Please <strong>bring your laptop</strong> and curiosity!</p>
             <p><a href="mailto:railsgirlshou@gmail.com">Email us</a> if you have any questions or dietary restrictions.</p>
@@ -132,7 +132,7 @@ Steps to show on site
           <div id="rsvpNo" class="clearfix hidden rsvp">
             <h3>We're sorry you won't be coming to</h3>
             <h1>Rails Girls Houston
-                <small>April 30, 2016</small>
+                <small>June 18, 2016</small>
             </h1>
             <p>We'll be sure to let you know about the next one and send you the guides for this event!</p>
             <p>Please <a href="mailto:railsgirlshou@gmail.com">email us</a> if you have any questions or suggestions.</p>
@@ -198,7 +198,7 @@ Steps to show on site
         
         <hr />        -->   
         
-        <h2>Saturday, April 30, 2016</h2>
+        <h2>Saturday, June 18, 2016</h2>
         
         <table class="schedule-tables">
           <tbody>
@@ -275,13 +275,6 @@ Steps to show on site
               <p>Continue learning as you'd like!</p>
             </td>
           </tr>
-          <tr>
-            <th><strong>6:00</strong></th>
-            <td>
-              <h3>A very Rails Girls dinner!</h3>
-              <p>Hang out and have dinner with us in Rice Village!</p>
-            </td>
-          </tr>
           </tbody>
         </table>
         
@@ -295,7 +288,7 @@ Steps to show on site
         <h3>Information</h3>
             <p>
               <!-- <strong>Applications for September 2015 closed</strong> -->
-              <strong>Accepting <a href="http://goo.gl/forms/K0XuF1UBah" target="_blank">applications</a> till April 25, Noon</strong>
+              <strong>Accepting <a href="http://goo.gl/forms/K0XuF1UBah" target="_blank">applications</a> till June 14, noon</strong>
             </p>
             <strong>Location:</strong> The Iron Yard Houston<br/>4203 Montrose Blvd #100<br/>Houston, TX 77006
 
@@ -480,8 +473,74 @@ Steps to show on site
 
       <div class="coaches">
         <hr />
-        <h2>Houston April 2016 Team</h2>
-        <p><i>Coming Soon.</i></p>
+        <h2>Houston June 2016 Team</h2>
+
+          <a href="https://twitter.com/lacewaves" target="_blank" class="grid_3">
+              Caroline Devine, coach/organizer
+              <small>@lacewaves</small>
+          </a>
+
+          <a href="https://github.com/lnufnu" target="_blank" class="grid_3">
+              Bethany, coach
+              <small>@lnufnu</small>
+          </a>
+
+          <a href="https://github.com/loriculberson" target="_blank" class="grid_3">
+              Lori Culberson, coach
+              <small>@loriculberson</small>
+          </a>
+
+          <a href="https://twitter.com/ianthro" target="_blank" class="grid_3">
+              Astrid, coach
+              <small>@ianthro</small>
+          </a>
+
+          <a class="grid_3">
+              Sarah Dossett Swift, coach
+          </a>
+
+          <a href="https://twitter.com/emilycritter" target="_blank" class="grid_3">
+              Emily Ritter, coach
+              <small>@emilycritter</small>
+          </a>
+
+          <a class="grid_3">
+              Zach Ngo, coach
+          </a>
+
+          <a class="grid_3">
+              Sara Sharif, coach
+          </a>
+
+          <a class="grid_3">
+              Enrique Trevino, coach
+          </a>
+
+          <a class="grid_3">
+              Steven Greenup, coach
+          </a>
+
+          <a class="grid_3">
+              Lavoisier Cornerstone, coach
+          </a>
+
+          <a class="grid_3">
+              Brian Simmons, coach
+          </a>
+
+          <a class="grid_3">
+              Maaz Azeem, coach
+          </a>
+
+          <a class="grid_3">
+              Cris Joya, coach
+          </a>
+
+          <a href="https://github.com/pandafulmanda" target="_blank" class="grid_3">
+              Amanda Shih, coach
+              <small>@pandafulmanda</small>
+          </a>
+
       </div>
       <div class="coaches">
         <hr />
@@ -738,7 +797,7 @@ Steps to show on site
           </a>
           <a href="https://twitter.com/subdigital" target="_blank" class="grid_3">
               Ben Scheirman, coach
-          	<small>@subdigital</small>
+            <small>@subdigital</small>
           </a>
           <a class="grid_3">
               Anuradha Ramprakash, coach
@@ -830,6 +889,16 @@ Steps to show on site
 
         function enableTeamHiding(){
           $('.previous-team').siblings('a').addClass('hidden');
+          $('.coaches').delegate('.previous-team', 'click', function(event){
+            $(this).siblings('a').toggleClass('hidden');
+          });
+        }
+        showRsvp();
+        enableTeamHiding();
+      </script>
+    </body>
+    </html>
+s('a').addClass('hidden');
           $('.coaches').delegate('.previous-team', 'click', function(event){
             $(this).siblings('a').toggleClass('hidden');
           });

@@ -1,36 +1,63 @@
 <!doctype html> 
 <html lang="en">
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <style type="text/css">
+    .coaches .grid_2 { margin-left: 0; }
+    .large { font-size: 25px; margin-bottom: 20px; }
+    #promo { padding-top: 0;}
+    #promo p.small { font-size: 14px; }
+    a.apply { background: #d3360b; display: inline-block; color: #fff; padding: 10px 20px; -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; border-radius: 4px; }
 
-<!--  Add your city name, dates and year.  -->
- 
-  <title>Christchurch 1st-2nd March 2013</title>
-  
-<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+    </style>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+      function initialize() {
+          var myOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(-41.3063424,174.7768557),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+          var options = {
+            position: new google.maps.LatLng(-41.3063424,174.7768557),
+            icon: "./images/heart-marker-sm.png"
+          };
+          var marker = new google.maps.Marker(options);
+          marker.setMap(map);
+      }
+    </script>
 
-  <meta name="description" content="Rails Girls first New Zealand event, in New Brighton, Christchuch 1st and 2nd of March: join the two-day crash-course in building web applications with Ruby on Rails.">
-  <meta name="author" content="Rails Girls">
- 
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- 
-  <link rel="stylesheet" href="./css/style.css">
-  
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
-  
-	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-      <!--[if lt IE 9]>
+    <!--  Add your city name, dates and year.  -->
+
+    <title>Christchurch May 2016</title>
+
+    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+    <meta name="description" content="Rails Girls goes to Christchurch: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="author" content="Rails Girls">
+
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+
+    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+        <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-    </head>
-    <body>
+</head>
 
-        <header>
+<body onload="initialize()">
+
+    <header>
         <div class="container_12">
             <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
             <nav>
@@ -42,295 +69,302 @@
                   Guides</a>  
             </nav>
         </div>
-        </header>
+    </header>
   
 
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
+    <!--   How to change the picture & header for site
+    In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images. 
 
-Steps to show on site
-1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name. 
+    Steps to show on site
+    1. Go to style.css
+    2. Add these lines, always replacing 'yourcityname' with your actual city name. 
 
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+            .yourcityname#promo {
+              padding-left:340px;
+              background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                             url('../images/separator.png') no-repeat center bottom;
+            }
 
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
-        }
+            It will take a while before the changes show, so don't panic! 
+            
+    -->
 
-        It will take a while before the changes show, so don't panic! 
-        
--->
-
-
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
  
     <div id="container" class="container_12 page clearfix">
-      <div class="grid_12 omega alpha">
-        <div id="promo" class="christchurch">
-        <h1>Rails Girls Christchurch 1st-2nd March 2013</h1>
-        <p> <a href="http://wififorhumanity.org/">Wifi for Humanity Christchurch</a> hosts the Rails Girls movement this March in the pleasant beach-side village of New Brighton.  During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-<!--        <p>Register below but please be aware that spaces are limited. </p> -->
-<p>Wow! Due to demand we've had to close registrations.  Thanks to everyone who has applied, we'll be in touch shortly.</p>
+        <div class="grid_12 omega alpha">
+            <div id="promo" class="christchurch">
+                <h1>Rails Girls Christchurch
+                    <small>Fri 27th &amp; Sat 28th May 2016</small>
+                </h1>
+    
+                <p>Kia ora!</p>
+                <p>Rails Girls comes to Christchurch! Join us at this free workshop where we'll dive into the magical world of Ruby on Rails. </p>
+                <p>We are running a workshop at the end of May - evening of Friday 27th &amp; all day Saturday 28th.
+                </p>
+                <p>All of the material is available for you to learn at home by yourself but Rails Girls offers a casual and friendly environment to learn with others and a good tutor to student ratio to help get past some tricky areas.</p>
+                
+                <!--p><strong>Register your interest <a href="https://docs.google.com/forms/d/1Se7xjKTKOeAFdGF6Xctc87HUv0FakFT_gVcWm_gmXBo/viewform#start=embed">here</a> - hurry, places are limited!</strong></p-->
+                <p><strong>Unfortunately we have reached maximum capacity, but would love to run more Rails Girls events in future. If you would like to hear about those events and/or would like a spot on the waitlist for our May event, please fill out <a href="https://docs.google.com/forms/d/1dcJL1dWwWij5URwYfWxY-XR7hDZZU6q88qBoF3OX5xI/viewform">this form</a>.</strong></p>
 
+                
+                <!--div id="share">
+                    <div style="margin:0 10px 0 0;">
+                        <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Christchurch is happening again. It is going to be neat." data-count="horizontal" data-via="railsgirlswgtn" data-related="railsgirlswgtn">Tweet</a>
+                        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                     </div>
 
-<!--  Update the sharing texts.-->
-        
-          <div id="share">
+                    <div id="fb-root" style=""></div>
+                    <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+                    <fb:like href="https://www.facebook.com/RailsGirlsChristchurch" layout="standard" width="300px" send="true" show_faces="true" font=""></fb:like>
 
-            <div>
+                </div-->
 
-            <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls March 1st-2nd March - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
-            Tweet</a>
-              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
-			<div id="fb-root"></div>
-				<script>(function(d, s, id) {
-  					var js, fjs = d.getElementsByTagName(s)[0];
-  					if (d.getElementById(id)) return;
-  					js = d.createElement(s); js.id = id;
-  					js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=541684315866007";
-  					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
-
-				<div class="fb-like-box" data-href="http://www.facebook.com/RailsGirlsChristchurch" data-width="292" data-height="100" data-show-faces="false" data-stream="false" data-header="true"></div>
-
-		</div>
-        </p>
-        </div>
-      </div>
+            <hr />
       
-      
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
-      
-      <div class="grid_4 alpha feature">
-       <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
-      </div>
-      <div class="grid_4 feature">
-        <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
-      </div>
-      <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:rebekah@wififorhumanity.org">Email us</a>.</p>
-      </div>
-      
-      <hr />
-  
-<!--  Update the texts! -->
-     
-      <div class="grid_6 alpha">
-        <h2>Friday 1st March</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th>18.30 - 20.30</th>
-              <td>
-                <h4>Installation party</h4>
-                  Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.<br>                  
-                  
-              </td></tr> 
-          </tbody>
-        </table>
-        
-        <hr />          
-        
-        <h2>Saturday 2nd March</h2>
-        
-        <table id="schedule">
-          <tbody>
-          <tr>
-            <th>9:00 - 10:00</th>
-            <td>
-              <h4>Registration, coffee and installation fest</h4>
-                During the morning we'll install Ruby on Rails on your computer.
-            </td>
-          </tr>
-
-          <tr>
-            <th>10:00 - 10:15</th>
-            <td>
-              <h4>Welcome</h4>
-                   Outline of the day &amp; word from sponsors
-                  </td>
-                </tr>          
-
-          <tr>
-            <th>10:20 - 10:45</th>
-            <td>
-               <h4>How web apps work</h4>
-            </td>
-          </tr>
+            <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
           
-             <tr>
-                <th>10:50 - 11:10</th>
-                <td>
+            <div class="grid_4 alpha feature">
+                <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches. We introduce you to Ruby on Rails as one of the open-source web developing frameworks.</p>
+            </div>
+            <div class="grid_4 feature">
+                <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination! Very very limited laptops available to loan for the weekend - please indicate on your application form if you need one. </p>
+            </div>
+            <div class="grid_4 omega feature">
+                <!--p><strong>Want to coach?</strong> Please sign up <a href="https://docs.google.com/forms/d/1wQJ93nMrq5nnZ3IWFI61aCMIU_ZiFix4a9a1-A4-gTo/viewform?embedded=true#start=embed">here</a>.</p-->
+                <p><strong>Coaches</strong> We've got a great team of coaches from various companies in Christchurch and New Zealand coming together for the weekend. Watch this space if you would like to coach at future events.</strong</p>
+            </div>
 
-                  <h4><a href="http://www.tryruby.org">Tryruby.org</a></h4>
-                  <strong>Let's get coding!</strong> 
+        </div>
+      
+        <hr />
+      
+        <!--  Update the texts! -->
+         
+        <div class="grid_7 alpha">
+                      <h3>FAQ</h3>
+            <p><strong>How much does the workshop cost?</strong>
+                Nothing, it's free! You just need to be excited!
+            </p>
+
+            <p><strong>Who is this aimed at?</strong>
+                Women of any age with basic knowledge of working with a computer. We've had people of all ages taking part. Please bring your laptop.</p>
+            <p><strong>Can men attend?</strong>
+                Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority. 
+            </p>
+            <p><strong>Do you have a code of conduct?</strong>
+                Yes we do, we are using the Ruby NZ code of conduct which you can see <a href="http://ruby.nz/code-of-conduct/">here</a>. We expect attendees, coaches, and sponsor representatives to behave respectfully to make sure everyone has a great time.
+            </p>
+            <hr>
+            <h3>Schedule</h3>
+
+            <h2>Friday</h2>
+            <table id="schedule">
+              <tbody>
+                <tr>
+                  <th>7:00pm - 9:00pm</th>
+                  <td>
+                    <h4>Installation Party</h4>
+                      Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you. We will be providing snacks and (non-alcoholic) drinks, and we welcome you to bring along home baking!
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <hr />          
+            
+            <h2>Saturday</h2>
+            
+            <table id="schedule">
+              <tbody>
+              <tr>
+                <th>9:00am - 10:00am</th>
+                <td>
+                  <h4>Registration</h4>
+                      Time for you to collect your name tag and meet the other attendees and coaches. 
                 </td>
               </tr>
+                <tr>
+                  <th>10:00am - 10:10am</th>
+                  <td>
+                    <h4>Welcome!</h4>
+                      We'll explain what the rest of the day will look like and answer any questions you have about Rails Girls.
+                  </td>
+                </tr>
+                <tr>
+                  <th>10:10am - 10:45am</th>
+                  <td>
+                    <h4>Introduction to Programming in Ruby</h4>
+                      We have a neat online tutorial for everyone to go through to bring you up to speed with Ruby. If you have programmed before, you might find this part pretty straight forward, and for those of you who haven't - that's why we have coaches! They will be around to give you as much help as you need :)
+                  </td>
+                </tr>
+                <tr>
+                  <th>10:45am - 11:15am</th>
+                  <td>
+                    <h4>Breakdown of our Web App</h4>
+                      A short explanation about Rails, static vs dynamic websites, and the folder structure we are using for our app.
+                  </td>
+                </tr>
+                <tr>
+                  <th>11:15am - 11:45am</th>
+                  <td>
+                     <h4>Break</h4>
+                      Snacks and drinks provided :)
+                  </td>
+                </tr>
+                <tr>
+                  <th>11:45am - 1:00pm</th>
+                  <td>
+                     <h4>Workshop!</h4>
+                      Working on our web apps.
+                  </td>
+                </tr>
+                <tr>
+                  <th>1:00pm - 2:00pm</th>
+                  <td>
+                     <h4>Lunch</h4>
+                      Lunch is provided :)
+                  </td>
+                </tr>
+                <tr>
+                  <th>2:00pm - 3:15pm</th>
+                  <td>
+                     <h4>Workshop</h4>
+                      Working on our web apps.
+                  </td>
+                </tr>
+                <tr>
+                  <th>3:15pm - 3.45pm</th>
+                  <td>
+                     <h4>Break</h4>
+                      Snacks and drink provided :)
+                  </td>
+                </tr>
+                <tr>
+                  <th>3:45pm - 5:30pm</th>
+                  <td>
+                     <h4>Workshop</h4>
+                      Working on our web apps.
+                  </td>
+                </tr>
+                <tr>
+                  <th>5:30pm - 6:00pm</th>
+                  <td>
+                     <h4>Presentations and Lightning Talks</h4>
+                      We'd like to invite you to show off what you made! We also have a few lightning talks from the organisers and coaches.
+                  </td>
+                </tr>
+                <tr>
+                  <th>6:00pm - 7:00pm</th>
+                  <td>
+                     <h4>Dinner!</h4>
+                      Eat dinner and chat to attendees and coaches.
+                  </td>
+                </tr>
+                <tr>
+                  <th>7:00pm - later</th>
+                  <td>
+                     <h4>Soyo!</h4>
+                      Wind down with some delicious frozen yoghurt and great company!
+                  </td>
+                </tr>
+
+
+              </tbody>
+            </table>
+            
+            <!-- <hr/> -->
+
+
+
+            <!--  Update the team list       -->
+
+            <div class="coaches clearfix">
+                <hr />
+                <h2>Christchurch Coordinators</h2>
+                <a href="https://twitter.com/danielfone" class="grid_2">Daniel Fone<small>@danielfone</small></a>
+                <a href="https://twitter.com/Elorable" class="grid_2">Elora Walmisley<small>@Elorable</small></a>
+                <a href="https://twitter.com/parndt" class="grid_2">Philip Arndt<small>@parndt</small></a>
+                <a href="https://twitter.com/hayleyavw" class="grid_2">Hayley van Waas<small>@hayleyavw</small></a>
+
+                <hr />
+                <!--
+                  <h2>Christchurch Coaches</h2>
+
+                  <a href="https://twitter.com/<place-holder>" class="grid_2">
+                      Exam ple
+                      <small>@twitterhandle</small>
+                  </a>
+                  -->
+       
+
+                </div>
+           
+            
+        </div>
+
+           
+        <div class="grid_4 push_1 omega">
+                <h3> Location</h3>
+                <p>First floor, Erskine, University of Canterbury</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.030371427966!2d172.57900621594305!3d-43.52255937912592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318ac2dc0bd1cb%3A0x316d42ade5308260!2sErskine+Building!5e0!3m2!1sen!2snz!4v1462700292329" width="360" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br><br>
+            
+                <h3>Sponsors</h3>
           
-          <tr>
-            <th>11:10 - 13:00</th>
-            <td>
-              <h4>WORKSHOP</h4>
-              Jumpstart your first web application
-            </td>
-          </tr>
+                <p><strong>Rails Girls Christchurch has been made possible with the generosity and support of our sponsors. </strong></p>
+                <p><small>If you're interested in helping us make this event as amazing (and regular) as possible, <a href="mailto:hayleyavw@gmail.com">get in touch with us.</small></p>
+                <br>
 
-          <tr>
-            <th>13:00 - 13:30</th>
-            <td><h4>Lunch</h4></td>
-          </tr>
+                <h3>2016 Sponsors</h3>
 
-          <tr>
-            <th>13.30- 13:45</th>
-            <td>
-              <h4>Bentobox - Understanding Web Apps</h4> 
-              Recap of what we've learned and how it all fits together.
-            </td>
-          </tr>
+                <div>
+                    <p class="sponsor-note">
+                        <a href="http://www.trineo.co.nz/" style="display:block; margin:0 0 10px; border:0;">
+                            <img src="./images/christchurch/trineo.jpg" alt="Trineo" style="max-width: 200px;">
+                        </a>
+                    </p>
+                    <p class="sponsor-note">
+                        <a href="https://www.mediasuite.co.nz/" style="display:block; margin:0 0 10px; border:0;">
+                            <img src="./images/christchurch/mediasuite.svg" alt="Media Suite" style="max-width: 180px;">
+                        </a>
+                    </p>
 
-          <tr>
-            <th>13:45 - 14:30</th>
-            <td>
-              <h4>Designing your web app</h4>
-            </td>
-          </tr>
+                    <p class="sponsor-note">
+                      <a href="http://www.enspiral.com/" style="display:block; margin: 0 0 10px; border:0;">
+                        <img src="./images/christchurch/enspiral.png" alt="Enspiral" style="max-width: 110px;">
+                      </a>
+                    </p>
 
-          <tr>
-            <th>14:30 - 16:30</th>
-            <td>
-              <h4>WORKSHOP</h4>
-              Extend your application.
-            </td>
-          </tr>
-          <tr>
-            <th>20:00 -</th>
-            <td>
-              <h4>Afterparty</h4>
-              Open for everyone, meet cool people interested in tech. <br>
-            
-            </td>
-          </tr>
-          </tbody>
-        </table>
-        
-      </div>
+                    <p class="sponsor-note">
+                      <a href="http://www.rabid.co.nz/" style="display:block; margin: 0 0 10px; border:0;">
+                        <img src="./images/christchurch/rabid.png" alt="Rabid Technologies" style="max-width: 80px;">
+                      </a>
+                    </p>
 
-<!--  These also, just update :) -->
+                </div>          
+        </div>
 
-     
-      <div class="grid_5 push_1 omega side">
-        
-        <h3>Information</h3>
-            <p>
-              <p>
-              <strong>Location:</strong><br>
-            
-            Central New Brighton School<br>
-            150 Seaview Road, New Brighton, Christchurch 8061<br>
-	     Corner Beresford and Union Streets, New Brighton<br>
-	     <br>
-	     Parking: free, heaps of street and parking lot spaces.<br>
-	     Bus routes: 5 (Horny-Southshore)<br>
-	     40 (Middleton-Wainoni)<br>
-	     60 (Hillmorten-Parklands)
-
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.nz/maps?ie=UTF8&amp;cid=15657318257436579910&amp;q=Central+New+Brighton+School&amp;gl=NZ&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=-43.507805,172.724936&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.nz/maps?ie=UTF8&amp;cid=15657318257436579910&amp;q=Central+New+Brighton+School&amp;gl=NZ&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=-43.507805,172.724936&amp;spn=0.006295,0.006295&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-
-            </p>
-            
-            
-<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-            
-
-       <h3>Partners</h3>
-      
-       <p>Rails Girls Christchurch/New Brighton is co-organized with our awesome partners.</p><p>
-         <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:rebekah@wififorhumanity.org">Email us</a>! </p>
-         <p>
-		 <a href='http://wififorhumanity.org' style='border:0px; text-decoration:none;'><img src='images/christchurch-sponsor-wfh-logo.png' width='250' height='57' border='0' style='border:0px; text-decoration:none;'></a><br>
-		 Sponsored and organized by <a href='http://wififorhumanity.org'>Wifi for Humanity</a>
-		 </p>
-
-         <p>
-		 <a href='http://www.facebook.com/Renew.Brighton' style='border:0px; text-decoration:none;'><img src='images/christchurch-sponsor-renewbrighton-logo.png' width='100' height='123' border='0' style='border:0px; text-decoration:none;'></a><br>
-		 Supported by <a href='http://www.facebook.com/Renew.Brighton'>Renew New Brighton</a>
-		 </p>
-
-         <p>
-		 <a href='http://www.wifiguys.co.nz' style='border:0px; text-decoration:none;'><img src='images/christchurch-sponsor-wifiguys-logo.png' width='250' height='57' border='0' style='border:0px; text-decoration:none;'></a><br>
-		 Supported by <a href='http://www.wifiguys.co.nz'>Wifi Guys</a>
-		 </p>
-
-</p>
-
-     <hr/>
-     <h3>FAQ</h3>
-      <p><strong>How much does the workshop cost?</strong>
-          Nothing, it's free! You just need to be excited!
-      </p>
-       <p>
-         <strong>Who is this aimed at?</strong>
-         Women of any age with basic knowledge of working with a computer. We've had people of all ages taking part.  Please bring your laptop.
-       </p>
-       <p>
-         <strong>Can men attend?</strong>
-         Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority. 
-       </p>
-       <p>
-         <strong>I know how to program - How can I help?</strong>
-         We're also looking for people to be coaches. We'll have a workshop before the event to walk you through the curriculum. <a href="mailto:rebekah@wififorhumanity.org">Email us</a>
-       </p>
-      
-        
-      </div>
-      
-      
-<!--  Update the team list       -->
-      <div class="coaches">
-        <hr />
-        <h2>Christchurch New Brighton team</h2>
-        
-        <a href="https://twitter.com/wifieqnz" class="grid_4">
-		Wifi for Humanity, Sponsor and Organizer
-		<small>@wifieqnz</small><br>
-		</a>
-
-      </div>
-
-<hr/>
-
- <p>
- <h3>Applications are now closed, thanks everyone!</h3>
 
     </div>
-    </div>
-      
+    
     <!-- /content -->
     
     <footer>
         <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
-      <script type="text/javascript">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+      ga('create', 'UA-40976825-1', 'railsgirls.com');
+      ga('send', 'pageview');
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-      </script>
-    </body>
-    </html>
+    </script>
+</body>
+</html>

@@ -243,6 +243,10 @@ a, a:visited, a:focus, a:active, a:hover{
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+#promo.Tampere {
+  padding-bottom:0px;
+}
+
 .braga#promo {
   padding-left: 340px;
   background: url('../images/rg-braga2014.png') no-repeat 0 10px;
@@ -475,7 +479,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
           padding-left:340px;
           background:url('../images/rg-istanbul.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
-        }
+}
+
+.jaipur#promo {
+          padding-left:340px;
+          background:url('../images/rg-jaipur.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+}
 
 .belem#promo {
   padding-left:340px;
@@ -506,6 +516,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
   background:url('../images/washingtondc/RGDC-logo.jpg') no-repeat 0 40px,
   url('../images/separator.png') no-repeat center bottom;
+}
+
+.vienna#promo {
+    padding-left: 340px;
+    background: url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+}
+.vienna#promo h1 {
+    text-indent: 0;
+    color: #d3360b;
+    font-size:42px;
 }
 
 .portland#promo {
@@ -544,9 +564,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
-.tokyo#promo {
+.tokyo-2015-09-12#promo {
   padding-left:390px;
   background:url('../images/rg-tokyo.png') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
+.tokyo#promo {
+  padding-left:420px;
+  background:url('../images/rg-tokyo-2016-07-23.png') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
   }
@@ -599,9 +626,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.osaka-2nd#promo {
+  padding-left:420px;
+  background:url('../images/rg-osaka-2nd.jpg') no-repeat left top,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
 .osaka#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka.jpg') no-repeat left top,
+  background:url('../images/rg-osaka.png') no-repeat 0 80px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
@@ -760,6 +793,14 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 }
 .wellington#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
+.christchurch#promo {
+  padding-left: 334px;
+  padding-top: 0;
+  background:url('../images/christchurch/rg-christchurch.jpg') no-repeat 0 10px,
+                 url('../images/separator.jpg') no-repeat center bottom;
+}
+.chirstchurch#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+
 .columbia#promo {
   padding-left:340px;
   background:url('../images/rg-columbiaMD.png') no-repeat 0 50px,
@@ -842,6 +883,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
         }
 .lodz2015#promo h1 {
   background:url('../images/rg-lodz-header-2015.png') no-repeat left top;
+}
+
+.lodz2014#promo {
+          padding-left:340px;
+          background:url('../images/rg-lodz.png') no-repeat 0 10px;
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+.lodz2014#promo h1 {
+  background:url('../images/rg-lodz-header-2014.png') no-repeat left top;
 }
 
 .saarbruecken#promo {
@@ -1152,6 +1202,10 @@ pre {
 
 .osaka-1st#promo h1 {
   background:url('../images/rg-osaka-header-1st.png') no-repeat left top;
+}
+
+.osaka-2nd#promo h1 {
+  background:url('../images/rg-osaka-header-2nd.png') no-repeat left top;
 }
 
 .osaka#promo h1 {
@@ -1519,9 +1573,16 @@ h4.warsaw {
   width: 345px;
 }
 
+
 .silesia #promo {
   padding-left: 340px;
   background: url('../images/rg-silesia.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+.silesia #promo.cieszyn {
+  padding-left: 340px;
+  background: url('../images/cieszyn/logo.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -2418,6 +2479,44 @@ a:hover.bratislava2014-a {
   background: #C2320A;
 }
 
+.pori_header {
+  background: #d3360b url('../images/summer.jpeg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.pori_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  top: -42px;
+}
+
+.pori_header h1 {
+  color: #C2320A;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.pori_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.pori_header p {
+  color: #333;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+ß
+
 .oslo_header_button {
   background: transparent;
   border: 3px solid #d3360b;
@@ -2474,6 +2573,17 @@ a:hover.bratislava2014-a {
 	padding-left:345px;
     background:url('../images/novisad/rgns.jpg') no-repeat 0 90px,
 				url('../images/separator.png') no-repeat center bottom;
+}
+
+
+.kraljevo#promo {
+  padding-left:350px;
+    background:url('../images/kraljevo/rg-kraljevo.jpg') no-repeat 0 90px,
+        url('../images/separator.png') no-repeat center bottom;
+}
+.prijava {
+   padding-left:350px;
+    background:url('../images/kraljevo/rg-kraljevo-2.png') no-repeat 0 0px
 }
 
 .barcelona#promo {
@@ -2690,6 +2800,58 @@ a:hover.bratislava2014-a {
   background: #6d0001;
 }
 
+/* Medellin */
+
+.medellin#promo {
+  padding-left:340px;
+  background:url('../images/rg-medellin.png') no-repeat 0 10px;
+}
+
+.medellin#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
+.medellin#promo div.registro{height: 80px; }
+.medellin#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.medellin#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.medellin#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.medellin{ color: #444;}
+
+small.bta_role{ font-size: 80%; }
+
+div.bta-sponsors{ margin-bottom: 30px; height: 90px; }
+
+div.bta-sponsors a { float:left; margin:0 0 0; border:0;}
+
+div.bta-sponsors-top{ margin-top: 50px;}
+
+/* End Medellin */
+
 /* Bogota */
 
 .bogota#promo {
@@ -2742,13 +2904,68 @@ div.bta-sponsors-top{ margin-top: 50px;}
 
 /* End Bogota */
 
+/* Cali */
+.cali#promo {
+  padding-left:340px;
+  background:url('../images/cali/rg-cali-monochrome.jpg') no-repeat 0 10px;
+}
+
+.cali#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
+.cali#promo div.registro{ height: 80px; }
+.cali#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.cali#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.cali#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.cali{ color: #444; }
+
+small.cali-role{ font-size: 80%; }
+
+/* End Cali */
+
 .tampere2015#promo {
   padding-left:340px;
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
-.poa_header {
-  background: #d3360b url('../images/porto-alegre/rails_girls_poa.jpg') no-repeat;
+
+.poa_header_2016 {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa_2016.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.poa_header_2015 {
+  background: #d3360b url('../images/porto-alegre/rails_girls_poa_2015.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -2787,6 +3004,51 @@ div.bta-sponsors-top{ margin-top: 50px;}
 .poa_header .button:hover { background-color: rgb(211, 54, 11); }
 #poa-map { border: none; }
 #poa-map img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.nh_header {
+  background: #d3360b url('../images/novo-hamburgo/bg.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.nh_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+.nh_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.nh_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.nh_header .button {
+  background-color: rgba(211, 54, 11, 0.9);
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+.nh_header .button:hover { background-color: rgb(211, 54, 11); }
+#nh-map { border: none; }
+#nh-map img {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
@@ -2837,8 +3099,18 @@ div.bta-sponsors-top{ margin-top: 50px;}
   margin-bottom: 20px;
 }
 
+.rio_header_2016 {
+  background: #d3360b url('../images/rio-de-janeiro/rails_girls_rio_2016.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+
 .bh-header {
-  background: #d3360b url('../images/belo-horizonte/rails_girls_bh.jpg') no-repeat;
+  background: #d3360b url('../images/belo-horizonte/rails_girls_2015.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -3138,3 +3410,30 @@ padding-top:30px;
   background: #6D0001;
 }
 /* end Hanoi 2016 */
+.kollam#promo {
+  padding-left:340px;
+  background:url('../images/rg-kollam.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+.barranquilla{
+  padding: 15px 5px;
+  margin: 0 auto;
+}
+.barranquilla > a{
+  border: 0;
+  display: block;
+}
+.barranquilla img{
+  display: block;
+  margin: 0 auto;
+}
+.barranquilla > h3{
+  color: black;
+  text-align: center;
+  margin: 15px auto;
+}
+.rzeszow#promo {
+  padding-left:340px;
+  background:url('../images/rzeszow/rg-rzeszow.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
