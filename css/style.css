@@ -2659,6 +2659,18 @@ a:hover.bratislava2014-a {
   width: 130px;
 }
 
+a.cluj-register {
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding: 15px;
+  background-color: #d3360b;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 /* Perth 2015 */
 
 .perth_header {
