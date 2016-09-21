@@ -29,13 +29,18 @@
         background: #d3360b url('images/galicia/header.jpg') no-repeat;
         background-size: cover;
       }
+      .item {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 15px;
+        text-align: center;
+      }
       .imageLink {
         border: none;
       }
       .imageLink img {
         width: 100%;
-        max-width: 200px;
-        max-height: 100px;
+        max-width: 150px;
       }
       .imageLink:hover {
         opacity: .9;
@@ -231,23 +236,23 @@
       <div class="grid_12">
         <hr/>
         <h3>Patrocinan</h3>
-        <p>
-          <a href="http://github.com/" alt="GitHub" class="imageLink"><img src="images/galicia/sponsors/github.svg" alt="GitHub Logo"></a>
-          <a href="http://developers.google.com/" alt="Google" class="imageLink"><img src="images/galicia/sponsors/google.svg" alt="Google Logo"></a>
-          <a href="http://igalia.com/" alt="Igalia" class="imageLink"><img src="images/galicia/sponsors/igalia.svg" alt="Igalia Logo"></a>
-          <a href="http://gitlab.com/" alt="GitLab" class="imageLink"><img src="images/galicia/sponsors/gitlab.svg" alt="GitLab Logo"></a>
-        </p>
+        <div>
+          <div class="item"><a href="http://github.com/" alt="GitHub" class="imageLink"><img src="images/galicia/sponsors/github.svg" alt="GitHub Logo"></a></div>
+          <div class="item"><a href="http://developers.google.com/" alt="Google" class="imageLink"><img src="images/galicia/sponsors/google.svg" alt="Google Logo"></a></div>
+          <div class="item"><a href="http://igalia.com/" alt="Igalia" class="imageLink"><img src="images/galicia/sponsors/igalia.svg" alt="Igalia Logo"></a></div>
+          <div class="item"><a href="http://gitlab.com/" alt="GitLab" class="imageLink"><img src="images/galicia/sponsors/gitlab.svg" alt="GitLab Logo"></a></div>
+        </div>
       </div>
 
       <div class="grid_12">
         <hr/>
         <h3>Organizan</h3>
-        <p>
-          <a href="http://gdgvigo.com/" alt="GDG Vigo" class="imageLink"><img src="images/galicia/organisers/gdg-vigo.jpg" alt="GDG Vigo Logo"></a>
-          <a href="http://www.espacioarroelo.com/" alt="Espacio Arroelo" class="imageLink"><img src="images/galicia/organisers/espacio-arroelo.jpg" alt="Espacio Arroelo Logo"></a>
-          <a href="http://www.railsgirls.com/" alt="Rails Girls" class="imageLink"><img src="images/galicia/organisers/rails-girls.svg" alt="Rails Girls Logo"></a>
-          <a href="http://www.railsgirls.com/" alt="Rails Girls" class="imageLink"><img src="images/galicia/organisers/rails-girls-galicia.svg" alt="Rails Girls Galicia Logo"></a>
-        </p>
+        <div class="organisers">
+          <div class="item"><a href="http://gdgvigo.com/" alt="GDG Vigo" class="imageLink"><img src="images/galicia/organisers/gdg-vigo.png" alt="GDG Vigo Logo"></a></div>
+          <div class="item"><a href="http://www.espacioarroelo.com/" alt="Espacio Arroelo" class="imageLink"><img src="images/galicia/organisers/espacio-arroelo.jpg" alt="Espacio Arroelo Logo"></a></div>
+          <div class="item"><a href="http://www.railsgirls.com/" alt="Rails Girls" class="imageLink"><img src="http://railsgirls.com/images/railsgirls-sq.png" alt="Rails Girls Logo"></a></div>
+          <div class="item"><a href="http://www.railsgirls.com/" alt="Rails Girls" class="imageLink"><img src="images/galicia/organisers/rails-girls-galicia.svg" alt="Rails Girls Galicia Logo"></a></div>
+        </div>
       </div>
     </div>
 
