@@ -613,6 +613,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-nagoya-1st.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
+.nagoya-3rd#promo {
+  padding-left:460px;
+  background:url('../images/rg-nagoya-3rd.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
 
 .nara#promo {
   padding-left:460px;
@@ -659,6 +664,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/kobe/rg-kobe1-logo1.jpg') no-repeat left top,
                  url('../images/separator.png') no-repeat center bottom;
   }
+
+.kobe2#promo {
+  padding-left:420px;
+  padding-bottom: 80px;
+  background:url('../images/kobe/rg-kobe2-logo-a.png') no-repeat -40px -40px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
 
 .chicago#promo {
   padding-left:340px;
@@ -1194,6 +1206,10 @@ pre {
 
 .nagoya-1st#promo h1 {
   background:url('../images/rg-nagoya-1st-header.png') no-repeat left top;
+}
+
+.nagoya-3rd#promo h1 {
+  background:url('../images/rg-nagoya-3rd-header.png') no-repeat left top;
 }
 
 .nara#promo h1 {
@@ -2650,6 +2666,18 @@ a:hover.bratislava2014-a {
   width: 130px;
 }
 
+a.cluj-register {
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding: 15px;
+  background-color: #d3360b;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 /* Perth 2015 */
 
 .perth_header {
@@ -3435,5 +3463,11 @@ padding-top:30px;
 .rzeszow#promo {
   padding-left:340px;
   background:url('../images/rzeszow/rg-rzeszow.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
+.catania#promo {
+  padding-left:340px;
+  background:url('../images/catania/catania.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
