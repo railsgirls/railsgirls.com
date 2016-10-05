@@ -3471,3 +3471,64 @@ padding-top:30px;
   background:url('../images/catania/catania.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+/* Quito 2016 */
+.quito_header {
+  background: url('../images/quito/woman.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 70vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.quito_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  top: -42px;
+}
+
+.quito_header_content h1 {
+  color: #000000;
+  font-size: 52px;
+  margin: 3em 7em 0em;
+  background: rgba(245, 76, 33, 0.4);
+}
+
+.quito_header_content small {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+  font-size: 24px;
+}
+
+.quito_header p {
+  font-weight: bold;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+}
+
+.quito_header_button {
+  background-color: transparent;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  border: 5px solid rgba(245, 76, 33, 0.7);
+  margin: 0.5em;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.quito_header_button:hover {
+  background: rgba(245, 76, 33, 0.5);
+}
+
+/* end Quito 2016 */
+
