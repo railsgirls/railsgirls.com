@@ -11,7 +11,7 @@ Find a file called **event-template.html**. Copy this file and make a new one wi
 
 
 ## Publishing the Site
-The site will be automatically published hourly through the day. Notice that the site needs to be accessible all the time and all around the world. Test your changes and be careful when pushing new commits. If the site breaks or you encounter a problem, ping us on **[contact@railsgirls.com](mailto:contact@railsgirls.com)** and someone should run over to help ; )
+The site will be automatically published every 5 minutes (see when the site was [updated last](http://railsgirls.com/deploy.txt). Notice that the site needs to be accessible all the time and all around the world. Test your changes and be careful when pushing new commits. If the site breaks or you encounter a problem, ping us on **[contact@railsgirls.com](mailto:contact@railsgirls.com)** and someone should run over to help ; )
 
 ## Updating the Event
 You need to update two places.
