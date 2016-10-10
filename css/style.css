@@ -587,8 +587,6 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 .kyoto6#promo {
   padding-left:340px;
   background:url('../images/kyoto/logo1-6th.png') no-repeat 0 10px,
-	  	width: 300px,
-		height: 300px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
