@@ -588,6 +588,8 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
   background:url('../images/kyoto/logo1-6th.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
+		width: 300px;
+		height: 200px;
 }
 
 .sapporo#promo {
