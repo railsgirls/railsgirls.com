@@ -584,6 +584,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.kyoto6#promo {
+  padding-left:340px;
+  background:url('../images/kyoto/logo1-6th.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .sapporo#promo {
   padding-left:500px;
   background:url('../images/rg-sapporo.png') no-repeat 0 120px,
@@ -1185,6 +1191,10 @@ pre {
 }
 
 .kyoto#promo h1 {
+  background:url('../images/rg-kyoto-header.png') no-repeat left top;
+}
+
+.kyoto6#promo h1 {
   background:url('../images/rg-kyoto-header.png') no-repeat left top;
 }
 
