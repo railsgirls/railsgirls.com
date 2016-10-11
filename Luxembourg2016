@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!--  Add your city name, dates and year.  -->
+
+  <title>Luxembourg City 12th November 2016</title>
+
+  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="3rd Rails Girls Luxembourg 12th November 2016: join the one-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="author" content="Rails Girls">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   
+      
+<!-- Facebook Conversion Code for Registrations -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6030375026248', {'value':'0.01','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6030375026248&amp;cd[value]=0.01&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+ </head>
+    <body>
+      
+       <header>
+        <div class="container_12">
+          <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+          <nav>
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="http://blog.railsgirls.com">Blog</a>
+            <a href="http://guides.railsgirls.com">
+              Guides</a>
+            </nav>
+          </div>
+        </header>
+
+<!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+Steps to show on site
+1. Go to style.css
+2. Add these lines, always replacing 'yourcityname' with your actual city name.
+
+        .yourcityname#promo {
+          padding-left:340px;
+          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+        It will take a while before the changes show, so don't panic!
+
+      -->
+
+
+      <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+
+      <div id="container" class="container_12 page clearfix">
+        <div class="grid_12 omega alpha">
+          <div id="promo" class="auckland">
+          <h1>Rails Girls Luxembourg
+            <small> 12th November 2016, Luxembourg City</small>
+          </h1>
+          <h3>Hi Girls :)<br /> Let's learn together how to make new things with the Web!</h3>
+          <p>Rails Girls comes to Luxembourg again!
+            During the *free* one day workshop we will dive into the magical world of Ruby on Rails and build an application together, from scratch.</p>
+          <!--p> <strong>Applications opening: early September!</strong></p-->
+          <!--<p><strong>(EN) Apply now! </strong> <a href="http://goo.gl/forms/qjrZC9q3Ft">Applications</a> are open until the 10th of October.</p>
+          <p><strong>(FR) Postulez Maintenant! </strong> <a href="https://docs.google.com/forms/d/1lNVxxFLMtQ67VgBlh3ab8B927s6Jd9btgOZnHer2J64/viewform?usp=send_form">Les candidatures</a> sont ouvertes jusqu'au 10 Octobre.</p>-->
+          <p></br ><strong>Venue:</strong> Forum Campus Geesseknäppchen </br >40, bd Pierre Dupong | Luxembourg </p> 
+          
+
+           <p>Make sure to follow us on <a href="https://twitter.com/railsgirls_lux"> Twitter</a> and <a href="https://www.facebook.com/railsgirlsluxembourg"> Facebook !</a> </p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+          <!--  Update the sharing texts.-->
+          <div id="share">
+                        <div>
+
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Luxembourg October 24th. Apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+            Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+<div class="fb-like" data-href="https://www.facebook.com/railsgirlsluxembourg" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"> </div>
+          </div>
+       </br > </p>
+       </br > </div>
+      </div>
+     </br >
+      
+     <hr> 
+     
+<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      
+      <div class="grid_4 alpha feature">
+       <p><strong>Join us</strong> for a fun day & learn how to build an app!</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>Bring</strong> your enthusiasm & your laptop, we will show you!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Learn</strong> a new language <Coding> with Ruby on Rails. Easy! <a href="mailto:lorenza.gitlux@gmail.com">Email us</a>.</p>
+      </div>
+      
+      <hr />
+  
+<!--  Update the texts! -->
+     
+      <div class="grid_6 alpha">        
+        
+        <h2>Saturday 24th October</h2>
+        
+        <table id="schedule">
+          <tbody>
+          <tr>
+            <th>8:30 – 10:00</th>
+            <td>
+              <h4>Registration, coffee and installation fest</h4>
+                During the morning we'll install Ruby on Rails on your computer
+            </td>
+          </tr>
+
+          <tr>
+            <th>10:00 – 10:15</th>
+            <td>
+              <h4>Welcome</h4>
+                   Outline of the day &amp; word from our sponsors
+                  </td>
+                </tr>
+            
+          <tr>
+            <th>10:20 – 10:45</th>
+            <td>
+               <h4>Designing your web app -workshop</h4>
+            </td>
+          </tr>
+          
+             <tr>
+                <th>10:50 – 11:10</th>
+                <td>
+
+                  <h4><a href="http://www.tryruby.org">Tryruby.org</a></h4>
+                  <strong>Let's get coding!</strong> 
+                </td>
+              </tr>
+          
+          <tr>
+            <th>11:10 – 13:00</th>
+            <td>
+              <h4>WORKSHOP</h4>
+              Jumpstart your first web application
+            </td>
+          </tr>
+
+          <tr>
+            <th>13:00 – 13:30</th>
+            <td><h4>Lunch</h4></td>
+          </tr>
+
+          <tr>
+            <th>13.30 – 13:45</th>
+            <td>
+              <h4>Bentobox - Understanding Web Apps</h4> 
+              Recap of what we've learned and how it all fits together.
+            </td>
+          </tr>
+
+          <tr>
+            <th>13:45 – 14:30</th>
+            <td>
+              <h4>Lightning talks from coaches</h4>
+            </td>
+          </tr>
+
+          <tr>
+            <th>14:30 – 16:30</th>
+            <td>
+              <h4>WORKSHOP</h4>
+              Extend your application.
+            </td>
+          </tr>
+          <tr>
+            <th>17:30 –</th>
+            <td>
+              <h4>Afterparty</h4>
+              Organisers & coaches, participants, with friends & family will celebrate the day. If you are not participants but would like to join the afterparty <a href="mailto:lorenza.gitlux@gmail.com">please email us</a>.
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        
+      </div>
+
+<!--  These also, just update :) -->
+
+     
+      <div class="grid_5 push_1 omega side">
+        
+        <h3>Information</h3>
+            <p>
+             <!-- <p><strong>(EN) Apply now! </strong> <a href="http://goo.gl/forms/qjrZC9q3Ft">Applications</a> are open until the 10th of October.</p>
+              <p><strong>(FR) Postulez Maintenant! </strong> <a href="https://docs.google.com/forms/d/1lNVxxFLMtQ67VgBlh3ab8B927s6Jd9btgOZnHer2J64/viewform?usp=send_form">Les candidatures</a> sont ouvertes jusqu'au 10 Octobre.</p>
+              <br/>
+              Final confirmations will be given shortly after the application deadline. Questions? <a href="mailto:lorenza.gitlux@gmail.com">Email us!</a></p>-->
+                <strong>Location:</strong>Forum Campus Geesseknäppchen </br> 40, bd Pierre Dupong | Luxembourg <br/>
+            </p>
+            
+            
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+            
+
+       <h3>Partners</h3>
+      
+       <p>Rails Girls Luxembourg is co-organized with our awesome partners:</p><p>
+         <p class="sponsor-note">
+                        <a href="http://www.gouvernement.lu/4242265/digital-letzebuerg/4242280/intro" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="https://luxgov.s3.amazonaws.com/production/images/700b700c1710ac0f509f2fd98c56752ee5f41d3aeadaf5a180dd5cdb754b4dfc.jpg" alt="Snj" style="max-width: 180px;">
+                        </a>
+                    </p>
+         <p class="sponsor-note">
+                        <a href="https://www.gouvernement.lu/smc" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="https://cloud.githubusercontent.com/assets/12241662/9768392/b2fd1b28-5723-11e5-9ce4-c636309b74df.jpg" alt="Snj" style="max-width: 180px;">
+                        </a>
+                    </p>
+         <p class="sponsor-note">
+                        <a href="http://luxembourg.girlsintech.org/" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="http://luxembourg.girlsintech.org/wp-content/uploads/2014/08/Screen-Shot-2014-08-15-at-1.52.09-AM.png" alt="Snj" style="max-width: 180px;">
+                        </a>
+                    </p>
+         <p class="sponsor-note">
+                        <a href="http://www.snj.public.lu/fr" style="display:block; margin-top:20px; border:0;" target="_blank">
+                            <img src="http://www.snj.public.lu/sites/default/files/logo_snj.gif" alt="Snj" style="max-width: 180px;">
+                        </a>
+                    </p>
+
+         
+     <hr/>
+     <h3>FAQ</h3>
+      <p><strong>How much does the workshop cost?</strong>
+      Thanks to our sponsors, the workshop will be free of charge and food/drinks will be provided too. However, please bring your motivation, bags of enthusiasm and your own laptop to learn the basics of programming with us!
+      </p>
+       <p>
+         <strong>Who can participate?</strong>
+         Girls and women from 15 years old as long as you are comfortable using a computer and the internet. We aim to gather a mix of fun-loving people from all backgrounds!
+       </p>
+       <p>
+         <strong>Can men attend?</strong>
+         Yes they can, but girls will be given priority.
+       </p>
+       <p>
+         <strong>I know how to program. How can I help?</strong>
+         We are looking for enthusiastic coaches to make this day a success! You are very welcome if you know how to program, even if you do not know Ruby on Rails yet or have no teaching experience. The workshop aims to make it easy for coaches too. We will show you! Interested? <a href="mailto:lorenza.gitlux@gmail.com">Email us</a>.
+       </p>
+      
+        
+      </div>
+      
+<!-- Google Analytics      -->      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66015190-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--  Update the team list       -->
+
+      <div class="coaches">
+      </div>
+      
+    </div>
+    </div>
+      
+    <!-- /content -->
+    
+    <footer>
+        <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
+  
