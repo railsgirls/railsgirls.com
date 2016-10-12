@@ -82,8 +82,8 @@ a, a:visited, a:focus, a:active, a:hover{
 .luxembourg2016#promo {
   padding-left: 334px;
   padding-top: 0;
-  background:url('../images/luxembourg/rails_girls_ruby.png') no-repeat 0 10px,
-            /* url('../images/separator.png') no-repeat center bottom;*/
+  background:url('../images/luxembourg/rails_girls_ruby.png') no-repeat 0 10px;
+            /* url('../images/separator.png') no-repeat center bottom; */
 }
 .luxembourg2016#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
