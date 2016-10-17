@@ -48,7 +48,23 @@
         display: block;
       }
       .support {
+        list-style: none;
+        display: block;
+      }
+      .support li {
+        display: inline-block;
         text-align: center;
+        width: 31%;
+        margin: 40px auto;
+      }
+      .support li.col4 {
+        width: 31%;
+      }
+      .support li.col6 {
+        width: 40%;
+      }s
+      .support .imageLink {
+        display: inline-block;
       }
     </style>
     <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
@@ -248,24 +264,38 @@
       <div class="grid_12">
         <hr/>
         <h3>Apoio</h3>
-      </div>
+        <ul class="support">
+          <li class="col4">
+              <a href="http://www.casadocodigo.com.br" alt="Casa do Código" class="imageLink" target="_blank">
+                <img width="180" src="images/florianopolis/support/casa-do-codigo.png" title="Casa do Código">
+              </a>
+          </li>
 
-      <div class="support grid_12">
-        <p>
-        <a href="http://resultadosdigitais.com.br/" alt="Resultados Digitais" class="imageLink" target="_blank">
-          <img src="images/florianopolis/support/resultados_digitais.png" title="Resultados Digitais Logo">
-        </a>
-       </p>
-       <p>
-        <a href="https://github.com" alt="Github" class="imageLink" target="_blank">
-          <img width="180" src="images/florianopolis/support/github.png" title="Github Logo">
-        </a>
-       </p>
-       <p>
-        <a href="http://www.casadocodigo.com.br" alt="Casa do Código" class="imageLink" target="_blank">
-          <img width="180" src="images/florianopolis/support/casa-do-codigo.png" title="Casa do Código">
-        </a>
-        </p>
+          <li class="col4">
+              <a href="https://www.thoughtworks.com" alt="Thoughtworks" class="imageLink" target="_blank">
+                <img width="180" src="images/florianopolis/support/tw.png" title="Thoughtworks">
+              </a>
+          </li>
+
+          <li class="col4">
+              <a href="https://gitlab.com" alt="gitlab" class="imageLink" target="_blank">
+              <img width="140" src="images/florianopolis/support/gitlab.png" title="Gitlab">
+              </a>
+          </li>  
+
+          <li class="col6">
+              <a href="https://github.com" alt="Github" class="imageLink" target="_blank">
+                <img width="140" src="images/florianopolis/support/github.png" title="Github Logo">
+              </a>
+          </li>
+
+          <li class="col6">
+              <a href="http://resultadosdigitais.com.br/" alt="Resultados Digitais" class="imageLink" target="_blank">
+                <img src="images/florianopolis/support/resultados_digitais.png" title="Resultados Digitais Logo">
+              </a>
+          </li>
+        </ul>
+
       </div>
 
     </div>
