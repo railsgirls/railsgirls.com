@@ -2459,6 +2459,76 @@ a:hover.bratislava2014-a {
   background-size: 320px;
 }
 
+/* Cali 2017 */
+.cali_header {
+  background: #d3360b url('../images/cali/railsgirls-with-background.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.cali_header_content {
+  display: table-cell;
+  /*vertical-align: middle;*/
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  /*top: 10px;*/
+}
+
+.cali_header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.cali_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.cali_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.cali_header_button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
+.cali_header_button:hover {
+  background: #C2320A;
+}
+
+.cali_header_button {
+  background: #C2320A;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+  transition: background-color 0.4s;
+}
+
+.cali_header_button:hover {
+  background: #6d0001;
+}
+
+
 /* Helsinki 2015 */
 .helsinki_header {
   background: #d3360b url('../images/thinkers.jpg') no-repeat;
