@@ -613,6 +613,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.matsue-2015-11-13#promo {
+  padding-left:460px;
+  background:url('../images/rg-matsue-2015-11-13.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .matsue#promo {
   padding-left:460px;
   background:url('../images/rg-matsue.png') no-repeat 0 10px,
@@ -1211,6 +1217,10 @@ pre {
 
 .matsue-2013-11-22#promo h1 {
   background:url('../images/rg-matsue-header-2013-11-22.png') no-repeat left top;
+}
+
+.matsue-2015-11-13#promo h1 {
+  background:url('../images/rg-matsue-header-2015-11-13.png') no-repeat left top;
 }
 
 .matsue#promo h1 {
@@ -2744,7 +2754,7 @@ a:hover.bratislava2014-a {
   padding-bottom: 15px;
 }
 
-.simplon {
+.float-left {
   float: left !important;
   width: 235px;
 }
