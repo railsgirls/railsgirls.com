@@ -517,6 +517,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.salvador#promo {
+  padding-left:340px;
+  background:url('../images/rg-salvador.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .cologne#promo {
   padding-left:340px;
   background:url('../images/rg-cologne.png') no-repeat 0 10px,
@@ -3631,4 +3637,3 @@ padding-top:30px;
 }
 
 /* end Quito 2016 */
-
