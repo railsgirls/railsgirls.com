@@ -3636,4 +3636,19 @@ padding-top:30px;
   background: rgba(245, 76, 33, 0.5);
 }
 
+.sponsor {
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+.sponsor .grid_4 {
+  margin-left: 0px;
+  margin-bottom: 50px;
+  height: 69px;
+}
+
+.sponsor .grid_4:nth-child(4n+4) {
+  margin-right:0;
+}
+
 /* end Quito 2016 */
