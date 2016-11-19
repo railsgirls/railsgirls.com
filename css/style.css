@@ -2694,6 +2694,11 @@ a:hover.bratislava2014-a {
 				url('../images/separator.png') no-repeat center bottom;
 }
 
+.novisad5#promo {
+	padding-left:345px;
+    background:url('../images/novisad/rgns5.jpg') no-repeat 0 90px,
+				url('../images/separator.png') no-repeat center bottom;
+}
 
 .kraljevo#promo {
   padding-left:350px;
