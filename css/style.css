@@ -3657,3 +3657,14 @@ padding-top:30px;
 }
 
 /* end Quito 2016 */
+
+.kitakyushu#promo h1 {
+  background:url('../images/kitakyushu/rgkitakyushu-header.png') no-repeat left top;
+  zoom: 85%;
+  height: 70px;
+}
+
+.kitakyushu#promo {
+  padding-left:460px;
+  background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+}
