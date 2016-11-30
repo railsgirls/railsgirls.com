@@ -1,0 +1,113 @@
+.rec_header {
+    background: #d3360b url('../images/recife/rails_main_photo_gray.jpg') no-repeat;
+    background-size: cover;
+    display: table;
+    height: 90vh;
+    height: 1vm;
+    width: 100%;
+}
+
+.rec_header h1 {
+    font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+    color: #fff;
+    font-size: 80px;
+    margin: 0 0 0.25em;
+}
+
+.rec_header h1 small {
+    display: block;
+    font-size: 24px;
+}
+
+.rec_header p {
+    color: #fff;
+    max-width: 30em;
+    margin: 50px auto 1em;
+    font-size: 22px;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.rec_header .button {
+    font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #d3360b;
+    color: white;
+    letter-spacing: 2px;
+    padding: 20px 70px 18px 70px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.rec_header .button:hover { background-color: rgb(211, 54, 11); }
+#rec-map { border: none; }
+#rec-map img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin: 0 0 0 240px;
+    text-align: right;
+}
+
+.helsinki_header_content {
+    background-color: rgba(0, 0, 0, 0.38);
+    top: 0;
+}
+
+.twitter-share-button {
+    margin-bottom: 3px;
+}
+
+.grid_12 .time {
+    float: left;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.grid_12 .time:after {
+    content: " - ";
+}
+
+.grid_12 .grid_5 p {
+    margin-left: 85px;
+}
+
+.partners {
+    margin-bottom: 15px;
+    vertical-align: middle;
+    text-align: center
+}
+
+.partners a {
+    border-bottom: none;
+}
+
+.partners .grid_4:not(.alpha) {
+    margin-top: 20px;
+}
+
+.coaches .omega{
+    margin-right: 0;
+}
+
+.coaches .grid_3:nth-child(4n+4) {
+    margin-right: 20px;
+}
+
+.coach {
+    border-radius: 50px;
+}
+
+.partners .first {
+    margin: 15px 0 0 0;
+}
+
+.fb_like {
+    display: block;
+}
+
+#social .fb_iframe_widget {
+    display: block;
+}
