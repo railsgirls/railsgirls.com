@@ -401,8 +401,8 @@ background:url('../images/rg-neworleans.png') no-repeat 0 10px,
 }
 
 .penang#promo {
-  padding-left:340px;
-  background:url('../images/railsgirls-penang.png') no-repeat 0 10px,
+  padding-left:380px;
+  background:url('../images/penang-2016.jpg') no-repeat 0 -30px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -553,7 +553,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .munich#promo {
   padding-left:340px;
-  background:url('../images/munich/rg-munich.png') no-repeat 0 10px,
+  background:url('../images/munich/railsgirlsmunich.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -2694,6 +2694,11 @@ a:hover.bratislava2014-a {
 				url('../images/separator.png') no-repeat center bottom;
 }
 
+.novisad5#promo {
+	padding-left:345px;
+    background:url('../images/novisad/rgns5.jpg') no-repeat 0 90px,
+				url('../images/separator.png') no-repeat center bottom;
+}
 
 .kraljevo#promo {
   padding-left:350px;
@@ -3636,4 +3641,30 @@ padding-top:30px;
   background: rgba(245, 76, 33, 0.5);
 }
 
+.sponsor {
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+.sponsor .grid_4 {
+  margin-left: 0px;
+  margin-bottom: 50px;
+  height: 69px;
+}
+
+.sponsor .grid_4:nth-child(4n+4) {
+  margin-right:0;
+}
+
 /* end Quito 2016 */
+
+.kitakyushu#promo h1 {
+  background:url('../images/kitakyushu/rgkitakyushu-header.png') no-repeat left top;
+  zoom: 85%;
+  height: 70px;
+}
+
+.kitakyushu#promo {
+  padding-left:460px;
+  background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+}
