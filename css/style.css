@@ -3347,6 +3347,14 @@ small.cali-role{ font-size: 80%; }
   background-size: 390px;
 }
 
+/* Okayama city 2017 */
+.okayama2nd#promo {
+  padding-left:400px;
+  background:url('../images/okayama/2nd/logo.jpg') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
+
 /* Kristina RGNS*/
 a.large{
 	font-size: 19px;
