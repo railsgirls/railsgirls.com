@@ -10,13 +10,12 @@
       // 3. Update venue iframe (take from google maps)
       // 4. Update upcoming event listing at /events.html /index.html
 
-      var DATE = "24th September 2016";
-      var ADDRESS = "Yellow Hive";
+      var DATE = "21st January 2017";
+      var ADDRESS = "Malaysian Global Innovation & Creativity Centre (MaGIC)";
       var EVENT_URL = "https://www.facebook.com/events/1346844882009792/";
       var TWEET_TEXT = "Rails Girls Kuala Lumpur, " + DATE + " - apply now! #railsgirlskl";
       document.title = "Kuala Lumpur " + DATE;
     </script>
-
 
     <!--  Add your city name, dates and year.  -->
     <title>Rails Girls Kuala Lumpur</title>
@@ -38,6 +37,11 @@
     <![endif]-->
 
     <style>
+
+      body {
+        text-align: justify;
+      }
+
       .kl-clearfix{
         clear: both;
       }
@@ -73,7 +77,6 @@
     </style>
   </head>
   <body>
-
     <header>
       <div class="container_12">
         <a id="logo" href="/">
@@ -113,6 +116,7 @@
 
           <p><strong>This workshop is suitable for beginners to coding.</strong></p>
 
+          <!-- Commented out for this event
           <p>
             For those who couldn't make it the last event, please do come for this one. No prior experience required, you just need to bring your curiosity.
           </p>
@@ -120,6 +124,7 @@
           <p>
             Previous participants are invited to join our advance class that will happen at the same time. We will explore deeper rails concepts in the advance class to finally build our web app.
           </p>
+          -->
 
           <!--  Update the sharing texts.-->
 
@@ -168,15 +173,15 @@
         <table id="schedule">
           <tbody>
             <tr>
-              <th>12:45 - 1:00</th>
+              <th>09:00 - 10:00</th>
               <td>
-                <h4>Registration and Setup</h4>
-                Kick it off with setting up your Rails environment and break the ice.
+                <h4>Registration and coffee</h4>
+                Register for the event and grab some breakfast.
               </td>
             </tr>
 
             <tr>
-              <th>1:00 - 1:10</th>
+              <th>10:00 - 10:30</th>
               <td>
                 <h4>Welcome</h4>
                 Outline of the day &amp; word from sponsors
@@ -184,53 +189,63 @@
             </tr>
 
             <tr>
-              <th>1:10 - 1:30</th>
+              <th>10:30 - 11:00</th>
               <td>
-                <h4>
+                <h4>Introduction to programming</h4>
+                Learn some 'tech talk', and a bit about what a web app is made of, before you start building your own.
+                <!-- <h4>
                   Let's
                   <a href="http://www.tryruby.org">tryruby.org</a>
                   !
                 </h4>
-                Let's get coding!
+                Let's get coding! -->
               </td>
             </tr>
 
             <tr>
-              <th>1:30 - 3:00</th>
+              <th>11:00 - 12:45</th>
               <td>
-
-                <h4>Let's build a Ruby on Rails app!</h4>
+                <h4>Hands-on, minds-on workshop</h4>
                 Jumpstart your first web application
               </td>
             </tr>
 
             <tr>
-              <th>3:00 - 3:15</th>
+              <th>12:45 - 14:00</th>
+              <td>
+                <h4>Lunch</h4>
+                Food will be provided.
+              </td>
+            </tr>
+
+            <tr>
+              <th>14:00 - 14:30</th>
+              <td>
+                <h4>Lightning talks</h4>
+                Short talks by inspirational people in tech.
+              </td>
+            </tr>
+
+            <tr>
+              <th>14:30 - 16:00</th>
+              <td>
+                <h4>Continue building Rails app</h4>
+                Finish your app, get it online, or extend it!
+              </td>
+            </tr>
+
+            <tr>
+              <th>16:00 - 16:30</th>
               <td>
                 <h4>Teabreak</h4>
-                Food will be provided
+                Food will be provided.
               </td>
             </tr>
 
             <tr>
-              <th>3:00  - 3:15</th>
+              <th>16:30 - 17:00</th>
               <td>
-                <h4>Lighting talks</h4>
-                Short talks by inspirational people in tech
-              </td>
-            </tr>
-
-            <tr>
-              <th>3:15 - 4:00</th>
-              <td>
-                <h4>More on your Ruby on Rails app</h4>
-              </td>
-            </tr>
-
-            <tr>
-              <th>4:00</th>
-              <td>
-                <h4>Closing</h4>
+                <h4>Wrap-up</h4>
               </td>
             </tr>
 
@@ -239,14 +254,18 @@
 
       </div>
 
-      <!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
+      <!--  These also, just update :) You can also add a note on Code of Conduct. For examples, check out the guides! -->
 
       <div class="grid_5 push_1 omega side">
 
         <h2>Information</h2>
-        <strong>Location:</strong>
-        <script>document.write(ADDRESS)</script>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0639011500507!2d101.62209881383102!3d3.0776131544487613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4b839dfa2a6b%3A0x5994843d3fa2683d!2sYellow+HIVE!5e0!3m2!1sen!2smy!4v1471486887635" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <p>
+          <strong>Applications open:</strong> December 23th<br/>
+          <strong>Applications close:</strong> January 5th<br/>
+          <strong>Acceptances informed:</strong> January 10th<br/>
+          <strong>Location:</strong> <script>document.write(ADDRESS)</script>
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.676363511039!2d101.6526276138214!3d2.9091889978810666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb704318a46b7%3A0x2984096fc5593a62!2sMalaysian+Global+Innovation+%26+Creativity+Centre+(MaGIC)!5e0!3m2!1sen!2s!4v1482204066763" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
       <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
         <div>
@@ -272,14 +291,8 @@
           <h2>Sponsors</h2>
 
           <div class="">
-            <a class="kl-img-a" href="http://gorgeousgeeks.net" target="_blank">
-              <img  width="150px" src="./images/kl/sponsors/gg.png" alt="Gorgeous Geeks"/>
-            </a>
-          </div>
-
-          <div class="">
-            <a class="kl-img-a" href="https://www.facebook.com/Yellow-HIVE-1779469768963091/" target="_blank">
-              <img  width="150px" src="./images/kl/sponsors/yh.png" alt="Yellow Hive"/>
+            <a class="kl-img-a" href="http://mymagic.my/en/" target="_blank">
+              <img width="150px" src="./images/kl/sponsors/magic-2.jpg" alt="MaGIC"/>
             </a>
           </div>
         </div>
@@ -292,11 +305,11 @@
         </p>
         <p>
           <strong>Who is this aimed for?</strong>
-          Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. The event and talks will be conducted in English. Please bring your laptop.
+          Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. There is no age limit for this event, but children younger than 14 should be accompanied by their parents (gender of the children or parent does not matter!). Please make sure to make a note about it in the application form. The event and talks will be conducted in English. Please bring your laptop.
         </p>
         <p>
           <strong>Can men attend?</strong>
-          Yes, but women and girls will be given priority for admission.
+          Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
         </p>
         <p>
           <strong>Can I bring a Mac/Windows/Linux laptop?</strong>
@@ -323,80 +336,137 @@
       <hr/>
       <h2>The Rails Girls KL Team 2016</h2>
       <div>
-        <a href="" class="grid_4">Faezrah Rizalman, organizer </a>
-        <a href="" class="grid_4">Jeanette Goon, organizer </a>
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Faezrah Rizalman
+          <small>organizer/coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Jeanette Goon
+          <small>organizer</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Ei-Vonne Kwan
+          <small>organizer/coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Shaii Ong
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Lim Jun Xian
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Zulhilmi Zainudin
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Zulhilmi Zainudin
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Fadil Parves
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Hassanin Ahmed
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Jimmy Ngu
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Kris Khaira
+          <small>coach</small>
+        </a>
+
+        <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Tristan Gomez
+          <small>coach</small>
+        </a>
       </div>
       <hr>
-
-      <h2>The Rails Girls KL Mentors 2016</h2>
-      <a href="" class="grid_3">Ei-Vonne, mentor </a>
-      <a href="" class="grid_3">Shaii Ong, mentor</a>
-      <a href="" class="grid_3">Lim Jun Xian, mentor</a>
-      <a href="" class="grid_3">Jeremy Ong, mentor</a>
-      <a href="" class="grid_3">Zulhilmi Zainudin, mentor</a>
-      <a href="" class="grid_3">Gwee Jo-Ee, mentor</a>
-      <a href="" class="grid_3">Joanne Chia, mentor</a>
-      <a href="http://twitter.com/jimmynguyc" class="grid_3">Jimmy Ngu, mentor<small>@jimmynguyc</small></a>
-      <a href="http://twitter.com/sas1ni69" class="grid_3">Hassanin Ahmed, mentor<small>@sas1ni69</small></a>
-      <a href="http://twitter.com/kriskhaira" class="grid_3">Kris Khaira, mentor<small>@kriskhaira</small></a>
-      <a href="http://twitter.com/parasquid" class="grid_3">Tristan Gomez, mentor<small>@parasquid</small></a>
-      <hr/>
 
       <h3>RailsGirls KL Team 2015</h3>
       <div class="kl-prev-coaches">
         <a href="http://twitter.com/jellene4eva" class="grid_3">Jellene Khoh, organizer<small>@jellene4eva</small></a>
-        <a href="http://twitter.com/jimmynguyc" class="grid_3">Jimmy Ngu, mentor<small>@jimmynguyc</small></a>
+        <a href="http://twitter.com/jimmynguyc" class="grid_3">Jimmy Ngu, organizer<small>@jimmynguyc</small></a>
         <a href="" class="grid_3">Faezrah Rizalman, organizer </a>
-        <a href="" class="grid_3">Jeanette Goon, organizer </a>
         <a href="" class="grid_3">Ei-Vonne, organizer </a>
-        <a href="" class="grid_3">Kher Yee, mentor </a>
+        <a href="" class="grid_3">Kher Yee, organizer </a>
+        <a href="" class="grid_3">Jeanette Goon, organizer </a>
+        <a href="" class="grid_3">Kris Khaira, mentor</a>
+        <a href="" class="grid_3">Tristan Gomez, mentor </a>
+        <a href="" class="grid_3">Gooi Liang Zheng, mentor</a>
+        <a href="" class="grid_3">Raja Hafify, mentor </a>
+        <a href="" class="grid_3">Lim Jun Xian, mentor </a>
+        <a href="" class="grid_3">Victor Lim, mentor </a>
+        <a href="" class="grid_3">Syafiq Faiz, mentor </a>
+        <a href="" class="grid_3">Gwee Jo-Ee, mentor </a>
+        <a href="" class="grid_3">Nadia Hazeman, mentor</a>
+        <a href="" class="grid_3">Joanne Chia, mentor </a>
       </div>
 
-      <hr/>
+      <hr>
       <h3>RailsGirls KL Team 2014</h3>
       <div class="kl-prev-coaches">
         <a href="https://twitter.com/ubikentang" class="grid_3">Wunmin Wong, organizer<small>@ubikentang</small></a>
         <a href="https://twitter.com/piratefsh" class="grid_3">Sher Minn Chong, organizer<small>@piratefsh</small></a>
         <a href="https://twitter.com/joshZteng" class="grid_3">Josh Teng, organizer<small>@joshZteng</small></a>
-      </div>
-
-      <hr/>
-      <h3>Previous Contributors</h3>
-      <div class="kl-prev-coaches">
-        <a href="" class="grid_3">Nadia Hazeman, mentor</a>
-        <a href="" class="grid_3">Raja Hafify, mentor </a>
-        <a href="" class="grid_3">Gooi Liang Zheng, mentor</a>
         <a href="" class="grid_3">Nguyen Vu Nguyen, mentor </a>
-        <a href="" class="grid_3">Cedric, mentor</a>
+        <a href="" class="grid_3">Cedric Chan, mentor</a>
         <a href="" class="grid_3">Nicholas Ng, mentor</a>
-        <a href="" class="grid_3">Iqbal Hasnan, mentor</a>
-        <a href="" class="grid_3">Nurul Atiqah Ahmad, mentor</a>
-        <a href="" class="grid_3">Marxha, organizer </a>
+        <a href="" class="grid_3">Dhendy Ferdian, mentor </a>
         <a href="" class="grid_3">Ryan Law, mentor </a>
         <a href="" class="grid_3">Afif Najib, mentor </a>
         <a href="" class="grid_3">Eyad Alama, mentor </a>
         <a href="" class="grid_3">Kevin, mentor </a>
+        <a href="" class="grid_3">Raja Hafify, mentor </a>
         <a href="" class="grid_3">Low Kian Yang, mentor </a>
         <a href="" class="grid_3">Yihang Ho, mentor </a>
-        <a href="" class="grid_3">rizal muthi, mentor </a>
+        <a href="" class="grid_3">Rizal Muthi, mentor </a>
         <a href="" class="grid_3">Karg Weng Lee, mentor </a>
-        <a href="http://twitter.com/wfxyz" class="grid_3">Wafiq Rodzuan, mentor<small>@wfxyz</small></a>
+        <a href="" class="grid_3">Wafiq Rodzuan, mentor</a>
         <a href="" class="grid_3">Hu Imm, mentor </a>
-        <a href="http://twitter.com/ajmalafif" class="grid_3">Ajmal Afif, mentor<small>@ajmalafif</small></a>
-        <a href="http://twitter.com/anonoz" class="grid_3">Anonoz Chong, mentor<small>@anonoz</small></a>
+        <a href="" class="grid_3">Ajmal Afif, mentor</a>
+        <a href="" class="grid_3">Anonoz Chong, mentor</a>
         <a href="" class="grid_3">Chao Ng, mentor </a>
+        <a href="" class="grid_3">Nurul Atiqah Ahmad, mentor</a>
         <a href="" class="grid_3">Cloud on Sky, mentor </a>
-        <a href="" class="grid_3">Dhendy Ferdian, mentor </a>
-        <a href="http://twitter.com/ajikjikq" class="grid_3">Haziq Hafizuddin, mentor<small>@ajikjikq</small></a>
         <a href="" class="grid_3">Josh, mentor </a>
+        <a href="" class="grid_3">Faezrah Rizalman, mentor </a>
         <a href="" class="grid_3">Looi David, mentor </a>
         <a href="" class="grid_3">Maryam Bahrami, mentor </a>
-        <a href="http://twitter.com/khairul" class="grid_3">MK, mentor<small>@khairul</small></a>
+        <a href="" class="grid_3">MK, mentor</a>
+        <a href="" class="grid_3">Haziq Hafizuddin, mentor</a>
         <a href="" class="grid_3">Pauline Low, mentor </a>
-        <a href="" class="grid_3">Victor, mentor </a>
         <a href="" class="grid_3">Chandima, mentor </a>
-        <a href="http://twitter.com/laktek" class="grid_3">Lakshan, mentor<small>@laktek</small> </a>
+        <a href="" class="grid_3">Lakshan, mentor</a>
       </div>
+      <hr>
     </div>
   </div>
   </div>
