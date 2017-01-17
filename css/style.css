@@ -553,7 +553,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .munich#promo {
   padding-left:340px;
-  background:url('../images/munich/railsgirls munich.png') no-repeat 0 10px,
+  background:url('../images/munich/railsgirlsmunich.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -666,9 +666,15 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
-.osaka#promo {
+.osaka-3rd#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka.png') no-repeat 0 80px,
+  background:url('../images/rg-osaka-3rd.png') no-repeat 0 80px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
+.osaka-4th#promo {
+  padding-left:420px;
+  background:url('../images/rg-osaka4th.png') no-repeat 0 80px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
@@ -1257,8 +1263,12 @@ pre {
   background:url('../images/rg-osaka-header-2nd.png') no-repeat left top;
 }
 
-.osaka#promo h1 {
-  background:url('../images/rg-osaka-header.png') no-repeat left top;
+.osaka-3rd#promo h1 {
+  background:url('../images/rg-osaka-header-3rd.png') no-repeat left top;
+}
+
+.osaka-4th#promo h1 {
+  background:url('../images/rg-osaka-header-4th.png') no-repeat left top;
 }
 
 .shiojiri#promo h1 {
@@ -3343,6 +3353,14 @@ small.cali-role{ font-size: 80%; }
 .okayama#promo {
   padding-left:400px;
   background:url('../images/okayama/rg-okayama.png') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
+
+/* Okayama city 2017 */
+.okayama2nd#promo {
+  padding-left:400px;
+  background:url('../images/okayama/2nd/logo.jpg') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
 }
