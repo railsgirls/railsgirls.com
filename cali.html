@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <!--  Add your city name, dates and year.  -->
@@ -7,6 +7,7 @@
     <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
     <meta name="description" content="Rails Girls goes Cali February 2017: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
     <meta name="author" content="Rails Girls">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -16,7 +17,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <!-- <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script> -->
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
@@ -57,6 +58,9 @@
       }
       .previous-team:hover small{
         display: inline-block;
+      }
+      .grid_3 img {
+        border-radius: 23px;
       }
     </style>
   </head>
@@ -146,7 +150,7 @@
           </strong><br/>
           <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
         </div>
-        <div class="grid_12 omega">
+        <div class="grid_12 omega" id="agenda">
           <a name="schedule"><h1 style="margin-top: 20px; margin-bottom:0;">Agenda</h1></a>
          <h2 style="margin-top:0">Viernes, Febrero 17, 2017</h2>
           <table class="schedule-tables">
@@ -279,10 +283,10 @@
           <p><strong>¿Cuánto es el costo para el ingreso al workshop?</strong>
           Nada, es gratuito, sólo necesitas buenas energías y ganas de aprender!</p>
           <p><strong>¿A quién va dirigido?</strong> Mujeres de cualquier edad con conocimientos básicos de computación. Hemos tenido gente de todas las edades que han participado en Rails Girls de otras ciudades. La mayoría de las orientaciones serán en español, sin embargo,la documentación y las guías estarán en ingles.</p>
-          <p><strong>¿Pueden asistir hombres?</strong> Si, pero la prioridad en la lista de selección es para la chicas!</p>
+          <p><strong>¿Pueden asistir hombres?</strong> Sí, pero la prioridad en la lista de selección es para la chicas!</p>
         </div>
 
-        <div class="grid_12 omega">
+        <div class="grid_12 omega" id="sponsors">
           <h3>Patrocinadores</h3>
           <p> Rails Girls Cali es co-organizado con nuestros patrocinadores. </p>
           <p> ¿Quieres ayudar? Estamos buscando  patrocinadores para el evento sin fines de lucro, <a href="mailto:hello@railsgirlscali.com"> Envíanos un correo electrónico!</a> </p>
@@ -306,6 +310,28 @@
             </div>
             <div class="grid_10 omega">
               <p style="margin-top:2em"><a href="http://www.ptk.com.co/" target="_blank">PTK</a> Somos una compañía que respiramos pasión por la tecnología. Nuestras principales herramientas de trabajo son nuestra creatividad y capacidad para encontrar soluciones digitales con ideas innovadoras, buscando siempre beneficiar a las empresas con las practicas de nuestros productos tecnológicos. Enfocamos todos nuestros conocimientos y destrezas para lograr el éxito y satisfacción de nuestros clientes.</p>
+            </div>
+          </div>
+
+          <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="http://devhack.co/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/cali/sponsors/devhack.png" alt="Devhack" style="width:100%; margin: 15px 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="http://devhack.co/" target="_blank">DevHack</a> DevHack surge para contribuir al desarrollo de habilidades que de manera práctica y sustancial; incrementará los perfiles de desempeño profesional, laboral, free-lance y el potencial emprendedor de las personas interesadas por esta área del conocimiento, resolviendo de alguna manera los vacíos existentes en la formación profesional que ofrece la educación superior tradicional.</p>
+            </div>
+          </div>
+
+          <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="http://gearhosting.co/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/cali/sponsors/gearsis.png" alt="Devhack" style="width:100%; margin: 2px 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="http://gearhosting.co/" target="_blank">GearsIS</a> Nuestros productos y servicios son destacados por ser eficientes y directos, intuitivos y muy fáciles de usar gracias a que se crean de acuerdo a los requerimientos y de la mano con el cliente, con gran experiencia en la realización de software personalizado y en el asesoramiento en sistemas de información.</p>
             </div>
           </div>
 
@@ -345,7 +371,7 @@
         </div>
         <div class="grid_12 coaches">
           <hr/>
-          <div class="grid_3 omega side">
+          <div class="grid_3 omega side" id="location">
             <h3>Ubicación:</h3>
             <p>Cámara de Comercio de Cali - Sala Múltiple 2 | Sótano <br>
               Calle 8 No. 3 - 14<br>
@@ -356,68 +382,80 @@
           </div>
         </div>
         <!--  Update the team list       -->
-        <div class="grid_12 coaches">
+        <div class="grid_12 coaches" id="coaches">
           <hr/>
           <h2>Cali Team</h2>
           <a href="https://twitter.com/chougeral" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundandres.jpg" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/geraldine.jpg" class="coach" style="border:none;">
             Geraldine Caicedo
             <small>@chougeral</small>
             <small class="cali bta-role">Organiser - Coach</small>
           </a>
           <a href="https://twitter.com/dcarolinahdev" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundpedro.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/carolina.jpg" class="coach" style="border:none;">
              Carolina Hernández
             <small class="cali">@dcarolinahdev</small>
             <small class="cali bta-role">Organiser - Coach</small>
           </a>
           <a href="https://twitter.com/fashionate" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundsamir.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/stella.jpeg" class="coach" style="border:none;">
             Stella Miranda
             <small class="cali">@fashionate</small>
             <small class="cali bta-role">Coach</small>
           </a>
           <a href="https://twitter.com/ChrisEstanol" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundsamir.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/christophe.jpg" class="coach" style="border:none;">
             Christophe Estanol
             <small class="cali">@ChrisEstanol</small>
             <small class="cali bta-role">Coach</small>
           </a>
           <a href="https://twitter.com/bastianvelandia" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundsamir.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/sebastian.jpg" class="coach" style="border:none;">
             Sebastian Velandia
             <small class="cali">@bastianvelandia</small>
             <small class="cali bta-role">Coach</small>
           </a>
           <a href="https://twitter.com/diegogomezp" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundjuan.png" class="coach" style="border:none;" /> -->
+            <img src="images/cali/team/diego.jpg" class="coach" style="border:none;">
             Diego Gomez
             <small class="cali">@diegogomezp</small>
             <small class="cali bta-role">Coach</small>
           </a>
           <a href="https://twitter.com/im_cortex" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundvictor.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/victor.jpg" class="coach" style="border:none;">
             Victor Cortes
             <small class="cali">@im_cortex</small>
             <small class="cali bta-role">Coach</small>
           </a>
           <a href="https://twitter.com/jroadev" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundjuan.png" class="coach" style="border:none;" /> -->
+            <img src="https://pbs.twimg.com/profile_images/796019957217816576/WanjETtU.jpg" class="coach" style="border:none;" />
             Juan Roa
             <small class="cali">@jroadev</small>
             <small class="cali bta-role">Staff - Coach</small>
           </a>
           <a href="https://twitter.com/johan_tique" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundvictor.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/johan.png" class="coach" style="border:none;">
             Johan Tique
             <small class="cali">@johan_tique</small>
             <small class="cali bta-role">Staff - Coach</small>
           </a>
           <a href="https://twitter.com/MAB015" target="_blank" class="grid_3">
-            <!-- <img src="https://s3-us-west-2.amazonaws.com/railsgirlscali/avatars/roundvictor.png" class="coach" style="border:none;"> -->
+            <img src="images/cali/team/miguel.jpg" class="coach" style="border:none;">
             Miguel Angel
             <small class="cali">@MAB015</small>
             <small class="cali bta-role">Designer - Organiser</small>
+          </a>
+          <a href="https://twitter.com/dejuata" target="_blank" class="grid_3">
+            <img src="images/cali/team/juan_pino.jpg" class="coach" style="border:none;">
+            Juan Pino
+            <small class="cali">@dejuata</small>
+            <small class="cali bta-role">Staff - Organiser</small>
+          </a>
+          <a href="https://twitter.com/gato_omega" target="_blank" class="grid_3">
+            <img src="images/cali/team/miguel_diaz.png" class="coach" style="border:none;">
+            Miguel Díaz
+            <small class="cali">@gato_omega</small>
+            <small class="cali bta-role">Coach</small>
           </a>
         </div>
       </div>

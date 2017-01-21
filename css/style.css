@@ -606,6 +606,10 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/kyoto/logo1-6th.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+.kyoto7#promo {
+  padding-left:380px;
+  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px
+}
 
 .sapporo#promo {
   padding-left:500px;
