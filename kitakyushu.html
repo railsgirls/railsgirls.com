@@ -48,23 +48,18 @@
 
     <!--   How to change the picture & header for site
 In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
 Steps to show on site
 1. Go to style.css
 2. Add two lines, always replacing 'yourcityname' with your actual city name.
-
         .yourcityname#promo {
           padding-left:340px;
           background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
-
         .yourcityname#promo h1 {
           background:url('../images/rg-yourcityname-header.png') no-repeat left top;
         }
-
         It will take a while before the changes show, so don't panic!
-
 -->
 
 
@@ -75,12 +70,18 @@ Steps to show on site
         <div id="promo" class="kitakyushu">
           <h1>Rails Girls Kitakyushu 10-11 March 2017</h1>
           <p>こんにちは世界！</p>
-          <p>日本各地で続々と開催されているRails Girls。2015年の福岡での開催に引き続き、今度は福岡の百万都市「北九州」にRails Girlsがやってきます！<br/><br/>
-          2日間のワークショップで、Ruby on Railsを使ったWebアプリケーション作りを体験してみませんか？<br/>
-          ワークショップは無料です。<br/><br/>
-          募集ページは2017年1月以降に開設予定です。
-          </p>
+          <p>日本各地で続々と開催されているRails Girls。2015年の福岡での開催に続き、今度は福岡の百万都市「北九州」にRails Girlsがやってきます！<br/><br/>
 
+          一般の方だけでなく学生さんも大歓迎☆<br/>
+          初心者さん対象なので安心してご参加ください。<br/><br/>
+
+          2日間のワークショップで、Ruby on Railsを使ったWebアプリケーション作りを体験してみませんか。<br/>
+          アフターパーティ含め、参加費はすべて無料です。<br/><br/>
+
+
+          各種募集ページを開設しました。<br/>
+          参加のお申し込みは<strong><a href="https://railsgirls-kitakyushu.doorkeeper.jp/events/56597">コチラ</a></strong>からご応募ください。<br/><br/>
+          皆様にお会いできることを楽しみにしております！</p>
           <p> Hello world!</p>
           <p>Rails Girls comes to Kitakyushu! During the free two-day workshop we'll dive into the magical world of Ruby on Rails!</p>
           <!--<p>Apply now! <a href="http://railsgirls-osaka.doorkeeper.jp/events/xxxx">Applications</a> are open until the XXrd of April.</p>-->
@@ -103,23 +104,30 @@ Steps to show on site
         </div>
 
         <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
-
+        <div class="grid_4 omega feature">
+          <p><strong>コーチとしてお手伝いいただける方を募集しています！</strong><br/>
+            コーチお申し込みページは<strong><a href="https://railsgirls-kitakyushu.doorkeeper.jp/events/56578">コチラ</a></strong>から。ご協力よろしくお願いします！
+          </p>
+        </div>
         <div class="grid_4 alpha feature">
-          <p><strong>概要</strong>コーチにプログラミングのルールやWebアプリケーションの仕組みを教えてもらいながら、簡単なWebアプリケーション作りを体験します。</p>
+          <p><strong>概要</strong><br/>
+            コーチにプログラミングのルールやWebアプリケーションの仕組みを教えてもらいながら、簡単なWebアプリケーション作りを体験します。
+          </p>
         </div>
         <div class="grid_4 feature">
-          <p><strong>必要なもの</strong>自分のノートパソコン(WindowsでもMacでもOK!)と、やる気とキラリと光るイマジネーションを持ってきてください!</p>
-        </div>
-        <div class="grid_4 omega feature">
-          <p><strong>コーチとしてお手伝いいただける方を募集しています!</strong>
-            <br/>募集ページは2017年1月以降に開設予定です。</p>
+          <p><strong>必要なもの</strong><br/>
+            自分のノートパソコン(WindowsでもMacでもOK！)と、やる気とキラリと光るイマジネーションを持ってきてください！
+          </p>
         </div>
 
         <hr/>
 
         <div class="grid_6 alpha">
           <h2>2017年3月10日 金曜日</h2>
-          <strong>タイムテーブルは予定のものです。</strong>
+          <strong>
+            タイムテーブルは予定のものです。</br>
+            セキュリティの関係上、開催時刻前のご入場はできません。
+          </strong>
           <table id="schedule">
             <tbody>
               <tr>
@@ -136,7 +144,10 @@ Steps to show on site
           <hr/>
 
           <h2>2017年3月11日 土曜日</h2>
-          <strong>タイムテーブルは予定のものです。</strong>
+          <strong>
+            タイムテーブルは予定のものです。</br>
+            セキュリティの関係上、開催時刻前のご入場はできません。
+          </strong>
           <table id="schedule">
             <tbody>
               <tr>
@@ -144,7 +155,7 @@ Steps to show on site
                 <td>
                   <h4>レジストレーション、コーヒー</h4>
                 金曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
-                金曜日にすべてうまく行ったひとは参加しなくてもOKです。10:00ごろからのんびりきてください。
+                金曜日にすべてうまくいった人は参加しなくてもOKです。10:00ごろからのんびりきてください。
                 </td>
               </tr>
 
@@ -163,7 +174,8 @@ Steps to show on site
               </tr>
               <tr>
                 <th>12:30 - 13:30</th>
-                <td><h4>ランチ</h4></td>
+                <td><h4>ランチ</h4>お弁当はこちらでご準備します。</td>
+
               </tr>
               <tr>
                 <th>13:30- 14:00</th>
@@ -182,9 +194,9 @@ Steps to show on site
               <tr>
                 <th>17:00 - 18:30 頃</th>
                 <td>
-                  <h4>アフター・パーティ</h4>
+                  <h4>アフターパーティ</h4>
               参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
-              RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
+              RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。アフターパーティも無料です。<br>
                 </td>
               </tr>
             </tbody>
@@ -196,30 +208,41 @@ Steps to show on site
           <h3>インフォメーション</h3>
           <p>
             <strong>【参加お申し込みページ】</strong><br/>
-            参加者募集ページは2017年1月以降に開設予定です。
+            参加のお申し込みは<strong><a href="https://railsgirls-kitakyushu.doorkeeper.jp/events/56597">コチラ</a></strong>からお願いします。<br/>
+            一般の方だけでなく学生さんも大歓迎☆<br/>
+            初心者さん対象なので安心してご参加ください。<br/>
           </p>
           <p>
             <strong>【コーチお申し込みページ】</strong><br/>
-            コーチ募集ページは2017年1月以降に開設予定です。
+            ご協力いただけるコーチを募集しております。<br/>
+            コーチのお申し込みは<strong><a href="https://railsgirls-kitakyushu.doorkeeper.jp/events/56578">コチラ</a></strong>からお願いします。
           </p>
           <p>
             <strong>【スポンサーお申し込みページ】</strong><br/>
-            スポンサー募集ページは2017年1月以降に開設予定です。
+            ご支援いただけるパートナーを募集しております。<br/>
+            スポンサーのお申し込みは<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHLilQBcWOTf9wlIhDj3GyQc54Xi1gffTQij7RaaMGGg-EJQ/viewform">コチラ</a></strong>からお願いします。
           </p>
+          <br/>
+          <p>
+            <strong>【Twitter】</strong><br/>
+            RalisGirls Kitakyushu の<strong><a href="https://twitter.com/RGKitakyushu/">公式Twitter</a></strong>を開設しました！<br/>
+            準備風景や当日の様子などたくさんつぶやくので、フォローしてくださいね。<br/>
+            ハッシュタグは <strong><a href="https://twitter.com/hashtag/rgkitakyu?src=hash">#rgkitakyu</a></strong>です☆
+          </p>
+          <br/>
           <p>
             <strong>【会場】</strong><br/>
             株式会社メンバーズ ウェブガーデン北九州<br/>
             〒802-0081<br/>
             福岡県北九州市小倉北区紺屋町9-1<br/>
-            明治安田生命小倉ビル 9階<br/><br/>
+            明治安田生命小倉ビル 9階<br/>
             詳しくは
-            <a href="https://www.google.co.jp/maps/place/〒802-0081+福岡県北九州市小倉北区紺屋町９−１+明治安田生命小倉ビル/@33.8809198,130.8825461,17.58z/data=!4m5!3m4!1s0x3543bf51e8989e27:0x874d986c4f5cfe2!8m2!3d33.8809341!4d130.8839011?hl=ja">コチラ</a>から<br/>
+            <strong><a href="https://www.google.co.jp/maps/place/〒802-0081+福岡県北九州市小倉北区紺屋町９−１+明治安田生命小倉ビル/@33.8809198,130.8825461,17.58z/data=!4m5!3m4!1s0x3543bf51e8989e27:0x874d986c4f5cfe2!8m2!3d33.8809341!4d130.8839011?hl=ja">コチラ</a></strong>から。<br/>
           </p>
+          <br/>
           <p>
             <strong>【アンチハラスメントポリシー】</strong><br/>
-            わたしたちは RailsGirls イベントとコミュニティの安全、生産的なコラボレーションのためにこちらの<br/>
-            <strong><a href="http://railsgirls.jp/code-of-conduct">ガイドライン</a></strong>
-            を選びました。
+            わたしたちは Rails Girlsイベントとコミュニティの安全、生産的なコラボレーションのために<strong><a href="http://railsgirls.jp/code-of-conduct">コチラ</a></strong>のガイドラインを選びました。
           </p>
 
           <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
@@ -227,6 +250,8 @@ Steps to show on site
           <h3>パートナー</h3>
 
           <p>Rails Girls Kitakyushu はすばらしいパートナーとの共同開催です。(順不同)</p>
+
+          <p>ご支援いただけるパートナーを募集しております。<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHLilQBcWOTf9wlIhDj3GyQc54Xi1gffTQij7RaaMGGg-EJQ/viewform">コチラのフォーム</a></strong>よりお申し込みください。</p>
 <!--            Rails Girlsは非営利イベントのパートナーあるいはスポンサーを探しています！ <a href="https://docs.google.com/forms/d/1bboYaYqH7SsDchx_UAmNDtbS65fqI5_q-VcLNfRTLCM/viewform">こちら</a>までご連絡ください！</p>
 ここにフォームを作成してスポンサー問い合わせサイトを作る -->
           <p>
@@ -244,6 +269,10 @@ Steps to show on site
               現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。
             </p>
             <p>
+              <a href="https://froide.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/fukuoka/froide.jpg" alt="Froide" width="130"></a>
+              <a href="https://froide.co.jp/">フロイデ</a>は、「無職フリーターを1000人エンジニアにする」をミッションのもと、東京・福岡・北九州を拠点にシステム開発・構築を専門とするラボ型IT企業です。本サービスで、Rails, PHP, Python, モバイルアプリ開発等の最新技術を活かして、様々な業態の企業のITを全力で支援します！
+            <p>
+            </p>
               <a href="https://froide.co.jp/education/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/kitakyushu/froidale.png" alt="Froidale" width="130"></a>
               <a href="https://froide.co.jp/education/">フロイデール</a>は採用・教育・OJT・イベントの企画運営を行う企業です。中でも力を注いでいるのは未経験者向け案件付きの技術者研修「Q-Tech-bootcamp」です。この研修ではまず座学を行い、その後、OJTで報酬付きの開発に携わっていただきます。これにより企業様の負担は軽く、エンジニアは効率的に知識を習得可能です。
             </p>
@@ -256,12 +285,14 @@ Steps to show on site
           <h3>FAQ</h3>
           <p><strong>参加費はどのくらいかかりますか？</strong> 無料です。申し込むときにはわくわくした気持ちだけあれば大丈夫です。</p>
 
-          <p><strong>どのような人が参加するのでしょうか？</strong> コンピュータを使ったことがある女性ならだれでも参加できます。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ご自分のノートパソコンをお持ちください。</p>
+          <p><strong>どのような人が参加するのでしょうか？</strong> 初心者さん、学生さん大歓迎です！年齢やプログラミング経験は不問です。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ノートパソコンをお持ちください。</p>
 
           <p><strong>男性も参加できますか？</strong> 参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。申し込み人数が多い場合はお断りすることがあります。</p>
 
+          <p><strong>土曜日のお昼ご飯は必要ですか？</strong> いいえ。ランチタイムにはお弁当をこちらでご準備します。アレルギーなどある方は各自でご注意してご飲食ください。</p>
+
           <p><strong>プログラミングの経験があります。手伝うことはできますか？</strong>
-          Rails Girls Kitakyushu ではコーチを担当してくれる方を募集しています。コーチ募集ページは2017年1月以降に開設予定です。今しばらくお待ちください。</p>
+          ありがとうございます！Rails Girls Kitakyushu ではコーチを担当してくれる方を募集しています。コーチのお申し込みは<strong><a href="https://railsgirls-kitakyushu.doorkeeper.jp/events/56578">コチラ</a></strong>からお願いします。</p>
 
         </div>
         <hr/>
@@ -322,7 +353,6 @@ Steps to show on site
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-19631067-1']);
         _gaq.push(['_trackPageview']);
-
         (function() {
           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
