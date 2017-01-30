@@ -1,0 +1,3 @@
+[submodule "react-slingshot"]
+	path = react-slingshot
+	url = https://github.com/coryhouse/react-slingshot
