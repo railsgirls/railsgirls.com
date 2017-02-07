@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta property="og:title" content="Rails Girls Ostrava" />
+<meta property="og:url" content="http://www.railsgirls.com/ostrava" />
+<meta property="og:description" content="V Ostravě proběhne dne 23-24 října bezplatný workshop, kde se naučíte realizovat své nápady a sny skrze nejmocnější nástroj dneška - programování." />
+<meta property="og:image" content="http://www.railsgirls.com/images/ostrava/rg-event-pic.jpg" />
+
+<title>Rails Girls Ostrava</title>
+
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="Do Ostravy přijíždějí Rails Girls. Během workshopu se ponoříme do báječného světa technologií a Ruby on Rails. Realizujte své sny pomocí internetových aplikací.">
+  <meta name="author" content="Rails Girls">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./events.html">Events</a>
+                <a href="./materials.html">Materials</a>
+                <a href="./press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a>
+                <a href="http://guides.railsgirls.com">
+                  Guides</a>
+            </nav>
+        </div>
+        </header>
+  <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+Steps to show on site
+1. Go to style.css
+2. Add two lines, always replacing 'yourcityname' with your actual city name.
+        .yourcityname#promo {
+          padding-left:340px;
+          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+        .yourcityname#promo h1 {
+          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
+        }
+        It will take a while before the changes show, so don't panic!
+-->
+
+
+<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="ostrava">
+        <h1 class="czech" style="margin-bottom: 50px;"><span style="position: relative; left: -2px;">Rails Girls Ostrava</span>
+            <small style="position: relative; top: 10px;">23. &ndash; 24. října, 2015</small></h1>
+          <p>Ahoj holky a dámy!</p>
+          <p>Rails Girls se vrací do Ostravy! Ve dnech <strong>23. - 24. října</strong> tady proběhne už čtvrtý <strong>bezplatný workshop programování</strong>, jehož cílem bude provést vás jedním z nejzajímavějších programovacích jazyků na světě – <strong>Ruby on Rails</strong>.</p>
+          <p>Studuješ informatiku, chodíš s ajťákem nebo jsi naopak neviděla kód ani v Matrixu? Nevadí, na zkušenosti nehledíme! Rozhodující je zvědavost a chuť učit se novým věcem. Ze všech přihlášených vybereme <strong>35 účastnic</strong>, kterým rozšíříme obzory a necháme je nakouknout do nejrychleji rostoucího trhu na světě - IT.</p>
+          <h2 style="font-size: 2em;"> <span style="background-color: #818181; padding: 0.15em 0.4em;color:#fff;">Registrace uzavřena</span></h2>
+          <p>Takhle to vypadalo v Ostravě v roce 2014!</p>
+          <p>
+            <iframe width="560" height="315" src="//www.youtube.com/embed/69DscMKcmsI" frameborder="0" allowfullscreen></iframe>
+          </p>
+          <p>Sledujte aktuality na <a href="https://www.facebook.com/RailsGirlsCZ">Facebooku</a> nebo <a href="https://twitter.com/railsgirlsova">Twitteru</a>. Pokud vás cokoliv zajímá, ozvěte se nám na <a href="mailto:railsgirls.ostrava@gmail.com">railsgirls.ostrava@gmail.com</a>.</p>
+
+
+<!--  Update the sharing texts.-->
+
+          <div id="share">
+
+            <div>
+
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-text="Holky, naučte se na bezplatném workshopu @@RailsGirlsOVA (4.-5.10.) vytvářet vlastní webové stránky a projekty." data-count="horizontal" data-related="RailsGirlsOstrava">
+            Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+            </div>
+            <div style="margin:0 15px 0 0;">
+              <div class="fb-like" data-href="https://www.facebook.com/RailsGirlsCZ" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+            </div>
+
+          </div>
+        </p>
+        </div>
+      </div>
+
+
+<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      <div class="grid_5 alpha feature" style="margin-left:100px;">
+        <p><strong>Naučíte se</strong> navrhovat, prototypovat a kódovat weby - s pomocí našich koučů.</p>
+      </div>
+      <div class="grid_5 feature">
+        <p><strong>Potřebujete</strong> jenom notebook, zvědavost, představivost a základy angličtiny (workshop bude kompletně v češtině, některé materiály jsou však anglicky).</p>
+        <br />
+      </div>
+      <hr />
+
+<!--  Update the texts! -->
+
+      <div class="grid_6 alpha">
+        <h2>Jaký bude program?<br /></h2>
+        <h2>Pátek 23. října<br/></h2>
+        <table id="schedule">
+          <tbody>
+            <tr>
+              <th>17:30</th>
+              <td>
+                <h4>Instalace</h4>
+                <p>Potkej ostatní ještě před akcí. Přines si s sebou počítač, pomůžeme ti nainstalovat Rails předem.</p>
+                  <strong>Místo: Vědecko-technologický park Ostrava <a href="https://maps.google.com/maps?q=vedecko+technologicky+park+ostrava&hl=en&ie=UTF8&sll=49.83814,18.154883&sspn=0.001797,0.003954&t=h&hnear=V%C3%A9decko-technologicky+park+Ostrava,+Ostrava-Pustkovec,+Czech+Republic&z=17&iwloc=A">Technologická 372/2, 708 00 Ostrava</a></strong>
+
+              </td></tr>
+              <tr>
+              <th>19:00</th>
+              <td>
+                <h4>Přednáška</h4>
+                <p>Krátké uvítání a seznámení se sobotním programem.</p>
+                <br>
+                <h4>Lightning video</h4>
+                <p>Code.org</p>
+
+              </td></tr>
+              <tr>
+               <th>20:30</th>
+                <td>
+                  <h4>Večeře pro kouče</h4>
+                  <p>Všechny kouče zveme na večeři, kde projdeme program pro následující den.</p>
+
+                </td>
+            </tr>
+        <tr>
+        <td colspan="2">
+        <hr />
+
+        <h2>Sobota 24. října<br /></h2>
+        </td>
+        </tr>
+
+         <tr>
+            <th>9:00</th>
+            <td>
+              <h4>Začátek</h4>
+              <p>Registrace, káva!</p>
+              <h4>Probouzení, snídaně a doinstalace</h4>
+              <p>Před začátkem ještě zkontrolujeme instalace Ruby on Rails na počítačích, probudíme se a pustíme se do toho.</p>
+              <strong>Místo: Vědecko-technologický park Ostrava <a href="https://maps.google.com/maps?q=vedecko+technologicky+park+ostrava&hl=en&ie=UTF8&sll=49.83814,18.154883&sspn=0.001797,0.003954&t=h&hnear=V%C3%A9decko-technologicky+park+Ostrava,+Ostrava-Pustkovec,+Czech+Republic&z=17&iwloc=A">Technologická 372/2, 708 00 Ostrava</a></strong>
+            </td>
+          </tr>
+          <tr>
+            <th>10:00</th>
+            <td>
+              <h4>Přivítání a poděkování</h4>
+            </td>
+          </tr>
+
+          <tr>
+            <th>10:15</th>
+            <td>
+              <h4>Pojďme si hrát!</h4>
+              <p> Začíname kódovat - <a href="http://tryruby.org/">Try Ruby!</a></p>
+              <br>
+              <h4>Navrhujeme aplikaci</h4>
+              <h4>a hurá tvořit!</h4>
+              <p>Společně se pustíme do kódování.</p>
+            </td>
+          </tr>
+          
+          <tr>
+            <th>13:00</th>
+            <td><h4>Oběd</h4></td>
+          </tr>
+
+          <tr>
+            <th>14:00</th>
+            <td>
+              <h4>Přednáška</h4>
+              <p>Funguje to, ale vypadá to hrozně. Co s tím? HTML meets CSS!<p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>15:00</th>
+            <td>
+              <h4>Odpolední programování</h4>
+              <p>Pokračujeme v kódování a vylepšování aplikace.<p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>17:30</th>
+            <td>
+              <h4>Přednáška</h4>
+              <p>Souhrn toho, co jsme se naučili a k čemu to vlastně všechno je. A co dál?<p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>18:30</th>
+            <td>
+              <h4>Ukončení</h4>
+            </td>
+          </tr>
+
+          <tr>
+            <th>19:00</th>
+            <td>
+              <h4>Afterparty v <a href="http://www.ceske-hospudky.cz/bary/ostrava/t2-23249" target="_blank">klubu T2</a></h4>
+            </td>
+          </tr>
+      <tr>
+          </tbody>
+        </table>
+
+      </div>
+
+<!--  These also, just update :) -->
+
+
+      <div class="grid_6 push_1 omega side"> <!--have to remove when add programm -->
+        <h3>Informace o workshopu</h3>
+          <p>
+            <p>
+              <strong>Začátek registrací:</strong> 1. října 2015<br />
+              <strong>Uzávěrka registrací:</strong> 14. října 2015<br />
+              <strong>Potvrzení registrací rozešleme</strong> 16. října 2015<br />
+              <strong>Místo:</strong> <a href="https://maps.google.com/maps?q=vedecko+technologicky+park+ostrava&hl=en&ie=UTF8&sll=49.83814,18.154883&sspn=0.001797,0.003954&t=h&hnear=V%C3%A9decko-technologicky+park+Ostrava,+Ostrava-Pustkovec,+Czech+Republic&z=17&iwloc=A">Vědecko-technologický park Ostrava, Technologická 372/2</a>
+            </p>
+          </p>
+      </div>
+
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+      <div class="grid_5 push_1 omega side">
+        <!-- have to movebefor Information when add programm -->
+        <h3>Partneři</h3>
+          <p>
+             <a href="http://www.railsformers.com/" style="float:left; margin:0 10px 0 0; border:0;"><img src="http://railsformers.com/assets/logo3-61e97106d60a0cea9754a86f3dbc627e.png" alt="railsformers" width="150"></a>
+             <a href="http://www.railsformers.com/">Railsformers</a> je tým mladých, kreativních lidí, kteří se věnují vývoji internetových a intranetových aplikací se zaměřením na framework Ruby on Rails a marketingu. Kromě outsourcingu řeší také vlastní projekty - jako např. SaaS účetnictví či CMS v Ruby on Rails. Hlavním produktem společnosti je bezpečnostní systém <a href="http://hedurio.com/">Hedurio</a>, se kterým se můžete setkat např. na open air akcích jako jsou Colours of Ostrava, Majáles Ostrava a další.
+          </p>
+          <br>
+          <p>
+             <a href="http://www.vtpo.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="http://vtpo.cz/theme/assets/img/share.png" alt="vtpo" width="150"></a>
+             Posláním <a href="http://www.vtpo.cz/">VTPO</a> je vybudovat a provozovat Vědecko-technologický park, který poskytne prostor pro komerčně orientovaný vědecký a technologický výzkum, inovaci výrobků a rozvoj podnikání.
+          </p>
+          <br>
+          <p>
+             <a href="http://www.tieto.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="http://www.tieto.cz/sites/default/files/resize/remote/0f4d9e919241c88ca422811eb44a9e30-100x92.png" alt="tieto" width="150"></a>
+             V <a href="http://www.tieto.cz/">Tieto</a> vyvíjíme aplikace, spravujeme IT infrastrukturu a pomocí našich IT řešení udržujeme v chodu firmy, jako jsou finské vládní instituce, přední telekomunikační a mediální firmy, finanční společnosti apod. Patříme k TOP IT zaměstnavatelům v ČR a o inspiraci a výzvy u nás není nouze.
+          </p>
+          <br>
+          <p>
+             <a href="http://www.raynet.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="http://raynet.cz/resources/tmp/download/logo-raynet-2011-web-background.png?v=v2.2.12-13-g91c9877" alt="raynet" width="150"></a>
+             <a href="http://www.raynet.cz/">RAYNET</a> vyvíjí (už 10 let) softwarové nástroje pro obchodníky (aby se jim lépe a radostněji prodávalo:). Se svým cloudovým řešením jsou v ČR číslo jedna a celosvětově se RAYNET používá už ve 21 zemích. Rejnoci milují kávu a řídí se svým sloganem "It's all about people". P.S. přijďte na fotbálek!
+          </p>
+          <br>
+          <p>
+             <a href="http://singha.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="./images/ostrava/singha.png" alt="singha" width="150"></a>
+             <a href="http://singha.cz/">Singha</a> je zkušený grafik, designer a kodér. Poradí, navrhne, nakreslí, nakóduje, naprogramuje. Dělá weby, mobilní aplikace, e-shopy, microsite, loga, banery, letáky, vizitky, razítka, plakáty, UX, UI, SEO, XHTML, CSS, JS.
+          </p>
+          <br>
+          <p>
+             <a href="http://exasoft.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="./images/ostrava/exasoft.png" alt="exasoft" width="150"></a>
+             <a href="http://exasoft.cz/">ExaSoft</a> Vám prostřednictvím 8 prodejen nebo rozsáhlého a přehledného e-shopu dodá cokoli ze sortimentu počítačů, spotřební elektroniky a bílého zboží. U objednávek nad 600 Kč nabízíme dopravu zdarma a u vybraného sortimentu garantujeme nejnižší ceny na trhu.
+          </p>
+          <br>
+          <p>
+             <a href="http://marcosristorante.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="./images/ostrava/logo-marcos.jpg" alt="Marco's" width="150"></a>
+             <a href="http://marcosristorante.cz/">Marco’s</a> restaurace a pizzerie se narodila v roce 2002. Od té doby nabízí italskou kuchyni, která je věrná italským tradicím, jednoduché přípravě, kvalitním ingrediencím a důslednému výběru pokrmů.
+          </p>
+          <br>
+          <p>
+             <a href="http://www.flinder.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="./images/ostrava/kofilab.jpg" alt="kofilab" width="150"></a>
+             <a href="http://www.flinder.cz/">Kofi Lab</a> je netradiční zážitkové místo, kávová laboratoř, kávový bar, obchod s čerstvě praženou kávou pocházející z rodinných farem z různých koutů světa a praženou v německé pražírně Supremo. Zastavte se u nás.
+          </p>
+          <br>
+          <p>
+             <a href="http://www.martinus.cz/" style="float:left; margin:0 10px 0 0; border:0;"><img src="./images/ostrava/martinuscz_width_positive.jpg" alt="martinus" width="150"></a>
+             <a href="http://www.martinus.cz/">Martinus</a> prodává knihy od roku 1990 a má jednu z největších nabídek knih v České republice. Vybrat si u nich můžete ze 175 000 papírových knih, audioknih, e-booků a dalšího zboží.
+          </p>
+          <br>
+          <p>Chcete pomoct? Stále hledáme partnery a sponzory pro tuto neziskovou akci. <a href="mailto:railsgirls.ostrava@gmail.com">Napište nám!</a></p>
+      </div>
+
+<!--  Update the team list       -->
+        <hr />
+      <h2>Ostrava team</h2>
+        <div class="coaches grid_12 alpha omega">
+        <a href="https://twitter.com/kvetinova" class="grid_3">
+            <img src="https://pbs.twimg.com/profile_images/439770667580268544/YDFfFxAS_bigger.jpeg">
+            Květoslava Lišková
+            <small>@kvetinova</small>
+          </a>
+          
+        <a href="https://www.facebook.com/KattynkaSvedova" class="grid_3">
+            <img src="https://scontent-ams2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11026305_901251753288031_366707325294655056_n.jpg?oh=36f83e2d6bdf92a69c3e800418f565bf&oe=56600DEE">
+            Kateřina Švédová
+            <small>@SvedovaKatty</small>
+          </a>
+          
+        <a href="https://twitter.com/pomidorek" class="grid_3">
+            <img src="https://scontent-ams2-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10982194_10152876781451167_2247460317320071410_n.jpg?oh=555a8fbf9fd97db6190cc5b9034dfb3a&oe=56651747">
+            Karolina Grudzinska
+            <small>@pomidorek</small>
+          </a>
+          
+        </div>
+      </div>
+
+        <h2>Mentoři</h2>
+          <div class="coaches grid_12 alpha omega">
+              <a href="https://twitter.com/michal_hantl" class="grid_3">
+                <img src="https://pbs.twimg.com/profile_images/644407142846472192/sMsGuSlt.jpg">
+                Michal Hantl
+                <small>@michal_hantl</small>
+            </a>
+              <a href="https://twitter.com/michalsimon" class="grid_3">
+                <img src="https://pbs.twimg.com/profile_images/1141621326/profil_bigger.jpg">
+                Michal Šimon
+                <small>@michalsimon</small>
+              </a>
+              <a href="https://www.facebook.com/KattynkaSvedova" class="grid_3">
+                <img src="https://scontent-ams2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11026305_901251753288031_366707325294655056_n.jpg?oh=36f83e2d6bdf92a69c3e800418f565bf&oe=56600DEE">
+                Kateřina Švédová
+                <small>@SvedovaKatty</small>
+              </a>              
+              <a href="https://twitter.com/EliDaProud" class="grid_3">
+                <img src="https://pbs.twimg.com/profile_images/422530607390797826/Y6WfsVPE_bigger.jpeg">
+                Eliška Čejpová
+                <small>@EliDaProud</small>
+              </a>
+            <a href="https://www.facebook.com/terezka.holubcikova" class="grid_3">
+                <img src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1510575_10204382226413454_283516903339318305_n.jpg?oh=10b73427f1755d109a6509c48adb7724&oe=565F7BA8">
+                Tereza Holubčíková
+            </a>
+            <a href=# class="grid_3">
+              <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/000/153/3bc/1c77d56.jpg">
+              Renáta Klimšová
+            </a>
+            <a href="https://www.facebook.com/alexander.nikolskiy.1" class="grid_3">
+                <img src="./images/ostrava/Alex_pic.jpg">
+                Alexander Nikolskiy
+                <small>@sash_nik</small>
+            </a>
+            <a href="https://www.facebook.com/bestik" class="grid_3">
+                <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/t31.0-1/c196.140.997.997/s960x960/903100_4408127133087_1913734615_o.jpg">
+                Filip Procházka
+                <small>@unodor</small>
+            </a>
+            <a href="#" class="grid_3">
+                <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/000/00f/05a/0614853.jpg">
+                Lukáš Svačina
+            </a>
+            <a href="https://twitter.com/AlesChromec" class="grid_3">
+                <img src="https://pbs.twimg.com/profile_images/557633697382281216/bOm1oiyR.jpeg">
+                Aleš Chromec
+                <small>@AlesChromec</small>
+            </a>
+            <a href="https://www.facebook.com/barbora.handzelova/about" class="grid_3">
+                <img src="./images/ostrava/Barbara_pic.jpg">
+                Barbora Handzelová
+            </a>
+            <a href="https://www.facebook.com/marchlik" class="grid_3">
+                <img src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1233397_5002120305448_403243318_n.jpg?oh=75da103cd8a50f6be1e30e27d7a90f85&oe=5662A8A3">
+                Daniel Marchlík
+                <small>@unodor</small>
+            </a>
+            <a href="https://twitter.com/LukBrezina" class="grid_3">
+                <img src="https://scontent-fra3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10606404_10203877620400954_846082106177667424_n.jpg?oh=7ec88e2cd9d8ee4a894a3d16dd9c59c4&oe=566F6E03">
+                Lukáš Březina
+                <small>@LukBrezina</small>
+            </a>
+            <a href="https://twitter.com/davidmaralik" class="grid_3">
+                <img src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1391923_10202205412286525_58416913_n.jpg?oh=5f56d9172ec9c4e936378b0e1b207467&oe=569DC730">
+                David Maralík
+                <small>@davidmaralik</small>
+            </a>
+            <a href="https://twitter.com/bartostefan" class="grid_3">
+                <img src="https://pbs.twimg.com/profile_images/456884202185560064/2rAXD1JD_400x400.jpeg">
+                Štefan Bartoš
+                <small>@bartostefan</small>
+            </a>
+            <a href="https://twitter.com/dayweek_cz" class="grid_3">
+                <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11898620_10206208343145360_5863273766738802174_n.jpg?oh=228b5eff5ef6712d5dff512595ab38a1&oe=56C4D8C2">
+                David Hrachový
+                <small>@dayweek_cz</small>
+            </a>
+            <a href="https://twitter.com/DavidAresu" class="grid_3">
+                <img src="./images/ostrava/David_pic.jpg">
+                David Aresu
+                <small>@DavidAresu</small>
+            </a>
+      </div>
+      <hr>
+
+      <div>
+        <h2>Nástroje</h2>
+        <p>Doporučujeme prohlížeč <a href="https://www.google.com/intl/cs/chrome/browser/">Google Chrome</a></p>
+          <p><a href="http://guides.railsgirls.com/install">Ruby on Rails</a></p>
+          <p>Editor zdrojového kódu <a href="http://www.sublimetext.com/">Sublime Text</a></p>
+          <p>Účet na <a href="https://github.com/">GitHub</a> pro sdílení kódu</p>
+          <p>Účet na <a href="http://www.heroku.com/">Heroku</a> pro hostování aplikace</p>
+      </div>
+
+      <hr>
+      <div>
+        <h2>Zdroje</h2>
+        <p>Přednáška, <a href="http://data.karmi.cz/railsgirls/railsgirls-introduction-to-programming.html#0">úvod do programování</a> od Karla Minaříka.</p>
+         <p><a href="http://rubyonrails.cz/">Česká stránka</a> o Ruby on Rails.</p>
+         <p>Průvodce <a href="http://guides.rubyonrails.cz/">Začínáme s Rails</a> -- z <a href="http://guides.rubyonrails.org/">anglického originálu</a> přeložil Karel Minařík (od doby vydání českého překladu se Ruby on Rails posunulo o kus dál, proto některé věci mohou v současné verzi fungovat jinak)</p>
+         <p><a href="http://guides.railsgirls.com/app">Tutoriál</a>, podle kterého budeme programovat (<a href="https://github.com/danieldimitrov/Rails-Girls-Ostrava">hotová aplikace</a> pro porovnání)</p>
+         <p><a href="https://docs.google.com/document/d/1DhP1WybrUyGqjyDVKC230OdQdVbmCv-YJ7kAhz1BSPg/edit">Poznámky</a> pro sdílení informací během akce</p>
+      </div>
+    <hr>
+
+    </div>
+
+    <!-- /content -->
+
+    <footer>
+        <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+
+      <!-- mouseflow.com code -->
+<script type="text/javascript">
+   var _mfq = _mfq || [];
+   (function() {
+       var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+       mf.src = "//cdn.mouseflow.com/projects/93f8e425-d9c7-4512-8cf9-1dfa542c3cb3.js";
+       document.getElementsByTagName("head")[0].appendChild(mf);
+   })();
+</script>
+    </body>
+    </html>
