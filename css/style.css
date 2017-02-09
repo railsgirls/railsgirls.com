@@ -3689,5 +3689,6 @@ padding-top:30px;
 
 .kitakyushu#promo {
   padding-left:460px;
-  background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat -150px 50px, url('../images/separator.png') no-repeat center bottom;
+  background-size:750px;
 }
