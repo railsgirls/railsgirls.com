@@ -124,9 +124,17 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .stockholm#promo {
           padding-left:340px;
-          background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
+          background:url('../images/rg-stockholm.png') no-repeat -60px 60px,
                          url('../images/separator.png') no-repeat center bottom;
+          background-size: 393px 402px;
         }
+
+.stockholm#promo h1 {
+  text-indent: 0;
+  font-size: 47px;
+  font-weight: bold;
+  color: #d3360b;
+}
 
 .popayan#promo {
   padding-left:340px;
