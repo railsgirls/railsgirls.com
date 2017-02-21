@@ -124,9 +124,17 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .stockholm#promo {
           padding-left:340px;
-          background:url('../images/rg-stockholm.png') no-repeat 0px 10px,
+          background:url('../images/rg-stockholm.png') no-repeat -60px 60px,
                          url('../images/separator.png') no-repeat center bottom;
+          background-size: 393px 402px;
         }
+
+.stockholm#promo h1 {
+  text-indent: 0;
+  font-size: 47px;
+  font-weight: bold;
+  color: #d3360b;
+}
 
 .popayan#promo {
   padding-left:340px;
@@ -588,9 +596,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 390px;
   }
 
-.tokyo#promo {
+.tokyo-2016-07-23#promo {
   padding-left:420px;
   background:url('../images/rg-tokyo-2016-07-23.png') no-repeat left top;
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
+.tokyo#promo {
+  padding-left:420px;
+  background:url('../images/rg-tokyo-2017-03-25.png') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
   }
@@ -887,7 +902,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   padding-left:340px;
   padding-top:30px;
   padding-bottom:30px;
-  background:url('../images/ostrava/rg-event-pic.jpg') no-repeat 10px 40px,
+  background:url('../images/ostrava/rg-ostrava-logo.png') no-repeat 10px 40px /25%,
              url('../images/separator.png') no-repeat center bottom;
   min-height:300px;
 }
@@ -1487,7 +1502,7 @@ h4.warsaw {
 }
 
 .dublin#promo h1 {
-    background:url('../images/rg-dublin-header.png') no-repeat left top;
+    background:url('../images/dublin/rg-dublin-header_2017.png') no-repeat left top;
 
     }
 
@@ -1703,7 +1718,7 @@ h4.warsaw {
 
 .athens#promo {
   padding-left:340px;
-  background:url('../images/rg-athens.png') no-repeat 0 10px,
+  background:url('../images/rg-athens2017.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -3689,5 +3704,6 @@ padding-top:30px;
 
 .kitakyushu#promo {
   padding-left:460px;
-  background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat 0 10px, url('../images/separator.png') no-repeat center bottom;
+  background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat -150px 30px, url('../images/separator.png') no-repeat center bottom;
+  background-size:750px;
 }
