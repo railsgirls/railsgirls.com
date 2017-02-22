@@ -3707,3 +3707,29 @@ padding-top:30px;
   background:url('../images/kitakyushu/rg-kitakyushu-sq.png') no-repeat -150px 30px, url('../images/separator.png') no-repeat center bottom;
   background-size:750px;
 }
+
+.kitakyushu#schedule {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.kitakyushu#schedule td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px 10px;
+  color: #390c00;
+  text-align: left;
+}
+
+.kitakyushu#schedule th {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px 2px;
+  width: 40px;
+  text-align: center;
+}
+
+.kitakyushu#schedule td h4 {
+  margin-bottom: 2px;
+  font-size: 16px;
+}
