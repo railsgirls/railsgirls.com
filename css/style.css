@@ -506,6 +506,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
 }
 
+.nis#promo > #desno{
+  padding-left:340px;
+  background:url('../images/nis/nis.png') no-repeat 0 10px;
+                 background-size: 320px, 320px;
+}
+
 .belem#promo {
   padding-left:340px;
   background:url('../images/rg-belem.png') no-repeat 0 10px,
