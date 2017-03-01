@@ -2940,6 +2940,21 @@ h3.faq {
   opacity: 0.9;
 }
 
+.geneva-2017#promo {
+  padding-left:340px;
+  background:url('../images/rg-krakow.png') no-repeat 10px 40px;
+}
+.geneva-2017#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  font-weight:bold;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+  color:#d3360b;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+  text-indent: 0;
+  /*background:url('../images/rg-krakow-header.png') no-repeat left top;*/
+}
+
 /*Lagos*/
 .lagos_header {
   background: #d3360b url('../images/lagos/lagos.jpg') no-repeat;
