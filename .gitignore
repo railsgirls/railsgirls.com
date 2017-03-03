@@ -3,6 +3,7 @@
 .project
 Thumbs.db
 *.swp
+*~
 
 config.codekit
 
