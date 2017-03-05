@@ -14,24 +14,24 @@
   <link rel="stylesheet" href="./css/style.css">
   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   <style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:19px Helvetica,Arial,sans-serif;}
-    #mc_embed_signup label {text-transform: none;}
-    #mc_embed_signup input {border: 1px solid red; font-size:19px; background-color: white}
+    /* #mc_embed_signup{background:#fff; clear:left; font:19px Helvetica,Arial,sans-serif;}
+    /* #mc_embed_signup label {text-transform: none;}
+    /* #mc_embed_signup input {border: 1px solid red; font-size:19px; background-color: white} */
     /* do not group these rules */
     #mc_embed_signup *::-webkit-input-placeholder {
-        color: #bbb;
+      color: #bbb;
     }
     #mc_embed_signup *:-moz-placeholder {
-        /* FF 4-18 */
-        color: #bbb;
+      /* FF 4-18 */
+      color: #bbb;
     }
     #mc_embed_signup *::-moz-placeholder {
-        /* FF 19+ */
-        color: #bbb;
+      /* FF 19+ */
+      color: #bbb;
     }
     #mc_embed_signup *:-ms-input-placeholder {
-        /* IE 10+ */
-        color: #bbb;
+      /* IE 10+ */
+      color: #bbb;
     }
   </style>
 
@@ -45,7 +45,7 @@
   <![endif]-->
 </head>
 <body>
-<div id="fb-root"></div>
+  <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -62,7 +62,7 @@
         <a href="./press.html">Press</a>
         <a href="http://blog.railsgirls.com">Blog</a>
         <a href="http://guides.railsgirls.com">Guides</a>
-        <a href="./geneva_fr.html"><em>français</em></a>
+        <a href="./geneva_fr"><em>français</em></a>
       </nav>
     </div>
   </header>
@@ -80,10 +80,16 @@
           <form action="//railsgirls.us11.list-manage.com/subscribe/post?u=bf257d59aec1747afb9246fce&amp;id=4573a931ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <label for="mce-EMAIL">Register to our mailing list</label>
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <br>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" autofocus required>
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bf257d59aec1747afb9246fce_4573a931ea" tabindex="-1" value=""></div>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_bf257d59aec1747afb9246fce_4573a931ea" tabindex="-1" value="">
+              </div>
+              <br>
+              <div>
+                <input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="button"/>
+              </div>
             </div>
           </form>
         </div>
@@ -91,45 +97,45 @@
         <div id="share">
           <div style="margin:0 15px 0 0;">
             <a href="http://twitter.com/share" class="twitter-share-button" data-url=""
-               data-text="Rails Girls Genève 2017" data-count="horizontal" data-via="railsgirls">
-               Tweet
-            </a>
-            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-          </div>
-          <div class="fb-like" data-href="https://www.facebook.com/railsgirlsgeneva" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            data-text="Rails Girls Genève 2017" data-count="horizontal" data-via="railsgirls">
+            Tweet
+          </a>
+          <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
         </div>
+        <div class="fb-like" data-href="https://www.facebook.com/railsgirlsgeneva" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
       </div>
     </div>
   </div>
+</div>
 
-  <div id="container" class="container_12 page clearfix">
-    <div class="grid_12 omega alpha">
-      <div class="grid_4 alpha feature">
-        <p>
-          <strong>You learn</strong> designing, prototyping and coding with the help from our coaches.
-        </p>
-      </div>
-      <div class="grid_4 feature">
-        <p>
-          <strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!
-        </p>
-      </div>
-      <div class="grid_4 omega feature">
-        <p>
-          <strong>Questions?</strong>
-           Contact us <a href="mailto:railsgirlsgeneva@gmail.com">railsgirlsgeneva@gmail.com</a>
-        </p>
-      </div>
+<div id="container" class="container_12 page clearfix">
+  <div class="grid_12 omega alpha">
+    <div class="grid_4 alpha feature">
+      <p>
+        <strong>You learn</strong> designing, prototyping and coding with the help from our coaches.
+      </p>
+    </div>
+    <div class="grid_4 feature">
+      <p>
+        <strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!
+      </p>
+    </div>
+    <div class="grid_4 omega feature">
+      <p>
+        <strong>Questions?</strong>
+        Contact us <a href="mailto:railsgirlsgeneva@gmail.com">railsgirlsgeneva@gmail.com</a>
+      </p>
     </div>
   </div>
+</div>
 
 
-  <footer>
-    <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a
-      href="http://twitter.com/railsgirls">Twitter</a> and <a
-      href="https://www.facebook.com/railsgirls">Facebook</a>
-    </p>
-    <p class="slogan">Get excited and make things!</p>
-  </footer>
+<footer>
+  <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a
+    href="http://twitter.com/railsgirls">Twitter</a> and <a
+    href="https://www.facebook.com/railsgirls">Facebook</a>
+  </p>
+  <p class="slogan">Get excited and make things!</p>
+</footer>
 </body>
 </html>
