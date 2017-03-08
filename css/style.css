@@ -3042,6 +3042,58 @@ div.bta-sponsors-top{ margin-top: 50px;}
 
 /* End Medellin */
 
+/* Pereira */
+
+.pereira#promo {
+  padding-left:340px;
+  background:url('../images/pereira/cover.jpg') no-repeat 0 10px;
+}
+
+.pereira#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
+.pereira#promo div.registro{height: 80px; }
+.pereira#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.pereira#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.pereira#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.pereira{ color: #444;}
+
+small.bta_role{ font-size: 80%; }
+
+div.bta-sponsors{ margin-bottom: 30px; height: 90px; }
+
+div.bta-sponsors a { float:left; margin:0 0 0; border:0;}
+
+div.bta-sponsors-top{ margin-top: 50px;}
+
+/* End Pereira */
+
 /* Bogota */
 
 .bogota#promo {
