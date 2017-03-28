@@ -6,11 +6,11 @@
 
     <!--  Add your city name, dates and year.  -->
 
-    <title>Stockholm 24th-25th March 2017</title>
+    <title>Stockholm 12/05 - 13/05 2017</title>
 
     <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-    <meta name="description" content="Rails Girls does Stockholm (24th-25th March 2017): join the crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="description" content="Rails Girls is returning to Stockholm in May 2017! Join our two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
     <meta name="author" content="Rails Girls">
 
     <link rel="shortcut icon" href="/favicon.png">
@@ -32,6 +32,137 @@
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
+    <style type="text/css">
+        /**
+         * BUTTON STYLES
+         * from http://alexwolfe.github.io/Buttons/
+        **/
+
+        .button {
+            -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+            background-color: #eeeeee;
+            background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+            background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+            background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+            background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+            background: linear-gradient(top, #fbfbfb, #e1e1e1);
+            display: -moz-inline-stack;
+            display: inline-block;
+            vertical-align: middle;
+            *vertical-align: auto;
+            zoom: 1;
+            *display: inline;
+            border: 1px solid #d4d4d4;
+            height: 32px;
+            line-height: 32px;
+            padding: 0px 25.6px;
+            font-weight: 300;
+            font-size: 14px;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            color: #666666;
+            text-shadow: 0 1px 1px white;
+            margin: 0;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #eeeeee;
+            background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+            background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+            background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+            background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+            background: linear-gradient(top, #ffffff, #dcdcdc);
+        }
+        /* line 47, ../scss/partials/_buttons.scss */
+
+        .button:active {
+            -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+            -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+            text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+            background: #eeeeee;
+            color: #bbbbbb;
+        }
+
+        .button:focus {
+            outline: none;
+        }
+
+        .button-wrap {
+            background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3e3e3), color-stop(100%, #f2f2f2));
+            background: -webkit-linear-gradient(top, #e3e3e3, #f2f2f2);
+            background: -moz-linear-gradient(top, #e3e3e3, #f2f2f2);
+            background: -o-linear-gradient(top, #e3e3e3, #f2f2f2);
+            background: linear-gradient(top, #e3e3e3, #f2f2f2);
+            -webkit-border-radius: 200px;
+            -moz-border-radius: 200px;
+            -ms-border-radius: 200px;
+            -o-border-radius: 200px;
+            border-radius: 200px;
+            -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+            -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+            padding: 10px;
+            display: inline-block;
+        }
+
+        .button-pill {
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+            border-radius: 50px;
+        }
+
+        .button-caution {
+            background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8543f), color-stop(100%, #d9331a));
+            background: -webkit-linear-gradient(top, #e8543f, #d9331a);
+            background: -moz-linear-gradient(top, #e8543f, #d9331a);
+            background: -o-linear-gradient(top, #e8543f, #d9331a);
+            background: linear-gradient(top, #e8543f, #d9331a);
+            background-color: #e54028;
+            border-color: #c22d18;
+            color: white;
+            text-shadow: 0 -1px 1px rgba(103, 24, 13, 0.35);
+        }
+
+        .button-caution:hover {
+            background-color: #e54028;
+            background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb6855), color-stop(100%, #d9331a));
+            background: -webkit-linear-gradient(top, #eb6855, #d9331a);
+            background: -moz-linear-gradient(top, #eb6855, #d9331a);
+            background: -o-linear-gradient(top, #eb6855, #d9331a);
+            background: linear-gradient(top, #eb6855, #d9331a);
+        }
+
+        .button-large {
+            font-size: 19px;
+            height: 38.4px;
+            line-height: 38.4px;
+            padding: 0px 30.72px;
+        }
+
+        .more-events {
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .more-events a {
+            display: inline-block;
+            margin-left: 5px;
+        }
+
+        .more-events a.active {
+            font-weight: bold;
+        }
+
+        #promo.new h1 {
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -45,10 +176,11 @@
                 <a href="./press.html">Press</a>
                 <a href="http://blog.railsgirls.com">Blog</a>
                 <a href="http://guides.railsgirls.com">
-                  Guides</a>
+              Guides</a>
             </nav>
         </div>
     </header>
+
 
     <!--   How to change the picture & header for site
 In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
@@ -76,251 +208,205 @@ Steps to show on site
 
     <div id="container" class="container_12 page clearfix">
         <div class="grid_12 omega alpha">
-            <div id="promo" class="new stockholm">
+            <div id="promo" class="stockholm">
                 <h1>Rails Girls Stockholm</h1>
-                <h2>24th-25th March 2017</h2>
+                <h2>May 12th & 13th, 2017</h2>
+
+                <p>Hello world!</p>
+                <p>Rails Girls is coming to Stockholm! During the free two-day workshop we'll dive into the magical world of web programming with Ruby on Rails.</p>
                 <p>
-                    Rails Girls is once again coming to Stockholm, bigger and better than ever! During the two day workshop we'll dive into the magical world of Ruby on Rails. </p>
+                    <!-- <strong>Applications are now closed.</strong> Confirmations to participants will be send out on the 20th of March (please double check your spam folder). -->
 
-                <p>Follow us on <a href="https://www.facebook.com/RailsGirlsStockholm">Facebook</a> and <a href="https://twitter.com/RailsGirlsSthlm">Twitter</a> for information on upcoming events and meetups</p>
 
-            </div>
-            <div id="share">
+                    <span class="button-wrap">
+            <a href="https://goo.gl/forms/1pQBztmeG1tVWIwZ2" class="button button-large button-caution button-pill" target="_blank">Apply Now!</a>
+           </span>
+                </p>
 
-                <div>
+                <p>Follow the event on <a href="https://www.facebook.com/events/741804569316008/">Facebook</a></p>
+                <!--  Update the sharing texts.-->
 
-                    <div style="margin:0 15px 0 0;">
-                        <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="I'm attending Rails Girls Stockholm 24th-25th March - apply now @railsgirlssthlm! https://tinyurl.com/j9c5tcy" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
-          Tweet</a>
-                        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                <div id="share">
+
+                    <div>
+
+                        <div style="margin:0 15px 0 0;">
+                            <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Stockholm May 12th & 13th, 2017" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+            Tweet</a>
+
+                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+                        </div>
                     </div>
-
-                    <div id="fb-root" style=""></div>
-                    <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-                    <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+                    </p>
                 </div>
             </div>
-        </div>
 
 
-        <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+            <!--  You can use your own contact e-mail here, or we can send you the e-mails from contact@! -->
 
-        <div class="grid_4 alpha feature">
-            <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
-        </div>
-        <div class="grid_4 feature">
-            <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
-        </div>
-        <div class="grid_4 omega feature">
-            <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches.</p>
-        </div>
-
-
-        <!-- <p style="text-align:center"><i><strong>Register below but please be aware that spaces are limited</strong></i></p> -->
-
-        <hr />
-
-        <p style="text-align:center"><i><strong>Due to demand we've had to close registrations but don't fret we're back in sometime soon.  Thanks to everyone who has applied, we'll be in touch shortly.</strong></i></p>
-
-
-        <!-- <h1 style="text-align:center"><a href="https://www.meetup.com/sthlmrb/events/237371357">Registration open now</a></h1> -->
-
-        <div class="grid_6 alpha">
-            <h2>Friday 24th March</h2>
-            <table id="schedule">
-                <tbody>
-                    <tr>
-                        <th>18.00 - 19.30</th>
-                        <td>
-                            <h4><a href="http://guides.railsgirls.com/install">Installation party</a></h4> Get know the attendees a little bit before hand. Bring your laptop if you need any help with setup.<br /> We'll also have a short introductary presentation covering the fundamentals of web applications.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="grid_4 alpha feature">
+                <p><strong>You will learn</strong> designing, prototyping and coding with help from our coaches.</p>
+            </div>
+            <div class="grid_4 feature">
+                <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+            </div>
+            <div class="grid_4 omega feature">
+                <p><strong>Want to help?</strong> We are looking for Rails coaches. <a href="https://goo.gl/forms/0UWvBk4iWZjTMVXY2">Sign up here</a>.</p>
+            </div>
 
             <hr />
 
-            <h2>Saturday 25th March</h2>
-            <table id="schedule">
-                <tbody>
-                    <tr>
-                        <th>9:00 - 10:00</th>
-                        <td>
-                            <h4>Registration and coffee</h4> During the morning we’ll get settled down and prepared for the day
-                        </td>
-                    </tr>
+            <div class="grid_6 alpha">
+                <h2>Friday May 12th</h2>
+                <table id="schedule">
+                    <tbody>
+                        <tr>
+                            <th>17:00 - 19:30</th>
+                            <td>
+                                <h4>Installation party + <a href="http://tryruby.org" target="_blank">Try Ruby</a></h4> Get to know each other a bit before the workhsop starts. Bring your laptop, so we can install Ruby on Rails together. <br>
+                                <strong>Where: Klarna AB</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                    <tr>
-                        <th>10:00 - 10:10</th>
-                        <td>
-                            <h4>Welcome</h4> Outline of the day &amp; word from sponsors
-                        </td>
-                    </tr>
+                <hr />
 
-                    <tr>
-                        <th>10:10 - 10:30</th>
-                        <td>
-                            <h4>Get to know each other</h4> An icebreaker to make new friends
-                        </td>
-                    </tr>
+                <h2>Saturday May 13th</h2>
 
-                    <tr>
-                        <th>10:30 - 10:45</th>
-                        <td>
-                            <h4>How web apps work</h4>
-                        </td>
-                    </tr>
+                <table id="schedule">
+                    <tbody>
+                        <tr>
+                            <th>8:30 - 09:00</th>
+                            <td>
+                                <h4>Registration, coffee and light breakfast</h4> Grab a coffee, light breakfast and register in order to get set up for the workshop!
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <th>10:45 - 11:10</th>
-                        <td>
+                        <tr>
+                            <th>09:00 - 09:15</th>
+                            <td>
+                                <h4>Welcome</h4> Outline of the day and a few words from our sponsor
+                            </td>
+                        </tr>
 
-                            <h4><a href="http://www.tryruby.org">Tryruby.org</a></h4>
-                            <strong>Let's get coding!</strong>
-                        </td>
-                    </tr>
+                        <tr>
+                            <th>09:15 - 10:00</th>
+                            <td>
+                                <h4>Introduction to web programming</h4>
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <th>11:10 - 13:00</th>
-                        <td>
-                            <h4><a href="http://guides.railsgirls.com/app">Workshop</a></h4> Jumpstart your first web application
-                        </td>
-                    </tr>
+                        <tr>
+                            <th>10:00 - 13:00</th>
+                            <td>
+                                <h4>Hands-on, Minds-on workshop</h4> We will work on creating the <a href="http://www.railsgirls.co.il/en/guides/app/introduction.html">Rails Girls app</a>
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <th>13:00 - 14:00</th>
-                        <td>
-                            <h4>Lunch</h4></td>
-                    </tr>
+                        <tr>
+                            <th>13:00 - 13:45</th>
+                            <td>
+                                <h4>Lunch!</h4>
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <th>14:00 - 14:15</th>
-                        <td>
-                            <h4>Designing your web app</h4>
-                        </td>
-                    </tr>
+                        <tr>
+                            <th>13:45 - 14:45</th>
+                            <td>
+                                <h4>
+                Lightning Talks
+                 </h4> Short and fun talks by our coaches
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <th>14:15 - 16:30</th>
-                        <td>
-                            <h4><a href="http://guides.railsgirls.com/app">Workshop</a></h4> Extend your application.
-                        </td>
-                    </tr>
+                        <tr>
+                            <th>14:45 - 16:45</th>
+                            <td>
+                                <h4>Workshop continues</h4> Expand your app and add cool features to it
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <th>16:30 - 17:00</th>
-                        <td>
-                            <h4>Question Time!</h4> We answer your questions about life, the universe and everything.
-                        </td>
-                    </tr>
+                        <tr>
+                            <th>16:45 - 17:00</th>
+                            <td>
+                                <h4>Closure</h4>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                    <tr>
-                        <th>17:00 - 22:00</th>
-                        <td>
-                            <h4>Afterparty</h4> Open for everyone, meet cool people interested in tech. <br>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+            </div>
 
-        <!--  These also, just update :) -->
+            <!--  These also, just update :) -->
 
 
-        <div class="grid_5 push_1 omega side">
+            <div class="grid_5 push_1 omega side">
 
-            <h3>Information</h3>
-            <p>
-                <p>
-                    <strong>RSVPs close:</strong> March 24th 2017<br/>
-                    <strong>Location:</strong> <i>Universal Avenue office</i><br /> Grev Turegatan 5e, 114 46 Stockholm
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.8492387344631!2d18.072863515952296!3d59.33547081757239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5b6f39f717%3A0x22cd5fecf144aa3a!2sGrev+Turegatan+5%2C+114+46+Stockholm!5e0!3m2!1sen!2sse!4v1485966381083"
-                        width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </p>
-
+                <h3>Information</h3>
+                <p><strong>Applications close:</strong> April 25th<br/>
+                    <strong>Acceptances informed:</strong> May 1st<br> (please check also your Spam folder for the reply)</p>
+                <p><strong>Location:</strong> Klarna AB - Sveavägen 46, 111 34 Stockholm <a href="https://www.google.co.il/maps/place/Klarna+AB+Stockholm+Office/@59.3371711,18.0602018,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d7698600c59:0x4fbbacb35803b406!8m2!3d59.3371711!4d18.0623905?hl=en">Maps</a></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.7473950597814!2d18.06020181607264!3d59.33717108166165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d7698600c59%3A0x4fbbacb35803b406!2sKlarna+AB+Stockholm+Office!5e0!3m2!1sen!2sil!4v1490271840605" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-
-
                 <h3>Partners</h3>
 
                 <p>Rails Girls Stockholm is co-organized with our awesome partners.</p>
-                <p>Want to help? We're looking for partners & sponsors for the non-profit event! </p>
+                <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:contact@railsgirls.co.il">Email us</a>! </p>
                 <hr />
-                <p style="float: right;">
-                    <a href="https://www.universalavenue.com/" style="float:right; margin:0 0 0; border:0;"><img src="./images/stockholm/universal-avenue.png" alt="Universal Avenue" width="150"></a>
-                    <a href="https://www.universalavenue.com/">Universal Avenue</a> is a global on demand sales platform. It connects growing and established brands with a talented community of Brand Ambassadors that help drive customer acquisition, where and when a business needs it. For brands, this provides the flexibility to expand and scale in existing and new markets. For Brand Ambassadors, it offers the freedom to define their own working patterns, have a flexible lifestyle and create a lucrative revenue stream by introducing innovative, new products to the market.
-                </p>
-                <p style="float: right;">
-                    <a href="http://www.hemnet.se/" style="float:right; margin:0 0 0; border:0;"><img src="./images/stockholm/hemnet_logo.jpg" alt="Hemnet" width="150"></a>
-                    There’s no place like <a href="http://www.hemnet.se/">Hemnet</a> <br/><br/> Each week, 2.5 million unique visitors come to Hemnet, Sweden’s favorite property portal, to buy, sell or dream about a new home. Some are looking for a seachange, others for a seaview. Some are looking to downsize, others for downtown. No matter the size or type, Hemnet helps the world’s most home-obsessed population find their dream home.
-                </p>
-                <p style="float: right;">
-                    <a href="http://www.spotify.com/" style="float:right; margin:0 0 0; border:0;"><img src="./images/stockholm/spotify_logo.png" alt="Spotify" width="150"></a>
-                    <a href="http://www.spotify.com/">Spotify</a> is an award-winning digital music service that gives you on-demand access to over 18 million* songs, wherever you are. Our dream is to make all the world’s music available instantly to everyone. Spotify makes it easier than ever to discover, manage and share music with your friends, while making sure that artists get a fair deal.
+                <p>
+                    <a href="https://www.klarna.com/" style="float:right; margin:0 0 5px 0; border:0;"><img src="./images/tel-aviv/klarna.png" alt="makandra" width="150"></a>
+                    <a href="https://www.klarna.com/">Klarna</a> makes online shopping simple, we allow you to buy without the use of cards and only using top of the mind information.
+                    <strong>Proud sponsor of the Rails Girls Stockholm event</strong>!
                 </p>
                 <hr />
+
                 <h3>FAQ</h3>
-                <p><strong>How much does the workshop cost?</strong> Nothing, it's free! You just need to be excited!
+                <p><strong>How much does the workshop cost?</strong>  Nothing, it's free! You just need to be excited!
                 </p>
                 <p>
-                    <strong>Who is this aimed at?</strong> Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Please bring your laptop.
+                    <strong>Who is this workshop for?</strong> Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Talks will be conducted in English, but you are free to work in Swedish amongst
+                    your group (if all the group members speak Swedish). Please bring your laptop.
                 </p>
                 <p>
-                    <strong>Can men attend?</strong> Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
-                </p>
-                <p>
-                    <strong>I know how to program - How can I help?</strong> We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
+                    <strong>Can men attend?</strong> Yes, if we have available spots.
                 </p>
                 <p>
                     <strong>Is there a Code of Conduct?</strong> Yes! In short, Rails Girls Stockholm is dedicated to a harassment-free workshop experience for everyone. Our full anti-harassment policy can be found at: <a href="stockholm_coc.html">www.railsgirls.com/stockholm_coc</a>
                 </p>
 
-        </div>
+            </div>
 
+            <div class="coaches">
+                <hr />
+                <h2>Stockholm team</h2>
 
-        <!--  Update the team list       -->
-        <div class="coaches">
-            <hr />
-            <h2>Stockholm team</h2>
+                <a href="mailto:ilana.shub@gmail.com" class="grid_3">
 
-            <a href="https://twitter.com/thespacepony" class="grid_3">
-                <img src="https://avatars0.githubusercontent.com/u/8427242?v=3&s=460" class="coach" /> Alexia McDonald, organizer
-                <small>@thespacepony</small>
-            </a>
+                  <img src="./images/stockholm/coach_fem.jpg" class="coach" /> Ilona Shub<br/>Organiser &amp; Coach
 
-            <a href="https://twitter.com/teoljungberg" class="grid_3">
-                <img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" class="coach" /> Teo Ljungberg, Organizer
-                <small>@teoljungberg</small>
-            </a>
+                </a>
+                <a href="mailto:inbal.gilai@klarna.com" class="grid_3">
 
-            <a href="https://twitter.com/niclasahden" class="grid_3">
-                <img src="https://avatars3.githubusercontent.com/u/702088?v=3&s=460" class="coach" /> Niclas Åhdén, Organizer
-                <small>@niclasahden</small>
-            </a>
-            <a class="grid_3">
-                <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAgHAAAAJGZmNDFjNjhlLWIzYjgtNDg3MC04MTRjLTVhYmU1MDQ2OWI0Mg.jpg" class="coach" /> Josefin Agerblad, Organizer
-            </a>
-            <a href="https://twitter.com/pallinder" class="grid_3">
-                <img src="https://pbs.twimg.com/profile_images/844594685037465601/GykE8pNV.jpg" class="coach" /> David Pallinder, Coach
-                <small>@pallinder</small>
-            </a>
-            <a href="https://twitter.com/alihaberfield" class="grid_3">
-                <img src="https://pbs.twimg.com/profile_images/765239133753184256/tPkOze0w.jpg" class="coach" /> Ali Haberfield, Coach
-                <small>@alihaberfield</small>
-            </a>
-            <a href="https://github.com/yboulkaid" class="grid_3">
-                <img src="https://avatars0.githubusercontent.com/u/2894651?v=3&s=460" class="coach" /> Youssef Boulkaid, Coach
-            </a>
-            <a class="grid_3">
-                <img src="./images/stockholm/coach.jpg" class="coach" /> Bence Vajda, Coach
-            </a>
-            <a class="grid_3">
-                <img src="https://res.cloudinary.com/universal-avenue/image/upload/c_fill,dpr_auto,f_auto,g_face,h_600,q_auto,w_800/v1/team/users/56.jpg" class="coach" /> Guilherme Cortes Silva, Coach
-            </a>
+                  <img src="./images/stockholm/coach_fem.jpg" class="coach" /> Inbal Ghilai<br/>Organiser &amp; Coach
+                 </a>
 
+                <a href="mailto:elspeth.andrell@klarna.com " class="grid_3">
+
+                    <img src="./images/stockholm/coach_fem.jpg" class="coach" /> Elspeth Andrell<br/>Organiser
+
+                  </a>
+            </div>
 
         </div>
+    </div>
+
+
+
+
+
     </div>
     </div>
     </div>
@@ -345,6 +431,7 @@ Steps to show on site
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
+
 </body>
 
 </html>
