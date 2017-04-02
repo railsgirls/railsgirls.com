@@ -63,6 +63,12 @@ a, a:visited, a:focus, a:active, a:hover{
           background:url('../images/rg-rome2014-header.png') no-repeat left top;
         }
 
+.chisinau2017#promo {
+  padding-left:340px;
+  background:url('../images/rg-chisinau.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .brisbane#promo {
   padding-left:334px;
   background:url('../images/brisbane/rg-cover.jpg') no-repeat 0 10px,
