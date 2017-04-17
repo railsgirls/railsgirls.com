@@ -371,8 +371,11 @@
       var totalSeats = 100;
       var registrationsUrl = 'https://docs.google.com/spreadsheets/d/1xh78fqCbC1GPfRZF7Ek2b-KSjmHGtDL1IfUM85X8lng/pub?gid=235706218&single=true&output=tsv';
 
+      // Google Docs don't set Access-Control-Allow-Origin and that's why we need a proxy.
+      registrationsUrl = 'http://hb.hno3.org/railsgirls.php?url=' + encodeURIComponent(registrationsUrl);
+
       var countSeatsTakenIn = function (data) {
-        if (typeof data !== 'string') return null;
+        if (typeof data !== 'string' || data === '') return null;
 
         var seats = 0;
 
