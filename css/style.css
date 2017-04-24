@@ -3217,6 +3217,55 @@ small.cali-role{ font-size: 80%; }
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+/* starts Sorocaba */
+
+.sorocaba_header_2016 {
+  background: #d3360b url('../images/sorocaba/header_rg_sorocaba.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.sorocaba_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+.sorocaba_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.sorocaba_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.sorocaba_header .button {
+  background-color: #fff;
+  color: #d3360b;
+  padding: 20px 40px;
+  font-size: 22px;
+  position: relative;
+  margin: 30px 0;
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.3s linear;
+}
+.sorocaba_header .button:hover { box-shadow: inset 3px 2px 20px rgba(0,0,0, 0.3);}
+
+/* end Sorocaba*/
+
+
 .poa_header_2016 {
   background: #d3360b url('../images/porto-alegre/rails_girls_poa_2016.jpg') no-repeat;
   background-size: cover;
