@@ -3251,15 +3251,16 @@ small.cali-role{ font-size: 80%; }
 .sorocaba_header .button {
   background-color: #fff;
   color: #d3360b;
-  padding: 20px 40px;
+  padding: 20px 10px;
   font-size: 22px;
   position: relative;
-  margin: 30px 0;
+  margin: 30px 78px;
   display: inline-block;
   border-radius: 8px;
   text-transform: uppercase;
   border: none;
   transition: all 0.3s linear;
+  width: 206px;
 }
 .sorocaba_header .button:hover { box-shadow: inset 3px 2px 20px rgba(0,0,0, 0.3);}
 
