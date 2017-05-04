@@ -33,19 +33,35 @@
     .twitter-share-button {
       margin-bottom: 3px;
     }
-
+	  
     .grid_12 .time {
       float: left;
       margin-right: 40px;
       text-align: left;
     }
 
-    .grid_12 .time:after {
-      content: " - ";
-    }
-
     .grid_12 .grid_5 p {
       margin-left: 85px;
+    }
+	  
+    .grid_flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 9px 0;
+    }
+	  
+    .grid_flex .time {
+      width: 16%;
+      margin: 0;
+      float: none;
+      font-size: 16px;
+    }
+
+    .grid_flex h4 {
+      display: block;
+      width: 80%;
+      margin: 0;
     }
 
     .partners {
@@ -130,6 +146,7 @@
             Rails Girls Sorocaba
             <small>16 e 17 de Junho, 2017</small>
           </h1>
+	  <a href="https://goo.gl/forms/twBna48tTRPGXik82" target="_blank" class="button">Quero aprender </a>
           <a href="https://goo.gl/forms/vr75Wmwlk3iOhJCA3" target="_blank" class="button">Seja uma mentora</a>
          </div>
        </div>
@@ -172,30 +189,27 @@
       <div class="grid_12">
         <div class="grid_6 alpha">
           <h2>Sexta, 16 de Junho</h2>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">19:30</span>
-            <h4>Recepção/Credenciamento</h4>
+            <h4>Recepção e Credenciamento</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">19:45</span>
             <h4>Abertura</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">20:00</span>
             <h4>O que é Rails Girls e por que estamos aqui?</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">20:30</span>
-            <h4>Palestra sobre TI</h4>
-            <p>
-              Possíveis profissões e motivação para meninas na área
-            </p>
+	    <h4>Carreira em TI é só programação? Carreira, mercado e como começar.</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">21:00</span>
             <h4>Pizza time!</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">21:30</span>
             <h4>Install fest com balinhas e playlist maneira</h4>
           </div>
@@ -203,53 +217,47 @@
 
         <div class="grid_6 omega">
           <h2>Sábado, 17 de Junho</h2>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">09:00</span>
             <h4>Recepção</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">09:30</span>
-            <h4>Palestra: UI e UX</h4>
+            <h4>UI e UX e desenvolvimento de protótipos</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">10:30</span>
             <h4>Coffee break</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">11:00</span>
-            <h4>Palestra: Front-end</h4>
+            <h4>Front-end: Criando sua primeira página web!</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">11:30</span>
-            <h4>Palestra: GIT</h4>
+            <h4>Git 101: Aprenda a usar Git da maneira correta</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">12:00</span>
-            <h4>Palestra: Ruby</h4>
-            <p>
-              O que é Ruby/Ruby on Rails? Como começar?
-            </p>
+            <h4>O que é Ruby/Ruby on Rails? Como começar?</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">12:30</span>
             <h4>Almoço</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">13:40</span>
             <h4>Mãos a obra!</h4>
-            <p>
-              #vamosla #vamoscodar
-            </p>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">15:30</span>
             <h4>Coffee break</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">16:10</span>
-            <h4>Finalizando os apps</h4>
+            <h4>Finalizando os apps...</h4>
           </div>
-          <div class="grid_5">
+          <div class="grid_5 grid_flex">
             <span class="time">17:40</span>
             <h4>Até mais e obrigada pelos peixes ;)</h4>
           </div>
@@ -260,6 +268,10 @@
 
       <div class="grid_12">
         <h3>FAQ</h3>
+	<p><strong>O que é Rails Girls?</strong> Rails Girls é um evento de dois dias sem fins lucrativos que acontece no mundo inteiro, o Rails Girls é destinado à mulheres de todas as idades que tem como objetivo oferecer uma grande primeira experiência em desenvolvimento de software.
+Nosso objetivo é oferecer acesso para que as meninas possam aprender sobre a tecnologia junto com a comunidade e inspiração para que se sintam motivadas para começar.
+Rails Girls não é só sobre programação, é sobre a construção de coisas. Durante o evento, iremos construir um aplicativo e também ter insights e exercícios inspiradores.</p>
+	      
         <p><strong>O evento ser&aacute; em ingl&ecirc;s?</strong> N&atilde;o! O evento será em português.</p>
 
         <p><strong>Quanto custa o evento?</strong> Nada, &eacute; de gra&ccedil;a! Voc&ecirc; s&oacute; precisa ser curiosa!</p>
@@ -268,7 +280,7 @@
 
         <p><strong>Homens podem participar?</strong> A prioridade será dada às mulheres.</p>
 
-        <p><strong>Eu sei programar! Como posso ajudar?</strong> Estamos procurando por mentoras. <a href="https://goo.gl/forms/vr75Wmwlk3iOhJCA3" title="Seja uma mentora" target="_blank">Clique aqui</a> e nos conte sobre você! Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a fun&ccedil;&atilde;o de treinador. Caso voc&ecirc; tenha qualquer d&uacute;vida, manda um email para <a href="mailto:railsgirlssorocaba.com">nós</a>.</p>
+        <p><strong>Eu sei programar! Como posso ajudar?</strong> Estamos procurando por mentoras. <a href="https://goo.gl/forms/vr75Wmwlk3iOhJCA3" title="Seja uma mentora" target="_blank">Clique aqui</a> e nos conte sobre você! Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a fun&ccedil;&atilde;o de mentora. Caso voc&ecirc; tenha qualquer d&uacute;vida, manda um email para <a href="mailto:railsgirlssorocaba.com">nós</a>.</p>
       </div>
 
       <hr/>
