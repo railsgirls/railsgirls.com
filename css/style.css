@@ -2975,6 +2975,23 @@ h3.faq {
   padding: 1em 0;
 }
 
+table.schedule td {
+  padding:1em 0;
+  font-size:15px;
+  color:#390c00;
+}
+
+table.schedule th {
+  width:25%;
+  font-size:15px;
+  font-weight:200;
+  text-align:left;
+}
+
+table.schedule td h4 {
+  margin-bottom:0.2em;
+}
+
 /*Lagos*/
 .lagos_header {
   background: #d3360b url('../images/lagos/lagos.jpg') no-repeat;
