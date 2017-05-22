@@ -63,6 +63,12 @@ a, a:visited, a:focus, a:active, a:hover{
           background:url('../images/rg-rome2014-header.png') no-repeat left top;
         }
 
+.chisinau2017#promo {
+  padding-left:340px;
+  background:url('../images/rg-chisinau.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .brisbane#promo {
   padding-left:334px;
   background:url('../images/brisbane/rg-cover.jpg') no-repeat 0 10px,
@@ -1658,7 +1664,6 @@ h4.warsaw {
   width: 345px;
 }
 
-
 .silesia #promo {
   padding-left: 340px;
   background: url('../images/rg-silesia.png') no-repeat 0 10px,
@@ -1669,6 +1674,12 @@ h4.warsaw {
   padding-left: 340px;
   background: url('../images/cieszyn/logo.png') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
+}
+
+.silesia #promo.gorzow {
+  padding-left: 340px;
+  background: url('../images/gorzow/logo.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
 }
 
 .silesia #promo h1 {
@@ -2969,6 +2980,23 @@ h3.faq {
   padding: 1em 0;
 }
 
+table.schedule td {
+  padding:1em 0;
+  font-size:15px;
+  color:#390c00;
+}
+
+table.schedule th {
+  width:25%;
+  font-size:15px;
+  font-weight:200;
+  text-align:left;
+}
+
+table.schedule td h4 {
+  margin-bottom:0.2em;
+}
+
 /*Lagos*/
 .lagos_header {
   background: #d3360b url('../images/lagos/lagos.jpg') no-repeat;
@@ -3210,6 +3238,56 @@ small.cali-role{ font-size: 80%; }
   background:url('../images/rg-tampere2015.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+
+/* starts Sorocaba */
+
+.sorocaba_header_2016 {
+  background: #d3360b url('../images/sorocaba/header_rg_sorocaba.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.sorocaba_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+.sorocaba_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.sorocaba_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.sorocaba_header .button {
+  background-color: #fff;
+  color: #d3360b;
+  padding: 20px 10px;
+  font-size: 22px;
+  position: relative;
+  margin: 30px 78px;
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.3s linear;
+  width: 206px;
+}
+.sorocaba_header .button:hover { box-shadow: inset 3px 2px 20px rgba(0,0,0, 0.3);}
+
+/* end Sorocaba*/
+
 
 .poa_header_2016 {
   background: #d3360b url('../images/porto-alegre/rails_girls_poa_2016.jpg') no-repeat;
@@ -3819,4 +3897,14 @@ padding-top:30px;
 .kitakyushu#schedule td h4 {
   margin-bottom: 2px;
   font-size: 16px;
+}
+
+.dornbirn#promo {
+    padding-left: 340px;
+    background: url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+}
+.dornbirn#promo h1 {
+    text-indent: 0;
+    color: #d3360b;
+    font-size:42px;
 }
