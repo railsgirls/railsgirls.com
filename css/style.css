@@ -3908,3 +3908,9 @@ padding-top:30px;
     color: #d3360b;
     font-size:42px;
 }
+
+.takasaki#promo {
+  padding-left:420px;
+  background:url('../images/rg-takasaki.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
