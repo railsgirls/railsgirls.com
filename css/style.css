@@ -1379,6 +1379,12 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.zurichawesome#promo {
+  padding-left:440px;
+  background-repeat: no-repeat;
+  background-image: url('../images/zurich2017/rglogo2017.svg');
+}
+
 .zurich#promo h1 {
   background:url('../images/rg-zurich-header.png') no-repeat left top;
 }
