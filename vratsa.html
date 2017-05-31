@@ -365,7 +365,7 @@
        display: table-cell;
 vertical-align: middle;
 text-align: center;
-padding: 3em 0;
+padding: 3em 0 1em;
 position: relative;
     }
     .event-info h1 {
@@ -374,7 +374,7 @@ height: 80px;
 font-weight: bold;
 color: #fff;
 font-size: 52px;
-margin-bottom: 20px;
+margin-bottom: 60px;
 line-height: 1.1;
 text-indent: 0;
     }
@@ -405,11 +405,11 @@ letter-spacing: 3px;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
 }
 .sub-menu
 {  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
-     display: table-footer-group;
+  display: table-footer-group;
   text-align: center;
 }
 .more-about
@@ -427,6 +427,33 @@ letter-spacing: 3px;
     {
       display: inline-block;
     }
+    .registration
+    {
+      color: #fff;
+      text-decoration: none;
+      font-size: 25px;
+      border: 4px solid #fff;
+      padding: 15px 15px 15px 15px;
+     /* border-color:#fff;*/
+    }
+    .registration:hover
+    {
+      color: #e0330c;
+      background-color: #fff;
+    }
+    @media (max-width: 450px) {
+     .event-info h1 {
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+height: 80px;
+font-weight: bold;
+color: #fff;
+font-size: 52px;
+margin-bottom: 100px;
+line-height: 1.1;
+text-indent: 0;
+    }
+    }
+   
   </style>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
@@ -470,6 +497,7 @@ letter-spacing: 3px;
             Rails Girls Vratsa 2.0
             <small>24-25 юни 2017 г.</small>
           </h1>
+           <p class="reg-btn"> <a href="https://goo.gl/forms/fulT4rZvB7silgSg1" class="registration">Регистрирай се тук!</a> </p>
           </div>
           <div class="sub-menu">
              <ul class="shortcuts">
@@ -508,7 +536,7 @@ letter-spacing: 3px;
             <a href="http://goo.gl/forms/DjB1ieJI2ADp8ZIV2" class="signup">Регистрация </a>
           </p>  -->
 
-          <p><strong>Регистрацията ще отвори скоро.</strong></p> 
+<!--           <p><strong>Регистрацията ще отвори скоро.</strong></p>  -->
 
           <!-- <p>
             Регистрацията ще отвори тук на обяд във вторник, 28 юли. Ще е активна до 3 август, включително. Местата са силно ограничени.
@@ -517,15 +545,15 @@ letter-spacing: 3px;
             <a href="http://eepurl.com/POSQ1" class="signup">Извести ме когато регистрацията отвори →</a>
           </p> -->
 
-          <!-- <p>
-            <a href="http://goo.gl/forms/Gh0Ub7mdDi" class="signup">Регистрация →</a>
-          </p> -->
-          
-          <!-- <p>Местата са ограничени, кандидатствайте рано!</p>
           <p>
-            Регистрацията ще е отворена до неделя, 12 юни, 23:59 ч. Местата са ограничени.
+            <a href="https://goo.gl/forms/fulT4rZvB7silgSg1" class="signup">Регистрация →</a>
+          </p> 
+          
+         <p>Местата са ограничени, кандидатствайте рано!</p>
+          <p>
+            Регистрацията ще е отворена до неделя, 18 юни, 23:59 ч. Местата са ограничени.
             В срок до вечерта на 20 юни ще ви пишем дали кандидатурата ви е одобрена или не.
-          </p> -->
+          </p> 
 
           <!--  <p>
             <strong> Регистрацията приключи. </strong>
@@ -536,7 +564,6 @@ letter-spacing: 3px;
           </p>  -->
 
           <!-- <p>Очакваме ви!</p> -->
-
           <p>
             Ако желаете да ви изпращаме известия за предстоящи Rails Girls събития,
             или важни новини около тях, абонирайте се за <a href="http://eepurl.com/POSQ1">новинарския ни бюлетин</a>. Изпращаме няколко писма на година.
