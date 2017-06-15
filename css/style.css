@@ -3926,3 +3926,7 @@ padding-top:30px;
   background:url('../images/rg-takasaki.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
+#past-editions a img {
+  width: 450px;
+}
+
