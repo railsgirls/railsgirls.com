@@ -2986,6 +2986,19 @@ h3.faq {
   padding: 1em 0;
 }
 
+.geneva-2017 .sponsors h3 {
+  text-align: center
+}
+
+.geneva-2017 .sponsor-gold img {
+  width: 300px
+}
+
+.geneva-2017 .sponsor-gold p {
+  width: 300px;
+  margin: auto;
+}
+
 table.schedule td {
   padding:1em 0;
   font-size:15px;
@@ -3929,4 +3942,3 @@ padding-top:30px;
 #past-editions a img {
   width: 450px;
 }
-
