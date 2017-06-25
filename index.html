@@ -188,7 +188,7 @@
 
   <footer>
     <p>
-      2010-2015, Rails Girls.
+      2010-<span id="year"></span>, Rails Girls.
       <a href="./press.html">Contact us</a>
       or follow us on
       <a href="http://twitter.com/railsgirls">Twitter</a>
@@ -208,6 +208,11 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+  var currentYear = (new Date()).getFullYear();
+  $(document).ready(function() {
+    $("#year").text(currentYear);
+  });
   </script>
 </div>
 </body>
