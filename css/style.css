@@ -3269,7 +3269,7 @@ small.cali-role{ font-size: 80%; }
 /* starts Sorocaba */
 
 .sorocaba_header_2016 {
-  background: #d3360b url('../images/sorocaba/header_rg_sorocaba.jpg') no-repeat;
+  background: #d3360b url('../images/sorocaba/rails_girls_sorocaba_2017.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -3287,6 +3287,10 @@ small.cali-role{ font-size: 80%; }
 .sorocaba_header h1 small {
   display: block;
   font-size: 24px;
+}
+
+.sorocaba_header h1 small a {
+  color: #fff;
 }
 
 .sorocaba_header p {
