@@ -1073,6 +1073,12 @@ pre {
   margin: 0 0 .8em 0;
 }
 
+.copenhagen#promo {
+  padding-left:340px;
+  background:url('../images/copenhagen/copenhagen_logo_placeholder.jpg') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .slc#promo h1 {
   background:url('../images/slc/rg-slc-header.png') no-repeat left top;
 }
