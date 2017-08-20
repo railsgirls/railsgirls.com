@@ -2990,6 +2990,15 @@ h3.faq {
   text-align: center
 }
 
+.geneva-2017 .sponsor-diamond img {
+  width: 400px
+}
+
+.geneva-2017 .sponsor-diamond p {
+  width: 400px;
+  margin: auto;
+}
+
 .geneva-2017 .sponsor-gold img {
   width: 300px
 }
