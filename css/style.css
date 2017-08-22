@@ -3000,6 +3000,12 @@ h3.faq {
   padding: 1em 0;
 }
 
+.geneva-2017 .sponsors a {
+  text-decoration: none;
+  border-bottom: 0;
+  color: black;
+}
+
 .geneva-2017 .sponsors h3 {
   text-align: center
 }
