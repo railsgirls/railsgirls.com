@@ -742,7 +742,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 .kobe3#promo {
   padding-left:420px;
   padding-bottom: 80px;
-  background:url('../images/kobe/rg-kobe0-logo.png') no-repeat 0px 0px,
+  background:url('../images/kobe/rg-kobe3-logo.png') no-repeat 0px 0px,
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 420px;
 }
@@ -3002,6 +3002,15 @@ h3.faq {
 
 .geneva-2017 .sponsors h3 {
   text-align: center
+}
+
+.geneva-2017 .sponsor-diamond img {
+  width: 400px
+}
+
+.geneva-2017 .sponsor-diamond p {
+  width: 400px;
+  margin: auto;
 }
 
 .geneva-2017 .sponsor-gold img {
