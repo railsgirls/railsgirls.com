@@ -4,18 +4,18 @@
 
 @font-face {
   font-family: 'HJ Gotham Medium';
-  src: url('../assets/fonts/HJGotham/HJGothamMedium.eot'),
-       url('../assets/fonts/HJGotham/HJGothamMedium.woff') format('woff'),
-       url('../assets/fonts/HJGotham/HJGothamMedium.ttf')  format('truetype'),
-       url('../assets/fonts/HJGotham/HJGothamMedium.svg') format('svg');
+  src: url('../css/fonts/HJGotham/HJGothamMedium.eot'),
+       url('../css/fonts/HJGotham/HJGothamMedium.woff') format('woff'),
+       url('../css/fonts/HJGotham/HJGothamMedium.ttf')  format('truetype'),
+       url('../css/fonts/HJGotham/HJGothamMedium.svg') format('svg');
 }
 
 @font-face {
   font-family: 'HJ Gotham Light';
-  src: url('../assets/fonts/HJGotham/HJGothamLight.eot'),
-       url('../assets/fonts/HJGotham/HJGothamLight.woff') format('woff'),
-       url('../assets/fonts/HJGotham/HJGothamLight.ttf')  format('truetype'),
-       url('../assets/fonts/HJGotham/HJGothamLight.svg') format('svg');
+  src: url('../css/fonts/HJGotham/HJGothamLight.eot'),
+       url('../css/fonts/HJGotham/HJGothamLight.woff') format('woff'),
+       url('../css/fonts/HJGotham/HJGothamLight.ttf')  format('truetype'),
+       url('../css/fonts/HJGotham/HJGothamLight.svg') format('svg');
 }
 
 html {
