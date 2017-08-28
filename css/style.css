@@ -2,6 +2,22 @@
 @import url('960.css');
 @import url('text.css');
 
+@font-face {
+  font-family: 'HJ Gotham Medium';
+  src: url('../assets/fonts/HJGotham/HJGothamMedium.eot'),
+       url('../assets/fonts/HJGotham/HJGothamMedium.woff') format('woff'),
+       url('../assets/fonts/HJGotham/HJGothamMedium.ttf')  format('truetype'),
+       url('../assets/fonts/HJGotham/HJGothamMedium.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'HJ Gotham Light';
+  src: url('../assets/fonts/HJGotham/HJGothamLight.eot'),
+       url('../assets/fonts/HJGotham/HJGothamLight.woff') format('woff'),
+       url('../assets/fonts/HJGotham/HJGothamLight.ttf')  format('truetype'),
+       url('../assets/fonts/HJGotham/HJGothamLight.svg') format('svg');
+}
+
 html {
   background:#F4F4F4;
 }
@@ -27,6 +43,108 @@ a, a:visited, a:focus, a:active, a:hover{
   height:380px;
   width:100%;
 
+}
+
+/*banner*/
+.hanoi-rails-girls-banner {
+  position: relative;
+}
+
+.hanoi-rails-girls-banner img{
+  max-width: 100%;
+  height: auto;
+}
+
+.hanoi-rails-girls-banner_inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 40px 0;
+}
+
+.hanoi-rails-girls-banner_content {
+  float: right;
+  text-align: right;
+  color: #35808b;
+}
+
+.hanoi-rails-girls-banner_content h3{
+  color: #35808b;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 5px 0 0;
+  font-family: "HJ Gotham Medium";
+}
+
+.hanoi-rails-gilrs-banner_time {
+  font-size: 40px;
+  line-height: 1;
+  margin: 0 0 3px;
+  font-family: "HJ Gotham Light";
+}
+
+.hanoi-rails-girls-banner_description {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 0 16px;
+  font-family: "HJ Gotham Light";
+}
+
+.hanoi-rails-girls-banner_btn {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1;
+  padding: 12px 23px;
+  background: url("../images/hanoi/rails-girls-banner_btn.jpg") center no-repeat;
+  background-size: contain;
+  font-family: "HJ Gotham Medium";
+  display: inline-block;
+  transition: all .3s ease 0s;
+}
+
+@media screen and (min-width: 1366px) {
+  .hanoi-rails-girls-banner_inner .container_16 {
+    width: 1100px;
+  }
+}
+
+@media screen and (min-width: 1399px){
+
+  .hanoi-rails-girls-banner_inner {
+    padding: 55px 0;
+  }
+
+  .hanoi-rails-girls-banner_inner .container_16 {
+    width: 1300px;
+  }
+
+  .hanoi-rails-girls-banner_content h3{
+    font-size: 60px;
+  }
+
+  .hanoi-rails-gilrs-banner_time {
+    font-size: 61px;
+  }
+
+  .hanoi-rails-girls-banner_description {
+    font-size: 20.5px;
+  }
+
+  .hanoi-rails-girls-banner_btn {
+    font-size: 26px;
+    padding: 17px 23px;
+  }
+}
+
+/* end banner */
+
+.hanoi-rails-girls-banner_btn:hover {
+  opacity: 0.8;
 }
 
 #poster h1 {
