@@ -20,7 +20,8 @@
 
 .geneva-2017 #promo {
   padding-left:340px;
-  background:url('../images/rg-krakow.png') no-repeat 10px 40px;
+  background:url('https://s3.eu-central-1.amazonaws.com/railsgirls-gva/2017/round-sticker4.svg') no-repeat 0 10px;
+  background-size: 310px;
 }
 .geneva-2017 #promo h1 {
   font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
