@@ -4023,3 +4023,8 @@ padding-top:30px;
 #past-editions a img {
   width: 450px;
 }
+ .bern#promo {
+          padding-left:340px;
+          background:url('../images/rg-bern.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
