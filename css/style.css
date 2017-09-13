@@ -4025,6 +4025,6 @@ padding-top:30px;
 }
  .bern#promo {
           padding-left:340px;
-          background:url('../images/rg-bern.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
+          background:url('../images/bern/rg-bern.png') no-repeat 0 10px,
+                         url('../images/bern/separator.png') no-repeat center bottom;
         }
