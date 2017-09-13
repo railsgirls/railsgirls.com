@@ -1,11 +1,3 @@
-        .Bern#promo {
-          padding-left:340px;
-          background:url('../images/rg-Bern.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-
-
 @import url('reset.css');
 @import url('960.css');
 @import url('text.css');
