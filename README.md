@@ -44,7 +44,6 @@ It will take a while before the changes show, so don't panic!
 
 
 ## Tools
-The Wufoo form is accessible with team@railsgirls.com and pw: rubynhienomekko
 
 The example application http://railsgirlsapp.herokuapp.com/ideas is accessible on Heroku with linda@railsgirls.com and pw: rubynhienomekko
 
