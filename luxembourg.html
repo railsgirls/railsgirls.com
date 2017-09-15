@@ -16,6 +16,74 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
  
   <link rel="stylesheet" href="./css/style.css">
+	<style type="text/css">
+    .partners {
+      margin-bottom: 15px;
+      vertical-align: middle;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .partners a {
+      border-bottom: none;
+    }
+    .partners .first {
+      margin: 15px 0 0 0;
+    }
+    .partners .grid_4:not(.alpha) {
+      margin-top: 20px;
+    }
+    .grid_12 .time:after {
+      content: " - ";
+    }
+    .coach {
+      border-radius: 50px;
+    }
+    #promo {
+      height: 350px;
+      background-image: url(./images/saopaulo/girl-saopaulo.png);
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;
+    }
+    #promo.new{
+      padding-bottom: 0px;
+    }
+    #promo.new p{
+      font-size: 18px;
+    }
+    #promo.new h1{
+      padding-top: 34px;
+      font-size: 60px;
+    }
+    #promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
+    #promo .insciption-button a{
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      background-color: #d3360b;
+      color: white;
+      letter-spacing: 2px;
+      padding: 20px 70px 18px 70px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    #promo .insciption-button a:hover{
+      background-color: #be310a;
+    }
+    #promo.new #share{
+      padding-top: 10px;
+    }
+
+    .le-wagon {
+      padding-top: 20px;
+    }
+
+  </style>
   
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
@@ -29,7 +97,23 @@
       <![endif]-->
     </head>
     <body>
-
+<!-- Facebook Conversion Code for Registrations -->	    
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6030375026248', {'value':'0.01','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6030375026248&amp;cd[value]=0.01&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+	    
         <header>
         <div class="container_12">
             <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -78,28 +162,37 @@ Steps to show on site
 
          </p>
          <p>(EN) <a href="https://docs.google.com/forms/d/e/1FAIpQLSdS3gQIw4jLz1rctZmcFEbjTWg65KWa45uAmJV1Z3fWXP1i5Q/viewform">Apply now!</a>
-Applications are open until October 8th 2017
+Applications are open until October 8th 2017 <br>
 (FR) <a href="https://docs.google.com/forms/d/e/1FAIpQLScoXkhiGc7MQ9dHSh6FuTLvc7Hx3sWz8WMLCULnwgq-CIUcgQ/viewform">Postulez maintenant!</a>
 Les candidatures sont ouvertes jusqu'au 8 Octobre 2017
 </p>
-        <p>Make sure to follow us on <a href="https://twitter.com/railsgirls_lux">Twitter</a> and on <a href="https://www.facebook.com/railsgirlsluxembourg">Facebook</a>!
-
-
 <!--  Update the sharing texts.-->
         
+         <p>Make sure to follow us on <a href="https://twitter.com/railsgirls_lux"> Twitter</a> and <a href="https://www.facebook.com/railsgirlsluxembourg"> Facebook</a> !</p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+          <!--  Update the sharing texts.-->
           <div id="share">
-          <div style="margin:0 15px 0 0;">
-            <a href="http://twitter.com/share" class="twitter-share-button" data-url=""
-            data-text="Rails Girls Luxembourg October 20-21 2017" data-count="horizontal" data-via="railsgirls">
-            Tweet
-          </a>
-          <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-        </div>
-        <div class="fb-like" data-href="https://www.facebook.com/railsgirlsluxembourg" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        <div>
+
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Luxembourg October 24th. Apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+            Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+<div class="fb-like" data-href="https://www.facebook.com/railsgirlsluxembourg" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"> </div>
+          </div>
+       </br > </p>
+       </br > </div>
       </div>
-    </div>
-  </div>
-</div>
+     </br >
 	    </p>
       
       
@@ -295,7 +388,7 @@ Les candidatures sont ouvertes jusqu'au 8 Octobre 2017
     <!-- /content -->
     
     <footer>
-        <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
       <script type="text/javascript">
