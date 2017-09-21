@@ -739,7 +739,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
   }
-  
+
 .tokyo#promo {
   padding-left:420px;
   background:url('../images/rg-tokyo-2017-10-07.png') no-repeat left top;
@@ -3328,6 +3328,38 @@ small.cali{ color: #444; }
 small.cali-role{ font-size: 80%; }
 
 /* End Cali */
+/* Barranquilla */
+
+.barranquilla#promo {
+  padding-left:340px;
+  background:url('../images/rg-barranquilla.jpeg') no-repeat 0 10px;
+}
+.barranquilla#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
+.barranquilla#promo div.registro{ height: 80px; }
+.barranquilla#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+.barranquilla#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+
+/* End Barranquilla */
 
 .tampere2015#promo {
   padding-left:340px;
@@ -3856,23 +3888,6 @@ padding-top:30px;
   padding-left:340px;
   background:url('../images/rg-kollam.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
-}
-.barranquilla{
-  padding: 15px 5px;
-  margin: 0 auto;
-}
-.barranquilla > a{
-  border: 0;
-  display: block;
-}
-.barranquilla img{
-  display: block;
-  margin: 0 auto;
-}
-.barranquilla > h3{
-  color: black;
-  text-align: center;
-  margin: 15px auto;
 }
 
 .rzeszow#promo {
