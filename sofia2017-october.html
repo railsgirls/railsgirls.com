@@ -381,9 +381,18 @@
         if (typeof data !== 'string' || data === '') return null;
 
         var seats = 0;
+        var lines = data.split("\n");
+        var header = data[0];
+        var columnsCount = header.split("\t");
 
-        $.each(data.split("\n").slice(1, -1), function () {
-          seats += +this.split("\t")[1];
+        $.each(lines.slice(1, -1), function () {
+          var columns = this.split("\t");
+
+          if (columnsCount === 2) {
+            seats += +columns[1];
+          } else if (columns[0] != '') {
+            seats += 1;
+          }
         });
 
         return seats;
