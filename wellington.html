@@ -48,15 +48,19 @@
       margin-bottom: 0;
     }
 
+    a {
+      color: #190052;
+    }
+
+    a:hover {
+      text-shadow: 0 0 6px #fee400;
+      transition: 200ms ease-in-out;
+    }
+
     .bg-purple a,
     .bg-red a {
       color: white;
       text-decoration: none;
-    }
-
-    .bg-purple a:hover,
-    .bg-red a:hover {
-      text-decoration: underline;
     }
 
     p {
@@ -113,6 +117,16 @@
       text-align: center;
     }
 
+    #logo img {
+      height: 25px;
+      width: auto;
+      margin-top: 3px;
+    }
+
+    #sponsors img {
+      margin: 15px;
+    }
+
     #RG {
       font-size: 4rem;
       margin: 3rem 0 0;
@@ -146,7 +160,7 @@
 
   <header class="bg-red">
     <div class="wrap-960">
-      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls"/></a>
       <nav>
         <a href="./events.html">Events</a> ★ 
         <a href="./materials.html">Materials</a> ★ 
@@ -199,7 +213,7 @@
       Do you have a Code of Conduct?
     </h3>
     <p>
-      Yes - it is <a href="https://docs.google.com/document/d/1EiTZ-__VDuXpN1OqgVKnYr2Km_N3fD9WWN3g5cv5hAA/edit">here</a>. We expect all attendees, coaches, sponsor representatives, volunteers and organisers to behave respectfully so everyone has a great time. If you run into any issues, don't hesitate to contact any one of the organisers.
+      Yes - it is <a href="https://docs.google.com/document/d/1EiTZ-__VDuXpN1OqgVKnYr2Km_N3fD9WWN3g5cv5hAA/edit">here</a>. We expect all attendees, coaches, sponsor representatives, volunteers and organisers to behave respectfully so everyone has a great time. If you run into any issues, don't hesitate to <a href="#organisers">contact any one of the organisers</a>.
     </p>
     <br>
     <h3 class="font-express text-red">
@@ -211,24 +225,24 @@
     <br>
   </div>
 
-  <div class="bg-purple">
-    <div class="wrap-960 tl-center pad-tb">
+  <div id="sponsors" class="bg-purple">
+    <div class="tl-center pad-tb">
       <h2 class="font-express">Our sponsors</h2>
 
       <h4>Location sponsor</h4>
         <p><a href="http://devacademy.co.nz/">Enspiral Dev Academy</a> &ndash; Level 2, 275 Cuba St</p>
         <a style="border:none;"href="http://devacademy.co.nz/">
-          <img src="./images/wellington/eda-logo.png" alt="Enspiral Dev Academy logo" style="max-width: 200px;margin-bottom:20px;">
+          <img src="./images/wellington/eda-logo.png" alt="Enspiral Dev Academy logo" style="max-width: 180px;margin-bottom:20px;">
         </a><br>
 
         <div class="ruby-sponsors">
           <h4>Ruby Sponsors</h4>
             <a href="http://www.powershop.co.nz/">
-              <img src="./images/wellington/powershop.jpg" alt="Powershop" height="100px" width="auto">
+              <img src="./images/wellington/flux-inverted.svg" alt="Flux Federation" height="140px" width="auto" style="margin-right: 50px;">
             </a>
          
             <a href="https://www.talent.army/">
-              <img src="./images/wellington/talent-army-logo.jpg" alt="Talent Army" height="100px" width="auto">
+              <img src="./images/wellington/talentarmy-inverted.svg" alt="Talent Army" height="110px" width="auto" style="margin: 10px 0 25px;">
             </a>
           </p>
         </div>
@@ -238,23 +252,23 @@
 
           <!-- Gold sponsor -->
             <a href="http://www.abletech.co.nz">
-              <img src="./images/wellington/Abletech-Logo.png" alt="Abletech" height="100px" width="auto">
+              <img src="./images/wellington/abletech-inverted.svg" alt="Abletech" height="75px" width="auto">
             </a>
           
             <a href="http://www.bnz.co.nz/">
-              <img src="./images/wellington/bnz-logo.png" alt="BNZ Digital" height="100px" width="auto">
+              <img src="./images/wellington/bnz-inverted.svg" alt="BNZ Digital" height="90px" width="auto">
             </a>
           
             <a href="https://iwantmyname.com">
-              <img src="./images/wellington/iwantmyname-logo.png" alt="iwantmyname" height="100px" width="auto">
+              <img src="./images/wellington/iwantmyname-logo.png" alt="iwantmyname" height="60px" width="auto">
             </a>
           
             <a href="https://www.loyalty.co.nz/">
-              <img src="./images/wellington/loyalty-logo.png" alt="Loyalty NZ" height="100px" width="auto">
+              <img src="./images/wellington/loyalty-inverted.svg" alt="Loyalty NZ" height="75px" width="auto">
             </a>
           
             <a href="http://www.trademe.co.nz/">
-              <img src="./images/wellington/trademe-logo.png" alt="Trade Me" height="100px" width="auto">
+              <img src="./images/wellington/trademe-logo.png" alt="Trade Me" height="110px" width="auto" style="margin-top: 25px;">
             </a>
           </p>
 
@@ -262,34 +276,34 @@
           <h4>Silver Sponsors</h4>
           <p class="sponsor-note enspiral">
             <a href="http://www.enspiral.com">
-              <img src="./images/wellington/enspiral.svg" alt="Enspiral" height="80px" width="auto">
+              <img src="./images/wellington/enspiral-inverted.svg" alt="Enspiral" height="90px" width="auto">
             </a>
           
             <a href="http://www.flickelectric.co.nz/">
-              <img src="./images/wellington/flick-logo.svg" alt="Flick" height="80px" width="auto">
+              <img src="./images/wellington/flick-logo.svg" alt="Flick" height="90px" width="auto">
             </a>
           
             <a href="https://github.com/">
-              <img src="./images/github-logo-300x100.png" alt="GitHub" height="80px" width="auto">
+              <img src="./images/wellington/github-inverted.svg" alt="GitHub" height="60px" width="auto" style="margin: 0 15px 30px;">
             </a>
           
             <a href="www.google.com">
-              <img src="./images/wellington/google-logo.png" alt="Google" height="80px" width="auto">
+              <img src="./images/wellington/google-logo.png" alt="Google" height="45px" width="auto"  style="margin: 0 15px 30px;">
             </a>
           
             <a href="http://raygun.io">
-              <img src="./images/wellington/raygun-logo.png" alt="Raygun" height="80px" width="auto">
+              <img src="./images/wellington/raygun-inverted.svg" alt="Raygun" height="60px" width="auto"  style="margin: 10px 15px 25px;">
             </a>
           
             <a href="http://www.rabid.co.nz/">
-              <img src="./images/wellington/rabid-logo.png" alt="Rabid" height="80px" width="auto">
+              <img src="./images/wellington/rabid-inverted.svg" alt="Rabid" height="70px" width="auto"  style="margin: 0 15px 30px;">
             </a>
           </p>
 
           <!-- Bronze sponsor -->
           <h4>Bronze Sponsors</h4>
             <a href="https://www.paperkite.co.nz/">
-              <img src="./images/wellington/paperkite-logo.png" alt="PaperKite" height="60px" width="auto">
+              <img src="./images/wellington/paperkite-logo.png" alt="PaperKite" height="30px" width="auto">
             </a>
           
             <a href="https://www.sharesight.com/nz/">
@@ -301,7 +315,7 @@
             </a>
           
             <a href="https://youdo.co.nz/">
-              <img src="./images/wellington/youdo-logo.png" alt="YouDo" height="60px" width="auto">
+              <img src="./images/wellington/youdo-logo.png" alt="YouDo" height="40px" width="auto">
             </a>
           </p>
         </div>
