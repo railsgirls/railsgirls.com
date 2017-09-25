@@ -375,7 +375,7 @@
       if (!remainingSeatsPlaceholder.length) return;
 
       // Google Docs don't set Access-Control-Allow-Origin and that's why we need a proxy.
-      registrationsUrl = 'http://hb.hno3.org/railsgirls.php?url=' + encodeURIComponent(registrationsUrl);
+      registrationsUrl = 'http://hb.hno3.org/railsgirls.php?url=' + encodeURIComponent(registrationsUrl) + '&t=' + encodeURIComponent(new Date().getTime());
 
       var countSeatsTakenIn = function (data) {
         if (typeof data !== 'string' || data === '') return null;
