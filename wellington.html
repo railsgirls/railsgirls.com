@@ -34,6 +34,12 @@
       padding: 26px 0;
     }
 
+    footer {
+      height: 85px;
+      padding: 15px 0;
+      margin-top: 60px;
+    }
+
     nav {
       float: right;
       padding: 8px 0;
@@ -86,6 +92,10 @@
       color: #fee400;
     }
 
+    .no-top-mar {
+      margin-top: 0;
+    }
+
     .wrap-960 {
       max-width: 960px;
       margin: 0 auto;
@@ -98,6 +108,22 @@
       margin: 0 auto;
       padding-left: 20px;
       padding-right: 20px;
+    }
+
+    .tile {
+      display: inline-block;
+      margin: 0;
+      flex: 1 1 auto;
+    }
+
+    .spacer {
+      width: 130px;
+      flex: 0 1 auto;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
     }
 
     .pad-tb {
@@ -199,7 +225,7 @@
       How much does it cost?
     </h3>
     <p>
-      Thanks to our <a href="#sponsors">wonderful sponsors</a>, nothing! It's free! Just show up with a laptop and enthusiasm to learn! We can learn with public transport costs if you need, too.
+      Thanks to our <a href="#sponsors">wonderful sponsors</a>, nothing! It's free! Just show up with a laptop and enthusiasm to learn! We can help with public transport costs if you need, too.
     </p>
     <br>
     <h3 class="font-express text-red">
@@ -226,14 +252,8 @@
   </div>
 
   <div id="sponsors" class="bg-purple">
-    <div class="tl-center pad-tb">
+    <div class="tl-center pad-tb wrap-960">
       <h2 class="font-express">Our sponsors</h2>
-
-      <h4>Location sponsor</h4>
-        <p><a href="http://devacademy.co.nz/">Enspiral Dev Academy</a> &ndash; Level 2, 275 Cuba St</p>
-        <a style="border:none;"href="http://devacademy.co.nz/">
-          <img src="./images/wellington/eda-logo.png" alt="Enspiral Dev Academy logo" style="max-width: 180px;margin-bottom:20px;">
-        </a><br>
 
         <div class="ruby-sponsors">
           <h4>Ruby Sponsors</h4>
@@ -242,7 +262,7 @@
             </a>
          
             <a href="https://www.talent.army/">
-              <img src="./images/wellington/talentarmy-inverted.svg" alt="Talent Army" height="110px" width="auto" style="margin: 10px 0 25px;">
+              <img src="./images/wellington/talentarmy-inverted.svg" alt="Talent Army" height="90px" width="auto" style="margin: 0 0 40px;">
             </a>
           </p>
         </div>
@@ -252,23 +272,23 @@
 
           <!-- Gold sponsor -->
             <a href="http://www.abletech.co.nz">
-              <img src="./images/wellington/abletech-inverted.svg" alt="Abletech" height="75px" width="auto">
+              <img src="./images/wellington/abletech-inverted.svg" alt="Abletech" height="75px" width="auto" style="position: relative; top: -20px">
             </a>
           
             <a href="http://www.bnz.co.nz/">
-              <img src="./images/wellington/bnz-inverted.svg" alt="BNZ Digital" height="90px" width="auto">
+              <img src="./images/wellington/bnz-inverted.svg" alt="BNZ Digital" height="90px" width="auto" style="position: relative; top: -26px">
             </a>
           
             <a href="https://iwantmyname.com">
-              <img src="./images/wellington/iwantmyname-logo.png" alt="iwantmyname" height="60px" width="auto">
+              <img src="./images/wellington/iwantmyname-logo.png" alt="iwantmyname" height="60px" width="auto" style="position: relative; top: -20px">
             </a>
           
             <a href="https://www.loyalty.co.nz/">
-              <img src="./images/wellington/loyalty-inverted.svg" alt="Loyalty NZ" height="75px" width="auto">
+              <img src="./images/wellington/loyalty-inverted.svg" alt="Loyalty NZ" height="75px" width="auto" style="position: relative; top: -15px">
             </a>
           
             <a href="http://www.trademe.co.nz/">
-              <img src="./images/wellington/trademe-logo.png" alt="Trade Me" height="110px" width="auto" style="margin-top: 25px;">
+              <img src="./images/wellington/trademe-logo.png" alt="Trade Me" height="110px" width="auto" style="margin-top: -20px;">
             </a>
           </p>
 
@@ -286,7 +306,7 @@
             <a href="https://github.com/">
               <img src="./images/wellington/github-inverted.svg" alt="GitHub" height="60px" width="auto" style="margin: 0 15px 30px;">
             </a>
-          
+          <br>
             <a href="www.google.com">
               <img src="./images/wellington/google-logo.png" alt="Google" height="45px" width="auto"  style="margin: 0 15px 30px;">
             </a>
@@ -320,19 +340,79 @@
           </p>
         </div>
 
+        <h4>Location sponsor</h4>
+        <p><a href="http://devacademy.co.nz/">Enspiral Dev Academy</a> &ndash; Level 2, 275 Cuba St</p>
+        <a style="border:none;"href="http://devacademy.co.nz/">
+          <img src="./images/wellington/eda-logo.png" alt="Enspiral Dev Academy logo" style="max-width: 180px;margin-bottom:20px;">
+        </a>
+
         <p><small>If you're interested in helping us make this event as amazing (and regular) as possible, get in touch with us at <a href="mailto:railsgirlswgtn@gmail.com">railsgirlswgtn@gmail.com</a></small></p>
         <br>
     </div>
   </div>
 
-    <div class="wrap-960 pad-tb">
-      <h2 class="font-express tl-center" style="margin-bottom:0;">Wellington organisers</h2>
-      <p class="tl-center">Contact any of us if you have any questions!</p>
-    </div>
+  <div class="wrap-960 pad-tb" id="coaches">
+    <h2 class="font-express tl-center" style="margin-bottom:0;">Wellington coaches</h2>
+    <p class="tl-center">To be announced!</p>
+  </div>
 
-<footer>
-    <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
-    <p class="slogan">Get excited and make things!</p>
+  <div class="wrap-960 pad-tb" id="organisers">
+    <h2 class="font-express tl-center" style="margin-bottom:0;">Wellington organisers</h2>
+    <p class="tl-center">Contact any of us if you have any questions!</p>
+
+    <div class="flex">
+      <div class="tile">
+        <h3 class="font-express text-red">
+          Gisella de la Villa
+        </h3>
+        <p class="no-top-mar">
+          @
+        </p>
+      </div>
+      <div class="spacer"></div>
+      <div class="tile">
+        <h3 class="font-express text-red">
+          Jevon Wright
+        </h3>
+        <p class="no-top-mar">
+          <a href="https://twitter.com/soundasleep">@soundasleep</a>
+        </p>
+      </div>
+      <div class="spacer"></div>
+      <div class="tile">
+        <h3 class="font-express text-red">
+          Lena Plaksina
+        </h3>
+        <p class="no-top-mar">
+          <a href="https://twitter.com/plaksina_lena">@plaksina_lena</a>
+        </p>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="spacer"></div>
+      <div class="tile">
+        <h3 class="font-express text-red">
+          Serena Chen
+        </h3>
+        <p class="no-top-mar">
+          <a href="https://twitter.com/sereeena">@Sereeena</a>
+        </p>
+      </div>
+      <div class="spacer"></div>
+      <div class="tile">
+        <h3 class="font-express text-red">
+          Tania Jacob
+        </h3>
+        <p class="no-top-mar">
+          <a href="https://twitter.com/teejay1109">@teejay1109</a>
+        </p>
+      </div>
+      <div class="spacer"></div>
+    </div>
+  </div>
+
+<footer class="bg-red">
+    <p class="tl-center">Get excited and make things!</p>
 </footer>
   <script type="text/javascript">
 
