@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
 <!--  Add your city name, dates and year.  -->
 
@@ -23,25 +23,34 @@
   <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<meta property="og:image" content="http://railsgirls.com/images/novisad/meta.jpg"/>
+	<meta property="og:image" content="http://railsgirls.com/images/novisad/meta.png"/>
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-    </head>
-    <body>
+  <style>
+    #novisad-share {
+      padding: .7rem 1.2rem;
+      font-size: 28px;
+      font-weight: bold;
+      background-color: #e0330c;
+      color: white;
+    }
+  </style>
+  </head>
+  <body>
 
-        <header>
-        <div class="container_12">
-            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-            <nav>
-                <a href="./events.html">Događaji</a>
-                <a href="./materials.html">Materijal</a>
-                <a href="./press.html">Mediji</a>
-                <a href="http://blog.railsgirls.com">Blog</a>
-                <a href="http://guides.railsgirls.com">Vodič</a>
-            </nav>
-        </div>
-        </header>
+    <header>
+    <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+            <a href="./events.html">Događaji</a>
+            <a href="./materials.html">Materijal</a>
+            <a href="./press.html">Mediji</a>
+            <a href="http://blog.railsgirls.com">Blog</a>
+            <a href="http://guides.railsgirls.com">Vodič</a>
+        </nav>
+    </div>
+    </header>
 
 
 <!--   How to change the picture & header for site
@@ -85,15 +94,16 @@ Steps to show on site
         </p>
 
         <h3>Kada i gde će se radionica održati?</h3>
-        <p>Rails Girls radionica će se održati u 7. i 8. oktobra 2017. godine u Startit Centru u Novom Sadu. <strong>Prijave su otvorene!</strong></p>
+        <p>Rails Girls radionica će se održati u 7. i 8. oktobra 2017. godine u Startit Centru u Novom Sadu. Prijave su otvorene do 26. septembra,
+        a nekoliko dana posle toga obavestićemo vas emailom da li je vaša prijava prošla selekciju.</p>
 
-        <map name="prijava">
-          <area shape="rect" coords="0,0,200,50" href="https://goo.gl/forms/j68qSrXELeL1c9832">
-        </map>
-        <img src="./images/novisad/prijava.png"/ usemap="#prijava">
+        <a href="https://goo.gl/forms/j68qSrXELeL1c9832"
+           id="novisad-share">
+          Prijavite se!
+        </a>
 
         <div>
-          <div style="margin:0 15px 0 0;">
+          <div style="margin:25px 15px 0 0;">
             <a href="http://twitter.com/share"
                class="twitter-share-button"
                data-url=""
@@ -196,8 +206,22 @@ Steps to show on site
 
 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
 
+        <h2>Generalni sponzor</h2>
 
-        <h2>Podržali su nas:</h2>
+        <div>
+          <div style="float:left">
+            <a href="http://renderedtext.com/" class="large">Rendered Text</a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/renderedtext" style="float:right; margin:0 0 0; border:0;">
+              <img src="./images/novisad/partners/renderedtext.png" alt="Rendered Text" style="margin-bottom:20px">
+            </a>
+          </div>
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <h2>Sponzori</h2>
 
         <div>
           <div>
@@ -209,9 +233,8 @@ Steps to show on site
         </div>
 
 
-        <div style="clear:both;"></div>
 
-        <h2>Partneri:</h2>
+        <h2>Partneri</h2>
 
         <div>
           <div style="float:left" >
@@ -291,13 +314,13 @@ Steps to show on site
         <h2>Novi Sad tim</h2>
 
         <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/IV/alex_rgns.jpg"></img>
-        <a href="https://www.facebook.com/aleksandra.vukosic" class="grid_3">
+        <a href="https://www.facebook.com/aleksandra.vukosic" class="grid_3" style="margin-right:0px">
                 Aleksandra Vukošić, organizatorka
           <small>aleksandra.vukosic@gmail.com</small>
             </a>
 
         <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/IV/kristina_rgns.jpg"></img>
-        <a href="https://www.facebook.com/kristina.stojakovic" class="grid_3" style="margin-right:0px">
+        <a href="https://www.facebook.com/kristina.stojakovic" class="grid_3" style="margin-right:20px">
                 Kristina Stojaković, organizatorka
           <small>kristina.stojakovic@gmail.com</small>
             </a>
@@ -315,9 +338,33 @@ Steps to show on site
         </a>
 
         <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/nebojsa.jpg"></img>
-        <a href="https://twitter.com/nebojsaz" class="grid_3" style="margin-right:0px">
+        <a href="https://twitter.com/nebojsaz" class="grid_3" style="margin-right:20px">
                 Nebojša Zorić, mentor
           <small>office@kolosek.com</small>
+        </a>
+
+        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/dusan.png"></img>
+        <a href="https://github.com/duleorlovic" class="grid_3" style="margin-right:0px">
+                Dušan Orlović, mentor
+          <small>@duleorlovic</small>
+        </a>
+
+        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/giusa.png"></img>
+        <a href="https://twitter.com/nikolalsvk" class="grid_3" style="margin-right:0px">
+                Nikola Đuza, mentor
+          <small>@nikolalsvk</small>
+        </a>
+
+        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/nemus.png"></img>
+        <a href="https://twitter.com/__nemanjas__" class="grid_3" style="margin-right:20px">
+                Nemanja Stojanović, mentor
+          <small>@__nemanjas__</small>
+        </a>
+
+        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/milica.jpg"></img>
+        <a href="https://twitter.com/MilicaNerlovic" class="grid_3" style="margin-right:0px">
+                Milica Nerlović, mentorka
+          <small>@MilicaNerlovic</small>
         </a>
 
       </div>
