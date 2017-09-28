@@ -375,15 +375,24 @@
       if (!remainingSeatsPlaceholder.length) return;
 
       // Google Docs don't set Access-Control-Allow-Origin and that's why we need a proxy.
-      registrationsUrl = 'http://hb.hno3.org/railsgirls.php?url=' + encodeURIComponent(registrationsUrl);
+      registrationsUrl = 'http://hb.hno3.org/railsgirls.php?url=' + encodeURIComponent(registrationsUrl) + '&t=' + encodeURIComponent(new Date().getTime());
 
       var countSeatsTakenIn = function (data) {
         if (typeof data !== 'string' || data === '') return null;
 
         var seats = 0;
+        var lines = data.split("\n");
+        var header = data[0];
+        var columnsCount = header.split("\t");
 
-        $.each(data.split("\n").slice(1, -1), function () {
-          seats += +this.split("\t")[1];
+        $.each(lines.slice(1, -1), function () {
+          var columns = this.split("\t");
+
+          if (columnsCount === 2) {
+            seats += +columns[1];
+          } else if (columns[0] != '') {
+            seats += 1;
+          }
         });
 
         return seats;
@@ -452,7 +461,7 @@
 
           <!-- <p><strong>Регистрацията ще отвори скоро.</strong></p> -->
 
-          <p>
+          <!-- <p>
             Регистрацията ще отвори тук на <strong>25 септември, понеделник, в 20:00 ч.</strong> и ще е активна до запълване на свободните места.
           </p>
           <p class="counters">
@@ -460,9 +469,9 @@
           </p>
           <p>
             <a href="http://eepurl.com/POSQ1" class="signup">Извести ме когато регистрацията отвори →</a>
-          </p>
+          </p> -->
 
-          <!-- <p>
+          <p>
             Регистрацията ще е отворена до изчерпване на местата. Успешно попълнен регистрационен формуляр ви гарантира място.
           </p>
           <p class="counters">
@@ -470,7 +479,7 @@
           </p>
           <p>
             <a href="https://goo.gl/forms/9ntNKp6RDDYqBhIF2" class="signup">Регистрация →</a>
-          </p> -->
+          </p>
 
           <!-- <p>В момента местата за събитието са изчерпани.</p>
           <p><strong>Регистрацията ще отвори тук отново, в 20:00 ч. на 5 октомври</strong>, понеделник, за да се запълнят освободилите се места. Очакваме да има поне 10-ина такива места.</p> -->
@@ -563,7 +572,7 @@
       </div>
 
 
-      <div class="grid_12 alpha" style="margin-bottom: 30px;">
+      <!-- <div class="grid_12 alpha" style="margin-bottom: 30px;">
         <h1 id="thanks">Благодаря!</h1>
 
         <p>От името на целия екип, благодарим на всички участници в Rails Girls Sofia 9.0!</p>
@@ -573,7 +582,7 @@
         <p>И огромни благодарности на всички инструктори!</p>
 
         <img src="images/sofia/rails-girls-sofia-9.0-may-2017-coaches.jpg" alt="Rails Girls Sofia 9.0 May 2017 Coaches" style="max-width: 100%;" />
-      </div>
+      </div> -->
 
 
       <hr />
@@ -753,7 +762,7 @@
           </p> -->
 
           <p>
-            <strong>Telerik Academy, зала "Ultimate"</strong> (<a href="http://academy.telerik.com/about/contact-us" rel="nofollow" target="_blank">подробности ↗</a>)<br>
+            <strong>Telerik Academy, зала "Enterprise"</strong> (<a href="http://academy.telerik.com/about/contact-us" rel="nofollow" target="_blank">подробности ↗</a>)<br>
             гр. София 1729, ж.к. Младост 1А, бул. "Ал. Малинов" 31
             <a href="https://maps.google.bg/maps?expflags=enable_star_based_justifications:true&amp;ie=UTF8&amp;cid=11371354355546699809&amp;q=Telerik+Academy&amp;iwloc=A&amp;gl=BG&amp;hl=bg" target="_blank">Виж карта ↗</a>
           </p>
@@ -855,12 +864,12 @@
         <div id="sponsors" class="sponsors-wall logos-wall">
           <h3 id="regular-sponsors" class="sponsor-type">Спонсори</h3>
 
-          <!-- <p>
+          <p>
             <a href="https://www.progress.com/" target="_blank" class="sponsor">
               <img src="images/sofia/progress-logo.png" alt="Лого на Progress" title="Progress"><br>
               Progress е глобален лидер в разработката на приложения, който помага на компаниите да създават критични за бизнеса решения, за да успяват на динамично развиващите се пазари днес. Със своите уеб и мобилни решения и решения за данни за локални (on-premise) и базирани в „облака“ среди Progress служи като катализатор за успеха на организации от цял свят, състоящ се в едно приложение във всеки един момент. Компанията стъпи в България в края на 2014 г. след придообиването на българската софтуерна компания Telerik.
             </a>
-          </p> -->
+          </p>
 
           <p>
             <a href="http://go.sap.com/bulgaria/index.html" target="_blank" class="sponsor">
@@ -931,12 +940,12 @@
             </a>
           </p> -->
 
-          <!-- <p>
+          <p>
             <a href="http://questers.com/" target="_blank" class="sponsor">
               <img src="images/sofia/questers-logo.png" alt="Questers - Logo"><br>
               Questers e технологичен парк, предоставящ пълен спектър от услуги на международни софтуерни и технологични компании, помагайки им да изградят и мeнажират високоефективни екипи, чрез осигуряването на подходяща среда и методология за работа, квалификация и кариерно развитие на IT професионалисти и консултанти в Източна Европа. Част от стратегията на компанията е подкрепата образователни проекти и инициативи, спомагащи развитието на индустрията.
             </a>
-          </p> -->
+          </p>
 
           <!-- <p>
             <a href="https://code-runners.bg/" target="_blank" class="sponsor">
@@ -960,7 +969,7 @@
           </p>
 
           <p>
-            <a href="https://eng.uber.com/" target="_blank" class="sponsor">
+            <a href="http://careersinfo.uber.com/sofia-engineering" target="_blank" class="sponsor">
               <img src="images/sofia/uber-logo.png" alt="Лого на Uber" title="Uber Engineering"><br>
               Убер е технологична платформа, свързваща хора нуждаещи се от логистични услуги (транспорт, доставка на пратка / храна) с хора и компании предоставящи такива услуги, в повече от 550 града от 90 държави. В какво вярваме: Building Something Big Together – осъществяване на идеи които правят транспорта лесен и достъпен, навсякъде и по-всяко време. Ние правим неща, които не са били правени преди и окуражаваме поемането на рискове и смелите идеи. Ние искаме да подобрим градовете, да направим пътищата по-безопасни и да дадем възможности на милиони хора по целия свят.
             </a>
