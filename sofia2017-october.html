@@ -382,10 +382,10 @@
 
         var seats = 0;
         var lines = data.split("\n");
-        var header = data[0];
-        var columnsCount = header.split("\t");
+        var header = lines[0];
+        var columnsCount = header.split("\t").length;
 
-        $.each(lines.slice(1, -1), function () {
+        $.each(lines.slice(1), function () {
           var columns = this.split("\t");
 
           if (columnsCount === 2) {
