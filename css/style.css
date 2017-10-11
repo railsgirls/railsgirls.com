@@ -4175,3 +4175,10 @@ h1.bern {
 #share.bern:first-child {
   margin-top: 10px;
 }
+
+.nairobi#promo {
+    padding-left:340px;
+    background:url('../images/nairobi.jpeg') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+
+}
