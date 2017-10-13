@@ -3247,14 +3247,11 @@ table.schedule td h4 {
 
 /* Medellin */
 
-.medellin#promo {
-  padding-left:340px;
-  background:url('../images/rg-medellin.png') no-repeat 0 10px;
+.medellin#promo div.registro {
+  text-align: center;
 }
 
-.medellin#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
-.medellin#promo div.registro{height: 80px; }
-.medellin#promo a.registro{
+.medellin#promo a.registro {
   background-color:#d3360b;
   border:none;
   border-radius: 35px;
@@ -3277,6 +3274,7 @@ table.schedule td h4 {
   line-height: 1.1;
   text-indent: 0;
 }
+
 .medellin#promo h1 small {
   display: block;
   font-size: 24px;
@@ -3285,15 +3283,27 @@ table.schedule td h4 {
   letter-spacing: 3px;
 }
 
-small.medellin{ color: #444;}
+small.medellin {color: #444}
 
-small.bta_role{ font-size: 80%; }
+small.bta_role {font-size: 80%}
 
-div.bta-sponsors{ margin-bottom: 30px; height: 90px; }
+div.bta-sponsors {
+  margin-bottom: 30px;
+  height: 90px;
+}
 
-div.bta-sponsors a { float:left; margin:0 0 0; border:0;}
+div.bta-sponsors a {
+  float:left;
+  margin:0 0 0;
+  border:0;
+}
 
-div.bta-sponsors-top{ margin-top: 50px;}
+div.bta-sponsors-top {margin-top: 50px}
+
+.medellin-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 /* End Medellin */
 
@@ -4139,7 +4149,7 @@ padding-top:30px;
 
 .dornbirn#promo {
     padding-left: 340px;
-    background: url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+    background: url('../images/dornbirn/rg-dornbirn.jpg') no-repeat 0 40px,
 }
 .dornbirn#promo h1 {
     text-indent: 0;

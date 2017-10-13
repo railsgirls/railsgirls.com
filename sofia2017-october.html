@@ -382,10 +382,10 @@
 
         var seats = 0;
         var lines = data.split("\n");
-        var header = data[0];
-        var columnsCount = header.split("\t");
+        var header = lines[0];
+        var columnsCount = header.split("\t").length;
 
-        $.each(lines.slice(1, -1), function () {
+        $.each(lines.slice(1), function () {
           var columns = this.split("\t");
 
           if (columnsCount === 2) {
@@ -481,8 +481,8 @@
             <a href="https://goo.gl/forms/9ntNKp6RDDYqBhIF2" class="signup">Регистрация →</a>
           </p> -->
 
-          <p>В момента местата за събитието са изчерпани.</p>
-          <p><strong>Регистрацията ще отвори тук отново, в 20:00 ч. на 5 октомври</strong>, за да се запълнят освободилите се места. Очакваме да има поне 10-ина такива места.</p>
+          <!-- <p>В момента местата за събитието са изчерпани.</p>
+          <p><strong>Регистрацията ще отвори тук отново, в 20:00 ч. на 5 октомври</strong>, за да се запълнят освободилите се места. Очакваме да има поне 10-ина такива места.</p> -->
 
           <ul class="regular">
             <li><strong>Събитието разполага със 100 места</strong>. Регистрационният формуляр ще е отворен до изчерпването им.</li>
@@ -491,9 +491,9 @@
             <li><strong>Необходимо е да си носите лаптоп</strong>. Не е задължително да знаете английски, но помага.</li>
           </ul>
 
-          <!-- <p>
+          <p>
             <strong>Регистрацията за събитието приключи.</strong>
-          </p> -->
+          </p>
 
           <!-- <p>
             Събитието приключи. <a href="#thanks"><strong>Благодарим ви!</strong></a>
@@ -597,14 +597,14 @@
           <h2>Петък, 13 октомври 2017 г.</h2>
           <table>
             <tbody>
-              <tr>
+              <!-- <tr>
                 <th></th>
                 <td>
-                  <a href="https://speakerdeck.com/mitio/rails-girls-sofia-8-dot-0-may-2017-day-1">
+                  <a href="https://speakerdeck.com/mitio/rails-girls-sofia-9-dot-0-october-2017-day-1">
                     <strong>Презентацията за деня →</strong>
                   </a>
                 </td>
-              </tr>
+              </tr> -->
 
               <tr>
                 <th>18:30 - 19:00</th>
@@ -621,14 +621,21 @@
                 </td>
               </tr>
               <tr>
-                <th>19:20 - 19:50</th>
+                <th>19:20 - 19:45</th>
+                <td>
+                  <h4>Що е то "уеб сайт"</h4>
+                  Основни градивни парчета на един сайт.
+                </td>
+              </tr>
+              <tr>
+                <th>19:45 - 20:00</th>
                 <td>
                   <h4>Тренирай си робот</h4>
                   Вашият първи досег с програмирането, и то какъв! Ще управлявате ваш собствен киборг.
                 </td>
               </tr>
               <tr>
-                <th>19:50 - 20:55</th>
+                <th>20:00 - 20:55</th>
                 <td>
                   <h4>Инструменти и първи стъпки в HTML</h4>
                   Ще ви дадем достъп до вашата собствена работилница и ще положим основите на HTML и CSS.
@@ -650,14 +657,14 @@
 
           <table>
             <tbody>
-            <tr>
+            <!-- <tr>
               <th></th>
               <td>
-                <a href="https://speakerdeck.com/mitio/rails-girls-sofia-8-dot-0-may-2017-day-2">
+                <a href="https://speakerdeck.com/mitio/rails-girls-sofia-9-dot-0-october-2017-day-2">
                   <strong>Презентацията за деня →</strong>
                 </a>
               </td>
-            </tr>
+            </tr> -->
 
             <tr>
               <th>9:00 - 10:00</th>
@@ -809,12 +816,12 @@
             </a>
           </p> -->
 
-          <p>
+          <!-- <p>
             <a href="http://www.unicreditbulbank.bg/" target="_blank" class="sponsor">
               <img src="images/sofia/unicredit-bulbank-logo.png" alt="Лого на УниКредит Булбанк" title="УниКредит Булбанк"><br>
               Инвестираме в иновации и в амбициозни таланти, които правят банкирането по-лесно, по-бързо и по-удобно, 24/7, където поискате. Най-добра банка за 2016 от Global Finance magazine.
             </a>
-          </p>
+          </p> -->
 
           <!-- <p>
             <a href="http://superhosting.bg/" target="_blank" class="sponsor">
@@ -1090,6 +1097,12 @@
         <p>
           <a href="http://ahora.bg/" target="_blank">
             <img src="images/sofia/ahora-logo.png" alt="Лого на ресторант Ahora" title="Ресторант Ahora">
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.roobar.com/bg" target="_blank">
+            <img src="images/sofia/roobar-logo.png" alt="Лого на Roobar" title="Roobar">
           </a>
         </p>
 
