@@ -2740,6 +2740,118 @@ a:hover.bratislava2014-a {
   background: #6d0001;
 }
 
+/* Popayan 2017 */
+.popayan_header {
+  background: #d3360b url('../images/popayan/railsgirls-with-background.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.popayan_header_content {
+  display: table-cell;
+  /*vertical-align: middle;*/
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  /*top: 10px;*/
+}
+
+.popayan_header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 0 0 0.25em;
+}
+
+.popayan_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+.popayan_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 0 auto 1em;
+  font-size: 26px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.popayan_header_button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+}
+
+.popayan_header_button:hover {
+  background: #C2320A;
+}
+
+.popayan_header_button {
+  background: #C2320A;
+  border: 3px solid white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0.5em;
+  display: inline-block;
+  transition: background-color 0.4s;
+}
+
+.popayan_header_button:hover {
+  background: #6d0001;
+}
+
+.popayan#promo {
+  padding-left:340px;
+  background:url('../images/popayan/rg-popayan-monochrome.jpg') no-repeat 0 10px;
+}
+
+.popayan#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
+.popayan#promo div.registro{ height: 80px; }
+.popayan#promo a.registro{
+  background-color:#d3360b;
+  border:none;
+  border-radius: 35px;
+  padding: 15px 50px;
+  font-size:26px;
+  letter-spacing: 1px;
+  clear: both;
+  margin: 0px 0px 50px 0px;
+  clear: both;
+  color: #FFF;"
+}
+
+.popayan#promo h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height: 80px;
+  font-weight: bold;
+  color: #d3360b;
+  font-size: 52px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-indent: 0;
+}
+.popayan#promo h1 small {
+  display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+small.popayan{ color: #444; }
+
+small.popayan-role{ font-size: 80%; }
+
+/* End Popayan */
 
 /* Helsinki 2015 */
 .helsinki_header {
@@ -3134,14 +3246,11 @@ table.schedule td h4 {
 
 /* Medellin */
 
-.medellin#promo {
-  padding-left:340px;
-  background:url('../images/rg-medellin.png') no-repeat 0 10px;
+.medellin#promo div.registro {
+  text-align: center;
 }
 
-.medellin#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
-.medellin#promo div.registro{height: 80px; }
-.medellin#promo a.registro{
+.medellin#promo a.registro {
   background-color:#d3360b;
   border:none;
   border-radius: 35px;
@@ -3164,6 +3273,7 @@ table.schedule td h4 {
   line-height: 1.1;
   text-indent: 0;
 }
+
 .medellin#promo h1 small {
   display: block;
   font-size: 24px;
@@ -3172,15 +3282,27 @@ table.schedule td h4 {
   letter-spacing: 3px;
 }
 
-small.medellin{ color: #444;}
+small.medellin {color: #444}
 
-small.bta_role{ font-size: 80%; }
+small.bta_role {font-size: 80%}
 
-div.bta-sponsors{ margin-bottom: 30px; height: 90px; }
+div.bta-sponsors {
+  margin-bottom: 30px;
+  height: 90px;
+}
 
-div.bta-sponsors a { float:left; margin:0 0 0; border:0;}
+div.bta-sponsors a {
+  float:left;
+  margin:0 0 0;
+  border:0;
+}
 
-div.bta-sponsors-top{ margin-top: 50px;}
+div.bta-sponsors-top {margin-top: 50px}
+
+.medellin-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 /* End Medellin */
 
@@ -4026,7 +4148,7 @@ padding-top:30px;
 
 .dornbirn#promo {
     padding-left: 340px;
-    background: url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+    background: url('../images/dornbirn/rg-dornbirn.jpg') no-repeat 0 40px,
 }
 .dornbirn#promo h1 {
     text-indent: 0;
@@ -4045,7 +4167,7 @@ padding-top:30px;
 
 .bern#promo {
   padding-left: 340px;
-  background: 	url('../images/bern/rg-bern.png') no-repeat 0 10px, 
+  background: 	url('../images/bern/rg-bern.png') no-repeat 0 10px,
 		url('../images/separator.png') no-repeat center bottom;
   background-size: 320px;
 }
@@ -4061,4 +4183,11 @@ h1.bern {
 
 #share.bern:first-child {
   margin-top: 10px;
+}
+
+.nairobi#promo {
+    padding-left:340px;
+    background:url('../images/nairobi.jpeg') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+
 }
