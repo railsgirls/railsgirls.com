@@ -1884,12 +1884,11 @@ h4.warsaw {
   url('../images/separator.png') no-repeat center bottom;
 }
 
-.yourcityname#promo {
+.mombasa#promo {
   padding-left:340px;
   background:url('../images/mombasa/rg-mombasa.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
+  url('../images/separator.png') no-repeat center bottom;
 }
-
 #promo p {
   font-size:19px;
   line-height:1.4;
@@ -4149,7 +4148,7 @@ padding-top:30px;
 
 .dornbirn#promo {
     padding-left: 340px;
-    background: url('../images/bialystok/rg-bialystok.jpg') no-repeat 0 40px,
+    background: url('../images/dornbirn/rg-dornbirn.jpg') no-repeat 0 40px,
 }
 .dornbirn#promo h1 {
     text-indent: 0;
@@ -4184,4 +4183,11 @@ h1.bern {
 
 #share.bern:first-child {
   margin-top: 10px;
+}
+
+.nairobi#promo {
+    padding-left:340px;
+    background:url('../images/nairobi.jpeg') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+
 }
