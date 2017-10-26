@@ -1,17 +1,13 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="es">
+  <head>
     <meta charset="utf-8">
-
     <!--  Add your city name, dates and year.  -->
-
-    <title>Popayán 20-21 octubre 2017</title>
-
+    <title>Popayán, 20 y 21 de Octubre 2017</title>
     <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
-
-    <meta name="description"
-          content="Rails Gilrs toma lugar en Popayán los días 14 y 15 de diciembre del 2013, ven y diviertete con el mágico mundo de la programación con Ruby on Rails">
+    <meta name="description" content="Rails Girls goes Popayán February 2017: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
     <meta name="author" content="Rails Girls">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -21,342 +17,428 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-    <script type="text/javascript">try {
-        Typekit.load();
-    } catch (e) {
-    }</script>
+    <!-- <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script> -->
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-<body>
-<!-- start Facebook "like" box -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- end Facebook "like" box -->
-
-<header>
-    <div class="container_12">
-        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls"/></a>
+    <style type="text/css">
+      /* CSS extracted from houston */
+      .schedule-tables th{
+        width: 131px;
+        text-align: right;
+        padding-right: 2%;
+      }
+      .schedule-tables td p{
+        margin-top: 0em;
+        margin-bottom: 1em;
+      }
+      em {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .transparent{
+        display: none;
+      }
+      .hidden {
+        display: none !important;
+        visibility: hidden !important;
+      }
+      .rsvp small{
+        font-size: 0.75em;
+        font-weight: 200;
+      }
+      .previous-team{
+        cursor: pointer;
+      }
+      .previous-team small{
+        font-size: 0.5em;
+        font-style: italic;
+        display: none;
+        opacity: 0.5;
+      }
+      .previous-team:hover small{
+        display: inline-block;
+      }
+      .grid_3 img {
+        border-radius: 23px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
         <nav>
-            <a href="./events.html">Eventos</a>
-            <a href="./materials.html">Materiales</a>
-            <a href="http://blog.railsgirls.com">Blog</a>
-            <a href="http://guides.railsgirls.com">Guías</a>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a>
+          <a href="http://guides.railsgirls.com">
+            Guides</a>
         </nav>
-    </div>
-</header>
+      </div>
+    </header>
 
-
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!
-
--->
-
-
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
-
-<div id="container" class="container_12 page clearfix">
-<div class="grid_12 omega alpha">
-<div id="promo" class="new yourcity">
-    <h1>Rails Girls Popayán
-        <small>14 - 15 dicembre 2013 - Colombia</small>
-    </h1>
-    <p>Hola Chicas!</p>
-
-    <p> Rails Girls toma lugar en <strong>Popayán</strong> los días 14 y 15 de diciembre del 2013, ven y diviertete con
-        el mágico mundo de la programación con Ruby on Rails</p>
-
-    <p><strong>Las inscripciones para el evento Rails Girls Popayan 2013 ya estan cerradas.</strong></p>
-
-
-    <!--  Update the sharing texts.-->
-    <div id="share">
-        <div>
-            <div style="margin:0 15px 0 0;">
-                <a href="http://twitter.com/share" class="twitter-share-button" data-url=""
-                   data-text="Rails Girls Popayán 14-15 diciembre - disfrutalo ahora! http://goo.gl/myCFUK"
-                   data-count="horizontal" data-via="rgirlspopayan" data-related="rgirlspopayan">Tweet</a>
-                <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-                <br>
-                <a href="https://twitter.com/rgirlspopayan" class="twitter-follow-button" data-show-count="true"
-                   data-lang="en">Follow @rgirlspopayan</a>
-                <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-            </div>
-            <div class="fb-like-box" data-href="https://www.facebook.com/pages/Rails-Girls-Popay%C3%A1n/254976991320185" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
-        </div>
+    <div class='popayan_header'>
+      <div class='popayan_header_content'>
+        <h1>
+          Rails Girls Popayán
+          <small>20-21.10.2017</small>
+        </h1>
+        <p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBmZXQp_ClXl-3UywpTovoLoVvMcO_6CIuHWoOnKIVtDVEVg/viewform?c=0&w=1" target='_blank' class='popayan_header_button'>Inscripción</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrEcfnCfpvJqZzNUvbZRCVxlTIQaExQigqor16Z-VSoikJHg/viewform" target='_blank' class='popayan_header_button'>Coach</a>
+          <a href="mailto:railsgirlspopayan@gmail.com" class='popayan_header_button'>Patrocinador</a>
         </p>
-        <br>
+      </div>
     </div>
-</div>
 
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="popayan">
+          <h1>Rails Girls Popayán
+            <small> 20 y 21 de Octubre 2017</small>
+          </h1>
+          <p>En su segunda versión, durante dos días de nuestro taller gratuito, estaremos entrando al mágico mundo de la construcción de aplicaciones web</p>
+          <p>Railsmociónate y construye cosas increíbles!</p>
+          <p>¡Inscríbete Gratis!</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBmZXQp_ClXl-3UywpTovoLoVvMcO_6CIuHWoOnKIVtDVEVg/viewform?c=0&w=1" target='_blank' class='popayan_header_button'>Inscripción</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrEcfnCfpvJqZzNUvbZRCVxlTIQaExQigqor16Z-VSoikJHg/viewform" target='_blank' class='popayan_header_button'>Coach</a>
+          <a href="mailto:railsgirlspopayan@gmail.com" class='popayan_header_button'>Patrocinador</a>
+          <div>
+          <br>
+            <h3>Lugar del Evento</h3>
+            <p>Auditorio Centro de Empleo y Emprendimiento<br>
+              Pueblito Patojo<br>
+              Popayán, Colombia</p>
+            <!-- <p><a href="https://docs.google.com/forms/d/11z0gP-LdHZmsZ1a8_J3mLzxWiep5XJY9kSmWZVKUCO8/viewform" target="_blank">Inscríbete ahora! </a> Inscripciones hasta el 22 de Abril.</p> -->
+          </div>
+        </div>
+        <hr />
+        <div class="grid_6 alpha">
+          <img src="./images/popayan/poster-popayan.jpg" style="width:100%;margin-top:1em">
+        </div>
+        <div class="grid_6 omega side">
+          <h1>Información</h1>
+          <p>Las inscripciones son totalmente <strong>gratuitas</strong>  pero los cupos son <strong>limitados</strong>,<strong> Inscripciones <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBmZXQp_ClXl-3UywpTovoLoVvMcO_6CIuHWoOnKIVtDVEVg/viewform?c=0&w=1" target="_blank">abiertas</a> </strong></p>
+          <!-- Las inscripciones al evento han sido cerradas, gracias por tu valiosa participación. -->
+          <p>Lee nuestro <a href="https://docs.google.com/document/d/1Q16fJUjKhBFFWsxPRoxNekDghXYAcPa9ZGAV0lRUBgo/edit?usp=sharing" target="_blank">Código de Conducta</a>.</p>
+          <div class="">
+            <p><strong>Aprenderás</strong> a diseñar, prototipar y codificar con la ayuda de nuestros tutores.</p>
+          </div>
+          <div class="">
+            <p><strong>Necesitas</strong> tu propio computador (preferiblemente), curiosidad y una pizca de imaginación.</p>
+          </div>
+          <div class="">
+            <p><strong>¿Quieres ayudar?</strong> Estamos buscando voluntarios y apoyos económicos <a href="railsgirlspopayan@gmail.com">Contáctanos</a>.</p>
+          </div>
+          <hr/>
+          </strong><br/>
+          <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+        </div>
+        <div class="grid_12 omega" id="agenda">
+          <a name="schedule"><h1 style="margin-top: 20px; margin-bottom:0;">Agenda</h1></a>
+         <h2 style="margin-top:0">Viernes, Octubre 20, 2017</h2>
+          <table class="schedule-tables">
+            <tbody>
+              <tr>
+                <th><strong>04:00- 04:30pm</strong></th>
+                <td>
+                  <h3>Inicio y Registro Participantes</h3>
+                    <p>Espacio para <em>registro</em> y <em>reconocimiento</em>, conoce el sitio, las instalaciones y escoge tu lugar preferido, ¡ Aquí comienza nuestra gran aventura!</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>04:30 - 04:45pm</strong></th>
+                <td>
+                  <h3>Bienvenida y Presentación</h3>
+                  <p>Queremos extender nuestra mejor bienvenida, contarte acerca del mundo Rails y empezar a emprender el divertido camino del desarrollo de software.</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>04:45 - 05:00pm</strong></th>
+                <td>
+                  <h3>Presentación del Taller</h3>
+                  <p>¡Nuestros coaches presentarán el taller a desarrollar durante el evento!</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>05:00 - 05:30pm</strong></th>
+                <td>
+                  <h3>Presentación Juegos Serios</h3>
+                  <p>Les tenemos preparadas grandes sorpresas, ¡A jugar!</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>05:30 - 05:50pm</strong></th>
+                <td>
+                  <h3>Configuración</h3>
+                  <p>Para empezar a desarrollar nuestras aplicaciones y nuestras ideas con Ruby y Ruby on Rails necesitamos un entorno de desarrollo, aquí te explicaremos cómo usarlo.</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>05:50 - 06:00pm</strong></th>
+                <td>
+                  <h3>Golosinas / Final</h3>
+                  <p>Hemos llegado al final de nuestro primer día, ¡Dulces para todas!</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr />
+          <h2>Sábado, Octubre 21, 2017</h2>
+          <table class="schedule-tables">
+            <tbody>
+              <tr>
+                <th><strong>08:00- 08:30am</strong></th>
+                  <td>
+                    <h3>Inicio y Registro</h3>
+                      <p>Espacio para <em>registro</em> en nuestro segundo día.</p>
+                  </td>
+                </tr>
+              <tr>
+                <th><strong>08:30 - 09:00am</strong></th>
+                <td>
+                  <h3>Organización de Equipos</h3>
+                  <p>Debemos organizarnos y escoger nuestro equipo de trabajo para abordar esta grandiosa aventura.</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>09:00 - 09:30am</strong></th>
+                <td>
+                  <h3>Presentación HTML / CSS y JavaScript</h3>
+                  <p>Debemos aprender las bases para el desarrollo web, hora de aprender conceptos...</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>09:30 - 09:45am</strong></th>
+                <td>
+                   <h3>Presentación MVC</h3>
+                   <p>En software todo tiene una estructura, una forma de diseño, aprendamos más sobre MVC...</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>09:45 - 10:00am</strong></th>
+                <td>
+                  <h3>Registro Plataforma e inicio a programar</h3>
+                  <p>Necesitamos un entorno de desarrollo rápido y listo para usar, ¡ Qué mejor que nuestros navegadores para hacerlo !</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>10:00 - 10:30am</strong></th>
+                <td>
+                   <h3>Trabajamos en nuestro proyecto</h3>
+                   <p>¡Empezamos a programar! ¡<em>Railsmociónate</em> y construye cosas increíbles!</p>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>10:30 - 10:45am</strong></th>
+                <td><h3>Break</h3></td>
+              </tr>
+              <tr>
+                <th><strong>10:45 - 12:30pm</strong></th>
+                <td>
+                   <h3>¡Volvamos a Trabajar!</h3>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>12:30 - 02:00pm</strong></th>
+                <td>
+                  <h3>Almuerzo [Libre]</h3>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>02:00 - 04:00pm</strong></th>
+                <td>
+                   <h3>¡Continuamos Trabajando!</h3>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>04:00 - 04:15am</strong></th>
+                <td><h3>Break</h3></td>
+              </tr>
+              <tr>
+                <th><strong>04:15 - 05:30pm</strong></th>
+                <td>
+                  <h3>Continuamos Trabajando y Finalizando nuestros proyectos</h3>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>05:30 - 05:45pm</strong></th>
+                <td>
+                  <h3>Entrega de Premios</h3>
+                </td>
+              </tr>
+              <tr>
+                <th><strong>05:45 - 06:00pm</strong></th>
+                <td>
+                  <h3>Agradecimientos, Opiniones y Despedida</h3>
+                  <p>Llegamos al final del evento, ¡Nuestro segundo y último día ha terminado!</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr/>
+          <h3>Preguntas Frecuentes</h3>
+          <p><strong>¿Cuánto es el costo para el ingreso al workshop?</strong>
+          Nada, es gratuito, sólo necesitas buenas energías y ganas de aprender!</p>
+          <p><strong>¿A quién va dirigido?</strong> Mujeres de cualquier edad con conocimientos básicos de computación. Hemos tenido gente de todas las edades que han participado en Rails Girls de otras ciudades. La mayoría de las orientaciones serán en español, sin embargo,la documentación y las guías estarán en ingles.</p>
+          <p><strong>¿Pueden asistir hombres?</strong> Sí, ¡Pero la prioridad en la lista de selección es para la chicas!</p>
+        </div>
 
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+        <div class="grid_12 omega" id="sponsors">
+          <h3>Patrocinadores</h3>
+          <p> Rails Girls Popayán es co-organizado con nuestros patrocinadores. </p>
+          <p> ¿Quieres ayudar? Estamos buscando  patrocinadores para el evento sin fines de lucro, <a href="mailto:railsgirlspopayan@gmail.com"> ¡Envíanos un correo electrónico!</a> </p>
 
-<div class="grid_4 alpha feature">
-    <p><strong>Aprenderas</strong> a diseñar, prototipar y codificar con la ayuda de nuestros tutores.</p>
-</div>
-<div class="grid_4 feature">
-    <p><strong>Necesitas</strong> tu propio computador (preferiblemente), curiosidad y una pizca de imaginación.</p>
-</div>
-<div class="grid_4 omega feature">
-    <p><strong>Quieres ayudar?</strong> Estamos buscando voluntarios y apoyos económicos <a
-            href="mailto:rails.girls@codescrum.com">Contáctanos</a>.</p>
-</div>
+          <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="https://www.qualitasteam.co/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/popayan/sponsors/qualitas.jpeg" alt="Qualitas" style="width:100%; margin: 0 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="https://www.qualitasteam.co/" target="_blank">Qualitas</a> Somos especialistas en servicios de pruebas de software y gestión y mejoramiento de procesos. Nuestro servicio de pruebas de software contribuye en la búsqueda y prevención de defectos, proporciona información útil sobre la calidad de un sistema. Aplicamos pruebas en todas las fases del proyecto de desarrollo de software. Con nuestro aliado AQC/LAB en Madrid enfocamos el proceso de pruebas hacia la obtención de la certificación de la Adecuación Funcional ISO 25000.</p>
+            </div>
+          </div>
 
-<hr/>
+          <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="http://www.sunsetswh.com" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/popayan/sponsors/logosunset.png" alt="SunsetSoftware" style="width="70" height="70"; margin: 0 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="http://www.sunsetswh.com" target="_blank">SUNSET SOFTWARE HOUSE S.A.S </a> es una empresa de software comprometida con la calidad y las mejores prácticas de Ingeniería de Software, enfocada en acompañar y solucionar las necesidades de nuestros clientes, tanto en etapas específicas del desarrollo como en soluciones complejas y a la medida, buscando siempre ofrecer la mejor relación costo-beneficio. Así mismo, es una empresa generadora de empleo para profesionales y conocimiento para progreso del país.</p>
+            </div>
+          </div>
 
-<!--  Update the texts! -->
+         <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="http://www.mujerestic.co/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/popayan/sponsors/logomujerestic.png" alt="MujeresTic Popayan" style="width="70" height="70"; margin: 0 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="http://www.mujerestic.co/" target="_blank">Mujeres Tic </a>Somos la Comunidad de Mujeres en Tecnología que impulsa el crecimiento integral, personal y empresarial con TIC a través de procesos de apropiación, género y emprendimiento.</p>
+            </div>
+          </div>
 
-<div class="grid_6 alpha">
-    <h2>Sábado 14 de Diciembre</h2>
-    <table id="schedule">
-        <tbody>
-        <tr>
-            <th>10.00 - 10.40</th>
-            <td>
-                <h4>Registro</h4>
-                Registro de asistentes, entrega de material y organización del espacio.
-            </td>
-        </tr>
-        <tr>
-            <th>10.40 - 11.30</th>
-            <td>
-                <h4>Reconocimiento y Bienvenida</h4>
-                Contextualización del evento, presentación de los miembros de la comunidad de Rails Girls Popayán, patrocinadores y de los asistentes al evento.<br>
-            </td>
-        </tr>
-        <tr>
-            <th>11.30 - 13.00</th>
-            <td>
-                <h4>Café e Instalación</h4>
-                Presentación e instalación de las tecnologías acompañado de un delicioso café o té, ¿qué prefieres?
-            </td>
-        </tr>
-        <tr>
-            <th>13.00 - 14.30</th>
-            <td>
-                <h4>Almuerzo libre</h4>
-            </td>
-        </tr>
-        <tr>
-            <th>14.30 - 15.00</th>
-            <td>
-                <h4>Diseñando tu aplicación web - Workshop</h4>
-            </td>
-        </tr>
-        <tr>
-            <th>15.00 - 15.30</th>
-            <td>
-                <h4><a href="http://www.tryruby.org">tryruby.org</a></h4>
-                Codificando...
-            </td>
-        </tr>
-        <tr>
-            <th>15.30 - 17.30</th>
-            <td>
-                <h4>Workshop & Café</h4>
-                Haciendo nuestra primera aplicación web...
-            </td>
-        </tr>
-        <tr>
-            <th>17.30 - 19.00</th>
-            <td>
-                <h4>Comprendiendo las aplicaciones web</h4>
-                Recapitulación y foro de discusión sobre lo aprendido hasta el momento
-            </td>
-        </tr>
-        <tr>
-            <th>19.00</th>
-            <td>
-                <h4>Charla con los tutores</h4>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+         <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="https://www.nubark.com/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/popayan/sponsors/logonubark.png" alt="Nubark S.A.S" style="width="70" height="70"; margin-top: -15px;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="https://www.nubark.com/" target="_blank">Nubark S.A.S </a>es una empresa joven y altamente calificada en consultoría de negocios y desarrollo de soluciones empresariales, Tenemos como objetivo mejorar el desempeño de cada uno de nuestros clientes a través de soluciones tecnológicas innovadoras y no convencionales. Ofrecemos herramientas informáticas para integrar procesos, reducir costos, ahorrar tiempo y obtener la información necesaria para tomar las mejores decisiones en la gestión y el crecimiento de la empresa.</p>
+            </div>
+          </div>
 
-    <hr/>
+          <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="https://codigofacilito.com/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/popayan/sponsors/logocodigofacilito.png" alt="Codigo Facilito" style="width:100%; margin: 0 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="https://codigofacilito.com/" target="_blank">Codigo Facilito</a>Aprende a programar aplicaciones móviles, plataformas web, o un nuevo lenguaje de programación.</p>
+            </div>
+          </div>
 
-    <h2>Domingo 15 de Diciembre</h2>
+          <div class="grid_12">
+            <div class="grid_2 alpha" style="margin-top:2.5em">
+              <a href="http://codescrum.com/" target="_blank" style="display:block; margin: 0; border:0;">
+                <img src="./images/popayan/sponsors/codescrum.png" alt="Codescrum" style="width:100%; margin: 0 0;">
+              </a>
+            </div>
+            <div class="grid_10 omega">
+              <p style="margin-top:2em"><a href="http://codescrum.com/" target="_blank">Codescrum</a> Empresa especializada en la consultoría y desarrollo de aplicaciones web y de internet B2B para pequeñas y medianas empresas. Codescrum fundamenta su operación en procesos modernos de gestión de proyectos, desarrollo ágil, utilización de herramientas y plataformas eficientes basadas en conceptos de reutilización y automatización. Las técnicas y metodologías utilizadas por Codescrum comprenden buenas prácticas, actualización constante e innovación.</p>
+            </div>
+          </div>
 
-    <table id="schedule">
-        <tbody>
-        <tr>
-            <th>10:00 - 10.30</th>
-            <td>
-                <h4>Retomando...</h4>
-                Organización de las personas, presentación del resumen y los objetivos de la última jornada del evento.
-            </td>
-        </tr>
+        </div>
 
-        <tr>
-            <th>10:30 - 13.00</th>
-            <td>
-                <h4>Workshop & Café</h4>
-                extendiendo nuestra aplicación...
-            </td>
-        </tr>
-
-        <tr>
-            <th>13.00</th>
-            <td>
-                <h4>Clausura - charla abierta</h4>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-
-</div>
-
-<!--  These also, just update :) -->
-
-
-<div class="grid_5 push_1 omega side">
-
-    <h3>Información</h3>
-
-    <p>
-
-    <p><strong>Las inscripciones para el evento han finalizado: </strong> Cerradas el 12 de Diciembre de 2013<br/>
-        <strong>Ubicación:</strong> Salón 101 <a
-                href="https://maps.google.com/maps?f=q&source=s_q&hl=es&geocode=&q=popay%C3%A1n,+cauca,+colombia+facultad+de+ingeniera+electronica&aq=&sll=37.0625,-95.677068&sspn=52.107327,93.076172&vpsrc=0&ie=UTF8&hq=facultad+de+ingeniera+electronica&hnear=Popay%C3%A1n,+Cauca,+Colombia&ll=2.448305,-76.605392&spn=0.032414,0.045447&t=m&z=15&iwloc=A&cid=16674959773387204444"
-                target="_blank">FIET Unicauca Popayán Colombia</a>
-    </p>
-
-
-    <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-
-
-    <h3>Patrocinadores</h3>
-
-    <p>Rails Girls Popayán 2013 es llevado a cabo gracias al patrocinio de las siguientes organizaciones.</p>
-
-    <p>
-
-    <p>
-        <a href="http://www.codescrum.com" style="float:right; margin:0 0 0; border:0; width: 220px;" target="_blank">
-            <img src="./images/popayan/codescrum.png" alt="Codescrum S.A.S.">
-        </a>
-        <a href="http://www.codescrum.com" target="_blank">Codescrum</a>
-        Creamos relaciones sólidas entre las empresas y sus clientes usando las últimas tecnologías móviles y de Internet. Nos apasiona la tecnología y los negocios. Ofrecemos la experiencia en tecnología web y móvil que su empresa necesita para ser mas productiva y obtener mejores rendimientos.
-    </p>
-
-    <p>
-        <a href="http://www.unicauca.edu.co/portaleningles/" style="float:right; margin:0 0 0; border:0;" target="_blank"><img
-                src="./images/popayan/logo-uc.gif" alt="Universidad del Cauca"></a>
-        <a href="http://www.unicauca.edu.co/portaleningles/" target="_blank">Universidad del Cauca</a> La Universidad del Cauca es una institución de educación superior pública de carácter nacional con 180 años de historia. Ubicada en la ciudad de Popayán, ofrece sus servicios educativos a estudiantes de todo el país, quienes encuentran en la Universidad y la ciudad un espacio idóneo y tranquilo para realizar sus estudios de pregrado y posgrado.
-    </p>
-
-    <p>
-        <a href="http://www.ieee.org.co/1/?id=2&t=subsecciones" style="float:right; margin:0 0 0; border:0; width: 220px;" target="_blank">
-            <img src="./images/popayan/Logo%20SS.png" alt="IEEE Subsección Sur Occidente"></a>
-        <a href="http://www.ieee.org.co/1/?id=2&t=subsecciones" target="_blank">IEEE SSO</a> IEEE es el Instituto de Ingenieros Electrónicos y Eléctricos, una organización mundial que reúne a estudiantes y profesionales en diferentes áreas de la Ingeniería y que tiene como objetivo poner la tecnología al servicio de la humanidad. IEEE Subsección Suroccidente de Colombia es la representación del instituto que reúne los departamentos de Nariño, Cauca y Valle del Cauca.
-    </p>
-
-    <hr/>
-    <h3>Preguntas Frecuentes</h3>
-
-    <p><strong>¿Cuánto es el costo para el ingreso al workshop?</strong>
-        Nada, es gratuito, sólo necesitas buenas energías y ganas de aprender!
-    </p>
-
-    <p>
-        <strong>¿A quién va dirigido?</strong>
-        Mujeres de cualquier edad con conocimientos básicos de computación. Hemos tenido gente de todas las edades que
-        han participado en Rails Girls de otras ciudades. La mayoría de las orientaciones serán en español, sin embargo,
-        la documentación y las guías estarán en ingles.
-    </p>
-
-    <p>
-        <strong>¿Pueden asistir hombres?</strong>
-        Si, pero la prioridad en la lista de selección es para la chicas!
-    </p>
-
-    <p>
-        <strong>¿Cómo puedo ayudar?</strong>
-        Estamos buscando tutores y apoyo económico. <a href="mailto:rails.girls@codescrum.com>">Contáctanos</a>
-    </p>
-
-
-</div>
-
-
-<!--  Update the team list       -->
-
-<div class="coaches">
-    <hr/>
-    <h2>Equipo Popayán</h2>
-
-    <a href="https://twitter.com/gato_omega" class="grid_3" target='_blank'>
-        Miguel Díaz, organizador
-        <small>@gato_omega</small>
-    </a>
-    <a href="https://twitter.com/johan_tique" class="grid_3" target='_blank'>
-        Johan Tique, organizador
-        <small>@johan_tique</small>
-    </a>
-    <a href="https://twitter.com/diegogomezp" class="grid_3" target='_blank'>
-        Diego Gomez, tutor
-        <small>@diegogomezp</small>
-    </a>
-    <a href="https://twitter.com/juanp_amaya" class="grid_3" target='_blank'>
-        Juan Pablo Amaya, tutor
-        <small>@juanp_amaya</small>
-    </a>
-    <a href="https://twitter.com/carloscabrerac3" class="grid_3" target='_blank'>
-        Carlos Cabrera, tutor
-        <small>@carloscabrerac3</small>
-    </a>
-</div>
-
-</div>
-</div>
-
-<!-- /content -->
-
-<footer>
-    <p>2010-2015, Rails Girls. <a href="mailto:rails.girls@codescrum.com>">Contáctanos</a> o siguenos en <a
-            href="https://twitter.com/rgirlspopayan" target="_blank">Twitter</a> y <a
-            href="" target="_blank">Facebook</a></p>
-
-    <p class="slogan">Railsmociónate y construye cosas increibles!</p>
-</footer>
-<script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-19631067-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-
-</script>
-</body>
+        <div class="grid_12 coaches">
+          <hr/>
+          <div class="grid_3 omega side" id="location">
+            <h3>Ubicación:</h3>
+            <p>Auditorio Centro de Empleo y Emprendimiento <br>
+              Pueblito Patojo<br>
+              Popayán, Colombia</p>
+          </div>
+          <div class="grid_7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d996.5475167539569!2d-76.5996542!3d2.4436713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e300308e641709f%3A0x55196a68982687e!2sEl+Pueblito+Patojo!5e0!3m2!1sen!2ses!4v1506880032363" width="600" height="350" frameborder="0" style="border:0"></iframe>
+          </div>
+        </div>
+        <!--  Update the team list       -->
+        <div class="grid_12 coaches" id="coaches">
+          <hr/>
+          <h2>Popayán Team</h2>
+          <a href="https://twitter.com/Adriana_Anacona" target="_blank" class="grid_3">
+            <img src="images/popayan/team/adriana.jpg" class="coach" style="border:none;">
+            Adriana Anacona
+            <small>@Adriana_Anacona</small>
+            <small class="popayan bta-role">Organiser</small>
+          </a>
+           <a href="https://twitter.com/rgirlspopayan?lang=es" target="_blank" class="grid_3">
+            <img src="images/popayan/team/daniela.jpg" class="coach" style="border:none;">
+            Daniela Perez
+            <small class="popayan bta-role">Organiser</small>
+           </a>
+           <a href="https://twitter.com/AlexaWaitoto" target="_blank" class="grid_3">
+             <img src="images/popayan/team/alexandra.jpg" class="coach" style="border:none;">
+             Jenny Waitoto
+             <small class="popayan">@AlexaWaitoto</small>
+             <small class="popayan bta-role">Organiser</small>
+           </a>
+          <a href="https://twitter.com/johan_tique" target="_blank" class="grid_3">
+            <img src="images/popayan/team/johan.png" class="coach" style="border:none;">
+            Johan Tique
+            <small class="popayan">@johan_tique</small>
+            <small class="popayan bta-role">Coach</small>
+          </a>
+          <a href="https://twitter.com/chougeral" target="_blank" class="grid_3">
+            <img src="images/popayan/team/geraldine.jpg" class="coach" style="border:none;">
+            Geraldine Caicedo
+            <small class="popayan">@chougeral</small>
+            <small class="popayan bta-role">Coach</small>
+          </a>
+          <a href="https://twitter.com/jroadev" target="_blank" class="grid_3">
+            <img src="images/popayan/team/juan.jpg" class="coach" style="border:none;">
+            Juan Roa
+            <small class="popayan">@jroadev</small>
+            <small class="popayan bta-role">Coach</small>
+          </a>
+          <a href="https://twitter.com/gato_omega" target="_blank" class="grid_3">
+            <img src="images/popayan/team/miguel.png" class="coach" style="border:none;">
+            Miguel Diaz
+            <small class="popayan">@gato_omega</small>
+            <small class="popayan bta-role">Coach</small>
+          </a>
+          <a href="https://twitter.com/sinourain" target="_blank" class="grid_3">
+            <img src="images/popayan/team/luis.jpg" class="coach" style="border:none;">
+            Luis Urrea
+            <small class="popayan">@sinourain</small>
+            <small class="popayan bta-role">Coach</small>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- /content -->
+    <footer>
+      <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+      <p class="slogan">Get excited and make things!</p>
+    </footer>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  </body>
 </html>
