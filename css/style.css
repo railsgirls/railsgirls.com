@@ -763,6 +763,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/kyoto/railsgirlskyoto7th.png') no-repeat 0 20px;
   background-size: 350px 350px;
 }
+.kyoto8#promo {
+  padding-left:380px;
+  background:url('../images/kyoto/railsgirlskyoto8th.jpg') no-repeat 0 20px;
+  background-size: 350px 350px;
+}
 
 .sapporo#promo {
   padding-left:500px;
