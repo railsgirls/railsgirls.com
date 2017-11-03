@@ -62,6 +62,18 @@
           background-color: rgba(0, 0, 0, 0.7);
         }
 
+        .past-events {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          opacity: 0.7;
+          justify-content: center;
+        }
+
+        .past-events :first-child {
+          list-style: none;
+        }
+
         a {
           cursor: default;
         }
@@ -324,13 +336,7 @@
        <strong>I know how to program - How can I help?</strong><br />
        We’re also looking for people to be coaches. We need people for Friday (5:30 pm to 9:00 pm) and Saturday (9:00 am to 4:30 pm) You can <a href="https://docs.google.com/forms/d/e/1FAIpQLSetQs7X71LcKRZ5G8UF5rvMgBpTeu5cznt_JavKZtAOIZR3nw/viewform"> volunteer here.</a>
      </p>
-      <hr />
-      <h3>Last three events</h3>
-      <ul style="margin-bottom: 60px">
-        <li><a href="/rotterdam-04-2017.html">Rails Girls April 2017</a></li>
-        <li><a href="/rotterdam-10-2016.html">Rails Girls October 2016</a></li>
-        <li><a href="/rotterdam-04-2016.html">Rails Girls April 2016</a></li>
-      </ul>
+     <br />
     </div>
 
 
@@ -493,6 +499,11 @@
 
     <footer>
         <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <ul class="past-events">
+          <li><a href="/rotterdam-10-2017.html">Rails Girls October 2017</a></li>
+          <li><a href="/rotterdam-04-2017.html">Rails Girls April 2017</a></li>
+          <li><a href="/rotterdam-10-2016.html">Rails Girls October 2016</a></li>
+        </ul>
         <p class="slogan">Get excited and make things!</p>
     </footer>
       <script type="text/javascript">
