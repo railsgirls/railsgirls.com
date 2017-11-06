@@ -763,6 +763,11 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/kyoto/railsgirlskyoto7th.png') no-repeat 0 20px;
   background-size: 350px 350px;
 }
+.kyoto8#promo {
+  padding-left:380px;
+  background:url('../images/kyoto/railsgirlskyoto8th.jpg') no-repeat 0 20px;
+  background-size: 350px 350px;
+}
 
 .sapporo#promo {
   padding-left:500px;
@@ -4147,9 +4152,11 @@ padding-top:30px;
 }
 
 .dornbirn#promo {
-    padding-left: 340px;
-    background: url('../images/dornbirn/rg-dornbirn.jpg') no-repeat 0 40px,
+  padding-left: 340px;
+  background: url(../images/dornbirn/dornbirn-logo.png) no-repeat 0 10px, url(../images/separator.png) no-repeat center bottom;
+  background-size: 300px;
 }
+
 .dornbirn#promo h1 {
     text-indent: 0;
     color: #d3360b;
