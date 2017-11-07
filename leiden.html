@@ -1,63 +1,136 @@
-<!doctype html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
- 
-  <title>Rails Girls Leiden February 2014</title>
-  <meta name="description" content="Rails Girls will land in Amsterdam to help aspiring lady techies building an application.">
-  <meta name="author" content="Rails Girls">
- 
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- 
-  <link rel="stylesheet" href="./css/style.css">
-  
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
-  
-	<meta property="og:image" content="http://railsgirls.com/images/RG-header-LD.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-    </head>
-    <body>
+    <meta charset="utf-8">
 
-        <header>
-        <div class="container_12">
-            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-            <nav>
-                <a href="./events.html">Events</a>
-                <a href="./materials.html">Materials</a>
-                <a href="./press.html">Press</a>
-                <a href="http://blog.railsgirls.com">Blog</a> 
-                <a href="http://guides.railsgirls.com">
-                  Guides</a>  
-            </nav>
-        </div>
-        </header>
-  
+    <title>Leiden 16th - 17th of February 2018</title>
+    <meta name="description" content="On February 16th & 17th Rails Girls goes to Leiden again: join the two-day crash course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="author" content="Rails Girls">
+
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- some styling for the time table using am / pm formats, as to not mess with the global website styling on every page -->
+    <style>
+        #schedule th {
+            width: 30%;
+        }
+
+        #container {
+          position: relative;
+          z-index: 10;
+          padding-top: 30px;
+        }
+
+        #promo, #promo.new {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 30px;
+          width: 80%;
+          margin: auto;
+        }
+
+        .backdrop {
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: 630px;
+          z-index: 0;
+          background: rgba(0, 0, 0, 0.7);
+          background-image: url(images/rg-leiden-2018.png);
+          background-position: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .backdrop::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .past-events {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          opacity: 0.7;
+          justify-content: center;
+        }
+
+        .past-events :first-child {
+          list-style: none;
+        }
+
+        a {
+          cursor: default;
+        }
+
+        a[href] {
+          cursor: pointer;
+        }
+    </style>
+
+    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+</head>
+<body>
+    <header>
+    <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="http://blog.railsgirls.com">Blog</a>
+            <a href="http://guides.railsgirls.com">
+              Guides</a>
+        </nav>
+    </div>
+    </header>
+    <div class="backdrop"></div>
+
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
-        <div id="promo" class="Leiden">
-        <h1>Rails Girls Amsterdam</h1>
-        <p>Hello Amsterdam!</p>
-        <p>Rails Girls Amsterdam will take place June 2014.</p>
+           <div id="promo" class="new yourcity">
+        <h1>Rails Girls Leiden
+            <small>16th - 17th of February 2018</small>
+        </h1>
+        <p>Hello world!</p>
+        <p>After four years, Rails Girls comes to Leiden again!<br />During this free two-day workshop we'll dive into the magical world of Ruby on Rails.</p>
+        <p><i>Applications haven't opened yet, stay tuned!</i></p>
+        <!-- <a href="https://goo.gl/forms/ybggKqUorQoc6ju73" class='cali_header_button' style="margin-left: 0; border: none;">Apply Now!</a> -->
+        <p>Questions or queries? Just send us an <a href="mailto:leiden.railsgirls@gmail.com">email</a>!</p>
+        <p>
+          Looking forward to seeing you all!<br>
+          Team Rails Girls Leiden<br />
+          <a href="mailto:leiden.railsgirls@gmail.com">leiden.railsgirls@gmail.com</a>
+          <br />
+        </p>
           <div id="share">
-
             <div>
-
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Leiden will take place in February 2014! Follow them at @RailsGirls_LD" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
-            Tweet</a>
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Leiden February 16th & 17th 2018 http://railsgirls.com/leiden.html" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
           </div>
         </p>
         </div>
-      </div>
+    </div>
+
+
+<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
       <div class="grid_4 alpha feature">
        <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
       </div>
@@ -65,241 +138,230 @@
         <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for sponsors! <a href="mailto:floordrees@gmail.com">Shoot us a mail</a>.</p>
+        <p><strong>Want to help?</strong> We are looking for Rails coaches on <br>Friday (from 18:00 to 21:00) and <br>Saturday (from 9:00 to 16:30 pm). <a href="https://goo.gl/forms/vj74lQbtAGqT0T1A3">volunteer here</a>.</p>
       </div>
-      
-      <hr />   
+
+      <hr />
+
+<!--  Update the texts! -->
+
       <div class="grid_6 alpha">
-        <h2>Friday</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th>18.00 - 20:00</th>
-              <td>
-                <h4>Installation party</h4>
-                  Come get Rails installed by our bunch of pro’s, along with a funky looking terminal, easy-to-use texteditor and more. There’ll be pizza. And drinks. <br/><br/>
-
-                    Sponsors, boyfriends, girlfriends and developers that happen-to-be-in-the-neighborhood are more than welcome to join.                </td>
-            </tr>
-          </tbody>
+          <h2>Friday 16th of February</h2>
+          <table id="schedule">
+              <tbody>
+                  <tr>
+                      <th>18:00 - 21:00</th>
+                      <td>
+                          <h4>Installation party</h4>
+                          <span>Get to know the attendees a little bit before hand. Bring your laptop, so you can install Ruby on Rails!</span>
+                      </td>
+                  </tr>
+              </tbody>
         </table>
-        
-        <hr />          
-        
-        <h2>Saturday</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th>09:30 - 10:30</th>
-              <td>
-                 <h4>Registration</h4>
-               </td>
-             </tr>
-            <tr><th>10:00 - 10:30</th>
-              <td>
-               <h4>Breakfast!</h4>
-              </td>
-             </tr>
-             <tr><th>10:30 - 11:00</th>
-               <td>
-                  <h4>Bentobox</h4>
-                  We will teach you some 'tech talk', using the <a href="http://blog.railsgirls.com/post/20405930015/bentobox-learn-the-language-of-technology">Bentobox exercise</a> - led by Martina Simicic.
-                </td>
-              </tr>
-             <tr>
-               <th>11:00 - 13:00</th>
-               <td>
-                  <h4>Hands-on, minds-on learning!</h4>
-                  Rails Girls workshop includes learning the first steps into software craftmanship, creating a fun app, in small teams.
-                </td>
-              </tr>
-              <tr><th>13:00 - 14:00</th>
-                <td>
-                  <h4>Lunch!</h4>
-                </td>
-              </tr>
-              <tr><th>14:00 - 15:00</th>
-                  <td>
-                      <h4>Lightning talks!</h4>
-                  </td>
-              </tr>
-              <tr>
-                <th>15:00 - 16:30</th>
-                <td>
-                   <h4>Second part of the workshop</h4>
-                 </td>
-               </tr>                
-              <tr><th>16:30</th>
-                <td>
-                   <h4>Wrap-up</h4>
-                </td>
-              </tr>
-          </tbody>
-        </table>
-        
-      </div>
-      
-      <div class="grid_5 push_1 omega side">
-        
-        <h3>Information</h3>
-            <p>
-              <strong>Location:</strong> TBA
-              <strong>Applications open:</strong> TBA
-              <strong>Applications close:</strong> TBA
-            </p>
 
-       <h3>Yep, we're looking for sponsors!</h3>
-         
-       <p><a href="http://kabisa.nl/" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/kabisa.png" alt="Kabisa" width=160px>
-         <a href="http://kabisa.nl/">Kabisa</a> is the market leader in Ruby on Rails development in the Netherlands. You too, can learn Ruby on Rails from our professional trainers with years of Rails experience and start writing software in a quicker, better and more enjoyable way too. With their personal attention and experience, you’ll acquire both the fundamental knowledge and necessary skills to start your own projects with Ruby on Rails.</p>
-     
-       <p><a href="http://www.gitlab.com" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/gitlabdotcom.png" alt="Gitlab" width=150px>
-           <a href="http://www.gitlab.com">Gitlab</a> is open source software to collaborate on code. Manage git repositories with fine grained access controls that keep your code secure. Perform code reviews and enhance collaboration with merge requests. Each project can also have an issue tracker and a wiki. Used by more than 50,000 organizations, GitLab is the most popular solution to manage git repositories on-premises. And on GitLab Cloud you can host unlimited public and private repositories for free.</p>
-       
-         
-         <!--
-         <p>Please <a href="mailto:floordrees@gmail.com">contact us</a> if you'd like to support Rails Girls Leiden.</p>
-        <p><a href="http://madebyhiro.com/" style="float:right; margin:0 0 0 0px; border:0;"><img src="./images/hiro.png" alt="Hiro" width=100px>
-           <a href="http://madebyhiro.com/">Hiro</a> has the ambition to excel in the design and development of applications in the areas of media, culture, heritage and healthcare. We emphasize creativity, flexibility and service.</p>
-        
-        <p><a href="http://www.wooga.com" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/wooga.png" alt="Wooga" width=150px>
-          <a href="http://www.wooga.com/">Wooga</a> is one of the most popular social games developers for Facebook and mobile in the world. The company is based in Berlin, Europe's creative heart and mecca for tech industry innovators. Wooga's free-to-play games are enjoyed by around 50 million players per month.</p>
-        
-        <p><a href="http://kabisa.nl/" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/kabisa.png" alt="Kabisa" width=160px>
-          <a href="http://kabisa.nl/">Kabisa</a> is the market leader in Ruby on Rails development in the Netherlands. You too, can learn Ruby on Rails from our professional trainers with years of Rails experience and start writing software in a quicker, better and more enjoyable way too. With their personal attention and experience, you’ll acquire both the fundamental knowledge and necessary skills to start your own projects with Ruby on Rails.</p>
-      
-        <p><a href="http://www.gitlab.com" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/gitlabdotcom.png" alt="Gitlab" width=150px>
-            <a href="http://www.gitlab.com">Gitlab.com</a> makes using Gitlab more convenient: with our hosted Gitlab repositories, you can save yourself the burden of installing, maintaining and making backups of your Gitlab installation. Instead, you can instantly enjoy all the git goodness Gitlab has to offer. Getting started with Gitlab has never been easier. In addition to that, with Gitlab.com you get ten hosted private repository for free!</p>
-        
-        <p><a href="http://www.trucker.io/" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/trucker.png" alt="Trucker" width=150px>
-            <a href="http://www.trucker.io">Trucker.io</a> allows you to deploy applications without worrying about configuration headaches, making it faster and easier to build, test, deploy and scale your app.</p>
-        
-        <p><a href="http://www.inspire.nl/" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/inspire.png" alt="Inspire" width=150px>
-            <a href="http://www.inspire.nl/">Inspire</a> is a new kind of software studio. We work together with clients such as KWF (Dutch Cancer Society) and Elsevier to create innovative web applications. Our team enjoys challenges that give a sense of truly making a difference.</p>
-        
-        <p><a href="http://www.innerballoons.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/innerballoons.png" alt="innerballoons" width=150px>
-            <a href="http://www.innerballoons.com">innerballoons</a> is a start-up based in Leiden, with a number of scalable SaaS products, which include a set of business intelligence reports for the small-to-medium enterprise (SME), and a rich profile which keeps a network of publishers up to date by realtime API. We build our front ends in Ruby on Rails and are always looking for new developers to join our great team. If you're interested, apply <a href="mailto:robin@innerballoons.com">here</a>!</p>
-        
-        <p><a href="http://dannylelieveld.tumblr.com/" style="float:right; margin:0 0 0 0px; border:0;"><img src="./images/danny.png" alt="Danny Lelieveld" width=100px>
-            <a href="http://dannylelieveld.tumblr.com/">Danny Lelieveld</a> 'designs stuff'. Like our shirts, tote bags and stickers!</p>
-          -->
-      </div>
-      
-      <div class="coaches">
         <hr />
-        <h2>Team Rails Girls Leiden</h2>
-              
-        <a href="https://twitter.com/lieke2208" class="grid_3">
-        Lieke Boon, org
-        <small>@lieke2208</small> 
-        </a>
-        
-        <a href="https://twitter.com/floordrees" class="grid_3">
-        Floor Drees, coach
-        <small>@floordrees</small>
-        </a>
-        
-        <!--
-        
-        <a href="https://twitter.com/BartOlsthoorn" class="grid_3">
-        Bart Olsthoorn, org
-        <small>@BartOlsthoorn</small>
-        </a>
-        
-        <a href="https://github.com/jandintel" class="grid_3">
-        Jan van der Pas, coach
-        <small>@jandintel</small>
-        </a>
-        
-        <a href="https://twitter.com/DannyLelieveld" class="grid_3">
-        Danny Lelieveld, org
-        <small>@DannyLelieveld</small>
-        </a>
-        
-        <a href="https://twitter.com/B35m4" class="grid_3">
-        Besma M'charek-Boussif, coach
-        <small>@B35m4</small> 
-        </a>  
-        
-        <a href="https://twitter.com/VicAMarBar" class="grid_3">
-        Victoria Martinez, coach
-        <small>@VicAMarBar</small> 
-        </a>  
-        
-        <a href="https://twitter.com/hestervanwijk" class="grid_3">
-        Hester van Wijk, coach
-        <small>@hestervanwijk</small> 
-        </a>  
-        
-        <a href="https://twitter.com/sytses" class="grid_3">
-        Sytse Sijbrandij, coach
-        <small>@sytses</small>
-        </a>
-        
-        <a href="https://twitter.com/KarenSijbrandij" class="grid_3">
-        Karen Sijbrandij, coach
-        <small>@KarenSijbrandij</small>
-        </a>
-      
-        <a href="https://twitter.com/YorickPeterse" class="grid_3">
-        Yorick Peterse, coach
-        <small>@YorickPeterse</small> 
-        </a>
-        
-        <a href="https://twitter.com/pazinjanka" class="grid_3">
-        Martina Simicic, coach
-        <small>@pazinjanka</small> 
-        </a>
-        
-        <a href="https://twitter.com/joshuajansen" class="grid_3">
-        Joshua Jansen, coach
-        <small>@joshuajansen</small> 
-        </a>
-        
-        <a href="https://twitter.com/yourivdlans" class="grid_3">
-        Youri van der Lans, coach
-        <small>@yourivdlans</small> 
-        </a>
-        
-        <a href="https://twitter.com/thijsc" class="grid_3">
-        Thijs Cadier, coach
-        <small>@thijsc</small>
-        </a>
-        
-        <a href="https://twitter.com/knuton" class="grid_3">
-        Johannes Emerich, coach
-        <small>@knuton</small>
-        </a>
-        
-        <a href="https://twitter.com/_StevenOtto" class="grid_3">
-        Steven Otto, coach
-        <small>@_StevenOtto</small>
-        </a>
-        
-        <a href="https://twitter.com/kodnin" class="grid_3">
-        David Boot, coach
-        <small>@kodnin</small>
-        </a>
-        
-        <a href="https://twitter.com/avdgaag" class="grid_3">
-        Arjan van der Gaag, coach
-        <small>@avdgaag</small>
-        </a>
-        
-        <a href="https://twitter.com/ariejan" class="grid_3">
-        Ariejan de Vroom, coach
-        <small>@ariejan</small>
+        <h2>Saturday 17th of February</h2>
+
+        <table id="schedule">
+            <tbody>
+                <tr>
+                    <th>09:30 - 10:00</th>
+                    <td>
+                        <h4>Registration & coffee</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>10:00 - 10:15</th>
+                    <td>
+                        <h4>Welcome!</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>10:15 - 10:45</th>
+                    <td>
+                        <h4>Bentobox - Understanding Web Apps</h4>
+                        <p>Learn the language of technology.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>10:45 - 13:00</th>
+                    <td>
+                        <h4>Building your app! Part 1</h4>
+                        <p>Jumpstart your first web application</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>13:00 - 13:30</th>
+                    <td>
+                        <h4>Lunch!</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>13:45 - 14:30</th>
+                    <td>
+                        <h4>Lightning talks</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>14:30 - 16:30</th>
+                    <td>
+                        <h4>Building your app! Part 2</h4>
+                        <p>Extend your application.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>16:30 - 17:30</th>
+                    <td>
+                        <h4>Afterparty :)</h4>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+      </div>
+
+<!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
+
+
+      <div class="grid_5 push_1 omega side">
+
+
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+       <h3 style="margin: 2.1em 0 2em;">Partners</h3>
+
+       <!-- <p>Rails Girls Leiden
+       wouldn't be possible without our awesome partners.</p><p> -->
+       <p>Want to help? We're always looking for partners & sponsors! <a href="mailto:leiden.railsgirls@gmail.com>">Email us</a>! </p>
+
+       <!-- <p> -->
+       <!-- <a href="https://firmhouse.com/" style="float:right; margin: 40px 0; border:0; width: 180px;" target=""> -->
+       <!--     <img src="images/firmhouse.png" alt="Firmhouse" style="width: 150px"> -->
+       <!-- </a> -->
+       <!-- <a href="https://firmhouse.com/">Firmhouse</a> works with innovation managers & entrepreneurs to bring<br />ideas to first market traction.<br />They help them to design & develop new products in quick iterations. -->
+       <!-- </p> -->
+
+     <hr/>
+     <h3>FAQ</h3>
+     <p>
+       <strong>How much does the workshop cost?</strong><br />
+       Nothing, it's free! You just need to be excited!
+     </p>
+
+     <p>
+       <strong>Do I need a laptop?</strong><br />
+       Yes! Please bring it with you :)
+     </p>
+
+     <p>
+       <strong>Can men attend?</strong><br />
+       Yes, but girls are given a priority.
+     </p>
+
+     <p>
+       <strong>Are there vegetarian / vegan options for food?</strong><br />
+       Got you covered here too, both a vegetarian and a vegan option are offered as well.
+     </p>
+
+     <p>
+       <strong>Who is this aimed for?</strong><br />
+       Women of any age with basic knowledge of working with a computer.
+       We’ve had people of all ages taking part.
+       Most of the speeches are given in English and small group work is done in either Dutch or English.
+     </p>
+
+     <p>
+       <strong>I know how to program - How can I help?</strong><br />
+       We are looking for Rails coaches on <br>Friday (from 18:00 to 21:00) and <br>Saturday (from 9:00 to 16:30 pm). <a href="https://goo.gl/forms/vj74lQbtAGqT0T1A3">volunteer here</a>.
+     </p>
+     <br />
+    </div>
+
+
+<!--  Update the team list       -->
+
+    <div class="coaches" style="clear:both">
+        <hr />
+        <h2 class="text-center">Coaches</h2>
+        <p><strong>Want to help?</strong> We are looking for Rails coaches on <br>Friday (from 18:00 to 21:00) and <br>Saturday (from 9:00 to 16:30 pm). <a href="https://goo.gl/forms/vj74lQbtAGqT0T1A3">volunteer here</a>.</p>
+
+        <!-- This is a full example, replace everything between brackets '[]' with real values.
+             For the image, choice is 100 for male, 101 for female
+        <a class="grid_3">
+          <img src="./images/ruby-[100|101].png">
+          [Coach Name]
+          <small>[Optional Company Name]</small>
         </a>
         -->
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-100.png"> -->
+<!--           Ninja Parkkinen -->
+<!--           <small>Reaktor</small> -->
+<!--         </a> -->
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Gertjan Ketelaars -->
+<!--         </a> -->
+    </div>
+
+    <div class="coaches">
+        <hr />
+        <h2 class="text-center">Speakers</h2>
+
+        <p><a href="mailto:leiden.railsgirls@gmail.com">contact us</a> if you're interested or stay tuned!</p>
+
+<!--         <a  href="http://thamar.nl" target="" class="grid_3"> -->
+<!--             <img src="./images/ruby-100.png"> -->
+<!--             Thamar Kiemel -->
+<!--             <small>Freelance UX</small> -->
+<!--         </a> -->
+
+<!--         <a  href="http://eijaleenakoponen.fi" target="" class="grid_3"> -->
+<!--             <img src="./images/ruby-100.png"> -->
+<!--             Eija-Leena Koponen -->
+<!--             <small>GeoPhy</small> -->
+<!--         </a> -->
+
+<!--         <a href="http://timonvanspronsen.nl" class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Timon van Spronsen -->
+<!--           <small>Awkward</small> -->
+<!--         </a> -->
+    </div>
+
+    <div class="coaches">
+        <hr />
+        <h2 class="text-center">Organization</h2>
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Karin Hendrikse
+          <small>Organizer</small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-101.png">
+          Lianne Heslinga
+          <small>Organizer</small>
+        </a>
       </div>
-      
-    </div>
-    </div>
-      
+  </div>
+  </div>
+
     <!-- /content -->
-    
+
     <footer>
-        <p>2010-2015, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p>2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
       <script type="text/javascript">
