@@ -45,6 +45,18 @@ a, a:visited, a:focus, a:active, a:hover{
 
 }
 
+.helsinki-kuva#promo {
+  padding-left:340px;
+  background:url('../images/helsinki2018/helsinki022018.jpg') 0px 10px/32% no-repeat,
+                 url('../images/separator.png') no-repeat center bottom;
+                 }
+
+.helsinki#promo {
+          padding-left:340px;
+          background:url('../images/rg-helsinki.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
 /*banner*/
 .hanoi-rails-girls-banner {
   position: relative;
