@@ -3236,8 +3236,8 @@ table.schedule td h4 {
   width: 100%;
   opacity: 0.9;
 }
-.lagos_header {
-  background: #d3360b url('../images/lagos/lagos.jpg') no-repeat;
+.ibadan_header {
+  background: #d3360b url('../images/ibadan.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 100vh;
