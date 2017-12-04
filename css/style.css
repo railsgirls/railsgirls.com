@@ -2884,6 +2884,7 @@ small.popayan-role{ font-size: 80%; }
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  color:red;
   padding: 3em 0;
   position: relative;
   top: -42px;
