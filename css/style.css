@@ -2925,10 +2925,33 @@ small.popayan-role{ font-size: 80%; }
 
 /* Ibadan */
 
+.ibadan_header {
+  background: #d3360b url('../images/thinkers.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+}
+
+.ibadan_header_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3em 0;
+  position: relative;
+  top: -42px;
+}
+
 .ibadan_header h1 {
   color: red;
   font-size: 42px;
   margin: 0 0 0.25em;
+}
+
+.ibadan_header h1 small {
+  display: block;
+  font-size: 24px;
 }
 
 .ibadan_header p {
