@@ -816,9 +816,16 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-nagoya-1st.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
+
 .nagoya-3rd#promo {
   padding-left:460px;
   background:url('../images/rg-nagoya-3rd.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.nagoya-4th#promo {
+  padding-left:460px;
+  background:url('../images/rg-nagoya-4th.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1437,6 +1444,10 @@ pre {
 
 .nagoya-3rd#promo h1 {
   background:url('../images/rg-nagoya-3rd-header.png') no-repeat left top;
+}
+
+.nagoya-4th#promo h1 {
+  background:url('../images/rg-nagoya-4th-header.png') no-repeat left top;
 }
 
 .nara#promo h1 {
