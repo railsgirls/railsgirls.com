@@ -1917,12 +1917,6 @@ h4.warsaw {
   background:url('../images/mombasa/rg-mombasa.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
-
-.nairobi#promo {
-  padding-left:340px;
-  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
-  url('../images/separator.png') no-repeat center bottom;
-}
 #promo p {
   font-size:19px;
   line-height:1.4;
@@ -3633,13 +3627,29 @@ small.cali-role{ font-size: 80%; }
 .sorocaba_header .button:hover { box-shadow: inset 3px 2px 20px rgba(0,0,0, 0.3);}
 
 /* end Sorocaba*/
-
+/* Initial porto alegre*/
+.poa_header_2018 {
+  background: #d3360b url('../images/porto-alegre/2018/imagens-geral/rails_girls_poa_2018.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 120vh;
+  height: 1vm;
+  width: 100%;
+}
+.poa_header_2017 {
+  background: #d3360b url('../images/porto-alegre/2017/imagens-geral/rails_girls_poa_2017.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 115vh;
+  height: 1vm;
+  width: 100%;
+}
 
 .poa_header_2016 {
   background: #d3360b url('../images/porto-alegre/rails_girls_poa_2016.jpg') no-repeat;
   background-size: cover;
   display: table;
-  height: 90vh;
+  height: 115vh;
   height: 1vm;
   width: 100%;
 }
@@ -4283,3 +4293,9 @@ h1.bern {
   margin-top: 10px;
 }
 
+.nairobi#promo {
+    padding-left:340px;
+    background:url('../images/nairobi.jpeg') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+
+}
