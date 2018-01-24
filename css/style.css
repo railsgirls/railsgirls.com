@@ -1917,6 +1917,12 @@ h4.warsaw {
   background:url('../images/mombasa/rg-mombasa.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
+
+.nairobi#promo {
+  padding-left:340px;
+  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
 #promo p {
   font-size:19px;
   line-height:1.4;
@@ -4277,9 +4283,3 @@ h1.bern {
   margin-top: 10px;
 }
 
-.nairobi#promo {
-    padding-left:340px;
-    background:url('../images/nairobi.jpeg') no-repeat 0 10px,
-    url('../images/separator.png') no-repeat center bottom;
-
-}
