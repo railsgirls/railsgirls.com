@@ -87,6 +87,44 @@
     #social .fb_iframe_widget {
       display: block;
     }
+    .edicoes-anteriores h2{
+      color:#e0330c;
+    }
+
+    .edicoes-anteriores  nav {
+      margin:0 0 0 0;
+      padding-top:5px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .edicoes-anteriores nav a {
+      color:#000;
+      text-decoration:none;
+      font-weight:300;
+      font-size:16px;
+      letter-spacing:1px;
+      margin-left:15px;
+      border:none;
+    }
+
+    .edicoes-anteriores nav a:after {
+      margin-left: 15px;
+      content: " ";
+      width:10px;
+      height:10px;
+      display:inline-block;
+      background: url(images/porto-alegre/star.png) no-repeat;
+      background-size:10px;
+    }
+
+    .edicoes-anteriores nav a:last-child:after {
+      background:none;
+    }
+
+    .edicoes-anteriores nav a:hover{
+      text-decoration:underline;
+    }
   </style>
 
   <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
@@ -118,6 +156,7 @@
           <a href="./portoalegre2015.html" target="_blank">2015</a>
           <a href="./portoalegre2014.html" target="_blank">2014</a>
           <a href="./portoalegre2013.html" target="_blank">2013</a>
+          <a href="#edicoes-anteriores">Edições Anteriores</a>
         </nav>
       </div>
     </header>
@@ -296,39 +335,38 @@
 
       <div class="grid_12 partners">
         <h3>Parceiros</h3>
-        
+
       	<div class="grid_4 first">
-	         <a href="http://www.dbserver.com.br" title="DB Server" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/db-server.png" height="48px" alt="DB Server"></a>
+	         <a href="http://www.dbserver.com.br" title="DB Server" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/db-server.png" height="48px" alt="DB Server"></a>
 	      </div>
 
         <div class="grid_4">
-          <a href="http://thoughtworks.com.br" title="ThoughtWorks" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/tw_lg.gif" height="48px" alt="ThoughtWorks"></a>
+          <a href="http://thoughtworks.com.br" title="ThoughtWorks" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/tw_lg.gif" height="48px" alt="ThoughtWorks"></a>
         </div>
 
         <div class="grid_4">
-          <a href="http://globo.com" title="Globo.com" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/globo_lg.png" height="48px" alt="Globo.com"></a>
+          <a href="http://globo.com" title="Globo.com" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/globo_lg.png" height="48px" alt="Globo.com"></a>
         </div>
 
         <div class="grid_4 first">
-            <a href="http://www.altoseventos.com.br" title="Altos Eventos" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/altos_eventos.png" height="48px" alt="Altos Eventos"></a>
+            <a href="http://www.altoseventos.com.br" title="Altos Eventos" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/altos_eventos.png" height="48px" alt="Altos Eventos"></a>
         </div>
 
         <div class="grid_4">
-            <a href="https://www.kinghost.com.br/" title="King Host" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/kinghost.png" height="64px" alt="King Host"></a>
+            <a href="https://www.kinghost.com.br/" title="King Host" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/kinghost.png" height="64px" alt="King Host"></a>
         </div>
 
         <div class="grid_4">
-            <a href="http://www.dell.com.br" title="Dell" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/dell.png" height="48px" alt="Dell"></a>
+            <a href="http://www.dell.com.br" title="Dell" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/dell.png" height="48px" alt="Dell"></a>
         </div>
 
         <div class="grid_6 first">
-            <a href="http://www.jetbrains.com" title="Jetbrains" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/jetbrains.svg" height="64px" alt="Jetbrains"></a>
+            <a href="http://www.jetbrains.com" title="Jetbrains" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/jetbrains.svg" height="64px" alt="Jetbrains"></a>
         </div>
 
         <div class="grid_6 first">
-            <a href="http://www.hp.com.br" title="Hewlett-Packard" class="partners" target="_blank"><img src="./images/porto-alegre/sponsors/hp.png" height="48px" alt="Hewlett-Packard"></a>
+            <a href="http://www.hp.com.br" title="Hewlett-Packard" class="partners" target="_blank"><img src="./images/porto-alegre/2016/patrocinadores/hp.png" height="48px" alt="Hewlett-Packard"></a>
         </div>
-
 
       </div>
 
@@ -336,113 +374,98 @@
 
       <div class="coaches">
         <h2>Este evento s&oacute; &eacute; poss&iacute;vel com a ajuda dessa galera mais maior de bacana!</h2>
-        <!-- <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/anne_kelly.jpg" alt="Anne Kelly">
-          Anne Kelly<br/>
-        </a> -->
-        <!-- <a href="https://fb.com/bahartmann" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/barbara_hartmann.jpg" alt="Barbara Hartmann">
-          Bárbara Hartmann<br/>
-          <small>@bahartmann</small>
-        </a>
         <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/jessica_blandina.jpg" alt="Jessica Blandina">
-          Jessica Blandina<br/>
-	      </a> -->
-        <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/novo-hamburgo/amanda_silva.jpg" alt="Amanda Silva Vieira">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/amanda_silva.jpg" alt="Amanda Silva Vieira">
           Amanda Silva Vieira<br/>
         </a>
-        <a href="https://twitter.com/anaschwendler" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/novo-hamburgo/ana_schwendler.jpg" alt="Ana Schwendler">
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/ana_schwendler.jpg" alt="Ana Schwendler">
           Ana Schwendler<br/>
-          <small>@anaschwendler</small>
         </a>
-        <a href="https://www.facebook.com/andriele.menegotto" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/andriele_menegotto.jpg" alt="Andriele Menegotto">
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/andriele_menegotto.jpg" alt="Andriele Menegotto">
           Andriele Menegotto<br/>
         </a>
-        <a href="https://www.facebook.com/ebragaparah" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/eduardo_ferreira.jpg" alt="Eduardo Ferreira">
-          Eduardo Ferreira<br/>
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/tatieli-ramos.jpg" alt="Tatieli Ramos">
+          Tatieli Ramos<br/>
         </a>
-        <a href="https://www.facebook.com/gut0w" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/gustavo_azevedo.jpg" alt="Gustavo Azevedo">
-          Gustavo Azevedo<br/>
-        </a>
-
-        <a href="https://www.facebook.com/henriquelbsouza" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/henrique_souza.jpg" alt="Henrique Souza">
-          Henrique Souza<br/>
-          <small>@henriquelbsouza</small>
-        </a>
-
-        <a href="https://www.facebook.com/Juh.r.fernandes" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/juliana_fernandes.jpg" alt="Juliana Fernandes">
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/juliana_fernandes.jpg" alt="Juliana Fernandes">
           Juliana Fernandes<br/>
         </a>
         <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/larissa_wermann.jpg" alt="Larissa Wermann">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/larissa_wermann.jpg" alt="Larissa Wermann">
           Larissa Wermann<br/>
 	      </a>
-        <a href="https://www.facebook.com/leco.iglesias"class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/leonardo_iglesias.jpg" alt="Leonardo Iglesias">
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/leonardo_iglesias.jpg" alt="Leonardo Iglesias">
           Leonardo Iglesias<br/>
 	      </a>
-        <a href="https://www.facebook.com/tutabeier" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/lucas_beier.jpg" alt="Lucas Beier">
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/lucas_beier.jpg" alt="Lucas Beier">
           Lucas Beier<br/>
 	      </a>
-        <a href="https://www.facebook.com/lucas.lago.142" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/lucas_lago.jpg" alt="Lucas Lago">
-          Lucas Lago<br/>
-	      </a>
+
         <a class="grid_3 omega" target="_blank">
-          <img class="coach coach_mel" src="./images/porto-alegre/melina_deraldo.jpg" alt="Melina Deraldo">
+          <img class="coach coach_mel" src="./images/porto-alegre/2016/organizadores/melina_deraldo.jpg" alt="Melina Deraldo">
           Melina Deraldo<br/>
         </a>
-        <a href="https://www.facebook.com/pedrro2" class="grid_3 omega" target="_blank">
-          <img class="coach coach_mel" src="./images/porto-alegre/pedro_henrique.jpg" alt="Pedro Henrique">
-          Pedro Henrique<br/>
-        </a>
+
         <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/rafael_barboza.jpg" alt="Rafael Barboza">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/rafael_barboza.jpg" alt="Rafael Barboza">
           Rafael Barboza<br/>
 	      </a>
         <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/sarah_caixeta.jpg" alt="Sarah Caixeta">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/sarah_caixeta.jpg" alt="Sarah Caixeta">
           Sarah Caixeta<br/>
 	      </a>
-        <a href="https://www.facebook.com/taniadgv" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/tania_gonzales.jpg" alt="Tania Gonzales">
-          Tania Gonzales<br/>
-          <!-- <small>@thaishamilton</small> -->
-        </a>
-        <a href="https://www.facebook.com/tayanefernandes" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/thayane_fernandes.jpg" alt="Tayane Fernandes">
-          Tayane Fernandes<br/>
-          <!-- <small>@thaishamilton</small> -->
-        </a>
-        <a href="https://www.facebook.com/thaishamilton" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/thais_hamilton.jpg" alt="Thais Hamilton">
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/thais_hamilton.jpg" alt="Thais Hamilton">
           Thais Hamilton<br/>
-          <small>@thaishamilton</small>
 	      </a>
-        <a href="https://www.facebook.com/viniciusrdacosta" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/porto-alegre/vinicius_costa.jpg" alt="Vinicius Costa">
-          Vinicius Costa<br/>
-          <small>@realsuiciniv</small>
-	</a>
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/caroline-moersa.jpg" alt="Caroline Moers">
+          Caroline Moers<br/>
+        </a>
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/tanara-bordini.jpg" alt="Tanara Bodini">
+          Tanara Bodini<br/>
+	      </a>
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/felipe-de-moraes.jpg" alt="Felipe de Morais">
+          Felipe de Morais<br/>
+        </a>
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/denize-vasquez.jpg" alt="Denize Vásquez">
+          Denize Vásquez<br/>
+	      </a>
+        <a class="grid_3 omega" target="_blank">
+          <img class="coach" src="./images/porto-alegre/2016/organizadores/lucas-lago.jpg" alt="Lucas Lago">
+          Lucas Lago<br/>
+        </a>
       </div>
 
       <div id="social" class="grid_12 partners">
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/portoalegre" data-text="Programar n&atilde;o &eacute; dif&iacute;cil, cola a&iacute; que a gente te mostra :)" data-hashtags="RailsGirlsPoa">Tweet</a>
         <div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-Porto-Alegre/534692719952156?fb_source=rails_gilrs_poa_2014" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="true"></div>
       </div>
+
+      <hr/>
+
+      <div class="grid_12 edicoes-anteriores" id="edicoes-anteriores">
+        <h2>Edições Anterioes</h2>
+        <nav>
+          <a href="./portoalegre2015.html" target="_blank">2015</a>
+          <a href="./portoalegre2014.html" target="_blank">2014</a>
+          <a href="./portoalegre2013.html" target="_blank">2013</a>
+          <a href="./portoalegre2012.html" target="_blank">2012</a>
+        </nav>
+      </div>
     </div>
 
     <footer>
-        <p>2010-2016, Rails Girls. <a href="mailto:railsgirlspoa@gmail.com">Entre em contato</a> ou nos siga no <a href="http://twitter.com/railsgirls">Twitter</a> e <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p>2010-2016, Rails Girls. <a href="mailto:railsgirlspoa@gmail.com">Entre em contato</a> ou nos siga no <a href="http://twitter.com/railsgirls">Twitter</a> e <a href="https://www.facebook.com/pg/railsgirlspoa/">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
     <script type="text/javascript">
