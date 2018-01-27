@@ -3274,6 +3274,30 @@ h3.faq {
   padding-bottom: 30px;
 }
 
+.lviv2018#promo {
+  padding-left:340px;
+  padding-bottom: 40px;
+  background:url('../images/lviv2018/rg-maribor.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+.lviv2018#promo h1{
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  height:80px;
+  font-weight:bold;
+  color:#d3360b;
+  font-size:32px;
+  padding-bottom: 15px;
+  margin-bottom:20px;
+  line-height:1.1;
+  text-indent:0;
+}
+.lviv2018#promo h1 small {
+  padding-top: 5px;
+}
+.lviv2018#share {
+  padding-bottom: 30px;
+}
+
 table.schedule td {
   padding:1em 0;
   font-size:15px;
