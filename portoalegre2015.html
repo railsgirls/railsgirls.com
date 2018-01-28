@@ -84,6 +84,44 @@
     #social .fb_iframe_widget {
       display: block;
     }
+    .edicoes-anteriores h2{
+      color:#e0330c;
+    }
+
+    .edicoes-anteriores  nav {
+      margin:0 0 0 0;
+      padding-top:5px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .edicoes-anteriores nav a {
+      color:#000;
+      text-decoration:none;
+      font-weight:300;
+      font-size:16px;
+      letter-spacing:1px;
+      margin-left:15px;
+      border:none;
+    }
+
+    .edicoes-anteriores nav a:after {
+      margin-left: 15px;
+      content: " ";
+      width:10px;
+      height:10px;
+      display:inline-block;
+      background: url(images/porto-alegre/star.png) no-repeat;
+      background-size:10px;
+    }
+
+    .edicoes-anteriores nav a:last-child:after {
+      background:none;
+    }
+
+    .edicoes-anteriores nav a:hover{
+      text-decoration:underline;
+    }
   </style>
 
   <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
@@ -115,6 +153,7 @@
           <a href="./portoalegre2014.html" target="_blank">2014</a>
           <a href="./portoalegre2013.html" target="_blank">2013</a>
           <a href="./portoalegre2012.html" target="_blank">2012</a>
+          <a href="#edicoes-anteriores">Edições Anteriores</a>
         </nav>
       </div>
     </header>
@@ -379,12 +418,23 @@
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/portoalegre" data-text="Programar n&atilde;o &eacute; dif&iacute;cil, cola a&iacute; que a gente te mostra :)" data-hashtags="RailsGirlsPoa">Tweet</a>
         <div class="fb-like" data-href="https://www.facebook.com/pages/Rails-Girls-Porto-Alegre/534692719952156?fb_source=rails_gilrs_poa_2014" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="true"></div>
       </div>
+      
+      <hr/>
+
+      <div class="grid_12 edicoes-anteriores" id="edicoes-anteriores">
+        <h2>Edições Anterioes</h2>
+        <nav>
+          <a href="./portoalegre2014.html" target="_blank">2014</a>
+          <a href="./portoalegre2013.html" target="_blank">2013</a>
+          <a href="./portoalegre2012.html" target="_blank">2012</a>
+        </nav>
+      </div>
     </div>
 
   <!-- /content -->
 
     <footer>
-        <p>2010-2015, Rails Girls. <a href="mailto:railsgirlspoa@gmail.com">Entre em contato</a> ou nos siga no <a href="http://twitter.com/railsgirls">Twitter</a> e <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p>2010-2015, Rails Girls. <a href="mailto:railsgirlspoa@gmail.com">Entre em contato</a> ou nos siga no <a href="http://twitter.com/railsgirls">Twitter</a> e <a href="http://twitter.com/railsgirls">Twitter</a> e <a href="https://www.facebook.com/pg/railsgirlspoa/">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
     <script type="text/javascript">
