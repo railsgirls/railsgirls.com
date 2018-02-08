@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="utf-8">
 
 <!--  Add your city name, dates and year.  -->
@@ -30,6 +30,14 @@
       <![endif]-->
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=663741543750214&autoLogAppEvents=1';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
         <header>
         <div class="container_12">
@@ -87,8 +95,8 @@ Steps to show on site
           <div id="fb-root" style=""></div>
           <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
           <fb:like href="http://www.facebook.com/railsgirlskochi" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
-        You can also check out our facebook page
-        <a href="https://www.facebook.com/railsgirlskochi/" target="_blank">here</a>
+          Like our Facebook page
+          <a href="https://www.facebook.com/railsgirlskochi/" class="fa fa-facebook"></a>
       </p>
       <p>
           <div id="share">
