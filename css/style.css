@@ -3954,7 +3954,7 @@ a.large{
 /*Kochi 2018*/
 .kochi#promo {
   padding-left:430px;
-  background:url('../images/rg-kochi2018.png') no-repeat 0 50px,
+  background:url('../images/kochi2018/rg-kochi2018.png') no-repeat 0 50px,
   url('../images/separator.png') no-repeat center bottom;
   background-size: 400px;
 }
