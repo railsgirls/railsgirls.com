@@ -1,6 +1,39 @@
 <!doctype html>
 <html lang="en">
 <head>
+   <script>
+      // This example requires the Places library. Include the libraries=places
+      // parameter when you first load the API. For example:
+      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -33.866, lng: 151.196},
+          zoom: 15
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+        var service = new google.maps.places.PlacesService(map);
+
+        service.getDetails({
+          placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4'
+        }, function(place, status) {
+          if (status === google.maps.places.PlacesServiceStatus.OK) {
+            var marker = new google.maps.Marker({
+              map: map,
+              position: place.geometry.location
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                'Place ID: ' + place.place_id + '<br>' +
+                place.formatted_address + '</div>');
+              infowindow.open(map, this);
+            });
+          }
+        });
+      }
+    </script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="utf-8">
 
@@ -216,8 +249,21 @@ Steps to show on site
       <div>
 
        <h3>Information</h3>
-              <strong>Location:</strong> <p>Model Engineering College,Karimakkad, Thrikkakara, Edappally, Kochi, Kerala 682021
-</p> 
+              <strong>Location:</strong> <p><a href = "http://www.mec.ac.in/">Govt. Model Engineering College,Karimakkad, Thrikkakara, Edappally, Kochi, Kerala 682021</a>
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                <script>
+                function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(10.0282,76.3292),
+                    zoom:50,
+                };
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+                </script>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBGSxJUYIIzOcPOGX_Dg_jIAutfdqTdMlg &callback=myMap"></script>
+              </p> 
 
 
 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
@@ -242,7 +288,8 @@ Steps to show on site
       </p> -->
       <p><strong>Where is the event being conducted?</strong>
         <a href = "http://www.mec.ac.in/">Govt. Model Engineering College,Karimakkad, Thrikkakara, Edappally, Kochi, Kerala 682021</a>
-      </p>
+        
+                  </p>
        <p>
          <strong>Who is this aimed for?</strong>
          Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. We speak English at our events. Please bring your laptop.
@@ -253,7 +300,7 @@ Steps to show on site
        </p>
        <p>
          <strong>I know how to program - How can I help?</strong>
-         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="https://docs.google.com/forms/d/1VvsVHSlYBSJG0D_YNP7HMM4PutXfZi6q70xQMoNURYs/edit?edit_requested=true#responses">Go here</a>
+         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="https://www.google.co.in/maps/place/Government+Model+Engineering+College/@10.0281967,76.3292422,15z/data=!4m5!3m4!1s0x0:0xcf23e14245d4694d!8m2!3d10.0281967!4d76.3292422">Go here</a>
        </p>
 
 
