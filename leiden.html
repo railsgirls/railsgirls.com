@@ -34,14 +34,11 @@
     padding: 30px;
     width: 80%;
     margin: auto;
+    margin: 20px auto 20px auto;
   }
 
   .backdrop {
-    position: absolute;
-    top: 85px;
-    left: 0;
     width: 100%;
-    height: 630px;
     z-index: 0;
     background: rgba(0, 0, 0, 0.7);
     background-image: url(images/leiden/rg-leiden-2018.png);
@@ -51,16 +48,7 @@
     justify-content: space-between;
   }
 
-  .backdrop::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-
+  
   .past-events {
     display: flex;
     flex-flow: row wrap;
@@ -108,28 +96,43 @@
         </nav>
       </div>
     </header>
-    <div class="backdrop"></div>
-
-    <div id="container" class="container_12 page clearfix">
-      <div class="grid_12 omega alpha">
+    <!-- <div class="backdrop"></div> -->
+    <div class="container_16 clearfix backdrop">
+        <div class="container_12  clearfix">
         <div id="promo" class="new yourcity">
-          <h1>Rails Girls Leiden
-            <small>16th - 17th of February 2018</small>
-          </h1>
-          <p>Hello world!<br/> Rails Girls Leiden took place on February 16 and 17 in 2018. A free, one and a half day workshop where participants discovered the exciting world of web development through Ruby on Rails. With the help and guidance of our coaches, attendees created a real web application in a fun and relaxed environment at Nieuwe Energie. </p>
-        <p>We had so much fun!<br> Team Rails Girls Leiden<br /></p>
-        <p><i>Questions or queries? Just send us an <a href="mailto:leiden.railsgirls@gmail.com">email</a>! or follow/join us on:</i></p>
-        <div class="social-media">
-          <a href="https://railsgirlsleiden.slack.com"><img src="images/london/slack.png" alt="Slack" /></a>
-          <a href="https://www.facebook.com/railsgirlsleiden"><img src="images/london/facebook.png" alt="Facebook" /></a>
-          <a href="https://www.instagram.com/railsgirlsleiden/"><img src="images/london/instagram.png" alt="Instagram" /></a>
-          <a href="https://twitter.com/RailsGirls_LD"><img src="images/london/twitter.png" alt="Twitter" /></a>
-          </p>
+            <h1>Rails Girls Leiden
+              <small>16th - 17th of February 2018</small>
+            </h1>
+            <p>Hello world!<br/> Rails Girls Leiden took place on February 16 and 17 in 2018. A free, one and a half day workshop where participants discovered the exciting world of web development through Ruby on Rails. With the help and guidance of our coaches, attendees created a real web application in a fun and relaxed environment at Nieuwe Energie. </p>
+          <p>We had so much fun!<br> Team Rails Girls Leiden<br /></p>
+          <p><i>Questions or queries? Just send us an <a href="mailto:leiden.railsgirls@gmail.com">email</a>! or follow/join us on:</i></p>
+         
         </div>
-      </div>
-      
+        <div id="promo" class="new yourcity" style="min-height: 150px; margin-top: 15px;">
+          <div class="grid_3">
+              <h3>Follow us <3</h3>
+            <a href="https://railsgirlsleiden.slack.com"><img src="images/london/slack.png" alt="Slack" /></a>
+            <a href="https://www.facebook.com/railsgirlsleiden"><img src="images/london/facebook.png" alt="Facebook" /></a><br>
+            <a href="https://www.instagram.com/railsgirlsleiden/"><img src="images/london/instagram.png" alt="Instagram" /></a>
+            <a href="https://twitter.com/RailsGirls_LD"><img 
+              src="images/london/twitter.png" alt="Twitter" /></a></center>
+            </p>
+          </div>
+          <div class="grid_9">
+            <h3>Check out the pictures from the last event!</h3>
+            <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/140251577@N04/albums/72157688033045620" title="16th and 17th of February 2018"><img src="https://farm5.staticflickr.com/4745/40340848992_baf16f4dd2_s.jpg" width="100" height="100" alt="16th and 17th of February 2018"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/140251577@N04/38575440750/in/album-72157688033045620/" title="2018-02-17 10.54.24"><img src="https://farm5.staticflickr.com/4705/38575440750_2349dbfb74_s.jpg" width="100" height="100" alt="2018-02-17 10.54.24"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/140251577@N04/40340848272/in/album-72157688033045620/" title="2018-02-17 10.54.29"><img src="https://farm5.staticflickr.com/4650/40340848272_4882e51996_s.jpg" width="100" height="100" alt="2018-02-17 10.54.29"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/140251577@N04/38575439810/in/album-72157688033045620/" title="2018-02-17 10.58.25"><img src="https://farm5.staticflickr.com/4663/38575439810_b112f1dbec_s.jpg" width="100" height="100" alt="2018-02-17 10.58.25"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br>
+            <a href="https://flic.kr/s/aHsm7c5Zkj">Go to Flickr album ></a>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="container_12  clearfix">
       <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
-
+      <hr />
+      <h2>About Rails Girls Leiden</h2>
       <div class="grid_4 alpha feature">
         <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
       </div>
@@ -345,12 +348,12 @@
             <small>Organizer</small>
           </a>
         </div>
-      </div>
 
-      <div class="coaches" style="clear:both">
+      <div class="coaches">
         <hr />
         <h2 class="text-center">Coaches</h2>
-        <p><strong>Want to help?</strong>We are currently not looking for Rails coaches. But check other events near you!</p></p>
+        <p><strong>Want to help?</strong>
+          We are currently not looking for Rails coaches. But check other events near you!</p></p>
 
         <a class="grid_3" href="http://github.com/sidofc/">
           <img src="./images/ruby-101.png">
