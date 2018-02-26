@@ -1,16 +1,49 @@
 <!doctype html>
 <html lang="en">
 <head>
+   <script>
+      // This example requires the Places library. Include the libraries=places
+      // parameter when you first load the API. For example:
+      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -33.866, lng: 151.196},
+          zoom: 15
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+        var service = new google.maps.places.PlacesService(map);
+
+        service.getDetails({
+          placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4'
+        }, function(place, status) {
+          if (status === google.maps.places.PlacesServiceStatus.OK) {
+            var marker = new google.maps.Marker({
+              map: map,
+              position: place.geometry.location
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                'Place ID: ' + place.place_id + '<br>' +
+                place.formatted_address + '</div>');
+              infowindow.open(map, this);
+            });
+          }
+        });
+      }
+    </script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="utf-8">
 
 <!--  Add your city name, dates and year.  -->
 
-  <title>Kochi March 10th 2018</title>
+  <title>Kochi March 11th 2018</title>
 
 <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content=" Rails Girls comes to Kochi on Saturday, March 10th! Dive into the exciting world of coding with Ruby on Rails">
+  <meta name="description" content=" Rails Girls comes to Kochi on Sunday, March 11th! Dive into the exciting world of coding with Ruby on Rails">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
@@ -78,13 +111,13 @@ Steps to show on site
       <div class="grid_12 omega alpha">
         <div id="promo" class="new kochi">
         <h1>Rails Girls Kochi
-            <small>10 March 2018</small>
+            <small>11 March 2018</small>
         </h1>
-        <p> Namaskaram World!</p>
+        <p> നമസ്കാരം (Greetings)</p>
         <p>
-            Rails Girls comes to Kochi on Saturday, March 10th! During the one day workshop for women, we'll dive into the magical world of Ruby on Rails. This event is for beginner women who want to learn more about coding and building things.
+            Rails Girls comes to Kochi on Sunday, March 11th! During the one day workshop for women, we'll dive into the magical world of Ruby on Rails. This event is for beginner women who want to learn more about coding and building things.
  </p>
-           <p>Applications opening soon !</p>
+           <p>Registration has opened. Click <a href="https://www.townscript.com/e/rgk2018">here</a> to register</p>
           <p>
         
         <a href="https://twitter.com/railsgirlskochi"class="twitter-follow-button" ></a>
@@ -103,7 +136,7 @@ Steps to show on site
             <div>
               
               <p>
-                <br> <br>Everyone are talking about Rails Girls Kochi 2018. Are You?</p>
+                <br> <br>Everyone is talking about Rails Girls Kochi 2018. Are You?</p>
 
             <div style="margin:0 15px 0 0;">
               <a href="https://twitter.com/share"class="twitter-share-button" 
@@ -216,8 +249,21 @@ Steps to show on site
       <div>
 
        <h3>Information</h3>
-              <strong>Location:</strong> <p>Model Engineering College,Karimakkad, Thrikkakara, Edappally, Kochi, Kerala 682021
-</p> 
+              <strong>Location:</strong> <p><a href = "http://www.mec.ac.in/">Kerala Technology Innovation Zone, Kalamassery, Kochi, Kerala 682021</a>
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                <script>
+                function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(10.0554,76.3531),
+                    zoom:18,
+                };
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+                </script>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBGSxJUYIIzOcPOGX_Dg_jIAutfdqTdMlg &callback=myMap"></script>
+              </p> 
 
 
 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
@@ -229,10 +275,30 @@ Steps to show on site
          <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirlskochi@gmail.com">Email us</a>! </p>
 
 <p>
-    <a href="https://redpanthers.co/" style="float:right; margin:0 0 0; border:0;"><img src="./images/kochi2018/redpanthers.png" alt="RedPanthers"></a>
+    <a href="https://redpanthers.co/" style="float:right; margin:0 20px; border:0; width:100%;"><img src="./images/kochi2018/rp.png" alt="RedPanthers"></a>
     <a href="https://redpanthers.co/">Red Panthers</a> Red Panthers is a Ruby on Rails development studio, based in the beautiful city of Cochin, India. We work with our clients hand-crafting applications that turn their ideas into profitable and effective businesses. 
 </p>
+<br>
+<p>
+  <a href="https://www.bigbinary.com/" style="float:right; margin:0 20px; border:0; width:100%;"><img src="./images/kochi2018/bigbinary.png" alt="BigBinary"></a>
+  <a href="https://www.bigbinary.com/">BigBinary</a> is a Ruby on Rails Consulting company based in San Francisco,
+            Miami and Pune. Over the years, they have made tons of contributions to Ruby on Rails code, with their team
+            consisting of three of the top 40 contributors to Ruby on Rails. They build web and mobile applications using
+            Ruby on Rails, React and React Native.
+</p>
 
+<br>
+<p>
+  <a href="https://www.reflektive.com/" style="float:right; margin:0 20px; border:0; width:100%;">
+    <img src="./images/kochi2018/reflektive.png" alt="Reflektive"></a>
+  <a href="https://www.reflektive.com/">Reflektive</a>  is a leader in providing innovative, real-time performance management solutions for HR leaders and their agile organizations. Founded in 2014, Reflektive securely delivers Real-Time Feedback and Requests, Goal Management, Performance Reviews, and Check-Ins applications in the cloud for more than 400 clients worldwide including AAR, Blue Origin, Comcast, Dollar Shave Club, Healthgrades, Instacart, Wavemaker Global, and Protective Life. Based in San Francisco, Reflektive secured funding from Andreessen Horowitz, Lightspeed Venture Partners, and TPG Growth and was recognized in Gartner’s 2017 Cool Vendors in Human Capital Management report. Reflektive’s mission is to reinvent people management processes to empower employees to thrive at work.
+</p>
+
+<br>
+<p>
+  <a href="https://gitlab.com/" style="float:right; margin:0 20px; border:0; width:100%;">
+    <img src="./images/kochi2018/gitlab.png" alt="Gitlab" height="140"></a>
+  <a href="https://gitlab.com/">Gitlab Inc.</a>  is a company based on the GitLab open-source project. GitLab is an integrated product for the entire software development lifecycle containing chat, issue tracking, kanban boards, version control, continuous integration, release automation, and monitoring.  2/3 of the organizations that self-host git use GitLab, that are more than 100,000 organizations and millions of users. GitLab, being an open source project, has a large community with over 1800 contributors from all over the world.</p>
 
      <hr/>
      <h3>FAQ</h3>
@@ -240,9 +306,10 @@ Steps to show on site
          Overall Event costs 150* Rs. You don't have to worry about food. Your Lunch and evening snacks is on us and we gaurantee you will get some nice gifts along with great learning experience.
          <small>logistic expenses</small>
       </p> -->
-      <p><strong>Where is the event being conducted?</strong>
+      <!-- <p><strong>Where is the event being conducted?</strong>
         <a href = "http://www.mec.ac.in/">Govt. Model Engineering College,Karimakkad, Thrikkakara, Edappally, Kochi, Kerala 682021</a>
-      </p>
+        
+                  </p> -->
        <p>
          <strong>Who is this aimed for?</strong>
          Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. We speak English at our events. Please bring your laptop.
@@ -253,7 +320,7 @@ Steps to show on site
        </p>
        <p>
          <strong>I know how to program - How can I help?</strong>
-         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="https://docs.google.com/forms/d/1VvsVHSlYBSJG0D_YNP7HMM4PutXfZi6q70xQMoNURYs/edit?edit_requested=true#responses">Go here</a>
+         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. 
        </p>
 
 
