@@ -752,10 +752,17 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 390px;
   }
 
-.tokyo#promo {
+.tokyo-2017-10-07#promo {
   padding-left:420px;
   background:url('../images/rg-tokyo-2017-10-07.png') no-repeat left top;
                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
+.tokyo#promo {
+  padding-left:420px;
+  background:url('../images/railsgirls-sq.png') no-repeat left top;
+                  url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
   }
 
