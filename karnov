@@ -5,11 +5,11 @@
 
 <!--  Add your city name, dates and year.  -->
 
-  <title>Copenhagen January 19-20 2018</title>
+  <title>Copenhagen May 4-5 2018</title>
 
 <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="In January Rails Girls will have another Beginners Workshop in Copenhagen: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="description" content="In May Rails Girls will have another Beginners Workshop in Copenhagen: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
@@ -69,12 +69,12 @@ Steps to show on site
       <div class="grid_12 omega alpha">
         <div id="promo" class="new yourcity">
         <h1>Rails Girls Copenhagen
-            <small>19-20 January 2018</small>
+            <small>4-5 May 2018</small>
         </h1>
         <p>Hello world!</p>
         <p>
             Rails Girls comes to Copenhagen! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-        <p>Apply now! <a href="https://railsgirlscph.wufoo.com/forms/zc0k1ct177kpc5/">Applications</a> are open until January 7, 2018. Applicants notified: January 9, 2018.</p>
+        <p>Apply now! <a href="https://railsgirlscph.wufoo.com/forms/zc0k1ct177kpc5/">Applications</a> are open until April 20, 2018. Applicants notified: April 27, 2018.</p>
 
 
 <!--  Update the sharing texts.-->
@@ -124,7 +124,7 @@ Steps to show on site
               <td>
                 <h4>Installation party</h4>
                   Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.<br>
-		      <strong>Where: Karnov Group office.</strong> We will have pizza and softdrinks on hand!
+		      <strong>Where: Zendesk office.</strong> We will have pizza and softdrinks on hand!
 
 
               </td></tr>
@@ -142,7 +142,7 @@ Steps to show on site
             <td>
               <h4>Registration, coffee</h4>
                 Get registarted, get a name tag, find your spot.<br>
-		    <strong>Where: Karnov Group office.</strong>
+		    <strong>Where: Zendesk office.</strong>
             </td>
           </tr>
 
