@@ -9,7 +9,7 @@
 
 <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="Rails Girls + Rails Kids goes Kampala 27th - 28th April: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="description" content="Rails Girls + Rails Kids  goes Kampala 27th - 28th April: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
@@ -20,8 +20,10 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
@@ -36,8 +38,7 @@
                 <a href="./materials.html">Materials</a>
                 <a href="./press.html">Press</a>
                 <a href="http://blog.railsgirls.com">Blog</a>
-                <a href="http://guides.railsgirls.com">
-                  Guides</a>
+                <a href="http://guides.railsgirls.com">Guides</a>
             </nav>
         </div>
         </header>
@@ -48,15 +49,12 @@ In the assets folder there is something called rg-header.psd. Be sure to downloa
 
 Steps to show on site
 1. Go to style.css
-2. Add two lines, always replacing 'yourcityname' with your actual city name.
+2. Add these lines, always replacing 'yourcityname' with your actual city name.
 
+        .yourcityname#promo {
           padding-left:340px;
           background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
-        }
-
-        .yourcityname#promo h1 {
-          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
         }
 
         It will take a while before the changes show, so don't panic!
@@ -68,12 +66,16 @@ Steps to show on site
 
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
-        <div id="promo" class="kampala">
-        <h1>Rails Girls Kampala, 27th - 28th April</h1>
-        <p> Hello world!</p><p>
-          Rails Girls comes to Kampala! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-<p>
-          Apply now! <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6wsECpyJ90qjS91buFGd52v3rDmBYcQ1rmY8u1COuEOU3gw/viewform?c=0&w=1">Applications</a> are open until the 20th of April.</p>
+        <div id="promo" class="new yourcity">
+        <h1>Rails Girls Kampala
+            <small>27th - 28th April</small>
+        </h1>
+        <p>Hello world!</p>
+        <p>
+            Rails Girls  + Rails kids comes to Kampala! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
+        <p>This year we will have a parallel rails kids event from a growing community of kids that have met for the last three years learning to code with ruby on rails.</p>
+        <p>Apply now! <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6wsECpyJ90qjS91buFGd52v3rDmBYcQ1rmY8u1COuEOU3gw/viewform?c=0&w=1">Applications</a>
+          are open until the 20th of April.</p>
 
 
 <!--  Update the sharing texts.-->
@@ -83,20 +85,14 @@ Steps to show on site
             <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Kampala 27th - 28th April apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Kampala 27th - 28th April  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
             Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
-            <div class="fb-like" data-href="http://www.facebook.com/RailsGirlsKampala" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+            <div id="fb-root" style=""></div>
+            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
 
           </div>
         </p>
@@ -113,7 +109,7 @@ Steps to show on site
         <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:railsgirls@rubykampala.com">Email us</a>.</p>
+        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:contact@railsgirls.com">Email us</a>.</p>
       </div>
 
       <hr />
@@ -145,7 +141,6 @@ Steps to show on site
         </table>
 
         <hr />
-
         <h2>Saturday 28th April</h2>
 
         <table id="schedule">
@@ -233,9 +228,10 @@ Steps to show on site
           </tbody>
         </table>
 
+
       </div>
 
-<!--  These also, just update :) -->
+<!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
 
 
       <div class="grid_5 push_1 omega side">
@@ -251,7 +247,6 @@ Steps to show on site
               Kampala, Kampala<br>
               Uganda<br>
               <a target="_blank" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=ThoughtWorks+Uganda+Limited&aq=&sll=0.326359,32.576024&sspn=0.034933,0.055747&vpsrc=6&ie=UTF8&hq=&hnear=Soliz+House,+Central+Kampala,+Kampala,+Central+Region,+Uganda&ll=0.324771,32.57678&spn=0.008733,0.013937&t=m&z=17&iwloc=A">View map</a>
-
             </p>
 
 
@@ -259,10 +254,10 @@ Steps to show on site
 
 
        <h3>Partners</h3>
-
        <p>Rails Girls Kampala is co-organized with our awesome partners.</p><p>
          <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirlskampala@gmail.com>">Email us</a>! </p>
          <p><a href="http://outbox.co.ug" style="float:right; margin:0 0 0 15px; border:0;"><img src="./images/outbox.jpg" alt="Outbox" width="120"></a><a href="http://outbox.co.ug">Outbox</a> is an acceleration program for promising mobile and web startups, helping them refine their businesses and raise funding through Outbox’s network of investors with the intention of helping them grow their businesses<br>Outbox hub is a space for collaboration that supports techies and further support for people to turn their tech ideas into businesses.</p>
+
      <hr/>
      <h3>FAQ</h3>
       <p><strong>How much does the workshop cost?</strong>
@@ -278,18 +273,17 @@ Steps to show on site
        </p>
        <p>
          <strong>I know how to program - How can I help?</strong>
-         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="mailto:railsgirlskampala@gmail.com>">Email us</a>
+         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="mailto:liane@railslove.com>">Email us</a>
        </p>
 
 
       </div>
 
-<div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=5139468288&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
-<h4>Looking forward to seeing you all!!!</h4>
 
 <!--  Update the team list       -->
-<div class="coaches">
-    <hr />
+
+      <div class="coaches">
+        <hr />
     <h2>Kampala team</h2>
     <a href="https://twitter.com/Captain_Joannah" class="grid_3">
         <img src="images/mombasa/coaches/joannah.jpg" class="coach" />
@@ -317,7 +311,7 @@ Steps to show on site
         <small>RailsGirls Kampala</small>
     </a>
 
-</div>
+      </div>
 
     </div>
     </div>
@@ -325,7 +319,7 @@ Steps to show on site
     <!-- /content -->
 
     <footer>
-        <p>2010-2015, Rails Girls. <a href="mailto:railsgirls@rubykampala.com"</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p>2010-2018, Rails Girls. <a href="mailto:railsgirls@rubykampala.com"</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
     </footer>
       <script type="text/javascript">
