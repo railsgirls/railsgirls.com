@@ -3633,6 +3633,14 @@ small.cali-role{ font-size: 80%; }
   color: #fff;
 }
 
+.sorocaba_header h2 {
+  font-family: 'Helvetica Neue', Helvetica , sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
 .sorocaba_header p {
   color: #fff;
   max-width: 30em;
@@ -3656,6 +3664,16 @@ small.cali-role{ font-size: 80%; }
   width: 206px;
 }
 .sorocaba_header .button:hover { box-shadow: inset 3px 2px 20px rgba(0,0,0, 0.3);}
+
+.mar-top-0 {
+  margin-top: 0;
+}
+.mar-bot-0 {
+  margin-bottom: 0;
+}
+.mar-bot-2 {
+  margin-bottom: 2.5em;
+}
 
 /* end Sorocaba*/
 /* Initial porto alegre*/
