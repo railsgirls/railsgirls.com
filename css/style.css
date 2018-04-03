@@ -3652,24 +3652,31 @@ small.cali-role{ font-size: 80%; }
 .sorocaba_header .button {
   background-color: #fff;
   color: #d3360b;
-  padding: 20px 10px;
-  font-size: 22px;
+  padding: 25px 10px;
+  font-size: 18px;
   position: relative;
-  margin: 30px 78px;
+  margin: 15px 15px;
   display: inline-block;
-  border-radius: 8px;
+  border-radius: 4px;
   text-transform: uppercase;
   border: none;
   transition: all 0.3s linear;
   width: 206px;
+  font-weight: 600;
 }
 .sorocaba_header .button:hover { box-shadow: inset 3px 2px 20px rgba(0,0,0, 0.3);}
 
+.coaches--sorocaba .team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
 .mar-top-0 {
   margin-top: 0;
 }
 .mar-bot-0 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .mar-bot-2 {
   margin-bottom: 2.5em;
