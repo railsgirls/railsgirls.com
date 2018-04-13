@@ -3332,8 +3332,21 @@ table.schedule td h4 {
   width: 100%;
   opacity: 0.9;
 }
+
+/*Ibadan*/
 .ibadan_header {
   background: #d3360b url('../images/ibadan.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  height: 1vm;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/*Kaduna*/
+.kaduna_header {
+  background: #d3360b url('../images/kaduna/sponsors/Kaduna.jpeg') no-repeat;
   background-size: cover;
   display: table;
   height: 100vh;
