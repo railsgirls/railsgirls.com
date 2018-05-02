@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+
+  <!--  Add your city name, dates and year.  -->
+  <title>São Paulo, 18-19 Agosto, 2017</title>
+
+  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+  <meta name="description" content="Rails Girls chegou em São Paulo e agora não sai mais! Venha para se divertir e aprender Ruby on Rails conosco!"/>
+  <meta name="author" content="Rails Girls">
+  <meta name="keywords" content="rails, railsgirls, rails girls, ruby on rails, women in tech, mulheres na computação">
+
+  <meta property="og:title" content="São Paulo, 18-19 Agosto, 2017" />
+  <meta property="og:image" content="./images/saopaulo/girl-saopaulo.pn"gpr />
+
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style type="text/css">
+    .partners {
+      margin-bottom: 15px;
+      vertical-align: middle;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .partners a {
+      border-bottom: none;
+    }
+    .partners .first {
+      margin: 15px 0 0 0;
+    }
+    .partners .grid_4:not(.alpha) {
+      margin-top: 20px;
+    }
+    .grid_12 .time:after {
+      content: " - ";
+    }
+    .coach {
+      border-radius: 50px;
+    }
+    #promo {
+      height: 350px;
+      background-image: url(./images/saopaulo/girl-saopaulo.png);
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;
+    }
+    #promo.new{
+      padding-bottom: 0px;
+    }
+    #promo.new p{
+      font-size: 18px;
+    }
+    #promo.new h1{
+      padding-top: 34px;
+      font-size: 60px;
+    }
+    #promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
+    #promo .insciption-button a{
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      background-color: #d3360b;
+      color: white;
+      letter-spacing: 2px;
+      padding: 20px 70px 18px 70px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    #promo .insciption-button a:hover{
+      background-color: #be310a;
+    }
+    #promo.new #share{
+      padding-top: 10px;
+    }
+
+    .le-wagon {
+      padding-top: 20px;
+    }
+
+  </style>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Eventos</a>
+        <a href="./materials.html">Materiais</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">Guides</a>
+        <a href="http://railsgirls.com/saopaulo2012">2012</a>
+        <a href="http://railsgirls.com/saopaulo2015">2015</a>
+        <a href="http://railsgirls.com/saopaulo2016">2016</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--   How to change the picture & header for site
+  In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+  Steps to show on site
+  1. Go to style.css
+  2. Add these lines, always replacing 'yourcityname' with your actual city name.
+
+          .yourcityname#promo {
+            padding-left:340px;
+            background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                           url('../images/separator.png') no-repeat center bottom;
+          }
+
+          It will take a while before the changes show, so don't panic!
+  -->
+
+  <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+  <div id="container" class="container_12 page clearfix">
+    <div class="grid_12 omega alpha">
+      <div id="promo" class="new yourcity">
+        <h1>Rails Girls São Paulo
+          <small>18-19 Agosto, 2017</small>
+        </h1>
+        <p>Rails Girls chegou em São Paulo e agora não sai mais! Venha para se divertir e aprender Ruby on Rails conosco.</p>
+        <p class="insciption-button">INSCRIÇÕES ENCERRADAS!!</a></p>
+
+        <!--  Update the sharing texts.-->
+        <div id="share">
+          <div>
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls São Paulo - 18-19 Agosto, 2017 - Tá chegando!" data-count="horizontal" data-via="railsgirlssp #railsgirlsSP" data-related="railsgirlssp">
+                Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+            <!-- Facebook like button code -->
+            <div class="fb-like" data-href="https://www.facebook.com/railsgirls.sp" data-width="160" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      <div class="grid_4 alpha feature">
+        <p><strong>Você aprenderá</strong> design e programação com a ajuda dos nossos coaches.</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>Quer participar?</strong> Não precisa saber programar, apenas ter interesse e vontade de aprender!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Quer ajudar?</strong> Sabe programar e gosta de compartilhar conhecimento? Nós precisamos de você! <strong>Seja coach!</strong></p>
+      </div>
+
+      <!--  Update the texts! -->
+      <div class="grid_12">
+        <div class="grid_6 alpha">
+          <h2>Sexta 18 de Agosto de 2017</h2>
+          <div class="grid_4">
+            <span class="time">18:00 - 18:30</span>
+            <h4>Registro</h4>
+          </div>
+          <div class="grid_4">
+            <span class="time">18:30 - 19:00</span>
+            <h4>Abertura</h4>
+            <p>
+              Você vai conhecer os nossos coaches, suas colegas de time e obter uma introdução das ferramentas que usaremos no workshop no sábado.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">19:00 - 19:20</span>
+            <h4>Palestra - Métodos Ágeis</h4>
+            <p>
+              A <a href="https://www.linkedin.com/in/karolxavierleite/" target="_blank">Karoline Leite</a> vai mostrar um pouco do que é a metodologia ágil.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">19:30 - 20:00</span>
+            <h4>Palestra - Introdução a git</h4>
+            <p>
+               Palestrinha rápida com a <a href="https://www.linkedin.com/in/maria-eugênia-ferreira-79b08b61/" target="_blank">Maria Eugenia Ferreira</a> sobre como usar o git para controle de versão do seu código.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">20:00 - 21:00</span>
+            <h4>Instalação do ambiente</h4>
+            <p>
+              Traga o seu notebook, vamos usar um pendrive para subir o ambiente para programar em Rails no dia seguinte. Você ficará com o pen drive :D
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">21:00</span>
+            <h4>Encerramento</h4>
+            <p>
+              Nos vemos amanhã! Traga toda a sua vontade de aprender e se divertir.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid_6 omega">
+          <h2>Sábado 19 de Agosto de 2017</h2>
+          <div class="grid_4">
+            <span class="time">09:00 - 09:30</span>
+            <h4>Abertura</h4>
+            <p>
+              Teremos um café da manhã para compartilhar conhecimentos e nos conhecermos melhor!
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">09:30 - 09:50</span>
+            <h4>Palestra - Introdução a Ruby</h4>
+            <p>
+              A <a href="https://www.linkedin.com/in/flafortes/" target="_blank">Flávia Fortes</a> vai nos contar o que é e como funciona o Ruby, que é a linguagem de programação maravilhosa que usaremos no workshop.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">09:50 - 10:20</span>
+            <h4>Palestra - Introdução a Rails</h4>
+            <p>
+              A <a href="https://www.linkedin.com/in/anna-fl%C3%A1via-2691a754/" target="_blank">Anna Flávia</a> vai nos contar sobre as ferramentas que são usadas na web e o que acontece por baixo dos panos quando você acessa um site, e mostrar como Rails funciona.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">10:30 - 10:50</span>
+            <h4>Palestra - Mulheres na Computação</h4>
+            <p>
+              A <a href="https://www.linkedin.com/in/ianachan/" target="_blank">Iana Chan</a>, do <a href="https://www.programaria.org/" target="_blank">programaria</a>, vai nos falar um pouco sobre como é o mundo das mulheres em tecnologia.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">10:50 - 13:00</span>
+            <h4>Mãos à obra</h4>
+            <p>
+              Começamos o desenvolvimento dos nossos aplicativos!
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">13:00 - 14:00</span>
+            <h4>Almoço</h4>
+            <p>
+              Não se preocupe, é por nossa conta.
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">14:00 - 17:30</span>
+            <h4>Mãos à obra: O Retorno</h4>
+            <p>
+              Nós continuamos o desenvolvimento dos nossos aplicativos!
+            </p>
+          </div>
+          <div class="grid_4">
+            <span class="time">17:30 - 18:00</span>
+            <h4>Encerramento</h4>
+            <p>
+              Apresentação dos aplicativos, retrospectiva e surpresas!
+            </p>
+          </div>
+        </div>
+        <p>
+          <strong>Atenção</strong>: A agenda pode ser alterada até a data do evento.
+        </p>
+      </div>
+      <!--  These also, just update :) -->
+      <div class="grid_12">
+        <h3>Informações</h3>
+        <p><strong>Inscrições</strong> encerradas<br/>
+          <strong>Local:</strong> Nubank: Capote Valente, 39 - Pinheiros, São Paulo - SP.
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.829439063904!2d-46.6735441!3d-23.560995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37fce44a23ae534c!2sNubank!5e0!3m2!1spt-BR!2sbr!4v1496199582039" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="grid_12">
+        <h3 style="margin-top: 16.800px;">FAQ</h3>
+        <p>
+          <strong>Quanto custa o evento?</strong>
+          Nada, é gratuito!
+        </p>
+        <p>
+          <strong>Qual é o publico alvo?</strong>
+          Mulheres de qualquer idade que tenham um conhecimento básico em lidar com computadores. Já tivemos participantes de todas as idades.
+        </p>
+        <p>
+          <strong>Preciso levar alguma coisa?</strong>
+          Sim! Por favor, traga seu notebook.
+        </p>
+        <p>
+          <strong>Homens podem participar?</strong>
+          A prioridade será dada às mulheres. Caso sobrem vagas abriremos para os homens também.
+        </p>
+        <p>
+          <strong>Como foi o evento ano passado?</strong>
+          Foi <strong>M A R A V I L H O S O</strong>! Dá uma olhadinha nas fotos lá no nosso <a href="https://www.facebook.com/railsgirls.sp/photos/?tab=album&album_id=940014352702769">Facebook</a>.
+        </p>
+        <p>
+          <strong>Eu sei programar! Como posso ajudar?</strong>
+          Sempre precisamos de tutoras e tutores para ajudar as meninas a aprender a programar! As incrições estão encerradas.
+        </p>
+        <p>
+          <strong>Quero patrocinar o evento. O que faço?</strong>
+          Entre em contato conosco clicando <a href="mailto:railsgirls.sp@gmail.com">aqui</a>!
+        </p>
+        <p>
+          <strong>Posso ajudar de mais alguma maneira?</strong>
+          SIM! Você pode compartilhar com a galera para nos ajudar a encontrar patrocinadores!
+        </p>
+      </div>
+
+      <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+      <div class="grid_12 partners">
+        <h3>Nossos patrocinadores</h3>
+        <div class="grid_4 first">
+          <a href="https://www.nubank.com.br/" title="Nubank" class="partners" target="_blank">
+            <img src="./images/saopaulo/2017/nubank.png" alt="Nubank" height="64px"></a>
+        </div>
+        <div class="grid_4">
+          <a href="https://www.creditas.com.br/" title="Creditas" class="partners" target="_blank">
+            <img src="./images/saopaulo/2017/creditas.png" alt="Creditas" height="45px"></a>
+        </div>
+        <div class="grid_4 alpha">
+          <a href="https://www.avenuecode.com" title="Avenue Code" class="partners" target="_blank">
+            <img src="./images/saopaulo/2017/avenuecode.png" alt="Avenue Code" height="80px">
+          </a>
+        </div>
+        <div class="grid_12">
+          <div class="grid_4 alpha">
+            <a href="https://www.lewagon.com/sao-paulo" title="Le wagon" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/lewagon.png" alt="Le wagon" height="100px">
+            </a>
+          </div>
+          <div class="grid_4">
+            <a href="https://magnetis.com.br/" title="Magnetis" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/magnetis.png" alt="Magnetis" height="68px">
+            </a>
+          </div>
+          <div class="grid_4 alpha">
+            <a href="http://www.globo.com/" title="Globo.com" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/globocom.png" alt="Globo.com" height="98px">
+            </a>
+          </div>
+        </div>
+        <div class="grid_12">
+          <div class="grid_4">
+            <a href="https://www.thoughtworks.com/" title="Thoughtworks" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/twLogo.gif" alt="Thoughtworks" height="38px" class="le-wagon">
+            </a>
+          </div>
+          <div class="grid_4 omega">
+            <a href="http://ornito.com.br/" title="Ornito" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/ornito.png" alt="Ornito" height="48px" class="le-wagon">
+            </a>
+          </div>
+          <div class="grid_4 alpha">
+            <a href="https://www.getninjas.com.br/" title="Get ninjas" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/getninjas.jpg" alt="Get ninjas" height="108px">
+            </a>
+          </div>
+        </div>
+
+        <div class="grid_12">
+          <div class="grid_4 alpha">
+            <a href="https://www.facebook.com/EntrelinhasConfec/" title="Entrelinhas confecções" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/entrelinhas.jpg" alt="Entrelinhas confecções" height="38px">
+            </a>
+          </div>
+          <div class="grid_4 alpha">
+            <a href="https://www.casadocodigo.com.br/" title="Casa do Código" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/casadocodigo.png" alt="Casa do Código" height="45px">
+            </a>
+          </div>
+          <div class="grid_4 alpha">
+            <a href="https://www.lambda3.com.br/" title="Lambda3" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/lambda3.png" alt="Lambda3" height="65px">
+            </a>
+          </div>
+        </div>
+
+        <div class="grid_12">
+          <div class="grid_12">
+            <a href="https://www.facebook.com/codamosclub/" title="Codamos" class="partners" target="_blank">
+              <img src="./images/saopaulo/2017/codamos.png" alt="Codamos" height="82px">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--  Update the team list -->
+      <div class=" grid_12 coaches">
+        <h3 style="text-align: center; padding-top: 40px;">Nosso time</h3>
+
+        <a href="https://twitter.com/bahbbc" class="grid_3">
+          <img class="coach" src="./images/saopaulo/barbara.jpg" alt="bahbbc">
+          Bárbara Barbosa, Organizadora<br>
+          <small>@bahbbc</small>
+        </a>
+        <a href="https://twitter.com/camposmilaa" class="grid_3">
+          <img class="coach" src="./images/saopaulo/camila.jpg" alt="camposmilaa">
+          Camila Campos, Organizadora
+          <small>@camposmilaa</small>
+        </a>
+        <a href="https://twitter.com/danijardim00" class="grid_3">
+          <img class="coach" src="./images/saopaulo/2017/dani_j.jpg" alt="danijardim00">
+          Daniela Jardim, Organizadora
+          <small>@danijardim00</small>
+        </a>
+        <a href="https://twitter.com/dannyeuu" class="grid_3">
+          <img class="coach" src="./images/saopaulo/dani.jpg" alt="dannyeuu">
+          Daniel Lopes, Colaborador
+          <small>@dannyeuu</small>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer>
+    <p>2010-2017
+    , Rails Girls. <a href="mailto:railsgirls.sp@gmail.com">Entre em contato</a> e nos siga no <a href="https://twitter.com/railsgirlssp">Twitter</a> e <a href="https://www.facebook.com/railsgirls.sp">Facebook</a></p>
+    <p class="slogan">Get excited and make things!</p>
+  </footer>
+
+  <!-- Google Analytics Script -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-66370893-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

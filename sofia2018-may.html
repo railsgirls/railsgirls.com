@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sofia 19 May 2018 - Rails Girls Sofia 10 Anniversary Edition</title>
+
+  <meta name="description" content="Rails Girls Sofia е безплатен уъркшоп за дами, въвеждащ в магическия свят на изработката на уеб приложения.">
+  <meta name="author" content="Rails Girls Sofia">
+  <meta property="og:image" content="http://railsgirls.com/images/sofia/rails-girls-sofia-10-cover-image-transparent-1600x.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <style type="text/css">
+    .clear {
+      clear: both;
+    }
+    a.signup {
+      display: inline-block;
+      padding: 0.6em 1em;
+      border-radius: 4px;
+      background-color: #e2390c;
+      border-bottom: none;
+      color: #fff;
+      line-height: 1.3em;
+    }
+    a.sponsor {
+      display: block;
+      margin: 2em 0;
+      border: none;
+      color: #666;
+      line-height: 130%;
+      text-align: center;
+      font-size: 0.8em;
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    a.sponsor img {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto 0.5em auto;
+    }
+
+    .sponsor img,
+    .logos-wall p img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .sponsor:hover {
+      color: #444;
+      opacity: 1;
+    }
+    .sponsor:hover img,
+    .logos-wall p:hover img {
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+
+    header {
+      padding: 0;
+      height: auto;
+      line-height: 1em;
+      overflow: hidden;
+    }
+    header #logo {
+      padding: 1em 0;
+      width: 140px;
+    }
+    header nav a {
+      display: inline-block;
+      padding: 0.7em 0;
+    }
+
+    a img {
+      max-width: 100%;
+    }
+    h3.sponsor-type {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    .coaches {
+      margin-right: -20px;
+    }
+    .coaches .grid_3 {
+      height: 80px;
+      margin: 0 20px 30px 0;
+    }
+    .coaches a img,
+    .coaches div.coach img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      margin-bottom: 30px;
+    }
+    .coaches a em,
+    .coaches div.coach em {
+      display: block;
+      font-style: normal;
+      font-size: 0.75em;
+    }
+    .coaches div.coach {
+      color: #e0330c;
+    }
+    .coaches .grid_3:nth-child(4n+4) {
+      margin-right: 20px;
+    }
+    .page h2 {
+      letter-spacing: 0em;
+    }
+
+    .faq {
+      overflow: hidden;
+      margin-right: -70px;
+    }
+    .faq .column {
+      width: 440px;
+      margin-right: 70px;
+      float: left;
+    }
+    .faq strong {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    #schedule th {
+      white-space: nowrap;
+      padding-right: 0.6em;
+    }
+    #schedule td ol {
+      padding-left: 15px;
+      margin: 1em 0;
+    }
+    #schedule td ol li {
+      color: #222;
+    }
+    #schedule td ol li em {
+      display: block;
+      color: #555;
+    }
+    ul.regular {
+      list-style-position: outside;
+      margin-left: 20px;
+    }
+    .regular li {
+      color: #390c00;
+    }
+    .sponsors-wall {
+      clear: both;
+      padding: 3em 0 1em 0;
+      overflow: hidden;
+    }
+    .sponsors-wall p {
+      margin-bottom: 2%;
+    }
+    /*.sponsors-wall p {
+      float: left;
+    }*/
+    .logos-wall p {
+      display: block;
+      width: 31%;
+      text-align: center;
+      margin: 0 2% 5% 0;
+      float: left;
+    }
+    .logos-wall p:nth-of-type(3n+1) {
+      clear: left;
+    }
+    .logos-wall p a {
+      text-decoration: none;
+      border-bottom: none;
+    }
+    .logos-wall img {
+      max-width: 100%;
+    }
+
+    img, iframe {
+      max-width: 100%;
+    }
+
+    iframe.map {
+      border: 0;
+      width: 100%;
+    }
+
+    body {
+      min-width: 0;
+    }
+
+    footer {
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .past-editions-container a {
+      display: block;
+      float: left;
+      max-width: 48%;
+      height: 31%;
+      margin-right: 1.4%;
+      margin-bottom: 2em;
+    }
+    .past-editions-container a img {
+      width: 100%;
+    }
+
+    .past-editions-container a:first-child {
+      display: block;
+      max-width: 100%;
+      width: 97.2%;
+      float: none;
+      margin-right: 1.4%;
+      margin-bottom: 2em;
+    }
+
+    .past-editions-container a:nth-child(even) {
+      clear: left;
+    }
+    .past-editions-container a:last-child {
+      margin-right: 0;
+    }
+
+    .counters {
+      font-size: 1.5em;
+    }
+
+    .downsize-logo img {
+      max-width: 75%;
+    }
+
+    @media (max-width: 960px) {
+      header nav {
+        margin-left: 180px;
+      }
+      .container_12 .grid_12,
+      .container_16 .grid_16 {
+        max-width: 940px;
+        width: auto;
+      }
+      .sofia#promo {
+        padding-left: 0;
+        background: none;
+      }
+      .coaches .grid_3 {
+        width: 30%;
+      }
+      .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+        margin-right: 1%;
+      }
+      .container_12 .grid_6,
+      .container_16 .grid_8 {
+        width: 49%;
+      }
+      .container_12 .push_1 {
+        left: 6%;
+      }
+      .container_12 .grid_5 {
+        width: 40%;
+      }
+      .container_12 .grid_4 {
+        width: 30%;
+      }
+      .container_12 .grid_4 p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    @media (max-width: 750px) {
+      header {
+        text-align: center;
+      }
+      header #logo {
+        float: none;
+        display: inline-block;
+      }
+      header nav {
+        margin-left: 0;
+        clear: left;
+      }
+
+      .container_12 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    @media (max-width: 639px) {
+      #promo.new h1 {
+        height: auto;
+        font-size: 40px;
+      }
+
+      .sofia#promo {
+        padding-bottom: 0;
+      }
+
+      .feature p {
+        padding: 0;
+        margin: 1em 0;
+      }
+
+      .side h3 {
+        margin-top: 1.5em;
+      }
+
+      .page h1 {
+        line-height: 1.2em;
+      }
+
+      .container_12 .push_1 {
+        left: 0;
+      }
+      .container_16 .grid_8,
+      .container_12 .grid_6,
+      .container_12 .grid_5,
+      .container_12 .grid_4,
+      .container_12 .grid_3 {
+        width: auto;
+        float: none;
+        display: block;
+      }
+
+      .logos-wall p:nth-of-type(3n+1) {
+        clear: none;
+      }
+
+      .logos-wall p:nth-of-type(2n+1) {
+        clear: left;
+      }
+
+      .logos-wall p {
+        width: 48%;
+        margin: 0 2% 2% 0;
+      }
+
+      .past-editions-container a,
+      .past-editions-container a:first-child {
+        float: none;
+        width: auto;
+        max-width: 100%;
+        width: auto;
+      }
+
+      #team .grid_3 {
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 450px) {
+      #team .grid_3 {
+        float: none;
+        width: auto;
+      }
+
+      .logos-wall p {
+        width: 100%;
+        margin: 0 2% 2% 0;
+      }
+    }
+  </style>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Events</a>
+        <a href="./materials.html">Materials</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">Guides</a>
+      </nav>
+    </div>
+  </header>
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="new sofia">
+          <h1>
+            Rails Girls Sofia 10 Anniversary Ed.
+          </h1>
+          <p>На 19 май ще бъде <a href="#past-editions">десетото ни, юбилейно издание</a>!</p>
+
+          <p>Това юбилейно събитие ще се различава от стандартния двудневен формат на работилницата – ще е <a href="#schedule">полудневно (само събота следобед)</a>, няма да е с обичайната програма и на него ще отпразнуваме труда и постиженията на всички, замесени в инициативата в последните 5 години.</p>
+
+          <p>Ще присъстват минали участнички, инструктори, спонсори и организатори и с тях ще си говорим за извървения до момента път, ще организираме дискусии за бъдещето на инициативата и ще завършим вечерта с коктейл.</p>
+
+          <p>И най-важното – на това събитие ще поставим началото на Rails Girls Alumni общност!</p>
+
+          <p>Може да научите повече в секцията <a href="#faq">често задавани въпроси</a> по-долу.</p>
+
+          <img src="images/sofia/rails-girls-sofia-10-cover-image-transparent-1600x.png" alt="Rails Girls Sofia 10" class="promo-img">
+        </div>
+      </div>
+
+      <div class="schedule-and-sponsors">
+
+        <div class="grid_6 alpha" id="schedule">
+          <h1>Програма</h1>
+
+          <p><strong><em>Възможни са промени в програмата.</em></strong></p>
+
+          <h2>Събота, 19 май 2018 г.</h2>
+          <table>
+            <tbody>
+              <tr>
+                <th>15:30 - 16:00</th>
+                <td>
+                  <h4>Регистрация</h4>
+                  Събитието е с <a href="#faq">предварителни покани</a>. Молим ви да дойдете навреме.
+                </td>
+              </tr>
+              <tr>
+                <th>16:00 - 16:20</th>
+                <td>
+                  <h4>Откриване</h4>
+                  Откриване, встъпителни думи, цел на днешното събитие, програма. История на постигнатото до момента.
+                </td>
+              </tr>
+              <tr>
+                <th>16:20 - 16:40</th>
+                <td>
+                  <h4>Обявяване на Alumni общността</h4>
+                  Цели, инструменти и механизми.
+                </td>
+              </tr>
+              <tr>
+                <th>16:40 - 17:30</th>
+                <td>
+                  <h4>Lightning talks</h4>
+                  Кратки презентации (5-7) от минали участнички, инструктори и наши спонсори и партньори.
+                </td>
+              </tr>
+              <tr>
+                <th>17:30 - 17:45</th>
+                <td>
+                  <h4>Почивка</h4>
+                </td>
+              </tr>
+              <tr>
+                <th>17:45 - 18:30</th>
+                <td>
+                  <h4>Дискусионна част</h4>
+                  Разделяне на присъстващите на групи и обсъждане развитието на Rails Girls и проблемите, които адресира работилницата.
+                </td>
+              </tr>
+              <tr>
+                <th>18:30 - 19:00</th>
+                <td>
+                  <h4>Подготовка на презентации</h4>
+                  Време, в което всяка група структурира идеите си и подготвя представянето им.
+                </td>
+              </tr>
+              <tr>
+                <th>19:00 - 19:30</th>
+                <td>
+                  <h4>Презентиране на резултати</h4>
+                  Представител от всяка група презентира в рамките на 5-6 минути изводите от дискусията.
+                </td>
+              </tr>
+              <tr>
+                <th>19:30 - 19:45</th>
+                <td>
+                  <h4>Заключителни слова</h4>
+                </td>
+              </tr>
+              <tr>
+                <th>19:45 - 21:30</th>
+                <td>
+                  <h4>Коктейл</h4>
+                  Коктейлна част, свободни дискусии, networking.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid_5 push_1 omega side">
+          <h3 id="venue">Място</h3>
+          <!-- <p>
+            <em>Град: София<br>Залата предстои да бъде обявена</em>
+          </p> -->
+
+          <p>
+            <strong>Генератор</strong>
+            (<a href="https://generatorsofia.com/space/about-the-place" rel="nofollow" target="_blank">подробности ↗</a>
+            и <a href="https://goo.gl/maps/13NuNtXnj242" rel="nofollow" target="_blank">карта ↗</a>)<br>
+            гр. София, бул. Черни Връх 47<br>
+            Източен вход на Бизнес център Витоша, етаж 5
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.992799624648!2d23.31674081546587!3d42.6615079791677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa845bd23fdfe5%3A0x1d6101a4386c8e4d!2sThe+Generator+-+Center+for+Design+and+Collaboration!5e0!3m2!1sbg!2sbg!4v1524768334710" width="380" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          <p>
+            Упътване до входа на сградата:
+          </p>
+
+          <a href="https://scontent.fsof3-1.fna.fbcdn.net/v/t31.0-8/23593824_378912649229280_1086686056308434659_o.png?_nc_cat=0&oh=b2577ff11ac17a970cf74daa95ff17bf&oe=5B5DAF19" rel="nofollow" target="_blank">
+            <img src="https://scontent.fsof3-1.fna.fbcdn.net/v/t31.0-8/23593824_378912649229280_1086686056308434659_o.png?_nc_cat=0&oh=b2577ff11ac17a970cf74daa95ff17bf&oe=5B5DAF19" alt="Упътване за стигане до Генератор">
+          </a>
+
+          <h3 id="organizers">Организатори</h3>
+
+          <p>Rails Girls Sofia е събитие с некомерсиална, идеална цел и се организира от ентусиазиран екип доброволци, с подкрепата на г-жа Гергана Паси и екипа на <a href="http://digitalalliance.bg/bg/index/home">Дигиталната национална коалиция (ДНК)</a>.</p>
+
+          <p>Харесвате каузата? Искате да помогнете? Винаги сме отворени за нови партньорства. <a href="mailto:railsgirlssofia@gmail.com">Пишете ни</a>!</p>
+        </div>
+
+        <div id="sponsors" class="sponsors-wall logos-wall">
+          <h3 id="regular-sponsors" class="sponsor-type">Спонсори</h3>
+
+          <p>
+            <a href="http://superhosting.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/superhosting-logo.png" alt="Лого на Суперхостинг" title="Суперхостинг — Хостинг компания от ново поколение!"><br>
+              СуперХостинг.БГ е най-голямата и най-бързо развиващата се хостинг компания в България. Високото качество на услугите, които предлагат, адекватното клиентско обслужване и денонощната техническа поддръжка ги правят най-предпочитания хостинг партньор в България. Добавената стойност, която клиентите на СуперХостинг.БГ получават, използвайки техните услуги, е много по-голяма от самата услуга. Екипът на СуперХостинг.БГ създава редица модули за по-лесно управление на хостинг акаунтите. Постоянно работят в посока ускоряване на работата на клиентските сайтове чрез ALL SSD технология и ускоряващи модули. Надеждността на услугата и сигурността на клиентските сайтове са от водещо значение за СуперХостинг.БГ. Разработили са и продължават да развиват SH Protect - тяхната активна система за сигурност, която осигурява много високо ниво на защита на клиентските сайтове и пощи, като всеки ден предотвратява редица хакерски атаки.
+            </a>
+          </p>
+
+          <p>
+            <a href="https://jobs.siteground.bg/" target="_blank" class="sponsor">
+              <img src="images/sofia/siteground-logo-black-on-white.png" alt="SiteGround - Logo"><br>
+              SiteGround е един от лидерите в уеб хостинг технологиите на световно ниво. Компанията, чийто ръководен екип е изцяло български от самото й създаване през 2004-та година, заема челните места в класацията на AON за Best Employers в България за 3та поредна година, откакто участва в проучването. В SiteGround Group работят близо 500 човека от три офиса в България (София, Стара Загора и Пловдив), един в Мадрид, Испания, както и дистанционно от над 10 държави. SiteGround хоства над 1 200 000 домейна и има пет дата центъра на три континента. SiteGround е място, където да развивате уменията си, да работите върху интересни и предизвикателни проекти, да виждате ефекта от работата си веднага и да работите за компания от световна величина, но с човешко лице.
+            </a>
+          </p>
+
+          <p>
+            <a href="http://careersinfo.uber.com/sofia-engineering" target="_blank" class="sponsor">
+              <img src="images/sofia/uber-logo.png" alt="Лого на Uber" title="Uber Engineering"><br>
+              Убер е технологична платформа, свързваща хора нуждаещи се от логистични услуги (транспорт, доставка на пратка / храна) с хора и компании предоставящи такива услуги, в повече от 550 града от 90 държави. В какво вярваме: Building Something Big Together – осъществяване на идеи които правят транспорта лесен и достъпен, навсякъде и по-всяко време. Ние правим неща, които не са били правени преди и окуражаваме поемането на рискове и смелите идеи. Ние искаме да подобрим градовете, да направим пътищата по-безопасни и да дадем възможности на милиони хора по целия свят.
+            </a>
+          </p>
+
+          <p>
+            <a href="https://www.emerchantpay.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/emerchantpay-logo.png" alt="eMerchantPay - Logo"><br>
+              eMerchantPay is an established payment service provider that provides international online, mobile and POS payment processing services to merchants across the globe. eMerchantPay’s fraud prevention services and payment processing solutions enable merchants to increase their conversion rates, expand their customer reach and prevent fraud. Innovative payment solutions, processing in more than 150 currencies and various languages, plus dedicated account managers providing personal service make eMerchantPay a knowledgeable specialist and an innovative partner for businesses of all types and sizes.
+            </a>
+          </p>
+
+          <p>
+            <a href="https://generatorsofia.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/generator-logo.png" alt="Лого на Generator" title="Генератор"><br>
+              Генератор е както концепция, така и физическо пространство. Концепцията на Генератор е чрез дизайн да генерира идеи, експерименти, както и конкретни решения и преживявания, които провокират иновации и добавят стойност към живота и обществото ни. Пространството носи вдъхновение, дава поле за съвместни проекти и обмяна на знание и опит на хора от творческата общност, бизнес общността и публичния сектор. Генератор продуцира, организира и е домакин на разнообразни събития, изложби, работилници и дискусии, с които представя дизайн, дизайн фокусирана култура, креативност, нови технологии и иновации.
+            </a>
+          </p>
+
+          <p>
+            <a href="http://www.escreo.com/" target="_blank" class="sponsor">
+              <img src="images/sofia/escreo-logo.png" alt="Лого на Escreo" title="Escreo – вълшебна боя"><br>
+              Еscreo е вълшебно покритие, което превръща всяка гладка повърхност в място за писане и рисуване. Escreo е боя, която се нанася върху стена, може да се пише с маркер за бяла дъска, който лесно и бързо може да се изтрие с гъба. С Escreo може да превърнете стените в офиса или дома в място за визуализиране и споделяне на идеи.
+            </a>
+          </p>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+
+      <div id="partners" class="logos-wall">
+        <h3 class="sponsor-type">Партньори</h3>
+
+        <p>
+          <a href="http://digitalalliance.bg/bg/index/home" target="_blank" class="downsize-logo">
+            <img src="images/sofia/digital-alliance-bulgaria-dnk-logo-2016.png" alt="Лого на Дигитална национална коалиция (ДНК)" title="Дигитална национална коалиция (ДНК)">
+          </a>
+        </p>
+
+        <p>
+          <a href="https://coworking.puzl.com/" target="_blank" class="downsize-logo">
+            <img src="images/sofia/puzl-coworking-logo.png" alt="Лого на Puzl CowOrKing" title="Puzl CowOrKing">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://bcwt.bg/" target="_blank" class="downsize-logo">
+            <img src="images/sofia/bcwt-logo.png" alt="Лого на Български център на жените в технологиите" title="Български център на жените в технологиите">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://www.digitalchampion.bg" target="_blank" class="downsize-logo">
+            <img src="images/sofia/digital-champion-bulgaria-logo.png" alt="Лого на дигиталния шампион за България" title="Digital Champion Bulgaria">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://www.paneuropa.bg/" target="_blank" class="downsize-logo">
+            <img src="images/sofia/paneuropa-bulgaria-logo.png" alt="Лого на Paneuropean Union" title="Paneuropean Union">
+          </a>
+        </p>
+
+        <p>
+          <a href="http://www.atlantic-club.org/index.php?bg" target="_blank" class="downsize-logo">
+            <img src="images/sofia/atlantic-club-bulgaria-logo.png" alt="Лого на Атлантически клуб в България" style="background-color: #2b6eff" title="Атлантически клуб в България">
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.womenwhocode.com/sofia" target="_blank" rel="nofollow">
+            <img src="images/sofia/women-who-code-logo.png" alt="Лого на Women Who Code">
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.facebook.com/CodingGirlsSofia/" target="_blank" rel="nofollow">
+            <img src="images/sofia/coding-girls-logo.png" alt="Лого на Coding Girls">
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.facebook.com/WTMSofia/" target="_blank" rel="nofollow">
+            <img src="images/sofia/women-techmakers-logo.png" alt="Лого на Women Techmakers">
+          </a>
+        </p>
+      </div>
+
+      <div class="clear"></div>
+      <hr/>
+
+      <h1 id="past-editions">Минали издания</h1>
+
+      <div class="grid_12 alpha past-editions-container">
+        <a href="sofia2017-october.html">
+          <h4>Rails Girls Sofia 9.0, октомври 2017</h4>
+          <img src="images/sofia/rails-girls-sofia-9.0-october-2017-friday-hug.jpg" alt="Rails Girls Sofia 9.0 October 2017 Friday Hug" />
+        </a>
+
+        <a href="sofia2017-may.html">
+          <h4>Rails Girls Sofia 8.0, май 2017</h4>
+          <img src="images/sofia/rails-girls-sofia-8.0-may-2017-friday-hug.jpg" alt="Rails Girls Sofia 8.0 May 2017 Friday Hug" />
+        </a>
+        <a href="sofia2016-october.html">
+          <h4>Rails Girls Sofia 7.0, октомври 2016</h4>
+          <img src="images/sofia/rails-girls-sofia-7.0-october-2016-friday-hug.jpg" alt="Rails Girls Sofia 7.0 October 2016 Friday Hug" />
+        </a>
+        <a href="sofia2016-march.html">
+          <h4>Rails Girls Sofia 6.0, март 2016</h4>
+          <img src="images/sofia/rails-girls-sofia-6.0-march-2016-friday-hug.jpg" alt="Rails Girls Sofia 6.0 March 2016 Friday Hug" />
+        </a>
+        <a href="sofia2015-october.html">
+          <h4>Rails Girls Sofia 5.0, октомври 2015</h4>
+          <img src="images/sofia/rails-girls-sofia-5.0-october-2015-friday-hug.jpg" alt="Rails Girls Sofia 5.0 October 2015 Friday Hug" />
+        </a>
+        <a href="sofia2015-march.html">
+          <h4>Rails Girls Sofia 4.0, март 2015</h4>
+          <img src="images/sofia/rails-girls-sofia-4.0-march-2015-friday-hug.jpg" alt="Rails Girls Sofia 4.0 March 2015 Friday Hug" />
+        </a>
+        <a href="sofia2014-october.html">
+          <h4>Rails Girls 3.0, октомври 2014</h4>
+          <img src="images/rails-girls-sofia-3.0-group-photo.jpg" alt="Rails Girls Sofia October 2014 Group Photo" />
+        </a>
+        <a href="sofia2014.html">
+          <h4>Rails Girls 2.0, март 2014</h4>
+          <img src="images/rails-girls-sofia-2014-friday-hug.jpg" alt="Rails Girls Sofia March 2014 Friday Hug" />
+        </a>
+        <a href="sofia2013.html">
+          <h4>Rails Girls Sofia 2013</h4>
+          <img src="images/rails-girls-sofia-2013-friday-hug-cropped.jpg" alt="Rails Girls Sofia 2013 Friday Hug" />
+        </a>
+      </div>
+
+      <div class="clear"></div>
+
+      <hr>
+
+      <div class="grid_12 alpha faq" style="margin-bottom: 30px;">
+        <h1 id="faq">Често задавани въпроси</h1>
+
+        <h2>Какво е Rails Girls Sofia?</h2>
+
+        <p>Rails Girls е безплатен двудневен уъркшоп, насочен към дами с нулев или минимален опит в програмирането и технологиите и се случва у нас от 2013 г. На <a href="sofia2017-october">страницата на последното ни издание от 2017 г.</a> може да научите повече за работилницата.</p>
+
+        <h2>Как мога да участвам в юбилейното издание?</h2>
+
+        <p>Присъствието на това събитие е само с покани. Ако сте била участничка или инструктор в някое от изданията до момента, в края на март 2018 г. сме ви изпратили запитване дали имате възможност и желание да участвате. Тези от вас, които са отговорили положително, ще бъдат поканени.</p>
+
+        <h2>Ще има ли още двудневни работилници?</h2>
+
+        <p>Да, нямаме планове да прекъсваме съществуването на работилниците :) На това юбилейно издание поглеждаме назад, правим равносметка и търсим начини как инициативата да се развива по-добре. Вероятно есента отново ще има двудневна работилница в обичайния формат – освен ако не ни дойде по-добра идея! :)</p>
+
+        <p>А <a href="https://rails-girls-sofia-study-group.github.io/">безплатните ни учебни групи</a> се случват всяка седмица и всеки е добре дошъл по всяко време! Приемаме всякакви въпроси и нулев опит.</p>
+
+        <h2>Мога ли да науча кога ще има нова работилница?</h2>
+
+        <p>Разбира се! Ако желаете да ви изпращаме известия за предстоящи Rails Girls Sofia събития, или важни новини около тях, абонирайте се за <a href="http://eepurl.com/POSQ1">новинарския ни бюлетин</a>. Изпращаме няколко писма на година.</p>
+
+        <p>Отскоро поддържаме и <a href="http://eepurl.com/cMaXaz">пощенски списък за стажове, обучения, работни позиции и събития, свързани с Rails Girls Sofia</a>. Съобщенията преминават през нашия екип, за да се гарантира, че са тематично свързани с целта на събитието, да се подсигури качеството им и да се контролира честотата.</p>
+
+        <p>Добра идея е и да ни следете в <a href="https://twitter.com/railsgirlssofia">Twitter</a> или <a href="http://www.facebook.com/RailsGirlsSofia">Facebook</a>, там сме малко по-приказливи.</p>
+
+        <p>Очакваме всички, присъстващи на нашите събития, да са се запознали с и да спазват нашия <a href="#code-of-conduct">кодекс на поведение</a>.</p>
+      </div>
+
+      <div class="clear"></div>
+
+      <!--  Update the team list -->
+
+      <div class="coaches" id="team">
+        <hr />
+        <h2>Екип на Rails Girls Sofia</h2>
+
+        <!--
+          Options for avatars:
+          1. Facebook
+            determine the facebook USER_ID: https://findmyfbid.in/
+            http://graph.facebook.com/USER_ID/picture?type=square&amp;width=100&amp;height=100
+          2. Gravatar
+            http://gravatar.com/avatar/xxx?s=100
+            where xxx is the md5 of the user's email
+          3. Default image
+            images/rubie-100.png
+        -->
+
+        <!-- =============== -->
+        <!-- Main organizers -->
+        <!-- =============== -->
+
+        <a href="https://twitter.com/gerganapassy" class="grid_3">
+          <img src="http://graph.facebook.com/100000846584201/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Гергана Паси
+          <em>организатор</em>
+          <small>@gerganapassy</small>
+        </a>
+
+        <a href="https://www.facebook.com/adriana.georgieva" class="grid_3">
+          <img src="http://graph.facebook.com/1269927796/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Адриана Панайотова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://twitter.com/mitio" class="grid_3">
+          <img src="http://gravatar.com/avatar/9d3a04d8252ce89d5edbb0268af7ad8e?s=100" alt="Аватар">
+          Димитър Димитров
+          <em>организатор</em>
+          <small>@mitio</small>
+        </a>
+
+        <a href="https://www.facebook.com/dimitar.smilyanov" class="grid_3">
+          <img src="http://gravatar.com/avatar/79057a0a5ca51933d22930997ec3bf61?s=100" alt="Аватар">
+          Димитър Смилянов
+          <em>организатор и инструктор</em>
+          <small>@ShadowmarN</small>
+        </a>
+
+        <a href="https://www.facebook.com/elena.nikolova.526" class="grid_3">
+          <img src="http://graph.facebook.com/1018326022/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Елена Николова
+          <em>организатор</em>
+          <small>@EKNikolova</small>
+        </a>
+
+        <a href="https://www.facebook.com/cactusmactus.okay" class="grid_3">
+          <img src="http://graph.facebook.com/1529976945/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Колева
+          <em>организатор</em>
+          <small>@MaartinaK</small>
+        </a>
+
+        <a href="https://www.facebook.com/martaradeva" class="grid_3">
+          <img src="http://graph.facebook.com/625194590/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Радева
+          <em>организатор и инструктор</em>
+        </a>
+
+        <a href="https://www.facebook.com/sab.hristova" class="grid_3">
+          <img src="http://graph.facebook.com/624764537/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Сабина Христова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100000217145293" class="grid_3">
+          <img src="http://graph.facebook.com/100000217145293/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Ани Карачобанова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://www.facebook.com/evgeniya.nikolova" class="grid_3">
+          <img src="http://graph.facebook.com/1468779261/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Евгения Николова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://www.facebook.com/neli.vladimirova" class="grid_3">
+          <img src="http://graph.facebook.com/737565998/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Нели Владимирова
+          <em>организатор</em>
+        </a>
+
+        <a href="https://www.facebook.com/petya.panayotova.12" class="grid_3">
+          <img src="http://graph.facebook.com/1457991207/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Петя Панайотова
+          <em>организатор</em>
+        </a>
+      </div>
+
+      <hr />
+
+      <div class="code-of-conduct">
+        <h1 id="code-of-conduct">Кодекс на поведение</h1>
+
+        <p><em>Текстът е базиран на <a href="http://rubyberlin.github.io/code-of-conduct/">Berlin Code of Conduct</a>. Преводът е на <a href="http://andrewradev.com/">Андрей Радев</a>.</em></p>
+
+        <h3 id="coc-purpose">Цел на кодекса</h3>
+
+        <p>Основна цел на всички конференции и групи, които използват този Кодекс на поведение, е да бъдат отворени към колкото се може по-голям кръг от участници от всякакъв тип.</p>
+
+        <p>Затова полагаме усилие да предоставим приятелска, безопасна и уютна атмосфера за всички, независимо от пол, сексуална ориентация, възможности, етнически произход, социално-икономически статут и религия (или липсата на такава).</p>
+
+        <p>Кодексът на поведение обобщава очакванията ни за поведението на всички участници, както и последствията от нарушаването му.</p>
+
+        <h3 id="coc-citizenship">Членство в Open Source/Culture/Tech общества</h3>
+
+        <p>Вторична роля на този Кодекс е да увеличи членството в open [source/culture/tech] като окуражи участниците да разпознаят и подсилят връзката между действията ни и ефекта им върху общността ни.</p>
+
+        <p>Общностите са огледала на обществата, в които съществуват, и са нужни позитивни действия за да се противопоставим на многото форми неравенство и злоупотреба с власт, които съществуват в обществото.</p>
+
+        <p>Ако видите някой, който полага извънредно усилие да поддържа общността ни отворена, приятелски настроена и окуражаваща всички членове да участват в максимална степен, искаме да знаем за това.</p>
+
+        <h3 id="coc-behaviour">Очаквано поведение</h3>
+
+        <ul class="regular">
+          <li>Да участвате активно. По този начин помагате за здравето и дълголетието на тази общност.</li>
+          <li>Да показвате уважение с думите и действията си към останалите участници.</li>
+          <li>Да се опитвате да разрешавате конфликти спокойно и търпеливо.</li>
+          <li>Да не се използват обидни, дискриминиращи или тормозяващи реч и поведение.</li>
+          <li>Да мислите за обстановката и останалите участници. Кажете на ръководителите на общността ако забележите опасна ситуация, проблем или нарушавания на този Кодекс на поведение, дори да изглеждат маловажни.</li>
+        </ul>
+
+        <h3 id="coc-unacceptable">Недопустимо поведение</h3>
+
+        <p>Недопустимо поведение включва: заплашителна, подтискаща, тормозяваща, дискриминираща, обидна или унизителна реч или поведение от страна на който и да е участник в общността ни онлайн, в което и да е от свързаните събития или лични комуникации, случващи се в контекста на общността ни. Местата на провеждане на събитията може да бъдат споделени с външни посетители; моля, уважавайте всички присъстващи.</p>
+
+        <p>Тормоз включва: нараняващи или предубедени вербални или написани коментари свързани с пол, сексуална ориентация, раса, религия, физически способности; неподходяща употреба на голота и/или сексуализирани образи в публични пространства (включително слайдове в презентации); преднамерено заплашване или следене; нежелана фотография или видеозапис; продължително прекъсване на лекции и други събития; неподходящ физически контакт и нежелано сексуално внимание.</p>
+
+        <h3 id="coc-consequences">Последствия при недопустимо поведение</h3>
+
+        <p>Недопустимо поведение от който и да е член на общността, включително спонсори и организатори, няма да бъде толерирано. Всеки, който е помолен да спре недопустимото поведение, се очаква да го направи веднага.</p>
+
+        <p>В случай, че член на общността се държи недопустимо, организаторите на общността може да вземат каквото действие решат за подходящо, включително временно изгонване или постоянно премахване от общността без предупреждение (и без парично обезщетение в случай на платено събитие).</p>
+
+        <h3 id="coc-act">Ако сте свидетел или жертва на недопустимо поведение</h3>
+
+        <p>Ако сте свидетел или жертва на недопустимо поведение, или имате друг проблем, неописан в този текст, моля уведомете някой от организаторите на общността колкото се може по-скоро. На тази страница можете да намерите контакти на организатори за всеки от поддръжниците на този Кодекс на поведение. Допълнително, организаторите на общността ще помогнат на участниците да се свържат с местната полиция или да помогнат по друг начин на жертвите на подобно поведение да се чувстват в безопасност. В контекста на събития на живо, организаторите също ще предоставят придружители ако жертвата на тормоз го пожелае.</p>
+
+        <h3 id="coc-complaints">Адресиране на оплаквания</h3>
+
+        <p>Ако чувствате, че сте бил грешно или нечестно обвинен в нарушение на този Кодекс, уведомете някой от организаторите с кратко описание на оплакването си. То ще бъде обработено спрямо правилата на общността.</p>
+
+        <h3 id="coc-scope">Обхват</h3>
+
+        <p>Очакваме всички участници в общността (лектори, платени или не; спонсори; други гости) да следват този Кодекс във всички седалища на общността — онлайн и лице-в-лице — както и във всички лични комуникации, свързани с общността.</p>
+      </div>
+
+
+    </div>
+    </div>
+
+    <!-- /content -->
+
+    <footer>
+        <p>♡ 2010-2017, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
