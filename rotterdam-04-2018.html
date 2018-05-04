@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Rotterdam 14 April 2018</title>
+    <meta name="description" content="Rails Girls goes Rotterdam on 14 April 2018: join the two-day crash course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="author" content="Rails Girls">
+
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- some styling for the time table using am / pm formats, as to not mess with the global website styling on every page -->
+    <style>
+        #schedule th {
+            width: 30%;
+        }
+
+        #container {
+          position: relative;
+          z-index: 10;
+          padding-top: 30px;
+        }
+
+        #promo, #promo.new {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 30px;
+          width: 80%;
+          margin: auto;
+        }
+
+        .backdrop {
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: 650px;
+          z-index: 0;
+          background: rgba(0, 0, 0, 0.7);
+          background-image: url(/images/rg-rotterdam-2017.jpg);
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .backdrop::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .past-events {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          opacity: 0.7;
+          justify-content: center;
+        }
+
+        .past-events :first-child {
+          list-style: none;
+        }
+
+        a {
+          cursor: default;
+        }
+
+        a[href] {
+          cursor: pointer;
+        }
+    </style>
+
+    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+</head>
+<body>
+    <header>
+    <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="http://blog.railsgirls.com">Blog</a>
+            <a href="http://guides.railsgirls.com">
+              Guides</a>
+        </nav>
+    </div>
+    </header>
+    <div class="backdrop"></div>
+
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+           <div id="promo" class="new yourcity">
+        <h1>Rails Girls Rotterdam
+            <small>14 April 2018</small>
+        </h1>
+        <p>Hello world!</p>
+        <p>Rails Girls comes to Rotterdam once again!<br />During this free workshop we'll dive into the magical world of Ruby on Rails.</p>
+        <p><i>Applications have closed!</i></p>
+        <!-- <a href="https://goo.gl/forms/53YxirZc5ztTSimh2" class='cali_header_button' style="margin-left: 0; border: none;">Apply Now!</a> -->
+        <p>Questions or queries? Just send us an <a href="mailto:rotterdam.railsgirls@gmail.com">email</a>!</p>
+        <p>
+          Looking forward to seeing you all!<br>
+          Team Rails Girls Rotterdam<br />
+          <a href="mailto:rotterdam.railsgirls@gmail.com">rotterdam.railsgirls@gmail.com</a>
+          <br />
+        </p>
+          <div id="share">
+            <div>
+            <div style="margin:0 15px 0 0;">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Rotterdam 14 April 2018 http://railsgirls.com/rotterdam.html" data-count="horizontal" data-via="rg_rotterdam" data-related="railsgirls">Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+          </div>
+        </p>
+        </div>
+      </div>
+
+<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
+      <div class="grid_3 alpha feature">
+       <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
+      </div>
+      <div class="grid_3 feature">
+        <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+      </div>
+      <div class="grid_3 omega feature">
+        <p><strong>Want to coach?</strong> We are looking for Rails coaches on Saturday (9:00 am - 4:30 pm). <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUivi2_3yYDusL44RXW-UFPKXYPmtOKKkCo2RDrMoSfKFl7w/viewform">volunteer here</a>.</p>
+      </div>
+      <div class="grid_3 omega feature">
+        <p><strong>Interested in speaking?</strong> Please <a href="mailto:rotterdam.railsgirls@gmail.com">contact us here</a>.</p>
+      </div>
+      <hr />
+
+<!--  Update the texts! -->
+
+      <div class="grid_6 alpha">
+        <h2>Saturday 14 April</h2>
+        <table id="schedule">
+            <tbody>
+                <tr>
+                    <th>9:30 am</th>
+                    <td>
+                        <h4>Breakfast &amp; installation</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>10:30 am</th>
+                    <td>
+                        <h4>Introduction &amp; icebreaker</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>11:00 am</th>
+                    <td>
+                        <h4>Introduction to the app</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>11:15 am</th>
+                    <td>
+                        <h4>
+                            <a  href="http://guides.railsgirls.com/app">
+                                Building your app (1, 2, 3)</a>
+                        </h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>12:00 noon</th>
+                    <td>
+                        <h4>Lightning talk</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>13:00 pm</th>
+                    <td>
+                        <h4>Lunch</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>2:00 pm</th>
+                    <td>
+                        <h4>
+                            <a  href="http://guides.railsgirls.com/app">
+                                Building your app (4, 5, 6)</a>
+                        </h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>4:00 pm</th>
+                    <td>
+                        <h4>
+                            <a  href="http://guides.railsgirls.com/openshift">Launch!</a>
+                        </h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>5:00 pm</th>
+                    <td>
+                        <h4>Pizza &amp; drinks :)</h4>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+      </div>
+
+<!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
+
+      <div class="grid_5 push_1 omega side">
+
+<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+       <h3 style="margin: 2.1em 0 2em;">Partners</h3>
+
+       <p>Rails Girls Rotterdam
+       is co-organized with our awesome partners.</p><p>
+       <p>Want to help? We're always looking for partners & sponsors! <a href="mailto:Rotterdam.Railsgirls@gmail.com>">Email us</a>! </p>
+
+       <p>
+       <a href="https://firmhouse.com/" style="float:right; margin: 40px 0; border:0; width: 180px;" target="">
+           <img src="images/firmhouse.png" alt="Firmhouse" style="width: 150px">
+       </a>
+       <a href="https://firmhouse.com/" target="">Firmhouse</a> works with innovation managers & entrepreneurs to bring<br />ideas to first market traction.<br />They help them to design & develop new products in quick iterations.
+       </p>
+
+       <p>
+       <a href="http://floorplanner.com/" style="float:right; margin:0 0 0; border:0; width: 180px;" target="">
+           <img src="images/floorplanner.png" alt="Floorplanner" style="width: 150px">
+       </a>
+       <a href="http://floorplanner.com/" target="">Floorplanner</a> is the easiest and best-looking way to create and share interactive floorplans online.
+       </p>
+
+       <p>
+         <a href="https://www.hackerone.com/" style="float: right; margin: 40px 0 25px 30px; border: 0; width: 180px;" target=""><img src="images/hackerone.png" style="width: 150px" /></a>
+         <a href="https://www.hackerone.com/" target="">HackerOne</a> was started by hackers and security leaders who are driven by a passion to make the internet safer. Our platform is the industry standard for hacker-powered security. We partner with the global hacker community to surface the most relevant security issues of our customers before they can be exploited by criminals.
+       </p>
+<!--        <p> -->
+<!--        <a href="https://about.gitlab.com/" style="float:right; margin:0 0 0; border:0; width: 180px;" target=""> -->
+<!--            <img src="images/gitlab.png" alt="Gitlab" style="width: 90px; float: right; margin-right: 65px;"> -->
+<!--        </a> -->
+<!--        <a href="https://about.gitlab.com/">Gitlab</a> unifies issues, code review, continuous integration and continuous delivery into a single UI. -->
+<!--        </p> -->
+
+<!--        <p> -->
+<!--        <a href="https://www.reaktor.com/" style="float:right; margin:0 0 0; border:0; width: 180px;" target=""> -->
+<!--            <img src="images/reaktor-logo.png" alt="Reaktor" style="width: 90px; float: right; margin-top: 40px; margin-right: 55px; margin-bottom: 50px"> -->
+<!--        </a> -->
+<!--        <a href="https://www.reaktor.com/">Reaktor</a> makes digital business for their clients radically better by creating products that stand out functionally, aesthetically,<br /> and financially. -->
+<!--        </p> -->
+<!--        <a href="https://www.youngcapital.nl" style="float:right; margin:0 0 0; border:0; width: 180px;" target=""> -->
+<!--            <img src="images/young-capital.png" alt="Reaktor" style="width: 80px; float: right; margin-right: 55px; margin-bottom: 50px"> -->
+<!--        </a> -->
+<!--        <a href="https://www.youngcapital.nl">YoungCapital</a> offers interesting vacancies for students, starters and young professionals throughout the Netherlands. -->
+<!--        </p> -->
+
+     <hr/>
+     <h3>FAQ</h3>
+     <p>
+       <strong>How much does the workshop cost?</strong><br />
+       Nothing, it's free! You just need to be excited!
+     </p>
+
+     <p>
+       <strong>Do I need a laptop?</strong><br />
+       Yes! Please bring it with you :)
+     </p>
+
+     <p>
+       <strong>Can men attend?</strong><br />
+       Yes, but girls are given a priority.
+     </p>
+
+     <p>
+       <strong>Are there vegetarian / vegan options for food?</strong><br />
+       Got you covered here too, both a vegetarian and a vegan option are offered as well.
+     </p>
+
+     <p>
+       <strong>Who is this aimed for?</strong><br />
+       Women of any age with basic knowledge of working with a computer.
+       We’ve had people of all ages taking part.
+       Most of the speeches are given in English and small group work is done in either Dutch or English.
+     </p>
+     <br />
+    </div>
+
+
+<!--  Update the team list       -->
+
+    <div class="coaches" style="clear:both">
+        <hr />
+        <h2 class="text-center">Coaches</h2>
+
+        <!-- This is a full example, replace everything between brackets '[]' with real values.
+             For the image, choice is 100 for male, 101 for female
+        <a class="grid_3">
+          <img src="./images/ruby-[100|101].png">
+          [Coach Name]
+          <small>[Optional Company Name]</small>
+        </a>
+        -->
+
+        <a href="http://timon.im" target="" class="grid_3">
+          <img src="./images/ruby-101.png">
+          Timon van Spronsen
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Karin Hendrikse
+        </a>
+
+        <!-- <a href="https://twitter.com/JoshuaJansen?lang=en" target="" class="grid_3"> -->
+        <!--   <img src="./images/ruby-101.png"> -->
+        <!--   Joshua Jansen -->
+        <!--   <small>Firmhouse</small> -->
+        <!-- </a> -->
+
+        <a href="https://tiemenwaterreus.com" class="grid_3">
+          <img src="./images/ruby-101.png">
+          Tiemen Waterreus
+          <small>Awkward</small>
+        </a>
+
+        <!-- <a class="grid_3"> -->
+        <!--   <img src="./images/ruby-100.png"> -->
+        <!--   Caroline Olijve -->
+        <!-- </a> -->
+
+        <!-- <a class="grid_3"> -->
+        <!--   <img src="./images/ruby-101.png"> -->
+        <!--   Koop Otten -->
+        <!--   <small>Young Capital</small> -->
+        <!-- </a> -->
+
+        <a href="//desoftwaretuin.nl" class="grid_3">
+          <img src="./images/ruby-101.png">
+          Gertjan Ketelaars
+          <small>De Softwaretuin</small>
+        </a>
+
+        <a href="https://github.com/FloorD" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Floor Drees
+          <small>Phusion Passenger</small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-101.png">
+          Rein op 't Land
+          <small></small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Ilsmarie Presilia
+        </a>
+
+        <a href="http://maartenvanvliet.nl/" class="grid_3">
+          <img src="./images/ruby-101.png">
+          Maarten van Vliet
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-101.png">
+          Arnout de Mooij
+        </a>
+
+        <a href="https://www.instagram.com/setterlifetrend/?hl=nl" class="grid_3">
+          <img src="./images/ruby-100.png">
+          Sabine van der Eijk
+          <small></small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Alina Leuca
+          <small></small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Madelene Casselbrant
+          <small></small>
+        </a>
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-100.png"> -->
+<!--           Janou Treffers -->
+<!--         </a> -->
+
+        <a class="grid_3">
+          <img src="./images/ruby-101.png">
+          Connor-James Cranston
+          <small></small>
+        </a>
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Richard Baptist -->
+<!--           <small>Lendahand</small> -->
+<!--         </a> -->
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-100.png"> -->
+<!--           Claudia Groot -->
+<!--         </a> -->
+
+<!--         <a href="http://timonvanspronsen.nl" class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Timon van Spronsen -->
+<!--           <small>Awkward</small> -->
+<!--         </a> -->
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-100.png"> -->
+<!--           Elisabeth Sondenaa -->
+<!--         </a> -->
+
+<!--         <a href="https://github.com/droptheplot" class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Sergey Novikov -->
+<!--         </a> -->
+
+<!--         <a href="http://ivaaan.com" class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Ivan Zarea -->
+<!--           <small>YoungCapital</small> -->
+<!--         </a> -->
+
+<!--         <a class="grid_3"> -->
+<!--           <img src="./images/ruby-100.png"> -->
+<!--           Ninja Parkkinen -->
+<!--           <small>Reaktor</small> -->
+<!--         </a> -->
+    </div>
+
+    <div class="coaches">
+        <hr />
+        <h2 class="text-center">Speakers</h2>
+
+<!--         <a  href="https://www.linkedin.com/in/hester-van-wijk-b0bb4761/" target="" class="grid_3"> -->
+<!--             <img src="./images/ruby-100.png"> -->
+<!--             Hester van Wijk -->
+<!--             <small>RoQua</small> -->
+<!--         </a> -->
+
+        <a  href="https://www.linkedin.com/in/miray-mazlumoglu-1b9097a1/" target="" class="grid_3">
+            <img src="./images/ruby-100.png">
+            Miray Mazlumoglu
+            <small>HackerOne</small>
+        </a>
+
+<!--         <a href="http://timonvanspronsen.nl" class="grid_3"> -->
+<!--           <img src="./images/ruby-101.png"> -->
+<!--           Timon van Spronsen -->
+<!--           <small>Awkward</small> -->
+<!--         </a> -->
+    </div>
+
+    <div class="coaches">
+        <hr />
+        <h2 class="text-center">Organization</h2>
+
+        <!-- <a  href="http://www.apictureanalysis.com/" target="" class="grid_3"> -->
+        <!--   <img src="./images/ruby-100.png"> -->
+        <!--   Abbey Waldron -->
+        <!--   <small>Organizer</small> -->
+        <!-- </a> -->
+
+        <!-- <a  href="https://www.linkedin.com/in/evelien-al-1372aa23" target="" class="grid_3"> -->
+        <!--   <img src="./images/ruby-100.png"> -->
+        <!--   Evelien Al -->
+        <!--   <small>Organizer</small> -->
+        <!-- </a> -->
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Siobhán O'Connor
+          <small>Organizer</small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-100.png">
+          Maartje O'Connor
+          <small>Organizer</small>
+        </a>
+
+        <a class="grid_3">
+          <img src="./images/ruby-101.png">
+          Sidney Liebrand
+          <small>Organizer</small>
+        </a>
+      </div>
+  </div>
+  </div>
+
+    <!-- /content -->
+
+    <footer>
+        <p>2010-2018, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/rg_rotterdam">Twitter</a> and <a href="https://www.facebook.com/Rails-Girls-Rotterdam-2063149220587882/">Facebook</a></p>
+        <ul class="past-events">
+          <li><a href="/rotterdam-10-2017.html">Rails Girls October 2017</a></li>
+          <li><a href="/rotterdam-04-2017.html">Rails Girls April 2017</a></li>
+          <li><a href="/rotterdam-10-2016.html">Rails Girls October 2016</a></li>
+        </ul>
+        <p class="slogan">Get excited and make things!</p>
+    </footer>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+    </body>
+    </html>
