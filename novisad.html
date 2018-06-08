@@ -21,14 +21,15 @@
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<meta property="og:image" content="http://railsgirls.com/images/novisad/meta.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
+	<meta property="og:url" content="http://railsgirls.com/novisad"/>
+	<meta property="og:title" content="Besplatne radionice web programiranja"/>
+	<meta property="og:description" content="Dvodnevne radionice za žene i devojke svih uzrasta koje žele da naprave prve korake u razvoju web aplikacija"/>
+	<meta property="fb:app_id" content="1667823646595526"/>
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   <style>
     #novisad-share {
       padding: .7rem 1.2rem;
@@ -41,6 +42,7 @@
     h1 {
       font-family: 'Concert One', cursive;
       color: #d43737;
+      font-size: 32px;
     }
     .ns-sponsor-link, .ns-partners-link {
       border: none;
@@ -54,11 +56,20 @@
       max-height: 40px;
       width: auto;
     }
+    .ns-team-img {
+      width: 60px;
+      height: 60px;
+      float: left;
+      margin-right: 10px;
+    }
+    .ns-team-link {
+      border: none;
+    }
   </style>
   </head>
 
   <body>
-  <header>
+  <header style="height: 85px">
     <div class="container">
       <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
       <nav>
@@ -78,11 +89,11 @@
 
       <div class="col">
         <h1>Rails Girls Novi Sad #7</h1>
-        <h2>7. i 8. jul 2018.</h2>
+        <h3>7. i 8. jul 2018.</h3>
 
         <h3>Šta je Rails Girls Novi Sad?</h3>
         <p>
-          Mi smo deo inicijative koja ima za cilj da približi IT svet ženama.
+          Mi smo deo inicijative koja ima za cilj da izgradi IT zajednicu koja će pomoći ženama da realizuju svoje ideje.
           Rails Girls nastao je u Finskoj i danas je globalna, neprofitna, volonterska zajednica.
         </p>
         <p>
@@ -229,7 +240,7 @@
 
         <h4>Da li mogu da vam pomognem?</h4>
         <p style="margin-top: 0">
-          Mentorska pomoć je uvek dobrodošla! Svako ko ima iskustva sa web programiranjem i želi da podeli svoje znanje, može da nam se <a href="mailto:railsgirlsnovisad@gmail.com">javi</a>.
+          Svako ko ima iskustva sa web programiranjem i želi da podeli svoje znanje, može da nam se <a href="mailto:railsgirlsnovisad@gmail.com">javi</a>.
           Isto važi za sve učesnice prethodnih radionica - rado ćemo te uputiti u sve što treba da znaš :)
         </p>
 
@@ -248,6 +259,8 @@
           Kontaktirajte nas putem e-mail-a <a href="mailto:railsgirlsnovisad@gmail.com">railsgirlsnovisad@gmail.com</a>, <a href="https://twitter.com/RailsGirlsNS">Twitter</a>-a ili <a href="https://www.facebook.com/RailsGirlsNoviSad">Facebook</a> stranice.
         </p>
       </div> <!-- col end -->
+      <div class="col m-4 novisad7" id="promo2">
+      </div>
     </div> <!-- row end -->
 
     <div class="row mt-5">
@@ -266,102 +279,74 @@
     <div class="row mt-5">
       <div class="col">
         <h2>Novi Sad tim</h2>
-        <div class="row">
+        <div class="row my-5">
           <div class="col">
-            <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/III/jelena.jpg"></img>
-            <a href="https://twitter.com/jelenakeravica" class="" style="margin-right:0px">
-                    Jelena Keravica, organizatorka
+            <img class="ns-team-img border-0" src="./images/novisad/members/III/jelena.jpg"></img>
+            <a href="https://twitter.com/jelenakeravica" class="ns-team-link">
+              Jelena Keravica, organizatorka<br/>
               <small>@jelenakeravica</small>
             </a>
           </div>
           <div class="col">
-            <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/IV/kristina_rgns.jpg"></img>
-            <a href="https://www.facebook.com/kristina.stojakovic" class="" style="margin-right:20px">
-                    Kristina Stojaković, organizatorka
+            <img class="ns-team-img border-0" src="./images/novisad/members/IV/kristina_rgns.jpg"></img>
+            <a href="https://www.facebook.com/kristina.stojakovic" class="ns-team-link">
+              Kristina Stojaković, organizatorka<br/>
               <small>kristina.stojakovic@gmail.com</small>
             </a>
           </div>
           <div class="col">
-            <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/IV/alex_rgns.jpg"></img>
-            <a href="https://www.facebook.com/aleksandra.vukosic" class="" style="margin-right:0px">
-                    Aleksandra Vukošić, organizatorka
+            <img class="ns-team-img" src="./images/novisad/members/IV/alex_rgns.jpg"></img>
+            <a href="https://www.facebook.com/aleksandra.vukosic" class="ns-team-link">
+              Aleksandra Vukošić, organizatorka<br/>
               <small>aleksandra.vukosic@gmail.com</small>
             </a>
           </div>
-        </div>
+        </div> <!-- team first row end -->
+        <div class="row my-5">
+          <div class="col">
+            <img class="ns-team-img border-0" src="./images/novisad/members/nebojsa.jpg"></img>
+            <a href="https://twitter.com/nebojsaz" class="ns-team-link">
+              Nebojša Zorić, mentor<br/>
+              <small>office@kolosek.com</small>
+            </a>
+          </div>
+          <div class="col">
+            <img class="ns-team-img border-0" src="./images/novisad/members/giusa.png"></img>
+            <a href="https://twitter.com/nikolalsvk" class="ns-team-link">
+              Nikola Đuza, mentor<br/>
+              <small>@nikolalsvk</small>
+            </a>
+          </div>
+          <div class="col">
+            <img class="ns-team-img" src="./images/novisad/members/V/dusan.jpg"></img>
+            <a href="mailto:dusan.vesic@gmail.com" class="ns-team-link">
+              Dušan Vesić, mentor<br/>
+              <small>dusan.vesic@gmail.com</small>
+            </a>
+          </div>
+        </div> <!-- team second row end -->
       </div> <!-- col end -->
     </div> <!-- row end -->
   </div> <!-- container end -->
 
-
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/mladen.jpg"></img>
-        <a href="https://twitter.com/maidomax" class="grid_3" style="margin-right:0px">
-                Mladen Danić, mentor
-          <small>@Maidomax</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/nebojsa.jpg"></img>
-        <a href="https://twitter.com/nebojsaz" class="grid_3" style="margin-right:20px">
-                Nebojša Zorić, mentor
-          <small>office@kolosek.com</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/dusan.png"></img>
-        <a href="https://github.com/duleorlovic" class="grid_3" style="margin-right:0px">
-                Dušan Orlović, mentor
-          <small>@duleorlovic</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/giusa.png"></img>
-        <a href="https://twitter.com/nikolalsvk" class="grid_3" style="margin-right:0px">
-                Nikola Đuza, mentor
-          <small>@nikolalsvk</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/nemus.png"></img>
-        <a href="https://twitter.com/__nemanjas__" class="grid_3" style="margin-right:20px">
-                Nemanja Stojanović, mentor
-          <small>@__nemanjas__</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/milica.jpg"></img>
-        <a href="https://twitter.com/MilicaNerlovic" class="grid_3" style="margin-right:0px">
-                Milica Nerlović, mentorka
-          <small>@MilicaNerlovic</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/aleksa.jpg"></img>
-        <a href="mailto:fistulator@gmail.com" class="grid_3" style="margin-right:0px">
-          Aleksa Zrnić, mentor
-          <small>fistulator@gmail.com</small>
-        </a>
-
-      </div>
-    </div>
-<!--  Update the team list -->
-	</div>
-
-    </div>
-
     <!-- /content -->
 
-    <footer>
-        <p>2010-2017, Rails Girls.</p>
-        <!--<p class="slogan">Get excited and make things!</p>-->
-    </footer>
-      <script type="text/javascript">
+  <footer>
+      <p>2010-2018, Rails Girls.</p>
+      <p class="slogan">Get excited and make things!</p>
+  </footer>
+  <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-      </script>
-    </body>
-    </html>
+  </script>
+</body>
+</html>
