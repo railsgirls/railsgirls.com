@@ -3112,6 +3112,18 @@ small.popayan-role{ font-size: 80%; }
 				url('../images/separator.png') no-repeat center bottom;
 }
 
+.novisad7#promo {
+  background: url('../images/novisad/rgns-7.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.novisad7#promo2 {
+  background: url('../images/novisad/rgns-7-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .kraljevo#promo {
   padding-left:350px;
     background:url('../images/kraljevo/rg-kraljevo.jpg') no-repeat 0 90px,
