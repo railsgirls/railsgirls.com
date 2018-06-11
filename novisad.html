@@ -17,7 +17,9 @@
 
   <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/text.css">
+
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
@@ -31,6 +33,94 @@
   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <style>
+    header {
+      height:25px;
+      color:#fff;
+      padding:30px 0;
+      background:#d3360b;
+    }
+
+    header #logo {
+      width:240px;
+      float:left;
+    }
+
+    header #logo img {
+      width:140px;
+    }
+
+    nav {
+      margin:0 0 0 250px;
+      padding-top:5px;
+    }
+
+    nav a {
+      color:#fff;
+      text-decoration:none;
+      font-weight:300;
+      font-size:16px;
+      letter-spacing:1px;
+      margin-left:15px;
+    }
+
+    nav a:after {
+      margin-left: 15px;
+      content: " ";
+      width:10px;
+      height:10px;
+      display:inline-block;
+
+      background: url(./images/star.png) no-repeat;
+      background-size:10px;
+    }
+
+    nav a:last-child:after {
+      background:none;
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    footer {
+      color:#666;
+      overflow:hidden;
+      width:100%;
+      padding:40px 0;
+      background:#F4F4F4;
+      line-height:1.5;
+      text-align:center;
+    }
+
+    footer a {
+      color:#111;
+      border-color:#111;
+    }
+
+    th {
+      min-width: 100px;
+      vertical-align: baseline;
+    }
+
+    .novisad7#promo {
+      background: url('./images/novisad/rgns-7.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .novisad7#promo2 {
+      background: url('./images/novisad/rgns-7-1.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    @media only screen and (max-width: 480px) {
+       .novisad7#promo2 {
+          height: 200px;
+        }
+    }
+
     #novisad-share {
       padding: .7rem 1.2rem;
       font-size: 28px;
@@ -44,16 +134,20 @@
       color: #d43737;
       font-size: 32px;
     }
+    h3, h4, h5, a {
+      color:#e0330c;
+      line-height:1.1;
+    }
     .ns-sponsor-link, .ns-partners-link {
       border: none;
       margin: auto 20px;
     }
     .ns-sponsor-link img {
-      max-height: 60px;
+      max-height: 50px;
       width: auto;
     }
     .ns-partners-link img {
-      max-height: 40px;
+      max-height: 30px;
       width: auto;
     }
     .ns-team-img {
@@ -84,10 +178,10 @@
 
   <div class="container">
     <div class="row mt-5">
-      <div class="col m-4 novisad7" id="promo">
+      <div class="col m-4 d-none d-sm-block novisad7" id="promo">
       </div>
 
-      <div class="col">
+      <div class="col-12 col-md-6">
         <h1>Rails Girls Novi Sad #7</h1>
         <h3>7. i 8. jul 2018.</h3>
 
@@ -127,9 +221,9 @@
       </div> <!-- col end -->
     </div> <!-- row end -->
     <div class="row my-5" id="schedule">
-      <div class="col">
+      <div class="col-12 col-lg-6">
         <h2>Subota, 7. jul</h2>
-        <table id="schedule">
+        <table>
           <tbody>
             <tr>
               <th>15.00 - 15.30</th>
@@ -162,9 +256,9 @@
           </tbody>
         </table>
       </div>
-      <div class="col">
+      <div class="col-12 col-lg-6">
         <h2>Nedelja, 8. jul</h2>
-        <table id="schedule">
+        <table>
           <tbody>
             <tr>
               <th>13.00 - 13.15</th>
@@ -201,7 +295,7 @@
     </div> <!-- row end -->
 
     <div class="row mt-5">
-      <div class="col">
+      <div class="col-12 col-md-6">
         <h2>Često postavljana pitanja</h2>
 
         <h4>Da li mogu da vam pomognem?</h4>
@@ -222,53 +316,64 @@
 
         <h4>Imate još neko pitanje ili nedoumicu?</h4>
         <p style="margin-top: 0">
-          Kontaktirajte nas putem e-mail-a <a href="mailto:railsgirlsnovisad@gmail.com">railsgirlsnovisad@gmail.com</a>, <a href="https://twitter.com/RailsGirlsNS">Twitter</a>-a ili <a href="https://www.facebook.com/RailsGirlsNoviSad">Facebook</a> stranice.
+          Kontaktirajte nas putem e-mail-a <a href="mailto:railsgirlsnovisad@gmail.com">railsgirlsnovisad@gmail.com</a>, <a href="https://twitter.com/RailsGirlsNS">Twitter</a>-a, <a href="https://www.instagram.com/railsgirlsnovisad/">Instagrama</a>-a  ili <a href="https://www.facebook.com/RailsGirlsNoviSad">Facebook</a> stranice.
         </p>
       </div> <!-- col end -->
-      <div class="col m-4 novisad7" id="promo2">
+      <div class="col-md-6 col-12 novisad7" id="promo2">
       </div>
     </div> <!-- row end -->
 
-    <div class="row justify-content-center my-5" id="sponsors">
-      <div class="col-4">
-        <h2 class="text-center border-bottom pb-2">Generalni sponzor</h2>
+    <div class="row justify-content-center mt-5" id="sponsors">
+      <div class="col-12 col-lg-4 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">General sponsor</h3>
         <div class="row justify-content-center">
           <a href="https://www.facebook.com/renderedtext" class="ns-sponsor-link">
             <img src="./images/novisad/sponsors/renderedtext.png" alt="Rendered Text">
           </a>
         </div>
       </div>
-      <div class="col-6">
-        <h2 class="text-center border-bottom pb-2">
-          Godišnji sponzor za 2018. godinu
-        </h2>
+      <div class="col-12 col-lg-6 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">
+          Annual partner 2018.
+        </h3>
         <div class="row justify-content-center">
           <a href="https://www.vipmobile.rs/privatni" class="ns-sponsor-link">
             <img src="./images/novisad/sponsors/vip.jpg"
-               style="max-height: 75px"
+               style="max-height: 55px"
                alt="VIP Mobile">
           </a>
         </div>
       </div>
     </div> <!-- row end -->
 
-    <div class="row justify-content-center my-5" id="sponsors">
-      <div class="col-8">
-        <h2 class="text-center border-bottom pb-2">Sponzori</h2>
+    <div class="row justify-content-center" id="sponsors">
+      <div class="col-12 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">Sponsors</h3>
         <div class="row justify-content-center">
           <a href="https://github.com" class="ns-sponsor-link">
             <img src="./images/github-logo-300x100.png" alt="GitHub"/>
           </a>
-          <a href="http://kolosek.com/" class="ns-sponsor-link" style="vertical-align: middle;">
-            <img src="./images/novisad/sponsors/kolosek7.png" alt="Kolosek" style="max-height: 55px;"/>
+          <a href="https://www.consulteer.com/sr-latn/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/consulteer.png" alt="Consulteer"/>
           </a>
         </div> <!-- nested row end -->
       </div> <!-- col end -->
     </div> <!-- row end -->
 
-    <div class="row justify-content-center my-5" id="partners">
-      <div class="col-6">
-        <h2 class="text-center border-bottom pb-2">Partner</h2>
+    <div class="row justify-content-center" id="supporters">
+      <div class="col-12 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">Supporters</h3>
+        <div class="row justify-content-center">
+          <a href="http://kolosek.com/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/kolosek7.png" alt="Kolosek" style="max-height: 25px;"/>
+          </a>
+        </div> <!-- nested row end -->
+      </div> <!-- col end -->
+    </div> <!-- row end -->
+
+    <div class="row justify-content-center mb-5" id="partners">
+      <div class="col-12">
+        <h3 class="text-center border-bottom pb-2 mb-2">Partner</h3>
         <div class="row justify-content-center">
           <a href="https://www.facebook.com/startitcentarnovisad" class="ns-partners-link">
             <img src="./images/novisad/sponsors/startit.png" alt="Startit Centar Novi Sad">
@@ -284,12 +389,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <a href="./novisad-01-2015.html">24. i 25. januar 2015.</a></br>
         <a href="./novisad-06-2015.html">13. i 14. jun 2015.</a></br>
         <a href="./novisad-12-2015.html">5. i 6. decembar 2015.</a></br>
       </div> <!-- col end -->
-      <div class="col-3">
+      <div class=" col-12 col-lg-3">
         <a href="./novisad-06-2016.html">25. i 26. jun 2016.</a></br>
         <a href="./novisad-11-2016.html">19. i 20. novembar 2016.</a></br>
         <a href="./novisad-10-2017.html">7. i 8. oktobar 2017.</a></br>
@@ -300,69 +405,57 @@
       <div class="col">
         <h2>Novi Sad tim</h2>
         <div class="row my-5">
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img border-0" src="./images/novisad/members/III/jelena.jpg"></img>
             <a href="https://twitter.com/jelenakeravica" class="ns-team-link">
-              Jelena Keravica, organizatorka<br/>
-              <small>@jelenakeravica</small>
+              Jelena Keravica, organizatorka
             </a>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img border-0" src="./images/novisad/members/IV/kristina_rgns.jpg"></img>
             <a href="https://www.facebook.com/kristina.stojakovic" class="ns-team-link">
-              Kristina Stojaković, organizatorka<br/>
-              <small>kristina.stojakovic@gmail.com</small>
+              Kristina Stojaković, organizatorka
             </a>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img" src="./images/novisad/members/IV/alex_rgns.jpg"></img>
             <a href="https://www.facebook.com/aleksandra.vukosic" class="ns-team-link">
-              Aleksandra Vukošić, organizatorka<br/>
-              <small>aleksandra.vukosic@gmail.com</small>
+              Aleksandra Vukošić, organizatorka
             </a>
           </div>
-        </div> <!-- team first row end -->
-        <div class="row my-5">
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img border-0" src="./images/novisad/members/nebojsa.jpg"></img>
             <a href="https://twitter.com/nebojsaz" class="ns-team-link">
-              Nebojša Zorić, mentor<br/>
-              <small>office@kolosek.com</small>
+              Nebojša Zorić, mentor
             </a>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img border-0" src="./images/novisad/members/giusa.png"></img>
             <a href="https://twitter.com/nikolalsvk" class="ns-team-link">
-              Nikola Đuza, mentor<br/>
-              <small>@nikolalsvk</small>
+              Nikola Đuza, mentor
             </a>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img" src="./images/novisad/members/V/dusan.jpg"></img>
             <a href="mailto:dusan.vesic@gmail.com" class="ns-team-link">
-              Dušan Vesić, mentor<br/>
-              <small>dusan.vesic@gmail.com</small>
+              Dušan Vesić, mentor
             </a>
           </div>
-        </div> <!-- team second row end -->
-        <div class="row my-5">
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img border-0" src="./images/novisad/members/maja.png"></img>
             <a href="mailto:marijana@axiomq.com" class="ns-team-link">
-              Marijana Molnar, mentorka<br/>
-              <small>marijana@axiomq.com</small>
+              Marijana Molnar, mentorka
             </a>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
             <img class="ns-team-img border-0" src="./images/novisad/members/III/milana.jpg"></img>
             <a href="https://twitter.com/mstojadinov" class="ns-team-link">
-              Milana Stojadinov, mentorka<br/>
-              <small>@mstojadinov</small>
+              Milana Stojadinov, mentorka
             </a>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
           </div>
-        </div> <!-- team third row end -->
+        </div> <!-- team row end -->
       </div> <!-- col end -->
     </div> <!-- row end -->
   </div> <!-- container end -->
