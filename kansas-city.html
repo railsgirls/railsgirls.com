@@ -1,349 +1,264 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-<!--  Add your city name, dates and year.  -->
+    <!--  Add your city name, dates and year.  -->
 
-  <title>Kansas City Fall 2018</title>
+    <title>Kansas City Fall 2018</title>
 
-<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="Rails Girls goes Kansas City Fall 2018: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
-  <meta name="author" content="Rails Girls">
+    <meta name="description" content="Rails Girls goes Kansas City Fall 2018: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="author" content="Rails Girls">
 
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-      <!--[if lt IE 9]>
+    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+    <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-    </head>
-    <body>
+    <![endif]-->
+    <style>
+     .coaches img {
+       margin-right: 10px;
+     }
 
-        <header>
-        <div class="container_12">
-            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-            <nav>
-                <a href="./events.html">Events</a>
-                <a href="./materials.html">Materials</a>
-                <a href="./press.html">Press</a>
-                <a href="http://blog.railsgirls.com">Blog</a>
-                <a href="http://guides.railsgirls.com">Guides</a>
-            </nav>
-        </div>
-        </header>
+     .helsinki_header#kc {
+       height: 50vh;
+       padding-top: 15px;
+     }
 
+     .sponsors {
+       margin-bottom: 10px;
+     }
 
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+     .text-center {
+       text-align: center;
+     }
 
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
+     .feature p {
+       padding: 0 10px;
+     }
 
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
+     .sponsors .feature p {
+       font-size: 15px;
+     }
 
-        It will take a while before the changes show, so don't panic!
+     #schedule td h4 {
+       font-size: 17px;
+     }
+    </style>
 
--->
+  </head>
+  <body>
 
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a>
+          <a href="http://guides.railsgirls.com">Guides</a>
+        </nav>
+      </div>
+    </header>
 
-        <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates.<!--  -->
-
-    <div id="container" class="container_12 page clearfix">
-      <div class="grid_12 omega alpha">
-        <div id="promo" class="new yourcity">
-          <h1>Rails Girls Kansas City
-            <small>Fall 2018</small>
+    <div id="kc" class='helsinki_header'>
+      <div class='helsinki_header_content'>
+        <h1>
+          Rails Girls Kansas City
+          <small>Fall 2018</small>
         </h1>
-        <p>Hello world!</p>
         <p>
-            Rails Girls comes to Kansas City! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
+          Rails Girls comes to Kansas City! During the free two-day workshop we'll dive into the magical world of building web applications with Ruby on Rails.</p>
         <p>Applications open July 1st, and will remain open until August 20th.</p>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls is coming to Kansas City in Fall 2018" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+          Tweet</a>
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        <div id="fb-root" style=""></div>
+        <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+        <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+      </div>
+    </div>
 
+      <div id="container" class="container_12 page clearfix">
+        <div class="grid_12 omega alpha">
 
-<!--  Update the sharing texts.-->
+          <div class="grid_4 alpha feature">
+            <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
+          </div>
+          <div class="grid_4 feature">
+            <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+          </div>
+          <div class="grid_4 omega feature">
+            <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:railsgirlskc@kcwomenintech.org">Email us</a>.</p>
+          </div>
 
-          <div id="share">
+          <hr />
 
-            <div>
-
-            <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls is coming to Kansas City in Fall 2018" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
-            Tweet</a>
-              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-            </divnta
-
-            <div id="fb-root" style=""></div>
-            <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+          <div class="grid_6 omega side">
+            <h3>FAQ</h3>
+            <p><strong>How much does the workshop cost?</strong>
+              Nothing, it's free! You just need to be excited!
+            </p>
+            <p>
+              <strong>Who is this aimed for?</strong>
+              Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop.
+            </p>
+            <p>
+              <strong>Can men attend?</strong>
+              Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
+            </p>
+            <p>
+              <strong>I know how to program - How can I help?</strong>
+              We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="mailto:railsgirlskc@kcwomenintech.org>">Email us</a>
+            </p>
 
           </div>
-        </p>
+
+          <div class="grid_6 omega side">
+            <h3>Information</h3>
+            <p>
+            <br />Attendance is free.
+            <br />
+              <strong>
+                Applications open:
+              </strong>
+              July 1st<br/>
+              <strong>
+                Applications close:
+              </strong>
+              September 6th<br/>
+              <strong>Location:</strong>
+              Google Fiber Space<br>
+              1814 Westport Rd, Kansas City, MO 64111
+              <br /><br />
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.449909630548!2d-94.6092156846451!3d39.0506599795472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0ee33b2cc59bd%3A0x962c949651f19047!2sGoogle+Fiber+Space!5e0!3m2!1sen!2sus!4v1529762444530" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </p>
+
+          </div>
+          <hr />
+          <div class="sponsors text-center">
+            <h3>Our awesome sponsors</h3>
+
+            <p>
+              Rails Girls Kansas City is co-organized with our awesome partners.
+              <br />
+              Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirlskc@kcwomenintech.org">Email us</a>!
+            </p>
+
+
+            <h2 style="margin-bottom: 2.7em; font-size: 18px; font-weight: bold; color: #444; text-transform: uppercase; font-family: expressway, Helvetica Neue, Helvetica ,sans-serif;">Platinum sponsors</h2>
+            <div class="clearfix" style="margin-bottom: 40px;">
+              <div class="grid_6 push_3 alpha">
+                <a href="https://fiber.google.com/cities/kansascity/" style="display: block; text-align: center; border-bottom: none; margin-bottom: 20px;">
+                  <img src="./images/google-fiber.svg" alt="Google-Fiber" width="260px">
+                </a>
+                Google Fiber Space is donating their space to allow us to host our Rails Girls KC event!  Thank you <a href="https://fiber.google.com/cities/kansascity/">Google Fiber!</a>
+              </div>
+            </div>
+            <h2 style="margin-bottom: 2.7em; font-size: 18px; font-weight: bold; color: #444; text-transform: uppercase; font-family: expressway, Helvetica Neue, Helvetica ,sans-serif;">Silver sponsors</h2>
+            <div class="clearfix" style="margin-bottom: 40px;">
+              <div class="grid_6 push_3 alpha">
+                <a href="https://cerner.com" style="display: block; text-align: center; border-bottom: none; margin-bottom: 20px;">
+                  <img src="./images/cerner.jpg" alt="Cerner" width="260px">
+                </a>
+                <a href="https://www.cerner.com">Cerner</a> is the solution for healthcare, supporting clinical, financial and operational needs of organizations of every size, with more than 27,000 provider facilities world wide.
+              </div>
+            </div>
+          </div>
+
+          <div class="coaches">
+            <hr />
+            <h2>Rails Girls Kansas City Team</h2>
+
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-100.png">
+              Becky Pursley Ancell
+              <small>Program Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-100.png">
+              Marlini Alias Ali
+              <small>General Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-100.png">
+              Nicole Maneth
+              <small>Coach Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-101.png">
+              Joe Ancell
+              <small>Marketing Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-100.png">
+              Anri Liy
+              <small>Attendee Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-100.png">
+              Jenna Beckett
+              <small>Volunteer Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-101.png">
+              Ross Fuhrman
+              <small>Ruby User Group Coordinater</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-100.png">
+              Ammaarah Khan
+              <small>Diversity & Inclusion Coordinater</small>
+            </a>
+            <a href="https://twitter.com/benjamreynolds" class="grid_3" target="_blank">
+              <img src="./images/ruby-101.png">
+              Benjamin Reynolds
+              <small>Web Coordinater</small>
+              <small>@benjamreynolds</small>
+            </a>
+            <a href="" class="grid_3" target="_blank">
+              <img src="./images/ruby-101.png">
+              Mark Davis
+              <small>Sponsor Coordinater</small>
+            </a>
+
+          </div>
+
         </div>
       </div>
 
+      <!-- /content -->
 
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
-
-      <div class="grid_4 alpha feature">
-       <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
-      </div>
-      <div class="grid_4 feature">
-        <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
-      </div>
-      <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers and Rails coaches. <a href="mailto:railsgirlskc@kcwomenintech.org">Email us</a>.</p>
-      </div>
-
-      <hr />
-
-<!--  Update the texts! -->
-      <!--
-      Commenting out until dates and schedule are set
-      <div class="grid_6 alpha">
-        <h2>Friday 28th September</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th>18.00 -</th>
-              <td>
-                <h4>Installation party</h4>
-                  Get know the attendees a little bit before hand. Bring your laptop if you can, so we can install Ruby on Rails for you.<br>
-                  <strong>Where:</strong>
-
-
-              </td></tr>
-              <tr>
-               <th>21.00 -</th>
-                <td>
-                  <h4>Coach dinner</h4>
-                    All of the coaches are welcome to our coach dinner, where we'll go through the program for the next day.
-
-
-                </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <hr />
-
-        <h2>Saturday 29th September</h2>
-
-        <table id="schedule">
-          <tbody>
-          <tr>
-            <th>9:00 - 10:00</th>
-            <td>
-              <h4>Registration, coffee and installation fest</h4>
-                During the morning we’ll install Ruby on Rails on your computer.
-            </td>
-          </tr>
-
-          <tr>
-            <th>10:00 - 10:15</th>
-            <td>
-              <h4>Welcome</h4>
-                   Outline of the day &amp; word from sponsors
-                  </td>
-                </tr>
-
-          <tr>
-            <th>10:20 - 10:45</th>
-            <td>
-               <h4>Designing your web app -workshop</h4>
-            </td>
-          </tr>
-
-             <tr>
-                <th>10:50 - 11:10</th>
-                <td>
-
-                  <h4><a href="http://www.tryruby.org">Tryruby.org</a></h4>
-                  <strong>Let's get coding!</strong>
-                </td>
-              </tr>
-
-          <tr>
-            <th>11:10 - 13:00</th>
-            <td>
-              <h4>WORKSHOP</h4>
-              Jumpstart your first web application
-            </td>
-          </tr>
-
-          <tr>
-            <th>13:00 - 13:30</th>
-            <td><h4>Lunch</h4></td>
-          </tr>
-
-          <tr>
-            <th>13.30- 13:45</th>
-            <td>
-              <h4>Bentobox - Understanding Web Apps</h4>
-              Recap of what we’ve learned and how it all fits together.
-            </td>
-          </tr>
-
-          <tr>
-            <th>13:45 - 14:30</th>
-            <td>
-              <h4>Lightning talks from coaches</h4>
-            </td>
-          </tr>
-
-          <tr>
-            <th>14:30 - 16:30</th>
-            <td>
-              <h4>WORKSHOP</h4>
-              Extend your application.
-            </td>
-          </tr>
-          <tr>
-            <th>20:00 -</th>
-            <td>
-              <h4>Afterparty</h4>
-              Open for everyone, meet cool people interested in tech. <br>
-
-            </td>
-          </tr>
-          </tbody>
-        </table>
-      </div> -->
-
-<!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
-
-
-      <div class="grid_5 push_1 omega side">
-
-        <h3>Information</h3>
-        <p>
-        <p><strong>Applications</a> open:</strong> July 1st<br/>
-        <!-- <strong>Acceptances informed:</strong>(insert date)</p> -->
-        <!-- <strong>Location:</strong> (Add address and maybe link to Google Maps)<!--  --><!--  -->
-
-
-        </p>
-
-
-<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-
-
-       <h3>Our awesome sponsors:</h3>
-
-       <p>Rails Girls Kansas City is co-organized with our awesome partners.</p>
-       <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:railsgirlskc@kcwomenintech.org">Email us</a>! </p>
-         <p>
-           <a href="https://cerner.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/cerner.jpg" alt="Cerner" width="260px"></a>
-           <a href="https://www.cerner.com">Cerner</a> is the solution for healthcare, supporting clinical, financial and operational needs of organizations of every size, with more than 27,000 provider facilities world wide.
-         </p>
-     <hr/>
-     <h3>FAQ</h3>
-      <p><strong>How much does the workshop cost?</strong>
-          Nothing, it's free! You just need to be excited!
-      </p>
-       <p>
-         <strong>Who is this aimed for?</strong>
-         Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. Most of the speeches are given in english, but small group work is done in german. Please bring your laptop.
-       </p>
-       <p>
-         <strong>Can men attend?</strong>
-         Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
-       </p>
-       <p>
-         <strong>I know how to program - How can I help?</strong>
-         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="mailto:railsgirlskc@kcwomenintech.org>">Email us</a>
-       </p>
-
-
-      </div>
-
-
-<!--  Update the team list       -->
-
-      <div class="coaches">
-        <hr />
-        <h2>Rails Girls Kansas City Team</h2>
-
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-100.png">
-          Becky Pursley Ancell
-          <small>Program Coordinater</small>
-        </a>
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-100.png">
-          Marlini Alias Ali
-          <small>General Coordinater</small>
-        </a>
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-100.png">
-          Nicole Maneth
-          <small>Coach Coordinater</small>
-        </a>
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-101.png">
-          Joe Ancell
-          <small>Marketing Coordinater</small>
-        </a>
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-100.png">
-          Anri Liy
-          <small>Attendee Coordinater</small>
-        </a>
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-100.png">
-          Jenna Beckett
-          <small>Volunteer Coordinater</small>
-        </a>
-        <a href="https://twitter.com/benjamreynolds" class="grid_3" target="_blank">
-          <img src="./images/ruby-101.png">
-          Benjamin Reynolds
-          <small>Web Coordinater</small>
-          <small>@benjamreynolds</small>
-        </a>
-        <a href="" class="grid_3" target="_blank">
-          <img src="./images/ruby-101.png">
-          Mark Davis
-          <small>Sponsor Coordinater</small>
-        </a>
-
-      </div>
-
-    </div>
-    </div>
-
-    <!-- /content -->
-
-    <footer>
+      <footer>
         <p>2010-2018, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
         <p class="slogan">Get excited and make things!</p>
-    </footer>
+      </footer>
       <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-19631067-1']);
+       _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+       (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
 
       </script>
-    </body>
-    </html>
+  </body>
+</html>
