@@ -464,6 +464,11 @@ a, a:visited, a:focus, a:active, a:hover{
   padding-left:340px;
   background:url('../images/rg-krakow.png') no-repeat 10px 40px;
 }
+
+.krakow2018#promo {
+  padding-left:340px;
+  background:url('../images/krakow/rgkrk_logo_red.png') no-repeat 10px 40px;
+}
 .maputo#promo {
   background:url('../images/maputo/logo-draft.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
@@ -844,25 +849,31 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .osaka-1st#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka-1st.jpg') no-repeat left top,
+  background:url('../images/osaka/rg-osaka-1st.jpg') no-repeat left top,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
 .osaka-2nd#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka-2nd.jpg') no-repeat left top,
+  background:url('../images/osaka/rg-osaka-2nd.jpg') no-repeat left top,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
 .osaka-3rd#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka-3rd.png') no-repeat 0 80px,
+  background:url('../images/osaka/rg-osaka-3rd.png') no-repeat 0 80px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
 .osaka-4th#promo {
   padding-left:420px;
-  background:url('../images/rg-osaka4th.png') no-repeat 0 80px,
+  background:url('../images/osaka/rg-osaka4th.png') no-repeat 0 80px,
+                 url('../images/separator.png') no-repeat center bottom;
+  }
+
+.osaka-5th#promo {
+  padding-left:420px;
+  background:url('../images/osaka/rg-osaka5th.png') no-repeat 0 0px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
@@ -1462,19 +1473,23 @@ pre {
 }
 
 .osaka-1st#promo h1 {
-  background:url('../images/rg-osaka-header-1st.png') no-repeat left top;
+  background:url('../images/osaka/rg-osaka-header-1st.png') no-repeat left top;
 }
 
 .osaka-2nd#promo h1 {
-  background:url('../images/rg-osaka-header-2nd.png') no-repeat left top;
+  background:url('../images/osaka/rg-osaka-header-2nd.png') no-repeat left top;
 }
 
 .osaka-3rd#promo h1 {
-  background:url('../images/rg-osaka-header-3rd.png') no-repeat left top;
+  background:url('../images/osaka/rg-osaka-header-3rd.png') no-repeat left top;
 }
 
 .osaka-4th#promo h1 {
-  background:url('../images/rg-osaka-header-4th.png') no-repeat left top;
+  background:url('../images/osaka/rg-osaka-header-4th.png') no-repeat left top;
+}
+
+.osaka-5th#promo h1 {
+  background:url('../images/osaka/rg-osaka-header-5th.png') no-repeat left top;
 }
 
 .shiojiri#promo h1 {
@@ -3097,6 +3112,19 @@ small.popayan-role{ font-size: 80%; }
 				url('../images/separator.png') no-repeat center bottom;
 }
 
+.novisad7#promo {
+  background: url('../images/novisad/rgns-7.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.novisad7#promo2 {
+  background: url('../images/novisad/rgns-7-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .kraljevo#promo {
   padding-left:350px;
     background:url('../images/kraljevo/rg-kraljevo.jpg') no-repeat 0 90px,
@@ -4370,9 +4398,3 @@ h1.bern {
   margin-top: 10px;
 }
 
-.nairobi#promo {
-    padding-left:340px;
-    background:url('../images/nairobi.jpeg') no-repeat 0 10px,
-    url('../images/separator.png') no-repeat center bottom;
-
-}

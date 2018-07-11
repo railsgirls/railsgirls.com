@@ -5,7 +5,7 @@
 
 <!--  Add your city name, dates and year.  -->
 
-  <title>Novi Sad, 7. i 8. oktobar 2017.</title>
+  <title>Novi Sad, 7. i 8. jul 2018.</title>
 
 <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
@@ -15,19 +15,112 @@
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/text.css">
+
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<meta property="og:image" content="http://railsgirls.com/images/novisad/meta.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
+	<meta property="og:url" content="http://railsgirls.com/novisad"/>
+	<meta property="og:title" content="Besplatne radionice web programiranja"/>
+	<meta property="og:description" content="Dvodnevne radionice za žene i devojke svih uzrasta koje žele da naprave prve korake u razvoju web aplikacija"/>
+	<meta property="fb:app_id" content="1667823646595526"/>
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   <style>
+    header {
+      height:25px;
+      color:#fff;
+      padding:30px 0;
+      background:#d3360b;
+    }
+
+    header #logo {
+      width:240px;
+      float:left;
+    }
+
+    header #logo img {
+      width:140px;
+    }
+
+    nav {
+      margin:0 0 0 250px;
+      padding-top:5px;
+    }
+
+    nav a {
+      color:#fff;
+      text-decoration:none;
+      font-weight:300;
+      font-size:16px;
+      letter-spacing:1px;
+      margin-left:15px;
+    }
+
+    nav a:after {
+      margin-left: 15px;
+      content: " ";
+      width:10px;
+      height:10px;
+      display:inline-block;
+
+      background: url(./images/star.png) no-repeat;
+      background-size:10px;
+    }
+
+    nav a:last-child:after {
+      background:none;
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    footer {
+      color:#666;
+      overflow:hidden;
+      width:100%;
+      padding:40px 0;
+      background:#F4F4F4;
+      line-height:1.5;
+      text-align:center;
+    }
+
+    footer a {
+      color:#111;
+      border-color:#111;
+    }
+
+    th {
+      min-width: 100px;
+      vertical-align: baseline;
+    }
+
+    .novisad7#promo {
+      background: url('./images/novisad/rgns-7.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .novisad7#promo2 {
+      background: url('./images/novisad/rgns-7-1.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    @media only screen and (max-width: 480px) {
+       .novisad7#promo2 {
+          height: 200px;
+        }
+    }
+
     #novisad-share {
       padding: .7rem 1.2rem;
       font-size: 28px;
@@ -35,55 +128,75 @@
       background-color: #e0330c;
       color: white;
     }
+
+    h1 {
+      font-family: 'Concert One', cursive;
+      color: #d43737;
+      font-size: 32px;
+    }
+    h3, h4, h5, a {
+      color:#e0330c;
+      line-height:1.1;
+    }
+    a:hover {
+      color: #6f1a07;
+    }
+    .ns-sponsor-link, .ns-partners-link {
+      border: none;
+      margin: auto 20px;
+    }
+    .ns-sponsor-link img {
+      max-height: 50px;
+      width: auto;
+    }
+    .ns-partners-link img {
+      max-height: 30px;
+      width: auto;
+    }
+    .ns-team-img {
+      width: 60px;
+      height: 60px;
+      float: left;
+      margin-right: 10px;
+    }
+    .ns-team-link {
+      border: none;
+    }
+    .ns-btn {
+      color: #fff;
+      background-color: #e0330c;
+      border-color: #e0330c;
+      font-weight: bold;
+    }
   </style>
   </head>
+
   <body>
-
-    <header>
-    <div class="container_12">
-        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-        <nav>
-            <a href="./events.html">Događaji</a>
-            <a href="./materials.html">Materijal</a>
-            <a href="./press.html">Mediji</a>
-            <a href="http://blog.railsgirls.com">Blog</a>
-            <a href="http://guides.railsgirls.com">Vodič</a>
-        </nav>
+  <header style="height: 85px">
+    <div class="container">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+          <a href="./events.html">Događaji</a>
+          <a href="./materials.html">Materijal</a>
+          <a href="./press.html">Mediji</a>
+          <a href="http://blog.railsgirls.com">Blog</a>
+          <a href="http://guides.railsgirls.com">Vodič</a>
+      </nav>
     </div>
-    </header>
+  </header>
 
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col m-4 d-none d-sm-block novisad7" id="promo">
+      </div>
 
-<!--   How to change the picture & header for site
-In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
-
-Steps to show on site
-1. Go to style.css
-2. Add these lines, always replacing 'yourcityname' with your actual city name.
-
-        .yourcityname#promo {
-          padding-left:340px;
-          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
-                         url('../images/separator.png') no-repeat center bottom;
-        }
-
-        It will take a while before the changes show, so don't panic!
-
--->
-
-
-
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
-
-    <div id="container" class="container_12 page clearfix">
-      <div class="grid_12 omega alpha">
-        <div id="promo" class="new novisad5">
-        <h1>Rails Girls Novi Sad #6
-            <small>7. i 8. oktobar 2017.</small>
-        </h1>
+      <div class="col-12 col-md-6">
+        <h1>Rails Girls Novi Sad #7</h1>
+        <h3>7. i 8. jul 2018.</h3>
 
         <h3>Šta je Rails Girls Novi Sad?</h3>
         <p>
-          Mi smo deo inicijative koja ima za cilj da približi IT svet ženama.
+          Mi smo deo inicijative koja ima za cilj da izgradi IT zajednicu koja će omogućiti ženama da realizuju svoje ideje.
           Rails Girls nastao je u Finskoj i danas je globalna, neprofitna, volonterska zajednica.
         </p>
         <p>
@@ -94,16 +207,22 @@ Steps to show on site
         </p>
 
         <h3>Kada i gde će se radionica održati?</h3>
-        <p>Rails Girls radionica će se održati u 7. i 8. oktobra 2017. godine u Startit Centru u Novom Sadu.
-        Prijave su završene. Sve prijavljene kandidatkinje biće uskoro obaveštene emailom da li su prošle selekciju.
-        Hvala na strpljenju!</p>
+        <p>
+          Rails Girls radionica će se održati u 7. i 8. jula 2018. godine u
+          Startit Centru u Novom Sadu.
+        </p>
+        <p>
+          Prijave su sada zatvorene. Sve koje su se prijavile biće obaveštene
+          da li su primljene na radionicu putem emaila u narednih nekoliko
+          dana. Hvala!
+        </p>
 
         <div>
           <div style="margin:25px 15px 0 0;">
             <a href="http://twitter.com/share"
                class="twitter-share-button"
                data-url=""
-               data-text="Rails Girls Novi Sad, 7. i 8. oktobar 2017."
+               data-text="Rails Girls Novi Sad, 7. i 8. jul 2018."
                data-count="horizontal"
                data-via="RailsGirlsNS"
                data-related="railsgirls">
@@ -114,163 +233,110 @@ Steps to show on site
           </div>
         </div>
         <div id="fb-root" style=""></div>
-          <script src="http://connect.facebook.net/en_US/all.js#appId=1667823646595526&amp;xfbml=1"></script>
-          <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
-        </div>
-      </div>
-
-
-<!--  Update the texts! -->
-
-      <div class="grid_6 alpha">
-        <h2>Subota, 7. oktobar</h2>
-        <table id="schedule">
+        <script src="http://connect.facebook.net/en_US/all.js#appId=1667823646595526&amp;xfbml=1"></script>
+        <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+      </div> <!-- col end -->
+    </div> <!-- row end -->
+    <div class="row my-5" id="schedule">
+      <div class="col-12 col-lg-6">
+        <h2>Subota, 7. jul</h2>
+        <p>(raspored podložan izmenama)</p>
+        <table>
           <tbody>
             <tr>
-              <th>15.00 - 15.30</th>
+              <th>14.00 - 14:30</th>
+              <td>
+                <h4>Registracija učesnica</h4>
+                Učesnice pristižu i raspoređuju se po grupama
+              </td>
+            </tr>
+            <tr>
+              <th>14:30</th>
               <td>
                 <h4>Upoznavanje i uvodna reč</h4>
-                Prvi dan započinjemo upoznavanjem, uz uvodnu reč mentora i organizatorki.<br>
+                Prvi dan započinjemo upoznavanjem, uz uvodnu reč mentora, organizatorki i sponzora.<br>
               </td>
             </tr>
             <tr>
-              <th>15.30 - 16.00</th>
+              <th>15:00</th>
               <td>
-                <h4>Kratak uvod u Ruby</h4>
-                  Predavanje o osnovnim konceptima Ruby-ja za sve učesnice.
-              </td>
-            </tr>
-            <tr>
-              <th>16.00 - 18.00</th>
-              <td>
-                <h4>Instalacija i <i>Try Ruby</i></h4>
+                <h4>Instalacija</h4>
                   Sledi instalacija neophodnog softvera na vašim laptopovima uz pauze za kafu.
+              </td>
+            </tr>
+            <tr>
+              <th>17:30</th>
+              <td>
+                <h4>Kratko predavanje</h4>
+                Naši predavači podeliće sa vama lična iskustva rada u IT industriji
               </td>
             </tr>
             <tr>
               <th>18.00</th>
               <td>
                 <h4>Rails Girls Party</h4>
-                Neformalno druženje za one koje budu raspoložene.
+                Neformalno druženje za one koje budu raspoložene :)
               </td>
             </tr>
           </tbody>
         </table>
-
-        <h2>Nedelja, 8. oktobar</h2>
-
-        <table id="schedule">
+      </div>
+      <div class="col-12 col-lg-6">
+        <h2>Nedelja, 8. jul</h2>
+        <p>(raspored podložan izmenama)</p>
+        <table>
           <tbody>
             <tr>
-              <th>13.00 - 13.15</th>
+              <th>do 12:00</th>
               <td>
                 <h4>Registracija učesnica</h4>
-                  Drugi dan započinjemo registracijom učesnica uz kafu i eventualnim pitanjima nakon jučerašnjeg dana.
-              </td>
-            </tr>
-
-            <tr>
-              <th>13:15 - 15:00</th>
-              <td>
-                <h4>Pravljenje aplikacija</h4>
-                Upoznavanje sa osnovama programiranja u malim grupama. Razvijanje sopstvenih aplikacija uz pomoć mentora. Pauze za kafu i osveženje.
               </td>
             </tr>
             <tr>
-              <th>15:00 - 16:00</th>
+              <th>12:00</th>
               <td>
-                 <h4>Pauza</h4>
+                <h4>Pravljenje aplikacije</h4>
+                Upoznavanje sa osnovama programiranja u malim grupama. Razvijanje aplikacija uz pomoć mentora. Pauze za kafu i osveženje.
               </td>
             </tr>
-
+            <tr>
+              <th>14:30</th>
+              <td>
+                 <h4>Pauza za posluženje</h4>
+              </td>
+            </tr>
+            <tr>
+              <th>15:30</th>
+              <td>
+                <h4>Kratko predavanje</h4>
+                Naši predavači podeliće sa vama lična iskustva rada u IT industriji
+              </td>
+            </tr>
              <tr>
-               <th>16:00 - 18:00</th>
+               <th>16:00</th>
                <td>
                  <h4>Nastavak</h4>
                  Dalji rad na aplikaciji uz pomoć mentora. Pauze za kafu i osveženje.
                </td>
              </tr>
+             <tr>
+               <th>18:30</th>
+               <td>
+                 <h4>Završna reč</h4>
+               </td>
+             </tr>
           </tbody>
         </table>
-      </div>
+      </div> <!-- col end -->
+    </div> <!-- row end -->
 
-<!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
-
-
-      <div class="grid_5 push_1 omega">
-
-
-<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
-
-        <h2>Generalni sponzor</h2>
-
-        <div>
-          <div>
-            <a href="https://www.facebook.com/renderedtext" style="">
-              <img src="./images/novisad/sponsors/renderedtext.png" alt="Rendered Text" style="margin-bottom:20px" width="350px">
-            </a>
-          </div>
-        </div>
-
-        <div style="clear:both;"></div>
-
-        <h2>Sponzori</h2>
-
-        <div>
-          <div>
-            <a href="https://github.com" style="">
-              <img src="./images/github-logo-300x100.png" alt="GitHub" style="margin-bottom:20px">
-            </a>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <a href="http://kolosek.com/" style="">
-              <img src="./images/novisad/sponsors/kolosek5.png" alt="Kolosek" style="margin-bottom:20px" width="200px">
-            </a>
-          </div>
-        </div>
-
-        <div style="clear:both;"></div>
-
-        <h2>Prijatelj projekta</h2>
-
-        <div>
-          <div>
-            <a href="https://www.consulteer.com/sr-latn/" style="">
-              <img src="./images/novisad/sponsors/consulteer.png" alt="Consulteer" style="margin-bottom:20px" width="250px">
-            </a>
-          </div>
-        </div>
-
-        <div style="clear:both;"></div>
-
-        <h2>Partneri</h2>
-
-        <div>
-          <a href="https://www.facebook.com/startitcentarnovisad" style="">
-            <img src="./images/novisad/sponsors/startit.png" alt="Startit Centar Novi Sad" style="margin-bottom:20px" width="250px">
-          </a>
-        </div>
-
-        <div style="clear:both;"></div>
-        <br/>
-
-        <h2>Želite da nas podržite?</h2>
-        <p style="float:left; margin-top:20px; margin-bottom:45px">Rails Girls Novi Sad funkcioniše na osnovu sponzorskih donacija.
-        Ukoliko želite da pomognete održavanje radionice, <a href="mailto:railsgirlsnovisad@gmail.com">pišite nam</a>.
-        </p>
-      </div>
-
-      <div style="clear:both;"></div>
-      <div>
-        <hr />
+    <div class="row mt-5">
+      <div class="col-12 col-md-6">
         <h2>Često postavljana pitanja</h2>
 
         <h4>Da li mogu da vam pomognem?</h4>
         <p style="margin-top: 0">
-          Mentorska pomoć je uvek dobrodošla! Svako ko ima iskustva sa web programiranjem i želi da podeli svoje znanje, može da nam se <a href="mailto:railsgirlsnovisad@gmail.com">javi</a>.
+          Svako ko ima iskustva sa web programiranjem i želi da podeli svoje znanje, može da nam se <a href="mailto:railsgirlsnovisad@gmail.com">javi</a>.
           Isto važi za sve učesnice prethodnih radionica - rado ćemo te uputiti u sve što treba da znaš :)
         </p>
 
@@ -286,115 +352,222 @@ Steps to show on site
 
         <h4>Imate još neko pitanje ili nedoumicu?</h4>
         <p style="margin-top: 0">
-          Kontaktirajte nas putem e-mail-a <a href="mailto:railsgirlsnovisad@gmail.com">railsgirlsnovisad@gmail.com</a>, <a href="https://twitter.com/RailsGirlsNS">Twitter</a>-a ili <a href="https://www.facebook.com/RailsGirlsNoviSad">Facebook</a> stranice.
+          Kontaktirajte nas putem e-mail-a <a href="mailto:railsgirlsnovisad@gmail.com">railsgirlsnovisad@gmail.com</a>, <a href="https://twitter.com/RailsGirlsNS">Twitter</a>-a, <a href="https://www.instagram.com/railsgirlsnovisad/">Instagrama</a>-a  ili <a href="https://www.facebook.com/RailsGirlsNoviSad">Facebook</a> stranice.
         </p>
+      </div> <!-- col end -->
+      <div class="col-md-6 col-12 novisad7" id="promo2">
       </div>
+    </div> <!-- row end -->
 
+    <div class="row justify-content-center mt-5" id="organizers">
+      <div class="col-12 col-lg-6 mb-6">
+        <h3 class="text-center border-bottom pb-2 mb-2">
+          Organizator
+        </h3>
+        <div class="row justify-content-center">
+          <a href="https://www.facebook.com/peritia.edu/" class="ns-sponsor-link">
+            <img src="./images/novisad/sponsors/peritia.png" alt="Peritia">
+          </a>
+        </div>
+      </div>
+    </div> <!-- row end -->
 
-	  <div style="clear:both;"></div>
-	  <div>
-	  <hr />
-	  <h2>Prethodni RGNS događaji</h2>
+    <div class="row justify-content-center mt-5" id="sponsors1">
+      <div class="col-12 col-lg-6 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">
+          Generalni sponzor
+        </h3>
+        <div class="row justify-content-center">
+          <a href="https://www.facebook.com/renderedtext" class="ns-sponsor-link">
+            <img src="./images/novisad/sponsors/renderedtext.png" alt="Rendered Text">
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">
+          Godišnji partner 2018.
+        </h3>
+        <div class="row justify-content-center">
+          <a href="https://www.vipmobile.rs/privatni" class="ns-sponsor-link">
+            <img src="./images/novisad/sponsors/vip.jpg"
+               style="max-height: 55px"
+               alt="VIP Mobile">
+          </a>
+        </div>
+      </div>
+    </div> <!-- row end -->
 
-		<p>U Novom Sadu je do sada uspešno održano pet Rails Girls radionica:</p>
+    <div class="row justify-content-center mt-3" id="sponsors2">
+      <div class="col-12 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">
+          Sponzori
+        </h3>
+        <div class="row justify-content-center">
+          <a href="https://www.consulteer.com/sr-latn/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/consulteer-2018.png" style="max-height: 45px" alt="Consulteer"/>
+          </a>
+          <a href="https://www.vegaitsourcing.rs/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/vega-it.png" alt="Vega IT Sourcing" style="max-height: 65px;"/>
+          </a>
+          <a href="http://www.infostud.com/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/infostud.png" alt="Infostud Grupa" style="max-height: 65px;"/>
+          </a>
+          <a href="https://www.stickermule.com/supports/you" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/sticker-mule.png" alt="Sticker Mule" style="max-height: 65px;"/>
+          </a>
+        </div> <!-- nested row end -->
+      </div> <!-- col end -->
+    </div> <!-- row end -->
 
-			<a href="./novisad-01-2015.html">24. i 25. januar 2015.</a></br>
-			<a href="./novisad-06-2015.html">13. i 14. jun 2015.</a></br>
-			<a href="./novisad-12-2015.html">5. i 6. decembar 2015.</a></br>
-			<a href="./novisad-06-2016.html">25. i 26. jun 2016.</a></br>
-			<a href="./novisad-11-2016.html">19. i 20. novembar 2016.</a></br>
+    <div class="row justify-content-center" id="sponsors3">
+      <div class="col-12 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2"></h3>
+        <div class="row justify-content-center">
+          <a href="http://kolosek.com/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/kolosek7.png" alt="Kolosek" style="max-height: 25px;"/>
+          </a>
+          <a href="https://www.jetbrains.com/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/jetbrains.png" alt="JetBrains" style="max-height: 120px"/>
+          </a>
+          <a href="https://www.facebook.com/startitcentarnovisad" class="ns-partners-link">
+            <img src="./images/novisad/sponsors/startit.png" alt="Startit Centar Novi Sad">
+          </a>
+        </div> <!-- nested row end -->
+      </div> <!-- col end -->
+    </div> <!-- row end -->
 
-		</div>
+    <div class="row justify-content-center mt-3" id="sponsors4">
+      <div class="col-12 mb-5">
+        <h3 class="text-center border-bottom pb-2 mb-2">Sponzori osveženja</h3>
+        <div class="row justify-content-center">
+          <a href="http://kabinet.rs/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/kabinet.jpg" style="max-height: 60px;" alt="Kabinet"/>
+          </a>
+          <a href="https://slatkoteka.rs/" class="ns-sponsor-link" style="vertical-align: middle;">
+            <img src="./images/novisad/sponsors/slatkoteka.png" style="max-height: 60px;" alt="Slatkoteka"/>
+          </a>
+        </div> <!-- nested row end -->
+      </div> <!-- col end -->
+    </div> <!-- row end -->
 
-      <div class="coaches">
-        <hr />
+    <div class="row mt-5">
+      <div class="col">
+        <h2>Prethodni RGNS događaji</h2>
+        <p>U Novom Sadu je do sada uspešno održano šest Rails Girls radionica:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <a href="./novisad-01-2015.html">24. i 25. januar 2015.</a></br>
+        <a href="./novisad-06-2015.html">13. i 14. jun 2015.</a></br>
+        <a href="./novisad-12-2015.html">5. i 6. decembar 2015.</a></br>
+      </div> <!-- col end -->
+      <div class=" col-12 col-lg-3">
+        <a href="./novisad-06-2016.html">25. i 26. jun 2016.</a></br>
+        <a href="./novisad-11-2016.html">19. i 20. novembar 2016.</a></br>
+        <a href="./novisad-10-2017.html">7. i 8. oktobar 2017.</a></br>
+      </div> <!-- col end -->
+    </div> <!-- row end -->
+
+    <div class="row mt-5">
+      <div class="col">
         <h2>Novi Sad tim</h2>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/IV/alex_rgns.jpg"></img>
-        <a href="https://www.facebook.com/aleksandra.vukosic" class="grid_3" style="margin-right:0px">
-                Aleksandra Vukošić, organizatorka
-          <small>aleksandra.vukosic@gmail.com</small>
+        <div class="row my-5">
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/jelena.png"></img>
+            <a href="https://twitter.com/jelenakeravica" class="ns-team-link">
+              Jelena Keravica, organizatorka
             </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/IV/kristina_rgns.jpg"></img>
-        <a href="https://www.facebook.com/kristina.stojakovic" class="grid_3" style="margin-right:20px">
-                Kristina Stojaković, organizatorka
-          <small>kristina.stojakovic@gmail.com</small>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/kristina.png"></img>
+            <a href="https://www.facebook.com/kristina.stojakovic" class="ns-team-link">
+              Kristina Stojaković, organizatorka
             </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/III/jelena.jpg"></img>
-        <a href="https://twitter.com/jelenakeravica" class="grid_3" style="margin-right:0px">
-                Jelena Keravica, organizatorka
-          <small>@jelenakeravica</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/mladen.jpg"></img>
-        <a href="https://twitter.com/maidomax" class="grid_3" style="margin-right:0px">
-                Mladen Danić, mentor
-          <small>@Maidomax</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/nebojsa.jpg"></img>
-        <a href="https://twitter.com/nebojsaz" class="grid_3" style="margin-right:20px">
-                Nebojša Zorić, mentor
-          <small>office@kolosek.com</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/dusan.png"></img>
-        <a href="https://github.com/duleorlovic" class="grid_3" style="margin-right:0px">
-                Dušan Orlović, mentor
-          <small>@duleorlovic</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/giusa.png"></img>
-        <a href="https://twitter.com/nikolalsvk" class="grid_3" style="margin-right:0px">
-                Nikola Đuza, mentor
-          <small>@nikolalsvk</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/nemus.png"></img>
-        <a href="https://twitter.com/__nemanjas__" class="grid_3" style="margin-right:20px">
-                Nemanja Stojanović, mentor
-          <small>@__nemanjas__</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/milica.jpg"></img>
-        <a href="https://twitter.com/MilicaNerlovic" class="grid_3" style="margin-right:0px">
-                Milica Nerlović, mentorka
-          <small>@MilicaNerlovic</small>
-        </a>
-
-        <img style="width:60px; height:60px; border:0px" src="./images/novisad/members/aleksa.jpg"></img>
-        <a href="mailto:fistulator@gmail.com" class="grid_3" style="margin-right:0px">
-          Aleksa Zrnić, mentor
-          <small>fistulator@gmail.com</small>
-        </a>
-
-      </div>
-    </div>
-<!--  Update the team list -->
-	</div>
-
-    </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img" src="./images/novisad/members/IV/alex_rgns.jpg"></img>
+            <a href="https://www.facebook.com/aleksandra.vukosic" class="ns-team-link">
+              Aleksandra Vukošić, organizatorka
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/nebojsa.jpg"></img>
+            <a href="https://twitter.com/nebojsaz" class="ns-team-link">
+              Nebojša Zorić, mentor
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/giusa.png"></img>
+            <a href="https://twitter.com/nikolalsvk" class="ns-team-link">
+              Nikola Đuza, mentor
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img" src="./images/novisad/members/V/dusan.jpg"></img>
+            <a href="mailto:dusan.vesic@gmail.com" class="ns-team-link">
+              Dušan Vesić, mentor
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/maja.png"></img>
+            <a href="mailto:marijana@axiomq.com" class="ns-team-link">
+              Marijana Molnar, mentorka
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/III/milana.jpg"></img>
+            <a href="https://twitter.com/mstojadinov" class="ns-team-link">
+              Milana Stojadinov, mentorka
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/nemus.png"></img>
+            <a href="https://twitter.com/__nemanjas__" class="ns-team-link">
+              Nemanja Stojanović, mentor
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/markob.png"></img>
+            <a href="https://twitter.com/bmarkons" class="ns-team-link">
+              Marko Bogdanović, mentor
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/milica.jpg"></img>
+            <a href="https://twitter.com/MilicaNerlovic" class="ns-team-link">
+              Milica Nerlović, mentorka i predavač
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 py-3">
+            <img class="ns-team-img border-0" src="./images/novisad/members/goran.png"></img>
+            <a href="https://rs.linkedin.com/in/goran-blažin-8429482b" class="ns-team-link">
+              Goran Blažin, predavač
+            </a>
+          </div>
+        </div> <!-- team row end -->
+      </div> <!-- col end -->
+    </div> <!-- row end -->
+  </div> <!-- container end -->
 
     <!-- /content -->
 
-    <footer>
-        <p>2010-2017, Rails Girls.</p>
-        <!--<p class="slogan">Get excited and make things!</p>-->
-    </footer>
-      <script type="text/javascript">
+  <footer>
+      <p>2010-2018, Rails Girls.</p>
+      <p class="slogan">Get excited and make things!</p>
+  </footer>
+  <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-      </script>
-    </body>
-    </html>
+  </script>
+</body>
+</html>

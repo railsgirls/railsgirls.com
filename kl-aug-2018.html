@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script>
+
+      // Things to change:
+      // 1. Update variables
+      // 2. Change sponsor images
+      // 3. Update venue iframe (take from google maps)
+      // 4. Update upcoming event listing at /events.html /index.html
+
+      var DATE = "4th August 2018";
+      var ADDRESS = "Taylor's University Lakeside Campus Malaysia";
+      var ADDRESS = "1, Jalan Taylors, 47500 Subang Jaya, Selangor";
+      var EVENT_URL = "https://goo.gl/forms/U4S8Sm8gu9KvFI532";
+      var TWEET_TEXT = "Rails Girls Kuala Lumpur, " + DATE + " - apply now! #railsgirlskl";
+      document.title = "Kuala Lumpur " + DATE;
+    </script>
+
+    <!--  Add your city name, dates and year.  -->
+    <title>Rails Girls Kuala Lumpur</title>
+
+    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+    <meta name="description" content="Rails Girls KL Meetup! We will learn about the web, prototyping, basic programming and get introduced to the world of technology. No experience required – just some curiosity!">
+    <meta name="author" content="Rails Girls">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style>
+      body {
+        text-align: justify;
+      }
+
+      .kl-clearfix{
+        clear: both;
+      }
+
+      .kl-img-a{
+        border: 0;
+        padding-bottom: 12px;
+        display: block;
+      }
+
+      .kl-img-a img{
+        /*width: 100%;*/
+        margin: 0 auto;
+        height: 100px;
+      }
+
+      .kl-sponsor-text{
+        font-size: 20px;
+        color: black;
+        padding-top: 20px;
+        display: block
+      }
+
+      .kl-prev-coaches a {
+        color: gray;
+      }
+
+      .group-picture {
+        background: url(images/kl/rgkl-jan-17.JPG) no-repeat center -350px fixed;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+      }
+
+      .apply-now-z {
+        display: inline-block;
+        width: 200px;
+        padding: 15px 60px;
+        background-color: rgb(211, 54, 11);
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/">
+          <img src="images/railsgirls-logo.png" alt="Rails Girls" />
+        </a>
+        <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a>
+          <a href="http://guides.railsgirls.com">Guides</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- /content -->
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="new kl">
+          <h1>
+            Rails Girls KL
+            <small><script>document.write(DATE)</script></small>
+          </h1>
+          <p>Hello world!</p>
+
+          <p>
+            This free event is for beginner women who want to learn more about coding and building things. We will learn about the web, prototyping, basic programming and get introduced to the world of technology.
+          </p>
+
+          <p>This workshop is intended for people new to programming, or new to Ruby on Rails. No prior experience is required. We have room for 30-40 participants, so get your application in early! Questions? <a href="mailto:hello@railsgirls.my">Email us</a>!</p>
+
+          <p style="text-align: center;">
+            <a id="application_link" class="apply-now-z" target="_blank" href="#">Register Now</a>
+          </p>
+
+          <p>
+            <strong>Applications open 9th July 2018 until 28th July 2018!</strong>
+            <br>
+            Accepted applicants will be informed end of July.
+          </p>
+
+          <!--  Update the sharing texts.-->
+          <div id="share">
+            <div class="twitter-share">
+              <div style="margin:0 15px 0 0;">
+                <a id='twitter' href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+                <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+              </div>
+
+              <div id="fb-root" style=""></div>
+              <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+              <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="grid_12 omega">
+          <p><strong>We are offering two tracks:</strong></p>
+          <p>For beginners: the regular Rails Girls tutorial</p>
+          <p>For not so beginners: Rails Girls Next exercises to deepen your understanding of Ruby, Rails, Sinatra and the web.</p>
+        </div> -->
+
+        <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+        <div class="grid_4 alpha feature">
+          <p> <strong>You learn</strong>
+            designing, prototyping and coding with the help from our coaches.
+          </p>
+        </div>
+        <div class="grid_4 feature">
+          <p> <strong>You need</strong>
+            your own laptop, curiosity and a sprinkle of imagination!
+          </p>
+        </div>
+        <div class="grid_4 omega feature">
+          <p>
+            <strong>Want to help?</strong>
+            We are looking for volunteers and Rails mentors.
+            <a target="_blank" href="https://goo.gl/forms/qss5tqFLwHKzvg3l1">Sign up</a>
+            .
+          </p>
+        </div>
+
+        <hr />
+        <!--  Update the texts! -->
+        <div class="grid_6 alpha">
+          <h2><script>document.write(DATE)</script></h2>
+          <!-- <p> This is the schedule we used for our last event. It’ll be quite similar for the next one, but probably not exactly the same. </p> -->
+          <table id="schedule">
+            <tbody>
+            <tr>
+              <th>08:30 - 9:15</th>
+              <td>
+                <h4>Registration and coffee</h4>
+                Register, find your seat, get your name tag, have some breakfast and meet some people.
+              </td>
+            </tr>
+
+            <tr>
+              <th>9:15 - 9.30</th>
+              <td>
+                <h4>Welcome!</h4>
+                Your organisers will take you through housekeeping and a rough plan for the day.
+              </td>
+            </tr>
+
+            <tr>
+              <th>9:30 - 9:45</th>
+              <td>
+                <h4>Talk #1</h4>
+                "How Internet Works" - short talk</a>
+              </td>
+            </tr>
+
+            <tr>
+              <th>9:45 - 10:30</th>
+              <td>
+                <h4>Ruby</h4>
+                With the help of your mentors, start learning the Ruby programming language with <a href="http://tryruby.org" target="_blank">tryruby.org</a>.
+              </td>
+            </tr>
+
+            <tr>
+              <th>10:30 - 12:45</th>
+              <td>
+                <h4>Getting started with Ruby on Rails</h4>
+                Jumpstart your first web application on Rails.
+              </td>
+            </tr>
+
+            <tr>
+              <th>12:45 - 13:45</th>
+              <td>
+                <h4>Lunch</h4>
+                Food will be provided.
+              </td>
+            </tr>
+
+            <tr>
+              <th>13:45 - 14:00</th>
+              <td>
+                <h4>Lightning talks</h4>
+                Short talks by inspirational people in tech.
+              </td>
+            </tr>
+
+            <tr>
+              <th>14:00 - 16:30</th>
+              <td>
+                <h4>Hands-on, minds-on workshop</h4>
+                Finish your app, get it online, or extend it!
+              </td>
+            </tr>
+
+            <tr>
+              <th>16:15 - 16:30</th>
+              <td>
+                <h4>Coffee break</h4>
+                Light refreshments will be provided.
+              </td>
+            </tr>
+
+            <tr>
+              <th>17:00 - 17:30</th>
+              <td>
+                <h4>Wrap-up</h4>
+                We'll go over everything we did for the day, and hear about your experiences learning about Ruby and Rails.
+              </td>
+            </tr>
+
+          </tbody>
+          </table>
+        </div>
+
+        <!--  These also, just update :) You can also add a note on Code of Conduct. For examples, check out the guides! -->
+        <div class="grid_5 push_1 omega side">
+          <h2>Information</h2>
+          <p>
+            <strong>Applications open:</strong> July 9th<br/>
+            <strong>Applications close:</strong> July 28th<br/>
+            <strong>Acceptances informed:</strong> July 29th<br/>
+            <strong>Location:</strong> <script>document.write(ADDRESS)</script>
+          </p>         
+          <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Taylors%20lakeside%2C%20subang+(Taylor's%20lakeside)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+          <div class="community-partners">
+            <h2>Community Partners</h2>
+
+            <p>Rails Girls KL is supported by our community partners.</p>
+
+            <a class="kl-img-a" style="text-align: center;" href="http://rubyconf.my" target="_blank">
+              <img src="images/kl/rubyconf.png" alt="Ruby Conf MY">
+              <br>
+              <span>RubyConf MY</span>
+            </a>
+
+            <div class="kl-clearfix"></div>
+          </div>
+        </div>
+
+        <!-- Faq -->
+        <div class="faq">
+          <hr/>
+          <h2>FAQ</h2>
+          <p>
+            <strong>How much does the workshop cost?</strong>
+            Nothing, it's free! You just need to be excited!
+          </p>
+          <p>
+            <strong>Who is this aimed for?</strong>
+            Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part. There is no age limit for this event, but children younger than 14 should be accompanied by their parents (gender of the children or parent does not matter!). Please make sure to make a note about it in the application form. The event and talks will be conducted in English. Please bring your laptop.
+          </p>
+          <p>
+            <strong>Can men attend?</strong>
+            Yes of course! Hopefully you'll be accompanied by an interested lady. Also, girls are given a priority.
+          </p>
+          <p>
+            <strong>Can I bring a Mac/Windows/Linux laptop?</strong>
+            Yes, a laptop of any operating system works. You just need to have a modern browser (Chrome, Firefox) installed.
+          </p>
+          <p>
+            <strong>Is there a dresscode?</strong>
+            Nope, just wear whatever that's comfortable for you.
+          </p>
+          <p>
+            <strong>I know how to program - How can I help?</strong>
+            We're also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum.
+            <a target="_blank" href="https://goo.gl/forms/qss5tqFLwHKzvg3l1">Sign up</a>
+            or
+            <a href="mailto:hello@railsgirls.my">email us</a>
+            .
+          </p>
+          <!-- <p>
+            <strong>Do you have a code of conduct?</strong>
+          </p> -->
+        </div>
+
+        <!--  Update the team list  -->
+        <div class="coaches">
+          <hr>
+          <h2>The Rails Girls KL Team 2018</h2>
+          <div class="kl-team">
+            <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+              <img src="./images/ruby-100.png">
+              Michelle Ler
+              <small>organizer</small>
+            </a>
+            <a href="https://facebook.com/railsgirlskl" target="_blank" class="grid_3">
+              <img src="./images/ruby-100.png">
+              Lindy Lim
+              <small>organizer</small>
+            </a>
+
+          </div>
+          <hr>
+        </div>
+
+        <div class="sponsors-partners">
+          <h2> Sponsors &amp; Partners </h2>
+          <a href="http://myfave.com/" target="_blank">
+            <img src="./images/kl/sponsors/here.png" alt="HERE's Technologies Malaysia" style="height:150px; margin: auto; display: block; ">
+          </a>
+          <p>
+            We couldn't be here without the support from amazing people and organizations who donated money, knowledge and time to help us make this a reality. If you want to contribute and support our goal, please get in touch.
+          </p>
+          <p>Sponsorship packages are available. <a href="mailto:hello@railsgirls.my">Contact us</a> for more information.</p>
+
+        </div>
+      </div>
+    </div>
+    <!-- content/ -->
+
+    <footer>
+      <p>
+        2010-2018, Rails Girls.
+        <a href="./press.html">Contact us</a>
+        or follow us on
+        <a href="http://twitter.com/railsgirls">Twitter</a>
+        and
+        <a href="https://www.facebook.com/railsgirls">Facebook</a>
+      </p>
+      <p class="slogan">Get excited and make things!</p>
+    </footer>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19631067-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+      document.getElementById("application_link").href = EVENT_URL;
+      document.getElementById("twitter").setAttribute("data-text", TWEET_TEXT);
+    </script>
+  </body>
+</html>
