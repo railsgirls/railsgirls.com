@@ -921,6 +921,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 420px;
 }
 
+.okinawa#promo {
+    padding-left: 420px;
+    background: url('../images/railsgirls-sq.png') no-repeat left top;
+    url('../images/separator.png') no-repeat center bottom;
+    background-size: 390px;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
