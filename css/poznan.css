@@ -39,6 +39,10 @@ nav {
 		height: 100px;
 	}
 
+	iframe {
+		width: 100%!important;
+	}
+
 	.flickr {
 		display: none;
 	}
