@@ -39,12 +39,16 @@ nav {
 		height: 100px;
 	}
 
-	iframe {
-		width: 100%!important;
+	.container_12 .grid_5 {
+		width: 100%;
 	}
 
 	.flickr {
 		display: none;
+	}
+
+	.map iframe {
+		max-width: 100%;
 	}
 
 	.container_12 .push_1 {
