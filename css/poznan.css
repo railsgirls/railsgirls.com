@@ -1,0 +1,88 @@
+body {
+	min-width: 0;
+	width: 100%;
+}
+
+.container_12 .grid_12, .container_16 .grid_16 {
+	max-width: 940px;
+	width: 100%
+}
+
+nav {
+	margin: 0;
+	width: 100%;
+}
+
+.content {
+	float: left;
+	width: calc(50% - 30px);
+}
+
+#promo.new h1 {
+	height: auto;
+	margin-top: 20px;
+}
+
+.hero {
+	float: left; 
+	width: 50%; 
+	margin-right: 20px;
+}
+
+.container_12 .grid_6, .container_16 .grid_8 {
+	width: 100%;
+	max-width: 460px;
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		height: 100px;
+	}
+
+	.container_12 .push_1 {
+		left: 0;
+		margin-left: 0;
+	}
+
+
+	.container_12 .push_1 a {
+		width: 100%!important;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		padding-top: 20px;
+		float: left;
+		margin-left: 0;
+	}
+
+	nav a:after {
+		margin-right: 15px;
+	}
+
+	#container {
+		padding: 20px;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.hero {
+		display: block;
+		margin: auto;
+		float: none;
+	}
+
+	#promo.new h1 {
+		font-size: 36px;
+		text-align: center;
+	}
+
+	#promo.new h1 small {
+		margin-top: 10px;
+	}
+}
