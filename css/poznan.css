@@ -39,6 +39,10 @@ nav {
 		height: 100px;
 	}
 
+	.flickr {
+		display: none;
+	}
+
 	.container_12 .push_1 {
 		left: 0;
 		margin-left: 0;
