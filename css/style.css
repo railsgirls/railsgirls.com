@@ -824,6 +824,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.matsue#promo {
+  padding-left:460px;
+  background:url('../images/rg-matsue.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .nagoya#promo {
   padding-left:460px;
   background:url('../images/rg-nagoya.png') no-repeat 0 10px,
