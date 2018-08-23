@@ -4418,3 +4418,13 @@ h1.bern {
   margin-top: 10px;
 }
 
+.sendai#promo {
+    padding-left: 420px;
+    background: url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+url('../images/separator.png') no-repeat center bottom;
+    background-size: 390px;
+}
+
+.sendai#promo h1 {
+    background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+}
