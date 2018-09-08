@@ -4428,3 +4428,43 @@ url('../images/separator.png') no-repeat center bottom;
 .sendai#promo h1 {
     background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
 }
+
+// http://csswizardry.com/2013/05/the-flag-object/
+
+.flag {
+  display: table;
+  table-layout: fixed;
+  width: auto;
+}
+
+.flag-image,
+.flag-body {
+  display: table-cell;
+  vertical-align: middle;
+
+  .flag--top & {
+    vertical-align: top;
+  }
+
+  .flag--bottom & {
+    vertical-align: bottom;
+  }
+}
+
+.flag-body {
+  width: 100%;
+}
+
+.flag-image {
+  padding-right: $small-spacing;
+
+  img {
+    display: block;
+    max-width: none;
+  }
+
+  .flag--rev & {
+    padding-left: $small-spacing;
+    padding-right: 0;
+  }
+}
