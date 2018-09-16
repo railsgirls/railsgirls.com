@@ -3158,6 +3158,10 @@ small.popayan-role{ font-size: 80%; }
     background:url('../images/kraljevo/heroina_2.png') no-repeat 0 90px,
         url('../images/separator.png') no-repeat center bottom;
 }
+.prijava2 {
+  padding-left:350px;
+   background:url('../images/kraljevo/rg_solja.jpg') no-repeat 0 0px
+}
 
 .barcelona#promo {
   padding-left:340px;
