@@ -1,0 +1,198 @@
+/* Initial porto alegre*/
+#portoalegre .poa_header_2018 {
+  background: url('../2018/imagens-geral/rails_girls_poa_2018.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 80vh;
+  width: 100%;
+  background-position: center -107px;
+}
+#portoalegre .poa_header_2017 {
+  background:url('../2017/imagens-geral/rails_girls_poa_2017.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 115vh;
+  width: 100%;
+}
+
+#portoalegre .poa_header_2016 {
+  background:  url('../rails_girls_poa_2016.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 115vh;
+  width: 100%;
+}
+
+#portoalegre .poa_header_2015 {
+  background:  url('../rails_girls_poa_2015.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 90vh;
+  width: 100%;
+}
+
+#portoalegre .poa_codego_conduta {
+  background:url('../banner-conduct-code.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 40vh;
+  width: 100%;
+  background-position: center -107px;
+}
+#portoalegre .poa_header h1 {
+  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0.25em;
+}
+
+#portoalegre .poa_header h1 small {
+  display: block;
+  font-size: 24px;
+}
+
+#portoalegre .poa_header p {
+  color: #fff;
+  max-width: 30em;
+  margin: 50px auto 1em;
+  font-size: 22px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+#portoalegre .poa_header .button {
+  background-color: rgba(211, 54, 11, 0.9);
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+#portoalegre .poa_header .button:hover { background-color: rgb(211, 54, 11); }
+#portoalegre #poa-map { border: none; }
+#portoalegre #poa-map img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+#portoalegre nav {
+  margin: 0 0 0 240px;
+  text-align: right;
+}
+
+#portoalegre .edicoes-anteriores h2{
+  color:#e0330c;
+}
+
+#portoalegre .edicoes-anteriores  nav {
+  margin:0 0 0 0;
+  padding-top:5px;
+  width: 100%;
+  text-align: left;
+}
+
+#portoalegre .edicoes-anteriores nav a {
+  color:#000;
+  text-decoration:none;
+  font-weight:300;
+  font-size:16px;
+  letter-spacing:1px;
+  margin-left:15px;
+  border:none;
+}
+
+#portoalegre .edicoes-anteriores nav a:after {
+  margin-left: 15px;
+  content: " ";
+  width:10px;
+  height:10px;
+  display:inline-block;
+  background: url(../star.png) no-repeat;
+  background-size:10px;
+}
+
+#portoalegre .edicoes-anteriores nav a:last-child:after {
+  background:none;
+}
+
+#portoalegre .edicoes-anteriores nav a:hover{
+  text-decoration:underline;
+}
+
+#portoalegre .helsinki_header_content {
+  background-color: rgba(0, 0, 0, 0.38);
+  top: 0;
+}
+
+#portoalegre .twitter-share-button {
+  margin-bottom: 3px;
+}
+
+#portoalegre .grid_12 .time {
+  float: left;
+  margin-right: 40px;
+  text-align: left;
+}
+
+#portoalegre .grid_12 .time:after {
+  content: " - ";
+}
+
+#portoalegre .grid_12 .grid_5 p {
+  margin-left: 85px;
+}
+
+#portoalegre .partners {
+  margin-bottom: 15px;
+  vertical-align: middle;
+  text-align: center
+}
+
+#portoalegre .partners a {
+  border-bottom: none;
+}
+
+#portoalegre .partners .grid_4:not(.alpha) {
+  margin-top: 20px;
+}
+
+#portoalegre .coaches .omega{
+  margin-right: 0;
+}
+
+#portoalegre #portoalegre .coaches .grid_3:nth-child(4n+4) {
+  margin-right: 20px;
+}
+
+#portoalegre .coach {
+  border-radius: 50px;
+}
+#portoalegre .coach_mel {
+  height: 48px;
+}
+
+#portoalegre .partners .first {
+  margin: 15px 0 0 0;
+}
+
+#portoalegre .fb_like {
+  display: block;
+}
+
+#portoalegre #social .fb_iframe_widget {
+  display: block;
+}
+
+#portoalegre .insciption-button a {
+    font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #d3360b;
+    color: white;
+    letter-spacing: 2px;
+    padding: 20px 70px 18px 70px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
