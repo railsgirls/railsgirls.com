@@ -22,6 +22,40 @@
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <style type="text/css">
+    .schedule-tables th{
+      width: 28%;
+      text-align: right;
+      padding-right: 4%;
+    }
+    em {
+      font-style: normal;
+      font-weight: bold;
+    }
+    .transparent{
+      display: none;
+    }
+    .hidden {
+      display: none !important;
+      visibility: hidden !important;
+    }
+    .rsvp small{
+      font-size: 0.75em;
+      font-weight: 200;
+    }
+    .previous-team{
+      cursor: pointer;
+    }
+    .previous-team small{
+      font-size: 0.5em;
+      font-style: italic;
+      display: none;
+      opacity: 0.5;
+    }
+    .previous-team:hover small{
+      display: inline-block;
+    }
+  </style>
 
 	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
       <!--[if lt IE 9]>
@@ -116,27 +150,27 @@ Steps to show on site
         <table id="schedule">
           <tbody>
           <tr>
-            <th>5:30pm - 6:00pm</th>
+            <th>17:30 - 18:00</th>
             <td>
               <h4>Bienvenida e introducción de coaches</h4>
             </td>
           </tr>
 
           <tr>
-            <th>6:00pm - 7:00pm</th>
+            <th>18:00 - 19:00</th>
             <td>
               <h4>Dinámicas de icebreaker</h4>
                   </td>
                 </tr>
 
           <tr>
-            <th>7:00pm - 8:00</th>
+            <th>19:00 - 20:00</th>
             <td>
                <h4>Introducción a Ruby</h4>
             </td>
           </tr>
              <tr>
-                <th>8:00 - 8:30</th>
+                <th>20:00 - 20:30</th>
                 <td>
                   <h4>Lightning talks</h4>
                 </td>
@@ -186,44 +220,44 @@ Steps to show on site
           </tr>
 
           <tr>
-            <th>12:30 - 1:30pm</th>
+            <th>12:30 - 13:30</th>
             <td><h4>Almuerzo</h4></td>
           </tr>
 
           <tr>
-            <th>1:30pm - 1:45pm</th>
+            <th>13:30 - 13:45</th>
             <td>
               <h4>Lightning talk</h4>
             </td>
           </tr>
 
           <tr>
-            <th>1:45pm - 3:45pm</th>
+            <th>13:45 - 15:45</th>
             <td>
               <h4>Taller: Parte II</h4>
             </td>
           </tr>
 
           <tr>
-            <th>3:45pm - 4:00pm</th>
+            <th>15:45 - 16:00</th>
             <td>
               <h4>Break</h4>
             </td>
           </tr>
           <tr>
-            <th>4:00pm - 4:30pm</th>
+            <th>16:00 - 16:30</th>
             <td>
               <h4>Demo</h4>
             </td>
           </tr>
           <tr>
-            <th>4:30pm - 4:45pm</th>
+            <th>16:30 - 16:45</th>
             <td>
               <h4>Lightning talk</h4>
             </td>
           </tr>
           <tr>
-            <th>4:45pm - 5:00pm</th>
+            <th>16:45 - 17:00</th>
             <td>
               <h4>Retrospectiva y agradecimientos</h4>
             </td>
@@ -254,18 +288,22 @@ Steps to show on site
 
        <h3>Patrocinadores</h3>
 
-       <p>Esta edición de Rails Girls Lima es posible gracias a:</p><p>
-         <p>¿Quieres ayudarnos? ¡Estamos buscando aliados por aliados y patrocinadores para nuestro evento! ¡<a href="https://trello.com/c/tO7XFQLU/36-c%C3%B3mo-puedes-colaborar>">Contáctanos</a>! </p>
-         <p>
-           <a href="http://able.co" style="float:right; margin:0 0 0; border:0;"><img src="http://www.witperu.org/wp-content/uploads/2015/10/able_logo_square.png" alt="Able"></a>
-</p>
-<p>
-  <a href="http://ruby.pe" target="_blank" style="float:right; margin:0 0 0; border:0;">
-    <img src="http://ruby.pe/img/rubyperu_logo.png" alt="Ruby Perú" style="width:150px; margin: 0 0;">
-  </a>
-</p>
 
+       <p>Esta edición de Rails Girls Lima es posible gracias a:</p>
+
+         <p>¿Quieres ayudarnos? ¡Estamos buscando aliados por aliados y patrocinadores para nuestro evento! ¡<a href="https://trello.com/c/tO7XFQLU/36-c%C3%B3mo-puedes-colaborar>">Contáctanos</a>! </p>
+         <div style="text-align: center">
+         <p>
+           <a href="http://able.co" style="margin:0 10px; border:0; "><img src="https://cl.ly/06314c45b33d/Image%2525202018-10-03%252520at%2525201.48.10%252520PM.png" alt="Able"></a>
+        </p>
+        <p>
+          <a href="http://ruby.pe" target="_blank" style="margin:0 10px; border:0; ">
+            <img src="http://ruby.pe/img/rubyperu_logo.png" alt="Ruby Perú" style="width:150px; margin: 0 0;">
+          </a>
+        </p>
+      </div>
      <hr/>
+     <div>
      <h3>FAQ</h3>
       <p><strong>¿Cuánto cuesta el evento?</strong>
           Nada, ¡es gratuito! Solo debes traer tu pasión y postular al evento.
@@ -282,7 +320,7 @@ Steps to show on site
          <strong>Sé como programar, ¿cómo puedo ayudar?</strong>
          Estamos buscando personas que le interese ser coaches. <a href="mailto:me@karendacruz.com>">Envíannos un email</a>
        </p>
-
+     </div>
 
       </div>
 
