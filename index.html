@@ -34,9 +34,10 @@
 
     <script language="JavaScript" type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="./events/eventCalendar.js"></script>
     <!--[if lt IE 9]>
-  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
   </head>
 
@@ -110,9 +111,11 @@
           <h2>
             <a href="./events.html">Upcoming Events</a>
           </h2>
-          <!-- NOTE: Please add your event in order BY DATE -->
+          <div id="event-calendar">
 
-          <a href="./la.html" class="upcoming">
+          </div>
+          <!-- NOTE: Please add your event in order BY DATE -->
+          <!-- <a href="./rotterdam.html" class="upcoming">
             <img src="images/railsgirls-sq.png" width="50">
             <h3>
               Los Angeles, CA USA<br />
@@ -222,7 +225,7 @@
               Rotterdam, The Netherlands<br />
               <span>June 20, 2019</span>
             </h3>
-          </a>
+          </a> -->
 
         </div>
       </div>
