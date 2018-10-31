@@ -15,7 +15,7 @@ The site will be automatically published every 5 minutes (see when the site was 
 
 ## Updating the Event
 You need to update two places.
- 1. Add your city to **index.html**
+ 1. Add your city to **railsgirls.com/events/events.json** and add your event in chronological order with the newest at the top of the file. Please enter all the fields and keep the same logic.
  2. Add your city to **railsgirls.com/events.html**
 
 ## How to Change the Picture & Header for the Site
@@ -38,10 +38,10 @@ It will take a while before the changes show, so don't panic!
 - Did you remember to change Twitter & Facebook details?
 - Did you include a [Code of Conduct](http://guides.railsgirls.com/guide/)?
 - Did you remember to add an e-mail where people can contact you?
-- Did you remember to add your event to index.html and events.html?
-- Did you remember to remove your event after it finished?
+- Did you remember to add your event to events.json and events.html?
 - Did you add your city to [the Map](http://rails-girls-map.herokuapp.com/#)?
 
+✨ Your event will automatically no longer show in the homepage once the date has gone by. ✨
 
 ## Tools
 

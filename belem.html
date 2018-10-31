@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Rails Girls Belém 2018</title>
     <meta name="description" content="Rails Girls acontecerá em Belém nos dias 17 e 18 Novembro de 2018. Venha para se divertir e aprender Ruby on Rails conosco!">
@@ -8,7 +9,7 @@
 
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -16,457 +17,486 @@
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
     <style type="text/css">
-      .bh-header {
-        background: #d3360b url(images/workshop.jpg) no-repeat;
-        background-size: cover;
-        display: table;
-        height: 90vh;
-        height: 1vm;
-        width: 100%;
-      }
-
-	   .bh-header .button {
-	    background-color: rgba(211, 54, 11, 0.9);
-	    border: 1px solid white;
-	    padding: 10px 30px;
-	    font-size: 22px;
-	    color: #fff;
-	    margin: 0 0.5em;
-	    border-radius: 100px
-	}
-
-
-      table.table {
-        width: 100%;
-      }
-      table.table td {
-        padding: 10px;
-      }
-      table.table td.tableEvent {
-        border-bottom: 1px solid #ccc;
-      }
-      table.table td.tableTime {
-        background-color: #8a1d04;
-        color: white;
-        font-weight: bold;
-        border-bottom: 1px solid white;
-        text-align: center;
-      }
-      table.table td.tableBreak {
-        background-color: #fafafa;
-      }
-      table.table td.tableKeynote {
-        background-color: #e0330c;
-        color: white;
-        font-weight: bold;
-        border-bottom: 1px solid white;
-      }
-      nav {
-        margin: 0 0 0 240px;
-        text-align: right;
-      }
-      hr {
-        margin: 30px 0;
-      }
-      .imageLink {
-        border: none;
-      }
-      .imageLink:hover {
-        opacity: .7;
-      }
-      .helsinki_header_content {
-        background-color: rgba(0, 0, 0, 0.38);
-        top: 0;
-      }
-      .coaches .omega{
-        margin-right: 0;
-      }
-      .coaches .grid_3:nth-child(4n+4) {
-        margin-right: 20px;
-      }
-      .coach {
-        border-radius: 50px;
-        max-height: 52px;
-      }
-      .coach + span {
-        padding-top: 12px;
-        display: block;
-      }
-      .support {
-        list-style: none;
-        display: block;
-      }
-      .support li {
-        display: inline-block;
-        text-align: center;
-        width: 31%;
-        margin: 40px auto;
-      }
-      .support li.col4 {
-        width: 31%;
-      }
-      .support li.col6 {
-        width: 40%;
-      }s
-      .support .imageLink {
-        display: inline-block;
-      }
-	  
-	  .portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    max-width: 70%;
-    margin: 0 auto;
-}
-
-.img-mentors {
-    border-radius: 50%;
-}
-
-.img-portfolio:hover {
-    opacity: .8;
-}
-
-.coaches img {
-    float: left;
-    width: 100px;
-    /*border: 3px solid brown;*/
-    width: 48px;
-    border:1px solid #ddd;
-    margin-right: 15px;
-    //*border-radius: 50%;
-    margin-bottom: 5px;
-    max-width: 80%;
-    /* margin: -14px auto; */
-}
-/*.coach {
+    .bh-header {
+            background: #d3360b url(images/workshop.jpg) no-repeat;
+            background-size: cover;
+            display: table;
+            height: 90vh;
+            height: 1vm;
+            width: 100%;
+        }
+        
+        .bh-header .button {
+            background-color: rgba(211, 54, 11, 0.9);
+            border: 1px solid white;
+            padding: 10px 30px;
+            font-size: 22px;
+            color: #fff;
+            margin: 0 0.5em;
+            border-radius: 100px
+        }
+        
+        table.table {
+            width: 100%;
+        }
+        
+        table.table td {
+            padding: 10px;
+        }
+        
+        table.table td.tableEvent {
+            border-bottom: 1px solid #ccc;
+        }
+        
+        table.table td.tableTime {
+            background-color: #8a1d04;
+            color: white;
+            font-weight: bold;
+            border-bottom: 1px solid white;
+            text-align: center;
+        }
+        
+        table.table td.tableBreak {
+            background-color: #fafafa;
+        }
+        
+        table.table td.tableKeynote {
+            background-color: #e0330c;
+            color: white;
+            font-weight: bold;
+            border-bottom: 1px solid white;
+        }
+        
+        nav {
+            margin: 0 0 0 240px;
+            text-align: right;
+        }
+        
+        hr {
+            margin: 30px 0;
+        }
+        
+        .imageLink {
+            border: none;
+        }
+        
+        .imageLink:hover {
+            opacity: .7;
+        }
+        
+        .helsinki_header_content {
+            background-color: rgba(0, 0, 0, 0.38);
+            top: 0;
+        }
+        
+        .coaches .omega {
+            margin-right: 0;
+        }
+        
+        .coaches .grid_3:nth-child(4n+4) {
+            margin-right: 20px;
+        }
+        
+        .coach {
+            border-radius: 50px;
+            max-height: 52px;
+        }
+        
+        .coach+span {
+            padding-top: 12px;
+            display: block;
+        }
+        
+        .support {
+            list-style: none;
+            display: block;
+        }
+        
+        .support li {
+            display: inline-block;
+            text-align: center;
+            width: 31%;
+            margin: 40px auto;
+        }
+        
+        .support li.col4 {
+            width: 31%;
+        }
+        
+        .support li.col6 {
+            width: 40%;
+        }
+        
+        s .support .imageLink {
+            display: inline-block;
+        }
+        
+        .portfolio {
+            padding: 50px 0;
+        }
+        
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+        
+        .img-portfolio {
+            max-width: 70%;
+            margin: 0 auto;
+        }
+        
+        .img-mentors {
+            border-radius: 50%;
+        }
+        
+        .img-portfolio:hover {
+            opacity: .8;
+        }
+        
+        .coaches img {
+            float: left;
+            width: 100px;
+            /*border: 3px solid brown;*/
+            width: 48px;
+            border: 1px solid #ddd;
+            margin-right: 15px;
+            //*border-radius: 50%;
+            margin-bottom: 5px;
+            max-width: 80%;
+            /* margin: -14px auto; */
+        }
+        /*.coach {
   /*  border-radius: 70px;*/
-  /*border-radius: 50px;
+        /*border-radius: 50px;
     max-height: 52px;*/
-}
-
-.coaches a{
-
-	line-height: 1.5;
-}
-
-.page {
-    /*padding: 20px 0;*/
-}
-
-
+    }
+    .coaches a {
+        line-height: 1.5;
+    }
+    .page {
+        /*padding: 20px 0;*/
+    }
     </style>
-    <meta property="og:image" content="images/favicon.png"/>
+    <meta property="og:image" content="images/favicon.png" />
 
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class="container_12">
-        <a id="logo" href="wwww.railsgirls.com"><img src="images/railsgirls-logo.png" alt="Rails Girls"/></a>
-        <nav>
+        <div class="container_12">
+            <a id="logo" href="wwww.railsgirls.com"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
                 <a href="http://railsgirls.com/events.html">Eventos</a>
                 <a href="http://railsgirls.com/materials.html">Materiais</a>
                 <a href="http://railsgirls.com/press.html">Press</a>
-                <a href="http://blog.railsgirls.com">Blog</a> 
-                <a href="http://guides.railsgirls.com/guides-ptbr/">Guias</a> 
-       
-          <a href="http://www.pyladies.com/CodeOfConduct/" target="_blank">Código de Conduta</a>
-        </nav>
-      </div>
+                <a href="http://blog.railsgirls.com">Blog</a>
+                <a href="http://guides.railsgirls.com/guides-ptbr/">Guias</a>
+
+                <a href="http://www.pyladies.com/CodeOfConduct/" target="_blank">Código de Conduta</a>
+            </nav>
+        </div>
     </header>
 
     <div class="bh-header">
-      <div class="helsinki_header_content">
-        <h1>
-          Rails Girls Belém
-          <small> 17 e 18 de Novembro de 2018 </small>
-        </h1>
-        <p>
-        Inscrições Abertas ! :)
-        <br>
-        <i>(16/09  a  27/10)</i>
-        </p>
-        <p>
-         <a href="https://goo.gl/forms/TVE71gBFAPq1wNeD2" class="button" title="Inscrições Rails Girls Belém 2018"><i>Inscreva-se !</i></a>
-        </p>
-      </div>
+        <div class="helsinki_header_content">
+            <h1>
+                Rails Girls Belém
+                <small> 17 e 18 de Novembro de 2018 </small>
+            </h1>
+            <p>
+                Inscrições Abertas ! :)
+                <br>
+                <i>(16/09  a  27/10)</i>
+            </p>
+            <p>
+                <a href="https://goo.gl/forms/TVE71gBFAPq1wNeD2" class="button" title="Inscrições Rails Girls Belém 2018"><i>Inscreva-se !</i></a>
+            </p>
+        </div>
     </div>
 
     <div id="container" class="container_12 page clearfix">
-      <h3>Está chegando a segunda edição do Rails Girls Belém !</h3>
-      <p>Sabia que você é capaz de criar um software, uma aplica&ccedil;&atilde;o ou um programa de computador como, por exemplo, o Facebook? N&atilde;o faz ideia de como? N&oacute;s iremos te apresentar a este mundo m&aacute;gico da programa&ccedil;&atilde;o, onde voc&ecirc; escreve um texto e seu computador entende e faz tudo o que voc&ecirc; quiser e puder imaginar! :)</p>
-      <p>O Rails Girls é gratuito e para todas que se identifiquem como mulheres, de qualquer idade, que tenham um conhecimento b&aacute;sico em lidar com computadores.</p>
-     
-    <hr/>
-      
-      <div id="container" class="container_12 page clearfix">
-      <h3>FAQ</h3>
-        
-      <p><strong>O que é Rails Girls?</strong> Rails Girls é um evento de dois dias sem fins lucrativos que acontece no mundo inteiro, o Rails Girls é destinado à mulheres de todas as idades que tem como objetivo oferecer uma grande primeira experiência em desenvolvimento de software.</p>
-     
-      
-      <p><strong>O evento será em inglês?</strong> Não! O evento será em português.</p>
-     
-      
-      <p><strong>Quanto custa o evento?</strong> Nada, é de graça! Você só precisa ser curiosa!</p>
-     
-      
-     <p><strong>Qual &eacute; o publico alvo?</strong> Mulheres de qualquer idade que tenham um conhecimento b&aacute;sico em lidar com computadores. J&aacute; tivemos participantes de todas as idades. <strong>Por favor, se possível traga seu notebook. Se não tiver, não se preocupe!</strong></p>
-     
-     
-     <p><strong>Homens podem participar?</strong> A prioridade será dada às mulheres. Caso sobrem vagas abriremos para os homens também.</p>
-        
-      
-    <hr/>
- 
-  <div class="grid_4">
-        <h3>Onde será?</h3>
-        <p>
-		<span><b>COWORKING ELEPHANT</b></span>
+        <h3>Está chegando a segunda edição do Rails Girls Belém !</h3>
+        <p>Sabia que você é capaz de criar um software, uma aplica&ccedil;&atilde;o ou um programa de computador como, por exemplo, o Facebook? N&atilde;o faz ideia de como? N&oacute;s iremos te apresentar a este mundo m&aacute;gico da programa&ccedil;&atilde;o,
+            onde voc&ecirc; escreve um texto e seu computador entende e faz tudo o que voc&ecirc; quiser e puder imaginar! :)</p>
+        <p>O Rails Girls é gratuito e para todas que se identifiquem como mulheres, de qualquer idade, que tenham um conhecimento b&aacute;sico em lidar com computadores.</p>
 
-		<a href="https://elephantcoworking.com.br/" alt="Coworking Elephant" class="imageLink" target="_blank">
-	                <img height="90px" src="images/logo-elephant.png" title="Coworking Elephant">
-	              </a>
-		<br>
-			Endereço: Av. Gov. José Malcher, 153
-			66040-281 - Nazaré, Belém/PA
-			
-        </p>
-      </div>
-      <div class="grid_8">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5380920188995!2d-48.49490191311027!3d-1.4514978583433422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48fa2a50d6d73%3A0x12989b7f97d184bc!2sElephant+Coworking!5e0!3m2!1spt-BR!2sbr!4v1536090093544" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <br>
-      </div>
-
-   <hr>
-
-      <div class="grid_12">
-        <div class="grid_6 alpha">
-          <h2>Sabádo, 17 de Novembro</h2>
-          <table class="table">
-            <tbody>
-              <tr>
-                <td class="tableTime">9:30</td>
-                <td class="tableEvent tableBreak">Credenciamento & Abertura</td>
-              </tr>
-              <tr>
-                <td class="tableTime">10:35</td>
-                <td class="tableEvent tableKeynote">Palestra com Alessandra Gomes & Naiara Silva</td>
-              </tr>
-              <tr>
-                <td class="tableTime">10:55</td>
-                <td class="tableEvent tableKeynote">Instalação das máquinas</td>
-              </tr>
-              <tr>
-                <td class="tableTime">12:30</td>
-                <td class="tableEvent ">Encerramento</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="grid_6 omega">
-          <h2>Domingo, 18 de Novembro</h2>
-          <table class="table">
-            <tbody>
-              <tr>
-                <td class="tableTime">9:00</td>
-                <td class="tableEvent tableBreak">Credenciamento & Abertura</td>
-              </tr>
-              <tr>
-                <td class="tableTime">9:40</td>
-                <td class="tableEvent tableKeynote">Introdução ao Ruby com Luiz Sanches</td>
-              </tr>
-              <tr>
-                <td class="tableTime">10:00</td>
-                <td class="tableEvent tableKeynote">Workshop / Palestra com Lídia Rocha </td>
-              </tr>
-              <tr>
-                <td class="tableTime">10:40</td>
-                <td class="tableEvent tableBreak">Coffee Break</td>
-              </tr>
-              <tr>
-                <td class="tableTime">11:15</td>
-                <td class="tableEvent tableKeynote">Workshop / </td>
-              </tr>
-              <tr>
-                <td class="tableTime">12:30</td>
-                <td class="tableEvent tableBreak">Pausa para Almoço</td>
-              </tr>
-              <tr>
-                <td class="tableTime">14:10</td>
-                <td class="tableEvent tableKeynote">Workshop</td>
-              </tr>
-              <tr>
-                <td class="tableTime">17:30</td>
-                <td class="tableEvent">Encerramento & Sorteio de brindes</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="grid_12">
         <hr/>
-        <h3>Organização</h3>
-        <br>
-        <div class="coaches">
-            <a href="https://www.linkedin.com/in/nathalialobato/" class="grid_3 omega" target="_blank">
-            <img class="coach" src="images/nathalia.jpg"><span>Nathalia Lobato</span>
-            </a>
-            <a href="https://www.linkedin.com/in/jessica-paz/"" class="grid_3 omega" target="_blank">
-            <img class="coach" src="images/29541972_1630723377048368_6462700726100102402_n.jpg"><span>Jessica Paz</span>
-            </a>
+
+        <div id="container" class="container_12 page clearfix">
+            <h3>FAQ</h3>
+
+            <p><strong>O que é Rails Girls?</strong> Rails Girls é um evento de dois dias sem fins lucrativos que acontece no mundo inteiro, o Rails Girls é destinado à mulheres de todas as idades que tem como objetivo oferecer uma grande primeira experiência
+                em desenvolvimento de software.</p>
+
+
+            <p><strong>O evento será em inglês?</strong> Não! O evento será em português.</p>
+
+
+            <p><strong>Quanto custa o evento?</strong> Nada, é de graça! Você só precisa ser curiosa!</p>
+
+
+            <p><strong>Qual &eacute; o publico alvo?</strong> Mulheres de qualquer idade que tenham um conhecimento b&aacute;sico em lidar com computadores. J&aacute; tivemos participantes de todas as idades. <strong>Por favor, se possível traga seu notebook. Se não tiver, não se preocupe!</strong></p>
+
+
+            <p><strong>Homens podem participar?</strong> A prioridade será dada às mulheres. Caso sobrem vagas abriremos para os homens também.</p>
+
+
+            <hr/>
+
+            <div class="grid_4">
+                <h3>Onde será?</h3>
+                <p>
+                    <span><b>COWORKING ELEPHANT</b></span>
+
+                    <a href="https://elephantcoworking.com.br/" alt="Coworking Elephant" class="imageLink" target="_blank">
+                        <img height="90px" src="images/logo-elephant.png" title="Coworking Elephant">
+                    </a>
+                    <br> Endereço: Av. Gov. José Malcher, 153 66040-281 - Nazaré, Belém/PA
+
+                </p>
             </div>
- </div>
-		 
-	<br>
+            <div class="grid_8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5380920188995!2d-48.49490191311027!3d-1.4514978583433422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48fa2a50d6d73%3A0x12989b7f97d184bc!2sElephant+Coworking!5e0!3m2!1spt-BR!2sbr!4v1536090093544"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br>
+            </div>
 
-       <div class="grid_12">
+            <hr>
 
-      <h3>Mentores</h3>
-      <br>
-      <div class="coaches">
-        <a href="https://www.linkedin.com/in/lsanches/" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/0.jpeg" alt="Luiz Sanches">
-          <span>Luiz Sanches</span>
-        </a>
-        <a href="https://www.linkedin.com/in/verena-ribeiro-44921791/" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/verena.jpg" alt="Verena Ribeiro">
-          <span>Verena Ribeiro</span>
-        </a>
-        <a href="https://www.linkedin.com/in/denise-costa-a3688831/" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/denise.jpg" alt="Denise Costa">
-          <span>Denise Costa</span>
-        </a>
-        <a href="https://www.linkedin.com/in/andreza-lima-105a5ba4/" class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/andressa.jpg" alt="Andreza Lima">
-          <span>Andreza Lima</span>
-        </a>
+            <div class="grid_12">
+                <div class="grid_6 alpha">
+                    <h2>Sabádo, 17 de Novembro</h2>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="tableTime">9:30</td>
+                                <td class="tableEvent tableBreak">Credenciamento & Abertura</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">10:40</td>
+                                <td class="tableEvent tableKeynote">Palestra com Alessandra Gomes & Naiara Silva</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">11:15</td>
+                                <td class="tableEvent tableKeynote">Instalação das máquinas</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">12:30</td>
+                                <td class="tableEvent ">Encerramento</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-        <a href="https://www.linkedin.com/in/jacleciane-moraes-367b18110/" class="grid_3 omega" target="_blank">
-         <img class="coach" src="./images/jacleciane.jpg" alt="Jacleciane Moraes">
-          <span>Jacleciane Moraes</span>
-        </a>
-        <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/larissa.jpg" alt="Larissa Neves">
-          <span>Larissa Neves</span>
-        </a>
-        <!--a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/florianopolis/team/danielle_moreira.jpeg" alt="Danielle Moreira">
-          <span>Danielle Moreira</span>
-													   
-          <img class="coach" src="./images/lorena.jpg" alt="Lorena Araújo">
-          <span>Lorena Araújo</span>
-        </a>
-        <!--a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/analuiza.jpg" alt="Ana Luiza Botelho">
-          <span>Ana Luiza Botelho</span>
-        </a-->
-        <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/lidia.jpg" alt="Lídia Rocha">
-          <span>Lídia Rocha</span>
-        </a>
-        <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/29541972_1630723377048368_6462700726100102402_n.jpg" alt="Jessica Paz">
-          <span>Jessica Paz</span>
-        </a>
-        <a class="grid_3 omega" target="_blank">
-          <img class="coach" src="./images/alessandra.jpg" alt="Alessandra Gomes">
-          <span>Alessandra Gomes</span>
-        </a>
-      </div>
-    </div>
+                <div class="grid_6 omega">
+                    <h2>Domingo, 18 de Novembro</h2>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="tableTime">9:30</td>
+                                <td class="tableEvent tableBreak">Credenciamento & Abertura</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">10:40</td>
+                                <td class="tableEvent tableKeynote">Introdução ao Ruby on Rails com Luiz Sanches</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">11:00</td>
+                                <td class="tableEvent tableKeynote">Palestra com Lídia Rocha</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">11:15</td>
+                                <td class="tableEvent tableBreak">Coffee Break</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">11:30</td>
+                                <td class="tableEvent tableKeynote">Workshop </td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">12:30</td>
+                                <td class="tableEvent tableBreak">Pausa para Almoço</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">14:00</td>
+                                <td class="tableEvent tableKeynote">Workshop</td>
+                            </tr>
+                            <tr>
+                                <td class="tableTime">18:00</td>
+                                <td class="tableEvent">Encerramento & Sorteio de brindes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="grid_12">
+                <hr/>
+                <h3>Organização</h3>
+                <br>
+                <div class="coaches">
+                    <a href="https://www.linkedin.com/in/nathalialobato/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="images/nathalia.jpg"><span>Nathalia Lobato</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jessica-paz/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="images/29541972_1630723377048368_6462700726100102402_n.jpg"><span>Jessica Paz</span>
+                    </a>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="grid_12">
+
+                <h3>Mentores</h3>
+                <br>
+                <div class="coaches">
+                    <a href="https://www.linkedin.com/in/lsanches/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/0.jpeg" alt="Luiz Sanches">
+                        <span>Luiz Sanches</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/verena-ribeiro-44921791/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/verena.jpg" alt="Verena Ribeiro">
+                        <span>Verena Ribeiro</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/denise-costa-a3688831/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/denise.jpg" alt="Denise Costa">
+                        <span>Denise Costa</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/andreza-lima-105a5ba4/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/andressa.jpg" alt="Andreza Lima">
+                        <span>Andreza Lima</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/jacleciane-moraes-367b18110/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/jacleciane.jpg" alt="Jacleciane Moraes">
+                        <span>Jacleciane Moraes</span>
+                    </a>
+                    <a class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/larissa.jpg" alt="Larissa Neves">
+                        <span>Larissa Neves</span>
+                    </a>
+
+                    <a class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/lorena.jpg" alt="Lorena Araújo">
+                        <span>Lorena Araújo</span>
+                    </a>
+
+                    <a class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/lidia.jpg" alt="Lídia Rocha">
+                        <span>Lídia Rocha</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jessica-paz/" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/29541972_1630723377048368_6462700726100102402_n.jpg" alt="Jessica Paz">
+                        <span>Jessica Paz</span>
+                    </a>
+                    <a class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/alessandra.jpg" alt="Alessandra Gomes">
+                        <span>Alessandra Gomes</span>
+                    </a>
+                    <a href="https://github.com/brunoricardojava" class="grid_3 omega" target="_blank">
+                        <img class="coach" src="./images/bruno.jpg" alt="Bruno Scherer">
+                        <span>Bruno Scherer</span></a>
+                </div>
+            </div>
 
 
-      <div class="grid_12">
-	  <br>
-	  <br>
-        <hr/>
-        <h3>Patrocinadores</h3>
-        <ul class="support">
-       <p><h5>Nosso projeto será maior e melhor com o apoio de empresas legais. Ajude o nosso evento com dinheiro, conhecimento, tempo ou qualquer outro apoio e torne o Rails Girls especial. Se você quer contribuir entre em contato com a gente <a href="mailto:railsgirlsbelempa@gmail.com" alt="railsgirlsbelem" class="imageLink"><font color="red"><b>railsgirlsbelempa@gmail.com</b></a></font></h5></p>
+            <div class="grid_12">
+                <br>
+                <br>
+                <hr/>
+                <h3>Patrocinadores</h3>
+                <ul class="support">
+                    <p>
+                        <h5>Nosso projeto será maior e melhor com o apoio de empresas legais. Ajude o nosso evento com dinheiro, conhecimento, tempo ou qualquer outro apoio e torne o Rails Girls especial. Se você quer contribuir entre em contato com a gente
+                            <a href="mailto:railsgirlsbelempa@gmail.com" alt="railsgirlsbelem" class="imageLink">
+                                <font color="red"><b>railsgirlsbelempa@gmail.com</b></a>
+                            </font>
+                        </h5>
+                    </p>
 
-        <li class="col4">
-	              <a href="https://nomadetec.com.br/" alt="Nomade" class="imageLink" target="_blank">
-	                <img height="200px" src="images/nomade.png"  title="NomadeTecnologia">
-	              </a>
-	          </li>
-       
-	  <li class="col4">
-	              <a href="https://www.tasafo.org/" alt="TáSafo" class="imageLink" target="_blank">
-	                <img height="200px" src="images/ta-safo-2018.png"  title="TáSafo">
-	              </a>
-	          </li>
+                    <li class="col4">
+                        <a href="https://nomadetec.com.br/" alt="Nomade" class="imageLink" target="_blank">
+                            <img height="200px" src="images/nomade.png" title="NomadeTecnologia">
+                        </a>
+                    </li>
 
-
-	   <li class="col4">
-	              <a href="https://www.alura.com.br/" alt="Alura" class="imageLink" target="_blank">
-	                <img src="images/aluradark.png" title="Alura">
-	              </a>
-	          </li>
-
-      <li class="col4">
-                <a href="http://www.jambu.com.br/xss/" alt="Jambu TEC" class="imageLink" target="_blank">
-                 <img height="120px" src="images/jambutec.jpg" title="Jambu Tecnologia">
-                </a>
-            </li>
+                    <li class="col4">
+                        <a href="https://www.tasafo.org/" alt="TáSafo" class="imageLink" target="_blank">
+                            <img height="200px" src="images/ta-safo-2018.png" title="TáSafo">
+                        </a>
+                    </li>
 
 
-	   <li class="col4">
-	              <a href="https://elephantcoworking.com.br/" alt="Coworking Elephant" class="imageLink" target="_blank">
-	                <img height="180px" src="images/logo-elephant.png" title="Coworking Elephant">
-	              </a>
-	          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="col4">
+                        <a href="https://www.alura.com.br/" alt="Alura" class="imageLink" target="_blank">
+                            <img src="images/aluradark.png" title="Alura">
+                        </a>
+                    </li>
+
+                    <li class="col4">
+                        <a href="http://www.jambu.com.br/xss/" alt="Jambu TEC" class="imageLink" target="_blank">
+                            <img height="120px" src="images/jambutec.jpg" title="Jambu Tecnologia">
+                        </a>
+                    </li>
 
 
-     <li class="col4">
-                <a href="https://www.pyladies.com/" alt="Pyladies" class="imageLink" target="_blank">
-                  <img height="220px" src="images/pyladybelem.png" title="Pyladies Belém">
-                </a>
-            </li>
-      <li class="col4">
-                <a href="http://www.hub728.com.br/" alt="HUB 728" class="imageLink" target="_blank">
-                 <img height="90px" src="images/hub728.png" title="HUB 728">
-                </a>
-            </li>
+                    <li class="col4">
+                        <a href="https://elephantcoworking.com.br/" alt="Coworking Elephant" class="imageLink" target="_blank">
+                            <img height="180px" src="images/logo-elephant.png" title="Coworking Elephant">
+                        </a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-       <li class="col4">
-                <a href="http://www.idopterlabs.com.br/" alt="Idopterlabs" class="imageLink" target="_blank">
-                 <img height="170px" src="images/idolabs.png" title="Idopterlabs">
-                </a>
-            </li>
-      <li class="col4">
-                <a href="https://plugueinsights.com/" alt="Idopterlabs" class="imageLink" target="_blank">
-                 <img height="100px" src="images/plugue.png" title="PlugueInsights">
-                </a>
-            </li>
+                    <li class="col4">
+                        <a href="https://www.pyladies.com/" alt="Pyladies" class="imageLink" target="_blank">
+                            <img height="220px" src="images/pyladybelem.png" title="Pyladies Belém">
+                        </a>
+                    </li>
+                    <li class="col4">
+                        <a href="http://www.hub728.com.br/" alt="HUB 728" class="imageLink" target="_blank">
+                            <img height="90px" src="images/hub728.png" title="HUB 728">
+                        </a>
+                    </li>
 
-      </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <footer>
+                    <li class="col4">
+                        <a href="http://www.idopterlabs.com.br/" alt="Idopterlabs" class="imageLink" target="_blank">
+                            <img height="170px" src="images/idolabs.png" title="Idopterlabs">
+                        </a>
+                    </li>
+                    <li class="col4">
+                        <a href="https://plugueinsights.com/" alt="Idopterlabs" class="imageLink" target="_blank">
+                            <img height="100px" src="images/plugue.png" title="PlugueInsights">
+                        </a>
+                    </li>
+                    <li class="col4">
+                        <a href="https://compilagrao.com.br/" alt="Compilagrao" class="imageLink" target="_blank">
+                            <img height="200px" src="images/compilagrao.png" title="Compilagrao">
+                        </a>
+                    </li>
 
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frailsgirlsbelem&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"  width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+            </div>
+
+            <footer>
+
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frailsgirlsbelem&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="130"
+                    style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
       	</iframe>
-      <div id="footer" class="with-background" style="background-image: "gray">
-        <div class="overlay">
-              <div class="container">
-                  <div class="container">
-      <p>Rails Girls, 2010-2018 . <a href="mailto:railsgirlsbelempa@gmail.com">Entre em contato</a> e saiba mais em nossa página no Facebook <a href="https://www.facebook.com/railsgirlsbelem/"> @railsgirlsbelem </a>.</p>
+                <div id="footer" class="with-background" style="background-image: " gray ">
+        <div class="overlay ">
+              <div class="container ">
+                  <div class="container ">
+      <p>Rails Girls, 2010-2018 . <a href="mailto:railsgirlsbelempa@gmail.com ">Entre em contato</a> e saiba mais em nossa página no Facebook <a href="https://www.facebook.com/railsgirlsbelem/ "> @railsgirlsbelem </a>.</p>
 
 
        
@@ -481,6 +511,6 @@
       ga('create', 'UA-82563105-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/dffb9a5e-66fc-4a1b-b9bd-fcd6a72a078d-loader.js" ></script>
+    <script type="text/javascript " async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/dffb9a5e-66fc-4a1b-b9bd-fcd6a72a078d-loader.js " ></script>
   </body>
 </html>
