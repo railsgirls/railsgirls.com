@@ -800,6 +800,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 350px 350px;
 }
 
+.kyoto9#promo {
+  padding-left: 400px;
+  background:url('../images/kyoto/railsgirlskyoto9th.png') no-repeat 0 20px;
+  background-size: 375px 300px;
+}
+
 .sapporo#promo {
   padding-left:500px;
   background:url('../images/rg-sapporo.png') no-repeat 0 120px,
