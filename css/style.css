@@ -223,14 +223,27 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 .luxembourg2016#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
-
-
 .luxembourg#promo {
-  padding-left:340px;
-  background:url('../images/saopaulo/girl-saopaulo.png') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom
-}
-.luxembourg#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+      height: 350px;
+      background-image: url(./images/saopaulo/girl-saopaulo.png);
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;padding-bottom: 0px;
+    }
+  
+.luxembourg#promo.new p{
+      font-size: 18px;
+    }
+.luxembourg#promo.new h1{
+      padding-top: 34px;
+      font-size: 60px;
+    }
+.luxembourg#promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
 
 .galway#promo h1 {
   background:url('./../images/rg-galway-header2015.png') no-repeat left top;
