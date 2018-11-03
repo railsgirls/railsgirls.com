@@ -225,7 +225,7 @@ a, a:visited, a:focus, a:active, a:hover{
 
 .luxembourg#promo {
       height: 350px;
-      background-image: url(./images/saopaulo/girl-saopaulo.png);
+      background-image: url('../images/saopaulo/girl-saopaulo.png');
       background-repeat: no-repeat;
       padding-left: 330px;
       background-size: 310px;padding-bottom: 0px;
