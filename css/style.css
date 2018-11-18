@@ -230,7 +230,7 @@ a, a:visited, a:focus, a:active, a:hover{
       padding-left: 330px;
       background-size: 310px;padding-bottom: 0px;
     }
-  
+
 .luxembourg#promo.new p{
       font-size: 18px;
     }
@@ -922,6 +922,14 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .fukuoka#promo h1 {
   background: none;
+}
+
+.kobe0#promo {
+  padding-left:420px;
+  padding-bottom: 80px;
+  background:url('../images/kobe/rg-kobe0-logo.png') no-repeat 0px 0px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 420px;
 }
 
 .kobe#promo {
