@@ -16,6 +16,22 @@
     "eventUrl": "/groningen.html"
   },
   {
+    "location": "Kobe, Japan",
+    "writtenDate": "January 26th & January 27th, 2019",
+    "startDate": "2019-01-26",
+    "endDate": "2019-01-27",
+    "imageUrl": "/images/kobe/rg-kobe0-logo.png",
+    "eventUrl": "/kobe201901.html"
+  },
+  {
+    "location": "Kyoto, Japan",
+    "writtenDate": "December 7th & December 8th, 2018",
+    "startDate": "2018-12-07",
+    "endDate": "2018-12-08",
+    "imageUrl": "/images/kyoto/railsgirlskyoto9th.png",
+    "eventUrl": "/kyoto201812.html"
+  },
+  {
     "location": "London, UK",
     "writtenDate": "November 30th & December 1st, 2018",
     "startDate": "2018-11-30",
