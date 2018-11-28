@@ -126,5 +126,13 @@
     "endDate": "2018-10-20",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/la.html"
+  },
+  {
+    "location": "Skopje, Macedonia",
+    "writtenDate": "April 12th & 13th, 2019",
+    "startDate": "2019-04-12",
+    "endDate": "2019-04-13",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/skopje.html"
   }
 ]
