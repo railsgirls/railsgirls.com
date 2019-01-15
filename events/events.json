@@ -8,6 +8,14 @@
     "eventUrl": "/rotterdam19.html"
   },
   {
+    "location": "Tokyo, Japan",
+    "writtenDate": "February 22nd & 23rd, 2019",
+    "startDate": "2019-02-22",
+    "endDate": "2019-02-23",
+    "imageUrl": "/images/rg-tokyo-2019-02-22.png",
+    "eventUrl": "/tokyo.html"
+  },
+  {
     "location": "Groningen, The Netherlands",
     "writtenDate": "February 1st & 2nd, 2019",
     "startDate": "2019-02-01",
@@ -22,6 +30,14 @@
     "endDate": "2019-01-27",
     "imageUrl": "/images/kobe/rg-kobe0-logo.png",
     "eventUrl": "/kobe201901.html"
+  },
+  {
+    "location": "Zrenjanin, Serbia",
+    "writtenDate": "December 22nd & 23rd, 2018",
+    "startDate": "2018-12-22",
+    "endDate": "2018-12-23",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/zrenjanin.html"
   },
   {
     "location": "Kyoto, Japan",
