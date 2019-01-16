@@ -23,9 +23,30 @@
     </style>
 
     <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]>    <![endif]-->
+
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
+    <style>
+        .partners {
+            margin-bottom: 15px;
+            vertical-align: middle;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .partners a {
+            border-bottom: none;
+        }
+
+        .partners .first {
+            margin: 15px 0 0 0;
+        }
+
+        .partners .grid_4:not(.alpha) {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -42,13 +63,13 @@
     </div>
 </header>
 
-    <div style="
+<div style="
     height: 100vh;
     background-image: url(images/guayaquil/20181124/cover_page/ecuruby_cover-01.svg);
 	max-height: 300px;">
-        <img src="images/guayaquil/20181124/cover_page/ecuruby_cover-02.svg"
-             style="height: 100vh;margin: auto;display: block; max-height: 300px;"/>
-    </div>
+    <img src="images/guayaquil/20181124/cover_page/ecuruby_cover-02.svg"
+         style="height: 100vh;margin: auto;display: block; max-height: 300px;"/>
+</div>
 
 <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
@@ -76,7 +97,8 @@
         talleres, charlas, eventos que impulsen su desarrollo profesional y personal, etc.
         <br/><br/>
         La Comunidad Rails Girls con el fin de cumplir con estas necesidades pone a su conocimiento que el día sábado 24
-        de noviembre, se realizará un evento llamado <strong>“ECURUBY 1.0”</strong>, el cual congregará tanto profesionales como
+        de noviembre, se realizará un evento llamado <strong>“ECURUBY 1.0”</strong>, el cual congregará tanto
+        profesionales como
         estudiantes de diferentes Universidades del país.
         <br/><br/>
         Contamos con la participación de más de 10 Universidades del país confirmadas para el evento y el apoyo de
@@ -247,7 +269,7 @@
             <img src="images/guayaquil/20181124/christian_carrillo.jpeg" class="coach" style="border:none;">
             Christian Carrillo
             <small>@christiancarri</small>
-            <small class="cali bta-role">------</small>
+            <small class="cali bta-role">TIA S.A.</small>
         </a>
         <a href="https://www.instagram.com/onazol11" target="_blank" class="grid_3">
             <img src="images/guayaquil/20181124/estefania_lozano.jpeg" class="coach" style="border:none;">
@@ -259,30 +281,40 @@
             <img src="images/guayaquil/20181124/paulette_vazquez.jpeg" class="coach" style="border:none;">
             Paulette Vázquez
             <small>@paulette_vazquez_99</small>
-            <small class="cali bta-role">------</small>
+            <small class="cali bta-role">TAWS</small>
         </a>
     </div>
 
-    <div id="partners" class="logos-wall">
-        <h3>Partners</h3>
+    <div class="grid_12 partners">
+        <h3>Nossos patrocinadores</h3>
+        <div class="grid_4 first">
+            <a href="https://www.ucsg.edu.ec/" class="partners" target="_blank">
+                <img src="images/guayaquil/20181124/partners/ucsg.png" alt="UCSG" height="74px"></a>
+        </div>
+        <div class="grid_4">
+            <a href="http://www.cisco-espol.info/" class="partners" target="_blank">
+                <img src="images/guayaquil/20181124/partners/cisco.png" alt="Cisco" height="74px"></a>
+        </div>
+        <div class="grid_4">
+            <a href="https://www.netacad.com/es" class="partners" target="_blank">
+                <img src="images/guayaquil/20181124/partners/cisco_networking_academy.png" alt="Cisco Networking Academy" height="74px"></a>
+        </div>
 
-        <div class="grid_2">
-            <a href="http://digitalalliance.bg/bg/index/home" target="_blank">
-                <img src="images/sofia/digital-alliance-bulgaria-dnk-logo.png" alt="Лого на Дигитална национална коалиция (ДНК)" title="Дигитална национална коалиция (ДНК)">
-            </a>
-        </div>
-        <div class="grid_2">
-            <a href="https://www.coding-girls.com/" target="_blank">
-                <img src="images/vratsa/cg1.png" alt="Лого на Coding Girls" title="Coding Girls">
-            </a>
-        </div>
-        <div class="grid_3">
-            <a href="https://www.womenwhocode.com/sofia" target="_blank">
-                <img src="images/vratsa/wwcs.png" alt="Лого на Women Who Code Sofia" title="Women Who Code Sofia">
-            </a>
+        <div class="grid_12">
+            <div class="grid_4">
+                <a href="https://www.i3lab.org/" class="partners" target="_blank">
+                    <img src="images/guayaquil/20181124/partners/i3lab.png" alt="i3lab" height="74px"></a>
+            </div>
+            <div class="grid_4 omega" style="max-width: 209px; margin-left: 10px; text-align: center">
+                <a href="http://ioet.com/" class="partners" target="_blank">
+                    <img src="images/guayaquil/20181124/partners/iot.png" alt="ioet" height="74px"></a>
+            </div>
+            <div class="grid_4" style="text-align: center; margin-left: 50px;">
+                <a href="https://www.guayaquilemprende.org/" class="partners" target="_blank">
+                    <img src="images/guayaquil/20181124/partners/emprende_guayaquil.png" alt="Emprende Guayaquil" height="74px"></a>
+            </div>
         </div>
     </div>
-
 </div>
 <footer>
     <p>2010-2019, Rails Girls. <a href="./press.html">Contactános</a> o síguenos en <a
