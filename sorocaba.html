@@ -119,6 +119,18 @@
     }
 
     @media (max-width: 1023px) {
+      .page {
+        margin: 0;
+      }
+
+      .container_12 .grid_12,
+      .coaches,
+      .container_12 .grid_12--mobile {
+        box-sizing: border-box;
+        padding: 20px;
+        width: 100%;
+      }
+
       .sorocaba_header h1 small {
         font-size: 36px;
       }
@@ -128,25 +140,44 @@
         width: 90vw;
       }
 
-      h3.grid_12, .coaches h3 {
+      .grid_12--mobile iframe {
+        width: 100%;
+      }
+
+      h3.grid_12,  
+      .coaches h3 {
         font-size: 42px;
       }
 
       .partners p {
-        font-size: 35px;
+        font-size: 2.36em;
+      }
+
+      .grid_12--mobile p {
+        font-size: 1.1em;
       }
 
       a.grid_3.omega.mar-bot-0 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         font-size: 32px;
+        justify-content: center;
+        text-align: center;
       }
 
       .coaches img {
         border-radius: 100%;
+        margin-right: 0;
         width: 150px;
       }
 
       .coaches--sorocaba .team {
         height: 300px;
+      }
+
+      #social {
+        margin-top: 200px;
       }
 
       footer p {
@@ -245,8 +276,7 @@
       </div>
 
       <hr/> -->
-
-       <div class="grid_4">
+       <div class="grid_4 grid_12--mobile">
         <h3>Localização</h3>
         <p>
           Goomer<br/>
@@ -254,7 +284,7 @@
           Sorocaba - SP, 18046-805
         </p>
       </div>
-      <div class="grid_8">
+      <div class="grid_8 grid_12--mobile">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3162.7021724966253!2d-47.46925553157067!3d-23.52317820280453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x975d80eda5dda503!2sGoomer!5e0!3m2!1spt-BR!2sbr!4v1549387248940" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
@@ -338,9 +368,9 @@
 
       <div class="grid_12">
         <h3>FAQ</h3>
-	<p><strong>O que é Rails Girls?</strong> Rails Girls é um evento de dois dias sem fins lucrativos que acontece no mundo inteiro, o Rails Girls é destinado à mulheres de todas as idades que tem como objetivo oferecer uma grande primeira experiência em desenvolvimento de software.
-Nosso objetivo é oferecer acesso para que as meninas possam aprender sobre a tecnologia junto com a comunidade e inspiração para que se sintam motivadas para começar.
-Rails Girls não é só sobre programação, é sobre a construção de coisas. Durante o evento, iremos construir um aplicativo e também ter insights e exercícios inspiradores.</p>
+        <p><strong>O que é Rails Girls?</strong> Rails Girls é um evento de dois dias sem fins lucrativos que acontece no mundo inteiro, o Rails Girls é destinado à mulheres de todas as idades que tem como objetivo oferecer uma grande primeira experiência em desenvolvimento de software.
+        Nosso objetivo é oferecer acesso para que as meninas possam aprender sobre a tecnologia junto com a comunidade e inspiração para que se sintam motivadas para começar.
+        Rails Girls não é só sobre programação, é sobre a construção de coisas. Durante o evento, iremos construir um aplicativo e também ter insights e exercícios inspiradores.</p>
 
         <p><strong>O evento ser&aacute; em ingl&ecirc;s?</strong> N&atilde;o! O evento será em português.</p>
 
@@ -401,7 +431,7 @@ Rails Girls não é só sobre programação, é sobre a construção de coisas. 
         </div>
         -->
 
-        <div class="grid_12 first">
+        <div class="grid_12">
             <p><strong>Estamos procurando por parceiros!</strong> Tem uma empresa e deseja contribuir? Mande um email para nós! <a href="mailto:railsgirlssorocaba@gmail.com">Clique aqui.</a></p>
         </div>
 
