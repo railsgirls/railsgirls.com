@@ -1,4 +1,4 @@
-[ 
+[
   {
     "location": "Sorocaba, Brasil",
     "writtenDate": "July 19th & 20th, 2019",
@@ -23,6 +23,16 @@
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/skopje.html"
   },
+
+  {
+    "location": "Verona",
+    "writtenDate": "April 10th, 2019",
+    "startDate": "2019-04-10",
+    "endDate": "2019-04-10",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/verona2019.html"
+  },
+
   {
     "location": "Joinville, Brasil",
     "writtenDate": "April 05th & 06th, 2019",
