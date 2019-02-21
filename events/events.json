@@ -1,4 +1,4 @@
-[ 
+[
   {
     "location": "Sorocaba, Brasil",
     "writtenDate": "July 19th & 20th, 2019",
@@ -38,6 +38,14 @@
     "endDate": "2019-03-30",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "https://www.facebook.com/events/594087341069509/permalink/597197880758455/"
+  },
+  {
+    "location": "Bangalore, India",
+    "writtenDate": "March 8th & 9th, 2019",
+    "startDate": "2019-03-08",
+    "endDate": "2019-03-09",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/bangalore.html"
   },
   {
     "location": "Tokyo, Japan",
