@@ -223,15 +223,27 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 .luxembourg2016#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
 
-
-
 .luxembourg#promo {
-  padding-left: 334px;
-  padding-top: 0;
-  background:url('../images/rg-luxembourg.png') no-repeat 0 10px,
-             url('../images/separator.png') no-repeat center bottom;
-}
-.luxembourg#promo h1 { color: #E0330C; text-indent: 0; font-size: 30px; font-weight: bold;}
+      height: 350px;
+      background-image: url('../images/saopaulo/girl-saopaulo.png');
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;padding-bottom: 0px;
+    }
+
+.luxembourg#promo.new p{
+      font-size: 18px;
+    }
+.luxembourg#promo.new h1{
+      padding-top: 34px;
+      font-size: 60px;
+    }
+.luxembourg#promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
 
 .galway#promo h1 {
   background:url('./../images/rg-galway-header2015.png') no-repeat left top;
@@ -637,7 +649,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .istanbul#promo {
           padding-left:340px;
-          background:url('../images/rg-istanbul.png') no-repeat 0 10px,
+          background:url('../images/istanbul/RG_Istanbul_logo.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -771,9 +783,23 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 390px;
   }
 
+.tokyo-2018-10-13#promo {
+  padding-left:420px;
+  background:url('../images/rg-tokyo-2018-10-13.png') no-repeat left top;
+                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
+.tokyo-2019-02-22#promo {
+  padding-left:420px;
+  background:url('../images/rg-tokyo-2019-02-22.png') no-repeat left top;
+                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+  }
+
 .tokyo#promo {
   padding-left: 420px;
-  background: url('../images/rg-tokyo-2018-10-13.png') no-repeat left top;
+  background: url('../images/rg-tokyo-2019-02-22.png') no-repeat left top;
                   url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
 }
@@ -800,6 +826,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 350px 350px;
 }
 
+.kyoto9#promo {
+  padding-left: 380px;
+  background:url('../images/kyoto/railsgirlskyoto9th-square.png') no-repeat 0 20px;
+  background-size: 350px 350px;
+}
+
 .sapporo#promo {
   padding-left:500px;
   background:url('../images/rg-sapporo.png') no-repeat 0 120px,
@@ -815,6 +847,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 .matsue-2015-11-13#promo {
   padding-left:460px;
   background:url('../images/rg-matsue-2015-11-13.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.matsue-2017-03-04#promo {
+  padding-left:460px;
+  background:url('../images/rg-matsue-2017-03-04.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -900,6 +938,14 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background: none;
 }
 
+.kobe0#promo {
+  padding-left:420px;
+  padding-bottom: 80px;
+  background:url('../images/kobe/rg-kobe0-logo.png') no-repeat 0px 0px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 420px;
+}
+
 .kobe#promo {
   padding-left:420px;
   background:url('../images/kobe/rg-kobe1-logo1.jpg') no-repeat left top,
@@ -921,9 +967,17 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background-size: 420px;
 }
 
+.kobe4#promo {
+  padding-left:420px;
+  padding-bottom: 80px;
+  background:url('../images/kobe/rg-kobe-4th-1.png') no-repeat 0px 0px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 380px;
+}
+
 .okinawa#promo {
     padding-left: 420px;
-    background: url('../images/railsgirls-sq.png') no-repeat left top;
+    background: url('../images/okinawa/railsgirls.jpg') no-repeat left top;
     url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
@@ -1462,8 +1516,8 @@ pre {
   background:url('../images/rg-matsue-header-2015-11-13.png') no-repeat left top;
 }
 
-.matsue#promo h1 {
-  background:url('../images/rg-matsue-header.png') no-repeat left top;
+.matsue-2017-03-04#promo h1 {
+  background:url('../images/rg-matsue-header-2017-03-04.png') no-repeat left top;
 }
 
 .nagoya#promo h1 {
@@ -2305,7 +2359,6 @@ footer a {
 .coaches .grid_3:nth-child(4n+4) {
   margin-right:0;
 }
-
 .logo.grid_3{
   margin-left: 0;
 }
@@ -3146,7 +3199,16 @@ small.popayan-role{ font-size: 80%; }
 }
 .prijava {
    padding-left:350px;
-    background:url('../images/kraljevo/rg-kraljevo-2.png') no-repeat 0 0px
+   background:url('../images/kraljevo/rg-kraljevo-2.png') no-repeat 0 0px;
+}
+.kraljevo2#promo {
+  padding-left:350px;
+  background:url('../images/kraljevo/heroina_2.png') no-repeat 0 90px,
+        url('../images/separator.png') no-repeat center bottom;
+}
+.prijava2 {
+  padding-left:350px;
+  background:url('../images/kraljevo/rg_solja.jpg') no-repeat 0 0px;
 }
 
 .barcelona#promo {
@@ -3581,7 +3643,7 @@ div.bta-sponsors-top{ margin-top: 50px;}
 /* Cali */
 .cali#promo {
   padding-left:340px;
-  background:url('../images/cali/rg-cali-monochrome.jpg') no-repeat 0 10px;
+  background:url('../images/cali/rg-cali-logo.png') no-repeat 0 10px;
 }
 
 .cali#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
@@ -3664,7 +3726,7 @@ small.cali-role{ font-size: 80%; }
 /* starts Sorocaba */
 
 .sorocaba_header_2016 {
-  background: #d3360b url('../images/sorocaba/rails_girls_sorocaba_2017.jpg') no-repeat;
+  background: #d3360b url('../images/sorocaba/rails_girls_sorocaba_2018.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -4412,3 +4474,53 @@ h1.bern {
   margin-top: 10px;
 }
 
+.sendai#promo {
+    padding-left: 420px;
+    background: url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+url('../images/separator.png') no-repeat center bottom;
+    background-size: 390px;
+}
+
+.sendai#promo h1 {
+    background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+}
+
+// http://csswizardry.com/2013/05/the-flag-object/
+
+.flag {
+  display: table;
+  table-layout: fixed;
+  width: auto;
+}
+
+.flag-image,
+.flag-body {
+  display: table-cell;
+  vertical-align: middle;
+
+  .flag--top & {
+    vertical-align: top;
+  }
+
+  .flag--bottom & {
+    vertical-align: bottom;
+  }
+}
+
+.flag-body {
+  width: 100%;
+}
+
+.flag-image {
+  padding-right: $small-spacing;
+
+  img {
+    display: block;
+    max-width: none;
+  }
+
+  .flag--rev & {
+    padding-left: $small-spacing;
+    padding-right: 0;
+  }
+}
