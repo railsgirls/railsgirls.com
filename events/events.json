@@ -1,5 +1,13 @@
 [
   {
+    "location": "Sorocaba, Brasil",
+    "writtenDate": "July 19th & 20th, 2019",
+    "startDate": "2019-07-19",
+    "endDate": "2019-07-20",
+    "imageUrl": "/images/sorocaba/railsgirlssorocaba_2019.png",
+    "eventUrl": "/sorocaba.html"
+  },
+  {
     "location": "Rotterdam, The Netherlands",
     "writtenDate": "June 20th, 2019",
     "startDate": "2019-06-20",
@@ -8,13 +16,71 @@
     "eventUrl": "/rotterdam19.html"
   },
   {
+    "location": "Riara University, Nairobi",
+    "writtenDate": "May 05th, 2019",
+    "startDate": "2019-04-05",
+    "endDate": "2019-05-05",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/nairobi_2019.html"
+  },
+  {
     "location": "Skopje, Macedonia",
     "writtenDate": "April 12th & 13th, 2019",
     "startDate": "2019-04-12",
     "endDate": "2019-04-13",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/skopje.html"
-  }
+  },
+
+  {
+    "location": "Verona, Italy",
+    "writtenDate": "April 10th, 2019",
+    "startDate": "2019-04-10",
+    "endDate": "2019-04-10",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/verona2019.html"
+  },
+
+  {
+    "location": "Joinville, Brasil",
+    "writtenDate": "April 05th & 06th, 2019",
+    "startDate": "2019-04-05",
+    "endDate": "2019-04-06",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/joinville.html"
+  },
+  {
+    "location": "Lviv, Ukraine",
+    "writtenDate": "March 30th, 2019",
+    "startDate": "2019-03-30",
+    "endDate": "2019-03-30",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "https://www.facebook.com/events/594087341069509/permalink/597197880758455/"
+  },
+  {
+    "location": "Bangalore, India",
+    "writtenDate": "March 8th & 9th, 2019",
+    "startDate": "2019-03-08",
+    "endDate": "2019-03-09",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/bangalore.html"
+  },
+  {
+    "location": "Denizli, Turkey",
+    "writtenDate": "March 15th & 16th, 2019",
+    "startDate": "2019-03-15",
+    "endDate": "2019-03-16",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/denizli2019.html"
+  },
+  {
+    "location": "Tricity, Poland",
+    "writtenDate": "March 16th & 17th, 2019",
+    "startDate": "2019-03-16",
+    "endDate": "2019-03-17",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/tricity.html"
+  },
   {
     "location": "Tokyo, Japan",
     "writtenDate": "February 22nd & 23rd, 2019",
@@ -36,7 +102,7 @@
     "writtenDate": "January 26th & January 27th, 2019",
     "startDate": "2019-01-26",
     "endDate": "2019-01-27",
-    "imageUrl": "/images/kobe/rg-kobe0-logo.png",
+    "imageUrl": "/images/kobe/rg-kobe-4th-thumbnail.png",
     "eventUrl": "/kobe201901.html"
   },
   {
