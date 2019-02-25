@@ -31,6 +31,16 @@
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/skopje.html"
   },
+
+  {
+    "location": "Verona, Italy",
+    "writtenDate": "April 10th, 2019",
+    "startDate": "2019-04-10",
+    "endDate": "2019-04-10",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/verona2019.html"
+  },
+
   {
     "location": "Joinville, Brasil",
     "writtenDate": "April 05th & 06th, 2019",
@@ -54,6 +64,14 @@
     "endDate": "2019-03-09",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/bangalore.html"
+  },
+  {
+    "location": "Denizli, Turkey",
+    "writtenDate": "March 15th & 16th, 2019",
+    "startDate": "2019-03-15",
+    "endDate": "2019-03-16",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/denizli2019.html"
   },
   {
     "location": "Tricity, Poland",
