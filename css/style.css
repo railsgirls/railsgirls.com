@@ -4485,6 +4485,21 @@ url('../images/separator.png') no-repeat center bottom;
     background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
 }
 
+.tricity#promo {
+  padding-left: 340px;
+  background: url('../images/rg-tricity.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+  background-size: 20rem;
+}
+
+.tricity#promo h1 {
+  text-indent: 0;
+}
+
+.tricity-table#schedule th {
+  width: 7rem;
+}
+
 // http://csswizardry.com/2013/05/the-flag-object/
 
 .flag {
