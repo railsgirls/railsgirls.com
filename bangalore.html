@@ -1,71 +1,89 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
-<!--  Add your city name, dates and year.  -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 1216661, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
 
+  <!--  Add your city name, dates and year.  -->
   <title>Bangalore 8th-9th March 2019</title>
 
-<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
-  <meta name="description" content="Rails Girls in Bangalore March 9th 2019: join the one-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+  <meta name="description"
+    content="Rails Girls in Bangalore March 9th 2019: join the one-day crash-course to the exciting world of building web applications with Ruby on Rails.">
   <meta name="author" content="Rails Girls">
 
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css?bust-cache=blr">
+
+  <style>
+    .coach {
+      border-radius: 50px;
+    }
+  </style>
+
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <style type="text/css">
+    .tk-expressway {
+      font-family: "expressway", sans-serif;
+    }
+  </style>
+  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+
+  <meta property="og:url" content="http://railsgirls.com/bangalore" />
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png" />
+  <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Events</a>
+        <a href="./materials.html">Materials</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">Guides</a>
+      </nav>
+    </div>
+  </header>
 
 
-	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-      <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
 
-      <style type="text/css">
-        .coaches a {
-          margin-bottom: 0;
-        }
-      </style>
-    </head>
-    <body>
-
-        <header>
-        <div class="container_12">
-            <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-            <nav>
-                <a href="./events.html">Events</a>
-                <a href="./materials.html">Materials</a>
-                <a href="./press.html">Press</a>
-                <a href="http://blog.railsgirls.com">Blog</a>
-                <a href="http://guides.railsgirls.com">
-                  Guides</a>
-            </nav>
-        </div>
-        </header>
-
-
-<!--   How to change the picture & header for site
+  <!--   How to change the picture & header for site
 In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
 
 Steps to show on site
 1. Go to style.css
 2. Add two lines, always replacing 'yourcityname' with your actual city name.
 
-        .bangalore#promo {
+        .yourcityname#promo {
           padding-left:340px;
           background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                          url('../images/separator.png') no-repeat center bottom;
         }
 
-        .bangalore#promo h1 {
+        .yourcityname#promo h1 {
           background:url('../images/rg-yourcityname-header.png') no-repeat left top;
         }
 
@@ -74,192 +92,243 @@ Steps to show on site
 -->
 
 
-<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+  <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
 
-    <div id="container" class="container_12 page clearfix">
-      <div class="grid_12 omega alpha">
-        <div id="promo" class="bangalore">
+  <div id="container" class="container_12 page clearfix">
+    <div class="grid_12 omega alpha">
+      <div id="promo" class="new bangalore">
         <h1>Rails Girls Bangalore
-				</h1>
-				<h4>8th & 9th March, 2019</h4>
+          <small>8th & 9th March, 2019</small>
+        </h1>
+        <p>Namaskara world!</p>
+        <p>Rails Girls comes to Bengaluru on <b>the 8th & 9th of March 2019!</b> During the free workshop, we'll dive
+          into the
+          magical world of Ruby on Rails.</p>
+        <p>Participants also get free access to <a href="https://progate.com">Progate.com</a> for 2 whole months!</p>
+        <p>Follow <a href="https://twitter.com/search/realtime?q=%23railsgirlsblr&src=typd">#RailsGirlsBLR</a> on
+          Twitter for the latest updates!</p>
+        <p>
+          <a style="border-radius: 5px; color: white; background-color: #DD390D; padding: 8px 35px; font-size: 24px;"
+            href="https://goo.gl/forms/5gGZInqX4XgGO7cG3" target="_blank">
+            Click here to apply
+          </a>
+        </p>
 
-        <p> Namaskara world!</p><p>
-          Rails Girls comes to Bengaluru on <b>the 8th & 9th of March 2019!</b> During the free workshop, we'll dive into the magical world of Ruby on Rails. </p>
-		  <p>
-		  Follow
-		  <a href="https://twitter.com/search/realtime?q=%23railsgirlsblr&src=typd">#RailsGirlsBLR</a>
-		  on Twitter for the latest updates!
-		  </p>
-      <p>
-          <a style="border-radius: 5px; color: white; background-color: #DD390D; padding: 8px 35px; font-size: 24px;" href="https://goo.gl/forms/5gGZInqX4XgGO7cG3" target="_blank">
-              Click here to apply
-              </a>
-      </p>
+        <!--  Update the sharing texts.-->
 
-
-<!--  Update the sharing texts.-->
-
-          <div id="share">
-
-            <div>
-
+        <div id="share">
+          <div>
             <div style="margin:0 15px 0 0;">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://railsgirls.com/bangalore" data-text="Rails Girls Bangalore on 8th & 9th of March 2019 - Register now" data-via="RailsGirls #RailsGirlsBLR">Tweet</a>
+              <a href="https://twitter.com/share" class="twitter-share-button"
+                data-url="http://railsgirls.com/bangalore"
+                data-text="Rails Girls Bangalore on 8th & 9th of March 2019 - Register now"
+                data-via="RailsGirls #RailsGirlsBLR">Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
             <div id="fb-root" style=""></div>
             <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-            <fb:like href="http://www.facebook.com/RailsGirls" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
-
+            <fb:like href="http://www.facebook.com/RailsGirls" layout="button_count" send="true" width="160"
+              show_faces="false" font=""></fb:like>
           </div>
-        </p>
+          <p>
+            <!-- margin workaround -->
+          </p>
         </div>
       </div>
 
-
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
 
       <div class="grid_4 alpha feature">
-       <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
+        <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
       </div>
       <div class="grid_4 feature">
-        <p><strong>You need</strong> a laptop (but if you don't have one, let us know), curiosity and a sprinkle of imagination!</p>
+        <p><strong>You need</strong> a laptop (but if you don't have one, let us know), curiosity and a sprinkle of
+          imagination!</p>
       </div>
       <div class="grid_4 omega feature">
-        <p><strong>Want to help?</strong> We are looking for volunteers. <a href="mailto:mail@aamnakhan.com">Email us</a>.</p>
+        <p><strong>Want to help?</strong> We are looking for volunteers. <a href="mailto:mail@aamnakhan.com">Email
+            us</a>.</p>
       </div>
 
       <hr />
 
-<!--  Update the texts! -->
-
-  <div class="grid_6 alpha">
-      <h2>Friday 8th March 2019</h2>
-      <table id="schedule">
+      <div class="grid_6 alpha">
+        <h2>Friday 8th March 2019</h2>
+        <table id="schedule">
           <tbody>
-	          <tr>
-	            <th>18:00 - 20:00</th>
-	            <td>
-	              <h4>Installation fest</h4>
-	                   Get to know your fellow participants, meet the coaches while getting your laptop ready for the next day.
-	                  </td>
-	                </tr>
-	     <tr>
-        </tbody>
-      </table>
+            <tr>
+              <th>18:00 - 20:00</th>
+              <td>
+                <h4>Installation fest</h4>
+                Get to know your fellow participants, meet the coaches while getting your laptop ready for the next day.
+              </td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
 
         <h2>Saturday 9th March 2019</h2>
 
         <table id="schedule">
           <tbody>
-	          <tr>
-	            <th>10:00 onwards</th>
-	            <td>
-	              <h4>Workshop day! </h4>
-	                   A more detailed schedule will be added soon!
-	                  </td>
-	                </tr>
-	       </tbody>
+            <tr>
+              <th>10:00 onwards</th>
+              <td>
+                <h4>Workshop day! </h4>
+                A more detailed schedule will be added soon!
+              </td>
+            </tr>
+          </tbody>
         </table>
 
       </div>
 
-<!--  These also, just update :) -->
+      <!--  These also, just update :) -->
 
 
       <div class="grid_5 push_1 omega side">
 
         <h3>Information</h3>
-            <p>
-              <p><strong>Applications close:</strong> Sunday, March 3th 2019<br/>
-                <strong>Acceptances informed: </strong>Tuesday, March 5th 2019</p>
-              <strong>Location:</strong> </br>
-			  Get Simpl Technologies Private Limited </br>
-				  3rd Floor, Aisshwarya Ambassador,</br>
-				  243, Defence Colony </br>
-				 Indiranagar, Bangalore, 560038</br>
-              <a target="_blank" href="https://goo.gl/maps/rG5vorvfvdo">view map</a>
+        <p>
+          <p><strong>Applications close:</strong> Sunday, March 3th 2019<br />
+            <strong>Acceptances informed: </strong>Tuesday, March 5th 2019</p>
+          <strong>Location:</strong> </br>
+          Get Simpl Technologies Private Limited </br>
+          3rd Floor, Aisshwarya Ambassador,</br>
+          243, Defence Colony </br>
+          Indiranagar, Bangalore, 560038</br>
+          <a target="_blank" href="https://goo.gl/maps/rG5vorvfvdo">view map</a>
 
-            </p>
-
-
-<!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+        </p>
 
 
-       <h3>Partners</h3>
-
-       <p>Rails Girls Bangalore is co-organized with our awesome partners.</p><p>
-         <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a href="mailto:mail@aamnakhan.com">Email us</a>! </p>
-         <p>
-           <a href="https://getsimpl.com" style="float:right; margin:0 0 0; border:0;width:"><img src="./images/bangalore/simpl-logo.png" alt="Simpl" width="200"></a>
-         <a href="https://getsimpl.com">Simpl</a> is a technology company that works with merchants and financial institutions to enable a world where every monetary interaction is effortless and transparent. The platform is built with RoR, Python, GoLang, and NodeJs. The underwriting, fraud monitoring and UX are powered by machine learning. </p>
-<p></p>
-<p>
-    <a href="https://www.mavenhive.in" style="float:right; margin:0 0 0; border:0;"><img src="./images/bangalore/mavenhive-logo.jpeg" alt="Maven Hive" width="120"></a>
-         <a href="https://mavenhive.in/">Maven Hive</a> is a Bangalore based consulting firm specializing in end-to-end product development and training. They have built a team of talented people from diverse backgrounds who have come together for one mission, to "turn ideas into awesome software"! Over the last 6+ years, they have worked with several startups and organizations from across the world realize their product vision and help them achieve major milestones in their journey.
-</p>
-<p>
-    <a href="https://www.quintype.com" style="float:right; margin:0 0 0; border:0;"><img src="./images/bangalore/quintype-logo.jpg" alt="Quintype" width="120"></a>
-         <a href="https://quintype.com/">Quintype</a> is a media technology company based in Bangalore. The company is known for its Quintype Publishing Platform, a Headless CMS that allows publishers and content marketers to publish, analyze, and monetize content in a cloud, fully integrated platform. Quintype is a full-stack SaaS platform based Content management system which includes front-end and back-end development and also offers developer services.
-</p>
-<p></p>
- 	<p>
+        <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
 
 
-    	 <h3>FAQ</h3>
-      <p><strong>How much does the workshop cost?</strong>
+        <h3>Partners</h3>
+
+        <p>Rails Girls Bangalore is co-organized with our awesome partners.</p>
+        <p>
+          <p>Want to help? We're looking for partners & sponsors for the non-profit event! <a
+              href="mailto:mail@aamnakhan.com">Email us</a>! </p>
+          <p>
+            <a href="https://getsimpl.com" style="float:right; margin:0 0 0; border:0;width:"><img
+                src="./images/bangalore/simpl-logo.png" alt="Simpl" width="200"></a>
+            <a href="https://getsimpl.com">Simpl</a> is a technology company that works with merchants and financial
+            institutions to enable a world where every monetary interaction is effortless and transparent. The platform
+            is
+            built with RoR, Python, GoLang, and NodeJs. The underwriting, fraud monitoring and UX are powered by machine
+            learning. </p>
+          <p></p>
+          <p>
+            <a href="https://www.mavenhive.in" style="float:right; margin:0 0 0; border:0;"><img
+                src="./images/bangalore/mavenhive-logo.jpeg" alt="Maven Hive" width="120"></a>
+            <a href="https://mavenhive.in/">Maven Hive</a> is a Bangalore based consulting firm specializing in
+            end-to-end
+            product development and training. They have built a team of talented people from diverse backgrounds who
+            have come
+            together for one mission, to "turn ideas into awesome software"! Over the last 6+ years, they have worked
+            with
+            several startups and organizations from across the world realize their product vision and help them achieve
+            major
+            milestones in their journey.
+          </p>
+          <p>
+            <a href="https://www.quintype.com" style="float:right; margin:0 0 0; border:0;"><img
+                src="./images/bangalore/quintype-logo.jpg" alt="Quintype" width="120"></a>
+            <a href="https://quintype.com/">Quintype</a> is a media technology company based in Bangalore. The company
+            is
+            known for its Quintype Publishing Platform, a Headless CMS that allows publishers and content marketers to
+            publish, analyze, and monetize content in a cloud, fully integrated platform. Quintype is a full-stack SaaS
+            platform based Content management system which includes front-end and back-end development and also offers
+            developer services.
+          </p>
+          <p>
+            <a href="https://progate.com" style="float:right; margin:0 0 0; border:0;"><img
+                src="./images/bangalore/progate-logo.png" alt="Progate" width="200"></a>
+            <a href="https://progate.com">Progate</a> is an online platform for learning to code. The key idea behind
+            the tool
+            is to allow even complete beginners to learn without frustration. Many people want to start programming, but
+            don't
+            know how or where to start. Their goal is to solve this problem by making the world's best service for
+            learning to
+            code and delivering it to beginners all over the world.
+
+          </p>
+          <p>
+      </div>
+
+      <div class="grid_12 omega alpha">
+        <h2>FAQ</h2>
+        <p><strong>How much does the workshop cost?</strong>
           Nothing, it's free! You just need to be excited!
-      </p>
-       <p>
-         <strong>Who is this aimed for?</strong>
-         Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking part.
-       </p>
-       <p>
-         <strong>Can men attend?</strong>
-         Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
-       </p>
-       <p>
-         <strong>I know how to program - How can I help?</strong>
-         We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk you through the curriculum. <a href="mailto:mail@aamnakhan.com">Email us</a>
-       </p>
-
-
+        </p>
+        <p>
+          <strong>Who is this aimed for?</strong>
+          Women of any age with basic knowledge of working with a computer. We’ve had people of all ages taking
+          part.
+        </p>
+        <p>
+          <strong>Can men attend?</strong>
+          Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
+        </p>
+        <p>
+          <strong>I know how to program - How can I help?</strong>
+          We’re also looking for people to be coaches. We’ll have a two-three hour workshop before the event to walk
+          you
+          through the curriculum. <a href="mailto:mail@aamnakhan.com">Email us</a>
+        </p>
       </div>
 
 
-<!--  Update the team list       -->
+      <!--  Update the team list       -->
       <div class="coaches">
         <hr />
         <h2>Bangalore team</h2>
-        <a href="https://twitter.com/siliconsenthil" class="grid_3">Senthil Sundaram, Coach<small>@siliconsenthil</small></a>
+        <a href="https://twitter.com/siliconsenthil" class="grid_3">Senthil Sundaram,
+          Coach<small>@siliconsenthil</small></a>
         <a href="https://twitter.com/MonikaMhanthapa" class="grid_3">Monika, Coach<small>@MonikaMhanthapa</small></a>
         <a href="https://twitter.com/tdinkar" class="grid_3">Tejas Dinkar, Coach<small>@tdinkar</small></a>
         <a href="https://twitter.com/_aamnakhan" class="grid_3">Aamna Khan, Organiser<small>@_aamnakhan</small></a>
+        <a href="https://twitter.com/srininara" class="grid_3">Srini, Coach<small>@srininara</small></a>
+        <a href="https://twitter.com/rootcss" class="grid_3">Shekhar Singh, Coach<small>@rootcss</small></a>
+        <a href="https://plus.google.com/+ShreyasKulkarni1" class="grid_3">Shreyas Kulkarni, Coach</a>
+        <a href="https://www.linkedin.com/in/vishwasmdamle/" class="grid_3">Vishwas Damle, Coach</a>
+        <a href="https://www.linkedin.com/in/sathishkumar-krishnan-547503109/" class="grid_3">Sathish Kumar, Coach</a>
+        <a href="https://twitter.com/dvrajan12" class="grid_3">Devarajan, Coach<small>@dvrajan12</small></a>
+        <a href="https://www.linkedin.com/in/docoding/" class="grid_3">Deepanshu, Coach</a>
+        <a href="https://twitter.com/phoenixwizard" class="grid_3">Aram Bhusal, Coach<small>@phoenixwizard</small></a>
+        <a href="https://twitter.com/shobhitic" class="grid_3">Shobhit Bakliwal, Coach<small>@shobhitic</small></a>
+        <a href="https://www.linkedin.com/in/aditya01933" class="grid_3">Aditya Tiwari, Coach</a>
+
 
       </div><!-- /coaches -->
 
     </div>
-    </div>
+  </div>
 
-    <!-- /content -->
+  <!-- /content -->
 
-    <footer>
-        <p>2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
-        <p class="slogan">Get excited and make things!</p>
-    </footer>
-      <script type="text/javascript">
+  <footer>
+    <p>2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a
+        href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a>
+    </p>
+    <p class="slogan">Get excited and make things!</p>
+  </footer>
+  <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19631067-1']);
-        _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-      </script>
-    </body>
-    </html>
+  </script>
+</body>
+
+</html>
