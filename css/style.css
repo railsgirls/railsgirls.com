@@ -527,8 +527,10 @@ background:url('../images/rg-riga.jpg') no-repeat 0 10px,
 
 .prague#promo {
 padding-left:340px;
-background:url('../images/rg-prague.jpg') no-repeat 0 10px,
+background:url('../images/rg-prague.png') no-repeat 0 100px,
                  url('../images/separator.png') no-repeat center bottom;
+background-size: 270px;
+
 }
 
 .brno#promo {
