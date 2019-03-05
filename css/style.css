@@ -527,8 +527,10 @@ background:url('../images/rg-riga.jpg') no-repeat 0 10px,
 
 .prague#promo {
 padding-left:340px;
-background:url('../images/rg-prague.jpg') no-repeat 0 10px,
+background:url('../images/rg-prague.png') no-repeat 0 100px,
                  url('../images/separator.png') no-repeat center bottom;
+background-size: 270px;
+
 }
 
 .brno#promo {
@@ -927,6 +929,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
+.nagano#promo {
+  padding-left: 420px;
+  background: url('../images/railsgirls-sq.png') no-repeat left top;
+url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
+
 .shiojiri#promo {
   padding-left:420px;
   background:url('../images/rg-shiojiri.jpg') no-repeat 0 10px,
@@ -1104,7 +1113,6 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
   background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
-
 
 .bangalore#promo {
   padding-left:340px;
@@ -1626,10 +1634,6 @@ h4.warsaw {
   background:url('../images/rg-warsaw.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
-
-.bangalore#promo h1 {
-          background:url('../images/rg-bangalore-header.png') no-repeat left top;
-        }
 
 .basel#promo h1 {
   background:url('../images/rg-basel-header.png') no-repeat left top;
@@ -4488,6 +4492,21 @@ url('../images/separator.png') no-repeat center bottom;
 
 .sendai#promo h1 {
     background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+}
+
+.tricity#promo {
+  padding-left: 340px;
+  background: url('../images/rg-tricity.png') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+  background-size: 20rem;
+}
+
+.tricity#promo h1 {
+  text-indent: 0;
+}
+
+.tricity-table#schedule th {
+  width: 7rem;
 }
 
 // http://csswizardry.com/2013/05/the-flag-object/
