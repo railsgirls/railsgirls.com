@@ -936,6 +936,12 @@ url('../images/separator.png') no-repeat center bottom;
   background-size: 390px;
 }
 
+.ehime#promo {
+  padding-left:420px;
+  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 .shiojiri#promo {
   padding-left:420px;
   background:url('../images/rg-shiojiri.jpg') no-repeat 0 10px,
