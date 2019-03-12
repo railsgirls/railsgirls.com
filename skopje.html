@@ -33,6 +33,83 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style type="text/css">
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 20px;
+ /* display: grid;*/
+  grid-gap: 10px;
+}
+
+
+/* no grid support? */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.panel {
+  /* needed for the flex layout*/
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+.tall-panel {
+  grid-row-end: span 2;
+}
+
+.long-panel {
+  grid-column-end: span 3;
+}
+
+.header,
+.footer {
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1;
+}
+
+.wrapper > * {
+  background-color: #fff;
+  border: 2px solid #f3f3f3;
+  color: #000;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+
+/* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+
+@supports (display: grid) {
+  .wrapper > * {
+    margin: 0;
+  }
+}
+
+.card-img {
+  display: inline;
+        float: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+    /* *** */
     .partners {
       margin-bottom: 15px;
       vertical-align: middle;
@@ -317,101 +394,131 @@
                     </table>
                 </div>
             </div>
+      </div>
 
-        <div class="grid_12 partners">
-        <h3>Official Partners</h3>
-        <hr />
-        <div class="grid_4 first">
+<hr />
+<h3>Sponsors & Supporters</h3>
+<br/>
+<div class="wrapper partners">  
+  <div class="panel">
+    Official partner
+    <br/>    <br/> 
+    <div class="col-sm-12">
+    	<a href="https://webfactory.mk/" title="Web Factory" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/webfactory_logo.png" alt="Web Factory" width="100%"></a>
+          </div>
+  </div>
+
+  <div class="panel">
+    Gold sponsor <br/><br/><br/><br/>
+    <div class="col-sm-12">
+    	<a href="https://github.com/" title="Github" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/github.png" alt="Github" width="100%"></a>
+          </div>
+  </div>
+  <div class="panel">
+    Silver sponsor
+    <br/>    <br/>
+    <div class="col-sm-12">
+    	<a href="http://polnacasa.mk/" title="Pivara Skopje" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/pivara.jpg" alt="Pivara Skopje"  width="100%"></a>
+          </div>
+          <br/><br/>
             
-        </div>
-        <div class="grid_4 first">
-          <a href="https://webfactory.mk/" title="Web Factory" class="partners" target="_blank">
-            <img src="./images/skopje2019/webfactory_logo.png" alt="Web Factory" height="140px"></a>
-        </div>
-        <div class="grid_4">
+  </div>
+  <div class="panel">
+    Bronze sponsor
+    <br/>    <br/><br/>   
+    <div class="col-sm-12">
+    	<a href="https://about.gitlab.com" title="GitLab" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/gitlab-logo.png" alt="GitLab"  width="100%"></a>
+          </div>
+          <br/><br/>
+  </div>
+  <div class="panel">
+    Logo creator
+    <br/>    <br/>
+    <div class="col-sm-12">
+    	<a href="https://dreadpen.com" title="Dreadpen" class="partners" target="_blank">
+            <img class="card-img center" src="./images/skopje2019/dreadpen.png" alt="Dreadpen"></a>
+    </div>
+  </div>
+  
+  <div class="panel">
+    Stroopwafel sponsor
+    <br/>    <br/>    <br/> <br/>
+    <div class="col-sm-12">
+    	<a href="https://appsignal.com/" title="App Signal" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/appsignal.png" alt="App Signal" width="100%"></a>
+          </div>
+  </div>
 
-        </div>
-      </div>
+<div class="panel">
+    Photographers
+    <br/>    <br/>  <br/> 
+    <div class="col-sm-12">
+    	<a href="http://gigatt.mk/" title="Gigatt" class="partners" target="_blank">
+            	<img class="card-img" src="./images/skopje2019/gigatt.png" alt="Gigatt" height="120px"></a>
+          </div>
+  </div>
 
-      <div class="grid_12 partners">
-        <h3>Gold sponsor</h3>
-        <hr />
-        <div class="grid_4 center padding100">
-          <a href="https://github.com/" title="Github" class="partners" target="_blank">
-            <img src="./images/skopje2019/github.png" alt="Github" height="120px"></a>
-        </div>
-      </div>
-
-      <div class="grid_12 partners">
-        <h3>Silver Sponsors</h3>
-        <hr />
-        <div class="grid_4 padding160">
-          <a href="https://www.jetbrains.com/" title="JetBrains" class="partners" target="_blank">
-            <img src="./images/skopje2019/jetbrains.png" alt="JetBrains" height="160px"></a>
-        </div>
-
-        <div class="grid_4">
-          <a href="http://polnacasa.mk/" title="Pivara Skopje" class="partners" target="_blank">
-            <img src="./images/skopje2019/pivara.jpg" alt="Pivara Skopje" height="160px"></a>
-        </div>
-      </div>
-
-        <div class="grid_12 partners">
-        <h3>The official Stroopwafel sponsor</h3>
-        <hr/><br/>
-        
-        <div class="grid_4 center">
-          <a href="https://appsignal.com/" title="App Signal" class="partners" target="_blank">
-            <img src="./images/skopje2019/appsignal.png" alt="App Signal" height="80px"></a>
-        </div>
-        <br/><br/>
-        </div>
-
-      <div class="grid_12 partners">
-        <h3>Media Partners</h3>
-        <hr />
-        <div class="grid_2">
-          <a href="https://www.it.mk/" title="IT.com.mk" class="partners" target="_blank">
-            <img src="./images/skopje2019/itmk-logo.jpg" alt="IT.com.mk" height="160px"></a>
-        </div>
-        <div class="grid_2">
-          <a href="https://www.macedonia2025.com/" title="Macedonia 2025" class="partners" target="_blank">
-            <img src="./images/skopje2019/mk2025.png" alt="Macedonia 2025" height="150px"></a>
-        </div>
-        <div class="grid_4 padding200">
-          <a href="https://ecommerce.mk/" title="E-Commerce Association" class="partners" target="_blank">
-            <img src="./images/skopje2019/ecommerce_association.jpg" alt="E-Commerce Association" height="100px"></a>
-        </div>
-      </div>
+<div class="panel">
+    Licence sponsor
+    <br/>    <br/> 
+    <div class="col-sm-12 card-img center">
+            	<a href="https://www.jetbrains.com/" title="JetBrains" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/jetbrains.png" alt="JetBrains" width="70%"></a>
+          </div>
+  </div>
 
 
-      <div class="grid_12 partners">
-        <h3>Supporters</h3>
-        <hr />
-        <div class="grid_4 first">
-          <a href="https://dreadpen.com" title="Dreadpen" class="partners" target="_blank">
-            <img src="./images/skopje2019/dreadpen.png" alt="Dreadpen" height="150px"></a>
-        </div>
-        <div class="grid_4">
-          <a href="http://gigatt.mk/" title="Gigatt" class="partners" target="_blank">
-            <img src="./images/skopje2019/gigatt.png" alt="Gigatt" height="140px"></a>
-        </div>
-        <div class="grid_4">
-          <a href="https://mk-mk.facebook.com/pg/RedBull/about/" title="RedBull" class="partners" target="_blank">
-            <img src="./images/skopje2019/redbull.jpg" alt="RedBull" height="140px"></a>
-        </div>
-        <div class="grid_16 first padding140">
-          <a href="https://finki.ukim.mk/" title="ФИНКИ" class="partners" target="_blank">
-            <img src="./images/skopje2019/finki.jpg" alt="ФИНКИ" height="120px"></a>
-        </div>
-        <div class="grid_4"> </div>
-        <div class="grid_4 first">
-          <a href="https://www.facebook.com/spfinki/" title="СП ФИНКИ" class="partners" target="_blank">
-            <img src="./images/skopje2019/spfinki.png" alt="СП ФИНКИ" height="180px"></a>
-        </div>
-        <div class="grid_4"> </div>
-      </div>
-
+  <div class="panel">
+    Wings provider
+    <br/>    <br/>  <br/> 
+    <div class="col-sm-12">
+    	<a href="https://mk-mk.facebook.com/pg/RedBull/about/" title="RedBull" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/redbull.jpg" alt="RedBull" height="120px"></a>
+          </div>
+  </div>
+  
+   <div class="panel long-panel">Supporters
+     <br/>     <br/>
+     <table>
+       <tr> 
+         <th>
+         	<a href="https://www.facebook.com/spfinki/" title="СП ФИНКИ" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/spfinki.png" alt="СП ФИНКИ" height="110px"></a>       
+      </th>
+          <th>
+         	<a href="https://finki.ukim.mk/" title="ФИНКИ" class="partners" target="_blank">
+            <img class="card-img center" src="./images/skopje2019/finki.jpg" alt="ФИНКИ" width="70%"></a>
+        </th>
+            </tr>
+     </table>
+  </div>
+  
+ <div class="panel long-panel">Media Partners
+     <br/>     <br/>
+     <table>
+       <tr> 
+         <th>
+         	<a href="https://www.it.mk/" title="IT.com.mk" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/itmk-logo.jpg" alt="IT.com.mk" height="120px"></a>
+         </th>
+          <th>
+          	<a href="https://www.macedonia2025.com/" title="Macedonia 2025" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/mk2025.png" alt="Macedonia 2025" height="120px"></a>
+       </th> 
+       <th> 
+       	<a href="https://ecommerce.mk/" title="E-Commerce Association" class="partners" target="_blank">
+            <img class="card-img" src="./images/skopje2019/ecommerce_association.jpg" alt="E-Commerce Association" height="100px"></a>
+       </th>
+         </tr>
+     </table>
+    
+  </div>
+  
+</div>
         <div class="coaches">
             <hr />
             <h3>Skopje team</h3>
@@ -529,6 +636,12 @@
                 <a href="https://www.linkedin.com/in/aleksandar-tokarev-9856579b/" class="grid_3" target="_blank">
                     <img src="https://media.licdn.com/dms/image/C4E03AQFYBmtGs0i2cw/profile-displayphoto-shrink_800_800/0?e=1556150400&v=beta&t=z47Y3c7CpPVpXcCzaBAI1uhQj5DTu2_q_255fkQeNLg" alt="avatar">
                     Aleksandar Tokarev
+                    <em>Coach</em>
+                </a>
+
+                <a href="https://github.com/stefanrendevski" class="grid_3" target="_blank">
+                    <img src="images/skopje2019/coach_stefanr.jpg" alt="avatar">
+                    Stefan Rendevski
                     <em>Coach</em>
                 </a>
                 
