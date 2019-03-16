@@ -929,11 +929,9 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
   }
 
-.nagano#promo {
-  padding-left: 420px;
-  background: url('../images/railsgirls-sq.png') no-repeat left top;
-url('../images/separator.png') no-repeat center bottom;
-  background-size: 390px;
+.nagano-1st#promo {
+  padding-left: 400px;
+  background: url('../images/nagano/rg-nagano-1st.png') no-repeat 0 10px;
 }
 
 .ehime#promo {
