@@ -17,6 +17,52 @@
       .coach {
         border-radius: 50px;
       }
+
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+      }
+      .overlay:target {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .popup {
+        margin: 100px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 35%;
+        position: relative;
+        transition: all 5s ease-in-out;
+      }
+      .popup h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
+      .popup .content {
+        max-height: 30%;
+        overflow: auto;
+        line-height: 1.5rem;
+      }
     </style>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
@@ -240,6 +286,32 @@ Steps to show on site
 
           <p>Rails Girls Naganoは以下のすばらしいパートナーとの共同開催です。</p>
           <!-- <p>多数のご支援のお申し出をいただき、ありがとうございました!</p> -->
+
+
+          <p>
+            <a href="http://www.n-bisen.ac.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/nagano/n-bisen.png" alt="Nagano Bisen" width="200"></a>
+            <a href="http://www.n-bisen.ac.jp/">長野美術専門学校</a>は来年で創立50年を迎えます。
+            専修学校の専門課程がいわゆる専門学校と呼ばれ、高卒以上で入学できます。長野県では美術の専門学校はここひとつだけ。
+            教育課程は創立当時からデザイン科が主で、1000人を超える卒業生を送り出しています。
+            <a class="button" href="#popup_bisen">もっと見る</a>
+          </p>
+          <div id="popup_bisen" class="overlay">
+            <div class="popup">
+              <h2>長野美術専門学校</h2>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                <div style="text-align:center;margin-bottom:20px;">
+                  <img src="images/nagano/n-bisen.png" alt="Nagano Bisen" width="200">
+                </div>
+                <a href="http://www.n-bisen.ac.jp/">長野美術専門学校</a>は来年で創立50年を迎えます。
+                専修学校の専門課程がいわゆる専門学校と呼ばれ、高卒以上で入学できます。長野県では美術の専門学校はここひとつだけ。
+                教育課程は創立当時からデザイン科が主で、1000人を超える卒業生を送り出しています。
+                パソコンのおかげでビジネス系やファッション系等でもデザイン授業を行える時代になってきましたが、造形の基礎から実践学習を体系的に確立しているのはやはり他にはできない強み。
+                現在はビジュアルデザイン科の２年制と３年制、ビジュアルアート科、そして上級学科のプロジェクトデザイン工科（高卒以上で社会人経験か専門学校・大学卒が必要）の４学科で、合計100名近くの在学者がいます。
+                美専と呼ばれ親しまれながら、今ますますそのクリエイティブ教育に期待が高まっています。
+              </div>
+            </div>
+          </div>
 
           <p>
             <a href="https://agile.esm.co.jp" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/set-baseE_Y.png" alt="Eiwa System Management" width="200"></a>
