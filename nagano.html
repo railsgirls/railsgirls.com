@@ -17,6 +17,52 @@
       .coach {
         border-radius: 50px;
       }
+
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+      }
+      .overlay:target {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .popup {
+        margin: 100px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 35%;
+        position: relative;
+        transition: all 5s ease-in-out;
+      }
+      .popup h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
+      .popup .content {
+        max-height: 30%;
+        overflow: auto;
+        line-height: 1.5rem;
+      }
     </style>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
@@ -241,6 +287,45 @@ Steps to show on site
           <p>Rails Girls Naganoは以下のすばらしいパートナーとの共同開催です。</p>
           <!-- <p>多数のご支援のお申し出をいただき、ありがとうございました!</p> -->
 
+
+          <p>
+            <a href="http://www.n-bisen.ac.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/nagano/n-bisen.png" alt="Nagano Bisen" width="200"></a>
+            <a href="http://www.n-bisen.ac.jp/">長野美術専門学校</a>は来年で創立50年を迎えます。
+            専修学校の専門課程がいわゆる専門学校と呼ばれ、高卒以上で入学できます。長野県では美術の専門学校はここひとつだけ。
+            教育課程は創立当時からデザイン科が主で、1000人を超える卒業生を送り出しています。
+            <a class="button" href="#popup_bisen">もっと見る</a>
+          </p>
+          <div id="popup_bisen" class="overlay">
+            <div class="popup">
+              <h2>長野美術専門学校</h2>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                <div style="text-align:center;margin-bottom:20px;">
+                  <img src="images/nagano/n-bisen.png" alt="Nagano Bisen" width="200">
+                </div>
+                <a href="http://www.n-bisen.ac.jp/">長野美術専門学校</a>は来年で創立50年を迎えます。
+                専修学校の専門課程がいわゆる専門学校と呼ばれ、高卒以上で入学できます。長野県では美術の専門学校はここひとつだけ。
+                教育課程は創立当時からデザイン科が主で、1000人を超える卒業生を送り出しています。
+                パソコンのおかげでビジネス系やファッション系等でもデザイン授業を行える時代になってきましたが、造形の基礎から実践学習を体系的に確立しているのはやはり他にはできない強み。
+                現在はビジュアルデザイン科の２年制と３年制、ビジュアルアート科、そして上級学科のプロジェクトデザイン工科（高卒以上で社会人経験か専門学校・大学卒が必要）の４学科で、合計100名近くの在学者がいます。
+                美専と呼ばれ親しまれながら、今ますますそのクリエイティブ教育に期待が高まっています。
+              </div>
+            </div>
+          </div>
+
+          <p>
+            <a href="http://pepabo.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/pepabo.png" alt="GMO Pepabo" width="200"></a>
+            <a href="http://pepabo.com/">GMOペパボ株式会社</a>は「もっとおもしろくできる」を企業理念に、
+            自分だけのオリジナルグッズを手軽に作成・販売できる「<a href="https://suzuri.jp/">SUZURI</a>」や
+            国内最大のハンドメイドマーケット「<a href="https://minne.com/">minne</a>」など様々なサービスを提供しています。
+            RubyやRailsを採用した開発環境で「いるだけで成長できる環境」をコンセプトにエンジニアの人材育成やコミュニティへの支援を積極的に行っています。
+          </p>
+          <p>
+            <a href="https://www.shiolab.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/nagano/shiolab.png" alt="Shiolab" width="200"></a>
+            <a href="https://www.shiolab.com/">株式会社シオラボ</a>は長野県塩尻市にあるソフトウェアの会社です。
+            Webシステムの構築・運用・保守、ホームページの制作、IoT開発、小中高生向けプログラミング教室開催などをしています。
+            得意分野は Ruby, Ruby on Rails です。
+          </p>
           <p>
             <a href="https://agile.esm.co.jp" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/set-baseE_Y.png" alt="Eiwa System Management" width="200"></a>
             私たち<a href="https://agile.esm.co.jp">永和システムマネジメント</a>は Ruby や Ruby on Railsを活用したアプリケーションをアジャイルに構築できる日本有数のソフトウェア受託企業です。私たちはお客さまの投資を最大化すべく研鑽を続けています。また、Rubyコミュニティの支援も2006年から積極的に行っています。
