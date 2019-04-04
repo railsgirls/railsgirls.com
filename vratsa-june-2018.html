@@ -5,20 +5,451 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!--  Add your city name, dates and year.  -->
-  <title>Vratsa 08-09 June 2019 - Rails Girls Vratsa 4.0</title>
+  <title>Vratsa 09-10 June 2018- Rails Girls Vratsa 3.0</title>
 
-  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. --> 
-  <meta name="description" content="Rails Girls Vratsa 4.0 е безплатен уъркшоп за дами желаещи да научат малко повече за магическия свят на изработката на уеб приложения. Ще се проведе на 08-09 юни 2019г.">
-  <meta name="author" content="Rails Girls Vratsa 4.0">
+  <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+  <meta name="description" content="Rails Girls Vratsa 3.0 е безплатен уъркшоп за дами, въвеждащ в магическия свят на изработката на уеб приложения. Ще се проведе на 09-10 юни 2018г.">
+  <meta name="author" content="Rails Girls Vratsa 3.0">
   <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png">
-  <meta property="og:title" content="Rails Girls Vratsa 4.0" >
+  <meta property="og:title" content="Rails Girls Vratsa 3.0" >
   <meta property="og:url" content="http://railsgirls.com/vratsa" >
-  <meta property="og:description" content="Rails Girls Vratsa 4.0 е безплатен уъркшоп за дами желаещи да научат малко повече за магическия свят на изработката на уеб приложения. Ще се проведе на 08-09 юни 2019г." >
+  <meta property="og:description" content="Rails Girls Vratsa 3.0 е безплатен уъркшоп за дами, въвеждащ в магическия свят на изработката на уеб приложения. Ще се проведе на 09-10 юни 2018г." >
   
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/vratsa.css">
+  <style type="text/css">
+    .vratsa#promo {
+      padding-left: 340px;
+      background: url('images/vratsa/rg-vratsa.jpg') no-repeat 0 10px;
+    } 
+    .clear {
+      clear: both;
+    }
+    a.signup {
+      display: inline-block;
+      padding: 0.6em 1em;
+      border-radius: 4px;
+      background-color: #e2390c;
+      border-bottom: none;
+      color: #fff;
+      line-height: 1.3em;
+    }
+    a.sponsor {
+      display: block;
+      margin: 2em 0;
+      border: none;
+      color: #666;
+      line-height: 130%;
+      text-align: center;
+      font-size: 0.8em;
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    a.sponsor img {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto 0.5em auto;
+    }
+    .sponsor img,
+    .logos-wall p img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .sponsor:hover {
+      color: #444;
+      opacity: 1;
+    }
+    .sponsor:hover img,
+    .logos-wall p:hover img {
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+    header {
+      padding: 0;
+      height: auto;
+      line-height: 1em;
+      overflow: hidden;
+    }
+    header #logo {
+      padding: 1em 0;
+      width: 140px;
+    }
+    header nav a {
+      display: inline-block;
+      padding: 0.7em 0;
+    }
+    a img {
+      max-width: 100%;
+    }
+    h3.sponsor-type {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    .coaches {
+      margin-right: -20px;
+    }
+    .coaches .grid_3 {
+      height: 80px;
+      margin: 0 20px 30px 0;
+    }
+    .coaches a img,
+    .coaches div.coach img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      margin-bottom: 30px;
+    }
+    .coaches a em,
+    .coaches div.coach em {
+      display: block;
+      font-style: normal;
+      font-size: 0.75em;
+    }
+    .coaches div.coach {
+      color: #e0330c;
+    }
+    .coaches .grid_3:nth-child(4n+4) {
+      margin-right: 20px;
+    }
+    .faq {
+      overflow: hidden;
+      margin-right: -70px;
+    }
+    .faq .column {
+      width: 440px;
+      margin-right: 70px;
+      float: left;
+    }
+    .faq strong {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    #schedule th {
+      white-space: nowrap;
+      padding-right: 0.6em;
+    }
+    #schedule td ol {
+      padding-left: 15px;
+      margin: 1em 0;
+    }
+    #schedule td ol li {
+      color: #222;
+    }
+    #schedule td ol li em {
+      display: block;
+      color: #555;
+    }
+    .regular li {
+      color: #390c00;
+    }
+    .sponsors-wall {
+      clear: both;
+      padding: 3em 0 1em 0;
+      overflow: hidden;
+    }
+    #sponsors.sponsors-wall p {
+      margin-bottom: 2%;
+    }
+    /*.sponsors-wall p {
+      float: left;
+    }*/
+    .logos-wall p {
+      display: block;
+      max-width: 56%;
+      margin: 0 2% 5% 0;
+      float: left;
+    }
+    .logos-wall p:nth-of-type(3n+1) {
+      clear: left;
+    }
+    .logos-wall p a {
+      text-decoration: none;
+      border-bottom: none;
+    }
+    .logos-wall img {
+      max-width: 100%;
+    }
+    img, iframe {
+      max-width: 100%;
+    }
+    iframe.map {
+      border: 0;
+      width: 100%;
+    }
+    body {
+      min-width: 0;
+    }
+    footer {
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #past-editions a {
+      display: block;
+      float: left;
+      max-width: 48%;
+      height: 31%;
+      margin-right: 1.4%;
+      margin-bottom: 2em;
+    }
+    #past-editions a:nth-child(odd) {
+      clear: left;
+    }
+    #past-editions a:last-child {
+      margin-right: 0;
+    }
+    .vratsasoftware-box {
+      margin: 30px 0;
+      border: 1px solid #ddd;
+      border-width: 1px 0 0 0;
+      padding: 2em 0 1em 0;
+    }
+    .vratsasoftware-logo {
+      width: 210px;
+      height: 210px;
+      float: left;
+      margin: 0 2em 1em 0;
+      border-bottom: none;
+    }
+    .vratsasoftware-logo img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .vratsasoftware-logo:hover img {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+    @media (max-width: 960px) {
+      header nav {
+        margin-left: 180px;
+      }
+      .container_12 .grid_12,
+      .container_16 .grid_16 {
+        max-width: 940px;
+        width: auto;
+      }
+      .vratsa#promo {
+        padding-left: 0;
+        background: none;
+      }
+      .coaches .grid_3 {
+        width: 30%;
+      }
+      .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+        margin-right: 1%;
+      }
+      .container_12 .grid_6,
+      .container_16 .grid_8 {
+        width: 49%;
+      }
+      .container_12 .push_1 {
+        left: 6%;
+      }
+      .container_12 .grid_5 {
+        width: 40%;
+      }
+      .container_12 .grid_4 {
+        width: 30%;
+      }
+      .container_12 .grid_4 p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    @media (max-width: 750px) {
+      header {
+        text-align: center;
+      }
+      header #logo {
+        float: none;
+        display: inline-block;
+      }
+      header nav {
+        margin-left: 0;
+        clear: left;
+      }
+      .container_12 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    @media (max-width: 639px) {
+      #promo.new h1 {
+        height: auto;
+        font-size: 40px;
+      }
+      .vratsa#promo {
+        padding-bottom: 0;
+      }
+      .feature p {
+        padding: 0;
+        margin: 1em 0;
+      }
+      .side h3 {
+        margin-top: 1.5em;
+      }
+      .page h1 {
+        line-height: 1.2em;
+      }
+      .container_12 .push_1 {
+        left: 0;
+      }
+      .container_16 .grid_8,
+      .container_12 .grid_6,
+      .container_12 .grid_5,
+      .container_12 .grid_4,
+      .container_12 .grid_3 {
+        width: auto;
+        float: none;
+        display: block;
+      }
+      .logos-wall p:nth-of-type(3n+1) {
+        clear: none;
+      }
+      .logos-wall p:nth-of-type(2n+1) {
+        clear: left;
+      }
+      .logos-wall p {
+        max-width: 48%;
+        margin: 0 2% 2% 0;
+      }
+      #past-editions a {
+        float: none;
+        width: auto;
+        max-width: 100%;
+      }
+      #team .grid_3 {
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+    @media (max-width: 450px) {
+      #team .grid_3 {
+        float: none;
+        width: auto;
+      }
+    }
+    .event-cover
+    {
+    background: url('images/vratsa/rg_vr_1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    height: 90vh;
+    width: 100%;
+    }
+    .event-info
+    {
+       display: table-cell;
+vertical-align: middle;
+text-align: center;
+padding: 3em 0 0;
+position: relative;
+    }
+    .event-info h1 {
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+height: 80px;
+font-weight: bold;
+color: #fff;
+font-size: 52px;
+margin-bottom: 60px;
+line-height: 1.1;
+text-indent: 0;
+    }
+    .event-info h1 small 
+    {
+      display: block;
+font-size: 24px;
+color: #fff;
+font-weight: normal;
+letter-spacing: 3px;
+    }
+   /* .event-info*/ .shortcuts li
+    {
+      color: #fff;
+      display: inline;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+    .shortcuts a :hover
+    {
+      
+      color: #bdc3c7;
+    }
+    /* .event-info */.shortcuts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*padding-bottom: 10px;*/
+}
+.sub-menu
+{  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  display: table-footer-group;
+  text-align: center;
+}
+.more-about
+{
+  background: url('images/vratsa/icons.png') no-repeat center top;
+ 
+  text-align: center;
+    }
+    .our-logos
+    {
+       padding-top: 50px;
+    }
+    .our-logos img
+    {
+      display: inline-block;
+    }
+    .registration
+    {
+      color: #fff;
+      text-decoration: none;
+      font-size: 25px;
+      border: 4px solid #fff;
+      padding: 15px 15px 15px 15px;
+     /* border-color:#fff;*/
+    }
+    .registration:hover
+    {
+      color: #e0330c;
+      background-color: #fff;
+    }
+    @media (max-width: 450px) {
+     .event-info h1 {
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+height: 80px;
+font-weight: bold;
+color: #fff;
+font-size: 52px;
+margin-bottom: 100px;
+line-height: 1.1;
+text-indent: 0;
+    }
+    }
+   
+  </style>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
@@ -27,7 +458,6 @@
   <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-<!-- WE DO NOT CHANGE THE HEADER -->
   <header>
     <div class="container_12">
       <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
@@ -40,17 +470,30 @@
       </nav>
     </div>
   </header>
-<!-- START CHANGES FROM HERE -->
 
+    <!--   How to change the picture & header for site
+    In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+    Steps to show on site
+    1. Go to style.css
+    2. Add these lines, always replacing 'yourcityname' with your actual city name.
+            .yourcityname#promo {
+              padding-left:340px;
+              background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                             url('../images/separator.png') no-repeat center bottom;
+            }
+            It will take a while before the changes show, so don't panic!
+    -->
+
+    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
      <div class="header-vrasta">
         <div class="event-cover">
             <div class="event-info">
             <h1>
-            Rails Girls Vratsa 4.0
-            </h1>
-         <!--   <small> 08-09 юни 2019г.</small> 
-        <p class="reg-btn"> <a href="https://goo.gl/forms/dn0XiPGXthq2aslz1" class="registration">Регистрирай се тук!</a> </p>  -->
-        <p class="reg-btn"> <a href="#" class="registration"> Очаквайте скоро!</a> </p> 
+            Rails Girls Vratsa 3.0
+            <small> 09-10 юни 2018г.</small> 
+          </h1>
+<!--        <p class="reg-btn"> <a href="#" class="registration"> Очаквайте скоро!</a> </p> 
+          <p class="reg-btn"> <a href="https://goo.gl/forms/dn0XiPGXthq2aslz1" class="registration">Регистрирай се тук!</a> </p>  -->
           </div>
           <div class="sub-menu">
              <ul class="shortcuts">
@@ -62,7 +505,9 @@
             <a href="#code-of-conduct"><li>Кодекс на поведение</li></a>
           </ul>
         </div>
-        </div>   
+        </div>
+        
+       
     </div>
 
     <div id="container" class="container_12 page clearfix">
@@ -80,16 +525,16 @@
             Основната ни цел е да ви покажем, че програмирането е забавно, интересно, вълнуващо и много полезно умение, като ви помогнем да създадете своето първо уеб приложение, в приятна атмосфера и под ръководството на опитни инструктори. Ще ви ориентираме и вие ще решите дали и как да продължите.
           </p>
 
-         <p>
+         <!--<p>
             <strong>Очаквайте подробности! </strong> <a href="#thanks"><strong>Благодарим ви!</strong></a>
-          </p> 
+            </p> -->
            
-<!--
+
           <p>
             <a href="https://goo.gl/forms/dn0XiPGXthq2aslz1" class="signup"> -> Регистрай се тук  <- </a>
           </p> 
 
-     <p><strong>Регистрацията ще отвори скоро.</strong></p>  -->
+<!--     <p><strong>Регистрацията ще отвори скоро.</strong></p>  -->
 
           <!-- <p>
             Регистрацията ще отвори тук на обяд във вторник, 28 юли. Ще е активна до 3 август, включително. Местата са силно ограничени.
@@ -117,14 +562,14 @@
           </p>  -->
 
           <!-- <p>Очакваме ви!</p> -->
-         <!--  <p>
+          <p>
             Ако желаете да ви изпращаме известия за предстоящи Rails Girls събития,
             или важни новини около тях, абонирайте се за <a href="http://eepurl.com/POSQ1">новинарския ни бюлетин</a>. Изпращаме няколко писма на година.
-          </p>  -->
+          </p>
 
           <p>
-            Следете ни в <a href="https://www.facebook.com/railsgirlsvratsa/">Facebook</a> за новини около събитието.
-
+            Следете ни в <a href="https://twitter.com/railsgirlssofia">Twitter</a> или <a href="https://www.facebook.com/railsgirlsvratsa/">Facebook</a> за новини около събитието.
+            Присъединете се в групата <a href="https://www.facebook.com/groups/RailsGirlsSofia/" target="_blank">Rails Girls Sofia</a>.
           </p>
 
           <p>Очакваме всички, присъстващи на събитието, да са се запознали с и да спазват нашия <a href="#code-of-conduct">кодекс на поведение</a>.</p>
@@ -196,7 +641,7 @@
         </a>
 
         <p>
-          Четвъртото издание на Rails Girls Vratsa се случва съвместно с организацията на <a href="http://school.vratsasoftware.com/">Vratsa Software </a>.
+          Третото издание на Rails Girls Vratsa се случва съвместно с организацията на <a href="http://school.vratsasoftware.com/">Vratsa Software </a>.
         </p>
 
         <p>
@@ -235,10 +680,10 @@
 
         <div class="grid_6 alpha" id="schedule">
           <h1>Програма</h1>
-         <!--  <p><strong><em>Предстоят промени в програмата, но началният час и продължителността ще се запазят.</em></strong></p> -->
-             <h2>Очаквайте скоро!</h2> 
+         <!--  <p><strong><em>Предстоят промени в програмата, но началният час и продължителността ще се запазят.</em></strong></p> 
+             <h2>Очаквайте скоро!</h2> -->
          <!-- <h2>Събота, 15 август 2015 г.</h2> -->
-       <!--  <h2>Събота, 09 юни 2018г.</h2>
+        <h2>Събота, 09 юни 2018г.</h2>
           <table>
             <tbody>
               <tr>
@@ -350,7 +795,7 @@
           </tr> 
 
           </tbody>
-        </table> -->
+        </table>
          <!-- <h2 id="materials">Материали от събитието</h2>
           <ul>
             <li>
@@ -370,11 +815,11 @@
         <div class="grid_5 push_1 omega side">
         <h3 id="venue">Място</h3>
           <p>
-      <!--       
+            
          Младежки Център – Враца
          ул. „Иван Андрейчин“ № 2
           </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.4908063660005!2d23.543665715056857!3d43.19919397913949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ab18d900357ee7%3A0xf31e70f9911ffeef!2sul.+%22Ivan+Saint+Andreychin%22+2%2C+3000+Vratsa!5e0!3m2!1sen!2sbg!4v1497462548409" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.4908063660005!2d23.543665715056857!3d43.19919397913949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ab18d900357ee7%3A0xf31e70f9911ffeef!2sul.+%22Ivan+Saint+Andreychin%22+2%2C+3000+Vratsa!5e0!3m2!1sen!2sbg!4v1497462548409" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
           <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
 
@@ -407,15 +852,11 @@
 
       <div class="grid_12 alpha" id="past-editions">
         <h1>Минали издания</h1>
-         <a href="vratsa-june-2018">
-          <h4>Rails Girls Vratsa 3.0, юни 2018</h4>
-          <img src="images/vratsa/rg3.jpg" alt="Rails Girls Vratsa 3.0" />
-        </a>
-        <a href="vratsa-june-2017">
+        <a href="vratsa_june_2017">
           <h4>Rails Girls Vratsa 2.0, юни 2017</h4>
           <img src="images/vratsa/DSC_4974.jpg" alt="Rails Girls Vratsa 2.0" />
         </a>
-        <a href="vratsa-june-2016">
+        <a href="vratsa_june_2016">
           <h4>Rails Girls Vratsa 1.0, юни 2016</h4>
           <img src="images/vratsa/DSC_9157.jpg" alt="Rails Girls Vratsa 1.0" />
         </a>
@@ -558,7 +999,7 @@
         Калоян Кръстев
           <em>инструктор </em>
         </a> 
-       <!--  <a href="https://www.facebook.com/nobodylovesm3" class="grid_3">
+        <a href="https://www.facebook.com/nobodylovesm3" class="grid_3">
           <img src="http://graph.facebook.com/100000405146362/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">       
         Мартин Ценов
           <em>инструктор </em>
@@ -585,7 +1026,7 @@
           <img src="http://graph.facebook.com/100001197722170/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">       
       Никола Узунов
           <em>инструктор </em>
-        </a>  -->
+        </a> 
  <!--
          <a href="https://www.facebook.com/todorovaeva" class="grid_3">
           <img src="http://graph.facebook.com/670900692/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
@@ -632,6 +1073,428 @@
         </a> 
 -->
 
+       <!-- <a href="https://twitter.com/gerganapassy" class="grid_3">
+          <img src="http://graph.facebook.com/100000846584201/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Гергана Паси
+          <em>организатор</em>
+          <small>@gerganapassy</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/Kasapoff" class="grid_3">
+          <img src="http://graph.facebook.com/100000017232796/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Георги Касапов
+          <em>организатор</em>
+        </a> -->
+
+       <!-- <a href="https://twitter.com/mitio" class="grid_3">
+          <img src="http://gravatar.com/avatar/9d3a04d8252ce89d5edbb0268af7ad8e?s=100" alt="Аватар">
+          Димитър Димитров
+          <em>организатор</em>
+          <small>@mitio</small>
+        </a>
+        <a href="https://www.facebook.com/dimitar.smilyanov" class="grid_3">
+          <img src="http://gravatar.com/avatar/79057a0a5ca51933d22930997ec3bf61?s=100" alt="Аватар">
+          Димитър Смилянов
+          <em>инструктор, организатор</em>
+          <small>@ShadowmarN</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/elena.nikolova.526" class="grid_3">
+          <img src="http://graph.facebook.com/1018326022/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Елена Николова
+          <em>организатор</em>
+        </a> -->
+
+       <!-- <a href="https://www.facebook.com/cactusmactus.okay" class="grid_3">
+          <img src="http://graph.facebook.com/1529976945/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Колева
+          <em>организатор</em>
+          <small>@MaartinaK</small>
+        </a>
+        <a href="https://www.facebook.com/martaradeva" class="grid_3">
+          <img src="http://graph.facebook.com/625194590/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Радева
+          <em>организатор, инструктор</em>
+        </a>
+        <a href="https://vasil.ludost.net/" class="grid_3">
+          <img src="http://gravatar.com/avatar/3068da32382a367ee85d4f362f28754e?s=100" alt="Аватар">
+          Васил Колев
+          <em>магьосник</em>
+          <small>@krokodilerian</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/akseniyap" class="grid_3">
+          <img src="http://gravatar.com/avatar/d0928ebc4e6dcd5de99fbf2e759a4602?s=100" alt="Аватар">
+          Аксения Пенкова
+          <em>инструктор</em>
+          <small>@akseniyap</small>
+        </a> -->
+
+        <!-- <a href="http://stackoverflow.com/users/599686/bliof" class="coach grid_3">
+          <img src="http://gravatar.com/avatar/6e2b017e2266ab3c15e0439a1ca10946?s=80" alt="Аватар">
+          Александър Иванов
+          <em>инструктор</em>
+          <small>@bliof</small>
+        </a> -->
+
+        <!-- <a href="https://github.com/AlexVPopov" class="coach grid_3">
+          <img src="http://gravatar.com/avatar/058744c91d324bf29bb5423b5ce7bdde?s=80" alt="Аватар">
+          Александър Попов
+          <em>инструктор</em>
+        </a> -->
+
+       <!-- <a href="https://twitter.com/andrewradev" class="grid_3">
+          <img src="http://gravatar.com/avatar/fc59401781a26b10f5d4fc5b758fb3b7?s=100" alt="Аватар">
+          Андрей Радев
+          <em>инструктор</em>
+          <small>@andrewradev</small>
+        </a> 
+        <a href="https://twitter.com/bppetrov" class="grid_3">
+          <img src="http://gravatar.com/avatar/62937e4bfb5442d82e414534fbf27fa7?s=100" alt="Аватар">
+          Борис Петров
+          <em>инструктор</em>
+          <small>@bppetrov</small>
+        </a>
+        <a href="https://www.facebook.com/branimira" class="grid_3">
+          <img src="https://graph.facebook.com/623599003/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Бранимира Тодорова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/bostko" class="grid_3">
+          <img src="https://graph.facebook.com/1714376324/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Валентин Ейткен
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/vasil.manolov.90" class="grid_3">
+          <img src="https://graph.facebook.com/1552710547/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Васил Манолов
+          <em>инструктор</em>
+        </a> -->
+
+        <!--<a href="https://twitter.com/vsakarov" class="grid_3">
+          <img src="https://graph.facebook.com/588640387/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Васил Сакъров
+          <em>инструктор</em>
+          <small>@vsakarov</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/ventzy.velkov" class="grid_3">
+          <img src="http://gravatar.com/avatar/ce82cd94071b7b99854e09cf67a393c0?s=100" alt="Аватар">
+          Венцислав Велков
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/v_aleksiev" class="grid_3">
+          <img src="http://gravatar.com/avatar/a5d7e3f09a25de65227b8846342ea0b2?s=100" alt="Аватар">
+          Владимир Алексиев
+          <em>инструктор</em>
+          <small>@v_aleksiev</small>
+        </a> -->
+
+       <!-- <a href="https://twitter.com/sial_ari" class="grid_3">
+          <img src="http://gravatar.com/avatar/26b9624036ca1f5794d551a979da1f0e?s=100" alt="Аватар">
+          Владимир Тодоров
+          <em>инструктор</em>
+          <small>@sial_ari</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/gsamokovarov" class="grid_3">
+          <img src="http://gravatar.com/avatar/1ac5a00efa41cd58c421d3cd98dda7b9?s=100" alt="Аватар">
+          Генади Самоковаров
+          <em>инструктор</em>
+          <small>@gsamokovarov</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/stormbreakerbg" class="grid_3">
+          <img src="http://gravatar.com/avatar/18d98db711546c2e761c9f760bd16779?s=100" alt="Аватар">
+          Георги Ангелов
+          <em>инструктор</em>
+          <small>@stormbreakerbg</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/deni_bel" class="grid_3">
+          <img src="images/rubie-100.png" alt="Аватар">
+          Деница Белогушева
+          <em>инструктор</em>
+          <small>@deni_bel</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/dshalvardjiev" class="grid_3">
+          <img src="http://gravatar.com/avatar/5f4c597a5e82b68552292c7d77748ac0?s=100" alt="Аватар">
+          Димитър Шалварджиев
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/ek.goranova" class="grid_3">
+          <img src="http://gravatar.com/avatar/93306f737bb108cc84ac12b0f5897b9e?s=100" alt="Аватар">
+          Екатерина Горанова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://plus.google.com/u/0/104361993674663591171/posts" class="grid_3">
+          <img src="http://gravatar.com/avatar/5e3fda595e39570f120c358275ddb40d?s=100" alt="Аватар">
+          Емануела Моллова
+          <em>инструктор</em>
+        </a> -->
+
+     <!--   <a href="https://www.facebook.com/profile.php?id=100002828012654" class="grid_3">
+          <img src="http://gravatar.com/avatar/501d77b45add7c0ba18bff610afc210f?d=identicon" alt="Аватар">
+          Емил Станчев
+          <em>инструктор</em>
+        </a> 
+        <a href="https://twitter.com/ivangeloff" class="grid_3">
+          <img src="http://gravatar.com/avatar/981aedc406b82b5e5acab9afacf8c28b?s=100" alt="Аватар">
+          Иван Ангелов
+          <em>инструктор</em>
+          <small>@ivangeloff</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/fake_heal" class="grid_3">
+          <img src="http://graph.facebook.com/1234821768/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Иванка Тодорова
+          <em>инструктор</em>
+          <small>@fake_heal</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/karadimov" class="grid_3">
+          <img src="http://gravatar.com/avatar/05d76051cf29faaf40f7982cf3f23275?s=100" alt="Аватар">
+          Йоан Карадимов
+          <em>инструктор</em>
+          <small>@karadimov</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/Markoffy" class="grid_3">
+          <img src="http://gravatar.com/avatar/1141cc2242db75c0df0cd77b1b5dc239?s=100" alt="Аватар">
+          Йоан Марков
+          <em>инструктор</em>
+          <small>@Markoffy</small>
+        </a> -->
+
+       <!-- <a href="https://twitter.com/pau4o" class="grid_3">
+          <img src="http://gravatar.com/avatar/6e634a2ec9a569f1a2b8102434c9c513?s=100" alt="Аватар">
+          Камен Найденов
+          <em>инструктор</em>
+          <small>pau4o</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/tastybyte" class="grid_3">
+          <img src="http://www.gravatar.com/avatar/a60aa51c1eaff544592b964641de1ca9?s=100" alt="Аватар">
+          Красимира Малджанска
+          <em>инструктор</em>
+          <small>tastybyte</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/skirmisherr" class="grid_3">
+          <img src="http://gravatar.com/avatar/4d23abcedc3b4dc773caac56d54401fc" alt="Аватар">
+          Любомир Тошев
+          <em>инструктор</em>
+        </a>
+        <a href="https://twitter.com/mario_daskalov" class="grid_3">
+          <img src="http://gravatar.com/avatar/4314026cf587ea9b3947ed1b0437857d?s=100" alt="Аватар">
+          Марио Даскалов
+          <em>инструктор</em>
+          <small>@mario_daskalov</small>
+        </a>
+        <a href="https://www.facebook.com/martin.mihaylov.180" class="grid_3">
+          <img src="http://gravatar.com/avatar/d30ba58df61b07efb95c8c0516d38947?s=80" alt="Аватар">
+          Мартин Михайлов
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/martin.popov.martin" class="grid_3">
+          <img src="https://graph.facebook.com/1464651401/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартин Попов
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/profile.php?id=100005446364648" class="grid_3">
+          <img src="http://gravatar.com/avatar/878a0939def049de98b2f39e1c3973de?s=100" alt="Аватар">
+          Мартин Райков
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/martaradeva" class="grid_3">
+          <img src="https://graph.facebook.com/625194590/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Мартина Радева
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/milena.drenska" class="grid_3">
+          <img src="https://graph.facebook.com/817388941/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Милена Дренска
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://github.com/mirosr" class="grid_3">
+          <img src="http://gravatar.com/avatar/14ab50ff328dbe1798a259edc4750e64?s=100" alt="Аватар">
+          Мирослав Рачев
+          <em>инструктор</em>
+        </a> -->
+
+       <!--  <a href="http://plus.google.com/116834019247226666431" class="grid_3">
+         <img src="http://gravatar.com/avatar/3810ded3471e4b75c3eab054abd09ee0?s=100" alt="Аватар">
+          Моника Димитрова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/NikolaKirev" class="grid_3">
+          <img src="http://gravatar.com/avatar/a43745f7d97aa05c320cfb001ae57064?s=100" alt="Аватар">
+          Никола Кирев
+          <em>инструктор</em>
+          <small>@NikolaKirev</small>
+        </a> -->
+
+        <!--<a href="https://twitter.com/_nyxz" class="grid_3">
+          <img src="http://gravatar.com/avatar/de3fe23e6f6dc7d6092b6b777a60c676?s=80" alt="Аватар">
+          Николай Георгиев
+          <em>инструктор</em>
+          <small>@_nyxz</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/n1ghtwatch" class="grid_3">
+          <img src="http://gravatar.com/avatar/da0374ea874abc88869f7344d8603b88?s=100" alt="Аватар">
+          Павлина Колева
+          <em>инструктор</em>
+          <small>@n1ghtwatch</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/PetyaRuskova" class="grid_3">
+          <img src="http://gravatar.com/avatar/bcc52e7c96a085b806bab71878507afb?s=100" alt="Аватар">
+          Петя Рускова
+          <em>инструктор</em>
+          <small>@PetyaRuskova</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/psstoev" class="grid_3">
+          <img src="http://gravatar.com/avatar/fec7e1a5fe64b4382b8b924c55da2272?s=100" alt="Аватар">
+          Пламен Стоев
+          <em>инструктор</em>
+          <small>@psstoev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/rado_g" class="grid_3">
+          <img src="https://avatars3.githubusercontent.com/u/387867?v=2&s=100" alt="Аватар">
+          Радослав Георгиев
+          <em>инструктор</em>
+          <small>@rado_g</small>
+        </a> -->
+
+       <!-- <a href="https://twitter.com/rstankov" class="grid_3">
+          <img src="http://gravatar.com/avatar/7a0e72a6f55811246bb5d9a946fd2e49?s=100" alt="Аватар">
+          Радослав Станков
+          <em>инструктор</em>
+          <small>@rstankov</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/rosko132" class="grid_3">
+          <img src="http://gravatar.com/avatar/04392ce7e4ee1114bec03fd73abff282?s=100" alt="Аватар">
+          Росен Рачев
+          <em>инструктор</em>
+          <small>@rosko132</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/kanmeiban" class="grid_3">
+          <img src="http://graph.facebook.com/100007314455305/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Сава Чанков
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/buhtum" class="grid_3">
+          <img src="http://gravatar.com/avatar/f4f7a92de896248a1674d235a0c37778?s=100" alt="Аватар">
+          Свилен Иванов
+          <em>инструктор</em>
+          <small>@buhtum</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/sovanesyan" class="grid_3">
+          <img src="http://gravatar.com/avatar/912bc7c7ce97aeaca308a07713cd7f60?s=100" alt="Аватар">
+          Серж Ованесян
+          <em>инструктор</em>
+          <small>@sovanesyan</small>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/slav.vasileva" class="grid_3">
+          <img src="https://graph.facebook.com/589157229/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Славена Василева
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/snejy.spasova" class="grid_3">
+          <img src="http://gravatar.com/avatar/020f04049380205dcd72d1ead55294f2?s=100" alt="Аватар">
+          Снежана Спасова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://www.facebook.com/e4Qh5Bc4Qf7x" class="grid_3">
+          <img src="https://graph.facebook.com/100000243194722/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          София Петрова
+          <em>инструктор</em>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/stanbb" class="grid_3">
+          <img src="http://gravatar.com/avatar/50618854fcf4aa335e6d4086b10861fa?s=100" alt="Аватар">
+          Станислав Божков
+          <em>инструктор</em>
+          <small>@stanbb</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/skanev" class="grid_3">
+          <img src="http://gravatar.com/avatar/5ca07e641fada5a88a09277c45bd7c1b?s=100" alt="Аватар">
+          Стефан Кънев
+          <em>инструктор</em>
+          <small>@skanev</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/TsetsiMetsi" class="grid_3">
+          <img src="http://gravatar.com/avatar/62def0b7f6b3fdffd205037d78c0de6f?s=100" alt="Аватар">
+          Цанка Енчева
+          <em>инструктор</em>
+          <small>@TsetsiMetsi</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/ts_borisova" class="grid_3">
+          <img src="http://gravatar.com/avatar/407961424f12d857dc77c09f9b296a16?s=100" alt="Аватар">
+          Цветелина Борисова
+          <em>инструктор</em>
+          <small>@ts_borisova</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/tsvetomila" class="grid_3">
+          <img src="http://gravatar.com/avatar/980832429e55ae709d350ca2954d4bf0?s=100" alt="Аватар">
+          Цветомила Михайлова
+          <em>инструктор</em>
+          <small>@tsvetomila</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/ypetrova" class="grid_3">
+          <img src="http://gravatar.com/avatar/430d943d3e6f2c61d70d8e548a08b7ce?s=100" alt="Аватар">
+          Яна Петрова
+          <em>инструктор</em>
+          <small>@ypetrova</small>
+        </a> -->
+
+        <!--<a href="http://zecho.info" class="grid_3">
+          <img src="http://gravatar.com/avatar/7c82826e912039e186be743fdf17f0a3?s=100" alt="Аватар">
+          Янко Симеонов
+          <em>инструктор</em>
+          <small>@zecho23</small>
+        </a> -->
+
+        <!-- <a href="https://twitter.com/koledan" class="grid_3">
+          <img src="http://gravatar.com/avatar/f149d52a2f4b4729880d33b052bd94da?s=100" alt="Аватар">
+          Владимир Каладан Петков
+          <em>фотограф</em>
+          <small>@koledan</small>
+        </a> -->
+
+        <!--<a href="https://www.facebook.com/maximilian.berovsky" class="grid_3">
+          <img src="https://graph.facebook.com/1199888613/picture?type=square&amp;width=100&amp;height=100" alt="Аватар">
+          Максимилиан Беровски
+          <em>фотограф</em>
+        </a>
+      </div> -->
 
       <hr />
 
