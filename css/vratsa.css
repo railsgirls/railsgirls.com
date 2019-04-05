@@ -1,0 +1,444 @@
+   /*How to change the picture & header for site
+    In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+    Steps to show on site
+    1. Go to style.css
+    2. Add these lines, always replacing 'yourcityname' with your actual city name.
+            .yourcityname#promo {
+              padding-left:340px;
+              background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                             url('../images/separator.png') no-repeat center bottom;
+            }
+            It will take a while before the changes show, so don't panic!
+ Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates*/
+
+
+
+.vratsa#promo {
+      padding-left: 340px;
+      background: url('../images/vratsa/rg-vratsa.jpg') no-repeat 0 10px;
+    } 
+    .clear {
+      clear: both;
+    }
+    a.signup {
+      display: inline-block;
+      padding: 0.6em 1em;
+      border-radius: 4px;
+      background-color: #e2390c;
+      border-bottom: none;
+      color: #fff;
+      line-height: 1.3em;
+    }
+    a.sponsor {
+      display: block;
+      margin: 2em 0;
+      border: none;
+      color: #666;
+      line-height: 130%;
+      text-align: center;
+      font-size: 0.8em;
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    a.sponsor img {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto 0.5em auto;
+    }
+    .sponsor img,
+    .logos-wall p img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .sponsor:hover {
+      color: #444;
+      opacity: 1;
+    }
+    .sponsor:hover img,
+    .logos-wall p:hover img {
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+    header {
+      padding: 0;
+      height: auto;
+      line-height: 1em;
+      overflow: hidden;
+    }
+    header #logo {
+      padding: 1em 0;
+      width: 140px;
+    }
+    header nav a {
+      display: inline-block;
+      padding: 0.7em 0;
+    }
+    a img {
+      max-width: 100%;
+    }
+    h3.sponsor-type {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    .coaches {
+      margin-right: -20px;
+    }
+    .coaches .grid_3 {
+      height: 80px;
+      margin: 0 20px 30px 0;
+    }
+    .coaches a img,
+    .coaches div.coach img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      margin-bottom: 30px;
+    }
+    .coaches a em,
+    .coaches div.coach em {
+      display: block;
+      font-style: normal;
+      font-size: 0.75em;
+    }
+    .coaches div.coach {
+      color: #e0330c;
+    }
+    .coaches .grid_3:nth-child(4n+4) {
+      margin-right: 20px;
+    }
+    .faq {
+      overflow: hidden;
+      margin-right: -70px;
+    }
+    .faq .column {
+      width: 440px;
+      margin-right: 70px;
+      float: left;
+    }
+    .faq strong {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    #schedule th {
+      white-space: nowrap;
+      padding-right: 0.6em;
+    }
+    #schedule td ol {
+      padding-left: 15px;
+      margin: 1em 0;
+    }
+    #schedule td ol li {
+      color: #222;
+    }
+    #schedule td ol li em {
+      display: block;
+      color: #555;
+    }
+    .regular li {
+      color: #390c00;
+    }
+    .sponsors-wall {
+      clear: both;
+      padding: 3em 0 1em 0;
+      overflow: hidden;
+    }
+    #sponsors.sponsors-wall p {
+      margin-bottom: 2%;
+    }
+    /*.sponsors-wall p {
+      float: left;
+    }*/
+    .logos-wall p {
+      display: block;
+      max-width: 56%;
+      margin: 0 2% 5% 0;
+      float: left;
+    }
+    .logos-wall p:nth-of-type(3n+1) {
+      clear: left;
+    }
+    .logos-wall p a {
+      text-decoration: none;
+      border-bottom: none;
+    }
+    .logos-wall img {
+      max-width: 100%;
+    }
+    img, iframe {
+      max-width: 100%;
+    }
+    iframe.map {
+      border: 0;
+      width: 100%;
+    }
+    body {
+      min-width: 0;
+    }
+    footer {
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #past-editions a {
+      display: block;
+      float: left;
+      max-width: 48%;
+      height: 31%;
+      margin-right: 1.4%;
+      margin-bottom: 2em;
+    }
+    #past-editions a:nth-child(odd) {
+      clear: left;
+    }
+    #past-editions a:last-child {
+      margin-right: 0;
+    }
+    .vratsasoftware-box {
+      margin: 30px 0;
+      border: 1px solid #ddd;
+      border-width: 1px 0 0 0;
+      padding: 2em 0 1em 0;
+    }
+    .vratsasoftware-logo {
+      width: 210px;
+      height: 210px;
+      float: left;
+      margin: 0 2em 1em 0;
+      border-bottom: none;
+    }
+    .vratsasoftware-logo img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.7;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      transition: all linear 0.3s;
+    }
+    .vratsasoftware-logo:hover img {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+    @media (max-width: 960px) {
+      header nav {
+        margin-left: 180px;
+      }
+      .container_12 .grid_12,
+      .container_16 .grid_16 {
+        max-width: 940px;
+        width: auto;
+      }
+      .vratsa#promo {
+        padding-left: 0;
+        background: none;
+      }
+      .coaches .grid_3 {
+        width: 30%;
+      }
+      .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+        margin-right: 1%;
+      }
+      .container_12 .grid_6,
+      .container_16 .grid_8 {
+        width: 49%;
+      }
+      .container_12 .push_1 {
+        left: 6%;
+      }
+      .container_12 .grid_5 {
+        width: 40%;
+      }
+      .container_12 .grid_4 {
+        width: 30%;
+      }
+      .container_12 .grid_4 p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    @media (max-width: 750px) {
+      header {
+        text-align: center;
+      }
+      header #logo {
+        float: none;
+        display: inline-block;
+      }
+      header nav {
+        margin-left: 0;
+        clear: left;
+      }
+      .container_12 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    @media (max-width: 639px) {
+      #promo.new h1 {
+        height: auto;
+        font-size: 40px;
+      }
+      .vratsa#promo {
+        padding-bottom: 0;
+      }
+      .feature p {
+        padding: 0;
+        margin: 1em 0;
+      }
+      .side h3 {
+        margin-top: 1.5em;
+      }
+      .page h1 {
+        line-height: 1.2em;
+      }
+      .container_12 .push_1 {
+        left: 0;
+      }
+      .container_16 .grid_8,
+      .container_12 .grid_6,
+      .container_12 .grid_5,
+      .container_12 .grid_4,
+      .container_12 .grid_3 {
+        width: auto;
+        float: none;
+        display: block;
+      }
+      .logos-wall p:nth-of-type(3n+1) {
+        clear: none;
+      }
+      .logos-wall p:nth-of-type(2n+1) {
+        clear: left;
+      }
+      .logos-wall p {
+        max-width: 48%;
+        margin: 0 2% 2% 0;
+      }
+      #past-editions a {
+        float: none;
+        width: auto;
+        max-width: 100%;
+      }
+      #team .grid_3 {
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+    @media (max-width: 450px) {
+      #team .grid_3 {
+        float: none;
+        width: auto;
+      }
+    }
+    .event-cover
+    {
+    background: url('../images/vratsa/rg_vr_1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    height: 90vh;
+    width: 100%;
+    }
+    .event-info
+    {
+       display: table-cell;
+vertical-align: middle;
+text-align: center;
+padding: 3em 0 0;
+position: relative;
+    }
+    .event-info h1 {
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+height: 80px;
+font-weight: bold;
+color: #fff;
+font-size: 52px;
+margin-bottom: 60px;
+line-height: 1.1;
+text-indent: 0;
+    }
+    .event-info h1 small 
+    {
+      display: block;
+font-size: 24px;
+color: #fff;
+font-weight: normal;
+letter-spacing: 3px;
+    }
+   /* .event-info*/ .shortcuts li
+    {
+      color: #fff;
+      display: inline;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+    .shortcuts a :hover
+    {
+      
+      color: #bdc3c7;
+    }
+    /* .event-info */.shortcuts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*padding-bottom: 10px;*/
+}
+.sub-menu
+{  font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+  display: table-footer-group;
+  text-align: center;
+}
+.more-about
+{
+  background: url('../images/vratsa/icons.png') no-repeat center top;
+ 
+  text-align: center;
+    }
+    .our-logos
+    {
+       padding-top: 50px;
+    }
+    .our-logos img
+    {
+      display: inline-block;
+    }
+    .registration
+    {
+      color: #fff;
+      text-decoration: none;
+      font-size: 25px;
+      border: 4px solid #fff;
+      padding: 15px 15px 15px 15px;
+     /* border-color:#fff;*/
+    }
+    .registration:hover
+    {
+      color: #e0330c;
+      background-color: #fff;
+    }
+    @media (max-width: 450px) {
+     .event-info h1 {
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+height: 80px;
+font-weight: bold;
+color: #fff;
+font-size: 52px;
+margin-bottom: 100px;
+line-height: 1.1;
+text-indent: 0;
+    }
+    }
