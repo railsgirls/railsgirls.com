@@ -1,5 +1,21 @@
 [
   {
+    "location": "Tokyo, Japan",
+    "writtenDate": "August 2nd & 3rd, 2019",
+    "startDate": "2019-08-02",
+    "endDate": "2019-08-03",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/tokyo.html"
+  },
+  {
+    "location": "Sai Gon, Vietnam",
+    "writtenDate": "July 20th, 2019",
+    "startDate": "2019-07-20",
+    "endDate": "2019-07-20",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/saigon-2019.html"
+  },
+  {
     "location": "Sendai, Japan",
     "writtenDate": "July 19th & 20th, 2019",
     "startDate": "2019-07-19",
@@ -20,7 +36,7 @@
     "writtenDate": "June 14th & 15th, 2019",
     "startDate": "2019-06-14",
     "endDate": "2019-06-15",
-    "imageUrl": "/images/railsgirls-sq.png",
+    "imageUrl": "/images/rg-ehime.png",
     "eventUrl": "/ehime.html"
   },
   {
