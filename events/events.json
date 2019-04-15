@@ -1,5 +1,13 @@
 [
   {
+    "location": "Zaječar, Serbia",
+    "writtenDate": "April 20th & 21st, 2019",
+    "startDate": "2019-04-20",
+    "endDate": "2019-04-21",
+    "imageUrl": "/images/azajecar/girl.jpg",
+    "eventUrl": "/zajecar.html"
+  },
+  {
     "location": "Tokyo, Japan",
     "writtenDate": "August 2nd & 3rd, 2019",
     "startDate": "2019-08-02",
@@ -20,7 +28,7 @@
     "writtenDate": "July 19th & 20th, 2019",
     "startDate": "2019-07-19",
     "endDate": "2019-07-20",
-    "imageUrl": "/images/sendai/thumbnail-default.png",
+    "imageUrl": "/images/rg-sendai-2019-07-20.png",
     "eventUrl": "/sendai.html"
   },
   {
@@ -30,6 +38,14 @@
     "endDate": "2019-07-20",
     "imageUrl": "/images/sorocaba/railsgirlssorocaba_2019.png",
     "eventUrl": "/sorocaba.html"
+  },
+  {
+    "location": "Osaka, Japan",
+    "writtenDate": "June 21st & 22nd, 2019",
+    "startDate": "2019-06-21",
+    "endDate": "2019-06-22",
+    "imageUrl": "/images/osaka/rg-osaka6th.png",
+    "eventUrl": "/osaka.html"
   },
   {
     "location": "Ehime, Japan",
@@ -54,6 +70,14 @@
     "endDate": "2019-05-25",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/nagano.html"
+  },
+  {
+    "location": "Athens, Greece",
+    "writtenDate": "May 10th & 11th, 2019",
+    "startDate": "2019-05-10",
+    "endDate": "2019-05-11",
+    "imageUrl": "/images/rg-athens2017.png",
+    "eventUrl": "/athens.html"
   },
   {
     "location": "Riara University, Nairobi",
