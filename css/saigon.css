@@ -1,3 +1,9 @@
 .coach {
   border-radius: 50px;
 }
+
+@media only screen and (max-width: 800px) {
+  .container_12 .push_1 {
+    left: 0 !important;
+  }
+}
