@@ -117,17 +117,17 @@ iframe {
 footer {
   text-align: center;
   background: #F4F4F4;
+  padding: 20px;
+  margin-top: 30px;
 }
 footer p {
   font-size: 1.1em;
-  margin-top: 30px;
-  padding: 20px;
+  padding: 10px;
 }
 footer .slogan {
   font: 13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
   font-size: 1.5em;
   letter-spacing: 0.5em;
-  margin-top: 30px;
   margin-bottom: 20px;
 }
 .nav-link {
