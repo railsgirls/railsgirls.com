@@ -10,7 +10,7 @@ header {
   text-align: center;
 }
 .logo img {
-  max-width: 200px;
+  width: 90%;
 }
 
 .title{
@@ -58,8 +58,7 @@ a:hover {
 iframe {
   margin-top: 20px;
   margin-bottom: 20px;
-  max-width: 400px;
-  max-height: 400px;
+  width: 100%;
 }
 .partners .title {
   text-align: center;
