@@ -75,13 +75,23 @@ iframe {
 .platinum {
   margin-bottom: 40px;
 }
-.exhibitor p img {
+.community-sponsors p img {
   width: 75px;
+  text-align: center;
+  max-height: 75px;
 }
-.exhibitor p {
+.community-sponsors p img.square {
+  width: 50px;
+}
+.community-sponsors {
+  font-size: 12px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.community-sponsors a {
   font-size: 12px;
 }
-.exhibitor p a {
+.community-sponsors p a {
   font-size: 12px;
 }
 .sponsorship {
