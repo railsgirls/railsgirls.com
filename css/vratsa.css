@@ -441,4 +441,11 @@ margin-bottom: 100px;
 line-height: 1.1;
 text-indent: 0;
     }
+       
+       .event-info h2 {
+      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+font-weight: bold;
+color: #fff;
+font-size: 40px;
+    }
     }
