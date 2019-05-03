@@ -2,14 +2,14 @@ header {
   background: #D3360B;
 }
 
-.jumbotron {
-  background: #FFF;
-  padding: 2rem;
+.jumbo-intro {
+  background: #FFF !important;
+  padding: 2rem !important;
 }
-.language .nav-link {
-  color: #e0330c;
+.language {
+  color: #e0330c !important;
 }
-.language .nav-link.active {
+.language.active {
   font-weight: bold;
 }
 .logo {
