@@ -4,8 +4,14 @@ header {
 
 .jumbotron {
   background: #FFF;
+  padding: 2rem;
 }
-
+.language .nav-link {
+  color: #e0330c;
+}
+.language .nav-link.active {
+  font-weight: bold;
+}
 .logo {
   text-align: center;
 }
