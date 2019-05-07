@@ -1,386 +1,436 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rails Girls Kraków 2019</title>
+    <meta
+      name="description"
+      content="Rails Girls goes Krakow! Join the crash-course to the exciting world of building web applications."
+    />
+    <meta name="author" content="Rails Girls" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      .side img {
+        vertical-align: middle;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <title>Rails Girls Kraków 2019</title>
-  <meta name="description"
-    content="Rails Girls goes Krakow! Join the crash-course to the exciting world of building web applications.">
-  <meta name="author" content="Rails Girls">
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="./css/style.css">
-  <style>
-    .side img {
-      vertical-align: middle
-    }
+      .side a {
+        border: 0;
+      }
+    </style>
 
-    .side a {
-      border: 0
-    }
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+    <meta property="og:image" content="http://railsgirls.com/images/rg-krakow.png" />
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
 
-  </style>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=389981891036051";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
-  <meta property="og:image" content="http://railsgirls.com/images/rg-krakow.png" />
-  <!--[if lt IE 9]>
-  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-  <div id="fb-root"></div>
-  <script>(function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=389981891036051";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-  <header>
-    <div class="container_12">
-      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-      <nav>
-        <a href="./events.html">Events</a>
-        <a href="./materials.html">Materials</a>
-        <a href="./press.html">Press</a>
-        <a href="http://blog.railsgirls.com">Blog</a>
-        <a href="http://guides.railsgirls.com">Guides</a>
-      </nav>
-    </div>
-  </header>
-  <div id="container" class="container_12 page clearfix">
-    <div class="grid_12 omega alpha">
-      <div id="promo" class="krakow2018">
-        <h1>Rails Girls Kraków 2019</h1>
-        <p>Cześć Kraków!</p>
-        <p>
-          Rails Girls comes to Krakow for the eight time! Join the free, two-day crash-course to the exciting world of
-          building web applications with Ruby on Rails.
-        </p>
-        <p>Applications are now open! <a href='https://railsgirlskrakow.pl/'>Apply now</a>!</p>
-        <div id="share">
-          <div>
-            <g:plusone size="medium" href="http://railsgirls.com/krakow.html"></g:plusone>
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls"/></a>
+        <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a>
+          <a href="http://guides.railsgirls.com">Guides</a>
+        </nav>
+      </div>
+    </header>
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="krakow2018">
+          <h1>Rails Girls Kraków 2019</h1>
+          <p>Cześć Kraków!</p>
+          <p>
+            Rails Girls comes to Krakow for the eight time! Join the free, two-day crash-course to
+            the exciting world of building web applications with Ruby on Rails.
+          </p>
+          <p>Applications are now open! <a href="https://railsgirlskrakow.pl/">Apply now</a>!</p>
+          <div id="share">
+            <div>
+              <g:plusone size="medium" href="http://railsgirls.com/krakow.html"></g:plusone>
+            </div>
+            <div style="margin:0 15px 0 0;">
+              <a
+                href="http://twitter.com/share"
+                class="twitter-share-button"
+                data-url=""
+                data-text="Rails Girls Krakow 2018"
+                data-count="horizontal"
+                data-via="railsgirls"
+              >
+                Tweet
+              </a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+            <div
+              class="fb-like"
+              data-href="http://www.facebook.com/RailsGirlsKrakow"
+              layout="button_count"
+              data-send="true"
+              data-width="160"
+              data-show-faces="false"
+              data-stream="false"
+            ></div>
           </div>
-          <div style="margin:0 15px 0 0;">
-            <a href="http://twitter.com/share" class="twitter-share-button" data-url=""
-              data-text="Rails Girls Krakow 2018" data-count="horizontal" data-via="railsgirls">
-              Tweet
-            </a>
-            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-          </div>
-          <div class="fb-like" data-href="http://www.facebook.com/RailsGirlsKrakow" layout="button_count"
-            data-send="true" data-width="160" data-show-faces="false" data-stream="false">
-          </div>
+          <br />
+          <br />
         </div>
-        <br />
-        <br />
-      </div>
 
-      <div class="grid_4 alpha feature">
-        <p><strong>You learn</strong> designing, prototyping and coding with the help from our mentors.</p>
-      </div>
-      <div class="grid_4 feature">
-        <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
-      </div>
-      <div class="grid_4 omega feature">
-        <p>
-          <strong>You want to help?</strong>
-          We are looking for partners and mentors. <a href="mailto:railsgirlskrakow@gmail.com">Email us</a>
-        </p>
-      </div>
-      <hr style="clear:both;" />
-      <div class="grid_12" style="overflow: hidden">
-        <h3 style="text-align:center">Previous editions</h3>
-        <p style="text-align:center">
-          See photos from
-          <a href="http://www.flickr.com/photos/webmuses/sets/72157641052903385/" target="_blank">2012</a>,
-          <a href="https://www.facebook.com/RailsGirlsKrakow/photos_albums" target="_blank">2013</a>,
-          <a href="https://www.facebook.com/media/set/?set=a.554455964668670.1073741845.350907338356868&type=3"
-            target="_blank">Youth 2014</a>,
-          <a href="https://www.facebook.com/media/set/?set=a.780763665371231.1073741854.350907338356868&type=3"
-            target="_blank">2015</a>,
-          <a href="https://www.facebook.com/pg/RailsGirlsKrakow/photos/?tab=album&album_id=957789621001967"
-            target="_blank">2016</a> and
-          <a href="https://www.facebook.com/pg/RailsGirlsKrakow/photos/?tab=album&album_id=1317795195001406"
-            target="_blank">2017</a>.
-        </p>
-      </div>
+        <div class="grid_4 alpha feature">
+          <p>
+            <strong>You learn</strong> designing, prototyping and coding with the help from our
+            mentors.
+          </p>
+        </div>
+        <div class="grid_4 feature">
+          <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+        </div>
+        <div class="grid_4 omega feature">
+          <p>
+            <strong>You want to help?</strong>
+            We are looking for partners and mentors.
+            <a href="mailto:railsgirlskrakow@gmail.com">Email us</a>
+          </p>
+        </div>
+        <hr style="clear:both;" />
+        <div class="grid_12" style="overflow: hidden">
+          <h3 style="text-align:center">Previous editions</h3>
+          <p style="text-align:center">
+            See photos from
+            <a href="http://www.flickr.com/photos/webmuses/sets/72157641052903385/" target="_blank"
+              >2012</a
+            >,
+            <a href="https://www.facebook.com/RailsGirlsKrakow/photos_albums" target="_blank"
+              >2013</a
+            >,
+            <a
+              href="https://www.facebook.com/media/set/?set=a.554455964668670.1073741845.350907338356868&type=3"
+              target="_blank"
+              >Youth 2014</a
+            >,
+            <a
+              href="https://www.facebook.com/media/set/?set=a.780763665371231.1073741854.350907338356868&type=3"
+              target="_blank"
+              >2015</a
+            >,
+            <a
+              href="https://www.facebook.com/pg/RailsGirlsKrakow/photos/?tab=album&album_id=957789621001967"
+              target="_blank"
+              >2016</a
+            >
+            and
+            <a
+              href="https://www.facebook.com/pg/RailsGirlsKrakow/photos/?tab=album&album_id=1317795195001406"
+              target="_blank"
+              >2017</a
+            >.
+          </p>
+        </div>
 
-      <hr />
-      <div class="grid_6 alpha">
-        <h2 style="margin-top:10px">Friday</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th>18:30 - 21:00</th>
-              <td>
-                <h4>Let's start coding!</h4>
-                Registration and installation fest.
-                Get to know the mentors and the attendees a little bit before hand.
-                And let's start coding in Ruby!
-                (so please bring your laptop)
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <h2>Saturday</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-              <th>9:00 - 9:30</th>
-              <td>
-                <h4>Coffee and code</h4>
-                Grab coffee and (vegan) breakfast, mingle and get ready to code!
-              </td>
-            </tr>
+        <hr />
+        <div class="grid_6 alpha">
+          <h2 style="margin-top:10px">Friday</h2>
+          <table id="schedule">
+            <tbody>
+              <tr>
+                <th>18:30 - 21:00</th>
+                <td>
+                  <h4>Let's start coding!</h4>
+                  Registration and installation fest. Get to know the mentors and the attendees a
+                  little bit before hand. And let's start coding in Ruby! (so please bring your
+                  laptop)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>Saturday</h2>
+          <table id="schedule">
+            <tbody>
+              <tr>
+                <th>9:00 - 9:30</th>
+                <td>
+                  <h4>Coffee and code</h4>
+                  Grab coffee and (vegan) breakfast, mingle and get ready to code!
+                </td>
+              </tr>
 
+              <tr>
+                <th>9:30 - 9:45</th>
+                <td>
+                  <h4>Welcome</h4>
+                  Outline of the day :)
+                </td>
+              </tr>
 
-            <tr>
-              <th>9:30 - 9:45 </th>
-              <td>
-                <h4>Welcome</h4>
-                Outline of the day :)
-              </td>
-            </tr>
+              <tr>
+                <th>9:45 - 13:00</th>
+                <td>
+                  <h4>Workshop</h4>
+                  Time for Ruby. Or Rails? Or maybe HTML &amp; CSS? Work on your Rails Application.
+                </td>
+              </tr>
 
-            <tr>
-              <th>9:45 - 13:00</th>
-              <td>
-                <h4>Workshop</h4>
-                Time for Ruby. Or Rails? Or maybe HTML &amp; CSS?
-                Work on your Rails Application.
-              </td>
-            </tr>
+              <tr>
+                <th>13:00 - 13:30</th>
+                <td>
+                  <h4>Lunch</h4>
+                  Yummy vegan food. Also known as obiad.
+                </td>
+              </tr>
 
-            <tr>
-              <th>13:00 - 13:30</th>
-              <td>
-                <h4>Lunch</h4>
-                Yummy vegan food. Also known as obiad.
-              </td>
-            </tr>
+              <tr>
+                <th>13:30 - 14:30</th>
+                <td>
+                  <h4>Lightning Talks</h4>
+                  TBA
+                </td>
+              </tr>
 
-            <tr>
-              <th>13:30 - 14:30</th>
-              <td>
-                <h4>Lightning Talks</h4>
-                TBA
-              </td>
-            </tr>
+              <tr>
+                <th>14:30 - 16:00</th>
+                <td>
+                  <h4>Workshop</h4>
+                  Continue working on your Rails Application.
+                </td>
+              </tr>
 
-            <tr>
-              <th>14:30 - 16:00</th>
-              <td>
-                <h4>Workshop</h4>
-                Continue working on your Rails Application.
-              </td>
-            </tr>
+              <tr>
+                <th>16:00 - 16:30</th>
+                <td>
+                  <h4>Lightning Talks</h4>
+                  TBA
+                </td>
+              </tr>
 
-            <tr>
-              <th>16:00 - 16:30</th>
-              <td>
-                <h4>Lightning Talks</h4>
-                TBA
-              </td>
-            </tr>
+              <tr>
+                <th>16:30 - 18:00</th>
+                <td>
+                  <h4>Workshop</h4>
+                  Extend your application.
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-            <tr>
-              <th>16:30 - 18:00</th>
-              <td>
-                <h4>Workshop</h4>
-                Extend your application.
-              </td>
-            </tr>
+          <h3>FAQ</h3>
+          <p>
+            <strong>How much does the workshop cost?</strong>
+            Nothing, it's free! You just need to be excited! And please bring your laptop.
+          </p>
 
-          </tbody>
-        </table>
+          <p>
+            <strong>Who is this aimed for?</strong>
+            Women and non-binary people of any age with basic knowledge of working with a computer.
+          </p>
+          <p>
+            <strong>I think I might be too old for Rails Girls.</strong>
+            You're not. It's about your willingness and curiosity, not your age. We’ve had people of
+            all ages taking part.
+          </p>
+          <p>
+            <strong>Can men attend?</strong>
+            Yes, but women and non-binary people are given priority.
+          </p>
+          <p>
+            <strong>But I know nothing about programming.</strong>
+            Great, apply right now! We all have been
+            <a href="http://www.youtube.com/watch?v=o_cHvtPB2dY">absolute beginners</a> at some
+            point in our life.
+          </p>
 
-        <h3>FAQ</h3>
-        <p>
-          <strong>How much does the workshop cost?</strong>
-          Nothing, it's free! You just need to be excited! And please bring your laptop.
-        </p>
+          <p>
+            <strong>But I don't have a laptop.</strong>
+            Let us know and we will arrange one for you.
+          </p>
 
-        <p>
-          <strong>Who is this aimed for?</strong>
-          Women and non-binary people of any age with basic knowledge of working with a computer.
+          <p>
+            <strong>But I don't speak Polish.</strong>
+            Polish is not required.
+          </p>
 
-        </p>
-        <p>
-          <strong>I think I might be too old for Rails Girls.</strong>
-          You're not. It's about your willingness and curiosity, not your age. We’ve had people of all ages taking part.
-        </p>
-        <p>
-          <strong>Can men attend?</strong>
-          Yes, but women and non-binary people are given priority.
-        </p>
-        <p>
-          <strong>But I know nothing about programming.</strong>
-          Great, apply right now! We all have been
-          <a href="http://www.youtube.com/watch?v=o_cHvtPB2dY">absolute beginners</a> at some point in our life.
-        </p>
+          <p>
+            <strong>I signed up for the event, am I automatically attending?</strong>
+            Nope - since we have limited space you will get a confirmation mail if you are selected.
+          </p>
 
-        <p>
-          <strong>But I don't have a laptop.</strong>
-          Let us know and we will arrange one for you.
-        </p>
+          <p>
+            <strong>How do you choose the attendees?</strong>
+            We want a diverse group of people who are motivated and curious about learning.
+          </p>
 
-        <p>
-          <strong>But I don't speak Polish.</strong>
-          Polish is not required.
-        </p>
+          <p>
+            <strong>Is there a Code of Conduct?</strong>
+            Yes! In short, Rails Girls Kraków is dedicated to a harassment-free workshop experience
+            for everyone. Our full anti-harassment policy can be found at:
+            <a href="krakow_coc.html">www.railsgirls.com/krakow_coc</a>
+          </p>
+        </div>
 
-        <p>
-          <strong>I signed up for the event, am I automatically attending?</strong>
-          Nope - since we have limited space you will get a confirmation mail if you are selected.
-        </p>
-
-        <p>
-          <strong>How do you choose the attendees?</strong>
-          We want a diverse group of people who are motivated and curious about learning.
-        </p>
-
-        <p>
-          <strong>Is there a Code of Conduct?</strong>
-          Yes! In short, Rails Girls Kraków is dedicated to a harassment-free
-          workshop experience for everyone. Our full anti-harassment policy can be
-          found at: <a href="krakow_coc.html">www.railsgirls.com/krakow_coc</a>
-        </p>
-
-      </div>
-
-
-      <div class="grid_5 push_1 omega side">
-        <h3 style="margin-top: 10px">Information</h3>
-        <p>
-          <strong>Applications open:</strong><span style="float:right">12.04</span><br />
-          <strong>Applications close:</strong><span style="float:right">12.05</span><br />
-          <strong>Acceptances informed:</strong><span style="float:right">20.05</span><br />
-          <strong>Workshop:</strong><span style="float:right">7-8.06</span><br />
-        </p>
-        <p style="clear: both">
-          <strong>Location:</strong>
-          <span style="float: right; display: block; text-align: right">
-            <a href="http://kpt.krakow.pl" target="_blank">
-              Krakow Technology Park
+        <div class="grid_5 push_1 omega side">
+          <h3 style="margin-top: 10px">Information</h3>
+          <p>
+            <strong>Applications open:</strong><span style="float:right">12.04</span><br />
+            <strong>Applications close:</strong><span style="float:right">12.05</span><br />
+            <strong>Acceptances informed:</strong><span style="float:right">20.05</span><br />
+            <strong>Workshop:</strong><span style="float:right">7-8.06</span><br />
+          </p>
+          <p style="clear: both">
+            <strong>Location:</strong>
+            <span style="float: right; display: block; text-align: right">
+              <a href="http://kpt.krakow.pl" target="_blank">
+                Krakow Technology Park
+              </a>
+              <br />
+              ul. Podole 60
+              <br />
+              30-394 Kraków
+              <br />
+              <a href="https://goo.gl/maps/ZtqUwBifd192" target="_blank">See map</a>
+            </span>
+          </p>
+          <h3 style="margin-bottom: 0px; clear: both">Venue</h3>
+          <p>
+            <a
+              href="http://kpt.krakow.pl"
+              style="float:right; margin: 0 0 10px 12px;"
+              target="_blank"
+            >
+              <img src="./images/krakow/KPT_logo_ENG_3_linijki.jpg" alt="Krakow Technology Park" />
             </a>
-            <br />
-            ul. Podole 60
-            <br />
-            30-394 Kraków
-            <br />
-            <a href="https://goo.gl/maps/ZtqUwBifd192" target="_blank">See map</a>
-          </span>
-        </p>
-        <h3 style="margin-bottom: 0px; clear: both">Venue</h3>
-        <p>
-          <a href="http://kpt.krakow.pl" style="float:right; margin: 0 0 10px 12px;" target="_blank">
-            <img src="./images/krakow/KPT_logo_ENG_3_linijki.jpg" alt="Krakow Technology Park" />
-          </a>
-          <a target="_blank" href="https://www.facebook.com/InkubatorTechnologicznywKrakowie">Krakow Technology Park</a>
-          – institution supporting innovation in Małopolska Region. Their Technology Incubator has been helping startups
-          and young entrepreneurs since 2008. They have 30+ offices for young IT companies on favorable terms, invest in
-          startups, organize events and support tech and startup community.
-          They're searching for passionate IT founders looking for a place to develop their business.
-          If you want to work with other startups under one roof, believe in the culture of openness and cooperation
-          than KTP is your place to be.
-        </p>
+            <a target="_blank" href="https://www.facebook.com/InkubatorTechnologicznywKrakowie"
+              >Krakow Technology Park</a
+            >
+            – institution supporting innovation in Małopolska Region. Their Technology Incubator has
+            been helping startups and young entrepreneurs since 2008. They have 30+ offices for
+            young IT companies on favorable terms, invest in startups, organize events and support
+            tech and startup community. They're searching for passionate IT founders looking for a
+            place to develop their business. If you want to work with other startups under one roof,
+            believe in the culture of openness and cooperation than KTP is your place to be.
+          </p>
 
-        <h3 style="clear: both">Sponsors </h3>
-        <p>TBA</p>
+          <h3 style="clear: both">Sponsors</h3>
+          <p>TBA</p>
 
-        <h3> Partners </h3>
-        <p>TBA</p>
+          <h3>Partners</h3>
+          <p>TBA</p>
 
-        <div class="coaches">
-          <hr />
-          <h2>Kraków team</h2>
-          <a href="#" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Ania Buczek<br />
-            organiser
-          </a>
-          <a href="https://twitter.com/Ravicious" class="grid_3">
-            <img src="./images/rubie-100.png" alt="team" />
-            Rafał Cieślak<br />
-            organiser
-          </a>
-          <a href="https://github.com/franiakat" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Kasia Frania<br />
-            organiser
-          </a>
-          <a href="https://goo.gl/EYUUlu" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Ika Graboń<br />
-            organiser
-          </a>
-          <a href="https://twitter.com/_idengager" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Kasia Jarmołkowicz<br />
-            organiser
-          </a>
-          <a href="#" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Sonia Kołacz<br />
-            organiser
-          </a>
-          <a href="https://github.com/misiaak/" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Dominika Kucharska<br />
-            organiser
-          </a>
-          <a href='https://twitter.com/pacyficzny' class='grid_3'>
-            <img src="./images/rubie-100.png" alt="team" />
-            Mateusz Luterek<br />
-            organiser
-          </a>
-          <a href='https://twitter.com/malgonowak' class='grid_3'>
-            <img src="./images/ruby-100.png" alt="team" />
-            Gosia Nowak<br />
-            designer
-          </a>
-          <a href="#" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Monia Śmiałko<br />
-            organiser
-          </a>
-          <a href="https://github.com/majhogee" class="grid_3">
-            <img src="./images/ruby-100.png" alt="team" />
-            Joanna Wójtowicz<br />
-            organiser
-          </a>
+          <div class="coaches">
+            <hr />
+            <h2>Kraków team</h2>
+            <a href="#" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Ania Buczek<br />
+              organiser
+            </a>
+            <a href="https://twitter.com/Ravicious" class="grid_3">
+              <img src="./images/rubie-100.png" alt="team" />
+              Rafał Cieślak<br />
+              organiser
+            </a>
+            <a href="https://github.com/franiakat" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Kasia Frania<br />
+              organiser
+            </a>
+            <a href="https://goo.gl/EYUUlu" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Ika Graboń<br />
+              organiser
+            </a>
+            <a href="https://twitter.com/_idengager" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Kasia Jarmołkowicz<br />
+              organiser
+            </a>
+            <a href="#" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Sonia Kołacz<br />
+              organiser
+            </a>
+            <a href="https://github.com/misiaak/" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Dominika Kucharska<br />
+              organiser
+            </a>
+            <a href="https://twitter.com/pacyficzny" class="grid_3">
+              <img src="./images/rubie-100.png" alt="team" />
+              Mateusz Luterek<br />
+              organiser
+            </a>
+            <a href="https://twitter.com/malgonowak" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Gosia Nowak<br />
+              designer
+            </a>
+            <a href="#" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Monia Śmiałko<br />
+              organiser
+            </a>
+            <a href="https://github.com/majhogee" class="grid_3">
+              <img src="./images/ruby-100.png" alt="team" />
+              Joanna Wójtowicz<br />
+              organiser
+            </a>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- /content -->
     <footer>
-      <p>2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on
+      <p>
+        2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on
         <a href="http://twitter.com/railsgirls">Twitter</a> and
-        <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <a href="https://www.facebook.com/railsgirls">Facebook</a>
+      </p>
       <p class="slogan">Get excited and make things!</p>
     </footer>
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-19631067-1']);
-      _gaq.push(['_trackPageview']);
+      _gaq.push(["_setAccount", "UA-19631067-1"]);
+      _gaq.push(["_trackPageview"]);
 
-      (function () {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      (function() {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol ? "https://ssl" : "http://www") +
+          ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
-</body>
-
+  </body>
 </html>
