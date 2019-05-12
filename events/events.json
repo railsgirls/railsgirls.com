@@ -48,6 +48,14 @@
     "eventUrl": "/osaka.html"
   },
   {
+    "location": "Rotterdam, The Netherlands",
+    "writtenDate": "June 20th, 2019",
+    "startDate": "2019-06-20",
+    "endDate": "2019-06-20",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/rotterdam19.html"
+  },
+  {
     "location": "Ehime, Japan",
     "writtenDate": "June 14th & 15th, 2019",
     "startDate": "2019-06-14",
@@ -56,12 +64,20 @@
     "eventUrl": "/ehime.html"
   },
   {
-    "location": "Rotterdam, The Netherlands",
-    "writtenDate": "June 20th, 2019",
-    "startDate": "2019-06-20",
-    "endDate": "2019-06-20",
+    "location": "Brisbane, Australia",
+    "writtenDate": "June 8th, 2019",
+    "startDate": "2019-06-08",
+    "endDate": "2019-06-08",
     "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/rotterdam19.html"
+    "eventUrl": "/brisbane.html"
+  },
+  {
+    "location": "Kraków, Poland",
+    "writtenDate": "June 7th & 8th, 2019",
+    "startDate": "2019-06-07",
+    "endDate": "2019-06-08",
+    "imageUrl": "/images/krakow/rgkrk_logo_red.png",
+    "eventUrl": "/krakow.html"
   },
   {
     "location": "Nagano, Japan",

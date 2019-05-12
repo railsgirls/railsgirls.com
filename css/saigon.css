@@ -2,10 +2,16 @@ header {
   background: #D3360B;
 }
 
-.jumbotron {
-  background: #FFF;
+.jumbo-intro {
+  background: #FFF !important;
+  padding: 2rem !important;
 }
-
+.language {
+  color: #e0330c !important;
+}
+.language.active {
+  font-weight: bold;
+}
 .logo {
   text-align: center;
 }
@@ -72,8 +78,21 @@ iframe {
   line-height: 1.2;
   color: #D3360B;
 }
-.platinum {
+.platinum, .media-sponsor {
   margin-bottom: 40px;
+}
+
+.platinum img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.media-sponsor img {
+  width: 100px;
+}
+.media-sponsor p {
+  font-size: 14px;
+  text-align: justify;
 }
 .community-sponsors p img {
   width: 75px;
