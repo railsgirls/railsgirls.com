@@ -80,10 +80,9 @@
       color: #FFF;
       margin: auto;
       background-color: rgba(0, 0, 0, 0.6);
-      opacity: 0.8;
+      font-size: 40px;
     }
     .ssa-header-content h1 {
-      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
       font-size: 80px;
       margin-bottom: 0;
     }
@@ -110,11 +109,10 @@
       margin-left: -320px;
     }
 
-    #promo .subscription-button a {
-      font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
-      font-size: 14px;
+    .ssa-header-content a.subscription-button {
+      font-size: 18px;
       text-decoration: none;
-      background-color: #d3360b;
+      background: rgba(211, 54, 11, 0.7) url(images/star.png) no-repeat 30px center;
       color: white;
       letter-spacing: 2px;
       padding: 20px 70px 18px 70px;
@@ -122,8 +120,9 @@
       margin-top: 10px;
     }
 
-    #promo .subscription-button a:hover{
+    .ssa-header-content a.subscription-button:hover{
       background-color: #be310a;
+      text-decoration: underline;
     }
 
     h3 {
@@ -200,10 +199,12 @@
 
   <div id="ssa-header">
     <div class="ssa-header-content">
-      <h1>
-        Rails Girls Salvador
-        <small>14 e 15 de Junho de 2019 <br/> em breve mais informações!</small>
-      </h1>
+      <h1>Rails Girls Salvador</h1>
+      <p>
+        <a class="subscription-button" href="https://forms.gle/APwYSyvbtgTwXpjm9" target="_blank">INSCREVA-SE</a>
+        <a class="subscription-button" href="https://forms.gle/Qjk8MuvigcRzdoyq6" target="_blank">SEJA UMA MENTORA</a>
+      </p>
+      <p>14 e 15 de Junho de 2019</p>
     </div>
   </div>
 
@@ -430,9 +431,8 @@
 
         <p>
           <strong>Eu sei programar! Como posso ajudar?</strong>
-          Estamos procurando por mentores. Fique atento em breve iremos abrir chamada. <br> Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a função de mentor. Caso você tenha qualquer dúvida, mande um email para <a href="mailto:rails.girls.ssa@gmail.com">nós</a>.
+          Estamos procurando por mentores. Por favor, <a href="https://forms.gle/Qjk8MuvigcRzdoyq6" target="_blank">conte-nos sobre você!</a> <br> Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a função de mentor. Caso você tenha qualquer dúvida, mande um email para <a href="mailto:rails.girls.ssa@gmail.com">nós</a>.
         </p>
-        <!--Por favor, <a href="http://bit.ly/mentores-rgssa-2015" target="_blank">conte-nos sobre você!</a>-->
 
         <p>
           <strong>Quero patrocinar o evento. O que faço?</strong>
