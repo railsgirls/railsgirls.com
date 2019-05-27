@@ -1,10 +1,14 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
 header {
   background: #D3360B;
 }
 
 .jumbo-intro {
   background: #FFF !important;
-  padding: 2rem !important;
+  padding: 0 2rem 2rem 2rem !important;
 }
 .language {
   color: #e0330c !important;
@@ -26,12 +30,21 @@ header {
   color: #D3360B;
   margin-top: 15px;
 }
-.introduction .description {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
+
 .application {
-  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.application .apply-btn {
+  color: #FFF;
+  border-radius: 10px;
+  background-color: #D3350C;
+  border-color: #D3350C;
+}
+.apply-btn:hover {
+  font-size: 20px;
 }
 .features {
   margin-top: 60px;
@@ -66,56 +79,46 @@ iframe {
   margin-bottom: 20px;
   width: 100%;
 }
+/* partners */
 .partners .title {
+  font-weight: 600;
+  font-size: 24px;
+}
+.partners .partner {
   text-align: center;
+  margin: 0 10px 0 10px;
 }
-.partners .description {
-  text-align: center;
-}
-.partners h2 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-  color: #D3360B;
-}
-.platinum, .media-sponsor {
-  margin-bottom: 40px;
-}
-
-.platinum img {
-  margin-bottom: 20px;
+.partners .partner img {
+  max-width: 180px;
   margin-top: 20px;
 }
+.partners .help {
+  position: relative;
+  background-color: #F8F8F8;
+  border-radius: 4px;
+  padding: 15px 0 20px 8px;
+  margin-top: 20px;
+}
+.partners .help .title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.partners .help p {
+  margin-right: 70px;
+  margin-top: 6px;
+}
+.partners .help p a {
+  font-size: 16px;
+  color: #D3350C;
+}
+.partners .help img {
+  width: 30px;
+  position: absolute;
+  right: 18px;
+  bottom: 2px;
+}
 
-.media-sponsor img {
-  width: 100px;
-}
-.media-sponsor p {
-  font-size: 14px;
-  text-align: justify;
-}
-.community-sponsors p img {
-  width: 75px;
-  text-align: center;
-  max-height: 75px;
-}
-.community-sponsors p img.square {
-  width: 50px;
-}
-.community-sponsors {
-  font-size: 12px;
-  text-align: justify;
-  margin-bottom: 30px;
-}
-.community-sponsors a {
-  font-size: 12px;
-}
-.community-sponsors p a {
-  font-size: 12px;
-}
-.sponsorship {
-  text-align: center;
-}
+/* coach */
 .coach img {
   width: 50px;
   border-radius: 50px;
