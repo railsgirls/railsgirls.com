@@ -189,3 +189,19 @@ footer .slogan {
 .navbar-toggler {
   color: #FFF;
 }
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .application {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .partners .main-partner img {
+    max-width: 300px !important;
+  }
+  .faqs {
+    text-align: justify;
+  }
+  .location .info {
+    padding-right: 0 !important;
+  }
+}
