@@ -146,11 +146,14 @@
       border-radius: 50px;
     }
 
-    .sponsor {
-      float:right;
-      margin:0 0 0;
-      border:0;
+    .partners a {
+      border-bottom: 0;
     }
+    .partners a#omnicode {
+      display: inline-block;
+      background-color: #7D8A2E;
+    }
+
     .scrolled #toTop {
       position: fixed;
       bottom: 20px;
@@ -230,7 +233,7 @@
 
         <div id="moreinfo">
 
-          <p>Não é preciso ter conhecimentos em programação. Basta ter disposição para aprender e o resto fica por conta de nossa equipe. A edição deste ano acontecerá em junho no Colégio Central, Laboratório de Informática cedido ao IFBaiano.</p>
+          <p>Não é preciso ter conhecimentos em programação. Basta ter disposição para aprender e o resto fica por conta de nossa equipe. A edição deste ano acontecerá nos dias 14 e 15 de junho na Superintendência de Tecnologia da Informação (STI) da Universidade Federal da Bahia (Ufba), em Ondina.</p>
 
           <!--  Update the sharing texts.-->
 
@@ -362,8 +365,8 @@
       </div>
       <div class="grid_12">
         <p><strong>Quando:</strong> 14 e 15 Junho de 2019<br/>
-        <strong>Local:</strong> Colégio Estadual Da Bahia Central: <a href="https://goo.gl/maps/pds7CJyXMm4cFDqq5" target="_blank">Praça Carneiro Ribeiro, s/n - Nazaré, Salvador - BA, 41215-785</a>.</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.849645535414!2d-38.51364288456467!3d-12.981466863526247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604ea39d2fa31%3A0xe7aa9ad0d5a41bce!2sCol%C3%A9gio+Estadual+Da+Bahia+Central!5e0!3m2!1spt-BR!2sbr!4v1556573388658!5m2!1spt-BR!2sbr" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <strong>Local:</strong> Superintendência de Tecnologia da Informação - Laboratório 1 da RNP/ESR: <a href="https://goo.gl/maps/KrzEo" target="_blank">Avenida Ademar de Barros, s/n - Campus de Ondina CEP 40.170-110 Salvador-Bahia</a>.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5353580907718!2d-38.50982098517782!3d-13.001543340836227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716049fc3f6d527%3A0xf04982136f0f133f!2sCentro+de+Processamento+de+Dados+da+UFBA+-+Campus+Ondina+-+Ondina%2C+Salvador+-+BA!5e0!3m2!1sen!2sbr!4v1444336467570" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="grid_12">
         <p><strong>Vai participar?</strong> Por favor, leia nosso <a href="http://railsgirls.com/files/salvador/code-of-conduct.pdf" target="_blank">código de conduta</a>.</p>
@@ -373,17 +376,44 @@
         <ul>
           <li>no <a href="http://twitter.com/RailsGirlsSSA">Twitter</a></li>
           <li>no <a href="https://www.facebook.com/railsgirls.ssa">Facebook</a></li>
+          <li>no <a href="https://www.instagram.com/railsgirlssalvador">Instagram</a></li>
         </ul>
       </div>
     </div>
 <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
 
-    <div class="grid_12 omega alpha">
+    <div class="partners grid_12 omega alpha">
       <h3 id="partners">Parceiros</h3>
 
       <div style='text-align: center'>
         <div class="grid_4 alpha">
-          <a href="http://ifbaiano.edu.br/portal/" style="border:0;">
+          <a href="http://www.sti.ufba.br/">
+            <img src="http://railsgirls.com/images/salvador/logo_sti.png" height="132px" alt="STI">
+          </a>
+          <p><b>Superintendência de Tecnologia da Informação - UFBa</b></p>
+        </div>
+        <div class="grid_4">
+          <a href="http://www.pop-ba.rnp.br">
+            <img src="http://railsgirls.com/images/salvador/logo-pop-ba.png" height="190px" alt="PoP-BA">
+          </a>
+          <p><b>PoP-BA</b></p>
+        </div>
+        <div class="grid_4 omega">
+          <a href="https://omnicode.com.br" id='omnicode'>
+            <img src="https://omnicode.com.br/logo-omnicode.svg" height="190px" alt="Omnicode Solutions">
+          </a>
+          <p><b>Omnicode Solutions</b></p>
+        </div>
+
+        <div class="grid_4">
+          <a href="http://www.meninasdigitais.ufba.br">
+            <img src="https://noosfero.ufba.br/designs/themes/meninas-digitais-regionais/images/logo-mdufba.png" height="190px" alt="Meninas Digitais - Regional Bahia">
+          </a>
+          <p><b>Meninas Digitais - Regional Bahia</b></p>
+        </div>
+
+        <div class="grid_4">
+          <a href="http://ifbaiano.edu.br/portal/">
             <img src="http://railsgirls.com/images/salvador/2019/logo-ifbaiano.png" height="132px" alt="IF Baiano">
           </a>
           <p><b> Instituto Federal Baiano - IF Baiano</b></p>
@@ -453,17 +483,65 @@ src="http://gravatar.com/avatar/4183a013964d3119ec3491bf8958bf77?s=50" class="co
       </a>
 
       <a id="geisasantos" href="https://twitter.com/geisasantos" class="grid_3">
-        <img
-src="http://www.gravatar.com/avatar/51d8d33a4d118eb55485536eb638a040?s=50" class="coach" />
-          Geisa Santos, organizadora
+        <img src="http://www.gravatar.com/avatar/51d8d33a4d118eb55485536eb638a040?s=50" class="coach" />
+        Geisa Santos, organizadora
         <small>@geisasantos</small>
       </a>
-
+      <a id="karensantos" href="https://gitlab.com/karensantos" class="grid_3">
+        <img src="https://s.gravatar.com/avatar/6f7c47035b5eda82cf86b9fff68d5c3c?s=50" class="coach" />
+        Karen Santos, organizadora
+        <small>@karensantos</small>
+      </a>
+      <a id="queilaabreu" href="https://gitlab.com/queila.abreu" class="grid_3">
+        <img src="images/ruby-100.png" class="coach" />
+        Queila Abreu, organizadora
+        <small>@queila.abreu</small>
+      </a>
+      <a id="danielavalverde" href="https://www.linkedin.com/in/daniele-valverde-a83a22153" class="grid_3">
+        <img src="http://semcomp.com.br/assets/img/devs/dani.jpg" class="coach" />
+        Daniela Valverde, organizadora
+        <small>@daniela.valerde</small>
+      </a>
+      <a id="anasiqueira" href="https://siqueiraana.github.io" class="grid_3">
+        <img src="https://avatars3.githubusercontent.com/u/19551655?s=50" class="coach" />
+        Ana Siqueira, coach
+        <small>@siqueiraana</small>
+      </a>
+      <a id="renataamoedo" href="#" class="grid_3">
+        <img src="images/ruby-100.png" class="coach" />
+        Renata Amoedo, coach
+        <small>@renataamoedo</small>
+      </a>
+      <a id="nandalopes" href="https://github.com/nandalopes" class="grid_3">
+        <img src="images/ruby-100.png" class="coach" />
+        Nanda Lopes, coach
+        <small>@nandalopes</small>
+      </a>
       <a id="mauriciovieira" href="https://twitter.com/mauriciovieira" class="grid_3">
         <img
 src="http://www.gravatar.com/avatar/a567f0434d3be3d2a466f491345fede3?s=50" class="coach" />
-          Maurício Vieira, coach
+        Maurício Vieira, coach
         <small>@mauriciovieira</small>
+      </a>
+      <a id="icarojerry" href="https://github.com/IcaroJerry" class="grid_3">
+        <img src="https://avatars2.githubusercontent.com/u/9601443" class="coach" />
+        Ícaro Jerry, coach
+        <small>@icarojerry</small>
+      </a>
+      <a id="andreluizsgf" href="https://github.com/andreluizsgf" class="grid_3">
+        <img src="http://railsgirls.com/images/ruby-101.png" class="coach" />
+        André Luiz, coach
+        <small>@andreluizsgf</small>
+      </a>
+      <a id="rodrigofelix" href="#" class="grid_3">
+        <img src="http://railsgirls.com/images/ruby-101.png" class="coach" />
+        Rodrigo Felix, coach
+        <small>@rodrigofelix</small>
+      </a>
+      <a id="paulo-bomfim" href="https://github.com/PauloBommfim" class="grid_3">
+        <img src="http://railsgirls.com/images/ruby-101.png" class="coach" />
+        Paulo Bomfim, coach
+        <small>@paulobomfim</small>
       </a>
 <!--
 
