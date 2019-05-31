@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="pt">
 <head>
   <meta charset="utf-8">
@@ -146,12 +147,30 @@
       border-radius: 50px;
     }
 
-    .partners a {
+    .partners .grid_4 a {
       border-bottom: 0;
+      display: inline-block;
+      width: 265px;
+      height: 190px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .partners a#sti {
+      background-image: url('https://sti.ufba.br/sites/cpd.ufba.br/themes/sti_ufba/logo-new.png');
+    }
+    .partners a#pop-ba {
+      background-image: url('https://ensi.pop-ba.rnp.br/2018/images/parceiros/LogoPop-RNP.png');
+    }
+    .partners a#meedan {
+      background-image: url('images/salvador/meedan-text.svg');
     }
     .partners a#omnicode {
-      display: inline-block;
       background-color: #7D8A2E;
+      background-image: url('https://omnicode.com.br/logo-omnicode.svg');
+    }
+    .partners a#meninas {
+      background-image: url('images/salvador/meninas-digitais.jpg');
     }
 
     .scrolled #toTop {
@@ -387,43 +406,22 @@
 
       <div style='text-align: center'>
         <div class="grid_4 alpha">
-          <a href="http://www.sti.ufba.br/">
-            <img src="images/salvador/logo_sti.png" height="132px" alt="STI">
-          </a>
-          <p><b>Superintendência de Tecnologia da Informação - UFBa</b></p>
+          <a href="http://www.sti.ufba.br/" id="sti" target="_blank" title="Superintendência de Tecnologia da Informação - UFBa" /></a>
         </div>
         <div class="grid_4">
-          <a href="http://www.pop-ba.rnp.br">
-            <img src="images/salvador/logo-pop-ba.png" height="190px" alt="PoP-BA">
-          </a>
-          <p><b>PoP-BA</b></p>
+          <a href="http://www.pop-ba.rnp.br" id="pop-ba" target="_blank" title="Ponto de Presença da RNP na Bahia (PoP-BA)"></a>
         </div>
         <div class="grid_4 omega">
-          <a href="https://meedan.com" id='meedan'>
-            <img src="images/salvador/meedan-text.svg" height="190px" alt="Meedan">
-          </a>
-          <p><b>Meedan</b></p>
+          <a href="https://meedan.com" id='meedan' target="_blank" title="Meedan"></a>
         </div>
 
         <div class="grid_4 alpha">
-          <a href="https://omnicode.com.br" id='omnicode'>
-            <img src="https://omnicode.com.br/logo-omnicode.svg" height="190px" alt="Omnicode Solutions">
-          </a>
-          <p><b>Omnicode Solutions</b></p>
+          <a href="https://omnicode.com.br" id='omnicode' target="_blank" title="Omnicode Solutions"></a>
         </div>
         <div class="grid_4">
-          <a href="http://www.meninasdigitais.ufba.br">
-            <img src="images/salvador/meninas-digitais.jpg" height="190px" alt="Meninas Digitais - Regional Bahia">
-          </a>
-          <p><b>Meninas Digitais - Regional Bahia</b></p>
+          <a href="http://www.meninasdigitais.ufba.br" id="meninas" target="_blank" title="Meninas Digitais - Regional Bahia"></a>
         </div>
 
-        <div class="grid_4 omega">
-          <a href="http://ifbaiano.edu.br/portal/">
-            <img src="images/salvador/2019/logo-ifbaiano.png" height="132px" alt="IF Baiano">
-          </a>
-          <p><b> Instituto Federal Baiano - IF Baiano</b></p>
-        </div>
 <!--
         <div class="grid_4">
           <a href="http://colivre.coop.br" style="border:0;">
@@ -509,7 +507,7 @@ src="http://gravatar.com/avatar/4183a013964d3119ec3491bf8958bf77?s=50" class="co
         <small>@daniele.valerde</small>
       </a>
       <a id="caiovinicius" href="https://www.linkedin.com/in/caio-vin%C3%ADcius-lopes-30a200119" class="grid_3">
-        <img src="https://pbs.twimg.com/profile_images/1035740256883097601/rgflJP6j_400x400.jpg" class="coach" />
+        <img src="https://pbs.twimg.com/profile_images/1134470178421563393/8bsnpopv_400x400.jpg" class="coach" />
         Caio Vinicius, organizador
         <small>@caiovinicius</small>
       </a>
