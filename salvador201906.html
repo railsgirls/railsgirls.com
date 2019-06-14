@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="pt">
 <head>
   <meta charset="utf-8">
@@ -146,12 +147,33 @@
       border-radius: 50px;
     }
 
-    .partners a {
+    .partners .grid_4 a {
       border-bottom: 0;
+      display: inline-block;
+      width: 265px;
+      height: 190px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .partners a#sti {
+      background-image: url('https://sti.ufba.br/sites/cpd.ufba.br/themes/sti_ufba/logo-new.png');
+    }
+    .partners a#pop-ba {
+      background-image: url('https://ensi.pop-ba.rnp.br/2018/images/parceiros/LogoPop-RNP.png');
+    }
+    .partners a#meedan {
+      background-image: url('images/salvador/meedan-text.svg');
+    }
+    .partners a#sanar {
+      background-image: url('images/salvador/marca_sanar.svg');
     }
     .partners a#omnicode {
-      display: inline-block;
       background-color: #7D8A2E;
+      background-image: url('https://omnicode.com.br/logo-omnicode.svg');
+    }
+    .partners a#meninas {
+      background-image: url('images/salvador/meninas-digitais.jpg');
     }
 
     .scrolled #toTop {
@@ -203,11 +225,8 @@
   <div id="ssa-header">
     <div class="ssa-header-content">
       <h1>Rails Girls Salvador</h1>
-      <p>
-        <a class="subscription-button" href="https://forms.gle/APwYSyvbtgTwXpjm9" target="_blank">INSCREVA-SE</a>
-        <a class="subscription-button" href="https://forms.gle/Qjk8MuvigcRzdoyq6" target="_blank">SEJA UMA MENTORA</a>
-      </p>
       <p>14 e 15 de Junho de 2019</p>
+      <p class="subscription-button">INSCRIÇÕES ENCERRADAS</p>
     </div>
   </div>
 
@@ -229,6 +248,7 @@
         <p>Olá, garotas!</p>
         <p>Está chegando a hora da 4ª edição do Rails Girls em Salvador! Um evento voltado para mulheres de todas as idades interessadas em ter uma primeira experiência em construção de software.</p>
         <p>Serão dias intensos e divertidos onde vocês aprenderão sobre desenvolvimento de software utilizando Ruby on Rails.</p>
+        <p>INSCRIÇÕES ENCERRADAS</p>
         <br>
 
         <div id="moreinfo">
@@ -238,7 +258,7 @@
           <!--  Update the sharing texts.-->
 
           <div id="share">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-via="railsgirlsssa" data-related="railsgirlsssa" data-text="Rails Girls Salvador 14-15 Junho)  - inscreva-se!" data-count="none" data-hashtags="railsgirlsssa">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="railsgirlsssa" data-related="railsgirlsssa" data-text="Rails Girls Salvador 14-15 Junho)" data-count="none" data-hashtags="railsgirlsssa">Tweet</a>
             <a href="https://twitter.com/railsgirlsssa" class="twitter-follow-button" data-show-count="false">Follow @railsgirlsssa</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
 
@@ -360,7 +380,7 @@
     <div class="grid_12 omega alpha">
       <h3 id="info">Informações</h3>
       <div class="grid_12">
-        <p><strong>Evento gratuito!</strong><br/> As inscrições estão <a href="https://forms.gle/Szaq1irBeS7wbE7F9" target="_blank">abertas!</a><br/></p>
+        <p><strong>Evento gratuito!</strong><br/> As inscrições estão encerradas.<br/></p>
 <!--        <strong>Por favor contribua com nossa <a href="http://bit.ly/vakinhaRailsGirlsSalvador2015" target="_blank">vakinha</a></strong>-->
       </div>
       <div class="grid_12">
@@ -387,37 +407,24 @@
 
       <div style='text-align: center'>
         <div class="grid_4 alpha">
-          <a href="http://www.sti.ufba.br/">
-            <img src="http://railsgirls.com/images/salvador/logo_sti.png" height="132px" alt="STI">
-          </a>
-          <p><b>Superintendência de Tecnologia da Informação - UFBa</b></p>
+          <a href="http://www.sti.ufba.br/" id="sti" target="_blank" title="Superintendência de Tecnologia da Informação - UFBa" /></a>
         </div>
         <div class="grid_4">
-          <a href="http://www.pop-ba.rnp.br">
-            <img src="http://railsgirls.com/images/salvador/logo-pop-ba.png" height="190px" alt="PoP-BA">
-          </a>
-          <p><b>PoP-BA</b></p>
+          <a href="http://www.pop-ba.rnp.br" id="pop-ba" target="_blank" title="Ponto de Presença da RNP na Bahia (PoP-BA)"></a>
         </div>
         <div class="grid_4 omega">
-          <a href="https://omnicode.com.br" id='omnicode'>
-            <img src="https://omnicode.com.br/logo-omnicode.svg" height="190px" alt="Omnicode Solutions">
-          </a>
-          <p><b>Omnicode Solutions</b></p>
+          <a href="https://meedan.com" id='meedan' target="_blank" title="Meedan"></a>
+        </div>
+        <div class="grid_4 alpha">
+          <a href="https://www.editorasanar.com.br" id='sanar' target="_blank" title="Editora Sanar"></a>
+        </div>
+        <div class="grid_4">
+          <a href="https://omnicode.com.br" id='omnicode' target="_blank" title="Omnicode Solutions"></a>
+        </div>
+        <div class="grid_4 omega">
+          <a href="http://www.meninasdigitais.ufba.br" id="meninas" target="_blank" title="Meninas Digitais - Regional Bahia"></a>
         </div>
 
-        <div class="grid_4">
-          <a href="http://www.meninasdigitais.ufba.br">
-            <img src="https://noosfero.ufba.br/designs/themes/meninas-digitais-regionais/images/logo-mdufba.png" height="190px" alt="Meninas Digitais - Regional Bahia">
-          </a>
-          <p><b>Meninas Digitais - Regional Bahia</b></p>
-        </div>
-
-        <div class="grid_4">
-          <a href="http://ifbaiano.edu.br/portal/">
-            <img src="http://railsgirls.com/images/salvador/2019/logo-ifbaiano.png" height="132px" alt="IF Baiano">
-          </a>
-          <p><b> Instituto Federal Baiano - IF Baiano</b></p>
-        </div>
 <!--
         <div class="grid_4">
           <a href="http://colivre.coop.br" style="border:0;">
@@ -461,7 +468,7 @@
 
         <p>
           <strong>Eu sei programar! Como posso ajudar?</strong>
-          Estamos procurando por mentores. Por favor, <a href="https://forms.gle/Qjk8MuvigcRzdoyq6" target="_blank">conte-nos sobre você!</a> <br> Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a função de mentor. Caso você tenha qualquer dúvida, mande um email para <a href="mailto:rails.girls.ssa@gmail.com">nós</a>.
+          Teremos um bate papo antes do evento (data a ser definida) para conversar sobre a função de mentor. Caso você tenha qualquer dúvida, mande um email para <a href="mailto:rails.girls.ssa@gmail.com">nós</a>.
         </p>
 
         <p>
@@ -493,14 +500,19 @@ src="http://gravatar.com/avatar/4183a013964d3119ec3491bf8958bf77?s=50" class="co
         <small>@karensantos</small>
       </a>
       <a id="queilaabreu" href="https://gitlab.com/queila.abreu" class="grid_3">
-        <img src="images/ruby-100.png" class="coach" />
+        <img src="https://s.gravatar.com/avatar/ad9e34bb070aa44244adb7ba55a54ff3?s=50" class="coach" />
         Queila Abreu, organizadora
         <small>@queila.abreu</small>
       </a>
-      <a id="danielavalverde" href="https://www.linkedin.com/in/daniele-valverde-a83a22153" class="grid_3">
+      <a id="danielevalverde" href="https://www.linkedin.com/in/daniele-valverde-a83a22153" class="grid_3">
         <img src="http://semcomp.com.br/assets/img/devs/dani.jpg" class="coach" />
-        Daniela Valverde, organizadora
-        <small>@daniela.valerde</small>
+        Daniele Valverde, organizadora
+        <small>@daniele.valerde</small>
+      </a>
+      <a id="caiovinicius" href="https://www.linkedin.com/in/caio-vin%C3%ADcius-lopes-30a200119" class="grid_3">
+        <img src="https://pbs.twimg.com/profile_images/1134470178421563393/8bsnpopv_400x400.jpg" class="coach" />
+        Caio Vinicius, organizador
+        <small>@caiovinicius</small>
       </a>
       <a id="anasiqueira" href="https://siqueiraana.github.io" class="grid_3">
         <img src="https://avatars3.githubusercontent.com/u/19551655?s=50" class="coach" />
@@ -529,30 +541,25 @@ src="http://www.gravatar.com/avatar/a567f0434d3be3d2a466f491345fede3?s=50" class
         <small>@icarojerry</small>
       </a>
       <a id="andreluizsgf" href="https://github.com/andreluizsgf" class="grid_3">
-        <img src="http://railsgirls.com/images/ruby-101.png" class="coach" />
+        <img src="images/ruby-101.png" class="coach" />
         André Luiz, coach
         <small>@andreluizsgf</small>
       </a>
       <a id="rodrigofelix" href="#" class="grid_3">
-        <img src="http://railsgirls.com/images/ruby-101.png" class="coach" />
+        <img src="images/ruby-101.png" class="coach" />
         Rodrigo Felix, coach
         <small>@rodrigofelix</small>
       </a>
       <a id="paulo-bomfim" href="https://github.com/PauloBommfim" class="grid_3">
-        <img src="http://railsgirls.com/images/ruby-101.png" class="coach" />
+        <img src="images/ruby-101.png" class="coach" />
         Paulo Bomfim, coach
         <small>@paulobomfim</small>
       </a>
-<!--
-
-      <a id="diguliu" href="https://github.com/diguliu" class="grid_3">
-        <img
-src="http://www.gravatar.com/avatar/2fb770603e9880964ce0f8ac999d516f?s=50"
-class="coach" />
-          Rodrigo Souto, coach
-        <small>@diguliu</small>
+      <a id="diogosantos" href="https://gitlab.com/Inc26ursio" class="grid_3">
+        <img src="https://assets.gitlab-static.net/uploads/-/system/user/avatar/4062035/avatar.png?width=50" class="coach" />
+        Diogo Santos, coach
+        <small>@diogosantos</small>
       </a>
- -->
     </div>
 
   </div>

@@ -215,3 +215,14 @@
 .margim-bottom {
   margin-bottom: 20px;
 }
+
+
+#portoalegre .button {
+  background-color: rgba(211, 54, 11, 0.9);
+  border: 1px solid white;
+  padding: 10px 30px;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0.5em;
+}
+#portoalegre .button:hover { background-color: rgb(211, 54, 11); }
