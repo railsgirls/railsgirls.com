@@ -136,7 +136,13 @@ iframe {
   right: 18px;
   bottom: 2px;
 }
+/* team */
 
+.team-title {
+  font-size: 20px;
+  color: #D3350C;
+  margin-top: 20px;
+}
 /* coach */
 .coach img {
   width: 50px;
@@ -147,6 +153,11 @@ iframe {
 .coach {
   padding-top: 10px;
   padding-bottom: 10px;
+  color: #000;
+  line-height: 50px;
+}
+.coach:hover {
+  color: #D3350C;
 }
 .coach small {
   color: #000;
