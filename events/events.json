@@ -1,5 +1,12 @@
 [
-
+  {
+    "location": "Dnipro, Ukraine",
+    "writtenDate": "September 7th & 8th, 2019",
+    "startDate": "2019-09-07",
+    "endDate": "2019-09-08",
+    "imageUrl": "/images/dnipro2019/preview.png",
+    "eventUrl": "/dnipro2019.html"
+  },
   {
     "location": "Tokyo, Japan",
     "writtenDate": "August 2nd & 3rd, 2019",
@@ -39,14 +46,6 @@
     "endDate": "2019-07-14",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/bogota.html"
-  },
-  {
-    "location": "Dnipro, Ukraine",
-    "writtenDate": "July 5th & 6th, 2019",
-    "startDate": "2019-07-05",
-    "endDate": "2019-07-06",
-    "imageUrl": "/images/dnipro2019/preview.png",
-    "eventUrl": "/dnipro2019.html"
   },
   {
     "location": "Osaka, Japan",
