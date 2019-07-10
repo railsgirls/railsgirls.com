@@ -226,13 +226,6 @@
   margin: 0 0.5em;
 }
 #portoalegre .button:hover { background-color: rgb(211, 54, 11); }
-
-/* #portoalegre .category {color: #fff !important; width: 100%; padding: 4px 0; font-size: 18px;}
-#portoalegre .category.ouro {background-color:#CF9F51;}
-#portoalegre .category.prata {background-color:#8a8a8a;}
-#portoalegre .category.bronze {background-color:#b1560f;}
-#portoalegre .category.apoio {background-color: #d3360b;} */
-
 #portoalegre .category {
   border-radius: 50%; 
   background-image: url(../img/star-b.png);
