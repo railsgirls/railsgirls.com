@@ -24,14 +24,44 @@ nav {
 }
 
 .hero {
-	float: left; 
-	width: 50%; 
+	float: left;
+	width: 50%;
 	margin-right: 20px;
 }
 
 .container_12 .grid_6, .container_16 .grid_8 {
 	width: 100%;
 	max-width: 460px;
+}
+
+.photo-wrapper {
+	position: relative;
+	cursor: pointer;
+}
+
+.photo-wrapper img {
+	width: 100%;
+}
+
+.photo-overlay {
+	opacity: 0;
+	position: absolute;;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.75);
+	color: #fff;
+	transition: opacity 0.1s;
+	margin: 0;
+	text-align: center;
+}
+
+.photo-wrapper:hover .photo-overlay {
+	opacity: 1;
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,10 +71,6 @@ nav {
 
 	.container_12 .grid_5 {
 		width: 100%;
-	}
-
-	.flickr {
-		display: none;
 	}
 
 	.map iframe {
