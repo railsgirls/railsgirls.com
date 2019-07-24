@@ -168,8 +168,10 @@
   border-bottom: none;
 }
 
-#portoalegre .partners .grid_4:not(.alpha) {
+#portoalegre .partners .grid_4:not(.alpha),
+#portoalegre .partners .grid_3:not(.alpha) {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #portoalegre .coaches .omega{
@@ -220,24 +222,33 @@
 #portoalegre .button {
   background-color: rgba(211, 54, 11, 0.9);
   border: 1px solid white;
-  padding: 10px 30px;
+  padding: 10px;
   font-size: 22px;
   color: #fff;
   margin: 0 0.5em;
 }
+.categories {
+  padding:10px  10px 50px;
+}
 #portoalegre .button:hover { background-color: rgb(211, 54, 11); }
 #portoalegre .category {
-  border-radius: 50%; 
-  background-image: url(../img/star-b.png);
   background-repeat: no-repeat;
   background-position: center center;
-  width: 20px;
-  height: 20px;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
   display: inline-block;
   margin: -3px 2px;
 }
-#portoalegre .category.ouro {background-color:#CF9F51;}
-#portoalegre .category.prata {background-color:#8a8a8a;}
-#portoalegre .category.bronze {background-color:#b1560f;}
-#portoalegre .category.apoio {background-color: #d3360b;}
+#portoalegre .category.ouro {background-image: url(../img/2019/general-images/dimanteouro.png);}
+#portoalegre .category.prata {background-image: url(../img/2019/general-images/diamanteprata.png);}
+#portoalegre .category.bronze {background-image: url(../img/2019/general-images/diamantebronze.png);}
+#portoalegre .category.apoio {background-image: url(../img/2019/general-images/coracao-vermelho.png);}
 
+.text-center {text-align: center}
+.aling-div {
+  display: inline-block;
+  float: none;
+}
+
+#parceiros h3{ margin: 0px;}
