@@ -228,7 +228,7 @@
   margin: 0 0.5em;
 }
 .categories {
-  padding:10px  10px 50px;
+  padding:10px  10px 30px;
 }
 #portoalegre .button:hover { background-color: rgb(211, 54, 11); }
 #portoalegre .category {
@@ -240,6 +240,7 @@
   display: inline-block;
   margin: -3px 2px;
 }
+#portoalegre .category.ruby {background-image: url(../img/2019/general-images/ruby.png);}
 #portoalegre .category.ouro {background-image: url(../img/2019/general-images/dimanteouro.png);}
 #portoalegre .category.prata {background-image: url(../img/2019/general-images/diamanteprata.png);}
 #portoalegre .category.bronze {background-image: url(../img/2019/general-images/diamantebronze.png);}
@@ -249,6 +250,10 @@
 .aling-div {
   display: inline-block;
   float: none;
+}
+.img {
+  width: 100%;
+  height: auto;
 }
 
 #parceiros h3{ margin: 0px;}
