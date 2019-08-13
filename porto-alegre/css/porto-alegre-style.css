@@ -240,6 +240,7 @@
   display: inline-block;
   margin: -3px 2px;
 }
+#portoalegre .category.ruby {background-image: url(../img/2019/general-images/ruby.png);}
 #portoalegre .category.ouro {background-image: url(../img/2019/general-images/dimanteouro.png);}
 #portoalegre .category.prata {background-image: url(../img/2019/general-images/diamanteprata.png);}
 #portoalegre .category.bronze {background-image: url(../img/2019/general-images/diamantebronze.png);}

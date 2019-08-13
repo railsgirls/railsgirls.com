@@ -1,12 +1,29 @@
-[
+[  
+  {
+    "location": "Zürich, Switzerland",
+    "writtenDate": "October 11th & 12th, 2019",
+    "startDate": "2019-11-11",
+    "endDate": "2019-11-12",
+    "imageUrl": "/images/rg-zurich2019-header.png",
+    "eventUrl": "/zurich2019.html"
+  },
+
   {
     "location": "Kathmandu, Nepal",
-    "writtenDate": "July 26th & 278th, 2019",
+    "writtenDate": "July 26th & 27th, 2019",
     "startDate": "2019-07-26",
     "endDate": "2019-07-27",
     "imageUrl": "/images/rg-kathmandu.png",
     "eventUrl": "/kathmandu.html"
-  },
+    },
+  {
+      "location": "Poznań, Poland",
+      "writtenDate": "September 20th & 21th, 2019",
+      "startDate": "2019-09-20",
+      "endDate": "2019-09-21",
+      "imageUrl": "/images/poznan/rails_girls_general_logo.png",
+      "eventUrl": "/poznan.html"
+    },
   {
     "location": "Dnipro, Ukraine",
     "writtenDate": "September 6th & 7th, 2019",
