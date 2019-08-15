@@ -7,7 +7,14 @@
     "imageUrl": "/images/rg-zurich2019-header.png",
     "eventUrl": "/zurich2019.html"
   },
-
+  {
+    "location": "Okinawa, Japan",
+    "writtenDate": "October 4th & 5th, 2019",
+    "startDate": "2019-10-04",
+    "endDate": "2019-10-05",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/okinawa-2nd.html"
+  },
   {
     "location": "Kathmandu, Nepal",
     "writtenDate": "July 26th & 27th, 2019",
