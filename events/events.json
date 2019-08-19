@@ -1,7 +1,31 @@
-[
+[  
+  {
+    "location": "Kansas City, KS USA",
+    "writtenDate": "October 19th, 2019",
+    "startDate": "2019-10-19",
+    "endDate": "2019-10-19",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/kansas-city.html"
+  },
+  {
+    "location": "Zürich, Switzerland",
+    "writtenDate": "October 11th & 12th, 2019",
+    "startDate": "2019-11-11",
+    "endDate": "2019-11-12",
+    "imageUrl": "/images/rg-zurich2019-header.png",
+    "eventUrl": "/zurich2019.html"
+  },
+  {
+    "location": "Okinawa, Japan",
+    "writtenDate": "October 4th & 5th, 2019",
+    "startDate": "2019-10-04",
+    "endDate": "2019-10-05",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/okinawa-2nd.html"
+  },
   {
     "location": "Kathmandu, Nepal",
-    "writtenDate": "July 26th & 278th, 2019",
+    "writtenDate": "July 26th & 27th, 2019",
     "startDate": "2019-07-26",
     "endDate": "2019-07-27",
     "imageUrl": "/images/rg-kathmandu.png",
