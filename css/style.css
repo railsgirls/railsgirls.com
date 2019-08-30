@@ -1012,6 +1012,13 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
     background-size: 390px;
 }
 
+.okinawa-2#promo {
+    padding-left: 420px;
+    background: url('../images/okinawa/logo.jpg') no-repeat left top;
+url('../images/separator.png') no-repeat center bottom;
+    background-size: 390px;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
