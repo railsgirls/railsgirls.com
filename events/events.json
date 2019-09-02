@@ -9,15 +9,6 @@
   },
 
   {
-    "location": "Sydney, Australia",
-    "writtenDate": "September 14th, 2019",
-    "startDate": "2019-09-14",
-    "endDate": "2019-09-14",
-    "imageUrl": "images/railsgirls-sq.png",
-    "eventUrl": "/sydney.html"
-  },
-
-  {
     "location": "Curitiba, Brasil",
     "writtenDate": "November 01th & 02th, 2019",
     "startDate": "2019-11-01",
@@ -35,15 +26,6 @@
      "eventUrl": "/kansas-city.html"
    },
 
-   {
-   "location": "Okinawa, Japan",
-   "writtenDate": "October 4th & 5th, 2019",
-   "startDate": "2019-10-04",
-   "endDate": "2019-10-05",
-   "imageUrl": "/images/railsgirls-sq.png",
-   "eventUrl": "/okinawa-2nd.html"
-  },
-
   {
   "location": "Zürich, Switzerland",
   "writtenDate": "October 11th & 12th, 2019",
@@ -54,13 +36,14 @@
   },
 
   {
-    "location": "Kathmandu, Nepal",
-    "writtenDate": "July 26th & 27th, 2019",
-    "startDate": "2019-07-26",
-    "endDate": "2019-07-27",
-    "imageUrl": "/images/rg-kathmandu.png",
-    "eventUrl": "/kathmandu.html"
-    },
+  "location": "Okinawa, Japan",
+  "writtenDate": "October 4th & 5th, 2019",
+  "startDate": "2019-10-04",
+  "endDate": "2019-10-05",
+  "imageUrl": "/images/railsgirls-sq.png",
+  "eventUrl": "/okinawa-2nd.html"
+  },
+
   {
     "location": "Poznań, Poland",
     "writtenDate": "September 20th & 21th, 2019",
@@ -69,6 +52,16 @@
     "imageUrl": "/images/poznan/rails_girls_general_logo.png",
     "eventUrl": "/poznan.html"
   },
+
+  {
+    "location": "Sydney, Australia",
+    "writtenDate": "September 14th, 2019",
+    "startDate": "2019-09-14",
+    "endDate": "2019-09-14",
+    "imageUrl": "images/railsgirls-sq.png",
+    "eventUrl": "/sydney.html"
+  },
+
   {
     "location": "Dnipro, Ukraine",
     "writtenDate": "September 6th & 7th, 2019",
@@ -77,93 +70,8 @@
     "imageUrl": "/images/dnipro2019/preview.png",
     "eventUrl": "/dnipro2019.html"
   },
-  {
-    "location": "Tokyo, Japan",
-    "writtenDate": "August 2nd & 3rd, 2019",
-    "startDate": "2019-08-02",
-    "endDate": "2019-08-03",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/tokyo.html"
-  },
-  {
-    "location": "Sai Gon, Vietnam",
-    "writtenDate": "July 20th, 2019",
-    "startDate": "2019-07-20",
-    "endDate": "2019-07-20",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/saigon-2019.html"
-  },
-  {
-    "location": "Sendai, Japan",
-    "writtenDate": "July 19th & 20th, 2019",
-    "startDate": "2019-07-19",
-    "endDate": "2019-07-20",
-    "imageUrl": "/images/rg-sendai-2019-07-20.png",
-    "eventUrl": "/sendai.html"
-  },
-  {
-    "location": "Sorocaba, Brasil",
-    "writtenDate": "July 19th & 20th, 2019",
-    "startDate": "2019-07-19",
-    "endDate": "2019-07-20",
-    "imageUrl": "/images/sorocaba/railsgirlssorocaba_2019.png",
-    "eventUrl": "/sorocaba.html"
-  },
-  {
-    "location": "Bogota, Colombia",
-    "writtenDate": "July 13th & July 14, 2019",
-    "startDate": "2019-07-13",
-    "endDate": "2019-07-14",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/bogota.html"
-  },
-  {
-    "location": "Osaka, Japan",
-    "writtenDate": "June 21st & 22nd, 2019",
-    "startDate": "2019-06-21",
-    "endDate": "2019-06-22",
-    "imageUrl": "/images/osaka/rg-osaka6th.png",
-    "eventUrl": "/osaka.html"
-  },
-  {
-    "location": "Rotterdam, The Netherlands",
-    "writtenDate": "June 20th, 2019",
-    "startDate": "2019-06-20",
-    "endDate": "2019-06-20",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/rotterdam19.html"
-  },
-  {
-    "location": "Ehime, Japan",
-    "writtenDate": "June 14th & 15th, 2019",
-    "startDate": "2019-06-14",
-    "endDate": "2019-06-15",
-    "imageUrl": "/images/rg-ehime.png",
-    "eventUrl": "/ehime.html"
-  },
-  {
-    "location": "Salvador, Brazil",
-    "writtenDate": "June 14th & 15th, 2019",
-    "startDate": "2019-06-14",
-    "endDate": "2019-06-15",
-    "imageUrl": "/images/rg-salvador.jpg",
-    "eventUrl": "/salvador201906.html"
-  },
-  {
-    "location": "Brisbane, Australia",
-    "writtenDate": "June 8th, 2019",
-    "startDate": "2019-06-08",
-    "endDate": "2019-06-08",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/brisbane.html"
-  },
-  {
-    "location": "Kraków, Poland",
-    "writtenDate": "June 7th & 8th, 2019",
-    "startDate": "2019-06-07",
-    "endDate": "2019-06-08",
-    "imageUrl": "/images/krakow/rgkrk_logo_red.png",
-    "eventUrl": "/krakow.html"
-  }
+
+
+
 
 ]
