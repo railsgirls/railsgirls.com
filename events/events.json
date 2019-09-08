@@ -1,7 +1,16 @@
 [
   {
+    "location": "London, UK",
+    "writtenDate": "November 8th & 9th, 2019",
+    "startDate": "2019-11-08",
+    "endDate": "2019-11-09",
+    "imageUrl": "/images/london/rails_girls_london_cats.jpg",
+    "eventUrl": "/london.html"
+  },
+
+  {
   "location": "Porto Alegre, Brasil",
-  "writtenDate": "November 08th & 09th, 2019",
+  "writtenDate": "November 8th & 9th, 2019",
   "startDate": "2019-11-08",
   "endDate": "2019-11-09",
   "imageUrl": "images/rg-portoalegre.png",
@@ -10,7 +19,7 @@
 
   {
     "location": "Curitiba, Brasil",
-    "writtenDate": "November 01th & 02th, 2019",
+    "writtenDate": "November 1st & 2nd, 2019",
     "startDate": "2019-11-01",
     "endDate": "2019-11-02",
     "imageUrl": "images/railsgirls-sq.png",
