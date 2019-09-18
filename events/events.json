@@ -32,6 +32,14 @@
       "eventUrl":"/curitiba.html"
    },
    {
+      "location":"Los Angeles, CA USA",
+      "writtenDate":"October 25th, 2019",
+      "startDate":"2019-10-25",
+      "endDate":"2019-10-26",
+      "imageUrl":"/images/rg-losangles.jpg",
+      "eventUrl":"/la.html"
+   },
+   {
       "location":"Kansas City, KS USA",
       "writtenDate":"October 19th, 2019",
       "startDate":"2019-10-19",
