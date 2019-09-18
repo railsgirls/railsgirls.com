@@ -1,5 +1,13 @@
 [
    {
+      "location":"Amsterdam, NL",
+      "writtenDate":"November 30th, 2019",
+      "startDate":"2019-11-30",
+      "endDate":"2019-11-30",
+      "imageUrl":"/images/railsgirls-sq.png",
+      "eventUrl":"/amsterdam.html"
+   },
+   {
       "location":"London, UK",
       "writtenDate":"November 8th & 9th, 2019",
       "startDate":"2019-11-08",
@@ -62,6 +70,14 @@
       "endDate":"2019-09-21",
       "imageUrl":"/images/poznan/rails_girls_general_logo.png",
       "eventUrl":"/poznan.html"
+   },
+   {
+      "location":"Nantes, France",
+      "writtenDate":"September 20th & 21th, 2019",
+      "startDate":"2019-09-20",
+      "endDate":"2019-09-21",
+      "imageUrl":"/images/railsgirls-sq.png",
+      "eventUrl":"/nantes.html"
    },
    {
       "location":"Sydney, Australia",
