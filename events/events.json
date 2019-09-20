@@ -8,6 +8,14 @@
       "eventUrl":"/amsterdam.html"
    },
    {
+      "location":"Cali, CO",
+      "writtenDate":"November 22th, 2019",
+      "startDate":"2019-11-22",
+      "endDate":"2019-11-23",
+      "imageUrl":"/images/cali/rg-cali-logo.png",
+      "eventUrl":"/cali.html"
+   },
+   {
       "location":"London, UK",
       "writtenDate":"November 8th & 9th, 2019",
       "startDate":"2019-11-08",
