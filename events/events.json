@@ -8,6 +8,14 @@
       "eventUrl":"/amsterdam.html"
    },
    {
+      "location":"Belgrade, RS",
+      "writtenDate":"November 30th, 2019",
+      "startDate":"2019-11-30",
+      "endDate":"2019-12-01",
+      "imageUrl":"/images/beograd/railsgirls-bg.png",
+      "eventUrl":"/beograd.html"
+   },
+   {
       "location":"Cali, CO",
       "writtenDate":"November 22th, 2019",
       "startDate":"2019-11-22",
