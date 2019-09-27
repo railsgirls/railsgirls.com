@@ -1882,6 +1882,12 @@ h4.warsaw {
                  url('../images/separator.png') no-repeat center bottom;
 }
 
+.bristol#promo {
+  padding-left:340px;
+  background:url('../images/railsgirls-sq.png') 0px 10px/32% no-repeat,
+                 url('../images/separator.png') no-repeat center bottom;
+}
+
 
 .la#promo {
   padding-left:340px;
