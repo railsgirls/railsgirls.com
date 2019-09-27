@@ -8,7 +8,15 @@
       "eventUrl":"/amsterdam.html"
    },
    {
-      "location":"Bristol, UK",
+      "location":"Belgrade, RS",
+      "writtenDate":"November 30th, 2019",
+      "startDate":"2019-11-30",
+      "endDate":"2019-12-01",
+      "imageUrl":"/images/beograd/railsgirls-bg.png",
+      "eventUrl":"/beograd.html"
+   },
+   {
+     "location":"Bristol, UK",
       "writtenDate":"November 29th & 30th, 2019",
       "startDate":"2019-11-29",
       "endDate":"2019-11-30",
