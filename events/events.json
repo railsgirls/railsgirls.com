@@ -64,6 +64,14 @@
       "eventUrl":"/la.html"
    },
    {
+      "location":"Warsaw, Poland",
+      "writtenDate":"October 19th & 20th, 2019",
+      "startDate":"2019-10-19",
+      "endDate":"2019-10-20",
+      "imageUrl":"/images/railsgirls-sq.png",
+      "eventUrl":"/warsaw.html"
+   },
+   {
       "location":"Kansas City, KS USA",
       "writtenDate":"October 19th, 2019",
       "startDate":"2019-10-19",
@@ -78,14 +86,6 @@
       "endDate":"2019-10-19",
       "imageUrl":"/images/railsgirls-sq.png",
       "eventUrl":"/luxembourg.html"
-   },
-   {
-      "location":"Warsaw, Poland",
-      "writtenDate":"October 19th & 20th, 2019",
-      "startDate":"2019-10-19",
-      "endDate":"2019-10-20",
-      "imageUrl":"/images/railsgirls-sq.png",
-      "eventUrl":"/warsaw.html"
    },
    {
       "location":"Zürich, Switzerland",
