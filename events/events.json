@@ -60,7 +60,7 @@
       "writtenDate":"October 25th, 2019",
       "startDate":"2019-10-25",
       "endDate":"2019-10-26",
-      "imageUrl":"/images/rg-losangles.jpg",
+      "imageUrl":"/images/rg-losangeles.jpg",
       "eventUrl":"/la.html"
    },
    {
@@ -78,6 +78,14 @@
       "endDate":"2019-10-19",
       "imageUrl":"/images/railsgirls-sq.png",
       "eventUrl":"/luxembourg.html"
+   },
+   {
+      "location":"Warsaw, Poland",
+      "writtenDate":"October 19th & 20th, 2019",
+      "startDate":"2019-10-19",
+      "endDate":"2019-10-20",
+      "imageUrl":"/images/railsgirls-sq.png",
+      "eventUrl":"/warsaw.html"
    },
    {
       "location":"Zürich, Switzerland",
