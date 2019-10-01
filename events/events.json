@@ -8,6 +8,30 @@
       "eventUrl":"/amsterdam.html"
    },
    {
+      "location":"Belgrade, RS",
+      "writtenDate":"November 30th, 2019",
+      "startDate":"2019-11-30",
+      "endDate":"2019-12-01",
+      "imageUrl":"/images/beograd/railsgirls-bg.png",
+      "eventUrl":"/beograd.html"
+   },
+   {
+     "location":"Bristol, UK",
+      "writtenDate":"November 29th & 30th, 2019",
+      "startDate":"2019-11-29",
+      "endDate":"2019-11-30",
+      "imageUrl":"images/railsgirls-sq.png",
+      "eventUrl":"/bristol-november-2019.html"
+   },
+   {
+      "location":"Cali, CO",
+      "writtenDate":"November 22th, 2019",
+      "startDate":"2019-11-22",
+      "endDate":"2019-11-23",
+      "imageUrl":"/images/cali/rg-cali-logo.png",
+      "eventUrl":"/cali.html"
+   },
+   {
       "location":"London, UK",
       "writtenDate":"November 8th & 9th, 2019",
       "startDate":"2019-11-08",
@@ -32,12 +56,28 @@
       "eventUrl":"/curitiba.html"
    },
    {
+      "location":"Los Angeles, CA USA",
+      "writtenDate":"October 25th, 2019",
+      "startDate":"2019-10-25",
+      "endDate":"2019-10-26",
+      "imageUrl":"/images/rg-losangles.jpg",
+      "eventUrl":"/la.html"
+   },
+   {
       "location":"Kansas City, KS USA",
       "writtenDate":"October 19th, 2019",
       "startDate":"2019-10-19",
       "endDate":"2019-10-19",
       "imageUrl":"/images/railsgirls-sq.png",
       "eventUrl":"/kansas-city.html"
+   },
+   {
+      "location":"Luxembourg City, Luxembourg",
+      "writtenDate":"October 19th, 2019",
+      "startDate":"2019-10-19",
+      "endDate":"2019-10-19",
+      "imageUrl":"/images/railsgirls-sq.png",
+      "eventUrl":"/luxembourg.html"
    },
    {
       "location":"Zürich, Switzerland",
