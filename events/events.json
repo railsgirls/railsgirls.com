@@ -1,13 +1,5 @@
 [
    {
-      "location":"Vancouver, BC",
-      "writtenDate":"October 26th, 2019",
-      "startDate":"2019-10-26",
-      "endDate":"2019-10-26",
-      "imageUrl":"/images/railsgirls-sq.png",
-      "eventUrl":"/vancouver.html"
-   },
-   {
       "location":"Amsterdam, NL",
       "writtenDate":"November 30th, 2019",
       "startDate":"2019-11-30",
@@ -70,6 +62,14 @@
       "endDate":"2019-11-02",
       "imageUrl":"images/railsgirls-sq.png",
       "eventUrl":"/curitiba.html"
+   },
+   {
+      "location":"Vancouver, BC",
+      "writtenDate":"October 26th, 2019",
+      "startDate":"2019-10-26",
+      "endDate":"2019-10-26",
+      "imageUrl":"/images/railsgirls-sq.png",
+      "eventUrl":"/vancouver.html"
    },
    {
       "location":"Los Angeles, CA USA",
