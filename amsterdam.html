@@ -1,129 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Amsterdam November 30th, 2019</title>
-    <meta name="description" content="Rails Girls Amsterdam - November 30th, 2019">
-    <meta name="author" content="Rails Girls">
+  <title>Amsterdam November 30th, 2019</title>
+  <meta name="description" content="Join us for the Rails Girls Amsterdam November 2019 event: a free, one day workshop where participants will discover the exciting world of web development through Ruby on Rails. With the help and guidance of our coaches, attendees will create a real web application in a fun and relaxed environment. Are you ready to dive in?">
+  <meta name="author" content="Rails Girls">
 
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/style.css">
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <!-- some styling for the time table using am / pm formats, as to not mess with the global website styling on every page -->
-    <style>
-        #schedule th {
-            width: 30%;
-        }
+  <!-- some styling for the time table using am / pm formats, as to not mess with the global website styling on every page -->
+  <style>
+  #schedule th {
+    width: 30%;
+  }
 
-        #container {
-          position: relative;
-          z-index: 10;
-          padding-top: 30px;
-        }
+  #container {
+    position: relative;
+    z-index: 10;
+    padding-top: 30px;
+  }
 
-        #promo, #promo.new {
-          background-color: rgba(255, 255, 255, 0.8);
-          padding: 30px;
-          width: 80%;
-          margin: auto;
-          margin-bottom: 80px;
-        }
+  #promo, #promo.new {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin: 20px auto 20px auto;
+  }
 
-        .backdrop {
-          position: absolute;
-          top: 85px;
-          left: 0;
-          width: 100%;
-          height: 500px;
-          z-index: 0;
-          background: rgba(0, 0, 0, 0.7);
-          background-image: url(/images/amsterdam-2019.jpg);
-          background-size: cover;
-          background-position: center;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
+  .backdrop {
+    width: 100%;
+    z-index: 0;
+    background-image: url(/images/amsterdam-2019.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-        .backdrop::after {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          background-color: rgba(0, 0, 0, 0.7);
-        }
+  .backdrop-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
 
-        .past-events {
-          display: flex;
-          flex-flow: row wrap;
-          align-items: center;
-          opacity: 0.7;
-          justify-content: center;
-        }
 
-        .past-events :first-child {
-          list-style: none;
-        }
+  .past-events {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    opacity: 0.7;
+    justify-content: center;
+  }
 
-        a {
-          cursor: default;
-        }
+  .past-events :first-child {
+    list-style: none;
+  }
 
-        a[href] {
-          cursor: pointer;
-        }
-    </style>
-    <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
-  </head>
-  <body>
-    <header>
-      <div class="container_12">
-          <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
-          <nav>
-              <a href="./events.html">Events</a>
-              <a href="./materials.html">Materials</a>
-              <a href="./press.html">Press</a>
-              <a href="http://blog.railsgirls.com">Blog</a>
-              <a href="http://guides.railsgirls.com">Guides</a>
-          </nav>
+  a {
+    cursor: default;
+  }
+
+  a[href] {
+    cursor: pointer;
+  }
+
+  .social-media a {
+  border-bottom: none;
+  }
+
+  .social-media a img {
+    border: 0;
+    margin-right: 15px;
+  }
+
+  </style>
+
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+</head>
+<body>
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Events</a>
+        <a href="./materials.html">Materials</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">
+          Guides</a>
+        </nav>
       </div>
     </header>
-    <div class="backdrop"></div>
-    <div id="container" class="container_12 page clearfix">
-      <div class="grid_12 omega alpha">
-        <div id="promo" class="new yourcity">
-          <h1>Rails Girls Amsterdam
-            <small>November 30th, 2019</small>
-          </h1>
-          <p>Rails Girls is coming to Amsterdam.<br />
-          <p>
-            Are you ready to get coding? Then...
-          </p>
-          <p>
-            <a href="https://forms.gle/rkSxajCre7k39kZF8">Sign up here!</a> We can't wait to meet you on the 30th of November!
-          </p>
-          <p>Team Rails Girls Amsterdam</p>
-          <div id="share">
-            <div>
-              <div style="margin:0 15px 0 0;">
-                <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Amsterdam November 30th 2019 http://railsgirls.com/Amsterdam19.html" data-count="horizontal" data-via="rg_Amsterdam" data-related="railsgirls">Tweet</a>
-                <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <!-- <div class="backdrop"></div> -->
+    <div class="container_16 clearfix backdrop">
+      <div class="backdrop-overlay">
+        <div class="container_12  clearfix">
+          <div id="promo" class="new yourcity">
+            <h1>Rails Girls Amsterdam
+              <small>November 30th, 2019</small>
+            </h1>
+            <p>
+              Rails Girls is coming to Amsterdam! A free, one and a half day workshop where you can discover the exciting world of web development through Ruby on Rails. With the help and guidance of our coaches, you can create a real web application in a fun and relaxed environment.</p>
+            <p>
+              Are you ready to get coding? Then <a href="https://forms.gle/rkSxajCre7k39kZF8">sign up here!</a> We can't wait to meet you on the 30th of November!
+            </p>
+            <p>Team Rails Girls Amsterdam</p>
+            <div id="share">
+              <div>
+                <div style="margin:0 15px 0 0;">
+                  <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Amsterdam November 30th 2019 http://railsgirls.com/Amsterdam19.html" data-count="horizontal" data-via="rg_Amsterdam" data-related="railsgirls">
+                    Tweet
+                  </a>
+                  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                </div>
               </div>
+            </div>
+          </div>
+          <div id="promo" class="new yourcity" style="min-height: 100px; margin-top: 15px;">
+            <div class="grid_12">
+              <h3>Wanna help out? <3</h3>
+              <p>We are still looking for coaches! Make sure to <a href="https://forms.gle/e33xdVmzCUtb5Wzn9">sign up here</a> to help us out!</p>
             </div>
           </div>
         </div>
       </div>
-<!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+    </div>
+    <div class="container_12  clearfix">
+      <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      <hr />
+      <h2>About Rails Girls Amsterdam</h2>
       <div class="grid_4 alpha feature">
         <p><strong>You learn</strong> designing, prototyping and coding with the help from our coaches.</p>
       </div>
@@ -133,138 +148,218 @@
       <div class="grid_4 omega feature">
         <p><strong>You form</strong> friendships for life.</p>
       </div>
-      <hr />
-<!--  Update the texts! -->
-      <div class="grid_6 alpha">
-        <h2>Saturday November 30th</h2>
-        <table id="schedule">
-          <tbody>
-            <tr>
-                <th>9:30 am</th>
-                <td><h4>Breakfast &amp; installation</h4></td>
-            </tr>
-            <tr>
-                <th>10:30 am</th>
-                <td><h4>Introduction &amp; icebreaker</h4></td>
-            </tr>
-            <tr>
-                <th>11:00 am</th>
-                <td><h4>Introduction to the app</h4></td>
-            </tr>
-            <tr>
-                <th>11:15 am</th>
-                <td><h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4></td>
-            </tr>
-            <tr>
-                <th>12:30 am</th>
-                <td><h4>LUNCH</h4></td>
-            </tr>
-            <tr>
-                <th>1:30 pm</th>
-                <td><h4>Lightning Talks</h4></td>
-            </tr>
-            <tr>
-                <th>2:00 pm</th>
-                <td><h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4></td>
-            </tr>
-            <tr>
-                <th>4:00 pm</th>
-                <td><h4>Launch! & wrap-up</h4></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="grid_5 push_1 omega side">
-        <h3 style="margin: 2.1em 0 2em;">Partners</h3>
-        <p>Rails Girls Amsterdam is supported by these wonderful companies:</p>
-        <p>
-        </p>
 
+      <hr />
+
+      <!--  Update the texts! -->
+
+      <div class="grid_6 alpha">
+          <h2>Saturday November 30th</h2>
+          <table id="schedule">
+            <tbody>
+              <tr>
+                  <th>9:30 am</th>
+                  <td><h4>Breakfast &amp; installation</h4></td>
+              </tr>
+              <tr>
+                  <th>10:30 am</th>
+                  <td><h4>Introduction &amp; icebreaker</h4></td>
+              </tr>
+              <tr>
+                  <th>11:00 am</th>
+                  <td><h4>Introduction to the app</h4></td>
+              </tr>
+              <tr>
+                  <th>11:15 am</th>
+                  <td><h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4></td>
+              </tr>
+              <tr>
+                  <th>12:30 am</th>
+                  <td><h4>LUNCH</h4></td>
+              </tr>
+              <tr>
+                  <th>1:30 pm</th>
+                  <td><h4>Lightning Talks</h4></td>
+              </tr>
+              <tr>
+                  <th>2:00 pm</th>
+                  <td><h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4></td>
+              </tr>
+              <tr>
+                  <th>4:00 pm</th>
+                  <td><h4>Launch! & wrap-up</h4></td>
+              </tr>
+            </tbody>
+          </table>
         <hr/>
         <h3>FAQ</h3>
         <p>
-          <strong>Where can I sign up as an attendee?</strong><br />
-          You can do that <a href="https://forms.gle/rkSxajCre7k39kZF8">right here!</a>
-        </p>
-        <p>
-          <strong>How much does the workshop cost?</strong><br />
-          Nothing, it's free! You just need to be excited!
-        </p>
-        <p>
-          <strong>Do I need a laptop?</strong><br />
-          Yes! Please bring it with you :)
-        </p>
-        <p>
-          <strong>Can men attend?</strong><br />
-          Yes, but girls are given a priority.
-        </p>
-        <p>
-          <strong>Are there vegetarian / vegan options for food?</strong><br />
-          Got you covered here too, both a vegetarian and a vegan option are offered as well.
-        </p>
-        <p>
-          <strong>Who is this aimed for?</strong><br />
-          Women of any age with basic knowledge of working with a computer.
-          We’ve had people of all ages taking part.
-          Most of the speeches are given in English and small group work is done in either Dutch or English.
-        </p>
-        <p>
-          <strong>Can I help out as a coach?</strong>
-          Yes you can! Make sure to <a href="https://forms.gle/e33xdVmzCUtb5Wzn9">sign up here</a> for that!
-        </p>
+            <strong>Where can I sign up as an attendee?</strong><br />
+            You can do that <a href="https://forms.gle/rkSxajCre7k39kZF8">right here!</a>
+          </p>
+          <p>
+            <strong>How much does the workshop cost?</strong><br />
+            Nothing, it's free! You just need to be excited!
+          </p>
+          <p>
+            <strong>Do I need a laptop?</strong><br />
+            Yes! Please bring it with you :)
+          </p>
+          <p>
+            <strong>Can men attend?</strong><br />
+            Yes, but girls are given a priority.
+          </p>
+          <p>
+            <strong>Are there vegetarian / vegan options for food?</strong><br />
+            Got you covered here too, both a vegetarian and a vegan option are offered as well.
+          </p>
+          <p>
+            <strong>Who is this aimed for?</strong><br />
+            Women of any age with basic knowledge of working with a computer.
+            We’ve had people of all ages taking part.
+            Most of the speeches are given in English and small group work is done in either Dutch or English.
+          </p>
+          <p>
+            <strong>Can I help out as a coach?</strong>
+            Yes you can! Make sure to <a href="https://forms.gle/e33xdVmzCUtb5Wzn9">sign up here</a> for that!
+          </p>
         <br />
       </div>
-<!--  Update the team list       -->
-      <div class="coaches" style="clear:both">
+
+      <!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
+
+
+      <div class="grid_5 push_1 omega side">
+        <h3 style="margin: 2.1em 0 2em;">Location</h3>
+        <p>
+          <strong>FeedbackFruits</strong><br>
+          Plantage Middenlaan 60<br />
+          1018 DH Amsterdam
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.319227430566!2d4.914134515801676!3d52.364631379785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3f9cf01cf%3A0x7d62934aa8d9cbc6!2sFreedomLab%20Campus!5e0!3m2!1sen!2snl!4v1570468797805!5m2!1sen!2snl" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <p>
+          <a href="https://feedbackfruits.com/home" style="float:right; margin:0 0 0; border:0; width: 180px;" target=""><img src="images/feedbackfruits.png" alt="FeedbackFruits" style="width: 100px; float: right; margin-right: 20px; margin-bottom: 40px;"></a>
+          <a href="https://feedbackfruits.com/home">FeedbackFruits</a> supports teachers to shape learning activities that spark students' active thinking.
+        </p>
+
+        <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+        <h3 style="margin: 2.1em 0 0;">Partners</h3>
+        <p>Rails Girls Amsterdam
+          wouldn't be possible without our awesome partners.</p>
+          <p>
+            <a href="https://www.youngcapital.nl" style="float:right; margin:0 0 0; border:0; width: 180px;" target=""><img src="images/young-capital.png" alt="YoungCapital" style="width: 100px; float: right; margin-right: 30px;"></a>
+            <a href="https://www.youngcapital.nl">YoungCapital</a> offers interesting vacancies for students, starters and young professionals throughout the Netherlands.
+          </p>
+          <p>
+            <a href="https://appsignal.com/" style="float:right; margin: 14px 0 14px; border:0; width: 180px;" target=""><img src="images/appsignal-logo.svg" alt="AppSignal" style="width: 100px; float: right; margin-right: 30px;"></a>
+            <a href="https://appsignal.com/">AppSignal</a> makes developer's lives easier. AppSignal APM provides error tracking, host monitoring, performance metrics and anomaly detection, all in one interface. And rest assured, all integrations, configuration and team management are taken care of.
+            </p>
+        </div>
+
+
+        <!--  Update the team list       -->
+
+        <div class="coaches">
+            <hr />
+            <h2 class="text-center">Organizers</h2>
+            <a class="grid_3">
+              <img src="./images/ruby-101.png">
+              Tom de Bruijn
+              <small>AppSignal</small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-101.png">
+              Arno Fleming
+              <small>WeTransfer</small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-100.png">
+              Floor Drees
+              <small>Microsoft</small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-100.png">
+              Rayta van Rijswijk
+              <small>YoungCapital</small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-101.png">
+              Ivan Zarea
+              <small>YoungCapital</small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-100.png">
+              Karin Hendrikse
+              <small>YoungCapital</small>
+            </a>
+        </div>
+
+      <div class="coaches">
         <hr />
-        <h2 class="text-center">Coaches & Organizers</h2>
+        <h2 class="text-center">Coaches</h2>
         <p>We want you! Are you excited about helping our attendees out? <a href="https://forms.gle/e33xdVmzCUtb5Wzn9">sign up as a coach!</a></p>
-        <a class="grid_3">
+        <a class="grid_3" href="http://www.maartenvanvliet.nl">
           <img src="./images/ruby-101.png">
-          Tom de Bruijn
-          <small>AppSignal</small>
-        </a>
-        <a class="grid_3">
-          <img src="./images/ruby-101.png">
-          Arno Fleming
-          <small>WeTransfer</small>
+          Maarten	van Vliet
         </a>
         <a class="grid_3">
           <img src="./images/ruby-100.png">
-          Floor Drees
-          <small>Microsoft</small>
+          Jackline Kimani
         </a>
-        <a class="grid_3">
-          <img src="./images/ruby-100.png">
-          Rayta van Rijswijk
-          <small>YoungCapital</small>
-        </a>
-        <a class="grid_3">
+        <a class="grid_3" href="https://www.github.com/codeminator">
           <img src="./images/ruby-101.png">
-          Ivan Zarea
-          <small>YoungCapital</small>
+          Ahmed	Shahin
+        </a>
+        <a class="grid_3" href="https://github.com/ioanatia">
+          <img src="./images/ruby-100.png">
+          Ioana	Tagirta
+        </a>
+        <a class="grid_3" href="https://www.github.com/codeminator">
+          <img src="./images/ruby-101.png">
+          Lucas	Daltro
+        </a>
+        <a class="grid_3" href="http://www.martinasimicic.com">
+          <img src="./images/ruby-101.png">
+          Martina	Simicic
+        </a>
+        <a class="grid_3" href="https://www.linkedin.com/in/tkanov/">
+          <img src="./images/ruby-101.png">
+          Igor Tkanov
         </a>
         <a class="grid_3">
           <img src="./images/ruby-100.png">
-          Karin Hendrikse
-          <small>YoungCapital</small>
+          Nathalia Giusti
         </a>
       </div>
+
+      <div class="coaches">
+        <hr />
+        <h2 class="text-center">Speakers</h2>
+        <p>More info will follow!</p>
+      </div>
+
     </div>
+
     <!-- /content -->
+
     <footer>
-      <p>2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/rg_Amsterdam">Twitter</a> and <a href="https://www.facebook.com/Rails-Girls-Amsterdam-2063149220587882/">Facebook</a></p>
+      <p>2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
       <p class="slogan">Get excited and make things!</p>
     </footer>
     <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-19631067-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
     </script>
   </body>
-</html>
+  </html>
