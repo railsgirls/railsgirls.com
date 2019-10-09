@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>RailsGirls Ruhr</title>
+  <meta name="description" content="Join us for the Rails Girls Ruhr on 26th October 2019. A free, one day workshop where participants will discover the exciting world of web development through Ruby on Rails. With the help and guidance of our coaches, attendees will create a real web application in a fun and relaxed environment. Are you ready to dive in?">
+  <meta name="author" content="Rails Girls">
+
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- some styling for the time table using am / pm formats, as to not mess with the global website styling on every page -->
+  <style>
+  #schedule th {
+    width: 30%;
+  }
+
+  #container {
+    position: relative;
+    z-index: 10;
+    padding-top: 30px;
+  }
+
+  #promo, #promo.new {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin: 20px auto 20px auto;
+  }
+
+  .backdrop {
+    width: 100%;
+    z-index: 0;
+    background-image: url(/images/ruhr/ruhr.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .backdrop-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+
+
+  .past-events {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    opacity: 0.7;
+    justify-content: center;
+  }
+
+  .past-events :first-child {
+    list-style: none;
+  }
+
+  a {
+    cursor: default;
+  }
+
+  a[href] {
+    cursor: pointer;
+  }
+
+  .social-media a {
+  border-bottom: none;
+  }
+
+  .social-media a img {
+    border: 0;
+    margin-right: 15px;
+  }
+
+  </style>
+
+  <meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+</head>
+<body>
+  <header>
+    <div class="container_12">
+      <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+      <nav>
+        <a href="./events.html">Events</a>
+        <a href="./materials.html">Materials</a>
+        <a href="./press.html">Press</a>
+        <a href="http://blog.railsgirls.com">Blog</a>
+        <a href="http://guides.railsgirls.com">
+          Guides</a>
+        </nav>
+      </div>
+    </header>
+    <!-- <div class="backdrop"></div> -->
+    <div class="container_16 clearfix backdrop">
+      <div class="backdrop-overlay">
+        <div class="container_12  clearfix">
+          <div id="promo" class="new yourcity">
+            <h1>Rails Girls Ruhr
+              <h3>October 26th, 2019</h3>
+            </h1>
+            <p>
+              Rails Girls is coming to Dortmund! A non-profit event for women of all ages to give them  a great first experience in software craftsmanship and inspire a confidence to start building things on their own. With one dedicated coach per two or three learners, students will build a web application, from concept to code. Learn sketching, prototyping, basic programming and  get introduced to the world of technology.</p>
+            <p>
+              Are you ready to get coding? Then <a href="https://www.meetup.com/Women-in-Tech-Ruhr/events/265370241/">sign up here!</a>
+            </p>
+            <p>Women in Tech Ruhr & Zalando Dortmund</p>
+            <div id="share">
+              <div>
+                <div style="margin:0 15px 0 0;">
+                  <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Amsterdam November 30th 2019 http://railsgirls.com/Amsterdam19.html" data-count="horizontal" data-via="rg_Amsterdam" data-related="railsgirls">
+                    Tweet
+                  </a>
+                  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="promo" class="new yourcity" style="min-height: 100px; margin-top: 15px;">
+            <div class="grid_12">
+              <h3>Wanna help out? <3</h3>
+              <p>We are still looking for coaches! Make sure to <a href="https://forms.gle/5QWosZALQPz9EHa3A">sign up here</a> to help us out!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container_12  clearfix">
+      <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+      <hr />
+      <h2>About Rails Girls Ruhr</h2>
+      <div class="grid_4 alpha feature">
+        <p><strong>You learn</strong> designing and coding by doing it with help from our expert coaches while learning with other awesome girls*</p>
+      </div>
+      <div class="grid_4 feature">
+        <p><strong>You need</strong> your own laptop, curiosity and a sprinkle of imagination!</p>
+      </div>
+      <div class="grid_4 omega feature">
+        <p><strong>Fostering community</strong> and inclusivity, reducing attrition rate for women in tech.</p>
+      </div>
+
+      <hr />
+
+      <!--  Update the texts! -->
+      <div class="grid_6 alpha">
+        <h2>Friday, October 25th 2019</h2>
+        <table id="schedule">
+          <tbody>
+            <tr>
+              <th>7:00 pm - 9:00pm</th>
+              <td>
+                <h4>Installation party! (optional)</h4>
+                  Get to know the other attendees a little bit before hand.  Bring your laptop and we will install Ruby on Rails together!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <hr/>          
+        
+        <h2>Saturday, October 26th, 2019</h2>
+        
+        <table id="schedule">
+          <tbody>
+          <tr>
+            <th>9:00 am</th>
+            <td>
+              <h4>Coffee &amp; registration</h4>
+              Sign in, grab some grub and get ready to code.</td>
+          </tr>
+          <tr>
+            <th>9:30 am</th>
+            <td>
+            <h4>Kick off talk</h4>
+            </td>
+          </tr>
+          <tr>
+            <th>9:45 am</th>
+            <td>
+            <h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4>
+            Enough small talk, it's hands on coding time!
+            </td>
+          </tr>
+          <tr>
+            <th>11:00 am</th>
+            <td>
+            <h4>Lightning talk</h4>
+            tbd</td>
+          </tr>
+          <tr>
+            <th>11:15 am</th>
+            <td>
+            <h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4>
+            Dive back into models, views and controllers.</td>
+          </tr>
+          <tr>
+            <th>12:00 pm</th>
+            <td>
+            <h4>Lunch</h4>
+            Pizza! And some free time to chat with your amazing participants.</td>
+          </tr>
+          <tr>
+            <th>1:00 pm</th>
+            <td>
+            <h4><a href="http://guides.railsgirls.com/app">Building your app</a></h4>
+            Fueled up and ready to make things!</td>
+          </tr>
+          <tr>
+            <th>3:30 pm</th>
+            <td>
+            <h4>Lightning talk!</h4>
+            tbd</td>
+          </tr>
+          <tr>
+            <th>3:45 pm - 5:00 pm</th>
+            <td>
+            <h4>Launch and wrap up!</h4>
+            Wrap up and if time permits, polish design, add additional features or host your website online!</td>
+          </tr>
+          </tbody>
+        </table>
+        <hr/>
+        <h3>FAQ</h3>
+        <p>
+            <strong>Where can I sign up as an attendee?</strong><br />
+            RSVP <a href="https://www.meetup.com/Women-in-Tech-Ruhr/events/265370241/">right here!</a>
+          </p>
+          <p>
+            <strong>How much does the workshop cost?</strong><br />
+            Nothing, it's free! You just need to be excited!
+          </p>
+          <p>
+            <strong>Do I need a laptop?</strong><br />
+            Yes! Please bring it with you :)
+          </p>
+          <p>
+            <strong>Can men attend?</strong><br />
+            Yes, but girls are given a priority.
+          </p>
+          <p>
+            <strong>Who is this aimed for?</strong><br />
+            Women of any age with basic knowledge of working with a computer.
+            We’ve had people of all ages taking part.
+            The workshop will be in English, but there will be coaches who speak German and a German version of the tutorial as well.
+          </p>
+          <p>
+            <strong>Can I help out as a coach?</strong>
+            Yes you can! Make sure to <a href="https://forms.gle/5QWosZALQPz9EHa3A">sign up here</a> for that!
+            No previous knowledge of Ruby or Rails is necessary, experience with web programming is enough.
+          </p>
+          <p>
+            <strong>Girls*</strong>
+            Although we use "girls" or "women" in our name, we welcome people who identify as female of any age, ethnicity and background. No matter if you’re still in school, don’t work with tech, have been working for many years or stay at home. Girls isn't meant to be cutesy or ageist :)
+          </p>
+        <br />
+      </div>
+
+      <!--  These also, just update :) You cna also add a note on Code of Conduct. For examples, check out the guides! -->
+
+
+      <div class="grid_5 push_1 omega side">
+        <h3 style="margin: 2.1em 0 2em;">Location</h3>
+        <p>
+          <strong>Zalando SE Dortmund</strong><br>
+          Hörder Hafenstraße 1-3<br />
+          44263 Dortmund
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.319227430566!2d4.914134515801676!3d52.364631379785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3f9cf01cf%3A0x7d62934aa8d9cbc6!2sFreedomLab%20Campus!5e0!3m2!1sen!2snl!4v1570468797805!5m2!1sen!2snl" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+        <h3 style="margin: 2.1em 0 0;">Partners</h3>
+        <p>Rails Girls Ruhr
+          wouldn't be possible without our awesome organizers!</p>
+          <p>
+            <a href="https://www.wit-ruhr.de" style="float:right; margin:0 0 0; border:0; width: 180px;" target=""><img src="images/ruhr/wit-ruhr.jpg" alt="WIT-Ruhr" style="width: 100px; float: right; margin-right: 30px;"></a>
+            <a href="https://www.wit-ruhr.de">Women in Tech Ruhr</a> Foster a strong network to empower women, inspire tech culture and reimagine workplaces.
+          </p>
+          <p>
+            <a href="https://jobs.zalando.com/tech/locations/?gh_src=4n3gxh1#dortmund" style="float:right; margin: 14px 0 14px; border:0; width: 180px;" target=""><img src="images/ruhr/zalando.png" alt="Zalando" style="width: 100px; float: right; margin-right: 30px;"></a>
+            See more information about <a href="https://jobs.zalando.com/tech/locations/?gh_src=4n3gxh1#dortmund">Zalando SE.</a> Find and apply to jobs that match your skills, and connect with people to advance your career.
+            </p>
+        <h3 style="margin: 2.1em 0 0;">Contact us</h3>
+        <p> Need to get in touch with the team, we're all ears! <a href="https://forms.gle/5QWosZALQPz9EHa3A">Drop us a line</a></p>
+        </div>
+
+
+        <!--  Update the team list       -->
+
+        <div class="coaches">
+            <!-- <hr /> -->
+<!--             <h2 class="text-center">Organizers</h2>
+            <a class="grid_3">
+              <img src="./images/ruby-100.png">
+              Women in Tech Ruhr
+              <small></small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-100.png">
+              Shruti Srivastava
+              <small>Zalando</small>
+            </a>
+            <a class="grid_3">
+              <img src="./images/ruby-100.png">
+              Paula Snyder
+              <small>Zalando</small>
+            </a>
+ -->            <!-- <a class="grid_3">
+              <img src="./images/ruby-101.png">
+              Karin Hendrikse
+              <small>YoungCapital</small>
+            </a> -->
+        </div>
+
+      <div class="coaches">
+        <hr />
+        <h2 class="text-center">Coaches</h2>
+        <p>Want to give us a hand in breaking down stereotypes about women not being interested in technology and programming? <a href="https://forms.gle/5QWosZALQPz9EHa3A">sign up as a coach!</a></p>
+        <a class="grid_3" href="http://www.maartenvanvliet.nl">
+          <img src="./images/ruby-100.png">
+          Madeline Neumann
+        <small>@Maggysche</small>
+        </a>
+        <a class="grid_3">
+          <img src="./images/ruby-101.png">
+          Tobias Struckmeier
+          <small>@tobmaster</small>
+        </a>
+        <a class="grid_3" href="https://www.github.com/shruti-srivstv">
+          <img src="./images/ruby-101.png">
+          Shruti Srivastava
+          <small>@shruti_srivstv</small>
+        </a>
+      </div>
+    </div>
+    
+    <!-- /content -->
+
+    <footer>
+      <p>2010-2019, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+      <p class="slogan">Get excited and make things!</p>
+    </footer>
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+  </body>
+  </html>
