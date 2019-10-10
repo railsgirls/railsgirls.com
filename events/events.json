@@ -1,4 +1,4 @@
-[
+[ 
   {
     "location": "Amsterdam, NL",
     "writtenDate": "November 30th, 2019",
@@ -72,6 +72,14 @@
     "eventUrl": "/curitiba.html"
   },
   {
+    "location": "Dortmund, DE",
+    "writtenDate": "October 26th, 2019",
+    "startDate": "2019-10-26",
+    "endDate": "2019-10-26",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/ruhr.html"
+  },
+  {
     "location": "Vancouver, BC",
     "writtenDate": "October 26th, 2019",
     "startDate": "2019-10-26",
@@ -118,53 +126,5 @@
     "endDate": "2019-10-12",
     "imageUrl": "images/rg-zurich2019.png",
     "eventUrl": "/zurich2019.html"
-  },
-  {
-    "location": "Padua, Italy",
-    "writtenDate": "October 5th, 2019",
-    "startDate": "2019-10-05",
-    "endDate": "2019-10-05",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/padua2019.html"
-  },
-  {
-    "location": "Okinawa, Japan",
-    "writtenDate": "October 4th & 5th, 2019",
-    "startDate": "2019-10-04",
-    "endDate": "2019-10-05",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/okinawa-2nd.html"
-  },
-  {
-    "location": "Poznań, Poland",
-    "writtenDate": "September 20th & 21th, 2019",
-    "startDate": "2019-09-20",
-    "endDate": "2019-09-21",
-    "imageUrl": "/images/poznan/rails_girls_general_logo.png",
-    "eventUrl": "/poznan.html"
-  },
-  {
-    "location": "Nantes, France",
-    "writtenDate": "September 20th & 21th, 2019",
-    "startDate": "2019-09-20",
-    "endDate": "2019-09-21",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/nantes.html"
-  },
-  {
-    "location": "Sydney, Australia",
-    "writtenDate": "September 14th, 2019",
-    "startDate": "2019-09-14",
-    "endDate": "2019-09-14",
-    "imageUrl": "images/railsgirls-sq.png",
-    "eventUrl": "/sydney.html"
-  },
-  {
-    "location": "Dnipro, Ukraine",
-    "writtenDate": "September 6th & 7th, 2019",
-    "startDate": "2019-09-06",
-    "endDate": "2019-09-07",
-    "imageUrl": "/images/dnipro2019/preview.png",
-    "eventUrl": "/dnipro2019.html"
   }
 ]
