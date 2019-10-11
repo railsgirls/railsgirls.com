@@ -284,6 +284,29 @@ a, a:visited, a:focus, a:active, a:hover{
   color: #d3360b;
 }
 
+.sekondi#promo {
+      height: 350px;
+      background-image: url('../images/saopaulo/girl-saopaulo.png');
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;padding-bottom: 0px;
+    }
+
+.sekondi#promo.new p{
+      font-size: 18px;
+    }
+.sekondi#promo.new h1{
+      padding-top: 34px;
+      font-size: 40px;
+    }
+.sekondi#promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
+
+
 .popayan#promo {
   padding-left:340px;
   background:url('../images/rg-popayan.png') no-repeat 0 10px,
