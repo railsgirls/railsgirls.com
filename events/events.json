@@ -1,4 +1,4 @@
-[ 
+[
   {
     "location": "Sekondi Takoradi, Ghana",
     "writtenDate": "December 13th & 14th, 2019",
@@ -126,13 +126,5 @@
     "endDate": "2019-10-19",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/luxembourg.html"
-  },
-  {
-    "location": "Zürich, Switzerland",
-    "writtenDate": "October 11th & 12th, 2019",
-    "startDate": "2019-10-11",
-    "endDate": "2019-10-12",
-    "imageUrl": "images/rg-zurich2019.png",
-    "eventUrl": "/zurich2019.html"
   }
 ]
