@@ -40,6 +40,14 @@
     "eventUrl": "/cali.html"
   },
   {
+    "location": "Kyoto, Japan",
+    "writtenDate": "November 22nd & 23rd, 2019",
+    "startDate": "2019-11-22",
+    "endDate": "2019-11-23",
+    "imageUrl": "/images/kyoto/10th_icon.png",
+    "eventUrl": "/kyoto201911.html"
+  },
+  {
     "location": "London, UK",
     "writtenDate": "November 8th & 9th, 2019",
     "startDate": "2019-11-08",
