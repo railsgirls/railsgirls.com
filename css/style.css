@@ -2865,9 +2865,9 @@ a:hover.bratislava2014-a {
   background-size: 320px;
 }
 
-/* Cali 2017 */
+/* Cali 2019 */
 .cali_header {
-  background: #d3360b url('../images/cali/railsgirls-with-background.jpg') no-repeat;
+  background: #d3360b url('../images/cali/RG_front_image.png') no-repeat;
   background-size: cover;
   display: table;
   height: 100vh;
@@ -2900,26 +2900,27 @@ a:hover.bratislava2014-a {
   max-width: 30em;
   margin: 0 auto 1em;
   font-size: 26px;
-  text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
 .cali_header_button {
   background: transparent;
   border: 3px solid white;
+  border-radius: 40px;
+  width: 200px;
   padding: 1em 1.5em;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
   color: #fff;
   margin: 0 0.5em;
   display: inline-block;
+  background: #C2320A;
+  transition: background-color 0.4s;
 }
 
-.cali_header_button:hover {
-  background: #C2320A;
-}
-
-.cali_header_button {
-  background: #C2320A;
+.cali_button {
+  background: transparent;
+  border-radius: 40px;
+  /* width: 350px; */
   border: 3px solid white;
   padding: 1em 1.5em;
   font-weight: bold;
@@ -2927,7 +2928,12 @@ a:hover.bratislava2014-a {
   color: #fff;
   margin: 0 0.5em;
   display: inline-block;
+  background: #C2320A;
   transition: background-color 0.4s;
+}
+
+.cali_header_button:hover {
+  background: #C2320A;
 }
 
 .cali_header_button:hover {
@@ -3720,7 +3726,7 @@ div.bta-sponsors-top{ margin-top: 50px;}
 /* Cali */
 .cali#promo {
   padding-left:340px;
-  background:url('../images/cali/rg-cali-logo.png') no-repeat 0 10px;
+  background:url('../images/cali/RG_logo_image.png') no-repeat 0 10px;
 }
 
 .cali#promo div#share{ height: 60px; padding: 0px; margin-bottom: 10px;}
