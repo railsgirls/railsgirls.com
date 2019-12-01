@@ -1,4 +1,12 @@
 /* Initial porto alegre*/
+#portoalegre .poa_header_2020 {
+  background: url('../img/2020/general-images/rails_girls_poa_2020.jpg') no-repeat;
+  background-size: cover;
+  display: table;
+  height: 80vh;
+  width: 100%;
+  background-position: center -56px;
+}
 #portoalegre .poa_header_2019 {
   background: url('../img/2019/general-images/rails_girls_poa_2019.jpg') no-repeat;
   background-size: cover;
