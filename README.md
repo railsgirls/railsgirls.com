@@ -43,6 +43,12 @@ It will take a while before the changes show, so don't panic!
 
 ✨ Your event will automatically no longer show in the homepage once the date has gone by. ✨
 
+## How to check on localhost
+You can check your modification on localhost with WEBrick.
+[WEBrick](https://github.com/ruby/webrick)
+<pre>ruby -run -e httpd . -p 8000</pre>
+Then open http://localhost:8000/ (modified file path)
+
 ## Tools
 
 The example application http://railsgirlsapp.herokuapp.com/ideas is accessible on Heroku with linda@railsgirls.com and pw: rubynhienomekko
