@@ -1,0 +1,52 @@
+@media (max-width:960px) {
+  body {
+    min-width: 460px
+  }
+  header {
+    height:auto;
+    padding:30px 0;
+  }
+  header #logo {
+    padding:10px 0;
+  }
+  .container_12,
+  .container_16 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+  }
+  .container_12 .grid_12,
+  .container_16 .grid_16 {
+    width: 460px;
+  }
+  .container_12 .grid_4 {
+    margin-left:0px;
+    width: 460px;
+  }
+  .container_12 .grid_5 {
+    width: 460px;
+  }
+  .container_12 .push_1 {
+    left: 0px;
+  }
+  .container_12 .promo {
+    width: 460px;
+    padding-left: 70px;
+  }
+  .feature p {
+    padding: 10px 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+.promo .ehime-2 {
+  padding-left: 70px;
+}
+.promo {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#promo.new {
+  padding-bottom: 0px;
+}
