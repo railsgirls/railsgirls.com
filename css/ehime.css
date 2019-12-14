@@ -1,52 +1,135 @@
-@media (max-width:960px) {
+@media only screen
+  and (min-device-width : 320px)
+  and (orientation : portrait) {
   body {
-    min-width: 460px
+    width: 100%;
+    overflow: auto;
+    min-width: 375px;
+  }
+  .container_12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container_12 .grid_12,
+  .container_16 .grid_16 {
+    width: 100%;
+  }
+  .container_12 .grid_6,
+  .container_16 .grid_8 {
+    width: 100%;
+  }
+  .container_12 .push_1 {
+    float: left;
+    left: 0px;
+  }
+  .container_12 .grid_5 {
+    width: 100%
+  }
+  .container_12 .grid_4 {
+    width: 100%;
+  }
+  .grid_1, .grid_2, .grid_3, .grid_4,
+  .grid_5, .grid_6, .grid_7, .grid_8,
+  .grid_9, .grid_10, .grid_11, .grid_12,
+  .grid_13, .grid_14, .grid_15, .grid_16 {
+    display: inline-block;
+    /* float: left; */
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .container_12 .grid_3,
+  .container_16 .grid_4 {
+    width: 100%;
   }
   header {
     height:auto;
     padding:30px 0;
   }
   header #logo {
-    padding:10px 0;
+    padding: 0 0 20px;
+    width: 100%;
+    float: left;
+    text-align: center;
   }
-  .container_12,
-  .container_16 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 460px;
+  nav {
+    margin: 0;
+    text-align: center;
   }
-  .container_12 .grid_12,
-  .container_16 .grid_16 {
-    width: 460px;
+  nav a {
+    font-size: 3vw;
+    margin-left: 10px;
   }
-  .container_12 .grid_4 {
-    margin-left:0px;
-    width: 460px;
+  .promo {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
   }
-  .container_12 .grid_5 {
-    width: 460px;
+  #promo p {
+    font-size: 5vw;
   }
-  .container_12 .push_1 {
-    left: 0px;
+  #promo.new h1 {
+    height: auto;
+    font-size: 10vw;
   }
-  .container_12 .promo {
-    width: 460px;
-    padding-left: 70px;
+  #promo h1 small {
+    font-size: 6vw;
+  }
+  .page {
+    padding: 5%;
+  }
+  p, dl, hr, h1, h2, h3, h4, h5, h6,
+  ol, ul, pre, table, address, fieldset {
+    margin-bottom: 10px;
+  }
+  .page h2 {
+    margin-top: 10px;
   }
   .feature p {
-    padding: 10px 10px 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    font-size: 5vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  #schedule th {
+    width: 25%;
+    font-size: 3.5vw;
+  }
+  #schedule td {
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 4vw;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  strong {
+    font-size: 5vw;
+    font-weight: 700;
+  }
+  .side h3 {
+    margin: 1em 0 0.8em;
+  }
+  .coaches a {
+    font-size: 4vw;
+  }
+  .coaches .grid_3 {
+    height: auto;
+    margin-right: 0;
   }
 }
-.promo .ehime-2 {
-  padding-left: 70px;
-}
+
 .promo {
   float: left;
-  padding-left: 20px;
-  padding-right: 20px;
 }
-#promo.new {
-  padding-bottom: 0px;
+.promo .ehime-2 {
+  padding-left: 0px;
 }
