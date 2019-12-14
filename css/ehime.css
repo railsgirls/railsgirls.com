@@ -1,52 +1,66 @@
-@media (max-width:960px) {
-  body {
-    min-width: 460px
-  }
-  header {
-    height:auto;
-    padding:30px 0;
-  }
-  header #logo {
-    padding:10px 0;
-  }
-  .container_12,
-  .container_16 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 460px;
-  }
-  .container_12 .grid_12,
-  .container_16 .grid_16 {
-    width: 460px;
-  }
-  .container_12 .grid_4 {
-    margin-left:0px;
-    width: 460px;
-  }
-  .container_12 .grid_5 {
-    width: 460px;
-  }
-  .container_12 .push_1 {
-    left: 0px;
-  }
-  .container_12 .promo {
-    width: 460px;
-    padding-left: 70px;
-  }
-  .feature p {
-    padding: 10px 10px 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-}
-.promo .ehime-2 {
-  padding-left: 70px;
-}
+@import url('ehime_960.css');
+
 .promo {
   float: left;
-  padding-left: 20px;
-  padding-right: 20px;
 }
-#promo.new {
-  padding-bottom: 0px;
+.promo .ehime-2 {
+  padding-left: 0px;
+}
+
+@media only screen 
+  and (min-device-width : 375px) 
+  and (orientation : portrait) {
+  body {
+    width: 100%;
+    overflow: auto;
+  }
+  .promo {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+  }
+  #schedule th {
+    width: 25%;
+    font-size: 3.5vw;
+  }
+  #schedule td {
+    font-size: 4vw;
+  }
+  #promo p {
+    font-size: 5vw;
+  }
+  .feature p {
+    font-size: 5vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 4vw;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  strong {
+    font-size: 5vw;
+    font-weight: 700;
+  }
+  .side h3 {
+    margin: 1em 0 0.8em;
+  }
+  .coaches a {
+    font-size: 4vw;
+  }
+  .coaches .grid_3 {
+    height: auto;
+    margin-right: 0;
+  }
 }
