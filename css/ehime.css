@@ -1,3 +1,9 @@
+.promo {
+  float: left;
+}
+.promo .ehime-2 {
+  padding-left: 0px;
+}
 @media only screen
   and (min-device-width : 320px)
   and (orientation : portrait) {
@@ -56,8 +62,11 @@
     text-align: center;
   }
   nav a {
-    font-size: 3vw;
-    margin-left: 10px;
+    font-size: 4vw;
+    margin-left: 5px;
+  }
+  nav a:after {
+    margin-left: 8px;
   }
   .promo {
     margin: 0 auto;
@@ -125,11 +134,4 @@
     height: auto;
     margin-right: 0;
   }
-}
-
-.promo {
-  float: left;
-}
-.promo .ehime-2 {
-  padding-left: 0px;
 }
