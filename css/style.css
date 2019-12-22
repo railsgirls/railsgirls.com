@@ -914,7 +914,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .nagoya#promo {
   padding-left:460px;
-  background:url('../images/rg-nagoya-4th.png') no-repeat 0 10px,
+  background:url('../images/rg-nagoya-5th.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -938,7 +938,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .nagoya-5th#promo {
   padding-left:460px;
-  background: url('../images/railsgirls-sq.png') no-repeat left top;
+  background:url('../images/rg-nagoya-5th.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1622,6 +1622,10 @@ pre {
 
 .nagoya-4th#promo h1 {
   background:url('../images/rg-nagoya-4th-header.png') no-repeat left top;
+}
+
+.nagoya-5th#promo h1 {
+  background:url('../images/rg-nagoya-5th-header.png') no-repeat left top;
 }
 
 .nara#promo h1 {
