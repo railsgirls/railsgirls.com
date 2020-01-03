@@ -45,6 +45,12 @@
         .pb_60 {
           padding-bottom: 60px;
         }
+
+        .highlight_images > img {
+          height: 50%;
+          width: 50%;
+          margin: auto;
+        }
       </style>
     </head>
     <body>
@@ -108,7 +114,7 @@ Steps to show on site
       </p>
       <p>
 
-      <a href="https://www.townscript.com/e/rails-girls-pune-2020"
+      <a href="https://www.townscript.com/v1/e/rails-girls-pune-2020/booking"
       target="_blank">
        <strong
           style="color:#D3360B;">Register Here!</strong>
@@ -121,12 +127,11 @@ Steps to show on site
           <div id="share">
 
             <div>
-
             <div style="margin:0 15px 0 0;">
               <a href="https://twitter.com/share" class="twitter-share-button"
                   data-url="http://railsgirls.com/pune" data-text="Rails Girls
               Pune on 25th January January 2020. Register now at" data-via="RailsGirls
-              #RailsGirlsPune #joshsoftware #BigBinary">Tweet</a>
+              #RailsGirlsPune"> Share via Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
 
@@ -229,7 +234,7 @@ Steps to show on site
 
         <h3>Information</h3>
             <p>
-              <p>No tickets are available now.</p>
+              <p><a href="https://www.townscript.com/v1/e/rails-girls-pune-2020/booking" target="_blank">Register here</a></p>
               <strong>Location:</strong>
               </br>
 
@@ -279,7 +284,7 @@ Steps to show on site
 
     <p>
       <strong>Can men attend?</strong>
-      <br> Yes, but you need to be accompanied by an interested lady. Also, girls are given a priority.
+      <br> Sorry, this time only girls are allowed.
     </p>
 
     <p>
@@ -296,16 +301,31 @@ Steps to show on site
       </p>
 
       <div class="container_12">
-         <div class="grid_4 feature">
+        <div class="grid_5 feature">
           <a href="https://www.redhat.com/" style="float:left; margin:0 20px
-          0; border:0;"><img src="./images/pune/redHat.png" alt="RedHat" height="100" width="200"></a>
+          0; border:0;" target="_blank"><img src="./images/pune/redHat.png" alt="RedHat" height="100%" width="100%"></a>
+        </div>
+
+         <div class="grid_5 feature">
+          <a href="https://joshsoftware.com/" style="float:left; margin: 20px 20px 0;
+            border:0;" target="_blank"><img src="./images/pune/josh.png" alt="" height="100%" width="100%"></a>
         </div>
       </div>
     <hr>
-    <h3>Highlights from Rails Girls Pune 2014</h3>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/RiSMNjQy6us" frameborder="0" allowfullscreen></iframe>
+    <h3>Highlights from Rails Girls Pune 2019</h3>
+    <div class="container_12">
+      <div class="highlight_images">
+        <img src="images/pune/RG2019-1.jpeg" class="highlights">
+        <img src="images/pune/RG2019-2.jpeg" class="highlights">
+        <img src="images/pune/RG2019-3.jpeg" class="highlights">
+        <img src="images/pune/RG2019-4.jpeg" class="highlights">
+        <img src="images/pune/RG2019-5.jpeg" class="highlights">
+        <img src="images/pune/RG2019-6.jpeg" class="highlights">
+        <img src="images/pune/RG2019-7.jpeg" class="highlights">
+        </div>
+      </div>
+    </div>
   </div>
-
 
 
 <!-- Update the team list -->
@@ -346,6 +366,13 @@ Steps to show on site
     </footer>
       <script type="text/javascript">
 
+         function loadScript(url) {
+        var s = document.createElement("script");
+        s.src = url;
+        document.head.appendChild(s);
+    }
+
+    loadScript("https://platform.twitter.com/widgets.js");
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-19631067-1']);
         _gaq.push(['_trackPageview']);
@@ -356,6 +383,20 @@ Steps to show on site
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
 
+         var slideIndex = 0;
+         carousel();
+
+         function carousel() {
+           let i;
+           let slides = document.getElementsByClassName("highlights");
+           for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";
+           }
+           slideIndex++;
+           if (slideIndex >= slides.length) {slideIndex = 1}
+           slides[slideIndex-1].style.display = "block";
+           setTimeout(carousel, 2000); // Change image every 2 seconds
+         }
       </script>
     </body>
     </html>
