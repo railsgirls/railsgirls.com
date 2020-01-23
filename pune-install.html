@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!--  Add your city name, dates and year.  -->
+
+  <title>Rails Girls Pune, 25th January 2020</title>
+
+<!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+  <meta name="description" content="Rails Girls in Pune January 25th: join the one-day workshop to enter the exciting world of building web applications with Ruby on Rails.">
+  <meta name="author" content="Rails Girls">
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="/main.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+	<meta property="og:image" content="http://railsgirls.com/images/railsgirls-sq.png"/>
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+
+      <style type="text/css">
+        .coaches a {
+          margin-bottom: 0;
+        }
+
+        .pb_100 {
+          padding-bottom: 100px;
+        }
+
+        .pb_120 {
+          padding-bottom: 120px;
+        }
+
+        .pb_60 {
+          padding-bottom: 60px;
+        }
+
+        .highlight_images > img {
+          height: 50%;
+          width: 50%;
+          margin: auto;
+        }
+        /* for insttaltion page css */
+        .black-frame {
+          overflow: hidden;
+          background: white;
+          box-sizing: border-box;
+        }
+        .os_name {
+          margin: 0;
+          background-color: #D3360A;
+          color: white;
+          padding: 15px;
+          clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+          width: 90%;
+          font-size: 24px;
+        }
+        .installation_steps{
+          margin-top: 25px;
+        }
+        .steps{
+          margin-top: 10px;
+        }
+        h3 {
+          font-weight: normal;
+          font-size: 1.5em;
+          margin: 2em 0 0.8em;
+        }
+        h4 {
+          font-size: 1.2em;
+          margin: 2em 0 0.5em;
+        }
+        h1, h2, h3, h4, h5, h6 {
+          margin: 10px 0;
+          font-family: inherit;
+          font-weight: bold;
+          line-height: 20px;
+          color: inherit;
+          text-rendering: optimizelegibility;
+        }
+        a {
+          color: #E0330C;
+          text-decoration: none;
+        }
+      </style>
+    </head>
+    <body>
+
+        <header>
+        <div class="container_12">
+            <a id="logo" href="/"><img src="/images/railsgirls-logo.png" alt="Rails Girls" /></a>
+            <nav>
+                <a href="./events.html">Events</a>
+                <a href="./materials.html">Materials</a>
+                <a href="./press.html">Press</a>
+                <a href="http://blog.railsgirls.com">Blog</a>
+                <a href="http://guides.railsgirls.com">
+                  Guides</a>
+            </nav>
+        </div>
+        </header>
+
+
+<!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+Steps to show on site
+1. Go to style.css
+2. Add two lines, always replacing 'yourcityname' with your actual city name.
+
+        .bangalore#promo {
+          padding-left:340px;
+          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+        .bangalore#promo h1 {
+          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
+        }
+
+        It will take a while before the changes show, so don't panic!
+
+-->
+
+
+<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+    <div id="container" class="container_12 page clearfix">
+      <div class="event_box black-frame">
+        <h1 id="setup-recipe-for-rails-girls">Setup Installation</h1>
+          <div>
+            <div class="installation_steps">
+              <p id="setup-recipe-for-rails-girls" class="os_name">Windows Installation</p>
+              <div>
+                <h3>Step 1: Installing Rails Installer</h3>
+                <p>Download <a href="https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.3.0.exe">RailsInstaller</a> and run it. Click through the installer using the default options.</p>
+                <!-- <figure class="highlight">
+                  <pre>
+                    <code class="language-sh" data-lang="sh"></code>
+                  </pre>
+                </figure> -->
+                <h4 id="1a-enable-copy-and-paste-in-windows-command-prompt"><em>1a.</em> Enable copy and paste in Windows Command Prompt</h4>
+                <p>For Windows 10 users:</p>
+                <p>
+                  Open <code class="language-plaintext highlighter-rouge">Command Prompt with Ruby and Rails</code>.
+                  Right-click on the command prompt’s title bar, and choose “Properties”.
+                  Navigate to the “options” tab, and check “Enable Ctrl key shortcuts”.
+                  (If you don’t find it, but have an “experimental” tab,
+                  navigate there and check “Enable new Ctrl key shortcuts” option.
+                  In this case, you may need to check the “Enable experimental console
+                  features” option first.)
+                </p>
+
+                <p>For other Windows versions:</p>
+
+                <p>To paste a text in the command prompt window you’ll need to use the mouse (right-click on the window –&gt; paste).</p>
+
+                <h4 id="1b-install-rails"><em>1b.</em> Install Rails</h4>
+
+                <p>In the <code class="language-plaintext highlighter-rouge">Command Prompt with Ruby and Rails</code>, run the following command:</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails <span class="nt">-v</span></code></pre></figure>
+
+                <p>If you see the following message:</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">the system cannot find the path specified</code></pre></figure>
+
+                <p>This can happen when the installer cannot correctly setup the paths required to run rails.
+                It’s nothing serious, we can fix this in different ways but the easiest is by manually installing the rails gem with the following command:</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem <span class="nb">install </span>rails bundler <span class="nt">--no-document</span></code></pre></figure>
+
+                <p>This will (re)install rails correctly and running:</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails <span class="nt">-v</span></code></pre></figure>
+
+                <p>Should print the currently installed rails version number (your version may differ):</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">Rails 5.1.1</code></pre></figure>
+
+                <h2 id="possible-errors">Possible errors</h2>
+
+                <h3 id="gemremotefetcher-error">Gem::RemoteFetcher error</h3>
+
+                <p>If you get this error when running <code class="language-plaintext highlighter-rouge">rails new railsgirls</code> or <code class="language-plaintext highlighter-rouge">gem update rails</code>:</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">Gem::RemoteFetcher::FetchError: SSL_connect <span class="nv">returned</span><span class="o">=</span>1 <span class="nv">errno</span><span class="o">=</span>0 <span class="nv">state</span><span class="o">=</span>SSLv3 <span class="nb">read
+                </span>server certificate B: certificate verify failed <span class="o">(</span>https://rubygems.org/gems/i18n-0.6.11.gem<span class="o">)</span></code></pre></figure>
+
+                <p>This means you have an older version of Rubygems and will need to update it manually first verify your Rubygems version</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem <span class="nt">-v</span></code></pre></figure>
+
+                <p>If it is lower than <code class="language-plaintext highlighter-rouge">2.6.5</code> you will need to manually update it:</p>
+
+                <p>First download the <a href="https://rubygems.org/gems/rubygems-update-2.6.11.gem">ruby-gems-update gem</a>. Move the file to <code class="language-plaintext highlighter-rouge">c:\\rubygems-update-2.6.11.gem</code> then run:</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem <span class="nb">install</span> <span class="nt">--local</span> c:<span class="se">\\</span>rubygems-update-2.6.11.gem</code></pre></figure>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">update_rubygems <span class="nt">--no-document</span></code></pre></figure>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem uninstall rubygems-update <span class="nt">-x</span></code></pre></figure>
+
+                <p>Check your version of rubygems</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem <span class="nt">-v</span></code></pre></figure>
+
+                <p>Make sure it is equal or higher than <code class="language-plaintext highlighter-rouge">2.6.11</code>. Re-run the command that was failing previously.</p>
+
+                <p>If you are still running into problems you can always find the latest version of rubygems online at <a href="https://rubygems.org/pages/download">rubygems.org</a>. If you click on <strong>GEM</strong> you will get the latest version.</p>
+
+                <h3 id="during-bundle-install">During bundle install</h3>
+
+                <p>The <code class="language-plaintext highlighter-rouge">Gem::RemoteFetcher::FetchError: SSL_connect</code> can also occur during the <code class="language-plaintext highlighter-rouge">bundle install</code> stage when creating a new rails app.</p>
+
+                <p>The error will make mention of <a href="http://bit.ly/ruby-ssl">bit.ly/ruby-ssl</a>. What is relevant for Windows users at this point is <a href="https://gist.github.com/867550">this GitHub gist</a>. The described manual way has proven to be successful to solve the <code class="language-plaintext highlighter-rouge">bundle install</code> error.</p>
+
+                <h3 id="x64_mingw-is-not-a-valid-platform-error">‘x64_mingw’ is not a valid platform` Error</h3>
+
+                <p>Sometimes you get the following error when running <code class="language-plaintext highlighter-rouge">rails server</code>:
+                <code class="language-plaintext highlighter-rouge">'x64_mingw' is not a valid platform</code> If you experience this error after using the RailsInstaller you have to do a small edit to the file <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+                <p>Look at the bottom of the file. You will probably see something like this as one of the last lines in the file:
+                <code class="language-plaintext highlighter-rouge">gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]</code>. If you have this line with <code class="language-plaintext highlighter-rouge">:x64_mingw</code>, then please delete the <code class="language-plaintext highlighter-rouge">:x64_mingw</code> part. In the end it should just say:
+                <code class="language-plaintext highlighter-rouge">'tzinfo-data', platforms: [:mingw, :mswin]</code></p>
+
+                <p>After you did that, please use your Command Prompt again and type <code class="language-plaintext highlighter-rouge">bundle update</code>.</p>
+
+                <h3 id="2-install-a-text-editor-to-edit-code-files"><em>2.</em> Install a text editor to edit code files</h3>
+
+                <p>For the workshop we recommend the text editor Atom.</p>
+
+                <ul>
+                  <li><a href="https://github.com/atom/atom/releases/latest">Download Atom and install it</a>
+                    <ul>
+                      <li>Download an atom zip file for windows and decompress it.</li>
+                      <li>Copy the folder into your Program Files.</li>
+                      <li>Launch atom in the folder.</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <p>If you are using Windows Vista or older versions, you can use another editor <a href="http://www.sublimetext.com/2">Sublime Text 2</a>. Just to make sure that you’re not mixing up using your command prompt or text-editor: change the theme of your Sublime text-editor, choosing one of the following: “iPlastic”, “Slush &amp; Poppies”, or “Zenburnesque”.</p>
+
+                <h3 id="3-install-nodejs"><em>3.</em> Install Node.js</h3>
+
+                <ul>
+                  <li>Go to <a href="https://nodejs.org/">https://nodejs.org/</a> and install Node.js LTS package</li>
+                  <li>Reopen your Rails Command Shell</li>
+                </ul>
+
+                <p>Check your version of node</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">node <span class="nt">--version</span></code></pre></figure>
+
+                <p>Make sure it is displaying version number.</p>
+
+                <h3 id="4-install-yarn-1"><em>4.</em> Install yarn</h3>
+
+                <p>Download <a href="https://yarnpkg.com/lang/en/docs/install/#windows-stable">yarn</a> and install it. Click through the installer using the default options.</p>
+
+                <h3 id="5-check-the-environment-1"><em>5.</em> Check the environment</h3>
+
+                <p>Check that everything is working by running the application generator command.</p>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails new myapp</code></pre></figure>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nb">cd </span>myapp</code></pre></figure>
+
+                <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails server</code></pre></figure>
+
+                <p>Go to <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> in your browser, and you should see the ‘Yay! You’re on Rails!’ page.</p>
+
+                <p>Now you should have a working Ruby on Rails programming setup. Congrats!</p>
+
+                <hr />
+            </div>
+          </div>
+          <div class="installation_steps">
+              <p id="setup-recipe-for-rails-girls" class="os_name">Ubuntu Installation</p>
+              <h3 class="steps"><strong>Step 1: </strong>Run following commands on command Prompt</h3>
+
+              <figure class="highlight"><pre><code class="language-sh" data-lang="sh">sudo apt-get install curl<br/><br/>curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+            <br/>echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list<br/><br/>sudo apt update && sudo apt install yarn<br/><br/>sudo apt-get update -y<br/><br/>sudo apt-get install -y snapd<br/>sudo snap install node --classic --channel=10<br/><br/>sudo apt-get --ignore-missing install build-essential git-core curl openssl libssl-dev libcurl4-openssl-dev zlib1g zlib1g-dev libreadline6-dev libyaml-dev libsqlite3-dev libsqlite3-0 sqlite3 libxml2-dev libxslt1-dev libffi-dev software-properties-common libgdm-dev libncurses5-dev automake autoconf libtool bison postgresql postgresql-contrib libpq-dev pgadmin3 libc6-dev -y<br/><br/>sudo apt-get install imagemagick --fix-missing -y<br/><br/>curl -sSL https://rvm.io/mpapis.asc | gpg --import -<br/>curl -sSL https://get.rvm.io | bash -s stable<br/>source ~/.rvm/scripts/rvm<br/>rvm install 2.6.3<br/>rvm use 2.6.3 --default<br/><br/></code>gem install rails -v 5.1</pre></figure>
+
+              <h3 class="steps"><strong>Step 2: </strong>Check Ruby and Rails version</h3>
+              <h4 class="steps"><strong>Step 2.1: </strong>Run following command to check ruby version</h4>
+              <figure class="highlight"><pre><code class="language-sh" data-lang="sh">ruby -v</code></pre></figure>
+              <h4 class="steps"><strong>Step 2.2: </strong>Run following command to check rails version</h4>
+              <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails -v</code></pre></figure>
+              <p>Should print the currently installed rails version number (your version may differ):</p>
+              <figure class="highlight"><pre><code class="language-sh" data-lang="sh">Rails 5.1.1</code></pre></figure>
+              <h3 class="steps"><strong>Step 3: </strong>Install a text editor to edit code files </h3>
+              <p>For the workshop we recommend the text editor Sublime Text.</p>
+              <a href="http://www.sublimetext.com/3">Download Sublime Text and install it</a>
+              <h3 class="steps"><strong>Step 4: </strong>Check the environment</h3>
+              <p>Check that everything is working by running the application generator command.</p>
+              <figure class="highlight"><pre><code class="language-sh" data-lang="sh">rails new myapp<br/>cd myapp<br/>rails s</code></pre></figure>
+              <p>Go to <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> in your browser, and you should see the ‘Yay! You’re on Rails!’ page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /content -->
+
+    <footer>
+        <p>2010-2020, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+        <p class="slogan">Get excited and make things!</p>
+        <p><short>Powered by <a href="https://twitter.com/ETT_India" target="_blank">ETT</a></short>
+    </footer>
+      <script type="text/javascript">
+
+         function loadScript(url) {
+        var s = document.createElement("script");
+        s.src = url;
+        document.head.appendChild(s);
+    }
+
+    loadScript("https://platform.twitter.com/widgets.js");
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+         var slideIndex = 0;
+         carousel();
+
+         function carousel() {
+           let i;
+           let slides = document.getElementsByClassName("highlights");
+           for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";
+           }
+           slideIndex++;
+           if (slideIndex >= slides.length) {slideIndex = 1}
+           slides[slideIndex-1].style.display = "block";
+           setTimeout(carousel, 2000); // Change image every 2 seconds
+         }
+      </script>
+    </body>
+    </html>
