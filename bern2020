@@ -144,15 +144,14 @@ During the free workshop we'll explore the magical world of building web applica
         <table id="schedule">
           <tbody>
           <tr>
-            <th>9:00 - 10:00</th>
+            <th>9:00 - 9:30</th>
             <td>
-              <h4>Registration, coffee and installation</h4>
-                During the morning we’ll install Ruby on Rails on your computer.
+              <h4>Registration & coffee</h4>
             </td>
           </tr>
 
           <tr>
-            <th>10:00 - 10:15</th>
+            <th>9:30 - 9:45</th>
             <td>
               <h4>Welcome</h4>
                    Outline of the day &amp; word from sponsors
@@ -160,7 +159,7 @@ During the free workshop we'll explore the magical world of building web applica
                 </tr>
 
           <tr>
-            <th>10:15 - 11:00</th>
+            <th>9:45 - 10:30</th>
             <td>
                <h4>Introduction to programming</h4>
             </td>
@@ -169,7 +168,7 @@ During the free workshop we'll explore the magical world of building web applica
              
 
           <tr>
-            <th>11:00 - 13:00</th>
+            <th>10:30 - 12:30</th>
             <td>
               <h4>Workshop</h4>
               Try some Ruby!
@@ -177,12 +176,12 @@ During the free workshop we'll explore the magical world of building web applica
           </tr>
 
           <tr>
-            <th>13:00 - 14:00</th>
+            <th>12:30 - 13:30</th>
             <td><h4>Lunch</h4></td>
           </tr>
 
           <tr>
-            <th>14:00 - 14:30</th>
+            <th>13:30 - 14:00</th>
             <td>
               <h4>Bentobox</h4>
 		Putting technical jargon into a context. </td>
@@ -190,14 +189,14 @@ During the free workshop we'll explore the magical world of building web applica
 
           
           <tr>
-            <th>14:30 - 18:00</th>
+            <th>14:00 - 17:30</th>
             <td>
               <h4>Workshop</h4>
               Extend your application.
             </td>
           </tr>
           <tr>
-            <th>18:00 - 20:00</th>
+            <th>from 17:30</th>
             <td>
               <h4>Closing Words & Apéro</h4>
               Open for everyone, meet cool people interested in tech. <br>
