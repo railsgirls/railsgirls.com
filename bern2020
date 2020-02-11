@@ -123,9 +123,9 @@ During the free workshop we'll explore the magical world of building web applica
                 <h4>Registration & Snacks</h4>
                   Get to know each other and register for the main event.<br>
 		 <tr>
-              <th>17:30 - 18:00 </th>
+              <th>17:30 - 18:30 </th>
               <td>
-	      <h4>Welcoming Words & Introduction to Programming4>
+	      <h4>Welcoming Words & Introduction to Programming</h4>
                   <br>
 		   <tr>
               <th>18:30 - 19:30 </th>
@@ -154,7 +154,7 @@ During the free workshop we'll explore the magical world of building web applica
         <table id="schedule">
           <tbody>
           <tr>
-            <th>8:30 - 9:00/th>
+            <th>8:30 - 9:00</th>
             <td>
               <h4>Registration & coffee</h4>
             </td>
@@ -187,7 +187,9 @@ During the free workshop we'll explore the magical world of building web applica
 
           <tr>
             <th>12:30 - 13:30</th>
-            <td><h4>Lunch</h4></td>
+            <td>
+	    <h4>Lunch</h4>
+	    </td>
           </tr>
 
           <tr>
