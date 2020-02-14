@@ -222,6 +222,13 @@
     "endDate": "2020-01-12",
     "imageUrl": "images/rg-wroclaw.jpg",
     "eventUrl": "/wroclaw.html"
+  },
+  {
+    "location": "Chennai, India",
+    "writtenDate": "March 7th, 2020",
+    "startDate": "2020-03-07",
+    "endDate": "2020-03-07",
+    "imageUrl": "/images/chennai/rg_chennai3.png",
+    "eventUrl": "/pune.html"
   }
-
 ]
