@@ -4562,12 +4562,12 @@ padding-top:30px;
   padding-left: 340px;
   background: 	url('../images/bern/rg-bern.png') no-repeat 0 10px,
 		url('../images/separator.png') no-repeat center bottom;
-  background-size: 320px;
+  background-size: 300px;
 }
 
 h1.bern {
   font-size: 48px;
-  color: #239fb1;
+  color: #D3360B;
 }
 
 #share.bern {
