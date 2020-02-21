@@ -164,6 +164,7 @@
     h1, h2, h3, h4 { font-family: 'Sofia', cursive; }
 
 .first  { margin-left: 0; }
+.grid_first  { margin-left: 10%; }
 .last   { margin-right: 0; }
 .button { font-size: 1.25em !important; color: #ccc !important; }
 .center { text-align: center; }
