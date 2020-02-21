@@ -1019,6 +1019,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 .fukuoka#promo h1 {
   background: none;
 }
+.fukuoka-3#promo {
+  padding-left:420px;
+  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 410px;
+}
 
 .kobe0#promo {
   padding-left:420px;
