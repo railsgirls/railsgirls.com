@@ -5,7 +5,7 @@
 
 <!--  Add your city name, dates and year.  -->
 
-  <title>Bern 3-4th April 2020</title>
+  <title>Bern 3rd&4th April 2020</title>
 
 <!--  Metatext. This is what will show on the Facebook page and for instance search engines. -->
 
@@ -82,7 +82,7 @@ During the free workshop we'll explore the magical world of building web applica
             <div>
 
             <div style="margin:0 15px 0 0;">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Bern 24./25.11.2017  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Bern 3/4.April 2012  - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">
             Tweet</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
             </div>
@@ -114,7 +114,7 @@ During the free workshop we'll explore the magical world of building web applica
 <!--  Update the texts! -->
 
       <div class="grid_6 alpha">
-        <h2>Friday 3th April</h2>
+        <h2>Friday 3rd April</h2>
         <table id="schedule">
           <tbody>
             <tr>
