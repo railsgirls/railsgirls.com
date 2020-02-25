@@ -1,4 +1,4 @@
-
+.sponsor p small { font-size: .9em; }
     header {
       color:#fff;
       padding: 30px 0;
@@ -195,6 +195,12 @@ h1, h3 { color: #d3360b; }
 
 .partner p small { font-size: .9em; }
 .partner img { display: block; margin: 10px 0; height: 100%; max-height: 50px; }
+.sponsor img {     
+  width: 100%;
+  margin: 10px 0;
+  display: block;
+  height: 100%;
+}
 
 .team { background-color: #d3360b; text-align: center; }
 .team h1 { color: #111; }
@@ -245,7 +251,7 @@ footer a { font-family: 'Raleway',sans-serif; text-decoration: underline; }
     margin: 0.5em 0;
   }
 
-  h1, .intro, .location, .dates, .partner {
+  h1, .intro, .location, .dates, .partner, .sponsor {
     text-align: center;
   }
 
