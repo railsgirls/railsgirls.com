@@ -1,5 +1,21 @@
 [
   {
+    "location": "Kumasi, Ghana",
+    "writtenDate": "May 15th & 16th, 2020",
+    "startDate": "2020-05-15",
+    "endDate": "2020-05-16",
+    "imageUrl": "/images/sekondi/taadi.png",
+    "eventUrl": "/kumasi_2020.html"
+  },
+  {
+    "location": "Fukuoka, Japan",
+    "writtenDate": "May 8th & 9th, 2020",
+    "startDate": "2020-05-8",
+    "endDate": "2020-05-9",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/fukuoka-2020.html"
+  },
+  {
     "location": "The Hague, Netherlands",
     "writtenDate": "May 16th, 2020",
     "startDate": "2020-05-16",
@@ -14,6 +30,14 @@
     "endDate": "2020-04-11",
     "imageUrl": "/images/railsgirls-sq.png",
     "eventUrl": "/skopje.html"
+  },
+   {
+    "location": "Saint Petersburg, Russia",
+    "writtenDate": "April 3rd & 4th, 2020",
+    "startDate": "2020-04-03",
+    "endDate": "2020-04-04",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/spb2020.html"
   },
   {
     "location": "Salvador, Brazil",
@@ -229,6 +253,14 @@
     "startDate": "2020-03-07",
     "endDate": "2020-03-07",
     "imageUrl": "/images/chennai/rg_chennai3.png",
-    "eventUrl": "/pune.html"
+    "eventUrl": "/chennai.html"
+  },
+  {
+    "location": "Bern, Switzerland",
+    "writtenDate": "April 3th/4th, 2020",
+    "startDate": "2020-04-03",
+    "endDate": "2020-04-04",
+    "imageUrl": "/images/bern/rg-bern.png",
+    "eventUrl": "/bern2020"
   }
 ]
