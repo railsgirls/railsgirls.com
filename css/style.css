@@ -1095,6 +1095,13 @@ url('../images/separator.png') no-repeat center bottom;
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.bielsko_biala#promo {
+    padding-left:340px;
+    background:url('../images/bielsko_biala/rails_girls_01.png') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+    background-size: 300px;
+}
+
 .gurgaon#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
