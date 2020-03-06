@@ -4703,3 +4703,11 @@ url('../images/separator.png') no-repeat center bottom;
   background: url('../images/spb/rg-spb2019.jpg') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
+
+/* SPb 2020 */
+
+.spb2020#promo {
+  padding-left: 250px;
+  background: url('../images/spb/rg_v5.jpg') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
