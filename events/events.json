@@ -8,6 +8,14 @@
     "eventUrl": "/kumasi_2020.html"
   },
   {
+    "location": "Los Angeles, CA USA",
+    "writtenDate": "October 16th, 17th & 24th, 2020",
+    "startDate": "2020-10-16",
+    "endDate": "2020-10-24",
+    "imageUrl": "/images/rg-losangeles.png",
+    "eventUrl": "/la.html"
+  },
+  {
     "location": "Fukuoka, Japan",
     "writtenDate": "May 8th & 9th, 2020",
     "startDate": "2020-05-8",
