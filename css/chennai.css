@@ -1,0 +1,279 @@
+.sponsor p small { font-size: .9em; }
+    header {
+      color:#fff;
+      padding: 30px 0;
+      background:#d3360b;
+    }
+
+    header #logo {
+      width:240px;
+      float:left;
+    }
+
+    nav {
+      margin:0 0 0 250px;
+      padding-top:12px;
+    }
+
+    nav a {
+      color:#fff;
+      text-decoration:none;
+      font-weight:300;
+      font-size:20px;
+      letter-spacing:1px;
+      margin-left:15px;
+    }
+
+    nav a:after {
+      margin-left:15px;
+      content:url(../images/star.png);
+    }
+
+    nav a:last-child:after {
+      content:none;
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    footer {
+      color:#666;
+      overflow:hidden;
+      width:100%;
+      padding:40px 0;
+      background:#F4F4F4;
+      line-height:1.5;
+      text-align:center;
+    }
+
+    footer a {
+      color:#111;
+      border-color:#111;
+    }
+
+    /**
+     * BUTTON STYLES
+     * from http://alexwolfe.github.io/Buttons/
+    **/
+
+    .button {
+      -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+      box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+      background-color: #eeeeee;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+      background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+      background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+      background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+      background: linear-gradient(top, #fbfbfb, #e1e1e1);
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      border: 1px solid #d4d4d4;
+      height: 32px;
+      line-height: 32px;
+      padding: 0px 25.6px;
+      font-weight: 300;
+      font-size: 14px;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #666666;
+      text-shadow: 0 1px 1px white;
+      margin: 0;
+      text-decoration: none;
+      text-align: center;
+    }
+    .button:hover {
+      background-color: #eeeeee;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+      background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+      background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+      background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+      background: linear-gradient(top, #ffffff, #dcdcdc);
+    }
+    /* line 47, ../scss/partials/_buttons.scss */
+    .button:active {
+      -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+      -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+      box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+      text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+      background: #eeeeee;
+      color: #bbbbbb;
+    }
+    .button:focus {
+      outline: none;
+    }
+    .button-wrap {
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3e3e3), color-stop(100%, #f2f2f2));
+      background: -webkit-linear-gradient(top, #e3e3e3, #f2f2f2);
+      background: -moz-linear-gradient(top, #e3e3e3, #f2f2f2);
+      background: -o-linear-gradient(top, #e3e3e3, #f2f2f2);
+      background: linear-gradient(top, #e3e3e3, #f2f2f2);
+      -webkit-border-radius: 200px;
+      -moz-border-radius: 200px;
+      -ms-border-radius: 200px;
+      -o-border-radius: 200px;
+      border-radius: 200px;
+      -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+      -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+      box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.04);
+      padding: 10px;
+      display: inline-block;
+    }
+    .button-pill {
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      border-radius: 50px;
+    }
+    .button-caution {
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8543f), color-stop(100%, #d9331a));
+      background: -webkit-linear-gradient(top, #e8543f, #d9331a);
+      background: -moz-linear-gradient(top, #e8543f, #d9331a);
+      background: -o-linear-gradient(top, #e8543f, #d9331a);
+      background: linear-gradient(top, #e8543f, #d9331a);
+      background-color: #e54028;
+      border-color: #c22d18;
+      color: white;
+      text-shadow: 0 -1px 1px rgba(103, 24, 13, 0.35);
+    }
+    .button-caution:hover {
+      background-color: #e54028;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb6855), color-stop(100%, #d9331a));
+      background: -webkit-linear-gradient(top, #eb6855, #d9331a);
+      background: -moz-linear-gradient(top, #eb6855, #d9331a);
+      background: -o-linear-gradient(top, #eb6855, #d9331a);
+      background: linear-gradient(top, #eb6855, #d9331a);
+    }
+    .button-large {
+      font-size: 19px;
+      height: 38.4px;
+      line-height: 38.4px;
+      padding: 0px 30.72px;
+    }
+
+    /**
+     * CUSTOM STYLES
+    **/
+
+    body { font-family: 'Raleway',sans-serif; background-color: #f4f4f4; line-height: 1.25; }
+    h1, h2, h3, h4 { font-family: 'Sofia', cursive; }
+
+.first  { margin-left: 0; }
+.grid_first  { margin-left: 10%; }
+.last   { margin-right: 0; }
+.button { font-size: 1.25em !important; color: #ccc !important; }
+.center { text-align: center; }
+.clear  { margin-bottom: 15px; }
+
+em { color: #d3360b; font-style: normal; }
+a { text-decoration: none; }
+a, a:visited, a:hover { color: #d3360b; }
+p + p { text-indent: 0; margin-top: 0; }
+h1, h3 { color: #d3360b; }
+
+.control { display: none; color: #aaa; }
+.control small { font-size: .5em; padding: 0 .5em; vertical-align: 30%; }
+.skrollr .control { display: block; }
+
+.section { padding: 30px 0; overflow: hidden; }
+
+.intro { background-color: white; }
+.intro a.button { color: white; }
+
+.info { background-color: #111; padding: 30px 0; color: #ddd; }
+.info h1, .info h2, .info h3, .info h4 { color: #eee; }
+
+.schedule table { overflow: hidden; }
+.schedule th { width: 8em; text-align: right; font-size: 1.25em; }
+.schedule td { padding: 0 0 20px 20px; }
+.schedule h4 { margin-bottom: 10px;line-height: 35px; }
+
+.partner p small { font-size: .9em; }
+.partner img { display: block; margin: 10px 0; height: 100%; max-height: 50px; }
+.sponsor img {     
+  width: 100%;
+  margin: 10px 0;
+  display: block;
+  height: 100%;
+}
+
+.team { background-color: #d3360b; text-align: center; }
+.team h1 { color: #111; }
+.team img { display: block; margin: 10px auto; border-radius: 12px; }
+.team h6 { color: #eaeaea; margin: 0; }
+.team small { color: #eaeaea; }
+.team a { border-radius: 12px; transition: background-color .4s;}
+.team a:hover { background-color: #111; }
+.team a.skrollable-between:hover { background-color: inherit; }
+
+.team p { color: #eee; margin-top: 1em; }
+.team p span { display: inline-block; }
+
+.faq { background-color: white; }
+.faq dl dt { display: block; width: 47.5%; float: left; padding: 10px 1%; text-align: right; clear: both; }
+.faq dl dd { display: block; width: 47.5%; float: left; padding: 10px 1%; border-left: 1px dashed #999; }
+
+header a, header a:visited, header a:hover { color: white; }
+footer a { font-family: 'Raleway',sans-serif; text-decoration: underline; }
+
+@media all and (max-width: 959px) {
+  html { font-size: 100%; }
+  header { display: none; }
+  body { min-width: 0; }
+  .clear { margin-bottom: 10px; }
+
+  .container_12 {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    display: block;
+    clear: both;
+  }
+
+  .faq dl dt, .faq dl dd {
+    width: 100%;
+    border: 0;
+    text-align: left;
+  }
+
+  .intro .grid_8 small {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  h1, .intro, .location, .dates, .partner, .sponsor {
+    text-align: center;
+  }
+
+  .team { text-align: left; }
+  .team img { float: left; margin: 0 20px 10px 0; clear: both; max-width: 48px; max-height: 48px; }
+  .team span.name { padding-top: 5px; }
+}
+
+
+.ft-19{
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+.rail_ft{
+  font-weight: 800;
+  font-size: 22px;
+}
+.button-wrap a{
+  color: #ccc !important;
+}

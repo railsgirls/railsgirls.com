@@ -1,0 +1,499 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+
+    <!--  Add your city name, dates and year.  -->
+
+    <title>Kobe 5th, on 21 &amp; 22 March 2020 - Rails Girls</title>
+
+    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+    <meta name="description" content="Rails Girls goes Kobe 21-22 March 2020: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="author" content="Rails Girls">
+
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      .coach {
+        border-radius: 50px;
+      }
+      .spacer {
+        clear: both;
+        width: auto;
+        height: 10px;
+      }
+
+    </style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+    <meta property="og:title" content="Rails Girls Kobe 5th (神戸開催・プログラミング未経験の女性向け)"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="神戸で5回目の Rails Girlsが開催されます！2日間のワークショップで、Ruby on Rails を使った Webアプリケーション作りを体験してみませんか？ワークショップは無料です。"/>
+    <meta property="og:url" content="http://railsgirls.com/kobe202003/"/>
+    <meta property="og:image" content="http://railsgirls.com/images/kobe/rg-kobe-4th-1.png"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header>
+      <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+          <a href="./events.html">Events</a>
+          <a href="./materials.html">Materials</a>
+          <a href="./press.html">Press</a>
+          <a href="http://blog.railsgirls.com">Blog</a>
+          <a href="http://guides.railsgirls.com">Guides</a>
+        </nav>
+      </div>
+    </header>
+
+    <!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+Steps to show on site
+1. Go to style.css
+2. Add two lines, always replacing 'yourcityname' with your actual city name.
+
+        .yourcityname#promo {
+          padding-left:340px;
+          background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                         url('../images/separator.png') no-repeat center bottom;
+        }
+
+        .yourcityname#promo h1 {
+          background:url('../images/rg-yourcityname-header.png') no-repeat left top;
+        }
+
+        It will take a while before the changes show, so don't panic!
+
+-->
+
+
+    <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+
+    <div id="container" class="container_12 page clearfix">
+      <div class="grid_12 omega alpha">
+        <div id="promo" class="kobe4">
+          <p>こんにちは世界！</p>
+          <p>5回目の Rails Girls Kobe が開催されます！<br/><br/>
+             2日間のワークショップで、Ruby on Rails を使った Webアプリケーション作りを体験してみませんか？<br/>
+             ワークショップは無料です。</p>
+
+          <p>Hello world!</p>
+          <p>Rails Girls comes to Kobe again! During the free two-day workshop we'll dive into the magical world of Ruby on Rails!</p>
+          <!--<p>Apply now! <a href="http://railsgirls-osaka.doorkeeper.jp/events/xxxx">Applications</a> are open until the XXrd of April.</p>-->
+
+          <!--  Update the sharing texts.-->
+
+          <div id="share">
+            <div>
+              <div style="margin:0 15px 0 0;">
+                <a
+                  href="http://twitter.com/share"
+                  class="twitter-share-button"
+                  data-url=""
+                  data-text="Rails Girls Kobe, 21st & 22nd March apply now!"
+                  data-count="horizontal"
+                  data-via="railsgirls"
+                  data-related="railsgirls"
+                  >Tweet</a
+                >
+                <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+              </div>
+
+              <div id="fb-root" style=""></div>
+              <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+              <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+            </div>
+            <p>
+              <!-- margin workaround -->
+            </p>
+          </div>
+        </div>
+
+
+        <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
+        <div class="grid_4 alpha feature">
+          <p><strong>概要</strong><br />コーチにプログラミングのルールや Webアプリケーションの仕組みを教えてもらいながら、簡単なWebアプリケーションを作りを体験します。</p>
+        </div>
+        <div class="grid_4 feature">
+          <p><strong>必要なもの</strong><br />自分のノートパソコン(WindowsでもMacでもOK!)と、やる気とキラリと光るイマジネーションを持ってきてください！</p>
+        </div>
+        <div class="grid_4 omega feature">
+          <p><strong>コーチとしてお手伝いいただける方を募集しています！</strong><br />
+            <!-- お申し込みが開始いたしましたら、こちらのページにてお知らせいたします。 -->
+            <!-- お手伝いいただける方は<a href="https://railsgirls-kobe.doorkeeper.jp/events/103560">こちら</a>からお申し込みをお願いいたします。 -->
+            申し込みは締め切らせていただきました。
+            多数のお申し込み、ありがとうございました！<br>
+          </p>
+        </div>
+
+        <hr />
+
+        <!--  Update the texts! -->
+
+        <div class="grid_6 alpha">
+          <h2>2020年3月21日 土曜日</h2>
+          <table id="schedule">
+            <tbody>
+              <tr>
+                <th>18:30開場 ～</th>
+                <td>
+                  <h4>インストール・ディ</h4>
+                まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
+                それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
+
+          <h2>2020年3月22日 日曜日</h2>
+          <table id="schedule">
+            <tbody>
+              <tr>
+                <th>9:30 - 10:30</th>
+                <td>
+                  <h4>レジストレーション、コーヒー</h4>
+                  土曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
+                  土曜日にすべてうまく行ったひとは参加しなくてもOKです。
+                </td>
+              </tr>
+
+              <tr>
+                <th>10:30 - 10:40</th>
+                <td>
+                  <h4>開会</h4>
+                  一日の流れの説明。オーガナイザーから一言。
+                </td>
+              </tr>
+
+              <tr>
+                <th>10:40 - 11:00</th>
+                <td>
+                  <h4>みんなで記者会見</h4>
+                  各テーブルで自己紹介をしていただきます。
+                </td>
+              </tr>
+
+              <tr>
+                <th>11:00 - 12:00</th>
+                <td>
+                  <h4>ワークショップ</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>12:00 - 13:00</th>
+                <td><h4>ランチ</h4></td>
+              </tr>
+
+              <tr>
+                <th>13:00 - 14:00</th>
+                <td>
+                  <h4>ワークショップ</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>14:00- 14:30</th>
+                <td>
+                  <h4>ライトニングトークス</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>14:30 - 15:30</th>
+                <td>
+                  <h4>ワークショップ</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>15:30 - 15:40</th>
+                <td>
+                  <h4>コーヒーブレイク</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>15:40 - 17:00</th>
+                <td>
+                  <h4>ワークショップ</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>17:00 - 17:20</th>
+                <td>
+                  <h4>閉会</h4>
+                </td>
+              </tr>
+
+              <tr>
+                <th>18:00 - 20:00</th>
+                <td>
+                  <h4>アフター・パーティ</h4>
+                  参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
+                  RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
+
+          <h3>FAQ</h3>
+          <p><strong>参加費はどのくらいかかりますか？</strong><br />
+            無料です。申し込むときにはわくわくした気持ちだけあればいいです。
+          </p>
+          <p><strong>どのような人が参加するのでしょうか？</strong><br />
+            コンピュータを使ったことがある女性ならだれでも参加できます。
+            これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。
+            ご自分のノートパソコン(WindowsでもMacでもOK)をお持ちください。
+          </p>
+          <p><strong>男性も参加できますか？</strong><br />
+            参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。
+            申し込み人数が多い場合はお断りすることがありますので、ご了承ください。
+          </p>
+
+          <div class="spacer"></div>
+        </div>
+
+        <!--  These also, just update :) -->
+
+
+        <div class="grid_5 push_1 omega side">
+
+          <h3>インフォメーション</h3>
+          <p><strong>
+            <span>
+              <!-- お申し込みが開始いたしましたら、こちらのページにてお知らせいたします。 -->
+              <!-- <strong>
+                2月16(日) 22時までに<a href="https://railsgirls-kobe.doorkeeper.jp/events/103559" target="_blank">募集ページ</a
+                >からご応募ください。<br />
+                応募が多い場合は抽選となります。<br />
+                参加可否結果のご連絡：2月17～23日（日程は前後する可能性がございます）<br />
+              </strong> -->
+              参加申し込みは締め切らせていただきました。<br>
+              多数のお申し込み、ありがとうございました！<br>
+              次回開催のお知らせを受け取りたい場合は<br>
+              <a href="https://railsgirls-kobe.doorkeeper.jp/">こちら</a> にご登録ください :)<br>
+            </span>
+          </strong></p>
+
+          <p><strong>日程:</strong><br/>
+          2020年3月21日(土) 18:00 開場 ～ (順次開始)<br/>
+          2020年3月22日(日)   9:30 開場(10:30 開始) ～ <br/>
+          <p><strong>会場:</strong>
+            <a href="https://120workplace.jp/">120 WORKPLACE KOBE</a><br/>
+            各線三宮（三ノ宮）駅より徒歩８分<br/>
+          </p>
+          <p><strong>
+            <span>
+              <a href="http://railsgirls.jp/code-of-conduct">アンチハラスメントポリシー</a><br />
+            </span>
+          </strong></p>
+          わたしたちは Rails Girls イベントとコミュニティの安全、生産的なコラボレーションのために 上記のガイドラインを選びました。
+
+          <!-- Feel free to group the sponsors as you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
+
+
+
+          <h3>パートナー</h3>
+
+          <p>
+            Rails Girls Kobe はご支援いただけるパートナーを募集しております。
+            <!-- お申し込みが開始いたしましたら、こちらのページにてお知らせいたします。 -->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScTpHOBRu9c1V0duFTM70TRBz-h6OjwwkMe66bsMbkehyAUXw/viewform" target="_blank">こちらのフォーム</a>
+            からご応募ください。
+            <div class="spacer"></div>
+          </p>
+
+
+          <p>Rails Girls Kobe は以下のすばらしいパートナーとの共同開催です。</p>
+
+          <p>
+            <a href="http://www.five-eggs.com/" style="float:right; margin: 10px; border:0;">
+              <img src="images/kobe/five_eggs.png" alt="five-eggs" width="200px">
+            </a>
+            <a href="http://www.five-eggs.com/">合同会社ファイブエッグス</a>
+            は、神戸のRubyコミュニティ育ちの会社です。主にRuby on Railsを利用したWebアプリケーションを開発しています。
+          </p>
+
+          <p>
+            <a href="https://youcube.jp/?utm_source=railsgirls&utm_medium=official" style="float:right; margin:0 0 0 10px; border:0;">
+              <img src="images/kobe/youcube.png" alt="youcube" width="120px">
+            </a>
+            <a href="https://youcube.jp/?utm_source=railsgirls&utm_medium=official">合同会社ユーキューブ</a>
+            は、神戸でWebコンサルティングや、Ruby on Railsを使ったシステムの受託開発をしています。
+            Railsを勉強しながら実務経験を積みたいという方に、タイミングによってはお仕事紹介できる可能性がありますのでお気軽にお声がけください。
+          </p>
+
+          <p>
+            <a href="https://www.kuraseru.co.jp/" style="float:right; border:0; margin: 5px 10px;">
+              <img src="images/kobe/kuraseru.png" alt="KURASERU" width="200px">
+            </a>
+            <a href="https://www.kuraseru.co.jp/">株式会社KURASERU</a>
+            は、病院と介護施設のマッチングサービス ｢KURASERU｣を運営する神戸市注目のスタートアップです。
+            Ruby on Railsを用いて超高齢化社会となった日本最大の課題を解決したいエンジニアを募集中です！
+          </p>
+
+          <p>
+            <a href="https://www.acall.jp/" style="float:right; margin:0 0 0 10px; border:0;">
+              <img src="images/kobe/ACALL_LOGO-RGB.png" alt="acall" width="160" style="margin: 10px 0">
+            </a>
+            <a href="https://www.acall.jp/">ACALL株式会社</a>
+            は、ACALLは、気持ちよく効率的に働き生産性を向上するため、オフィス内のさまざまなモノと人をつなぐスマートオフィスプラットフォームを提供しています。
+
+          <p>
+            <a href="https://www.sonicgarden.jp/" style="float:right; margin:0 0 0 10px; border:0;">
+              <img src="images/kobe/sonicgarden.png" alt="sonicgarden" width="160" style="margin: 10px 0">
+            </a>
+            <a href="https://www.sonicgarden.jp/">株式会社ソニックガーデン</a>
+            は、お客さまのビジネスの成長をソフトウエアで支える「納品のない受託開発」を提供しています。
+            お客さまのパートナーとして ビジネスの立ち上げに必要なソフトウェアの 企画開発から運用まですべて請け負います。
+            <div class="spacer"></div>
+          </p>
+
+          <p>
+            <a href="https://koberb.doorkeeper.jp/" style="float:right; margin:0 0 0 10px; border:0;">
+              <img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1743_normal_1406038612_1222_normal_1403168180_%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A-2.png" alt="Kumu" width="100">
+            </a>
+            <a href="https://koberb.doorkeeper.jp/">Kobe.rb</a> は神戸やその周辺のRubyistが集まる地域コミュニティです。神戸を中心に Ruby, Rails などの情報を共有したり、<a href="https://rails-followup-kobe.doorkeeper.jp/">初心者フォローの勉強会</a>を運営しています。隔週平日開催しています。Ruby, Railsなどで困ってる事を相談しあったりしたい人。Ruby初級者で勉強したい人などなど。ぜひこの場を活用してください。
+          </p>
+
+          <p>
+            <a href="https://pepabo.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/pepabo.png" alt="GMO Pepabo" width="200"></a>
+            <a href="https://pepabo.com/">GMOペパボ株式会社</a>「もっとおもしろくできる」を企業理念に、
+            レンタルサーバーサービス「<a href="https://lolipop.jp/">ロリポップ！</a>」や
+            国内最大のハンドメイドマーケット「<a href="https://minne.com/">minne</a>」など様々なサービスを提供しています。
+            RubyやRailsを採用した開発環境で「いるだけで成長できる環境」をコンセプトにエンジニアの人材育成やコミュニティへの支援を積極的に行っています。
+          </p>
+          <p>
+            <a href="http://www.crassone.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/crassone_logo.jpg" alt="Crassone" width="200"></a>
+            <a href="http://www.crassone.co.jp/">クラッソーネ</a>は、「豊かな暮らしで人々を笑顔に」をミッションに掲げ、
+            家づくり分野でユーザー（施主様）とパートナー（建築工事会社）のマッチングサービス 「くらそうね」を展開しています。
+            現在、ユーザーが簡単に工事会社を比較でき、安心して工事を発注できる、解体工事マッチングプラットフォームを、
+            Ruby on Railsで開発しています。この新サービスを一緒につくっていただける仲間を募集中です。
+          </p>
+          <p>
+            <a href="https://jp.corp-sansan.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/sansan_logo.jpg" alt="Sansan Inc." width="200"></a>
+            <a href="https://jp.corp-sansan.com/">Sansan株式会社</a>は、「出会いからイノベーションを生み出す」をミッションに掲げ、
+            法人向け名刺管理サービス「Sansan」と個人向け名刺アプリ「Eight」を提供しています。「Eight」はRuby on Railsで開発しており、
+            取り込んだ名刺から、いつでも活用できるあなただけのビジネスネットワークを構築することができます。
+            Rails Girlsでの皆さんとの「出会い」を楽しみにしています。
+          </p>
+          <p>
+            <a href="https://smarthr.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/smarthr.png" alt="SmartHR" width="200"></a>
+            <a href="https://smarthr.jp/">株式会社SmartHR</a>社会保険・労働保険それ自体はすばらしい制度ですが、
+            手続きの不便さ、煩雑さ、わかりづらさは否めません。私たちはこのアナログな領域を、
+            テクノロジーと創意工夫でもっとシンプル、かんたん、便利に変えていきます。
+            経営者は本業に、人事担当者は採用や制度づくりに集中でき、従業員はよりよい環境で安心して働くことができる社会を 私達は SmartHR で実現します。
+          </p>
+          <p>
+            <a href="https://medpeer.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/MedPeer_logo.png" alt="MedPeer" width="200"></a>
+            <a href="https://medpeer.co.jp/">メドピア</a>は現役医師が経営するヘルステックカンパニーです。
+            国内医師の3人に1人が参加するコミュニティサイトで医師を支援すると共に、医師や管理栄養士のネットワークを活かして一般向けのヘルスケアサービスを展開しています。
+          </p>
+          <p>
+            <a href="https://aktsk.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/aktsk_log_yoko.png" alt="Akatsuki inc." width="200"></a>
+            <a href="https://aktsk.jp/">株式会社アカツキ</a>は、心が求める活動がみんなの幸せの原動力となる世界「A Heart Driven World.」をビジョンとして掲げ、
+            エンターテインメントをグローバルに展開しています。 アカツキエンジニアは「テクノロジーを活用して、人の感情をもっと豊かに動かし、
+            ワクワクさせることができる」という信念のもとRubyなどのOSSを活用し、また積極的に貢献しています。
+          </p>
+          <p>
+            <a href="https://esa.io/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/esa.png" alt="esa.io" width="200"></a>
+            <a href="https://esa.io/">esa</a> は、「情報を育てる」をコンセプトに作られた、自律的なチームのための情報共有サービスです。
+            日報や議事録、仕様書やマニュアル、アイデアの共有など様々な種類の情報共有に適しており、Markdownで書ける使い勝手のよいインターフェイスで、
+            チームのより良いコラボレーションをサポートします。
+          </p>
+          <p>
+            <a href="https://www.lmi.ne.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/lmi_logo.jpg" alt="Link and Motivation Inc." width="200"></a>
+            <a href="https://www.lmi.ne.jp/">リンクアンドモチベーション</a>は、世界初の「モチベーション」にフォーカスした企業です。
+            これまでは組織人事コンサルティングや研修を提供する企業でしたが、これからは「すべての組織と個人の変革」に向けてテクノロジー企業に転換しようとしています。
+            この第二創業期を共に創って頂けるエンジニア・プロダクトマネジャー・デザイナーの方々を積極募集しています。
+          </p>
+          <p>
+            <a href="https://agile.esm.co.jp" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/set-baseE_Y.png" alt="Eiwa System Management" width="200"></a>
+            私たち<a href="https://agile.esm.co.jp">永和システムマネジメント</a>は
+             Ruby や Ruby on Railsを活用したアプリケーションをアジャイルに構築できる日本有数のソフトウェア受託企業です。
+            私たちはお客さまの投資を最大化すべく研鑽を続けています。また、Rubyコミュニティの支援も2006年から積極的に行っています。
+          </p>
+          <p>
+            <a href="http://github.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/fukuoka/github.png" alt="GitHub" width="200"></a>
+            <a href="http://github.co.jp/">GitHub</a> はソフトウェアの共同開発をするための最高の環境を開発・提供しています。
+            1000 万人以上のユーザーが友だち、同僚、クラスメートと、時にはまったく知らない人とでさえ、コードなどを共有して素晴らしいプロジェクトを行っています。
+          </p>
+
+        </div>
+
+        <!--  Update the team list       -->
+        <div class="coaches">
+          <hr />
+          <h2>Kobe team</h2>
+
+          <a href="https://twitter.com/n_miyuki003" class="grid_3" target="_blank">
+            <img src="https://pbs.twimg.com/profile_images/963675926969180162/hNjzfjL-.jpg" class="coach" />
+            なかにしみゆき <br/> Organizer
+            <small>@n_miyuki003</small>
+          </a>
+
+          <a href="https://twitter.com/yoo_kooo" class="grid_3" target="_blank">
+            <img src="https://avatars2.githubusercontent.com/yoko-hashimoto" class="coach" />
+            Yoko Hashimoto<br/> Organizer
+            <small>@yo_kooo</small>
+          </a>
+
+          <a href="https://twitter.com/tana3ka" class="grid_3" target="_blank">
+            <img src="https://avatars.githubusercontent.com/tana3ka" class="coach" />
+            Mika Tanaka<br> Organizer
+            <small>@tana3ka</small>
+          </a>
+
+          <a href="https://twitter.com/miiyukii3" class="grid_3" target="_blank">
+            <img src="https://avatars2.githubusercontent.com/u/16573137" class="coach" />
+            Miyuki Higashi</br> Organizer
+            <small>@miiyukii</small>
+          </a>
+
+          <a href="https://twitter.com/spring_aki" class="grid_3" target="_blank">
+            <img src="http://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9" class="coach" />
+            Aki<br/> Organizer, coach
+            <small>@spring_aki</small>
+          </a>
+
+      </div>
+    </div>
+
+    <!-- /content -->
+
+    <footer>
+      <p>2010-2016, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="http://twitter.com/railsgirls">Twitter</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+      <p class="slogan">Get excited and make things!</p>
+    </footer>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19631067-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  </body>
+    </html>

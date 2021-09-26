@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Primary Meta Tags -->
+    <title>Rails Girls Bielsko-Biała 2020</title>
+    <meta name="title" content="Rails Girls Bielsko-Biała 2020">
+    <meta name="description" content="Rails Girls comes to Bielsko-Biała, Poland: join the full-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Rails Girls Bielsko-Biała 2020">
+    <meta property="og:description" content="Rails Girls comes to Bielsko-Biała, Poland: join the full-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Rails Girls Bielsko-Biała 2020">
+    <meta property="twitter:description" content="Rails Girls comes to Bielsko-Biała, Poland: join the full-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style type="text/css">
+        a.sponsor { display: block; margin: 2em 0; border: none; color: #444; line-height: 130%; }
+        a.sponsor img { max-width: 80%; display: block; margin-bottom: 0.5em; }
+        .coaches .grid_3 { height: 80px; margin: 0 20px 30px 0; }
+        .coaches a img, .coaches div.coach img { width: 50px; height: 50px; border-radius: 50px; margin-bottom: 30px; }
+        .coaches a em, .coaches div.coach em { display: block; font-style: normal; font-size: 0.75em; }
+        .coaches div.coach { color: #e0330c; }
+    </style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <meta property="og:image" content="http://railsgirls.com/images/bielsko_biala/rails_girls_01.png"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style type="text/css">
+
+        .wrapper {
+            max-width: 940px;
+            margin: 0 20px;
+            /* display: grid;*/
+            grid-gap: 10px;
+        }
+
+        /* no grid support? */
+
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .wrapper {
+            display: grid;
+            margin: 0 auto;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-auto-rows: minmax(150px, auto);
+        }
+
+        .panel {
+            /* needed for the flex layout*/
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1 1 200px;
+        }
+
+        .tall-panel {
+            grid-row-end: span 2;
+        }
+
+        .long-panel {
+            grid-column-end: span 3;
+        }
+
+        .header,
+        .footer {
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 0 1 100%;
+            grid-column: 1 / -1;
+        }
+
+        .wrapper > * {
+            background-color: #fff;
+            border: 2px solid #f3f3f3;
+            color: #000;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+            margin-bottom: 10px;
+        }
+
+
+        /* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+
+        @supports (display: grid) {
+            .wrapper > * {
+                margin: 0;
+            }
+        }
+
+        .card-img {
+            display: inline;
+            float: none;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        /* *** */
+        .partners {
+            margin-bottom: 15px;
+            vertical-align: middle;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .partners a {
+            border-bottom: none;
+        }
+        .partners .first {
+            margin: 15px 0 0 0;
+        }
+        .partners .padding100 {
+            margin-left: 100px;
+        }
+        .partners .padding140 {
+            margin-left: 140px;
+        }
+        .partners .padding160 {
+            margin-left: 160px;
+        }
+        .partners .padding200 {
+            margin-left: 200px;
+        }
+        .partners .grid_4:not(.alpha) {
+            margin-top: 20px;
+        }
+        .partners .center {
+            display: inline;
+            float: none;
+        }
+        .grid_12 .time:after {
+            content: " - ";
+        }
+        table.table {
+            width: 100%;
+        }
+
+        table.table td {
+            padding: 10px;
+        }
+
+        table.table td.tableEvent {
+            border-bottom: 1px solid #ccc;
+        }
+
+        table.table td.tableTime {
+            background-color: #8a1d04;
+            color: white;
+            font-weight: bold;
+            border-bottom: 1px solid white;
+            text-align: center;
+        }
+
+        table.table td.tableBreak {
+            background-color: #fafafa;
+        }
+
+        table.table td.tableKeynote {
+            background-color: #e0330c;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+
+        nav {
+            margin: 0 0 0 240px;
+            text-align: right;
+        }
+
+        hr {
+            margin: 30px 0;
+        }
+
+        .bielsko_biala#promo h1 {
+            height: auto;
+        }
+
+        address {
+            font-style: normal;
+        }
+
+        .social-media a {
+            border-bottom: none;
+        }
+
+        .social-media a img {
+            border: 0;
+            margin-right: 15px;
+        }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container_12">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="http://blog.railsgirls.com">Blog</a>
+            <a href="http://guides.railsgirls.com">Guides</a>
+            <a href="#previous-editions">Previous Editions</a>
+        </nav>
+    </div>
+</header>
+
+<div id="container" class="container_12 page clearfix">
+    <div class="grid_12 omega alpha">
+        <div id="promo" class="new bielsko_biala">
+            <h1>Rails Girls Bielsko-Biała 2020
+                <small>06-07 Marzec</small>
+            </h1>
+            <h3>Dzień dobry <strong>Bielsko-Biała!</strong></h3>
+            <p>
+                Witaj w magicznym świecie programowania, w którym korzystając z mocy czerwonych rubinów zmieniamy linie kodu w aplikacje webowe.
+                Tutaj będziesz uczestniczyła w interesujących projektach programistycznych i poznasz innych pasjonatów i pasjonatki odkrywające świat nowych technologii.<br/>
+            <p>
+                <img src="images/bielsko_biala/heart_icon.png" alt="Rails Girls" width="14" height="12"/>
+                Jeśli chciałabyś wziąć udział w takich warsztatach <a href="https://www.meetup.com/Rails-Girls-Bielsko-Biala/events/268600300/" target="_blank"> <strong> kliknij tutaj :)</strong></a>
+            <br/>
+            </p>
+
+            <p>
+                <img src="images/bielsko_biala/heart_icon.png" alt="Rails Girls" width="14" height="12"/>
+                Jeśli chcesz pozostać z nami w kontakcie, być informowaną o aktualnościach, proszę polub nas nas:
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/MiksturaIT/" target="_blank"><img src="images/london/facebook.png" alt="Facebook" /></a>
+                <a href="https://www.instagram.com/team_selleo/" target="_blank"><img src="images/london/instagram.png" alt="Instagram" /></a>
+            </div>
+        </div>
+
+
+        <div class="grid_4 alpha feature">
+            <p><b>Dowiesz się</b> jak projektować, prototypować i programować aplikacje webowe.</p><br/>
+        </div>
+        <div class="grid_4 feature">
+            <p><b>Będziesz</b> potrzebowała laptopa, masy ciekawości oraz szczyptę wyobraźni.</p><br/>
+        </div>
+        <div class="grid_4 omega feature">
+            <p><b>Poznasz</b> doświadczone mentorki i dziewczyny chcące nauczyć się kodować.</p><br/>
+        </div>
+        <hr />
+
+        <div class="omega side">
+            <h3>Najczęściej zadawane pytania:</h3>
+            <p><strong>Czy warsztaty będa przeprowadzone w języku polskim czy angielskim?</strong><br />
+                Warsztaty będą prowadzone w języku polskim, ale dokumentacja i "pomoce naukowe" jakimi będziemy sie posługiwać będą często w języku angielskim</p>
+
+            <p><strong>Ile to kosztuje?</strong><br />
+                Udział w warsztatach jest darmowy.
+            </p>
+
+            <p>
+                <strong>Do kogo skierowane są warsztaty</strong><br />
+                Na warsztaty chcielibyśmy przede wszystkim zaprosić kobiety, które chciałyby zacząć swoją przygodę z programowaniem. Ważne abyś zabrała ze sobą swojego laptopa ;)
+            </p>
+            <p>
+
+            <p>
+                <strong>Czy faceci też mogą uczestniczyć w warsztatach?</strong><br />
+                Nie dyskryminujemy ze względu na płeć ;) Ale nie przypadkowo nazywamy siebie "Rails Girls".
+            </p>
+
+            <p>
+                <strong>Potrafię w Railsy, chcę pomóc</strong><br />
+                Napisz do mnie na adres r8jedryszczak@selleo8com tylko zanim wyślesz e-maila, ósemki zamień na kropki :)
+            </p>
+        </div>
+
+        <hr>
+        <div class="grid_4 social-media">
+            <h3>Gdzie odbędą sie warsztaty?</h3>
+            <p>
+                <a href="https://selleo.com/" alt="Selleo" class="imageLink" target="_blank"><img src="images/bielsko_biala/logo-selleo.png" alt="Selleo" width="100%"/>
+                </a>
+                <address>Adres:<br> ul. Powstańców Śląskich 3,<br> Bielsko-Biała </address>
+            </p>
+        </div>
+        <div class="grid_4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.3012506449672!2d19.041960315708565!3d49.818002979393015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716a1d8029992ab%3A0x6af55eeaf126ade6!2zUG93c3RhxYRjw7N3IMWabMSFc2tpY2ggMywgNDMtMzAwIEJpZWxza28tQmlhxYJh!5e0!3m2!1sen!2spl!4v1582898402031!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <br>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="grid_12">
+            <h3>Agenda</h3>
+            <div class="grid_6 alpha">
+                <h2>Piątek, 6 Marca</h2>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td class="tableTime">17:30</td>
+                        <td class="tableEvent tableBreak"><b>Pomagamy ustawiać środowisko pracy na Twoim laptopie</b>
+                            <br><br>
+                           Zapraszamy wszystkich uczestników aby na spokojnie przygotować sobie komputery do pracy na następny dzień
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">20:00</td>
+                        <td class="tableEvent tableBreak">
+                          ...tak, by następnego dnia skupić się już tylko na programowaniu, słuchaniu ciekawych prezentacji i innych przyjemnych rzeczach :)
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                Miejsce: <a href="https://selleo.com/" target="_blank"> Selleo </a>
+            </div>
+
+            <div class="grid_6 omega">
+                <h2>Sobota, 7 Marca</h2>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td class="tableTime">9:00</td>
+                        <td class="tableEvent tableBreak"><b>Rejestracja</b>
+                            <br><br>
+                            Kawa, socializing, rozwiązywanie ostatnich, ewentualnych problemów z komputerem.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">10:00</td>
+                        <td class="tableEvent tableKeynote"><b>Rozpoczęcie warsztatów</b>
+                            <br><br>
+                            Powitanie uczestników, co to jest Rails Girls, co będziemy dzisiaj robić. Przedstawienie mentorów.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">10:15</td>
+                        <td class="tableEvent">
+                            <b>Introduction to... being a web developer!</b>
+                            <br><br>
+                            Jeden z naszych mentorów - Irek Skrobiś opowie trochę o warsztacie Web Developera, i jak wygląda praca programisty, który uruchamia swój kod w przeglądarce internetowej.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">11:00</td>
+                        <td class="tableEvent tableBreak"><b>Tak zwane "Show 'n' Tell"</b>
+                            <br><br>
+                            Joanna Kolonko zaprezentuje materiał zawarty na <a href="https://ruby.github.io/TryRuby">TryRuby</a> jednocześnie kodując i prowadząc przezentacje na żywo ;)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">12:15</td>
+                        <td class="tableEvent tableKeynote"><b>Zaczynamy pisać (być może pierwszą) naszą aplikację webową! :D</b>
+                            <br><br>
+                            Błażej "Stevo" Kosmowski przeprowadzi nas przez kolejne kroki tworzenia aplikacji webowej, przy użyciu Ruby on Rails.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">13:00</td>
+                        <td class="tableEvent tableBreak"><b>Przerwa obiadowa</b>
+                            <br><br>
+                            Mamy nadzieję, że wszyscy lubią pizzę ;)
+                         </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">14:15</td>
+                        <td class="tableEvent"><b>Dziewuchy dziewuchom! :)</b>
+                            <br><br>
+                            Cykl prezentacji prowadzonych przez Zofię Lekki, Agnieszkę Matysek, Joannę Kolonko. Programistki poruszą tematy związane z kobietami w IT.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">15:00</td>
+                        <td class="tableEvent"><b>UX oraz UI</b>
+                            <br><br>
+                            Kasia Babińska - graphic designerka oraz specjalistka od CSS'ów opowie nam trochę o swojej pracy oraz rozszyfruje dla nas skróty przedstawione w nagłówku ;)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">16:00</td>
+                        <td class="tableEvent tableKeynote"><b>Kontynuujemy tworzenie naszej aplikacji webowej</b>
+                            <br><br>
+                            Błażej "Stevo" Kosmowski przeprowadzi nas przez kolejne kroki tworzenia aplikacji webowej, przy użyciu Ruby on Rails.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tableTime">18:00</td>
+                        <td class="tableEvent">
+                            <b>Zakończenie i podsumowanie warsztatów</b>
+                            <br><br>
+                            Opowiemy sobie czego się razem nauczyliśmy, podzielimy wrażeniami oraz sugestiami. A to wszystko przy szklance piwa \ soku lub kubku herbaty ;)
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <h3>Oficialny partner</h3>
+        <div style="text-align: center">
+            <a href="https://selleo.com/" title="Selleo" target="_blank">
+                <img style="display: block; margin: 0 auto;" src="images/bielsko_biala/logo-selleo.png" alt="Selleo" width="60%"></a>
+            <p>Selleo to firma programistyczna z Bielska-Białej, która od 15 lat tworzy aplikacje webowe i mobilne dla klientów z Europy, Stanów Zjednoczonych i Australii. Wykorzystując nowoczesne technologie (React, React Native, Ember, Elixir, Ruby on Rails, Node) Selleo dostarcza rozwiązania wspierające procesy biznesowe zarówno małych i średnich przedsiębiorstw jak i międzynarodowych korporacji.
+                Zwinne podejście do zarządzania, ciągłe doskonalenie umiejętności oraz płaska struktura organizacyjna są fundamentami kultury organizacyjnej Selleo. Celem firmy jest budowanie środowiska, w którym szczęśliwi ludzie mogą realizować swoje zawodowe pasje. Programiści pracując w samo-organizujących się zespołach wybierają projekty oraz stosowane rozwiązania technologiczne, a także mają realny wpływ na funkcjonowanie organizacji.</p>
+        </div>
+    <br/>
+    <hr>
+</div>
+
+<footer>
+    <p>2010-2020, Rails Girls. <a href="mailto:railsgirlsPoland@gmail.com">Contact us</a> or follow us on <a href="http://twitter.com/railsgirlssk">Twitter</a> and <a href="https://www.facebook.com/railsgirlsBielsko-Biała">Facebook</a></p>
+    <p>Get excited and make things!</p>
+</footer>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>

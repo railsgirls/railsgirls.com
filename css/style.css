@@ -1019,6 +1019,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 .fukuoka#promo h1 {
   background: none;
 }
+.fukuoka-3#promo {
+  padding-left:420px;
+  background:url('../images/fukuoka/fukuoka2020-logo.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+  background-size: 410px;
+}
 
 .kobe0#promo {
   padding-left:420px;
@@ -1085,8 +1091,15 @@ url('../images/separator.png') no-repeat center bottom;
 
 .skopje#promo {
   padding-left:340px;
-  background:url('../images/skopje2019/rg-skopje.png') no-repeat 0 10px,
+  background:url('../images/skopje/2019/rg-skopje.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
+}
+
+.bielsko_biala#promo {
+    padding-left:340px;
+    background:url('../images/bielsko_biala/rails_girls_01.png') no-repeat 0 10px,
+    url('../images/separator.png') no-repeat center bottom;
+    background-size: 300px;
 }
 
 .gurgaon#promo {
@@ -3830,7 +3843,7 @@ small.cali-role{ font-size: 80%; }
 /* starts Sorocaba */
 
 .sorocaba_header_2016 {
-  background: #d3360b url('../images/sorocaba/rails_girls_sorocaba_2018.jpg') no-repeat;
+  background: #d3360b url('../images/sorocaba/rails_girls_sorocaba_2019.jpg') no-repeat;
   background-size: cover;
   display: table;
   height: 90vh;
@@ -4562,12 +4575,12 @@ padding-top:30px;
   padding-left: 340px;
   background: 	url('../images/bern/rg-bern.png') no-repeat 0 10px,
 		url('../images/separator.png') no-repeat center bottom;
-  background-size: 320px;
+  background-size: 300px;
 }
 
 h1.bern {
   font-size: 48px;
-  color: #239fb1;
+  color: #D3360B;
 }
 
 #share.bern {
@@ -4688,5 +4701,13 @@ url('../images/separator.png') no-repeat center bottom;
 .spb2019#promo {
   padding-left: 250px;
   background: url('../images/spb/rg-spb2019.jpg') no-repeat 0 10px,
+              url('../images/separator.png') no-repeat center bottom;
+}
+
+/* SPb 2020 */
+
+.spb2020#promo {
+  padding-left: 250px;
+  background: url('../images/spb/rg_v5.jpg') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
