@@ -284,6 +284,30 @@ a, a:visited, a:focus, a:active, a:hover{
   color: #d3360b;
 }
 
+
+.kumasi#promo {
+      height: 350px;
+      background-image: url('../images/helsinki2018/helsinki022018.jpg');
+      background-repeat: no-repeat;
+      padding-left: 330px;
+      background-size: 310px;padding-bottom: 0px;
+    }
+
+.kumasi#promo.new p{
+      font-size: 18px;
+    }
+.kumasi#promo.new h1{
+      padding-top: 34px;
+      font-size: 40px;
+    }
+.kumasi#promo h1 small{
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      color: #390c00;
+    }
+
+
 .sekondi#promo {
       height: 350px;
       background-image: url('../images/saopaulo/girl-saopaulo.png');
