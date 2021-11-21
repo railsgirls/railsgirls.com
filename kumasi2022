@@ -89,7 +89,7 @@ Steps to show on site
 
     <div id="container" class="container_12 page clearfix">
       <div class="grid_12 omega alpha">
-        <div id="promo" class="new sekondi">
+        <div id="promo" class="new kumasi">
         <h1>Rails Girls Kumasi</h1>
         <p> Hello world!</p>
           Rails Girls comes to Kumasi! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
