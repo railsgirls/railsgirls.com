@@ -93,8 +93,8 @@ Steps to show on site
         <h1>Rails Girls Kumasi</h1>
         <p> Hello world!</p>
           Rails Girls comes to Kumasi! During the free two-day workshop we'll dive into the magical world of Ruby on Rails. </p>
-        <!--<p class="insciption-button"><a href="https://forms.gle/QqY2TPognqHRZPrd9">APPLY NOW </a></p>-->
-        Applications will be open 1st December, 2022<br>
+        <p class="insciption-button"><a href="https://forms.gle/QqY2TPognqHRZPrd9">APPLY NOW </a></p>
+        Applications is open until 20th February, 2022<br>
         <br>
 
 
@@ -309,6 +309,13 @@ Steps to show on site
               <small>@plasmadray</small>
             </div>
           </a>  
+          
+        <a href="#" class="grid_3 flag" target="_blank">
+            <div class="flag-body">
+              Grace Aidoo
+              <small>Co-Organizer</small>
+            </div>
+          </a>    
       </div>
 
     </div>
