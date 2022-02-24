@@ -320,6 +320,11 @@ Steps to show on site
                <img src="https://res.cloudinary.com/noahalorwu/image/upload/v1600333368/RailsGirlsSponsors/makandra.svg" alt="Makandra" style="max-width: 180px;">
              </a>
       </p> 
+       <p class="sponsor-note">
+             <a href="https://www.digitalocean.com/" style="display:block; margin-top:20px; border:0;" target="_blank">
+               <img src="https://res.cloudinary.com/noahalorwu/image/upload/v1645721682/RailsGirlsSponsors/do.png" alt="Digital Ocean" style="max-width: 180px;">
+             </a>
+      </p> 
       <hr/>
      <h3>FAQ</h3>
        <p><strong>How much does the workshop cost?</strong>
