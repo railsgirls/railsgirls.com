@@ -294,5 +294,13 @@
     "endDate": "2020-04-04",
     "imageUrl": "/images/bern/rg-bern.png",
     "eventUrl": "/bern2020"
+  },
+  {
+    "location": "Sydney, Australia",
+    "writtenDate": "July 9th, 2022",
+    "startDate": "2022-07-09",
+    "endDate": "2022-07-09",
+    "imageUrl": "/images/railsgirls-sq.png",
+    "eventUrl": "/sydney.html"
   }
 ]
