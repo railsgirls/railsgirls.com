@@ -310,5 +310,21 @@
     "endDate": "2022-07-30",
     "imageUrl": "/images/tokyo/14th-tokyo-banner.png",
     "eventUrl": "/tokyo.html"
+  },
+  {
+    "location": "Warsaw, Poland",
+    "writtenDate": "October 1rst & 2nd, 2022",
+    "startDate": "2019-10-1",
+    "endDate": "2019-10-2",
+    "imageUrl": "/images/rg-warsaw.png",
+    "eventUrl": "/warsaw.html"
+  },
+  {
+    "location": "London, UK",
+    "writtenDate": "11-12 November 2022",
+    "startDate": "2022-11-11",
+    "endDate": "2022-11-12",
+    "imageUrl": "/images/tokyo/14th-tokyo-banner.png",
+    "eventUrl": "/london.html"
   }
 ]
