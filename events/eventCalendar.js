@@ -5,7 +5,7 @@ fetch('./events/events.json')
     return response.json();
   })
   .then(function (data) {
-    data.map(item => calendarData.push(item))
+    data["events"].map(item => calendarData.push(item))
     return calendarItems(calendarData)
   })
   .then(data => document.getElementById("event-calendar").innerHTML = data);

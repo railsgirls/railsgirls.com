@@ -1,4 +1,5 @@
-[
+{
+  "events": [
  {
     "location": "Kumasi, Ghana",
     "writtenDate": "March 11th & 12th, 2022",
@@ -314,17 +315,17 @@
   {
     "location": "Warsaw, Poland",
     "writtenDate": "October 1rst & 2nd, 2022",
-    "startDate": "2019-10-1",
-    "endDate": "2019-10-2",
+    "startDate": "2022-10-01",
+    "endDate": "2022-10-02",
     "imageUrl": "/images/rg-warsaw.png",
     "eventUrl": "/warsaw.html"
   },
   {
     "location": "London, UK",
-    "writtenDate": "11-12 November 2022",
+    "writtenDate": "November 11th & 12th, 2022",
     "startDate": "2022-11-11",
     "endDate": "2022-11-12",
-    "imageUrl": "/images/tokyo/14th-tokyo-banner.png",
+    "imageUrl": "/images/london/rails_girls_london_cats.jpg",
     "eventUrl": "/london.html"
   }
-]
+]}
