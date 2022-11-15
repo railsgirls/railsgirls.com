@@ -327,5 +327,13 @@
     "endDate": "2022-11-12",
     "imageUrl": "/images/london/rails_girls_london_cats.jpg",
     "eventUrl": "/london.html"
+  },
+  {
+    "location": "Cali, CO",
+    "writtenDate": "January 27th & 28th, 2023",
+    "startDate": "2023-01-27",
+    "endDate": "2023-01-28",
+    "imageUrl": "/images/cali/rg-cali-logo.png",
+    "eventUrl": "/cali.html"
   }
 ]}
