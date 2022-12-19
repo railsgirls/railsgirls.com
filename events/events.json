@@ -1,5 +1,13 @@
 {
   "events": [
+  {
+    "location": "Rotterdam, The Netherlands",
+    "writtenDate": "March 18th, 2023",
+    "startDate": "2023-03-18",
+    "endDate": "2023-03-18",
+    "imageUrl": "images/rotterdam23/rg-rotterdam.jpg",
+    "eventUrl": "https://railsgirls.nl"
+  },
  {
     "location": "Kumasi, Ghana",
     "writtenDate": "March 11th & 12th, 2022",
