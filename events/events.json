@@ -1,6 +1,15 @@
 {
   "events": [
   {
+    "location": "Tokyo, Japan",
+    "writtenDate": "April 8th, 2023",
+    "startDate": "2023-04-08",
+    "endDate": "2023-04-08",
+    // TODO: ロゴ差し替える
+    "imageUrl": "/images/tokyo/14th-tokyo-banner.png",
+    "eventUrl": "https://railsgirls.jp/"
+  },
+  {
     "location": "Rotterdam, The Netherlands",
     "writtenDate": "March 18th, 2023",
     "startDate": "2023-03-18",
