@@ -874,8 +874,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .tokyo-2023-04-08#promo {
     padding-left:420px;
-    /* TODO: ロゴ差し替える*/
-    background:url('../images/tokyo/14th-tokyo-logo.png') no-repeat left top;
+    background:url('../images/tokyo/RailsGirlsTokyo15th.png') no-repeat left top;
 url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
