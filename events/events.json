@@ -24,6 +24,14 @@
     "imageUrl": "/images/railsgirls.png",
     "eventUrl": "/bangalore.html"
   },
+  {
+    "location": "Cali, CO",
+    "writtenDate": "February 17th & 18th, 2023",
+    "startDate": "2023-02-17",
+    "endDate": "2023-02-18",
+    "imageUrl": "/images/cali/rg-cali-logo.png",
+    "eventUrl": "/cali.html"
+  },
  {
     "location": "Kumasi, Ghana",
     "writtenDate": "March 11th & 12th, 2022",
@@ -351,13 +359,5 @@
     "endDate": "2022-11-12",
     "imageUrl": "/images/london/rails_girls_london_cats.jpg",
     "eventUrl": "/london.html"
-  },
-  {
-    "location": "Cali, CO",
-    "writtenDate": "January 27th & 28th, 2023",
-    "startDate": "2023-01-27",
-    "endDate": "2023-01-28",
-    "imageUrl": "/images/cali/rg-cali-logo.png",
-    "eventUrl": "/cali.html"
   }
 ]}
