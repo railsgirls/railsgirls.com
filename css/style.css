@@ -1240,12 +1240,6 @@ url('../images/separator.png') no-repeat center bottom;
                  url('../images/separator.png') no-repeat center bottom;
 }
 
-.bangalore#promo {
-  padding-left:340px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
-}
-
 .wellington#promo {
   padding-left: 334px;
   padding-top: 0;
@@ -3748,6 +3742,10 @@ div.bta-sponsors-top{ margin-top: 50px;}
 .bogota#promo {
   padding-left:340px;
   background:url('../images/rg-bogota.jpg') no-repeat 0 10px;
+}
+
+.bangalore{
+  background:url('../images/bangalore/railsgirls_logo.png') no-repeat 0 10px !important;
 }
 
 .bogota#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
