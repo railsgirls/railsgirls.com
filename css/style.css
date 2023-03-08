@@ -1115,6 +1115,13 @@ url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
 
+.nagasaki#promo {
+  padding-left: 420px;
+  background: url('../images/nagasaki/logo-1st.png') no-repeat left top;
+                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
