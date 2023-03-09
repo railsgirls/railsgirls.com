@@ -1,6 +1,14 @@
 {
   "events": [
   {
+    "location": "Nagasaki, Japan",
+    "writtenDate": "April 15th, 2023",
+    "startDate": "2023-04-15",
+    "endDate": "2023-04-15",
+    "imageUrl": "/images/nagasaki/logo-1st.png",
+    "eventUrl": "https://railsgirls.jp/"
+  },
+  {
     "location": "Tokyo, Japan",
     "writtenDate": "April 8th, 2023",
     "startDate": "2023-04-08",
