@@ -1,6 +1,14 @@
 {
   "events": [
   {
+    "location": "Sofia, Bulgaria",
+    "writtenDate": "May 12th - 13th, 2023",
+    "startDate": "2023-04-12",
+    "endDate": "2023-04-13",
+    "imageUrl": "/images/sofia/rg-sofia.jpg",
+    "eventUrl": "http://railsgirls.com/sofia.html"
+  },
+  {
     "location": "Nagasaki, Japan",
     "writtenDate": "April 15th, 2023",
     "startDate": "2023-04-15",
