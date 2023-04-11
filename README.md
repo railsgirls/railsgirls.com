@@ -36,7 +36,7 @@ It will take a while before the changes show, so don't panic!
 
 ## Checklist
 - Did you remember to change Twitter & Facebook details?
-- Did you include a [Code of Conduct](http://guides.railsgirls.com/guide/)?
+- Did you include a [Code of Conduct](http://guides.railsgirls.org/guide/)?
 - Did you remember to add an e-mail where people can contact you?
 - Did you remember to add your event to events.json and events.html?
 - Did you add your city to [the Map](http://rails-girls-map.herokuapp.com/#)?
