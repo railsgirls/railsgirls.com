@@ -59,9 +59,9 @@
 
 $mailto = 'iammyr@email.com' ;
 $subject = "Feedback Form" ;
-$formurl = "https://railgirls.org/files/galway/feedback.html" ;
-$thankyouurl = "https://railgirls.org/files/galway/thankyou.html" ;
-$errorurl = "https://railgirls.org/files/galway/error.html" ;
+$formurl = "https://railsgirls.org/files/galway/feedback.html" ;
+$thankyouurl = "https://railsgirls.org/files/galway/thankyou.html" ;
+$errorurl = "https://railsgirls.org/files/galway/error.html" ;
 
 $email_is_required = 0;
 $name_is_required = 1;
