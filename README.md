@@ -11,7 +11,7 @@ Find a file called **event-template.html**. Copy this file and make a new one wi
 
 
 ## Publishing the Site
-The site will be automatically published every 5 minutes (see when the site was [updated last](http://railsgirls.com/deploy.txt). Notice that the site needs to be accessible all the time and all around the world. Test your changes and be careful when pushing new commits. If the site breaks or you encounter a problem, ping us on **[contact@railsgirls.com](mailto:contact@railsgirls.com)** and someone should run over to help ; )
+The site will be automatically published every 5 minutes (see when the site was [updated last](https://railgirls.org/deploy.txt). Notice that the site needs to be accessible all the time and all around the world. Test your changes and be careful when pushing new commits. If the site breaks or you encounter a problem, ping us on **[contact@railsgirls.com](mailto:contact@railsgirls.com)** and someone should run over to help ; )
 
 ## Updating the Event
 You need to update two places.
@@ -36,7 +36,7 @@ It will take a while before the changes show, so don't panic!
 
 ## Checklist
 - Did you remember to change Twitter & Facebook details?
-- Did you include a [Code of Conduct](http://guides.railsgirls.com/guide/)?
+- Did you include a [Code of Conduct](https://guides.railsgirls.org/guide/)?
 - Did you remember to add an e-mail where people can contact you?
 - Did you remember to add your event to events.json and events.html?
 - Did you add your city to [the Map](http://rails-girls-map.herokuapp.com/#)?
