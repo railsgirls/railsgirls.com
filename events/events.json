@@ -1,13 +1,13 @@
 {
   "events": [
-    {
-      "location": "Stara Zagora, Bulgaria",
-      "writtenDate": "May 19th - 20th, 2023",
-      "startDate": "2023-05-19",
-      "endDate": "2023-05-20",
-      "imageUrl": "/images/sofia/rg-sofia.jpg",
-      "eventUrl": "https://railsgirls.com/stz.html"
-    },
+  {
+    "location": "Stara Zagora, Bulgaria",
+    "writtenDate": "May 19th - 20th, 2023",
+    "startDate": "2023-05-19",
+    "endDate": "2023-05-20",
+    "imageUrl": "/images/sofia/rg-sofia.jpg",
+    "eventUrl": "https://railsgirls.com/stz.html"
+  },
   {
     "location": "Sofia, Bulgaria",
     "writtenDate": "May 12th - 13th, 2023",
