@@ -1,6 +1,14 @@
 {
   "events": [
   {
+    "location": "Florianópolis, Brazil",
+    "writtenDate": "May 27th, 2023",
+    "startDate": "2023-05-27",
+    "endDate": "2023-05-27",
+    "imageUrl": "/images/railsgirls.png",
+    "eventUrl": "/florianopolis.html"
+  },
+  {
     "location": "Stara Zagora, Bulgaria",
     "writtenDate": "May 19th - 20th, 2023",
     "startDate": "2023-05-19",
