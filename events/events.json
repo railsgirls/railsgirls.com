@@ -1,6 +1,14 @@
 {
   "events": [
   {
+    "location": "Kraków, Poland",
+    "writtenDate": "June 23-24th, 2023",
+    "startDate": "2023-06-23",
+    "endDate": "2023-06-24",
+    "imageUrl": "/images/railsgirls.png",
+    "eventUrl": "/krakow.html"
+  },
+  {
     "location": "Florianópolis, Brazil",
     "writtenDate": "May 27th, 2023",
     "startDate": "2023-05-27",
