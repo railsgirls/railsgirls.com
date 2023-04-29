@@ -1,403 +1,404 @@
 {
   "events": [
-  {
-    "location": "Kraków, Poland",
-    "writtenDate": "June 23th - 24th, 2023",
-    "startDate": "2023-06-23",
-    "endDate": "2023-06-24",
-    "imageUrl": "/images/sofia/rg-sofia.jpg",
-    "eventUrl": "/krakow.html"
-  },
-  {
-    "location": "Florianópolis, Brazil",
-    "writtenDate": "May 27th, 2023",
-    "startDate": "2023-05-27",
-    "endDate": "2023-05-27",
-    "imageUrl": "/images/railsgirls.png",
-    "eventUrl": "/florianopolis.html"
-  },
-  {
-    "location": "Stara Zagora, Bulgaria",
-    "writtenDate": "May 19th - 20th, 2023",
-    "startDate": "2023-05-19",
-    "endDate": "2023-05-20",
-    "imageUrl": "/images/sofia/rg-sofia.jpg",
-    "eventUrl": "https://railsgirls.com/stz.html"
-  },
-  {
-    "location": "Sofia, Bulgaria",
-    "writtenDate": "May 12th - 13th, 2023",
-    "startDate": "2023-04-12",
-    "endDate": "2023-04-13",
-    "imageUrl": "/images/sofia/rg-sofia.jpg",
-    "eventUrl": "https://railsgirls.com/sofia.html"
-  },
-  {
-    "location": "Nagasaki, Japan",
-    "writtenDate": "April 15th, 2023",
-    "startDate": "2023-04-15",
-    "endDate": "2023-04-15",
-    "imageUrl": "/images/nagasaki/logo-1st.png",
-    "eventUrl": "https://railsgirls.jp/"
-  },
-  {
-    "location": "Tokyo, Japan",
-    "writtenDate": "April 8th, 2023",
-    "startDate": "2023-04-08",
-    "endDate": "2023-04-08",
-    "imageUrl": "/images/tokyo/RailsGirlsTokyo15th.png",
-    "eventUrl": "https://railsgirls.jp/"
-  },
-  {
-    "location": "Rotterdam, The Netherlands",
-    "writtenDate": "March 18th, 2023",
-    "startDate": "2023-03-18",
-    "endDate": "2023-03-18",
-    "imageUrl": "images/rotterdam23/rg-rotterdam.jpg",
-    "eventUrl": "https://railsgirls.nl"
-  },
-  {
-    "location": "Bangalore, India",
-    "writtenDate": "March 4th, 2023",
-    "startDate": "2023-03-04",
-    "endDate": "2023-03-04",
-    "imageUrl": "/images/railsgirls.png",
-    "eventUrl": "/bangalore.html"
-  },
-  {
-    "location": "Cali, CO",
-    "writtenDate": "February 17th & 18th, 2023",
-    "startDate": "2023-02-17",
-    "endDate": "2023-02-18",
-    "imageUrl": "/images/cali/rg-cali-logo.png",
-    "eventUrl": "/cali.html"
-  },
- {
-    "location": "Kumasi, Ghana",
-    "writtenDate": "March 11th & 12th, 2022",
-    "startDate": "2022-03-11",
-    "endDate": "2022-03-12",
-    "imageUrl": "/images/helsinki2018/helsinki022018.jpg",
-    "eventUrl": "/kumasi2022.html"
-  },
-  {
-  "location": "Tamale, Ghana",
-  "writtenDate": "May 21st & 22nd, 2021",
-  "startDate": "2021-05-21",
-  "endDate": "2021-05-22",
-  "imageUrl": "/images/sekondi/taadi.png",
-  "eventUrl": "/tamale2021.html"
-  },
-  {
-  "location": "Dornbirn, Austria",
-  "writtenDate": "November 20th & 21st, 2020",
-  "startDate": "2020-11-20",
-  "endDate": "2020-11-21",
-  "imageUrl": "/images/dornbirn/dornbirn-logo.png",
-  "eventUrl": "/dornbirn2020.html"
-  },
-  {
-    "location": "Kumasi, Ghana",
-    "writtenDate": "October 30th & 31st, 2020",
-    "startDate": "2020-10-30",
-    "endDate": "2020-10-31",
-    "imageUrl": "/images/sekondi/taadi.png",
-    "eventUrl": "/kumasi_2020.html"
-  },
-  {
-    "location": "Los Angeles, CA USA",
-    "writtenDate": "October 16th, 17th & 24th, 2020",
-    "startDate": "2020-10-16",
-    "endDate": "2020-10-24",
-    "imageUrl": "/images/rg-losangeles.png",
-    "eventUrl": "/la.html"
-  },
-  {
-    "location": "Fukuoka, Japan",
-    "writtenDate": "May 8th & 9th, 2020",
-    "startDate": "2020-05-8",
-    "endDate": "2020-05-9",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/fukuoka-2020.html"
-  },
-  {
-    "location": "Skopje, Macedonia",
-    "writtenDate": "April 10th & 11th, 2020",
-    "startDate": "2020-04-10",
-    "endDate": "2020-04-11",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/skopje.html"
-  },
-   {
-    "location": "Saint Petersburg, Russia",
-    "writtenDate": "April 3rd & 4th, 2020",
-    "startDate": "2020-04-03",
-    "endDate": "2020-04-04",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/spb2020.html"
-  },
-  {
-    "location": "Salvador, Brazil",
-    "writtenDate": "April 3rd & 4th, 2020",
-    "startDate": "2020-04-03",
-    "endDate": "2020-04-04",
-    "imageUrl": "/images/salvador/rg-logo-thumb.jpg",
-    "eventUrl": "/salvador202004.html"
-  },
-  {
-    "location": "Kobe, Japan",
-    "writtenDate": "March 21st & 22nd, 2020",
-    "startDate": "2020-03-21",
-    "endDate": "2020-03-22",
-    "imageUrl": "/images/kobe/rg-kobe-default-thumbnail.png",
-    "eventUrl": "/kobe202003.html"
-  },
-  {
-    "location": "Manchester, UK",
-    "writtenDate": "March 13th, 2020",
-    "startDate": "2020-03-13",
-    "endDate": "2020-03-14",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/manchester-2020.html"
-  },
-  {
-    "location": "Bielsko-Biała, Poland",
-    "writtenDate": "March 6th & 7th, 2020",
-    "startDate": "2020-03-06",
-    "endDate": "2020-03-07",
-    "imageUrl": "/images/bielsko_biala/rails_girls_01.png",
-    "eventUrl": "/bielsko_biala.html"
-  },
-  {
-    "location": "Nairobi, Kenya",
-    "writtenDate": "March 7th, 2020",
-    "startDate": "2020-03-7",
-    "endDate": "2020-03-7",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/nairobi_2020.html"
-  },
-  {
-    "location": "Pune, India",
-    "writtenDate": "January 25th, 2020",
-    "startDate": "2020-01-25",
-    "endDate": "2020-01-25",
-    "imageUrl": "/images/railsgirls.png",
-    "eventUrl": "/pune.html"
-  },
-  {
-    "location": "Nagoya, Japan",
-    "writtenDate": "January 31st & February 1st, 2020",
-    "startDate": "2020-01-31",
-    "endDate": "2020-02-01",
-    "imageUrl": "/images/rg-nagoya-5th.png",
-    "eventUrl": "/nagoya.html"
-  },
-  {
-    "location": "Tokyo, Japan",
-    "writtenDate": "February 14th & 15th, 2020",
-    "startDate": "2020-02-14",
-    "endDate": "2020-02-15",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/tokyo.html"
-  },
-  {
-    "location": "Sekondi Takoradi, Ghana",
-    "writtenDate": "December 13th & 14th, 2019",
-    "startDate": "2019-12-13",
-    "endDate": "2019-12-14",
-    "imageUrl": "/images/sekondi/taadi.png",
-    "eventUrl": "/sekondi-takoradi.html"
-  },
-  {
-    "location": "Amsterdam, NL",
-    "writtenDate": "November 30th, 2019",
-    "startDate": "2019-11-30",
-    "endDate": "2019-11-30",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/amsterdam2019.html"
-  },
-  {
-    "location": "Belgrade, RS",
-    "writtenDate": "November 30th, 2019",
-    "startDate": "2019-11-30",
-    "endDate": "2019-12-01",
-    "imageUrl": "/images/beograd/railsgirls-bg.png",
-    "eventUrl": "/beograd.html"
-  },
-  {
-    "location": "Bristol, UK",
-    "writtenDate": "November 29th & 30th, 2019",
-    "startDate": "2019-11-29",
-    "endDate": "2019-11-30",
-    "imageUrl": "images/railsgirls-sq.png",
-    "eventUrl": "/bristol-november-2019.html"
-  },
-  {
-    "location": "Cali, CO",
-    "writtenDate": "November 22th, 2019",
-    "startDate": "2019-11-22",
-    "endDate": "2019-11-23",
-    "imageUrl": "/images/cali/rg-cali-logo.png",
-    "eventUrl": "/cali.html"
-  },
-  {
-    "location": "Kyoto, Japan",
-    "writtenDate": "November 22nd & 23rd, 2019",
-    "startDate": "2019-11-22",
-    "endDate": "2019-11-23",
-    "imageUrl": "/images/kyoto/10th_icon.png",
-    "eventUrl": "/kyoto201911.html"
-  },
-  {
-    "location": "London, UK",
-    "writtenDate": "November 8th & 9th, 2019",
-    "startDate": "2019-11-08",
-    "endDate": "2019-11-09",
-    "imageUrl": "/images/london/rails_girls_london_cats.jpg",
-    "eventUrl": "/london.html"
-  },
-  {
-    "location": "Porto Alegre, Brasil",
-    "writtenDate": "November 8th & 9th, 2019",
-    "startDate": "2019-11-08",
-    "endDate": "2019-11-09",
-    "imageUrl": "images/rg-portoalegre.png",
-    "eventUrl": "/porto-alegre/portoalegre.html"
-  },
-  {
-    "location": "Saint Petersburg, Russia",
-    "writtenDate": "November 1st & 2nd, 2019",
-    "startDate": "2019-11-01",
-    "endDate": "2019-11-02",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/spb.html"
-  },
-  {
-    "location": "Fukuoka, Japan",
-    "writtenDate": "November 1st & 2nd, 2019",
-    "startDate": "2019-11-01",
-    "endDate": "2019-11-02",
-    "imageUrl": "images/fukuoka/fukuoka2019-logo.jpg",
-    "eventUrl": "/fukuoka.html"
-  },
-  {
-    "location": "Curitiba, Brasil",
-    "writtenDate": "November 1st & 2nd, 2019",
-    "startDate": "2019-11-01",
-    "endDate": "2019-11-02",
-    "imageUrl": "images/railsgirls-sq.png",
-    "eventUrl": "/curitiba.html"
-  },
-  {
-    "location": "Dortmund, DE",
-    "writtenDate": "October 26th, 2019",
-    "startDate": "2019-10-26",
-    "endDate": "2019-10-26",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/ruhr.html"
-  },
-  {
-    "location": "Vancouver, BC",
-    "writtenDate": "October 26th, 2019",
-    "startDate": "2019-10-26",
-    "endDate": "2019-10-26",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/vancouver.html"
-  },
-  {
-    "location": "Los Angeles, CA USA",
-    "writtenDate": "October 25th, 2019",
-    "startDate": "2019-10-25",
-    "endDate": "2019-10-26",
-    "imageUrl": "/images/rg-losangeles.jpg",
-    "eventUrl": "/la.html"
-  },
-  {
-    "location": "Warsaw, Poland",
-    "writtenDate": "October 19th & 20th, 2019",
-    "startDate": "2019-10-19",
-    "endDate": "2019-10-20",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/warsaw.html"
-  },
-  {
-    "location": "Kansas City, KS USA",
-    "writtenDate": "October 19th, 2019",
-    "startDate": "2019-10-19",
-    "endDate": "2019-10-19",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/kansas-city.html"
-  },
-  {
-    "location": "Luxembourg City, Luxembourg",
-    "writtenDate": "October 19th, 2019",
-    "startDate": "2019-10-19",
-    "endDate": "2019-10-19",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/luxembourg.html"
-  },
-  {
-    "location": "Ehime, Japan",
-    "writtenDate": "February 7th & 8th, 2020",
-    "startDate": "2020-02-07",
-    "endDate": "2020-02-08",
-    "imageUrl": "/images/ehime/railsgirls-logo.png",
-    "eventUrl": "/ehime.html"
-  },
-  {
-    "location": "Wrocław, Poland",
-    "writtenDate": "January 11th & 12th, 2020",
-    "startDate": "2020-01-11",
-    "endDate": "2020-01-12",
-    "imageUrl": "images/rg-wroclaw.jpg",
-    "eventUrl": "/wroclaw.html"
-  },
-  {
-    "location": "Chennai, India",
-    "writtenDate": "March 7th, 2020",
-    "startDate": "2020-03-07",
-    "endDate": "2020-03-07",
-    "imageUrl": "/images/chennai/rg_chennai3.png",
-    "eventUrl": "/chennai.html"
-  },
-  {
-    "location": "Bern, Switzerland",
-    "writtenDate": "April 3th/4th, 2020",
-    "startDate": "2020-04-03",
-    "endDate": "2020-04-04",
-    "imageUrl": "/images/bern/rg-bern.png",
-    "eventUrl": "/bern2020"
-  },
-  {
-    "location": "Sydney, Australia",
-    "writtenDate": "October 8th, 2022",
-    "startDate": "2022-10-08",
-    "endDate": "2022-10-08",
-    "imageUrl": "/images/railsgirls-sq.png",
-    "eventUrl": "/sydney.html"
-  },
-  {
-    "location": "Tokyo, Japan",
-    "writtenDate": "July 29th & 30th, 2022",
-    "startDate": "2022-07-29",
-    "endDate": "2022-07-30",
-    "imageUrl": "/images/tokyo/14th-tokyo-banner.png",
-    "eventUrl": "/tokyo-2022-07-30.html"
-  },
-  {
-    "location": "Warsaw, Poland",
-    "writtenDate": "October 1rst & 2nd, 2022",
-    "startDate": "2022-10-01",
-    "endDate": "2022-10-02",
-    "imageUrl": "/images/rg-warsaw.png",
-    "eventUrl": "/warsaw.html"
-  },
-  {
-    "location": "London, UK",
-    "writtenDate": "November 11th & 12th, 2022",
-    "startDate": "2022-11-11",
-    "endDate": "2022-11-12",
-    "imageUrl": "/images/london/rails_girls_london_cats.jpg",
-    "eventUrl": "/london.html"
-  }
-]}
+    {
+      "location": "Kraków, Poland",
+      "writtenDate": "June 23th - 24th, 2023",
+      "startDate": "2023-06-23",
+      "endDate": "2023-06-24",
+      "imageUrl": "/images/sofia/rg-sofia.jpg",
+      "eventUrl": "/krakow.html"
+    },
+    {
+      "location": "Florianópolis, Brazil",
+      "writtenDate": "May 27th, 2023",
+      "startDate": "2023-05-27",
+      "endDate": "2023-05-27",
+      "imageUrl": "/images/railsgirls.png",
+      "eventUrl": "/florianopolis.html"
+    },
+    {
+      "location": "Stara Zagora, Bulgaria",
+      "writtenDate": "May 19th - 20th, 2023",
+      "startDate": "2023-05-19",
+      "endDate": "2023-05-20",
+      "imageUrl": "/images/sofia/rg-sofia.jpg",
+      "eventUrl": "https://railsgirls.com/stz.html"
+    },
+    {
+      "location": "Sofia, Bulgaria",
+      "writtenDate": "May 12th - 13th, 2023",
+      "startDate": "2023-04-12",
+      "endDate": "2023-04-13",
+      "imageUrl": "/images/sofia/rg-sofia.jpg",
+      "eventUrl": "https://railsgirls.com/sofia.html"
+    },
+    {
+      "location": "Nagasaki, Japan",
+      "writtenDate": "April 15th, 2023",
+      "startDate": "2023-04-15",
+      "endDate": "2023-04-15",
+      "imageUrl": "/images/nagasaki/logo-1st.png",
+      "eventUrl": "https://railsgirls.jp/"
+    },
+    {
+      "location": "Tokyo, Japan",
+      "writtenDate": "April 8th, 2023",
+      "startDate": "2023-04-08",
+      "endDate": "2023-04-08",
+      "imageUrl": "/images/tokyo/RailsGirlsTokyo15th.png",
+      "eventUrl": "https://railsgirls.jp/"
+    },
+    {
+      "location": "Rotterdam, The Netherlands",
+      "writtenDate": "March 18th, 2023",
+      "startDate": "2023-03-18",
+      "endDate": "2023-03-18",
+      "imageUrl": "images/rotterdam23/rg-rotterdam.jpg",
+      "eventUrl": "https://railsgirls.nl"
+    },
+    {
+      "location": "Bangalore, India",
+      "writtenDate": "March 4th, 2023",
+      "startDate": "2023-03-04",
+      "endDate": "2023-03-04",
+      "imageUrl": "/images/railsgirls.png",
+      "eventUrl": "/bangalore.html"
+    },
+    {
+      "location": "Cali, CO",
+      "writtenDate": "February 17th & 18th, 2023",
+      "startDate": "2023-02-17",
+      "endDate": "2023-02-18",
+      "imageUrl": "/images/cali/rg-cali-logo.png",
+      "eventUrl": "/cali.html"
+    },
+    {
+      "location": "Kumasi, Ghana",
+      "writtenDate": "March 11th & 12th, 2022",
+      "startDate": "2022-03-11",
+      "endDate": "2022-03-12",
+      "imageUrl": "/images/helsinki2018/helsinki022018.jpg",
+      "eventUrl": "/kumasi2022.html"
+    },
+    {
+      "location": "Tamale, Ghana",
+      "writtenDate": "May 21st & 22nd, 2021",
+      "startDate": "2021-05-21",
+      "endDate": "2021-05-22",
+      "imageUrl": "/images/sekondi/taadi.png",
+      "eventUrl": "/tamale2021.html"
+    },
+    {
+      "location": "Dornbirn, Austria",
+      "writtenDate": "November 20th & 21st, 2020",
+      "startDate": "2020-11-20",
+      "endDate": "2020-11-21",
+      "imageUrl": "/images/dornbirn/dornbirn-logo.png",
+      "eventUrl": "/dornbirn2020.html"
+    },
+    {
+      "location": "Kumasi, Ghana",
+      "writtenDate": "October 30th & 31st, 2020",
+      "startDate": "2020-10-30",
+      "endDate": "2020-10-31",
+      "imageUrl": "/images/sekondi/taadi.png",
+      "eventUrl": "/kumasi_2020.html"
+    },
+    {
+      "location": "Los Angeles, CA USA",
+      "writtenDate": "October 16th, 17th & 24th, 2020",
+      "startDate": "2020-10-16",
+      "endDate": "2020-10-24",
+      "imageUrl": "/images/rg-losangeles.png",
+      "eventUrl": "/la.html"
+    },
+    {
+      "location": "Fukuoka, Japan",
+      "writtenDate": "May 8th & 9th, 2020",
+      "startDate": "2020-05-08",
+      "endDate": "2020-05-09",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/fukuoka-2020.html"
+    },
+    {
+      "location": "Skopje, Macedonia",
+      "writtenDate": "April 10th & 11th, 2020",
+      "startDate": "2020-04-10",
+      "endDate": "2020-04-11",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/skopje.html"
+    },
+    {
+      "location": "Saint Petersburg, Russia",
+      "writtenDate": "April 3rd & 4th, 2020",
+      "startDate": "2020-04-03",
+      "endDate": "2020-04-04",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/spb2020.html"
+    },
+    {
+      "location": "Salvador, Brazil",
+      "writtenDate": "April 3rd & 4th, 2020",
+      "startDate": "2020-04-03",
+      "endDate": "2020-04-04",
+      "imageUrl": "/images/salvador/rg-logo-thumb.jpg",
+      "eventUrl": "/salvador202004.html"
+    },
+    {
+      "location": "Kobe, Japan",
+      "writtenDate": "March 21st & 22nd, 2020",
+      "startDate": "2020-03-21",
+      "endDate": "2020-03-22",
+      "imageUrl": "/images/kobe/rg-kobe-default-thumbnail.png",
+      "eventUrl": "/kobe202003.html"
+    },
+    {
+      "location": "Manchester, UK",
+      "writtenDate": "March 13th, 2020",
+      "startDate": "2020-03-13",
+      "endDate": "2020-03-14",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/manchester-2020.html"
+    },
+    {
+      "location": "Bielsko-Biała, Poland",
+      "writtenDate": "March 6th & 7th, 2020",
+      "startDate": "2020-03-06",
+      "endDate": "2020-03-07",
+      "imageUrl": "/images/bielsko_biala/rails_girls_01.png",
+      "eventUrl": "/bielsko_biala.html"
+    },
+    {
+      "location": "Nairobi, Kenya",
+      "writtenDate": "March 7th, 2020",
+      "startDate": "2020-03-07",
+      "endDate": "2020-03-07",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/nairobi_2020.html"
+    },
+    {
+      "location": "Pune, India",
+      "writtenDate": "January 25th, 2020",
+      "startDate": "2020-01-25",
+      "endDate": "2020-01-25",
+      "imageUrl": "/images/railsgirls.png",
+      "eventUrl": "/pune.html"
+    },
+    {
+      "location": "Nagoya, Japan",
+      "writtenDate": "January 31st & February 1st, 2020",
+      "startDate": "2020-01-31",
+      "endDate": "2020-02-01",
+      "imageUrl": "/images/rg-nagoya-5th.png",
+      "eventUrl": "/nagoya.html"
+    },
+    {
+      "location": "Tokyo, Japan",
+      "writtenDate": "February 14th & 15th, 2020",
+      "startDate": "2020-02-14",
+      "endDate": "2020-02-15",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/tokyo.html"
+    },
+    {
+      "location": "Sekondi Takoradi, Ghana",
+      "writtenDate": "December 13th & 14th, 2019",
+      "startDate": "2019-12-13",
+      "endDate": "2019-12-14",
+      "imageUrl": "/images/sekondi/taadi.png",
+      "eventUrl": "/sekondi-takoradi.html"
+    },
+    {
+      "location": "Amsterdam, NL",
+      "writtenDate": "November 30th, 2019",
+      "startDate": "2019-11-30",
+      "endDate": "2019-11-30",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/amsterdam2019.html"
+    },
+    {
+      "location": "Belgrade, RS",
+      "writtenDate": "November 30th, 2019",
+      "startDate": "2019-11-30",
+      "endDate": "2019-12-01",
+      "imageUrl": "/images/beograd/railsgirls-bg.png",
+      "eventUrl": "/beograd.html"
+    },
+    {
+      "location": "Bristol, UK",
+      "writtenDate": "November 29th & 30th, 2019",
+      "startDate": "2019-11-29",
+      "endDate": "2019-11-30",
+      "imageUrl": "images/railsgirls-sq.png",
+      "eventUrl": "/bristol-november-2019.html"
+    },
+    {
+      "location": "Cali, CO",
+      "writtenDate": "November 22th, 2019",
+      "startDate": "2019-11-22",
+      "endDate": "2019-11-23",
+      "imageUrl": "/images/cali/rg-cali-logo.png",
+      "eventUrl": "/cali.html"
+    },
+    {
+      "location": "Kyoto, Japan",
+      "writtenDate": "November 22nd & 23rd, 2019",
+      "startDate": "2019-11-22",
+      "endDate": "2019-11-23",
+      "imageUrl": "/images/kyoto/10th_icon.png",
+      "eventUrl": "/kyoto201911.html"
+    },
+    {
+      "location": "London, UK",
+      "writtenDate": "November 8th & 9th, 2019",
+      "startDate": "2019-11-08",
+      "endDate": "2019-11-09",
+      "imageUrl": "/images/london/rails_girls_london_cats.jpg",
+      "eventUrl": "/london.html"
+    },
+    {
+      "location": "Porto Alegre, Brasil",
+      "writtenDate": "November 8th & 9th, 2019",
+      "startDate": "2019-11-08",
+      "endDate": "2019-11-09",
+      "imageUrl": "images/rg-portoalegre.png",
+      "eventUrl": "/porto-alegre/portoalegre.html"
+    },
+    {
+      "location": "Saint Petersburg, Russia",
+      "writtenDate": "November 1st & 2nd, 2019",
+      "startDate": "2019-11-01",
+      "endDate": "2019-11-02",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/spb.html"
+    },
+    {
+      "location": "Fukuoka, Japan",
+      "writtenDate": "November 1st & 2nd, 2019",
+      "startDate": "2019-11-01",
+      "endDate": "2019-11-02",
+      "imageUrl": "images/fukuoka/fukuoka2019-logo.jpg",
+      "eventUrl": "/fukuoka.html"
+    },
+    {
+      "location": "Curitiba, Brasil",
+      "writtenDate": "November 1st & 2nd, 2019",
+      "startDate": "2019-11-01",
+      "endDate": "2019-11-02",
+      "imageUrl": "images/railsgirls-sq.png",
+      "eventUrl": "/curitiba.html"
+    },
+    {
+      "location": "Dortmund, DE",
+      "writtenDate": "October 26th, 2019",
+      "startDate": "2019-10-26",
+      "endDate": "2019-10-26",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/ruhr.html"
+    },
+    {
+      "location": "Vancouver, BC",
+      "writtenDate": "October 26th, 2019",
+      "startDate": "2019-10-26",
+      "endDate": "2019-10-26",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/vancouver.html"
+    },
+    {
+      "location": "Los Angeles, CA USA",
+      "writtenDate": "October 25th, 2019",
+      "startDate": "2019-10-25",
+      "endDate": "2019-10-26",
+      "imageUrl": "/images/rg-losangeles.jpg",
+      "eventUrl": "/la.html"
+    },
+    {
+      "location": "Warsaw, Poland",
+      "writtenDate": "October 19th & 20th, 2019",
+      "startDate": "2019-10-19",
+      "endDate": "2019-10-20",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/warsaw.html"
+    },
+    {
+      "location": "Kansas City, KS USA",
+      "writtenDate": "October 19th, 2019",
+      "startDate": "2019-10-19",
+      "endDate": "2019-10-19",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/kansas-city.html"
+    },
+    {
+      "location": "Luxembourg City, Luxembourg",
+      "writtenDate": "October 19th, 2019",
+      "startDate": "2019-10-19",
+      "endDate": "2019-10-19",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/luxembourg.html"
+    },
+    {
+      "location": "Ehime, Japan",
+      "writtenDate": "February 7th & 8th, 2020",
+      "startDate": "2020-02-07",
+      "endDate": "2020-02-08",
+      "imageUrl": "/images/ehime/railsgirls-logo.png",
+      "eventUrl": "/ehime.html"
+    },
+    {
+      "location": "Wrocław, Poland",
+      "writtenDate": "January 11th & 12th, 2020",
+      "startDate": "2020-01-11",
+      "endDate": "2020-01-12",
+      "imageUrl": "images/rg-wroclaw.jpg",
+      "eventUrl": "/wroclaw.html"
+    },
+    {
+      "location": "Chennai, India",
+      "writtenDate": "March 7th, 2020",
+      "startDate": "2020-03-07",
+      "endDate": "2020-03-07",
+      "imageUrl": "/images/chennai/rg_chennai3.png",
+      "eventUrl": "/chennai.html"
+    },
+    {
+      "location": "Bern, Switzerland",
+      "writtenDate": "April 3th/4th, 2020",
+      "startDate": "2020-04-03",
+      "endDate": "2020-04-04",
+      "imageUrl": "/images/bern/rg-bern.png",
+      "eventUrl": "/bern2020"
+    },
+    {
+      "location": "Sydney, Australia",
+      "writtenDate": "October 8th, 2022",
+      "startDate": "2022-10-08",
+      "endDate": "2022-10-08",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/sydney.html"
+    },
+    {
+      "location": "Tokyo, Japan",
+      "writtenDate": "July 29th & 30th, 2022",
+      "startDate": "2022-07-29",
+      "endDate": "2022-07-30",
+      "imageUrl": "/images/tokyo/14th-tokyo-banner.png",
+      "eventUrl": "/tokyo-2022-07-30.html"
+    },
+    {
+      "location": "Warsaw, Poland",
+      "writtenDate": "October 1rst & 2nd, 2022",
+      "startDate": "2022-10-01",
+      "endDate": "2022-10-02",
+      "imageUrl": "/images/rg-warsaw.png",
+      "eventUrl": "/warsaw.html"
+    },
+    {
+      "location": "London, UK",
+      "writtenDate": "November 11th & 12th, 2022",
+      "startDate": "2022-11-11",
+      "endDate": "2022-11-12",
+      "imageUrl": "/images/london/rails_girls_london_cats.jpg",
+      "eventUrl": "/london.html"
+    }
+  ]
+}
