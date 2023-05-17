@@ -533,6 +533,12 @@ a, a:visited, a:focus, a:active, a:hover{
   padding-left:340px;
   background:url('../images/krakow/rgkrk_logo_red.png') no-repeat 10px 40px;
 }
+
+.krakow2023#promo {
+  padding-left: 600px;
+  background: url('../images/krakow/RubyHeader.svg') no-repeat 10px 0px;
+}
+
 .maputo#promo {
   background:url('../images/maputo/logo-draft.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
