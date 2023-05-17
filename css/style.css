@@ -2730,6 +2730,7 @@ h2 a {
 .upcoming img {
   float:left;
   margin-right:15px;
+  min-height: 30px;
 }
 
 .apply-now-link {
