@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Kagoshima, Japan",
+      "writtenDate": "September 1st - 2nd, 2023",
+      "startDate": "2023-09-1",
+      "endDate": "2023-09-2",
+      "imageUrl": "/images/kagoshima/image-2023.jpg",
+      "eventUrl": "/kagoshima-2023.html"
+    },
+    {
       "location": "Kraków, Poland",
       "writtenDate": "June 23th - 24th, 2023",
       "startDate": "2023-06-23",
