@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Melbourne, Australia",
+      "writtenDate": "October 7th, 2023",
+      "startDate": "2023-10-07",
+      "endDate": "2023-10-07",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/melbourne.html"
+    },
+    {
       "location": "Kagoshima, Japan",
       "writtenDate": "September 1st - 2nd, 2023",
       "startDate": "2023-09-1",
