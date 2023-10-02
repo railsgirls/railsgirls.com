@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "London, UK",
+      "writtenDate": "December 1st - 2nd, 2023",
+      "startDate": "2023-12-01",
+      "endDate": "2023-12-02",
+      "imageUrl": "/images/london/rails_girls_london_cats.jpg",
+      "eventUrl": "/london.html"
+    },
+    {
       "location": "Matsue, Japan",
       "writtenDate": "November 11th, 2023",
       "startDate": "2023-11-11",
@@ -278,7 +286,7 @@
       "startDate": "2019-11-08",
       "endDate": "2019-11-09",
       "imageUrl": "/images/london/rails_girls_london_cats.jpg",
-      "eventUrl": "/london.html"
+      "eventUrl": "/london2022.html"
     },
     {
       "location": "Porto Alegre, Brasil",
