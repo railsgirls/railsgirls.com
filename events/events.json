@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Tokyo, Japan",
+      "writtenDate": "March 1st - 2nd, 2024",
+      "startDate": "2024-3-01",
+      "endDate": "2024-3-02",
+      "imageUrl": "/images/tokyo/rails_girls_tokyo_16th_logo.png",
+      "eventUrl": "https://railsgirls.jp/"
+    },
+    {
       "location": "London, UK",
       "writtenDate": "December 1st - 2nd, 2023",
       "startDate": "2023-12-01",
