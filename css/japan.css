@@ -1,0 +1,46 @@
+.tk-expressway {
+    font-family:"expressway",sans-serif;
+}
+
+.coach {
+    border-radius: 50px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners-header, .partners-lead, .partners-lead-jp-annuals {
+    width: 100%;
+}
+
+h2.partners-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.partner {
+    width: 33%;
+    margin-bottom: 16px;
+}
+
+a:has(img) {
+    border-bottom: none;
+}
+
+.partner-logo {
+    padding: 10px;
+    text-align: center;
+}
+
+.partner-logo img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
+
+.partner-description {
+    padding: 12px;
+}
