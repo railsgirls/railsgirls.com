@@ -184,6 +184,12 @@
 
     .partner {
         width: 100%;
+        margin-bottom: var(--30px);
+    }
+
+    .partner-logo img {
+        width: 50%;
+        object-position: center;
     }
 
     .coaches .grid_3 {
