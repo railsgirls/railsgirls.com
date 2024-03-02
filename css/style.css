@@ -992,6 +992,12 @@ url('../images/separator.png') no-repeat center bottom;
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.nagoya-6th#promo {
+  padding-left:460px;
+  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .nara#promo {
   padding-left:460px;
   background:url('../images/rg-nara.png') no-repeat 0 10px,
@@ -1689,6 +1695,10 @@ pre {
 }
 
 .nagoya-5th#promo h1 {
+  background:url('../images/rg-nagoya-5th-header.png') no-repeat left top;
+}
+
+.nagoya-6th#promo h1 {
   background:url('../images/rg-nagoya-5th-header.png') no-repeat left top;
 }
 
