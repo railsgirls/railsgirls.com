@@ -533,6 +533,12 @@ a, a:visited, a:focus, a:active, a:hover{
   padding-left:340px;
   background:url('../images/krakow/rgkrk_logo_red.png') no-repeat 10px 40px;
 }
+
+.krakow2023#promo {
+  padding-left: 600px;
+  background: url('../images/krakow/RubyHeader.svg') no-repeat 10px 0px;
+}
+
 .maputo#promo {
   background:url('../images/maputo/logo-draft.png') no-repeat 10px 40px,
                  url('../images/separator.png') no-repeat center bottom;
@@ -878,6 +884,12 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
+.tokyo-2024-03-01#promo {
+    padding-left:420px;
+    background:url('../images/tokyo/rails_girls_tokyo_16th_logo.png') no-repeat left top;
+url('../images/separator.png') no-repeat center bottom;
+    background-size: 390px;
+}
 
 .tokyo#promo {
   padding-left: 420px;
@@ -977,6 +989,12 @@ url('../images/separator.png') no-repeat center bottom;
 .nagoya-5th#promo {
   padding-left:460px;
   background:url('../images/rg-nagoya-5th.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
+.nagoya-6th#promo {
+  padding-left:460px;
+  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
   url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1115,6 +1133,13 @@ url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
 
+.nagasaki#promo {
+  padding-left: 420px;
+  background: url('../images/nagasaki/logo-1st.png') no-repeat left top;
+                  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
+
 .chicago#promo {
   padding-left:340px;
   background:url('../images/rg-berlin.png') no-repeat 0 10px,
@@ -1237,12 +1262,6 @@ url('../images/separator.png') no-repeat center bottom;
 .szczecin#promo {
   padding-left:334px;
   background:url('../images/rg-szczecin.jpg') no-repeat 0 10px,
-                 url('../images/separator.png') no-repeat center bottom;
-}
-
-.bangalore#promo {
-  padding-left:340px;
-  background:url('../images/rg-helsinki.jpg') no-repeat 0 10px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1676,6 +1695,10 @@ pre {
 }
 
 .nagoya-5th#promo h1 {
+  background:url('../images/rg-nagoya-5th-header.png') no-repeat left top;
+}
+
+.nagoya-6th#promo h1 {
   background:url('../images/rg-nagoya-5th-header.png') no-repeat left top;
 }
 
@@ -2723,6 +2746,7 @@ h2 a {
 .upcoming img {
   float:left;
   margin-right:15px;
+  min-height: 30px;
 }
 
 .apply-now-link {
@@ -3748,6 +3772,10 @@ div.bta-sponsors-top{ margin-top: 50px;}
 .bogota#promo {
   padding-left:340px;
   background:url('../images/rg-bogota.jpg') no-repeat 0 10px;
+}
+
+.bangalore#promo{
+  background:url('../images/bangalore/railsgirls_logo.png') no-repeat 0 10px !important;
 }
 
 .bogota#promo div#share{height: 60px; padding: 0px; margin-bottom: 10px;}
