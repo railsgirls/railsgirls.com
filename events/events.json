@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Amsterdam, The Netherlands",
+      "writtenDate": "May 29th, 2024",
+      "startDate": "2024-05-29",
+      "endDate": "2024-05-29",
+      "imageUrl": "/images/rotterdam23/rg-rotterdam.jpg",
+      "eventUrl": "https://railsgirls.nl"
+    },
+    {
       "location": "Nagoya, Japan",
       "writtenDate": "March 30th, 2024",
       "startDate": "2024-03-30",
