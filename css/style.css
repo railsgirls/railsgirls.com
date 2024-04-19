@@ -269,6 +269,12 @@ a, a:visited, a:focus, a:active, a:hover{
                          url('../images/separator.png') no-repeat center bottom;
         }
 
+.ankara2024#promo {
+          padding-left:340px;
+          background:url('../images/ankara2024/rg-ankara2024.png') no-repeat,
+                          url('../images/separator.png') no-repeat center bottom;
+                          background-size: 332px 300px;
+}
 
 .stockholm#promo {
           padding-left:340px;
