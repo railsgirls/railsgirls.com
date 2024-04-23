@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Fukuoka, Japan",
+      "writtenDate": "June 7th, 2024",
+      "startDate": "2024-06-07",
+      "endDate": "2024-06-08",
+      "imageUrl": "/images/fukuoka/fukuoka2024-logo.png",
+      "eventUrl": "/fukuoka-2024.html"
+    },
+    {
       "location": "Amsterdam, The Netherlands",
       "writtenDate": "May 29th, 2024",
       "startDate": "2024-05-29",
