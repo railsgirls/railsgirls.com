@@ -9,14 +9,6 @@
       "eventUrl": "/fukuoka-2024.html"
     },
     {
-      "location": "Amsterdam, The Netherlands",
-      "writtenDate": "May 29th, 2024",
-      "startDate": "2024-05-29",
-      "endDate": "2024-05-29",
-      "imageUrl": "/images/rotterdam23/rg-rotterdam.jpg",
-      "eventUrl": "https://railsgirls.nl"
-    },
-    {
       "location": "Nagoya, Japan",
       "writtenDate": "March 30th, 2024",
       "startDate": "2024-03-30",
@@ -50,9 +42,9 @@
     },
     {
       "location": "Melbourne, Australia",
-      "writtenDate": "October 7th, 2023",
-      "startDate": "2023-10-07",
-      "endDate": "2023-10-07",
+      "writtenDate": "July 20th, 2024",
+      "startDate": "2024-20-07",
+      "endDate": "2024-20-07",
       "imageUrl": "/images/railsgirls-sq.png",
       "eventUrl": "/melbourne.html"
     },
