@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Nantes, France",
+      "writtenDate": "September 27th - 28th, 2024",
+      "startDate": "2024-09-27",
+      "endDate": "2024-09-28",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/nantes.html"
+    },
+    {
       "location": "Fukuoka, Japan",
       "writtenDate": "June 7th, 2024",
       "startDate": "2024-06-07",
