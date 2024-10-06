@@ -4674,16 +4674,6 @@ url('../images/separator.png') no-repeat center bottom;
     background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
 }
 
-.sendai-2nd#promo {
-    padding-left: 420px;
-    background: url('../images/rg-sendai-2019-07-20.png') no-repeat left top;
-url('../images/separator.png') no-repeat center bottom;
-    background-size: 390px;
-}
-
-.sendai-2nd#promo h1 {
-}
-
 .tricity#promo {
   padding-left: 340px;
   background: url('../images/rg-tricity.png') no-repeat 0 10px,
