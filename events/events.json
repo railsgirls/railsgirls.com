@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Nagasaki, Japan",
+      "writtenDate": "April 14th - 15th, 2025",
+      "startDate": "2025-02-14",
+      "endDate": "2024-02-15",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/nagasaki_2nd.html"
+    },
+    {
       "location": "Nantes, France",
       "writtenDate": "September 27th - 28th, 2024",
       "startDate": "2024-09-27",
