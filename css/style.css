@@ -896,7 +896,12 @@ url('../images/separator.png') no-repeat center bottom;
 url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
-
+.tokyo-2025-02-21#promo {
+  padding-left: 420px;
+  background: url('../images/railsgirls-sq.png') no-repeat left top;
+  url('../images/separator.png') no-repeat center bottom;
+  background-size: 390px;
+}
 .tokyo#promo {
   padding-left: 420px;
   background: url('../images/railsgirls-sq.png') no-repeat left top;
