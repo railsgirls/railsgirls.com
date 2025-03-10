@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Izumo, Japan",
+      "writtenDate": "June 6th - 7rh, 2025",
+      "startDate": "2025-06-06",
+      "endDate": "2025-06-07",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/izumo-1st.html"
+    },
+    {
       "location": "Tokyo, Japan",
       "writtenDate": "February 21st - 22nd, 2025",
       "startDate": "2025-02-21",
