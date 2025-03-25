@@ -1,0 +1,206 @@
+/* for PCs, width >= 1060px */
+#nav-for-pc {
+    display: block;
+}
+
+#nav-for-mobile {
+    display: none;
+}
+
+/* for tablets, width.between?(744px, 1059px) */
+@media (max-width: 1059px) {
+    .container_12 {
+        width: 684px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container_12 .grid_12 {
+        width: 684px;
+    }
+    .container_12 .grid_4 {
+        width: 342px;
+    }
+    .container_12 .grid_6 {
+        width: 684px;
+    }
+    .container_12 .grid_5 {
+        width: 684px;
+    }
+    .container_12 .grid_3 {
+        width: 228px;
+    }
+
+    header #logo {
+        width: 160px;
+    }
+
+    nav {
+        margin-left: 170px;
+    }
+
+    #promo .event-logo {
+        width: 280px;
+    }
+    #promo .overview {
+        width: 360px;
+        padding-right: 20px;
+    }
+    #promo {
+        padding-bottom: 20px;
+    }
+    #promo h1 {
+        font-size: var(--38px);
+    }
+
+    .container_12 .grid_12 .event-description {
+        height: auto;
+    }
+
+    .venue {
+        order: 1;
+    }
+
+    .schedule {
+        order: 2;
+    }
+
+    .faq {
+        order: 3;
+    }
+
+    .partner {
+        width: 333px;
+    }
+}
+
+/* for mobiles, width <= 743px [considered width.between?(375px, 743px)] */
+@media (max-width: 743px) {
+    .container_12 {
+        width: calc(100% - 32px);
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .container_12 .grid_12, .container_12 .grid_4, .container_12 .grid_5, .container_12 .grid_6 {
+        width: 100%;
+    }
+    .container_12 .grid_3 {
+        width: 50%;
+    }
+
+    #nav-for-pc {
+        display: none;
+    }
+
+    #nav-for-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    #logo-mobile {
+        width: 160px;
+        line-height: 1.1;
+    }
+
+    #logo-mobile img {
+        width: 140px;
+    }
+
+    #toggle-nav-header {
+        height: var(--32px);
+        line-height: 1;
+    }
+
+    #toggle-nav-btn {
+        height: var(--32px);
+        height: var(--32px);
+        background-color: #d3360b;
+        border: none;
+    }
+
+    #toggle-nav-btn span {
+        display: block;
+        background-color: #fff;
+        border-radius: var(--5px);
+        width: var(--30px);
+        height: var(--5px);
+        margin-bottom: var(--5px);
+    }
+    #toggle-nav-btn span:last-child {
+        margin-bottom: var(--1px);
+    }
+
+    #toggle-nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(30px + 1.25rem);
+        background-color: #d3360b;
+        padding-top: var(--21px);
+    }
+
+    #toggle-nav a {
+        display: block;
+        font-size: var(--20px);
+        padding-bottom: var(--10px);
+        padding-left: var(--5px);
+    }
+
+    #toggle-nav a::after {
+        background: none;
+    }
+
+    #promo .event-logo {
+        width: 100%;
+    }
+    #promo .overview {
+        width: 100%;
+        padding-right: 0;
+    }
+    #promo h1 {
+        margin-top: var(--16px);
+        text-align: center;
+    }
+
+    .feature p {
+        padding: 0;
+    }
+
+    .plan .plan-time {
+        width: var(--112px);
+        line-height: 2.3;
+    }
+
+    .plan h4.plan-overview {
+        margin-bottom: 0;
+        width: calc(100% - 7rem);
+    }
+
+    .plan .plan-descripion {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .partner {
+        width: 100%;
+        margin-bottom: var(--30px);
+    }
+
+    .partner-logo img {
+        width: 50%;
+        object-position: center;
+    }
+
+    .coaches .grid_3 {
+        height: auto;
+    }
+
+    .coaches a {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
