@@ -8,40 +8,50 @@
 
     <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="Rails Girls goes Sendai, 20th July: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
     <meta name="author" content="Rails Girls">
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <link rel="stylesheet" href="./css/style.css">
-    <style>
-        .coach {
-            border-radius: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/japan.css">
+    <link rel="stylesheet" href="./css/jp-responsive.css">
 
+    <script type="text/javascript" src="./assets/js/jp-responsive.js"></script>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
-    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
-    <style type="text/css">.tk-expressway{font-family:"expressway",sans-serif;}</style>
     <link rel="stylesheet" href="http://use.typekit.net/c/40007d/1w;expressway,2,NGc:F:i4,NGp:F:i7,N2r:F:n4,NGl:F:n6,NGn:F:n7/d?3bb2a6e53c9684ffdc9a9bf4185b2a627d237ba59c3d5cc9b5ca399d4ed47062bf0126571ca50ab6a338fba2a5f5d00c1e707fc7babc384ad6a0c38afab55f0eec246f6e8865cae9a7de5b7f99b6e6416be44691be6c64e8185a40b588748e875349df9f242c84f72c241e27aac6fc5e1b1c52889002ee483c56">
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <meta property="og:url" content="https://railsgirls.com/sendai" />
     <meta property="og:image" content="https://railsgirls.com/images/sendai/thumbnail-2nd.png"/>
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 </head>
 <body>
 
 <header>
-    <div class="container_12">
+    <div class="container_12" id="nav-for-pc">
         <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
         <nav>
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="https://railsgirls.tumblr.com/">Blog</a>
+            <a href="https://guides.railsgirls.com">Guides</a>
+        </nav>
+    </div>
+    <div class="container_12" id="nav-for-mobile">
+        <a id="logo-mobile" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+
+        <div id="toggle-nav-header">
+            <button id="toggle-nav-btn">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <nav id="toggle-nav">
             <a href="./events.html">Events</a>
             <a href="./materials.html">Materials</a>
             <a href="./press.html">Press</a>
@@ -77,327 +87,426 @@ Steps to show on site
 
 <!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
 
-<div id="container" class="container_12 page clearfix">
-    <div class="grid_12 omega alpha">
-        <div id="promo" class="new sendai-2nd">
-            <h1>Rails Girls Sendai
-                <small>20th July 2019</small>
-            </h1>
-            <p>こんにちは世界！</p>
-            <p>仙台で2回目のRails Girls、開催です！<br/>
-                Ruby on Railsのすてきな世界を私達と一緒に体験しましょう！<br>
-                2日間のワークショップは無料です。お気軽にご参加ください！
-            </p>
+<div id="container" class="container_12 page">
+    <div class="grid_12">
+        <div id="promo" class="grid_12">
+            <div class="event-logo">
+                <img src="images/rg-sendai-2019-07-20.png">
+            </div>
+            <div class="overview">
+                <h1>Rails Girls Sendai
+                    <small>20th July 2019</small>
+                </h1>
+                <p>こんにちは世界！</p>
+                <p>仙台で2回目のRails Girls、開催です！<br/>
+                    Ruby on Railsのすてきな世界を私達と一緒に体験しましょう！<br>
+                    2日間のワークショップは無料です。お気軽にご参加ください！
+                </p>
 
-            <!--
-            <p><strong>第2回 Rails Girls Sendai の参加者を募集します。<br/>
-                2日間のワークショップとなります。
-                無料のワークショップですので、お気軽にご参加ください。</strong></p>
-            -->
+                <!--
+                <p><strong>第2回 Rails Girls Sendai の参加者を募集します。<br/>
+                    2日間のワークショップとなります。
+                    無料のワークショップですので、お気軽にご参加ください。</strong></p>
+                -->
 
-            <!--
-            <p>
-                <strong>参加募集は準備中です。今しばらくお待ち下さい。</strong><br>
-                準備が整いましたら当ページの他、<a href="https://twitter.com/railsgirlssenda">Twitter</a>にてアナウンスいたします。
-            </p>
-            -->
+                <!--
+                <p>
+                    <strong>参加募集は準備中です。今しばらくお待ち下さい。</strong><br>
+                    準備が整いましたら当ページの他、<a href="https://twitter.com/railsgirlssenda">Twitter</a>にてアナウンスいたします。
+                </p>
+                -->
 
-            <!--
-            <p>参加者の募集を開始しました！<a href="https://railsgirls-sendai.doorkeeper.jp/events/91431" target="_blank">こちら</a>からご応募ください。<br>
-                応募締切は6月21日(金)です。
-            </p>
-            -->
+                <!--
+                <p>参加者の募集を開始しました！<a href="https://railsgirls-sendai.doorkeeper.jp/events/91431" target="_blank">こちら</a>からご応募ください。<br>
+                    応募締切は6月21日(金)です。
+                </p>
+                -->
 
-            <p>
-                <strong>参加お申し込みは締め切らせていただきました。ご応募いただいた皆様ありがとうございました。</strong>
-            </p>
-            <p>
-                ご応募いただいた方へは参加可否についてメールでご連絡をお送りしておりますので、ご確認ください。<br>
-                メールが届いていない場合、お手数ですが<a href="https://railsgirls-sendai.doorkeeper.jp/events/91431">こちら</a>からお問い合わせください。
-            </p>
+                <p>
+                    <strong>参加お申し込みは締め切らせていただきました。ご応募いただいた皆様ありがとうございました。</strong>
+                </p>
+                <p>
+                    ご応募いただいた方へは参加可否についてメールでご連絡をお送りしておりますので、ご確認ください。<br>
+                    メールが届いていない場合、お手数ですが<a href="https://railsgirls-sendai.doorkeeper.jp/events/91431">こちら</a>からお問い合わせください。
+                </p>
 
-            <!--  Update the sharing texts.-->
+                <!--  Update the sharing texts.-->
 
-            <div id="share">
-                <div>
-                    <div style="margin:0 15px 0 0;">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Sendai, 20th July - apply now! #RailsGirls #RailsGirlsSendai" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
-                        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                <div id="share">
+                    <div>
+                        <div style="margin:0 15px 0 0;">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="Rails Girls Sendai, 20th July - apply now! #RailsGirls #RailsGirlsSendai" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                        </div>
+
+                        <div id="fb-root"></div>
+                        <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+                        <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
                     </div>
-
-                    <div id="fb-root" style=""></div>
-                    <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-                    <fb:like href="" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
                 </div>
-                <p><!-- margin workaround --></p>
             </div>
         </div>
 
         <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+        <div class="grid_12">
+            <div class="grid_4 feature">
+                <p><strong>概要</strong> コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。</p>
+            </div>
+            <div class="grid_4 feature">
+                <p><strong>必要なもの</strong> 自分のノートパソコン、やる気とキラリと光るイマジネーションを持ってきてください！</p>
+            </div>
 
-        <div class="grid_4 alpha feature">
-            <p><strong>概要</strong> コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。</p>
+            <div class="grid_4 feature">
+                <!--
+                <p><strong>コーチ募集は準備中です。</strong>今しばらくお待ち下さい。</p>
+                -->
+
+                <!--
+                <p>
+                    <strong>コーチ募集中！</strong> Rails Girls Sendai では現在コーチを募集しています。
+                    <a href="https://railsgirls-sendai.doorkeeper.jp/events/91429" target="_blank">こちら</a>からお問い合わせ下さい。
+                </p>
+                -->
+
+                <p><strong>コーチ募集は終了しました。たくさんのコーチのお申し出をいただき、ありがとうございました。</strong></p>
+            </div>
         </div>
-        <div class="grid_4 feature">
-            <p><strong>必要なもの</strong> 自分のノートパソコン、やる気とキラリと光るイマジネーションを持ってきてください！</p>
+        <div class="grid_12 event-description" id="event-description">
+            <div class="grid_5 side venue">
+                <h3>インフォメーション</h3>
+                <div>
+                    <strong>会場:</strong>
+                    株式会社メンバーズエッジ 仙台オフィス
+                    <a href="https://goo.gl/maps/ZChytNbXAj52">地図</a>
+                    <br/>宮城県仙台市青葉区一番町4丁目6番1号 第一生命タワービル 8階
+                </div>
+            </div>
+
+            <div class="schedule grid_6" id="event-schedule">
+                <!--  Update the texts! -->
+                <div class="day-schedule">
+                    <h2>7月19日 金曜日</h2>
+                    <div class="plan">
+                        <div class="plan-time">19:00 - 21:00</div>
+                        <h4 class="plan-overview">インストール・ ディ</h4>
+                        <div class="plan-descripion">
+                            まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
+                            それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
+                        </div>
+                    </div>
+                </div>
+                <div class="day-schedule">
+                    <h2>7月20日 土曜日</h2>
+                    <div class="plan">
+                        <div class="plan-time">9:00 - 10:00</div>
+                        <h4 class="plan-overview">レジストレーション</h4>
+                        <div class="plan-descripion">
+                            金曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
+                            金曜日にすべてうまく行ったひとは参加しなくてもOKです。9:30ごろからのんびりきてください。
+                        </div>
+                    </div>
+
+                    <div class="plan">
+                        <div class="plan-time">10:00 - 10:30</div>
+                        <h4 class="plan-overview">開会</h4>
+                        <div class="plan-descripion">
+                            一日の流れの説明。オーガナイザーから一言。
+                        </div>
+                    </div>
+
+                    <div class="plan">
+                        <div class="plan-time">10:30 - 12:30</div>
+                        <h4 class="plan-overview">ワークショップ</h4>
+                        <div class="plan-descripion">
+                            はじめてのウェブアプリにトライしてみよう！
+                        </div>
+                    </div>
+
+                    <div class="plan">
+                        <div class="plan-time">12:30 - 13:30</div>
+                        <h4 class="plan-overview">ランチ</h4>
+                    </div>
+
+                    <div class="plan">
+                        <div class="plan-time">13:30- 14:00</div>
+                        <h4 class="plan-overview">ライトニングトークス</h4>
+                    </div>
+
+                    <div class="plan">
+                        <div class="plan-time">14:00 - 17:00</div>
+                        <h4 class="plan-overview">ワークショップ</h4>
+                        <div class="plan-descripion">
+                            自分流のウェブアプリに変えてみよう！
+                        </div>
+                    </div>
+
+                    <div class="plan">
+                        <div class="plan-time">17:00 - </div>
+                        <h4 class="plan-overview">アフターパーティー & コーチによるライトニングトークス</h4>
+                        <div class="plan-descripion">
+                            参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
+                            RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  These also, just update :) -->
+
+            <div class="grid_5 side faq">
+                <h3>FAQ</h3>
+                <p><strong>参加費はどのくらいかかりますか？</strong> 無料です。申し込むときにはわくわくした気持ちだけあればいいです。</p>
+
+                <p><strong>どのような人が参加するのでしょうか？</strong> コンピュータを使ったことがある女性ならだれでも参加できます。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ご自分のノートパソコンをお持ちください。</p>
+
+                <p><strong>男性も参加できますか？</strong> 参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。申し込み人数が多い場合はお断りすることがあります。</p>
+
+                <p><strong>プログラミングの経験があります。手伝うことはできますか？</strong>
+                    はい！Rails Girls Sendai ではコーチとしてお手伝いしてくださる方を募集しています。<br>
+                    <!--
+                    現在募集準備中です。開始次第<a href="https://twitter.com/railsgirlssenda">Twitter</a>にてアナウンスいたします。
+                    -->
+                    お手伝いいただける方は<a href="https://railsgirls-sendai.doorkeeper.jp/events/91429">こちら</a>からお申し込みをお願いいたします。
+
+                    <!--
+                    たくさんのご協力のお申し出をいただきまして、ありがとうございました！ 現在、コーチの募集は終了しております。次回以降のRails Girlsのコーチにご興味をおもちの方は、オーガナイザーまでお声がけ下さい。
+                    -->
+                </p>
+            </div>
         </div>
 
-        <div class="grid_4 omega feature">
-            <!--
-            <p><strong>コーチ募集は準備中です。</strong>今しばらくお待ち下さい。</p>
-            -->
-
-            <!--
-            <p>
-                <strong>コーチ募集中！</strong> Rails Girls Sendai では現在コーチを募集しています。
-                <a href="https://railsgirls-sendai.doorkeeper.jp/events/91429" target="_blank">こちら</a>からお問い合わせ下さい。
-            </p>
-            -->
-
-            <p><strong>コーチ募集は終了しました。たくさんのコーチのお申し出をいただき、ありがとうございました。</strong></p>
-        </div>
-
-        <hr />
-
-        <!--  Update the texts! -->
-        <div class="grid_6 alpha">
-            <h2>7月19日 金曜日</h2>
-            <table id="schedule">
-                <tbody>
-                <tr>
-                    <th>19:00 - 21:00</th>
-                    <td>
-                        <h4>インストール・ ディ</h4>
-                        まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
-                        それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-
-            <hr />
-
-            <h2>7月20日 土曜日</h2>
-
-            <table id="schedule">
-                <tbody>
-                <tr>
-                    <th>9:00 - 10:00</th>
-                    <td>
-                        <h4>レジストレーション</h4>
-                        金曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
-                        金曜日にすべてうまく行ったひとは参加しなくてもOKです。9:30ごろからのんびりきてください。
-                    </td>
-                </tr>
-
-                <tr>
-                    <th>10:00 - 10:30</th>
-                    <td>
-                        <h4>開会</h4>
-                        一日の流れの説明。オーガナイザーから一言。
-                    </td>
-                </tr>
-
-
-                <tr>
-                    <th>10:30 - 12:30</th>
-                    <td>
-                        <h4>ワークショップ</h4>
-                        はじめてのウェブアプリにトライしてみよう！
-                    </td>
-                </tr>
-
-
-                <tr>
-                    <th>12:30 - 13:30</th>
-                    <td><h4>ランチ</h4></td>
-                </tr>
-
-                <tr>
-                    <th>13:30- 14:00</th>
-                    <td>
-                        <h4>ライトニングトークス</h4>
-                    </td>
-                </tr>
-
-                <tr>
-                    <th>14:00 - 17:00</th>
-                    <td>
-                        <h4>ワークショップ</h4>
-                        自分流のウェブアプリに変えてみよう！
-                    </td>
-                </tr>
-
-                <tr>
-                    <th>17:00 - </th>
-                    <td>
-                        <h4>アフターパーティー & コーチによるライトニングトークス</h4>
-                        参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
-                        RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-
-        </div>
-
-        <!--  These also, just update :) -->
-
-        <div class="grid_5 push_1 omega side">
-            <h3>インフォメーション</h3>
-            <p>
-                <strong>会場:</strong>
-                株式会社メンバーズエッジ 仙台オフィス
-                <a href="https://goo.gl/maps/ZChytNbXAj52">地図</a>
-                <br/>宮城県仙台市青葉区一番町4丁目6番1号 第一生命タワービル 8階
-            </p>
+        <div class="grid_12 partners">
+            <h2 class="partners-header">パートナー</h3>
+            <div class="partners-lead">
+                <p>ご支援いただけるパートナーを募集しております。
+                    <a href="https://forms.gle/T5AERq2bjp8xqoRv6">こちらのフォーム</a>からご応募ください。</p>
+                <p>Rails Girls Sendai は以下のすばらしいパートナーとの共同開催です。</p>
+                <!-- <p>多数のご支援のお申し出をいただき、ありがとうございました!</p> -->
+            </div>
 
             <!-- Feel free to group the sponsors ascommi you wish. E.g media, friends, premium sponsors etc. You know best the situation in your city! Pictures should be either 100 x 100px or 250 x 90px -->
 
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://www.membersedge.co.jp/"><img src="images/sendai/sponsor-2nd/members_edge.png" alt="メンバーズエッジ"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://www.membersedge.co.jp/">株式会社メンバーズエッジ</a>は東証1部・株式会社メンバーズグループのシステム開発専門子会社です。最先端のWeb開発に挑戦し、積極的拠点展開を通じて日本中をエンジニア活躍の舞台にすることをミッションにしています。
+                </div>
+            </div>
 
-            <h3>パートナー</h3>
-            <p>ご支援いただけるパートナーを募集しております。
-                <a href="https://forms.gle/T5AERq2bjp8xqoRv6">こちらのフォーム</a>からご応募ください。</p>
-            <p>Rails Girls Sendai は以下のすばらしいパートナーとの共同開催です。</p>
-            <!-- <p>多数のご支援のお申し出をいただき、ありがとうございました!</p> -->
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="http://pepabo.com/"><img src="images/fukuoka/pepabo.png" alt="GMO Pepabo"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="http://pepabo.com/">GMOペパボ株式会社</a>は「もっとおもしろくできる」を企業理念に、自分だけのオリジナルグッズを手軽に作成・販売できる「<a href="https://suzuri.jp/">SUZURI</a>」や 国内最大のハンドメイドマーケット「<a href="https://minne.com/">minne</a>」など様々なサービスを提供しています。
+                    RubyやRailsを採用した開発環境で「いるだけで成長できる環境」をコンセプトにエンジニアの人材育成やコミュニティへの支援を積極的に行っています。
+                </div>
+            </div>
 
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://4growth.jp/"><img src="images/sendai/sponsor-1st/4growth.png" alt="4Growth"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://4growth.jp/">4Growth</a>は、新規事業立案からサービス開発・運用、マーケンティング支援までを人材の育成と合わせて実施しています。
+                    特にビジネスデベロップメント・スタートアップエコシステムをサポートするために必要なコミュニティ活動の展開、プロダクト開発への個々の挑戦機会の創出とフォローアップなど、仙台からビジネスが生まれる仕組み作りを支援しています。
+                </div>
+            </div>
 
-            <p><a href="https://www.membersedge.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/sendai/sponsor-2nd/members_edge.png" alt="メンバーズエッジ" width="200"></a><a href="https://www.membersedge.co.jp/">株式会社メンバーズエッジ</a>は東証1部・株式会社メンバーズグループのシステム開発専門子会社です。最先端のWeb開発に挑戦し、積極的拠点展開を通じて日本中をエンジニア活躍の舞台にすることをミッションにしています。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://www.ruby-dev.jp/"><img src="images/sendai/sponsor-2nd/ruby-dev.png" alt="Ruby開発"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://www.ruby-dev.jp/">Ruby開発</a>は、Ruby on Railsをコア技術とし、クラウドを利用したアジャイル開発により、お客様の新規サービスの短期間での立ち上げや継続的な機能改善／追加をサポートします。Rubyコミュニティへの積極的な支援、Rubyエンジニアの育成にも積極的に取り組んでいます。
+                </div>
+            </div>
 
-            <p><a href="http://pepabo.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/fukuoka/pepabo.png" alt="GMO Pepabo" width="200"></a><a href="http://pepabo.com/">GMOペパボ株式会社</a>は「もっとおもしろくできる」を企業理念に、自分だけのオリジナルグッズを手軽に作成・販売できる「<a href="https://suzuri.jp/">SUZURI</a>」や 国内最大のハンドメイドマーケット「<a href="https://minne.com/">minne</a>」など様々なサービスを提供しています。
-                RubyやRailsを採用した開発環境で「いるだけで成長できる環境」をコンセプトにエンジニアの人材育成やコミュニティへの支援を積極的に行っています。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://noie-s.com/"><img src="images/sendai/sponsor-2nd/noie-s.png" alt="のいえ保育園"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://noie-s.com/">のいえ保育園</a>は、保育を通して暮らす街を豊かにしていくことを目指し、2020年1月開園予定の「誰もが自分らしさに向き合える保育園」です。子どもの探究心を引き出し、多様な選択肢の中から「自分らしい選択をして、それをやり抜く力＝クリエイティブ力」が育まれる環境を創っていきます。
+                </div>
+            </div>
 
-            <p><a href="https://4growth.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/sendai/sponsor-1st/4growth.png" alt="4Growth" width="200"></a>
-                <a href="https://4growth.jp/">4Growth</a>は、新規事業立案からサービス開発・運用、マーケンティング支援までを人材の育成と合わせて実施しています。
-                特にビジネスデベロップメント・スタートアップエコシステムをサポートするために必要なコミュニティ活動の展開、プロダクト開発への個々の挑戦機会の創出とフォローアップなど、仙台からビジネスが生まれる仕組み作りを支援しています。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://www.facebook.com/code4sendai/"><img src="images/sendai/sponsor-2nd/code_for_sendai.png" alt="Code for SENDAI"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://www.facebook.com/code4sendai/">Code for SENDAI</a>では、ICTを活用し仙台市における地域社会の課題解決に取り組んでいます。行政や組織・団体の枠組みを超えて、市民一人ひとりが相互に助け合える社会の実現を目指しています。
+                </div>
+            </div>
 
-            <p><a href="https://www.ruby-dev.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/sendai/sponsor-2nd/ruby-dev.png" alt="Ruby開発" width="200"></a>
-                <a href="https://www.ruby-dev.jp/">Ruby開発</a>は、Ruby on Railsをコア技術とし、クラウドを利用したアジャイル開発により、お客様の新規サービスの短期間での立ち上げや継続的な機能改善／追加をサポートします。Rubyコミュニティへの積極的な支援、Rubyエンジニアの育成にも積極的に取り組んでいます。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://jp.corp-sansan.com/"><img src="images/japan/sansan_logo.jpg" alt="Sansan Inc."></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://jp.corp-sansan.com/">Sansan株式会社</a>は、「出会いからイノベーションを生み出す」をミッションに掲げ、法人向け名刺管理サービス「Sansan」と個人向け名刺アプリ「Eight」を提供しています。「Eight」はRuby on Railsで開発しており、取り込んだ名刺から、いつでも活用できるあなただけのビジネスネットワークを構築することができます。Rails Girlsでの皆さんとの「出会い」を楽しみにしています。
+                </div>
+            </div>
 
-            <p>
-                <a href="https://noie-s.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/sendai/sponsor-2nd/noie-s.png" alt="のいえ保育園" width="200"></a>
-                <a href="https://noie-s.com/">のいえ保育園</a>は、保育を通して暮らす街を豊かにしていくことを目指し、2020年1月開園予定の「誰もが自分らしさに向き合える保育園」です。子どもの探究心を引き出し、多様な選択肢の中から「自分らしい選択をして、それをやり抜く力＝クリエイティブ力」が育まれる環境を創っていきます。
-            </p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://smarthr.jp/"><img src="images/smarthr.png" alt="SmartHR"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://smarthr.jp/">株式会社SmartHR</a>社会保険・労働保険それ自体はすばらしい制度ですが、手続きの不便さ、煩雑さ、わかりづらさは否めません。私たちはこのアナログな領域を、テクノロジーと創意工夫でもっとシンプル、
+                    かんたん、便利に変えていきます。 経営者は本業に、人事担当者は採用や制度づくりに集中でき、従業員はよりよい環境で安心して働くことができる社会を 私達は SmartHR で実現します。
+                </div>
+            </div>
 
-            <p>
-                <a href="https://www.facebook.com/code4sendai/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/sendai/sponsor-2nd/code_for_sendai.png" alt="Code for SENDAI" width="200"></a>
-                <a href="https://www.facebook.com/code4sendai/">Code for SENDAI</a>では、ICTを活用し仙台市における地域社会の課題解決に取り組んでいます。行政や組織・団体の枠組みを超えて、市民一人ひとりが相互に助け合える社会の実現を目指しています。
-            </p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://medpeer.co.jp/"><img src="images/japan/MedPeer_logo.png" alt="MedPeer"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://medpeer.co.jp/">メドピア</a>は現役医師が経営するヘルステックカンパニーです。国内医師の3人に1人が参加するコミュニティサイトで医師を支援すると共に、医師や管理栄養士のネットワークを活かして一般向けのヘルス
+                    ケアサービスを展開しています。
+                </div>
+            </div>
 
-            <p>
-              <a href="https://jp.corp-sansan.com/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/sansan_logo.jpg" alt="Sansan Inc." width="200"></a>
-              <a href="https://jp.corp-sansan.com/">Sansan株式会社</a>は、「出会いからイノベーションを生み出す」をミッションに掲げ、法人向け名刺管理サービス「Sansan」と個人向け名刺アプリ「Eight」を提供しています。「Eight」はRuby on Railsで開発しており、取り込んだ名刺から、いつでも活用できるあなただけのビジネスネットワークを構築することができます。Rails Girlsでの皆さんとの「出会い」を楽しみにしています。
-            </p>
-            <p>
-              <a href="https://smarthr.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/smarthr.png" alt="SmartHR" width="200"></a>
-              <a href="https://smarthr.jp/">株式会社SmartHR</a>社会保険・労働保険それ自体はすばらしい制度ですが、手続きの不便さ、煩雑さ、わかりづらさは否めません。私たちはこのアナログな領域を、テクノロジーと創意工夫でもっとシンプル、
-        かんたん、便利に変えていきます。 経営者は本業に、人事担当者は採用や制度づくりに集中でき、従業員はよりよい環境で安心して働くことができる社会を 私達は SmartHR で実現します。
-            </p>
-            <p>
-            <a href="https://medpeer.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/MedPeer_logo.png" alt="MedPeer" width="200"></a>
-              <a href="https://medpeer.co.jp/">メドピア</a>は現役医師が経営するヘルステックカンパニーです。国内医師の3人に1人が参加するコミュニティサイトで医師を支援すると共に、医師や管理栄養士のネットワークを活かして一般向けのヘルス
-        ケアサービスを展開しています。
-            </p>
-            <p>
-              <a href="https://esa.io/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/esa.png" alt="esa.io" width="200"></a>
-              <a href="https://esa.io/">esa</a> は、「情報を育てる」をコンセプトに作られた、自律的なチームのための情報共有サービスです。日報や議事録、仕様書やマニュアル、アイデアの共有など様々な種類の情報共有に適しており、Markdownで書ける使い勝手のよいインターフェイスで、チームのより良いコラボレーションをサポートします。
-            </p>
-            <p>
-              <a href="https://aktsk.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/aktsk_log_yoko.png" alt="Akatsuki inc." width="200"></a>
-            <a href="https://aktsk.jp/">株式会社アカツキ</a>は、心が求める活動がみんなの幸せの原動力となる世界「A Heart Driven World.」をビジョンとして掲げ、エンターテインメントをグローバルに展開しています。 アカツキエンジニアは「テクノロジーを活用して、人の感情をもっと豊かに動かし、ワクワクさせることができる」という信念のもとRubyなどのOSSを活用し、また積極的に貢献しています。
-            </p>
-            <p>
-                <a href="https://agile.esm.co.jp" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/set-baseE_Y.png" alt="Eiwa System Management" width="200"></a>
-                私たち<a href="https://agile.esm.co.jp">永和システムマネジメント</a>は Ruby や Ruby on Railsを活用したアプリケーションをアジャイルに構築できる日本有数のソフトウェア受託企業です。私たちはお客さまの投資を最大化すべく研鑽を続けています。また、Rubyコミュニティの支援も2006年から積極的に行っています。
-            </p>
-            <p>
-                <a href="https://www.lmi.ne.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/japan/lmi_logo.jpg" alt="Link and Motivation Inc." width="200"></a>
-                <a href="https://www.lmi.ne.jp/">リンクアンドモチベーション</a>は、世界初の「モチベーション」にフォーカスした企業です。これまでは組織人事コンサルティングや研修を提供する企業でしたが、これからは「すべての組織と個人の変革」に向けてテクノロジー企業に転換しようとしています。
-                この第二創業期を共に創って頂けるエンジニア・プロダクトマネジャー・デザイナーの方々を積極募集しています。
-            </p>
-            <p>
-                <a href="http://github.co.jp/" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/sendai/github.png" alt="GitHub" width="200"></a>
-                <a href="http://github.co.jp/">GitHub</a> はソフトウェアの共同開発をするための最高の環境を開発・提供しています。1000 万人以上のユーザーが友だち、同僚、クラスメートと、時にはまったく知らない人とでさえ、コードなどを共有して素晴らしいプロジェクトを行っています。
-            </p>
-            <p>
-                <a href="http://ruby-no-kai.org" style="float:right; margin:0 0 0 15px; border:0;"><img src="images/ruby-no-kai-long.png" alt="Nihon-Ruby-No-Kai" width="160"></a>
-                <a href="http://ruby-no-kai.org">日本Rubyの会</a>は、Rubyの利用者の支援とRuby(とRubyのライブラリ)開発者の支援を目的とした一般社団法人です。現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。
-            </p>
-            <hr/>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://esa.io/"><img src="images/japan/esa.png" alt="esa.io"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://esa.io/">esa</a> は、「情報を育てる」をコンセプトに作られた、自律的なチームのための情報共有サービスです。日報や議事録、仕様書やマニュアル、アイデアの共有など様々な種類の情報共有に適しており、Markdownで書ける使い勝手のよいインターフェイスで、チームのより良いコラボレーションをサポートします。
+                </div>
+            </div>
 
-            <h3>FAQ</h3>
-            <p><strong>参加費はどのくらいかかりますか？</strong> 無料です。申し込むときにはわくわくした気持ちだけあればいいです。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://aktsk.jp/"><img src="images/japan/aktsk_log_yoko.png" alt="Akatsuki inc."></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://aktsk.jp/">株式会社アカツキ</a>は、心が求める活動がみんなの幸せの原動力となる世界「A Heart Driven World.」をビジョンとして掲げ、エンターテインメントをグローバルに展開しています。 アカツキエンジニアは「テクノロジーを活用して、人の感情をもっと豊かに動かし、ワクワクさせることができる」という信念のもとRubyなどのOSSを活用し、また積極的に貢献しています。
+                </div>
+            </div>
 
-            <p><strong>どのような人が参加するのでしょうか？</strong> コンピュータを使ったことがある女性ならだれでも参加できます。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ご自分のノートパソコンをお持ちください。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://agile.esm.co.jp"><img src="images/set-baseE_Y.png" alt="Eiwa System Management"></a>
+                </div>
+                <div class="partner-description">
+                    私たち<a href="https://agile.esm.co.jp">永和システムマネジメント</a>は Ruby や Ruby on Railsを活用したアプリケーションをアジャイルに構築できる日本有数のソフトウェア受託企業です。私たちはお客さまの投資を最大化すべく研鑽を続けています。また、Rubyコミュニティの支援も2006年から積極的に行っています。
+                </div>
+            </div>
 
-            <p><strong>男性も参加できますか？</strong> 参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。申し込み人数が多い場合はお断りすることがあります。</p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="https://www.lmi.ne.jp/"><img src="images/japan/lmi_logo.jpg" alt="Link and Motivation Inc."></a>
+                </div>
+                <div class="partner-description">
+                    <a href="https://www.lmi.ne.jp/">リンクアンドモチベーション</a>は、世界初の「モチベーション」にフォーカスした企業です。これまでは組織人事コンサルティングや研修を提供する企業でしたが、これからは「すべての組織と個人の変革」に向けてテクノロジー企業に転換しようとしています。
+                    この第二創業期を共に創って頂けるエンジニア・プロダクトマネジャー・デザイナーの方々を積極募集しています。
+                </div>
+            </div>
 
-            <p><strong>プログラミングの経験があります。手伝うことはできますか？</strong>
-                はい！Rails Girls Sendai ではコーチとしてお手伝いしてくださる方を募集しています。<br>
-                <!--
-                現在募集準備中です。開始次第<a href="https://twitter.com/railsgirlssenda">Twitter</a>にてアナウンスいたします。
-                -->
-                お手伝いいただける方は<a href="https://railsgirls-sendai.doorkeeper.jp/events/91429">こちら</a>からお申し込みをお願いいたします。
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="http://github.co.jp/"><img src="images/sendai/github.png" alt="GitHub"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="http://github.co.jp/">GitHub</a> はソフトウェアの共同開発をするための最高の環境を開発・提供しています。1000 万人以上のユーザーが友だち、同僚、クラスメートと、時にはまったく知らない人とでさえ、コードなどを共有して素晴らしいプロジェクトを行っています。
+                </div>
+            </div>
 
-                <!--
-                たくさんのご協力のお申し出をいただきまして、ありがとうございました！ 現在、コーチの募集は終了しております。次回以降のRails Girlsのコーチにご興味をおもちの方は、オーガナイザーまでお声がけ下さい。
-                -->
-            </p>
+            <div class="partner">
+                <div class="partner-logo">
+                    <a href="http://ruby-no-kai.org"><img src="images/ruby-no-kai-long.png" alt="Nihon-Ruby-No-Kai" width="160"></a>
+                </div>
+                <div class="partner-description">
+                    <a href="http://ruby-no-kai.org">日本Rubyの会</a>は、Rubyの利用者の支援とRuby(とRubyのライブラリ)開発者の支援を目的とした一般社団法人です。現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。
+                </div>
+            </div>
         </div>
 
-        <hr />
-
         <!--  Update the team list       -->
-        <div class="coaches">
+        <div class="grid_12 coaches">
             <h2>Sendai team</h2>
 
-            <a href="https://twitter.com/thatblue_plus" class="grid_3">
-                <img src="https://ja.gravatar.com/userimage/38930100/5ac5e365e7b8fd9227e2d863fc57fb1e.jpg" class="coach" />
-                Yuki Konno<br/>organizer, designer<small>@thatblue_plus</small></a>
+            <div class="grid_3">
+                <a href="https://twitter.com/thatblue_plus">
+                    <img src="https://www.gravatar.com/avatar/4247d18c3d202c7f293cc81b1729e44b4dd6ca2b1b78f514d62a9232c554df78" class="coach-icon" />
+                    Yuki Konno<br/>organizer, designer<small>@thatblue_plus</small>
+                </a>
+            </div>
 
-            <a href="https://twitter.com/emorima" class="grid_3">
-                <img src="http://www.gravatar.com/avatar/5c72a69ad460347a01aa05de9915c3e0" class="coach" />
-                Mayumi Emori<br/>organizer, coach<small>@emorima</small></a>
+            <div class="grid_3">
+                <a href="https://twitter.com/emorima">
+                    <img src="http://www.gravatar.com/avatar/5c72a69ad460347a01aa05de9915c3e0" class="coach-icon" />
+                    Mayumi Emori<br/>organizer, coach<small>@emorima</small>
+                </a>
+            </div>
 
-            <a href="https://twitter.com/m_kaiya_" class="grid_3">
-                <img src="https://avatars3.githubusercontent.com/u/31876105?s=400&v=4" class="coach" />
-                Marie Kaiya<br/>staff<small>@m_kaiya_</small></a>
+            <div class="grid_3">
+                <a href="https://twitter.com/m_kaiya_">
+                    <img src="https://avatars3.githubusercontent.com/u/31876105?s=400&v=4" class="coach-icon" />
+                    Marie Kaiya<br/>staff<small>@m_kaiya_</small>
+                </a>
+            </div>
 
-            <a href="https://twitter.com/mikicosmos" class="grid_3">
-                <img src="images/sendai/staff/shimizu.jpg" class="coach" />
-                Miki Shimizu<br/>staff, coach<small>@mikicosmos</small></a>
+            <div class="grid_3">
+                <a href="https://twitter.com/mikicosmos">
+                    <img src="images/sendai/staff/shimizu.jpg" class="coach-icon" />
+                    Miki Shimizu<br/>staff, coach<small>@mikicosmos</small>
+                </a>
+            </div>
 
-            <a href="https://twitter.com/_waka_aya_" class="grid_3">
-                <img src="images/sendai/staff/waka.jpg" class="coach" />
-                Yoshimi Wakayanagi<br/>staff<small>@_waka_aya_</small></a>
+            <div class="grid_3">
+                <a href="https://twitter.com/_waka_aya_">
+                    <img src="images/sendai/staff/waka.jpg" class="coach-icon" />
+                    Yoshimi Wakayanagi<br/>staff<small>@_waka_aya_</small>
+                </a>
+            </div>
 
             <!-- coaches -->
-            <a href="https://github.com/rentalname" class="grid_3">
-                <img src="https://avatars0.githubusercontent.com/u/1182962" class="coach" />
-                Hideki Ashina<br/>coach</a>
+            <div class="grid_3">
+                <a href="https://github.com/rentalname">
+                    <img src="https://avatars0.githubusercontent.com/u/1182962" class="coach-icon" />
+                    Hideki Ashina<br/>coach
+                </a>
+            </div>
 
-            <a href="https://github.com/Akagire" class="grid_3">
-                <img src="https://ja.gravatar.com/userimage/139673054/b31ecb54bc61cfae548a1d9be307904e.jpg?size=200" class="coach" />
-                Takuya Eguchi<br/>coach<small>@akathea_</small></a>
+            <div class="grid_3">
+                <a href="https://github.com/Akagire">
+                    <img src="https://ja.gravatar.com/userimage/139673054/b31ecb54bc61cfae548a1d9be307904e.jpg?size=200" class="coach-icon" />
+                    Takuya Eguchi<br/>coach<small>@akathea_</small>
+                </a>
+            </div>
 
-            <a href="https://github.com/chicaco" class="grid_3">
-                <img src="https://avatars2.githubusercontent.com/u/1582945" class="coach" />
-                Chicaco<br/>coach<small>@crafter_gene</small>
-            </a>
+            <div class="grid_3">
+                <a href="https://github.com/chicaco">
+                    <img src="https://avatars2.githubusercontent.com/u/1582945" class="coach-icon" />
+                    Chicaco<br/>coach<small>@crafter_gene</small>
+                </a>
+            </div>
 
-            <a href="https://github.com/okuramasafumi" class="grid_3">
-                <img src="https://avatars3.githubusercontent.com/u/1012014?s=460&amp;v=4" class="coach">
-                Masafumi OKURA<br>coach<small>@okuramasafumi</small></a>
+            <div class="grid_3">
+                <a href="https://github.com/okuramasafumi">
+                    <img src="https://avatars3.githubusercontent.com/u/1012014?s=460&amp;v=4" class="coach-icon">
+                    Masafumi OKURA<br>coach<small>@okuramasafumi</small>
+                </a>
+            </div>
 
-            <a href="https://github.com/yuki3738" class="grid_3">
-                <img src="https://avatars3.githubusercontent.com/u/6305192" class="coach" />
-                Yuki Minamiya<br/>coach<small>@yuki3738</small>
-            </a>
+            <div class="grid_3">
+                <a href="https://github.com/yuki3738">
+                    <img src="https://avatars3.githubusercontent.com/u/6305192" class="coach-icon" />
+                    Yuki Minamiya<br/>coach<small>@yuki3738</small>
+                </a>
+            </div>
 
-            <a href="https://twitter.com/alinajaf" class="grid_3">
-                <img src="https://pbs.twimg.com/profile_images/1133904639609278464/eTFHmQ6d_400x400.png" class="coach" />
-                Najaf Ali<br/>coach<small>@alinajaf</small></a>
-
+            <div class="grid_3">
+                <a href="https://twitter.com/alinajaf">
+                    <img src="https://pbs.twimg.com/profile_images/1133904639609278464/eTFHmQ6d_400x400.png" class="coach-icon" />
+                    Najaf Ali<br/>coach<small>@alinajaf</small>
+                </a>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,250 @@
+html {
+    --1px: 0.0625rem;
+    --5px: 0.3125rem;
+    --10px: 0.625rem;
+    --16px: 1rem;
+    --17px: 1.0625rem;
+    --19px: 1.1875rem;
+    --20px: 1.25rem;
+    --21px: 1.3125rem;
+    --23px: 1.4375rem;
+    --24px: 1.5rem;
+    --25px: 1.5625rem;
+    --30px: 1.875rem;
+    --32px: 2rem;
+    --38px: 2.375rem;
+    --48px: 3rem;
+    --50px: 3.125rem;
+    --52px: 3.25rem;
+    --112px: 7rem;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.9;
+    font-size: initial;
+    overflow-wrap: break-word;
+    min-width: 100%;
+}
+
+h2 {
+    font-size: var(--23px);
+}
+
+h3 {
+    font-size: var(--21px);
+}
+
+h4 {
+    font-size: var(--19px);
+}
+
+h3, h4, h5, a {
+    line-height: 1.9;
+}
+
+p {
+    margin: 0 auto var(--24px) auto;
+}
+
+nav, footer {
+    line-height: var(--21px);
+}
+
+nav a, footer a {
+    line-height: 1.1;
+}
+
+nav a {
+    font-size: var(--16px);
+}
+
+nav a:after {
+    width: var(--10px);
+    height: var(--10px);
+    background-size: var(--10px);
+}
+
+header {
+    height: var(--25px);
+}
+
+.tk-expressway {
+    font-family: "expressway", sans-serif;
+}
+
+.container_12.page, .grid_12, .grid_6, .grid_5, .grid_4, .grid_3 {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.grid_12, .grid_6, .grid_5, .grid_4, .grid_3 {
+    margin: 0;
+}
+
+#promo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#promo .event-logo {
+    width: 390px;
+}
+
+#promo .event-logo img {
+    width: 100%;
+}
+
+#promo .overview {
+    width: 520px;
+}
+
+#promo h1 {
+    font-family: "expressway", 'Helvetica Neue', Helvetica ,sans-serif;
+    font-weight: bold;
+    color: #d3360b;
+    font-size: var(--52px);
+    margin-bottom: 20px;
+    line-height: 1.1;
+    text-indent: 0;
+}
+
+#promo h1 small {
+    font-size: var(--24px);
+}
+
+#promo p {
+    line-height: 1.9;
+    margin-bottom: var(--16px);
+    font-size: var(--19px);
+}
+
+.feature p {
+    padding: 10px;
+    font-size: var(--17px);
+}
+
+.feature:last-child {
+    flex-grow: 1;
+}
+
+.container_12 .grid_12 .event-description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.venue {
+    order: 2;
+}
+
+.venue h3 {
+    width: 100%;
+}
+
+.schedule {
+    order: 1;
+}
+
+.page h2 {
+    margin-top: 16px;
+}
+
+.side h3 {
+    margin-top: 24px;
+}
+
+.plan {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.2rem;
+}
+
+.plan .plan-time {
+    width: 7rem;
+    line-height: 2.3;
+}
+
+.plan h4.plan-overview {
+    margin-bottom: 0;
+    width: calc(100% - 7rem);
+}
+
+.plan .plan-descripion {
+    width: calc(100% - 7rem);
+    padding-left: 7rem;
+}
+
+.faq {
+    order: 3;
+}
+
+.partners-header, .partners-lead, .partners-lead-jp-annuals {
+    width: 100%;
+}
+
+h2.partners-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.partner {
+    width: 290px;
+    margin-bottom: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+a:has(img) {
+    border-bottom: none;
+}
+
+.partner-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.partner-logo img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    object-position: center;
+}
+
+.coaches h2 {
+    width: 100%;
+}
+
+.grid_12.coaches {
+    justify-content: flex-start;
+}
+
+.coaches .grid_3 {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: flex-start;
+    width: 235px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.coaches a {
+    width: 100%;
+    font-size: var(--16px);
+}
+
+.coaches img {
+    margin-right: 12px;
+    width: var(--48px);
+}
+
+.coach-icon {
+    border-radius: var(--50px);
+    height: var(--50px);
+}
