@@ -44,7 +44,7 @@ h3, h4, h5, a {
 }
 
 p {
-    margin: 0 auto var(--24px) auto;
+    margin: 0 0 var(--24px) 0;
 }
 
 nav, footer {
