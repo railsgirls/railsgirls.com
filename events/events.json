@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Cali, Colombia",
+      "writtenDate": "November 7th-8th, 2025",
+      "startDate": "2025-11-07",
+      "endDate": "2025-11-08",
+      "imageUrl": "/images/cali/rg-cali-logo.png",
+      "eventUrl": "/cali.html"
+    },
+    {
       "location": "Sapporo, Japan",
       "writtenDate": "October 17th-18th, 2025",
       "startDate": "2025-10-17",
