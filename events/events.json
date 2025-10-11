@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Tokyo, Japan",
+      "writtenDate": "February, 2026",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-14",
+      "imageUrl": "/images/railsgirls-sq.png",
+      "eventUrl": "/tokyo-2026-02-13.html"
+    },
+    {
       "location": "Cali, Colombia",
       "writtenDate": "November 7th-8th, 2025",
       "startDate": "2025-11-07",
