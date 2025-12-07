@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Nagoya, Japan",
+      "writtenDate": "March 27th - 28th, 2026",
+      "startDate": "2026-03-27",
+      "endDate": "2026-03-28",
+      "imageUrl": "/images/nagoya/rails_girls_nagoya_6th_logo.png",
+      "eventUrl": "/nagoya.html"
+    },
+    {
       "location": "Tokyo, Japan",
       "writtenDate": "February 13th - 14th, 2026",
       "startDate": "2026-02-13",

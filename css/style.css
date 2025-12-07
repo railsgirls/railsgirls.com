@@ -1015,6 +1015,12 @@ url('../images/separator.png') no-repeat center bottom;
   url('../images/separator.png') no-repeat center bottom;
 }
 
+.nagoya-7th#promo {
+  padding-left:460px;
+  background:url('../images/railsgirls-sq.png') no-repeat 0 10px,
+  url('../images/separator.png') no-repeat center bottom;
+}
+
 .nara#promo {
   padding-left:460px;
   background:url('../images/rg-nara.png') no-repeat 0 10px,
