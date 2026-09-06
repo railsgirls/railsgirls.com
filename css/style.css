@@ -1156,6 +1156,13 @@ url('../images/separator.png') no-repeat center bottom;
     background-size: 390px;
 }
 
+#promo.new.okinawa-3 {
+    padding-left: 420px;
+    background: url('../images/okinawa/okinawa-3rd.jpg') no-repeat -10px 35%,
+                url('../images/separator.png') no-repeat center bottom;
+    background-size: 400px, auto;
+}
+
 .nagasaki#promo {
   padding-left: 420px;
   background: url('../images/nagasaki/logo-1st.png') no-repeat left top;
