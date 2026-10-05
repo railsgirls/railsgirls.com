@@ -8,6 +8,7 @@
 
     <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
 
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="Rails Girls goes Okinawa, 8th & 9th January: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
     <meta name="author" content="Rails Girls">
     <link rel="shortcut icon" href="/favicon.png">
@@ -34,11 +35,15 @@
             display: flex;
             flex-wrap: wrap;
             gap: 24px 20px;
+            justify-content: center;
             width: 100%;
         }
         .okinawa-partners-list .partner {
             margin-bottom: 16px;
             width: 290px;
+        }
+        .okinawa-partners-list .partner:empty {
+            display: none;
         }
         .partner-logo {
             margin-bottom: 8px;
@@ -55,6 +60,48 @@
             object-fit: contain;
             object-position: center;
             width: auto;
+        }
+        .okinawa-schedule .day-schedule {
+            margin-bottom: 32px;
+        }
+        .okinawa-schedule .schedule-note {
+            display: block;
+            margin-bottom: 18px;
+        }
+        .okinawa-schedule .plan {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+        .okinawa-schedule .plan-time {
+            font-size: 15px;
+            line-height: 2.3;
+            width: 120px;
+        }
+        .okinawa-schedule .plan-overview {
+            color: #d3360b;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 0;
+            width: calc(100% - 120px);
+        }
+        .okinawa-schedule .plan-description {
+            color: #390c00;
+            font-size: 15px;
+            padding-left: 120px;
+            width: calc(100% - 120px);
+        }
+        @media (max-width: 743px) {
+            .okinawa-schedule .plan-time {
+                width: 112px;
+            }
+            .okinawa-schedule .plan-overview {
+                width: calc(100% - 112px);
+            }
+            .okinawa-schedule .plan-description {
+                padding-left: 0;
+                width: 100%;
+            }
         }
     </style>
 
@@ -74,10 +121,10 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="okinawa-3rd-page">
 
 <header>
-    <div class="container_12">
+    <div class="container_12" id="nav-for-pc">
         <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
         <nav>
             <a href="./events.html">Events</a>
@@ -87,7 +134,44 @@
             <a href="https://guides.railsgirls.com">Guides</a>
         </nav>
     </div>
+
+    <div class="container_12" id="nav-for-mobile">
+        <a id="logo-mobile" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+
+        <div id="toggle-nav-header">
+            <button id="toggle-nav-btn" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <nav id="toggle-nav">
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="https://railsgirls.tumblr.com/">Blog</a>
+            <a href="https://guides.railsgirls.com">Guides</a>
+        </nav>
+    </div>
 </header>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var toggleButton = document.getElementById('toggle-nav-btn');
+        var toggleMenu = document.getElementById('toggle-nav');
+
+        if (!toggleButton || !toggleMenu) {
+            return;
+        }
+
+        toggleButton.addEventListener('click', function () {
+            var isOpen = toggleMenu.style.display === 'block';
+            toggleMenu.style.display = isOpen ? 'none' : 'block';
+            toggleButton.setAttribute('aria-expanded', String(!isOpen));
+        });
+    });
+</script>
 
 
 
@@ -127,8 +211,8 @@ Steps to show on site
                 2日間のワークショップは無料です。お気軽にご参加ください！
             </p>
 
-            <p><strong>参加お申し込みは準備中です。</strong><br/>
-                募集開始のアナウンスは本ページにて行います。</p>
+            <p><strong>参加お申し込みを開始しました。</strong><br/>
+                <a href="https://railsgirls-okinawa.doorkeeper.jp/events/199305" target="_blank">こちら</a>からご応募ください。</p>
 
             <!--  Update the sharing texts.-->
 
@@ -166,85 +250,77 @@ Steps to show on site
         <hr />
 
         <!--  Update the texts! -->
-        <div class="grid_6 alpha">
-            <h2>1月8日 金曜日</h2>
-            <table id="schedule">
-                <tbody>
-                <tr>
-                    <th>19:00 - 21:00</th>
-                    <td>
-                        <h4>インストール・デイ</h4>
+        <div class="grid_6 alpha okinawa-schedule">
+            <div class="day-schedule">
+                <h2>2027年1月8日 金曜日</h2>
+                <strong class="schedule-note">タイムテーブルは変更の可能性があります。</strong>
+                <div class="plan">
+                    <div class="plan-time">19:00 - 21:00</div>
+                    <h4 class="plan-overview">インストール・デイ</h4>
+                    <div class="plan-description">
                         まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
                         それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+                    </div>
+                </div>
+            </div>
 
             <hr />
 
-            <h2>1月9日 土曜日</h2>
-
-            <table id="schedule">
-                <tbody>
-                <tr>
-                    <th>10:00 - 11:00</th>
-                    <td>
-                        <h4>レジストレーション</h4>
+            <div class="day-schedule">
+                <h2>2027年1月9日 土曜日</h2>
+                <strong class="schedule-note">タイムテーブルは変更の可能性があります。</strong>
+                <div class="plan">
+                    <div class="plan-time">10:00 - 11:00</div>
+                    <h4 class="plan-overview">レジストレーション</h4>
+                    <div class="plan-description">
                         金曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
                         金曜日にすべてうまく行ったひとは参加しなくてもOKです。10:30ごろからのんびりきてください。
-                    </td>
-                </tr>
+                    </div>
+                </div>
 
-                <tr>
-                    <th>11:00 - 11:30</th>
-                    <td>
-                        <h4>開会</h4>
+                <div class="plan">
+                    <div class="plan-time">11:00 - 11:30</div>
+                    <h4 class="plan-overview">開会</h4>
+                    <div class="plan-description">
                         一日の流れの説明。オーガナイザーから一言。
-                    </td>
-                </tr>
+                    </div>
+                </div>
 
-
-                <tr>
-                    <th>11:30 - 13:00</th>
-                    <td>
-                        <h4>ワークショップ</h4>
+                <div class="plan">
+                    <div class="plan-time">11:30 - 13:00</div>
+                    <h4 class="plan-overview">ワークショップ</h4>
+                    <div class="plan-description">
                         はじめてのウェブアプリにトライしてみよう！
-                    </td>
-                </tr>
+                    </div>
+                </div>
 
+                <div class="plan">
+                    <div class="plan-time">13:00 - 14:00</div>
+                    <h4 class="plan-overview">ランチ</h4>
+                </div>
 
-                <tr>
-                    <th>13:00 - 14:00</th>
-                    <td><h4>ランチ</h4></td>
-                </tr>
+                <div class="plan">
+                    <div class="plan-time">14:00 - 14:30</div>
+                    <h4 class="plan-overview">ライトニングトークス</h4>
+                </div>
 
-                <tr>
-                    <th>14:00- 14:30</th>
-                    <td>
-                        <h4>ライトニングトークス</h4>
-                    </td>
-                </tr>
-
-                <tr>
-                    <th>14:30 - 18:00</th>
-                    <td>
-                        <h4>ワークショップ</h4>
+                <div class="plan">
+                    <div class="plan-time">14:30 - 18:00</div>
+                    <h4 class="plan-overview">ワークショップ</h4>
+                    <div class="plan-description">
                         自分流のウェブアプリに変えてみよう！
-                    </td>
-                </tr>
+                    </div>
+                </div>
 
-                <tr>
-                    <th>18:00 - </th>
-                    <td>
-                        <h4>アフターパーティー & コーチによるライトニングトークス</h4>
+                <div class="plan">
+                    <div class="plan-time">18:00 -</div>
+                    <h4 class="plan-overview">アフターパーティー & コーチによるライトニングトークス</h4>
+                    <div class="plan-description">
                         参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
                         RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--  These also, just update :) -->
