@@ -15,51 +15,30 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/japan.css">
+    <link rel="stylesheet" href="./css/jp-responsive.css">
     <style>
-        .coach {
-            border-radius: 50px;
-        }
-        .coaches .coach-placeholder {
-            font-size: 16px;
-            line-height: 1.5;
-            margin-bottom: 30px;
-        }
-        .partners {
-            clear: both;
-        }
-        .partners-header,
-        .partners-lead {
-            width: 100%;
-        }
         .okinawa-partners-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 24px 20px;
+            gap: 44px 34px;
             justify-content: center;
-            width: 100%;
-        }
-        .okinawa-partners-list .partner {
-            margin-bottom: 16px;
-            width: 290px;
         }
         .okinawa-partners-list .partner:empty {
             display: none;
         }
-        .partner-logo {
-            margin-bottom: 8px;
+        .okinawa-feature-list {
+            justify-content: center;
+        }
+        .okinawa-feature-list .feature {
+            flex-grow: 0;
+        }
+        #promo {
+            margin-bottom: 48px;
+        }
+        #promo .event-logo {
             text-align: center;
-            width: 100%;
         }
-        .partner-logo a {
-            border: 0;
-        }
-        .partner-logo img {
-            aspect-ratio: 16 / 9;
-            height: auto;
-            max-width: 260px;
-            object-fit: contain;
-            object-position: center;
-            width: auto;
+        #promo .event-logo img {
+            max-width: 390px;
         }
         .application-link {
             display: inline-block;
@@ -67,54 +46,35 @@
             font-weight: bold;
             margin-top: 4px;
         }
-        .okinawa-schedule .day-schedule {
-            margin-bottom: 32px;
+        .day-schedule {
+            margin-bottom: 40px;
         }
-        .okinawa-schedule .schedule-note {
-            display: block;
-            margin-bottom: 18px;
+        .faq h3 {
+            width: 100%;
         }
-        .okinawa-schedule .plan {
-            display: flex;
-            flex-wrap: wrap;
-            margin-bottom: 18px;
-        }
-        .okinawa-schedule .plan-time {
-            font-size: 15px;
-            line-height: 2.3;
-            width: 120px;
-        }
-        .okinawa-schedule .plan-overview {
-            color: #d3360b;
-            font-size: 18px;
-            line-height: 1.5;
-            margin-bottom: 0;
-            width: calc(100% - 120px);
-        }
-        .okinawa-schedule .plan-description {
-            color: #390c00;
-            font-size: 15px;
-            padding-left: 120px;
-            width: calc(100% - 120px);
+        @media (max-width: 1059px) {
+            .okinawa-feature-list {
+                display: block;
+            }
+            .okinawa-feature-list .feature {
+                width: 100%;
+            }
+            .okinawa-partners-list .partner {
+                width: 325px;
+            }
         }
         @media (max-width: 743px) {
-            .okinawa-schedule .plan-time {
-                width: 112px;
+            #promo .event-logo img {
+                max-width: 430px;
             }
-            .okinawa-schedule .plan-overview {
-                width: calc(100% - 112px);
-            }
-            .okinawa-schedule .plan-description {
-                padding-left: 0;
+            .okinawa-partners-list .partner {
                 width: 100%;
             }
         }
     </style>
 
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="./assets/js/jp-responsive.js" defer></script>
 
     <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
     <style type="text/css">.tk-expressway{font-family:"expressway",sans-serif;}</style>
@@ -127,7 +87,7 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body class="okinawa-3rd-page">
+<body>
 
 <header>
     <div class="container_12" id="nav-for-pc">
@@ -162,24 +122,6 @@
     </div>
 </header>
 
-<script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function () {
-        var toggleButton = document.getElementById('toggle-nav-btn');
-        var toggleMenu = document.getElementById('toggle-nav');
-
-        if (!toggleButton || !toggleMenu) {
-            return;
-        }
-
-        toggleButton.addEventListener('click', function () {
-            var isOpen = toggleMenu.style.display === 'block';
-            toggleMenu.style.display = isOpen ? 'none' : 'block';
-            toggleButton.setAttribute('aria-expanded', String(!isOpen));
-        });
-    });
-</script>
-
-
 
 <!--   How to change the picture & header for site
 In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
@@ -207,43 +149,65 @@ Steps to show on site
 
 <div id="container" class="container_12 page clearfix">
     <div class="grid_12 omega alpha">
-        <div id="promo" class="new okinawa-3">
-            <h1>Rails Girls Okinawa 3rd
-                <small>8th, 9th January 2027</small>
-            </h1>
-            <p>こんにちは世界！</p>
-            <p>第3回 Rails Girls Okinawa が開催されます！<br/>
-                Ruby on Railsのすてきな世界を私達と一緒に体験しましょう！
-                2日間のワークショップは無料です。お気軽にご参加ください！
-            </p>
+        <div id="promo" class="grid_12">
+            <div class="event-logo">
+                <img src="images/okinawa/okinawa-3rd.jpg" alt="Rails Girls Okinawa 3rd">
+            </div>
+            <div class="overview">
+                <h1>Rails Girls Okinawa 3rd
+                    <small>8th, 9th January 2027</small>
+                </h1>
+                <p>こんにちは世界！</p>
+                <p>第3回 Rails Girls Okinawa が開催されます！<br/>
+                    Ruby on Railsのすてきな世界を私達と一緒に体験しましょう！
+                    2日間のワークショップは無料です。お気軽にご参加ください！
+                </p>
 
-            <p><strong>参加お申し込みを開始しました。</strong><br/>
-                <a class="application-link" href="https://railsgirls-okinawa.doorkeeper.jp/events/199305" target="_blank">こちらからご応募ください</a></p>
+                <p><strong>参加お申し込みを開始しました。</strong><br/>
+                    <a class="application-link" href="https://railsgirls-okinawa.doorkeeper.jp/events/199305" target="_blank">こちらからご応募ください</a></p>
 
-            <!--  Update the sharing texts.-->
+                <!--  Update the sharing texts.-->
 
-            <div id="share">
-                <div>
-                    <div style="margin:0 15px 0 0;">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://railsgirls.com/okinawa-3rd.html" data-text="Rails Girls Okinawa 3rd, 8th & 9th January 2027 - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
-                        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                <div id="share">
+                    <div>
+                        <div style="margin:0 15px 0 0;">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://railsgirls.com/okinawa-3rd.html" data-text="Rails Girls Okinawa 3rd, 8th & 9th January 2027 - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                        </div>
+
+                        <div id="fb-root"></div>
+                        <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+                        <fb:like href="https://railsgirls.com/okinawa-3rd.html" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
                     </div>
-
-                    <div id="fb-root"></div>
-                    <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
-                    <fb:like href="https://railsgirls.com/okinawa-3rd.html" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+                    <p><!-- margin workaround --></p>
                 </div>
-                <p><!-- margin workaround --></p>
             </div>
         </div>
 
         <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
 
-        <div class="grid_4 alpha feature">
-            <p><strong>概要</strong><br/>コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。</p>
-        </div>
-        <div class="grid_4 feature">
-            <p><strong>必要なもの</strong><br/>自分のノートパソコン、やる気とキラリと光るイマジネーションを持ってきてください！</p>
+        <div class="grid_12 okinawa-feature-list">
+            <div class="grid_4 feature">
+                <p>
+                    <strong>概要</strong><br/>
+                    コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。
+                </p>
+            </div>
+            <div class="grid_4 feature">
+                <p>
+                    <strong>必要なもの</strong>
+                    <br/>・ノートパソコン
+                    <br/>・楽しみたい気持ちとほんのちょっとの好奇心
+                </p>
+            </div>
+            <div class="grid_4 omega feature">
+                <p>
+                    <strong>不要なもの</strong>
+                    <br/>・プログラミングの知識や経験
+                    <br/>・「私が参加して良いだろうか」という遠慮
+                    <br/>・プログラミングって難しそう・・・という先入観
+                </p>
+            </div>
         </div>
 
         <!--
@@ -256,29 +220,38 @@ Steps to show on site
         <hr />
 
         <!--  Update the texts! -->
-        <div class="grid_6 alpha okinawa-schedule">
+        <div class="grid_12 event-description" id="event-description">
+            <div class="grid_5 side venue">
+                <h3>インフォメーション</h3>
+                <p>
+                    <strong>会場:</strong>
+                    SAKURA innobase Okinawa<br>
+                    沖縄県那覇市松山1-2-13 長谷工那覇ビル1F<br>
+                    <a href="https://www.sakura.ad.jp/innobase/">地図</a>
+                </p>
+            </div>
+
+        <div class="schedule grid_6" id="event-schedule">
             <div class="day-schedule">
                 <h2>2027年1月8日 金曜日</h2>
-                <strong class="schedule-note">タイムテーブルは変更の可能性があります。</strong>
+                <strong>タイムテーブルは変更の可能性があります。</strong>
                 <div class="plan">
                     <div class="plan-time">19:00 - 21:00</div>
                     <h4 class="plan-overview">インストール・デイ</h4>
-                    <div class="plan-description">
+                    <div class="plan-descripion">
                         まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
                         それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
                     </div>
                 </div>
             </div>
 
-            <hr />
-
             <div class="day-schedule">
                 <h2>2027年1月9日 土曜日</h2>
-                <strong class="schedule-note">タイムテーブルは変更の可能性があります。</strong>
+                <strong>タイムテーブルは変更の可能性があります。</strong>
                 <div class="plan">
                     <div class="plan-time">10:00 - 11:00</div>
                     <h4 class="plan-overview">レジストレーション</h4>
-                    <div class="plan-description">
+                    <div class="plan-descripion">
                         金曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
                         金曜日にすべてうまく行ったひとは参加しなくてもOKです。10:30ごろからのんびりきてください。
                     </div>
@@ -287,7 +260,7 @@ Steps to show on site
                 <div class="plan">
                     <div class="plan-time">11:00 - 11:30</div>
                     <h4 class="plan-overview">開会</h4>
-                    <div class="plan-description">
+                    <div class="plan-descripion">
                         一日の流れの説明。オーガナイザーから一言。
                     </div>
                 </div>
@@ -295,7 +268,7 @@ Steps to show on site
                 <div class="plan">
                     <div class="plan-time">11:30 - 13:00</div>
                     <h4 class="plan-overview">ワークショップ</h4>
-                    <div class="plan-description">
+                    <div class="plan-descripion">
                         はじめてのウェブアプリにトライしてみよう！
                     </div>
                 </div>
@@ -313,15 +286,15 @@ Steps to show on site
                 <div class="plan">
                     <div class="plan-time">14:30 - 18:00</div>
                     <h4 class="plan-overview">ワークショップ</h4>
-                    <div class="plan-description">
+                    <div class="plan-descripion">
                         自分流のウェブアプリに変えてみよう！
                     </div>
                 </div>
 
                 <div class="plan">
                     <div class="plan-time">18:00 -</div>
-                    <h4 class="plan-overview">アフターパーティー & コーチによるライトニングトークス</h4>
-                    <div class="plan-description">
+                    <h4 class="plan-overview">アフターパーティー & コーチLT</h4>
+                    <div class="plan-descripion">
                         参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
                         RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
                     </div>
@@ -331,28 +304,31 @@ Steps to show on site
 
         <!--  These also, just update :) -->
 
-        <div class="grid_5 push_1 omega side">
-            <h3>インフォメーション</h3>
-            <p>
-                <strong>会場:</strong>
-                SAKURA innobase Okinawa<br>
-                沖縄県那覇市松山1-2-13 長谷工那覇ビル1F<br>
-                <a href="https://www.sakura.ad.jp/innobase/">地図</a>
-            </p>
-            <h3>FAQ</h3>
-            <p><strong>参加費はどのくらいかかりますか？</strong><br/>無料です。申し込むときにはわくわくした気持ちだけあればいいです。</p>
+            <div class="grid_5 side faq">
+                <h3>FAQ</h3>
+                <p>
+                    <strong>参加費はどのくらいかかりますか？</strong><br/>
+                    無料です。申し込むときにはわくわくした気持ちだけあればいいです。
+                </p>
 
-            <p><strong>どのような人が参加するのでしょうか？</strong><br/>コンピュータを使ったことがある女性ならだれでも参加できます。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ご自分のノートパソコンをお持ちください。</p>
+                <p>
+                    <strong>どのような人が参加するのでしょうか？</strong><br/>
+                    コンピュータを使ったことがある女性ならだれでも参加できます。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ご自分のノートパソコンをお持ちください。
+                </p>
 
-            <p><strong>男性も参加できますか？</strong><br/>参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。申し込み人数が多い場合はお断りすることがあります。</p>
+                <p>
+                    <strong>男性も参加できますか？</strong><br/>
+                    参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。申し込み人数が多い場合はお断りすることがあります。
+                </p>
 
-            <!--
-            <p><strong>プログラミングの経験があります。手伝うことはできますか？</strong>
+                <!--
+                <p><strong>プログラミングの経験があります。手伝うことはできますか？</strong>
 
-                はい！Rails Girls Okinawa ではコーチとしてお手伝いしてくださる方を募集する予定です。
-                <br>準備が整い次第このサイトや<a href="https://twitter.com/railsgirls_oka">X(Twitter)</a>などでお知らせいたします。
-            </p>
-            -->
+                    はい！Rails Girls Okinawa ではコーチとしてお手伝いしてくださる方を募集する予定です。
+                    <br>準備が整い次第このサイトや<a href="https://twitter.com/railsgirls_oka">X(Twitter)</a>などでお知らせいたします。
+                </p>
+                -->
+            </div>
         </div>
 
         <hr />
@@ -463,33 +439,43 @@ Steps to show on site
         <hr />
 
         <!--  Update the team list       -->
-        <div class="coaches">
+        <div class="grid_12 coaches">
             <h2>Okinawa team</h2>
 
-            <a href="https://github.com/koikeasuka" class="grid_3" target="_blank">
-                <img src="https://github.com/koikeasuka.png" class="coach" />
-                ikeko<br/>Organizer
-            </a>
+            <div class="grid_3">
+                <a href="https://github.com/koikeasuka" target="_blank">
+                    <img src="https://github.com/koikeasuka.png" class="coach-icon" />
+                    ikeko<br/>Organizer
+                </a>
+            </div>
 
-            <a href="https://twitter.com/emorima" class="grid_3" target="_blank">
-                <img src="http://www.gravatar.com/avatar/5c72a69ad460347a01aa05de9915c3e0" class="coach" />
-                Mayumi Emori<br/>Organizer<small>@emorima</small>
-            </a>
+            <div class="grid_3">
+                <a href="https://twitter.com/emorima" target="_blank">
+                    <img src="http://www.gravatar.com/avatar/5c72a69ad460347a01aa05de9915c3e0" class="coach-icon" />
+                    Mayumi Emori<br/>Organizer<small>@emorima</small>
+                </a>
+            </div>
 
-            <a href="https://twitter.com/zanakax" class="grid_3" target="_blank">
-                <img src="https://pbs.twimg.com/profile_images/1605591531288932353/bUNgWNk5_400x400.jpg" class="coach" />
-                zaanaka<br/>Organizer<small>@zanakax</small>
-            </a>
+            <div class="grid_3">
+                <a href="https://twitter.com/zanakax" target="_blank">
+                    <img src="https://pbs.twimg.com/profile_images/1605591531288932353/bUNgWNk5_400x400.jpg" class="coach-icon" />
+                    zaanaka<br/>Organizer<small>@zanakax</small>
+                </a>
+            </div>
 
-            <a href="https://github.com/YukiTsunemori/" class="grid_3" target="_blank">
-                <img src="https://github.com/YukiTsunemori.png" class="coach" />
-                Yuki Tsunemori<br/>Organizer
-            </a>
+            <div class="grid_3">
+                <a href="https://github.com/YukiTsunemori/" target="_blank">
+                    <img src="https://github.com/YukiTsunemori.png" class="coach-icon" />
+                    Yuki Tsunemori<br/>Organizer
+                </a>
+            </div>
 
-            <a href="https://github.com/nohanakamatsuke" class="grid_3" target="_blank">
-                <img src="https://github.com/nohanakamatsuke.png" class="coach" />
-                nohana<br/>Organizer
-            </a>
+            <div class="grid_3">
+                <a href="https://github.com/nohanakamatsuke" target="_blank">
+                    <img src="https://github.com/nohanakamatsuke.png" class="coach-icon" />
+                    nohana<br/>Organizer
+                </a>
+            </div>
         </div>
     </div>
 </div>
