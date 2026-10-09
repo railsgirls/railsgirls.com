@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "location": "Okinawa, Japan",
+      "writtenDate": "January 8th - 9th, 2027",
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-09",
+      "imageUrl": "/images/okinawa/okinawa-3rd.jpg",
+      "eventUrl": "/okinawa-3rd.html"
+    },
+    {
       "location": "Nagoya, Japan",
       "writtenDate": "March 27th - 28th, 2026",
       "startDate": "2026-03-27",

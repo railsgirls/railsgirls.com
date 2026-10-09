@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="ja" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+
+    <!--  Add your city name, dates and year.  -->
+    <title>Okinawa, 8th, 9th January 2027</title>
+
+    <!--  Write a metatext. This is what will show on the Facebook page and for instance search engines. -->
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Rails Girls goes Okinawa, 8th & 9th January: join the two-day crash-course to the exciting world of building web applications with Ruby on Rails.">
+    <meta name="author" content="Rails Girls">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/japan.css">
+    <link rel="stylesheet" href="./css/jp-responsive.css">
+    <style>
+        .okinawa-partners-list {
+            gap: 44px 34px;
+            justify-content: center;
+        }
+        .okinawa-partners-list .partner:empty {
+            display: none;
+        }
+        .okinawa-feature-list {
+            justify-content: center;
+        }
+        .okinawa-feature-list .feature {
+            flex-grow: 0;
+        }
+        #promo {
+            margin-bottom: 48px;
+        }
+        #promo .event-logo {
+            text-align: center;
+        }
+        #promo .event-logo img {
+            max-width: 390px;
+        }
+        .application-link {
+            display: inline-block;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 4px;
+        }
+        .day-schedule {
+            margin-bottom: 40px;
+        }
+        .faq h3 {
+            width: 100%;
+        }
+        @media (max-width: 1059px) {
+            .okinawa-feature-list {
+                display: block;
+            }
+            .okinawa-feature-list .feature {
+                width: 100%;
+            }
+            .okinawa-partners-list .partner {
+                width: 325px;
+            }
+        }
+        @media (max-width: 743px) {
+            #promo .event-logo img {
+                max-width: 430px;
+            }
+            .okinawa-partners-list .partner {
+                width: 100%;
+            }
+        }
+    </style>
+
+
+    <script type="text/javascript" src="./assets/js/jp-responsive.js" defer></script>
+
+    <script type="text/javascript" src="//use.typekit.net/nbs6fzt.js"></script>
+    <style type="text/css">.tk-expressway{font-family:"expressway",sans-serif;}</style>
+    <link rel="stylesheet" href="http://use.typekit.net/c/40007d/1w;expressway,2,NGc:F:i4,NGp:F:i7,N2r:F:n4,NGl:F:n6,NGn:F:n7/d?3bb2a6e53c9684ffdc9a9bf4185b2a627d237ba59c3d5cc9b5ca399d4ed47062bf0126571ca50ab6a338fba2a5f5d00c1e707fc7babc384ad6a0c38afab55f0eec246f6e8865cae9a7de5b7f99b6e6416be44691be6c64e8185a40b588748e875349df9f242c84f72c241e27aac6fc5e1b1c52889002ee483c56">
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <meta property="og:url" content="https://railsgirls.com/okinawa-3rd.html" />
+    <meta property="og:image" content="https://railsgirls.com/images/okinawa/okinawa-3rd.jpg"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header>
+    <div class="container_12" id="nav-for-pc">
+        <a id="logo" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+        <nav>
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="https://railsgirls.tumblr.com/">Blog</a>
+            <a href="https://guides.railsgirls.com">Guides</a>
+        </nav>
+    </div>
+
+    <div class="container_12" id="nav-for-mobile">
+        <a id="logo-mobile" href="/"><img src="images/railsgirls-logo.png" alt="Rails Girls" /></a>
+
+        <div id="toggle-nav-header">
+            <button id="toggle-nav-btn" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <nav id="toggle-nav">
+            <a href="./events.html">Events</a>
+            <a href="./materials.html">Materials</a>
+            <a href="./press.html">Press</a>
+            <a href="https://railsgirls.tumblr.com/">Blog</a>
+            <a href="https://guides.railsgirls.com">Guides</a>
+        </nav>
+    </div>
+</header>
+
+
+<!--   How to change the picture & header for site
+In the assets folder there is something called rg-header.psd. Be sure to download the fonts also. Name the file rg-yourcityname-header.png and your city picture rg-yourcityname.png. Add them to /images.
+
+Steps to show on site
+1. Go to style.css
+2. Add two lines, always replacing 'yourcityname' with your actual city name.
+
+    .yourcityname#promo {
+      padding-left:340px;
+      background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
+                     url('../images/separator.png') no-repeat center bottom;
+    }
+
+    .yourcityname#promo h1 {
+      background:url('../images/rg-yourcityname-header.png') no-repeat left top;
+    }
+
+    It will take a while before the changes show, so don't panic!
+
+-->
+
+
+<!--  Change the header text. You can include a local hello or something else that brings context. Remember to mention the workshop is free. Remember to change to wufoo form link and dates. -->
+
+<div id="container" class="container_12 page clearfix">
+    <div class="grid_12 omega alpha">
+        <div id="promo" class="grid_12">
+            <div class="event-logo">
+                <img src="images/okinawa/okinawa-3rd.jpg" alt="Rails Girls Okinawa 3rd">
+            </div>
+            <div class="overview">
+                <h1>Rails Girls Okinawa 3rd
+                    <small>8th, 9th January 2027</small>
+                </h1>
+                <p>こんにちは世界！</p>
+                <p>第3回 Rails Girls Okinawa が開催されます！<br/>
+                    Ruby on Railsのすてきな世界を私達と一緒に体験しましょう！
+                    2日間のワークショップは無料です。お気軽にご参加ください！
+                </p>
+
+                <p><strong>参加お申し込みを開始しました。</strong><br/>
+                    <a class="application-link" href="https://railsgirls-okinawa.doorkeeper.jp/events/199305" target="_blank">こちらからご応募ください</a></p>
+
+                <!--  Update the sharing texts.-->
+
+                <div id="share">
+                    <div>
+                        <div style="margin:0 15px 0 0;">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://railsgirls.com/okinawa-3rd.html" data-text="Rails Girls Okinawa 3rd, 8th & 9th January 2027 - apply now!" data-count="horizontal" data-via="railsgirls" data-related="railsgirls">Tweet</a>
+                            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                        </div>
+
+                        <div id="fb-root"></div>
+                        <script src="http://connect.facebook.net/en_US/all.js#appId=156007477805811&amp;xfbml=1"></script>
+                        <fb:like href="https://railsgirls.com/okinawa-3rd.html" layout="button_count" send="true" width="160" show_faces="false" font=""></fb:like>
+                    </div>
+                    <p><!-- margin workaround --></p>
+                </div>
+            </div>
+        </div>
+
+        <!--  You can use here your own contact e-mail, or we can send you the e-mails from contact@! -->
+
+        <div class="grid_12 okinawa-feature-list">
+            <div class="grid_4 feature">
+                <p>
+                    <strong>概要</strong><br/>
+                    コーチに教えてもらいながらプログラムを設計して、プロトタイプを作り、コーディングします。
+                </p>
+            </div>
+            <div class="grid_4 feature">
+                <p>
+                    <strong>必要なもの</strong>
+                    <br/>・ノートパソコン
+                    <br/>・楽しみたい気持ちとほんのちょっとの好奇心
+                </p>
+            </div>
+            <div class="grid_4 omega feature">
+                <p>
+                    <strong>不要なもの</strong>
+                    <br/>・プログラミングの知識や経験
+                    <br/>・「私が参加して良いだろうか」という遠慮
+                    <br/>・プログラミングって難しそう・・・という先入観
+                </p>
+            </div>
+        </div>
+
+        <!--
+        <div class="grid_4 omega feature">
+            <p><strong>コーチ募集については準備中です。</strong><br/>
+                準備が整い次第このサイトや<a href="https://twitter.com/railsgirls_oka">X(Twitter)</a>などでお知らせいたします。</p>
+        </div>
+        -->
+
+        <hr />
+
+        <!--  Update the texts! -->
+        <div class="grid_12 event-description" id="event-description">
+            <div class="grid_5 side venue">
+                <h3>インフォメーション</h3>
+                <p>
+                    <strong>会場:</strong>
+                    SAKURA innobase Okinawa<br>
+                    沖縄県那覇市松山1-2-13 長谷工那覇ビル1F<br>
+                    <a href="https://www.sakura.ad.jp/innobase/">地図</a>
+                </p>
+            </div>
+
+        <div class="schedule grid_6" id="event-schedule">
+            <div class="day-schedule">
+                <h2>2027年1月8日 金曜日</h2>
+                <strong>タイムテーブルは変更の可能性があります。</strong>
+                <div class="plan">
+                    <div class="plan-time">19:00 - 21:00</div>
+                    <h4 class="plan-overview">インストール・デイ</h4>
+                    <div class="plan-descripion">
+                        まずは、参加者同士、お互いに知り合いになりましょう。ご自分のノートパソコンをお持ちください。
+                        それぞれのパソコンにRubyとRailsをインストールし、Rubyプログラミングの最初の一歩をコーチとともに始めてみましょう。
+                    </div>
+                </div>
+            </div>
+
+            <div class="day-schedule">
+                <h2>2027年1月9日 土曜日</h2>
+                <strong>タイムテーブルは変更の可能性があります。</strong>
+                <div class="plan">
+                    <div class="plan-time">10:00 - 11:00</div>
+                    <h4 class="plan-overview">レジストレーション</h4>
+                    <div class="plan-descripion">
+                        金曜日にRuby on Railsのインストールトラブルがあれば、朝のうちに解決しておきましょう。
+                        金曜日にすべてうまく行ったひとは参加しなくてもOKです。10:30ごろからのんびりきてください。
+                    </div>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-time">11:00 - 11:30</div>
+                    <h4 class="plan-overview">開会</h4>
+                    <div class="plan-descripion">
+                        一日の流れの説明。オーガナイザーから一言。
+                    </div>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-time">11:30 - 13:00</div>
+                    <h4 class="plan-overview">ワークショップ</h4>
+                    <div class="plan-descripion">
+                        はじめてのウェブアプリにトライしてみよう！
+                    </div>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-time">13:00 - 14:00</div>
+                    <h4 class="plan-overview">ランチ</h4>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-time">14:00 - 14:30</div>
+                    <h4 class="plan-overview">ライトニングトークス</h4>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-time">14:30 - 18:00</div>
+                    <h4 class="plan-overview">ワークショップ</h4>
+                    <div class="plan-descripion">
+                        自分流のウェブアプリに変えてみよう！
+                    </div>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-time">18:00 -</div>
+                    <h4 class="plan-overview">アフターパーティー & コーチLT</h4>
+                    <div class="plan-descripion">
+                        参加者、コーチ、スタッフによるパーティです。ワークショップで聞き損ねたことや
+                        RubyやRailsのこと、ステップアップの方法など、コーチに気軽に質問してみましょう。<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  These also, just update :) -->
+
+            <div class="grid_5 side faq">
+                <h3>FAQ</h3>
+                <p>
+                    <strong>参加費はどのくらいかかりますか？</strong><br/>
+                    無料です。申し込むときにはわくわくした気持ちだけあればいいです。
+                </p>
+
+                <p>
+                    <strong>どのような人が参加するのでしょうか？</strong><br/>
+                    コンピュータを使ったことがある女性ならだれでも参加できます。これまでに開催されたRails Girlsイベントには様々な年齢の女性がやってきました。ご自分のノートパソコンをお持ちください。
+                </p>
+
+                <p>
+                    <strong>男性も参加できますか？</strong><br/>
+                    参加できます。ただし、必ずウェブアプリを作りたがっている女性と一緒に参加してください。申し込み人数が多い場合はお断りすることがあります。
+                </p>
+
+                <!--
+                <p><strong>プログラミングの経験があります。手伝うことはできますか？</strong>
+
+                    はい！Rails Girls Okinawa ではコーチとしてお手伝いしてくださる方を募集する予定です。
+                    <br>準備が整い次第このサイトや<a href="https://twitter.com/railsgirls_oka">X(Twitter)</a>などでお知らせいたします。
+                </p>
+                -->
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="grid_12 partners">
+            <h2 class="partners-header">パートナー</h2>
+            <div class="partners-lead">
+                <p>
+                    Rails Girls Okinawa 3rd は以下のすばらしいパートナーとの共同開催です。
+                </p>
+            </div>
+
+            <div class="grid_12 okinawa-partners-list">
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://www.sakura.ad.jp/" target="_blank"><img src="images/okinawa/sakura-internet-logo.png?v=30th-anniversary" alt="さくらインターネット株式会社"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://www.sakura.ad.jp/" target="_blank">さくらインターネット株式会社</a>は、クラウドやGPUサーバー、レンタルサーバーまで幅広いITインフラを提供する国産クラウドIT企業です。沖縄拠点「<a href="https://www.sakura.ad.jp/innobase/" target="_blank">SAKURA innobase Okinawa</a>」などの地域基盤やガバメントクラウド認定を通じ、安全で信頼できるインフラでビジネスの成長を支援します。
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://www.tokyodev.com/" target="_blank"><img src="images/japan/tokyodev_logo_horizontal_black_high_res.png" alt="TokyoDev株式会社"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://www.tokyodev.com/" target="_blank">TokyoDev株式会社</a>は、オンライン求人掲示板やグローバルなメンバーが集うコミュニティを通じて、国内外に住むソフトウェア開発者の日本でのキャリアスタート・キャリアアップをサポートしています。
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://www.sonicgarden.jp/" target="_blank"><img src="images/sg_logo.png" alt="株式会社ソニックガーデン"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://www.sonicgarden.jp/" target="_blank">株式会社ソニックガーデン</a>は、「いいコードと、生きていく」を理念に掲げるソフトウェア開発会社です。Railsを技術的な主軸とした「納品のない受託開発」というスタイルで、お客様と伴走しながらいいソフトウェアをつくるべく、日々コードを書いています。プログラミングは、学べば学ぶほど奥が深い、一生をかけて取り組むに値する仕事です。新しい一歩を踏み出す皆さんの挑戦が、楽しく、実りあるものになることを願っています。
+                    </div>
+                </div>
+
+                <!--
+                SUZURI support for Rails Girls Okinawa 3rd is not confirmed yet.
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="http://pepabo.com/" target="_blank"><img src="images/japan/suzuri.png" alt="GMOペパボ株式会社"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="http://pepabo.com/" target="_blank">GMOペパボ株式会社</a>は「もっとおもしろくできる」を企業理念に、自分だけのオリジナルグッズを手軽に作成・販売できる「<a href="https://suzuri.jp/" target="_blank">SUZURI</a>」や 国内最大のハンドメイドマーケット「<a href="https://minne.com/" target="_blank">minne</a>」など様々なサービスを提供しています。RubyやRailsを採用した開発環境で「いるだけで成長できる環境」をコンセプトにエンジニアの人材育成やコミュニティへの支援を積極的に行っています。
+                    </div>
+                </div>
+                -->
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://www.pixiv.co.jp/" target="_blank"><img src="images/japan/pixiv.png" alt="ピクシブ株式会社"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://www.pixiv.co.jp/" target="_blank">ピクシブ株式会社</a>は、世の中のクリエイターの方々に対して「創作活動やファンとのコミュニケーションを楽しんでもらいたい」「創作活動を支え、創作文化を刺激していきたい」、そんな想いで、世界中の人々の創作活動を支える事業を展開しています。
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://careers.bm-sms.co.jp/engineer" target="_blank"><img src="images/japan/SMS.png" alt="株式会社エス・エム・エス"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://careers.bm-sms.co.jp/engineer" target="_blank">株式会社エス・エム・エス</a>は「高齢社会に適した情報インフラを構築することで人々の生活の質を向上し、社会に貢献し続ける」ことをミッションに掲げ、「高齢社会×情報」を切り口に40以上のサービスを展開しています。
+                        高齢社会に求められる領域を医療・介護・ヘルスケア・シニアライフと捉え、高齢社会で働く方や事業者の方、高齢者ご自身やそのご家族がイキイキと生活できるサポートを提供することで豊かな社会の実現を目指しています。
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://jobs.st.inc/engineer" target="_blank"><img src="images/japan/STORES.png" alt="STORES株式会社"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://jobs.st.inc/engineer" target="_blank">STORES株式会社</a>は、「Just for Fun」をミッションに、こだわりや情熱、たのしみによって駆動される経済の発展に寄与することを目指しています。
+                        個人事業者から中規模企業まで店舗を運営する方々にむけて、ネットショップ開設・POSレジ・キャッシュレス決済・オンライン予約システム・店舗アプリ作成など、お店のデジタル化を総合的に支援するサービスを展開しています。
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://hello-world.smarthr.co.jp/" target="_blank"><img src="images/japan/SmartHR_Logo.png" alt="株式会社SmartHR"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://hello-world.smarthr.co.jp/" target="_blank">SmartHR</a>は、人事・労務の業務効率化と、データ活用によるタレントマネジメントや組織のパフォーマンス向上を実現するクラウド人事労務ソフトです。
+                        労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会の実現を目指し、働くすべての人の生産性向上を後押しします。私たちは、歴史に残る模範的なソフトウェアをつくる仲間を探しています。フルリモート勤務可能！
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <div class="partner-logo">
+                        <a href="https://bootcamp.fjord.jp" target="_blank"><img src="images/japan/FjordBootCamp_RGB.png" alt="株式会社ロッカ"></a>
+                    </div>
+                    <div class="partner-description">
+                        <a href="https://bootcamp.fjord.jp" target="_blank">フィヨルドブートキャンプ</a>は、未経験からでも現場の即戦力になれるプログラミングスクールです。
+                        現役エンジニアや技術コミュニティで実績のあるメンターの指導のもと、プログラマーを目指すカリキュラムに取り組めます。開発現場と同じ進め方で取り組むチーム開発や、ポートフォリオとなるWebアプリ制作を通じて、業界で求められる力を磨けます。受講生・卒業生・現役プログラマーが交流し、学び続けられるコミュニティの場も提供しています。
+                    </div>
+                </div>
+
+                <div class="partner">
+                    <!-- レイアウトの関係で、partnerクラスのdivが3の倍数の個数になるようにしてください。 -->
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <!--  Update the team list       -->
+        <div class="grid_12 coaches">
+            <h2>Okinawa team</h2>
+
+            <div class="grid_3">
+                <a href="https://github.com/koikeasuka" target="_blank">
+                    <img src="https://github.com/koikeasuka.png" class="coach-icon" />
+                    ikeko<br/>Organizer
+                </a>
+            </div>
+
+            <div class="grid_3">
+                <a href="https://twitter.com/emorima" target="_blank">
+                    <img src="http://www.gravatar.com/avatar/5c72a69ad460347a01aa05de9915c3e0" class="coach-icon" />
+                    Mayumi Emori<br/>Organizer<small>@emorima</small>
+                </a>
+            </div>
+
+            <div class="grid_3">
+                <a href="https://twitter.com/zanakax" target="_blank">
+                    <img src="https://pbs.twimg.com/profile_images/1605591531288932353/bUNgWNk5_400x400.jpg" class="coach-icon" />
+                    zaanaka<br/>Organizer<small>@zanakax</small>
+                </a>
+            </div>
+
+            <div class="grid_3">
+                <a href="https://github.com/YukiTsunemori/" target="_blank">
+                    <img src="https://github.com/YukiTsunemori.png" class="coach-icon" />
+                    Yuki Tsunemori<br/>Organizer
+                </a>
+            </div>
+
+            <div class="grid_3">
+                <a href="https://github.com/nohanakamatsuke" target="_blank">
+                    <img src="https://github.com/nohanakamatsuke.png" class="coach-icon" />
+                    nohana<br/>Organizer
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /content -->
+
+<footer>
+    <p>2010-2026, Rails Girls. <a href="./press.html">Contact us</a> or follow us on <a href="https://twitter.com/railsgirls">X(Twitter)</a> and <a href="https://www.facebook.com/railsgirls">Facebook</a></p>
+    <p class="slogan">Get excited and make things!</p>
+</footer>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19631067-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>
