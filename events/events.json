@@ -9,6 +9,14 @@
       "eventUrl": "/okinawa-3rd.html"
     },
     {
+      "location": "Pune, India",
+      "writtenDate": "October 10th, 2026",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "imageUrl": "/images/railsgirls.png",
+      "eventUrl": "/pune.html"
+    },
+    {
       "location": "Nagoya, Japan",
       "writtenDate": "March 27th - 28th, 2026",
       "startDate": "2026-03-27",
@@ -310,7 +318,7 @@
       "startDate": "2025-02-22",
       "endDate": "2025-02-22",
       "imageUrl": "/images/railsgirls.png",
-      "eventUrl": "/pune.html"
+      "eventUrl": "/pune2025.html"
     },
     {
       "location": "Nagoya, Japan",
