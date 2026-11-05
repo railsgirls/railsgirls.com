@@ -17,6 +17,14 @@
       "eventUrl": "/pune.html"
     },
     {
+      "location": "San Francisco, CA USA",
+      "writtenDate": "November 12th, 2026",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "imageUrl": "/images/rg-sanfrancisco.png",
+      "eventUrl": "/sanfrancisco-2026-11-12.html"
+    },
+    {
       "location": "Nagoya, Japan",
       "writtenDate": "March 27th - 28th, 2026",
       "startDate": "2026-03-27",
@@ -94,7 +102,7 @@
       "startDate": "2024-03-30",
       "endDate": "2024-03-30",
       "imageUrl": "/images/railsgirls-sq.png",
-      "eventUrl": "/nagoya.html"
+      "eventUrl": "/nagoya_6th.html"
     },
     {
       "location": "Tokyo, Japan",
@@ -326,7 +334,7 @@
       "startDate": "2020-01-31",
       "endDate": "2020-02-01",
       "imageUrl": "/images/rg-nagoya-5th.png",
-      "eventUrl": "/nagoya.html"
+      "eventUrl": "/nagoya_5th.html"
     },
     {
       "location": "Tokyo, Japan",

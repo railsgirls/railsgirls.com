@@ -4795,3 +4795,11 @@ url('../images/separator.png') no-repeat center bottom;
   background: url('../images/spb/rg_v5.jpg') no-repeat 0 10px,
               url('../images/separator.png') no-repeat center bottom;
 }
+
+/* San Francisco 2026 */
+
+.sanfrancisco-2026-11-12#promo {
+  padding-left:340px;
+  background:url('../images/rg-sanfrancisco.png') no-repeat 0 10px,
+                 url('../images/separator.png') no-repeat center bottom;
+}
